@@ -1,0 +1,25 @@
+/* DuiEscapeButtonPanelStyle : DuiSceneWindowStyle */
+DuiEscapeButtonPanelStyle {
+
+    minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
+    maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
+    preferred-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
+
+    vertical-align: top;
+    horizontal-align: right;
+    offset: 0 0;
+
+    button-animation-length: 500;
+}
+
+DuiButtonIconStyle#BackButton {
+    reactive-margin-left: $MARGIN_XLARGE;
+    reactive-margin-right: $MARGIN_XLARGE;
+    reactive-margin-bottom: $MARGIN_XLARGE;
+}                              
+
+DuiButtonIconStyle#CloseButton {
+    reactive-margin-left: $MARGIN_XLARGE;
+    reactive-margin-right: $MARGIN_XLARGE;
+    reactive-margin-bottom: $MARGIN_XLARGE;
+}

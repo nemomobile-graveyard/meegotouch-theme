@@ -1,0 +1,5 @@
+/* DuiWidgetZoomAnimationStyle : DuiAbstractWidgetAnimationStyle */
+DuiWidgetZoomOutAnimationStyle {
+    duration: 1000;
+    easingCurve: linear;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="icon-m-common-keyboard-layer"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<g id="icon-m-common-keyboard">
+	<rect style="fill:none;" width="64" height="64"/>
+	<path style="fill:#333333;" d="M60,15H5c-1.77,0-2,2-2,2v30c0,2.085,2,1.9,2,1.9L60,49c0,0,1.994,0.085,2-2V17
+		C62,14.915,60,15,60,15z M42.968,19.9L49,20v6h-6.032V19.9z M44,29v6h-6v-6.1L44,29z M33.968,19.9L40,20v6h-6.032V19.9z M35,29v6
+		h-6v-6.1L35,29z M24.968,19.9L31,20v6h-6.032V19.9z M26,29v6h-6v-6.1L26,29z M15.968,19.9L22,20v6h-6.032V19.9z M6.968,19.9L13,20
+		v6H6.968V19.9z M10.968,28.9L17,29v6h-6.032V28.9z M50,44H14v-6.1L50,38V44z M53,35h-6v-6.1l6,0.1V35z M58,26h-6.032v-6.1L58,20V26
+		z"/>
+</g>
+</svg>

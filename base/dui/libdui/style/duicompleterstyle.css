@@ -1,0 +1,52 @@
+@const COMPLETERLABELMARGIN: $MARGIN_XLARGE;
+@const COMPLETERBUTTONMARGIN: $MARGIN_DOUBLE;
+
+/* DuiCompleterStyle : DuiWidgetStyle */
+DuiCompleterStyle {
+    background-image: "duicompleter-background" 10px 10px 10px 10px;
+    /*background-opacity: 0.8;*/
+    highlight-color: #FF0000;
+    height: 88;
+    display-border: $MARGIN_DOUBLE;
+    label-margin: $COMPLETERLABELMARGIN;
+    button-margin: $COMPLETERBUTTONMARGIN;
+    button-width: 100;
+    y-position-offset: 8;
+
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#DuiCompleterTotalButton {
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: $COMPLETERBUTTONMARGIN;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    minimum-size: $SIZE_ONE $SIZE_BUTTON;
+    maximum-size: 100% 6.4mm;
+}
+#DuiCompleterCandidatesLabel {
+    font: $FONT_LARGE;
+    margin-left: $COMPLETERLABELMARGIN;
+    margin-top: 2.6mm;
+    margin-right: $COMPLETERLABELMARGIN;
+    margin-bottom: 3.6mm;
+
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+
+    color: #000000;
+}

@@ -1,0 +1,42 @@
+
+DuiButtonSwitchStyle {
+    background-image: "duibutton-switch-background" 15px 15px 15px 15px;
+    // thumb is the sliding part, should slide accross the whole area
+    thumb-image: "duibutton-switch-thumb" 15px 15px 15px 15px; 
+    // slider is behind thumb, but above background
+    slider-image: "duibutton-switch-colorstripe" 0 0 0 0;
+    // slider-mask defines the shape of the slider-image
+    slider-mask: "duibutton-switch-mask" 15px 15px 15px 15px; 
+
+    minimum-size: 9.6mm 4.8mm;
+    maximum-size: 9.6mm 4.8mm;
+    preferred-size: 9.6mm 4.8mm;
+}
+
+DuiButtonSwitchStyle:pressed {
+    background-image: "duibutton-switch-background" 15px 15px 15px 15px;
+    // thumb is the sliding part, should slide accross the whole area
+    thumb-image: "duibutton-switch-thumb" 15px 15px 15px 15px; 
+    // slider is behind thumb, but above background
+    slider-image: "duibutton-switch-colorstripe" 0 0 0 0;
+    // slider-mask defines the shape of the slider-image
+    slider-mask: "duibutton-switch-mask" 15px 15px 15px 15px; 
+
+    minimum-size: 9.6mm 4.8mm;
+    maximum-size: 9.6mm 4.8mm;
+    preferred-size: 9.6mm 4.8mm;
+}
+
+DuiButtonSwitchStyle:selected {
+    background-image: "duibutton-switch-background" 15px 15px 15px 15px;
+    // thumb is the sliding part, should slide accross the whole area
+    thumb-image: "duibutton-switch-thumb" 15px 15px 15px 15px; 
+    // slider is behind thumb, but above background
+    slider-image: "duibutton-switch-colorstripe" 0 0 0 0;
+    // slider-mask defines the shape of the slider-image
+    slider-mask: "duibutton-switch-mask" 15px 15px 15px 15px; 
+
+    minimum-size: 9.6mm 4.8mm;
+    maximum-size: 9.6mm 4.8mm;
+    preferred-size: 9.6mm 4.8mm;
+}

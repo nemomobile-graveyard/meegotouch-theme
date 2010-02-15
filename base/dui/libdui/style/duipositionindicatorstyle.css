@@ -1,0 +1,17 @@
+/* DuiPositionIndicatorStyle : DuiWidgetStyle */
+DuiPositionIndicatorStyle {
+    show-animation: "DuiWidgetFadeInAnimation";
+    hide-animation: "DuiWidgetFadeOutAnimation";
+
+    on-pixmap: "duipositionindicator-indicator" 0.6mm 0.6mm;
+    off-pixmap: "duipositionindicator-background" 0.6mm 0.6mm;
+    pixmap-distance: 0.6mm;
+    min-indicator-dots: 1;
+    hide-timeout: 1000;
+
+    /* inherited from DuiWidgetStyle */
+    preferred-size: 0.6mm 0.6mm;
+    minimum-size: 0.4mm 0.4mm;
+    maximum-size: 10000 10000;
+}
+

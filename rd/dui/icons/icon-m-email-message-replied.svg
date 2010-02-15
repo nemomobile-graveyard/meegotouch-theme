@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="icon-m-email-message-replied-layer"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<g id="icon-m-email-message-replied">
+	<rect style="fill:none;" width="64" height="64"/>
+	<path style="fill:#333333;" d="M57.602,8.256H22.985c-3.526,0-6.419,2.852-6.419,6.305v0.283l23.72,10.223L64,14.844v-0.283
+		C64,11.107,61.103,8.256,57.602,8.256z M40.286,31.217l-0.714-0.295l-23.006-9.896v11.428c3.184-0.977,7.208-1.854,11.433-1.861
+		c6.796-0.064,14.293,2.508,18.397,10.697h11.205c3.501,0,6.398-2.822,6.398-6.311V21.025l-23.008,9.896L40.286,31.217z"/>
+	<path style="fill:#333333;" d="M9.221,41.119l-2.294-6.021L0,49.67l14.788,6.072l-2.446-6.426
+		c3.983-2.219,22.177-10.768,30.967,0.025C37.503,29.42,13.808,38.844,9.221,41.119z"/>
+</g>
+</svg>

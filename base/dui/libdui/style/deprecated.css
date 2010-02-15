@@ -1,0 +1,24 @@
+
+DuiSceneWindowAnimatorStyle:popuplist {
+    transition-in-type: "fade";
+    transition-out-type: "fade";
+}
+
+DuiSceneWindowAnimatorStyle:messagebox {
+    transition-in-type: "fade";
+    transition-out-type: "fade";
+}
+
+DuiSceneWindowAnimatorStyle:information {
+    transition-in-type: "move.left";
+    transition-out-type: "move.right";
+}
+
+DuiSceneWindowAnimatorStyle:event {
+    transition-in-type: "move.right";
+    transition-out-type: "move.left";
+}
+
+
+
+

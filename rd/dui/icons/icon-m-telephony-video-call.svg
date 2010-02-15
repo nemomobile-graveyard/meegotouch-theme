@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 13.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px"
+	 height="64px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+	<g id="icon-m-telephony-video-call">
+		<rect style="fill:none;" width="64" height="64"/>
+		<path style="fill:#333333;" d="M32,51.955c14.347,0,25.978-11.629,25.978-25.978S46.347,0,32,0
+			C17.652,0,6.022,11.629,6.022,25.978S17.652,51.955,32,51.955z M32,15.98c5.516,0,10,4.483,10,9.995c0,5.513-4.484,10-10,10
+			c-5.513,0-10-4.487-10-10C22,20.464,26.487,15.98,32,15.98z"/>
+		<path style="fill:#333333;" d="M50.711,50.765c-0.029-0.019-0.057-0.036-0.085-0.052c-5.188,3.916-11.64,6.242-18.626,6.242
+			s-13.438-2.326-18.626-6.242c-0.001,0-0.002,0-0.003,0.002L5.241,64h53.569L50.711,50.765z"/>
+	</g>
+</svg>

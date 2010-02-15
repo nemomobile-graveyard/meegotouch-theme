@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="icon-m-telephony-call-received-layer"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<g id="icon-m-telephony-call-received">
+	<rect style="fill:none;" width="64" height="64"/>
+	<path style="fill:#333333;" d="M58,33.945H40.465V4.719H40.41c-0.088-1.021-0.94-1.832-1.982-1.832H25.461
+		c-1.042,0-1.896,0.811-1.983,1.832h-0.007V4.79c-0.001,0.032-0.01,0.063-0.01,0.097v2.285c0,0.035,0.009,0.07,0.011,0.105
+		l0.009,26.668H6c-1.1,0-1.364,0.636-0.586,1.414L30.585,60.53c0.778,0.778,2.05,0.778,2.829,0l25.172-25.171
+		C59.363,34.581,59.1,33.945,58,33.945z"/>
+</g>
+</svg>

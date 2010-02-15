@@ -1,0 +1,14 @@
+Source: duitheme
+Section: x11
+Priority: extra
+Maintainer: Tomas Junnonen <tomas.junnonen@nokia.com>
+Build-Depends: debhelper (>= 5), libqt4-dev
+Standards-Version: 3.7.2
+
+Package: duitheme
+Architecture: all
+Depends: ui-fonts
+Conflicts: fmbe-pulse-data
+Replaces: fmbe-pulse-data
+Description: Themes required by any DUI library based application
+ Contains common, green & spin themes required by any dui based application 

@@ -1,0 +1,24 @@
+/* DuiMessageBoxStyle : DuiDialogStyle */
+DuiMessageBoxStyle {
+
+    show-animation: "DuiWidgetFadeInAnimation";
+    hide-animation: "DuiWidgetFadeOutAnimation";
+
+    /* inherited from DuiDialogStyle */
+    dialog-vertical-alignment: center;
+
+    dialog-top-margin: 8mm;
+    dialog-bottom-margin: 8mm;
+
+    /* inherited from DuiWidgetStyle */
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+DuiMessageBoxStyle.Landscape {
+    /* inherited from DuiDialogStyle */
+    dialog-minimum-size: 75% 1mm;
+    dialog-preferred-size: -1 -1;
+}

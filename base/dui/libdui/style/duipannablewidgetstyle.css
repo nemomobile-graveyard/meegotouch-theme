@@ -1,0 +1,15 @@
+/* DuiPannableWidgetStyle : DuiWidgetStyle */
+DuiPannableWidgetStyle {
+    pan-threshold: 15.0;
+    pan-click-threshold: 0.2;
+    pointer-spring-k: 0.25;
+    friction-c: 0.6;
+    sliding-friction-c: 0.04;
+    border-spring-k: 0.09;
+    border-friction-c: 0.45;
+
+    /* inherited from DuiWidgetStyle */
+    preferred-size: 1 1;
+    minimum-size: 0 0;
+    maximum-size: 10000 10000;
+}

@@ -1,0 +1,6 @@
+/* DuiWidgetFadeAnimationStyle : DuiAbstractWidgetAnimationStyle */
+DuiWidgetFadeOutAnimationStyle {
+    duration: 300;
+    easing-curve: outsine;
+    opacity: 0.0;
+}

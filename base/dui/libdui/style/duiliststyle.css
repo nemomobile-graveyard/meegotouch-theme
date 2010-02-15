@@ -1,0 +1,11 @@
+/* DuiListStyle : DuiWidgetStyle */
+DuiListStyle {
+    group-header-object-name: "";
+
+    /* inherited from DuiWidgetStyle */
+    margin-left: 12;
+    margin-top: 12;
+    margin-right: 12;
+    margin-bottom: 12;
+}
+

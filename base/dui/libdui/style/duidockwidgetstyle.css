@@ -1,0 +1,15 @@
+DuiDockWidgetStyle {
+    /* inherited from DuiWidgetStyle */
+    background-image: "duidockwidget-background";
+    background-opacity: 0.5;
+    background-color: #ff0000;
+
+    /* inherited from DuiSceneWindowStyle */
+    horizontal-align: left;
+    vertical-align: bottom;
+
+    minimum-size: 100% $HEIGHT_NAVIGATIONBAR;
+    preferred-size: 100% $HEIGHT_NAVIGATIONBAR;
+    maximum-size: 100% $HEIGHT_NAVIGATIONBAR;
+}
+

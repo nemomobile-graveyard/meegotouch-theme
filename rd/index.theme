@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=X-DUI-Metatheme
+Name=RD Theme
+Encoding=UTF-8
+
+[X-DUI-Metatheme]
+X-Inherits=base
+#X-Icon = "THEME_ICON"
+X-Visible=true

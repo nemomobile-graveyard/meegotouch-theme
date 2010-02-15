@@ -1,0 +1,87 @@
+/* DuiButtonStyle : DuiWidgetStyle */
+DuiButtonStyle {
+    font: $FONT_DEFAULT;
+
+    background-image: "duibutton-background" 10px 10px 10px 10px;
+    background-color: $COLOR_BACKGROUND;
+    text-color: $COLOR_FOREGROUND;
+
+    icon-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
+    icon-align: left;
+    vertical-text-align: vcenter;
+    horizontal-text-align: hcenter;
+
+    margin-left: $MARGIN_DEFAULT;
+    margin-top: $MARGIN_DEFAULT;
+    margin-right: $MARGIN_DEFAULT;
+    margin-bottom: $MARGIN_DEFAULT;
+
+    text-margin-left: $MARGIN_XLARGE;
+    text-margin-top: 0;
+    text-margin-right: $MARGIN_XLARGE;
+    text-margin-bottom: 0;
+
+    preferred-size: -1 $SIZE_BUTTON;
+    minimum-size: $SIZE_BUTTON $SIZE_BUTTON;
+    maximum-size: 100% $SIZE_BUTTON;
+
+    /* Name of the feedback effects to be used when the button is pressed.
+       Defaults to standard "press" & "release" feedback, but different
+       buttons might have different effects depending on its size, shape and function.
+
+       Examples:
+        - "press-small" For a button considered to be small by the
+          application designer. Therefore he wants a stronger
+          haptic feedback for it to make up for its reduced
+          visual feedback.
+        - "press-call" and "press-end" for the "call" and "end" buttons in a
+          call UI. The designer wants then to also to feel differently from
+          other buttons.
+
+       Set it to an empty value if you don't want your button to give any
+       off-screen feedback (e.g., auditory, tactile, vibrational, etc) at all.
+    */
+    press-feedback: press;
+    release-feedback: release;
+}
+
+#ButtonLabel {
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    
+    preferred-size: -1 -1;
+    minimum-size: 0 0;
+    maximum-size: 100% 100%;
+}
+
+DuiButtonStyle:pressed {
+    background-image: "duibutton-background-pressed" 10px 10px 10px 10px;
+    background-color: $COLOR_SELECT;
+    text-color: $COLOR_INVERTED_FOREGROUND;
+}
+
+DuiButtonStyle:selected {
+    background-image: "duibutton-background-selected" 10px 10px 10px 10px;
+    background-color: $COLOR_SELECT;
+    text-color: $COLOR_INVERTED_FOREGROUND;
+}
+
+DuiButtonStyle[toggle] {
+/* This looks the same as regular button */
+}
+
+DuiButtonStyle[toggle]:pressed {
+/* This looks the same as regular button */
+}
+
+DuiButtonStyle[toggle]:selected {
+/* This looks the same as regular button */
+}
+

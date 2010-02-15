@@ -1,0 +1,73 @@
+/* BASE - this is the master file that includes everything else.. */
+
+@import "colors.css";
+@import "fonts.css";
+@import "margins.css";
+@import "sizes.css";
+
+/* "master style" that most things inherit from */
+@import "duiwidgetstyle.css";
+
+/* past "best before"-date.. */
+@import "deprecated.css";
+
+/* default style attribute values for common components */
+/* widget styles are imported in alphabetical order */
+
+@import "duiabstractlayoutpolicy.css";
+@import "duiapplethandlestyle.css";
+@import "duiappletinventorystyle.css";
+@import "duiapplicationpagestyle.css";
+@import "duibasiclayoutanimationstyle.css";
+@import "duibuttonstyle.css";
+@import "duibuttoniconstyle.css";
+@import "duibuttonswitchstyle.css";
+@import "duicheckboxstyle.css";
+@import "duicontainerstyle.css";
+@import "duicomboboxstyle.css";
+@import "duiescapebuttonpanelstyle.css";
+@import "duiextendingbackgroundstyle.css";
+@import "duiflowlayoutcontainerstyle.css";
+@import "duiimagewidgetstyle.css";
+@import "duiinfobannerstyle.css";
+@import "duilabelstyle.css";
+@import "duiliststyle.css";
+@import "duimashupcanvasstyle.css";
+@import "duiapplicationmenustyle.css";
+@import "duimodalscenewindowstyle.css";
+@import "duinotificationstyle.css";
+@import "duiobjectmenustyle.css";
+@import "duipannablewidgetstyle.css";
+@import "duipopupliststyle.css";
+@import "duipositionindicatorstyle.css";
+@import "duiprogressindicatorstyle.css";
+@import "duidialogstyle.css";
+@import "duidockwidgetstyle.css";
+@import "duimessageboxstyle.css";
+@import "duinavigationbarstyle.css";
+@import "duioverlaystyle.css";
+@import "duiscenelayereffectstyle.css";
+@import "duiscenelayereffectdimstyle.css";
+@import "duiscenewindowanimatorstyle.css";
+@import "duiscenewindowstyle.css";
+@import "duiseparatorstyle.css";
+@import "duisliderstyle.css";
+@import "duispinnerstyle.css";
+@import "duitexteditstyle.css";
+@import "duicompleterstyle.css";
+@import "duitimestyle.css";
+@import "duitoolbarstyle.css";
+@import "duianimation.css";
+@import "duidevicestyle.css";
+@import "duiwidgetfadeinanimationstyle.css";
+@import "duiwidgetfadeoutanimationstyle.css";
+@import "duiwidgetslideinanimationstyle.css";
+@import "duiwidgetslideoutanimationstyle.css";
+@import "duiwidgetzoominanimationstyle.css";
+@import "duiwidgetzoomoutanimationstyle.css";
+@import "duicontentitemstyle.css";
+@import "duisettingslanguagesettingsfactorystyle.css";
+@import "duipageswitchanimation.css";
+@import "duibasicorientationanimationstyle.css";
+@import "duipreeditstyle.css";
+@import "duiextensionareastyle.css";

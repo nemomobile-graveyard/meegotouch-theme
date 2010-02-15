@@ -1,0 +1,6 @@
+/* DuiWidgetSlidedeInAnimationStyle : DuiAbstractWidgetAnimationStyle */
+DuiWidgetSlideInAnimationStyle {
+    duration: 300;
+    easing-curve: insine;
+    from: "top";
+}

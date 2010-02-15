@@ -1,0 +1,57 @@
+/* DuiComboBoxStyle : DuiWidgetStyle */
+DuiComboBoxStyle {
+    background-image : "duibutton-background" 10px 10px 10px 10px;
+    background-color: $COLOR_BACKGROUND;
+    background-opacity: 1.0;
+
+    /* inherited from DuiWidgetStyle */
+    margin-left: $MARGIN_DEFAULT;
+    margin-right: $MARGIN_DEFAULT;
+    margin-top: $MARGIN_DEFAULT;
+    margin-bottom: $MARGIN_DEFAULT;
+
+    preferred-size: -1 -1;
+    minimum-size: $SIZE_BUTTON $SIZE_BUTTON;
+    maximum-size: 100% 100%;
+}
+
+DuiComboBoxStyle:pressed {
+    background-image : "duibutton-background-pressed" 10px 10px 10px 10px;
+    background-color: $COLOR_SELECT;
+    background-opacity: 1.0;
+}
+
+#DuiComboBoxIcon {
+    /* inherited from DuiWidgetStyle */
+    preferred-size: $SIZE_ICON $SIZE_ICON;
+    minimum-size: $SIZE_ICON $SIZE_ICON;
+    maximum-size: $SIZE_ICON $SIZE_ICON;
+
+    margin-left:   $MARGIN_MEDIUM;
+    margin-right:  $MARGIN_MEDIUM;
+    margin-top:    $MARGIN_MEDIUM;
+    margin-bottom: $MARGIN_MEDIUM;
+}
+
+#DuiComboBoxTitle {
+    font: $FONT_DEFAULT;
+
+    /* inherited from DuiWidgetStyle */
+    margin-left:   $MARGIN_MEDIUM;
+    margin-right:  $MARGIN_MEDIUM;
+    margin-top:    $MARGIN_XSMALL;
+    margin-bottom: $MARGIN_XSMALL;
+}
+
+#DuiComboBoxSubtitle {
+    font: $FONT_SMALL;
+    color: $COLOR_SECONDARY_FOREGROUND;
+
+    /* inherited from DuiWidgetStyle */
+    margin-left:   $MARGIN_MEDIUM;
+    margin-right:  $MARGIN_DEFAULT;
+    margin-top:    $MARGIN_XSMALL;
+    margin-bottom: $MARGIN_XSMALL;
+}
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="icon-m-music-video-now-playing-layer"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="65px" height="65px"
+	 viewBox="0 0 65 65" style="enable-background:new 0 0 65 65;" xml:space="preserve">
+<g id="icon-m-music-video-now-playing">
+	<polygon style="fill:none;" points="64.609,65.125 0,65 0,1 64.609,1.125 	"/>
+	<g>
+		<path style="fill:#333333;" d="M21.267,18.734c0-1.1,0.782-1.554,1.737-1.009l25.021,14.283c0.956,0.545,0.956,1.438,0,1.982
+			L23.003,48.274c-0.955,0.545-1.737,0.091-1.737-1.009V18.734z"/>
+	</g>
+	<path style="fill:#333333;" d="M64.305,33.063c0-17.672-14.326-31.998-32-31.998c-17.673,0-32,14.326-32,31.998
+		s14.327,31.998,32,31.998c3.11,0,6.114-0.451,8.958-1.279v-5.253c-2.805,0.989-5.818,1.532-8.958,1.532
+		c-14.888,0-27-12.111-27-26.998c0-14.886,12.112-26.998,27-26.998c14.887,0,27,12.112,27,26.998c0,6.881-2.598,13.158-6.852,17.931
+		l-5.191-5.192v14h14L56,54.541C61.154,48.861,64.305,41.334,64.305,33.063z"/>
+</g>
+</svg>

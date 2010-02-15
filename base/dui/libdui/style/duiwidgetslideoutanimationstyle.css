@@ -1,0 +1,6 @@
+/* DuiWidgetSlideOutAnimationStyle : DuiAbstractWidgetAnimationStyle */
+DuiWidgetSlideOutAnimationStyle {
+    duration: 300;
+    easing-curve: outsine;
+    to: "top";
+}

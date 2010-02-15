@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="278px"
+	 height="403px" viewBox="0 0 278 403" style="enable-background:new 0 0 278 403;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+@font-face{font-family:'NokiaSans-Regular';src:url("data:;base64,\
+T1RUTwADACAAAQAQQ0ZGIDFfiGoAAACIAAAC9EdQT1Ovxb8hAAADfAAAAFRjbWFwAO4BkwAAADwA\
+AABMAAAAAQAAAAMAAAAMAAQAQAAAAAwACAACAAQAUwBlAGkAbABy//8AAABTAGQAaQBsAHL///+u\
+/57/m/+Z/5QAAQAAAAAAAAAAAAAAAAEABAIAAQEBEk5va2lhU2Fucy1SZWd1bGFyAAEBATj4GwH4\
+GAT4HAwV/ET8QxwJexwIHwUeoABIgoEl/4uLHqAASIKBJf+LiwwH9yIPjBD3LxGR+YISAAIBASQx\
+Tm9raWEgU2FucyBpcyBhIHRyYWRlbWFyayBvZiBOb2tpYS4vRlNUeXBlIDggZGVmAAAAADQARQBG\
+AEoATQBTAAcCAAEAGwC1ATMBtgH7AggCQWa+FhwGAPouHPoAB/2u9xQV+S4cBQD9LgYOIPgTexUn\
+J5mmKB/3Lwds9wHte+Eb59SgtMEfwLSmx9gavIG1dq4edq1vqGqjaqNaqUywQLZPsmCtX6xmtm7A\
+CG6/fMrWGvcTtezg0B7P3/cHrfclG+rlgXfeH/sqB6AuNpU/GzxKeGVaH1lkclZHGl+YYaZjHqVj\
+0lX3CUfXX8dkt2q2arBgqlcIqVeaTUIa+7j7Pvsm++geDtX5/BZe9yMFIU4iVvspG/seI7ztRh9F\
+7Gj3LfdjGvdCsPci1vcDHvcC1fTC9x0b9wTfaUjDH/iM92kc+dEH+2L4phWKzQX3QXj3CWTIHshk\
+U6lDGztPZkFjH2NBd/sD+yga+y+e+wmyPh4+ssVk2BvWxafDtB+zw5/19y8aDnj6H/dGFfslB2oi\
++wB7+wQb+zf7DbztOh867WP3K/dgGvdHsvcl2fcBHvcB2fcDwfclG/cJ5GxNxh/GTLA/nDEInDCT\
+IPsRGv0IBvsboyW7SB5Hu9Np6xvc7pus9wkf/N34fBX4Nwb3IXruasUexWpbqEwbRVZtT2YfZk91\
+KYX7HQgO/Jb4GRb7afqU+xn3H/fuBiH4LBWsp39zox+ic5dvahpqf250dB5zdG5/ahtpbpejdB90\
+on+orBqtl6iioh6ioqiXrRsO9yUWHAYv92kc+dEHDvve95wcBIsVvPtWBfcdzPcEz/c1G6CbiomV\
+H/tWB4x6coxqGzBIdWBgH2BfdkcuGv1Z+2kcBIsHDviMFPq5FQABAAAACgAeACwAAURGTFQACAAE\
+AAAAAP//AAEAAAABa2VybgAIAAAAAQAAAAEABAACAAAAAQAIAAEAFgAEAAAAAQAMAAIAAv/jAAP/\
+4wABAAEABg==")}
+]]>
+</style>
+<g id="duislider-layer">
+</g>
+<g id="dui-theme-rd">
+	<g id="duislider">
+		<g id="Slider">
+			<g>
+				<path style="fill:#DBD8EC;" d="M278,371c0,17.6-14.4,32-32,32H32c-17.6,0-32-14.4-32-32V32C0,14.4,14.4,0,32,0h214
+					c17.6,0,32,14.4,32,32V371z"/>
+				<path style="fill:none;stroke:#808080;" d="M278,371c0,17.6-14.4,32-32,32H32c-17.6,0-32-14.4-32-32V32C0,14.4,14.4,0,32,0h214
+					c17.6,0,32,14.4,32,32V371z"/>
+			</g>
+			<text transform="matrix(1 0 0 1 114.2183 34.333)" style="fill:#010101; font-family:'NokiaSans-Regular'; font-size:21;">Slider</text>
+		</g>
+		<g id="duislider-thumb-value-background">
+			<path style="fill:#CCCCCC;" d="M116,190c-4.963,0-9-4.037-9-9v-28c0-4.963,4.037-9,9-9h28c4.963,0,9,4.037,9,9v28
+				c0,4.963-4.037,9-9,9H116z"/>
+			<path style="fill:#999999;" d="M144,145c4.411,0,8,3.589,8,8v28c0,4.411-3.589,8-8,8h-28c-4.411,0-8-3.589-8-8v-28
+				c0-4.411,3.589-8,8-8H144 M144,143h-28c-5.5,0-10,4.5-10,10v28c0,5.5,4.5,10,10,10h28c5.5,0,10-4.5,10-10v-28
+				C154,147.5,149.5,143,144,143L144,143z"/>
+		</g>
+		<g id="duislider-vertical-background-elapsed">
+			<rect x="39" y="359" style="opacity:0;fill:#010101;" width="22" height="22"/>
+			<path style="fill:#B3B3B3;" d="M51,361.916c3.85,0,7,3.15,7,7v2c0,3.85-3.15,7-7,7h-2c-3.85,0-7-3.15-7-7v-2c0-3.85,3.15-7,7-7
+				H51z"/>
+		</g>
+		<g id="duislider-vertical-background-received">
+			<rect x="39" y="327" style="opacity:0;" width="22" height="22"/>
+			<path style="fill:#E6E6E6;" d="M51,330c3.85,0,7,3.15,7,7v2c0,3.85-3.15,7-7,7h-2c-3.85,0-7-3.15-7-7v-2c0-3.85,3.15-7,7-7H51z"
+				/>
+		</g>
+		<g id="duislider-vertical-background">
+			<path style="fill:#808080;" d="M49,316c-4.963,0-9-4.037-9-9v-2c0-4.963,4.037-9,9-9h2c4.963,0,9,4.037,9,9v2
+				c0,4.963-4.037,9-9,9H49z"/>
+			<path style="fill:#999999;" d="M51,297c4.411,0,8,3.589,8,8v2c0,4.411-3.589,8-8,8h-2c-4.411,0-8-3.589-8-8v-2
+				c0-4.411,3.589-8,8-8H51 M51,295h-2c-5.5,0-10,4.5-10,10v2c0,5.5,4.5,10,10,10h2c5.5,0,10-4.5,10-10v-2C61,299.5,56.5,295,51,295
+				L51,295z"/>
+		</g>
+		<g id="duislider-vertical-handle-pressed">
+			<rect x="14" y="213" style="opacity:0;fill:#010101;" width="72" height="72"/>
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="50" y1="267" x2="50" y2="231">
+				<stop  offset="0" style="stop-color:#C9C9C9"/>
+				<stop  offset="0.4115" style="stop-color:#C8C8C8"/>
+				<stop  offset="0.5598" style="stop-color:#C1C1C1"/>
+				<stop  offset="0.6654" style="stop-color:#B5B5B5"/>
+				<stop  offset="0.7509" style="stop-color:#A4A4A4"/>
+				<stop  offset="0.824" style="stop-color:#8E8E8E"/>
+				<stop  offset="0.8888" style="stop-color:#737373"/>
+				<stop  offset="0.946" style="stop-color:#535353"/>
+				<stop  offset="0.9983" style="stop-color:#2F2F2F"/>
+				<stop  offset="1" style="stop-color:#2E2E2E"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_1_);" d="M50,267c-12.683,0-23-8.074-23-18s10.317-18,23-18s23,8.074,23,18S62.683,267,50,267
+				L50,267z"/>
+			<path style="fill:#999999;" d="M50,232c12.131,0,22,7.626,22,17s-9.869,17-22,17s-22-7.626-22-17S37.869,232,50,232 M50,230
+				c-13.254,0-24,8.506-24,19c0,10.492,10.746,19,24,19s24-8.508,24-19C74,238.506,63.254,230,50,230L50,230z"/>
+		</g>
+		<g id="duislider-vertical-handle">
+			<rect x="14" y="131" style="opacity:0;fill:#010101;" width="72" height="72"/>
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="50" y1="185" x2="50" y2="149">
+				<stop  offset="0" style="stop-color:#B3B3B3"/>
+				<stop  offset="1" style="stop-color:#FCFCFC"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_2_);" d="M50,185c-12.683,0-23-8.074-23-18s10.317-18,23-18s23,8.074,23,18S62.683,185,50,185
+				L50,185z"/>
+			<path style="fill:#999999;" d="M50,150c12.131,0,22,7.626,22,17s-9.869,17-22,17s-22-7.626-22-17S37.869,150,50,150 M50,148
+				c-13.254,0-24,8.506-24,19c0,10.492,10.746,19,24,19s24-8.508,24-19C74,156.506,63.254,148,50,148L50,148z"/>
+		</g>
+		<g id="duislider-handle-pressed">
+			<rect x="96" y="49" style="fill:none;" width="72" height="72"/>
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="132.0005" y1="108" x2="132.0005" y2="62">
+				<stop  offset="0" style="stop-color:#C9C9C9"/>
+				<stop  offset="0.4115" style="stop-color:#C8C8C8"/>
+				<stop  offset="0.5598" style="stop-color:#C1C1C1"/>
+				<stop  offset="0.6654" style="stop-color:#B5B5B5"/>
+				<stop  offset="0.7509" style="stop-color:#A4A4A4"/>
+				<stop  offset="0.824" style="stop-color:#8E8E8E"/>
+				<stop  offset="0.8888" style="stop-color:#737373"/>
+				<stop  offset="0.946" style="stop-color:#535353"/>
+				<stop  offset="0.9983" style="stop-color:#2F2F2F"/>
+				<stop  offset="1" style="stop-color:#2E2E2E"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_3_);" d="M132,108c-9.374,0-17-10.318-17-23s7.626-23,17-23s17,10.318,17,23S141.374,108,132,108
+				L132,108z"/>
+			<path style="fill:#999999;" d="M132,63c8.822,0,16,9.869,16,22s-7.178,22-16,22s-16-9.869-16-22S123.178,63,132,63 M132,61
+				c-9.939,0-18,10.746-18,24s8.061,24,18,24s18-10.746,18-24S141.939,61,132,61L132,61z"/>
+		</g>
+		<g id="duislider-handle">
+			<rect x="14" y="49" style="opacity:0;fill:#010101;" width="72" height="72"/>
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="50" y1="108" x2="50" y2="62">
+				<stop  offset="0" style="stop-color:#B3B3B3"/>
+				<stop  offset="1" style="stop-color:#FCFCFC"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_4_);" d="M50,108c-9.374,0-17-10.318-17-23s7.626-23,17-23s17,10.318,17,23S59.374,108,50,108
+				L50,108z"/>
+			<path style="fill:#999999;" d="M50,63c8.822,0,16,9.869,16,22s-7.178,22-16,22s-16-9.869-16-22S41.178,63,50,63 M50,61
+				c-9.939,0-18,10.746-18,24s8.061,24,18,24s18-10.746,18-24S59.939,61,50,61L50,61z"/>
+		</g>
+		<g id="duislider-background-elapsed">
+			<rect x="242" y="74" style="opacity:0;" width="22" height="22"/>
+			<path style="fill:#B3B3B3;" d="M261,86c0,3.85-3.15,7-7,7h-2c-3.85,0-7-3.15-7-7v-2c0-3.85,3.15-7,7-7h2c3.85,0,7,3.15,7,7V86z"
+				/>
+		</g>
+		<g id="duislider-background-received">
+			<rect x="210" y="74" style="opacity:0;fill:#010101;" width="22" height="22"/>
+			<path style="fill:#E6E6E6;" d="M229.083,86c0,3.85-3.149,7-7,7h-2c-3.851,0-7-3.15-7-7v-2c0-3.85,3.149-7,7-7h2
+				c3.851,0,7,3.15,7,7V86z"/>
+		</g>
+		<g id="duislider-background">
+			<path style="fill:#808080;" d="M188,95c-4.963,0-9-4.037-9-9v-2c0-4.963,4.037-9,9-9h2c4.963,0,9,4.037,9,9v2
+				c0,4.963-4.037,9-9,9H188z"/>
+			<path style="fill:#999999;" d="M190,76c4.411,0,8,3.589,8,8v2c0,4.411-3.589,8-8,8h-2c-4.411,0-8-3.589-8-8v-2
+				c0-4.411,3.589-8,8-8H190 M190,74h-2c-5.5,0-10,4.5-10,10v2c0,5.5,4.5,10,10,10h2c5.5,0,10-4.5,10-10v-2
+				C200,78.5,195.5,74,190,74L190,74z"/>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,21 @@
+/* O_o */
+
+@const MARGIN_XSMALL:    0.2mm;
+@const MARGIN_SMALL:     0.4mm;
+@const MARGIN_MEDIUM:    0.6mm;
+@const MARGIN_LARGE:     0.8mm;
+@const MARGIN_DOUBLE:    1.2mm;
+@const MARGIN_XLARGE:    1.6mm;
+@const MARGIN_XXLARGE:   2.4mm;
+
+@const MARGIN_DEFAULT:   $MARGIN_MEDIUM;
+
+@const PADDING_XSMALL:   0.2mm;
+@const PADDING_SMALL:    0.4mm;
+@const PADDING_MEDIUM:   0.6mm;
+@const PADDING_DOUBLE:   0.8mm;
+@const PADDING_LARGE:    1.2mm;
+@const PADDING_XLARGE:   1.6mm;
+@const PADDING_XXLARGE:  2.4mm;
+
+@const PADDING_DEFAULT:  0;

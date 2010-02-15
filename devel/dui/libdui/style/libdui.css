@@ -1,0 +1,7 @@
+/* DEVEL - this is the master file that includes everything else.. */
+/* Most things are defined in base/. 
+/* Whenever you add a new css file, remember to include it here! */
+
+/* workaround to make these values work in this theme.. */
+@import "../../../../base/dui/libdui/style/margins.css";
+@import "../../../../base/dui/libdui/style/sizes.css";

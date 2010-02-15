@@ -1,0 +1,12 @@
+/* DuiLabelStyle : DuiWidgetStyle */
+DuiLabelStyle {
+    color: $COLOR_FOREGROUND;
+    font: $FONT_DEFAULT;
+    highlight-color: $COLOR_LINK;
+    active-highlight-color: $COLOR_LINK_ACTIVE; 
+    
+    /* inherited from DuiWidgetStyle */
+    press-feedback: press;
+    release-feedback: release;
+}
+

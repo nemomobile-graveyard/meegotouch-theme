@@ -1,0 +1,6 @@
+/* DuiSceneLayerEffectDimStyle : DuiSceneLayerEffectStyle */
+DuiSceneLayerEffectDimStyle {
+    opacity: 0.75;
+    easing-curve: insine;
+    fade-duration: 300;
+}

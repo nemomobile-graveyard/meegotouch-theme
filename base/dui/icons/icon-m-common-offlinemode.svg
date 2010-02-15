@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="icon-m-common-offlinemode-layer"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<g id="icon-m-common-offlinemode">
+	<rect style="fill:none;" width="64" height="64"/>
+	<path style="fill:#333333;" d="M24.448,36L0.839,36.002l20.323,20.199c0,0,0-6.822,0-8.564H36L24.448,36z"/>
+	<path style="fill:#333333;" d="M47.426,35.541l3.816,3.845c0.032-0.274,0.051-0.534,0.051-0.767c0-0.445-0.018-1.752,0.004-3.078
+		H47.426z"/>
+	<path style="fill:#333333;" d="M39.539,28l23.627-0.004L42.791,7.822c0,0,0,6.824,0,8.555H28L39.539,28z"/>
+	<path style="fill:#333333;" d="M12.772,24.629c-0.091,0.6-0.15,1.228-0.15,1.902c0,0,0,1.115,0,1.91l3.935-0.001L12.772,24.629z"/>
+	<polygon style="fill:#333333;" points="9.323,5.678 58.133,54.842 54.678,58.322 5.868,9.158 	"/>
+</g>
+</svg>

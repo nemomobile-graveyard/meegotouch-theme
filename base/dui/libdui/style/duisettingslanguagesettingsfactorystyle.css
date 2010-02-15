@@ -1,0 +1,85 @@
+DuiSettingsLanguageSettingFactoryStyle {
+    /* The image ID of the content indicator to be shown next to clickable items */
+    content-indicator: "icon-s-link-arrow-right";
+    /* The size of the content indicator */
+    content-indicator-size: 16 16;
+
+    /* TODO: Remove once duicontainer supports styling */
+    /* The left margin for the content indicator when it is inside a DuiContainer */
+    content-indicator-container-margin: 12.0;
+
+    /* The left margin of the content indicator when it is not inside a DuiContainer */
+    content-indicator-left-margin: 18.0;
+
+    /* The right margin of the content indicator when it is not inside a DuiContainer */
+    content-indicator-right-margin: 0;
+
+    /* The bottom margin of the content indicator when it is not inside a DuiContainer */
+    content-indicator-bottom-margin: 0;
+
+    /* The top margin of the content indicator when it is not inside a DuiContainer */
+    content-indicator-top-margin: 12.0;
+}
+
+#DuiSettingsLanguage {
+    margin-left: 6;
+    margin-right: 6;
+    margin-top: 6;
+    margin-bottom: 6;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    background-image:;
+    background-opacity: 0;
+    preferred-size: -1 -1;
+    minimum-size: -1 -1;
+    maximum-size: -1 -1;
+}
+
+#DuiSettingsLanguage:pressed {
+    background-image: selection-visual-feedback 0 0 0 0;
+    background-opacity: 1.0;
+}
+
+DuiContainerStyle#SettingsLanguageContainer {
+    icon-size: 16 16;
+
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#SettingsLanguageContentIndicator {
+    preferred-size: 16 16;
+    maximum-size: 16 16;
+    minimum-size: 16 16;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 0;
+
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+DuiButtonStyle#SettingsLanguageOptionButton {
+    text-margin-left: 0;
+    text-margin-right: 0;
+}
+
+DuiLabelStyle#SettingsLanguageLabel {
+    color: #FFFFFF;
+}
+DuiSliderStyle#SettingsLanguageSlider {
+    preferred-size: 40mm 12mm;
+    minimum-size: 40mm 12mm;
+    maximum-size: 40mm 12mm;
+}
