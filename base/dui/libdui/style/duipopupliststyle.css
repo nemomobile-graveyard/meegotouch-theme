@@ -7,4 +7,99 @@ DuiPopupListStyle {
     dialog-right-margin: 0;
 }
 
+DuiContentItemStyle#PopupListItem {
+    background-image : ;
+    background-image-top-left : ;
+    background-image-top : ;
+    background-image-top-right : ;
+    background-image-left : ;
+    background-image-center : ;
+    background-image-right : ;
+    background-image-bottom-left : ;
+    background-image-bottom : ;
+    background-image-bottom-right : ;
+    background-image-single : ;
+    background-image-singlerow-left : ;
+    background-image-singlerow-center : ;
+    background-image-singlerow-right : ;
+    background-image-singlecolumn-top : ;
+    background-image-singlecolumn-center : ;
+    background-image-singlecolumn-bottom : ;
+
+    background-color: $COLOR_BACKGROUND;
+    background-opacity: 0;
+
+    preferred-size: -1 5.8mm;
+    minimum-size: 5.8mm 5.8mm;
+    maximum-size: 100% 5.8mm;
+
+    title-object-name: "PopupListItemTitle";
+    image-object-name: "PopupListItemImage";
+}
+
+DuiContentItemStyle#PopupListItem:selected {
+    background-image : ;
+    background-image-top-left : ;
+    background-image-top : ;
+    background-image-top-right : ;
+    background-image-left : ;
+    background-image-center : ;
+    background-image-right : ;
+    background-image-bottom-left : ;
+    background-image-bottom : ;
+    background-image-bottom-right : ;
+    background-image-single : ;
+    background-image-singlerow-left : ;
+    background-image-singlerow-center : ;
+    background-image-singlerow-right : ;
+    background-image-singlecolumn-top : ;
+    background-image-singlecolumn-center : ;
+    background-image-singlecolumn-bottom : ;
+
+    background-color: $COLOR_SELECT;
+    background-opacity: 1;
+}
+
+DuiContentItemStyle#PopupListItem:pressed {
+    background-image : ;
+    background-image-top-left : ;
+    background-image-top : ;
+    background-image-top-right : ;
+    background-image-left : ;
+    background-image-center : ;
+    background-image-right : ;
+    background-image-bottom-left : ;
+    background-image-bottom : ;
+    background-image-bottom-right : ;
+    background-image-single : ;
+    background-image-singlerow-left : ;
+    background-image-singlerow-center : ;
+    background-image-singlerow-right : ;
+    background-image-singlecolumn-top : ;
+    background-image-singlecolumn-center : ;
+    background-image-singlecolumn-bottom : ;
+
+    background-color: $COLOR_BACKGROUND;
+    background-opacity: 0;
+}
+
+#PopupListItemImage {
+    preferred-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
+    minimum-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
+    maximum-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
+
+    margin-left:   $MARGIN_SMALL;
+    margin-right:  0;
+    margin-top:    $MARGIN_SMALL;
+    margin-bottom: $MARGIN_SMALL;
+}
+
+#PopupListItemTitle {
+    font: $FONT_DEFAULT;
+
+    margin-left:   $MARGIN_MEDIUM;
+    margin-right:  $MARGIN_SMALL;
+    margin-top:    $MARGIN_SMALL;
+    margin-bottom: 0;
+}
 
