@@ -1292,18 +1292,18 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="355.87256"
-     inkscape:cy="333.42915"
+     inkscape:zoom="1"
+     inkscape:cx="445.49326"
+     inkscape:cy="726.60066"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="true"
      units="px"
      showborder="true"
      inkscape:showpageshadow="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="953"
-     inkscape:window-x="1280"
+     inkscape:window-width="2560"
+     inkscape:window-height="1532"
+     inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:snap-bbox="true"
      inkscape:snap-nodes="false"
@@ -1381,27 +1381,24 @@
     <g
        id="duidialog-header-background"
        inkscape:label="#g3300">
-      <g
-         style="display:inline"
-         id="foo"
-         inkscape:label="#g3437"
-         transform="translate(10,10)">
-        <path
-           sodipodi:nodetypes="ccccccccccccc"
-           id="duibutton_background"
-           d="M 27.0625,126 C 23.151914,126 20,129.15191 20,133.0625 L 20,150 L 20,151.9375 L 20,159 L 27.0625,159 L 140.9375,159 L 148,159 L 148,151.9375 L 148,150 L 148,133.0625 C 148,129.15191 144.84808,126 140.9375,126 L 27.0625,126 z"
-           style="opacity:1;fill:url(#linearGradient5167);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-        <rect
-           style="opacity:1;fill:url(#linearGradient5169);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           id="rect3390"
-           width="128"
-           height="3"
-           x="20.000002"
-           y="159"
-           rx="0"
-           ry="0"
-           inkscape:label="#rect9242" />
-      </g>
+      <path
+         inkscape:label="foo"
+         style="fill:url(#linearGradient5167);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="M 27.0625,126 C 23.151914,126 20,129.15191 20,133.0625 L 20,150 l 0,1.9375 0,7.0625 7.0625,0 113.875,0 7.0625,0 0,-7.0625 0,-1.9375 0,-16.9375 C 148,129.15191 144.84808,126 140.9375,126 l -113.875,0 z"
+         id="foobar"
+         sodipodi:nodetypes="ccccccccccccc"
+         transform="translate(10,10)" />
+      <rect
+         inkscape:label="#rect9242"
+         ry="0"
+         rx="0"
+         y="159"
+         x="20.000002"
+         height="3"
+         width="128"
+         id="rect3390"
+         style="fill:url(#linearGradient5169);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         transform="translate(10,10)" />
     </g>
     <g
        id="duidialog-background"
@@ -1727,8 +1724,8 @@
       <rect
          transform="translate(-0.75,-110.00003)"
          inkscape:label="#rect9242"
-         ry="7.0588207"
-         rx="7.0588207"
+         ry="0"
+         rx="0"
          y="214.00003"
          x="88"
          height="64"
@@ -1737,8 +1734,8 @@
          style="opacity:0.6;fill:url(#linearGradient3897-0);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.00000024;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <rect
          inkscape:label="#rect9242"
-         ry="7.2865286"
-         rx="7.2865286"
+         ry="0"
+         rx="0"
          y="104.00001"
          x="20"
          height="64"
@@ -1754,8 +1751,8 @@
        style="opacity:0.8;display:inline">
       <rect
          inkscape:label="#rect9242"
-         ry="7.2865286"
-         rx="7.2865286"
+         ry="0"
+         rx="0"
          y="104.00001"
          x="20"
          height="64"
@@ -1766,8 +1763,8 @@
       <rect
          transform="matrix(0.9375,0,0,0.93749999,3.25,8.499994)"
          inkscape:label="#rect9242"
-         ry="6.3960776"
-         rx="6.3960752"
+         ry="0"
+         rx="0"
          y="104.00001"
          x="20"
          height="64"
@@ -1781,8 +1778,8 @@
          height="64"
          x="20"
          y="104.00001"
-         rx="6.3960752"
-         ry="6.3960776"
+         rx="0"
+         ry="0"
          inkscape:label="#rect9242"
          transform="matrix(0.9375,0,0,0.93749999,3.25,8.4999939)" />
       <rect
@@ -1792,10 +1789,10 @@
          height="64"
          x="20"
          y="104.00001"
-         rx="3.7120297"
-         ry="5.61588"
+         rx="0"
+         ry="0"
          inkscape:label="#rect9242"
-         transform="matrix(0.875,0,0,0.34375001,6.5,79.249997)" />
+         transform="matrix(0.90625,0,0,0.34375001,4.875,79.249997)" />
     </g>
     <g
        style="display:inline"
