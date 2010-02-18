@@ -2420,8 +2420,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="-30.417043"
-     inkscape:cy="315.19901"
+     inkscape:cx="466.58296"
+     inkscape:cy="422.19901"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="true"
@@ -2617,7 +2617,7 @@
       <g
          transform="translate(153,-59)"
          style="display:inline"
-         id="duidialog-background-4"
+         id="foo"
          inkscape:label="#g7174">
         <rect
            ry="7.0625"
@@ -3176,17 +3176,6 @@
          ry="5.61588"
          inkscape:label="#rect9242"
          transform="matrix(0.875,0,0,0.34375001,6.5,79.249997)" />
-    </g>
-    <g
-       transform="translate(-461,-349)"
-       id="duidialog-background-7">
-      <rect
-         x="114"
-         y="111"
-         style="fill:#ffffff"
-         width="106"
-         height="52"
-         id="rect564" />
     </g>
   </g>
   <g
