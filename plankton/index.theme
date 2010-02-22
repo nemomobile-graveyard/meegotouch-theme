@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=X-DUI-Metatheme
+Name=Plankton
+Encoding=UTF-8
+
+[X-DUI-Metatheme]
+X-Inherits=base
+X-Icon = "duitheme-thumbnail"
+X-Visible=true
