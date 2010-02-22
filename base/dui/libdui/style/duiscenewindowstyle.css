@@ -24,19 +24,3 @@ DuiSceneWindowStyle {
     preferred-size: 100% 100%;
     maximum-size: 100% 100%;
 }
-
-DuiSceneWindowStyle#DuiHomeButtonPanel {
-    minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
-    maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
-    preferred-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
-
-    vertical-align: top;
-    horizontal-align: left;
-    offset: 0 0;
-}
-
-DuiButtonIconStyle#DuiHomeButton {
-    reactive-margin-left: $MARGIN_XLARGE;
-    reactive-margin-right: $MARGIN_XLARGE;
-    reactive-margin-bottom: $MARGIN_XLARGE;
-}

@@ -10,6 +10,12 @@ DuiEscapeButtonPanelStyle {
     offset: 0 0;
 
     button-animation-length: 500;
+
+    back-button-object-name: "BackButton";
+    close-button-object-name: "CloseButton";
+
+    back-button-icon-id: "Icon-back";
+    close-button-icon-id: "Icon-close";
 }
 
 DuiButtonIconStyle#BackButton {

@@ -1,0 +1,20 @@
+/* DuiHomeButtonPanelStyle : DuiSceneWindowStyle */
+DuiHomeButtonPanelStyle {
+
+    minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
+    maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
+    preferred-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
+
+    vertical-align: top;
+    horizontal-align: left;
+    offset: 0 0;
+
+    home-button-object-name: "HomeButton";
+    home-button-icon-id: "Icon-home";
+}
+
+DuiButtonIconStyle#HomeButton {
+    reactive-margin-left: $MARGIN_XLARGE;
+    reactive-margin-right: $MARGIN_XLARGE;
+    reactive-margin-bottom: $MARGIN_XLARGE;
+}
