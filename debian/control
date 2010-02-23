@@ -10,5 +10,6 @@ Architecture: all
 Depends: ui-fonts
 Conflicts: fmbe-pulse-data
 Replaces: fmbe-pulse-data
-Description: Themes required by any DUI library based application
- Contains common, green & spin themes required by any dui based application 
+Description: Themes required by any DUI library based application.
+ Contains the base theme files and two alternative themes with different look.
+

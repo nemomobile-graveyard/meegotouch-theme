@@ -15,20 +15,20 @@ devel_preload.path = $$devel.path/devel/dui
 devel_preload.depends = devel
 devel.commands += perl extract.pl devel/dui/svg/
 
-rd.files = ./rd
-rd.path = /usr/share/themes
-rd.CONFIG += no_check_exist
-rd.commands += perl extract.pl rd/dui/svg/
+plankton.files = ./plankton
+plankton.path = /usr/share/themes
+plankton.CONFIG += no_check_exist
+plankton.commands += perl extract.pl plankton/dui/svg/
 
-rd_preload.files = ./devel/dui/libdui/preload.list
-rd_preload.path = $$rd.path/rd/dui
-rd_preload.depends = rd
+plankton_preload.files = ./plankton/dui/libdui/preload.list
+plankton_preload.path = $$plankton.path/plankton/dui
+plankton_preload.depends = plankton
 
 INSTALLS += base \
             devel \
             devel_preload \
-            rd \
-            rd_preload \
+            plankton \
+            plankton_preload \
 
 QMAKE_CLEAN += build-stamp configure-stamp
 QMAKE_DISTCLEAN += build-stamp configure-stamp

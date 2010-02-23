@@ -12,13 +12,13 @@
 /usr/share/themes/devel/dui/libdui/images
 /usr/share/themes/devel/dui/libdui/style
 /usr/share/themes/devel/dui/libdui/svg
-/usr/share/themes/rd
-/usr/share/themes/rd/dui
-/usr/share/themes/rd/dui/libdui
-/usr/share/themes/rd/dui/libdui/icons
-/usr/share/themes/rd/dui/libdui/images
-/usr/share/themes/rd/dui/libdui/style
-/usr/share/themes/rd/dui/libdui/svg
+/usr/share/themes/plankton
+/usr/share/themes/plankton/dui
+/usr/share/themes/plankton/dui/libdui
+/usr/share/themes/plankton/dui/libdui/icons
+/usr/share/themes/plankton/dui/libdui/images
+/usr/share/themes/plankton/dui/libdui/style
+/usr/share/themes/plankton/dui/libdui/svg
 /var/lib/dui/theme/preload.post
 
 
