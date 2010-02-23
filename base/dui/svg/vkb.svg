@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="vkb-layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="2050px" height="882px" viewBox="0 0 2050 882" style="enable-background:new 0 0 2050 882;" xml:space="preserve">
+	 width="2129px" height="1542px" viewBox="0 0 2129 1542" style="enable-background:new 0 0 2129 1542;" xml:space="preserve">
 <g id="vkb">
 	<g id="keyboard-magnifier-background">
 		<path style="fill:#E6E6E6;" d="M1438.587,861.387l-14.106,17.164l-14.259-17.164h-17.675c-7.995,0-14.5-6.506-14.5-14.5v-90.336
@@ -43,8 +43,8 @@
 			<stop  offset="0" style="stop-color:#A7752A"/>
 			<stop  offset="1" style="stop-color:#F4A81D"/>
 		</linearGradient>
-		<path style="fill:url(#SVGID_2_);" d="M713.841,608.08c-4.963,0-9-4.037-9-9v-44c0-4.963,4.037-9,9-9h44c4.963,0,9,4.037,9,9v44
-			c0,4.963-4.037,9-9,9H713.841z"/>
+		<path style="fill:url(#SVGID_2_);" d="M713.841,608.08c-4.963,0-9-4.038-9-9v-44c0-4.963,4.037-9,9-9h44c4.963,0,9,4.037,9,9v44
+			c0,4.962-4.037,9-9,9H713.841z"/>
 		<path style="fill:#999999;" d="M757.841,547.08c4.411,0,8,3.588,8,8v44c0,4.41-3.589,8-8,8h-44c-4.411,0-8-3.59-8-8v-44
 			c0-4.412,3.589-8,8-8H757.841 M757.841,545.08h-44c-5.5,0-10,4.5-10,10v44c0,5.5,4.5,10,10,10h44c5.5,0,10-4.5,10-10v-44
 			C767.841,549.58,763.341,545.08,757.841,545.08L757.841,545.08z"/>
@@ -134,7 +134,90 @@
 	</g>
 	<g id="keyboard-background">
 		<polyline style="fill:#F5F6F6;" points="108.275,68.304 76.276,68.304 76.276,38.304 108.275,38.304 		"/>
-		<rect x="76.276" y="36.304" style="fill:#999999;" width="32" height="2"/>
+	</g>
+	<g id="keyboard-handle-portrait">
+		<rect x="1456.335" y="1278.91" style="fill:#F2F2F2;" width="480" height="6"/>
+		<rect x="1651.672" y="1283.91" style="fill:#FFFFFF;" width="89.157" height="1"/>
+		<rect x="1651.672" y="1282.91" style="fill:#6E6F71;" width="89.157" height="1"/>
+	</g>
+	<g id="keyboard-handle-landscape">
+		<rect x="1264.335" y="1526.062" style="fill:#F2F2F2;" width="864" height="6"/>
+		<rect x="1651.672" y="1531.062" style="fill:#FFFFFF;" width="89.157" height="1"/>
+		<rect x="1651.672" y="1530.062" style="fill:#6E6F71;" width="89.157" height="1"/>
+	</g>
+	<g id="keyboard-key-ace-selected-landscape">
+		<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="97.7002" y1="1531.1602" x2="97.7002" y2="1477.1602">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#FCFCFC"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_7_);" d="M137.7,1504.16v-18c0-4.961-4.037-9-9-9H66.699c-4.962,0-9,4.039-9,9v18H57.7v18
+			c0,4.963,4.038,9,9,9h62.001c4.962,0,9-4.037,9-9L137.7,1504.16L137.7,1504.16z"/>
+		
+			<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="687.5835" y1="-75.0815" x2="687.5835" y2="-102.0815" gradientTransform="matrix(-1 0 0 -1 785.2832 1429.0781)">
+			<stop  offset="0" style="stop-color:#F4A81D"/>
+			<stop  offset="1" style="stop-color:#A7752A"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_8_);" d="M137.7,1504.16v18c0,4.963-4.037,9-9,9H66.699c-4.962,0-9-4.037-9-9v-18H137.7z"/>
+		<path style="fill:#999999;" d="M128.701,1476.16H66.7c-5.5,0-10,4.5-10,10v18v18c0,5.5,4.5,10,10,10h62.001c5.5,0,10-4.5,10-10
+			v-18v-18C138.701,1480.66,134.201,1476.16,128.701,1476.16z M136.701,1522.16c0,4.41-3.589,8-8,8H66.7c-4.411,0-8-3.59-8-8v-18
+			v-18c0-4.41,3.589-8,8-8h62.001c4.411,0,8,3.59,8,8v18V1522.16z"/>
+		<rect x="58.699" y="1502.16" style="fill:#999999;" width="78.002" height="2"/>
+	</g>
+	<g id="keyboard-key-sym-selected-landscape">
+		<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="97.7002" y1="1286.3379" x2="97.7002" y2="1232.3379">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#FCFCFC"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_9_);" d="M137.7,1259.338v-18c0-4.961-4.037-9-9-9H66.699c-4.962,0-9,4.039-9,9v18H57.7v18
+			c0,4.963,4.038,9,9,9h62.001c4.962,0,9-4.037,9-9L137.7,1259.338L137.7,1259.338z"/>
+		
+			<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="-10551.3086" y1="4772.2637" x2="-10551.3086" y2="4799.2637" gradientTransform="matrix(1 0 0 1 10649.0078 -3539.9609)">
+			<stop  offset="0" style="stop-color:#F4A81D"/>
+			<stop  offset="1" style="stop-color:#A7752A"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_10_);" d="M57.699,1259.303v-18c0-4.963,4.037-9,9-9H128.7c4.961,0,9,4.037,9,9v18H57.699z"/>
+		<path style="fill:#999999;" d="M128.701,1231.338H66.7c-5.5,0-10,4.5-10,10v18v18c0,5.5,4.5,10,10,10h62.001c5.5,0,10-4.5,10-10
+			v-18v-18C138.701,1235.838,134.201,1231.338,128.701,1231.338z M136.701,1277.338c0,4.41-3.589,8-8,8H66.7c-4.411,0-8-3.59-8-8
+			v-18v-18c0-4.41,3.589-8,8-8h62.001c4.411,0,8,3.59,8,8v18V1277.338z"/>
+		<rect x="58.699" y="1259.338" style="fill:#F2F2F2;" width="78.002" height="2"/>
+	</g>
+	<g id="keyboard-key-ace-selected-portrait">
+		<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="741.0781" y1="1540.3691" x2="741.0781" y2="1462.3691">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#FCFCFC"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_11_);" d="M781.077,1501.369v-30c0-4.961-4.037-9-9-9h-62c-4.963,0-9,4.039-9,9v30l0,0v30
+			c0,4.963,4.038,9,9,9h62.002c4.961,0,9-4.037,9-9v-30H781.077z"/>
+		
+			<linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="44.2061" y1="-72.2905" x2="44.2061" y2="-111.2905" gradientTransform="matrix(-1 0 0 -1 785.2832 1429.0781)">
+			<stop  offset="0" style="stop-color:#F4A81D"/>
+			<stop  offset="1" style="stop-color:#A7752A"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_12_);" d="M781.077,1501.369v30c0,4.963-4.037,9-9,9h-62c-4.963,0-9-4.037-9-9v-30H781.077z"/>
+		<path style="fill:#999999;" d="M772.079,1461.369h-62.002c-5.5,0-10,4.5-10,10v30v30c0,5.5,4.5,10,10,10h62.002
+			c5.5,0,10-4.5,10-10v-30v-30C782.079,1465.869,777.579,1461.369,772.079,1461.369z M780.079,1531.369c0,4.41-3.59,8-8,8h-62.002
+			c-4.411,0-8-3.59-8-8v-30v-30c0-4.41,3.589-8,8-8h62.002c4.41,0,8,3.59,8,8v30V1531.369z"/>
+		<rect x="702.077" y="1499.369" style="fill:#999999;" width="78.002" height="2"/>
+	</g>
+	<g id="keyboard-key-sym-selected-portrait">
+		<linearGradient id="SVGID_13_" gradientUnits="userSpaceOnUse" x1="741.0786" y1="1301.752" x2="741.0786" y2="1223.752">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#FCFCFC"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_13_);" d="M781.079,1262.787l-0.002-30.035c0-4.961-4.036-9-9-9h-62c-4.962,0-9,4.039-9,9v30.035
+			h0.002v29.965c0,4.963,4.038,9,9,9h62.001c4.962,0,9-4.037,9-9L781.079,1262.787L781.079,1262.787z"/>
+		
+			<linearGradient id="SVGID_14_" gradientUnits="userSpaceOnUse" x1="-9907.9297" y1="4763.6777" x2="-9907.9297" y2="4802.7129" gradientTransform="matrix(1 0 0 1 10649.0078 -3539.9609)">
+			<stop  offset="0" style="stop-color:#F4A81D"/>
+			<stop  offset="1" style="stop-color:#A7752A"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_14_);" d="M701.077,1262.752v-30.035c0-4.963,4.037-9,9-9h62c4.963,0,9,4.037,9,9l0.002,30.035
+			H701.077z"/>
+		<path style="fill:#999999;" d="M772.079,1222.752h-62.002c-5.5,0-10,4.5-10,10l0.002,30.035v29.965c0,5.5,4.5,10,10,10h62.001
+			c5.5,0,10-4.5,10-10v-29.965l-0.001-30.035C782.079,1227.252,777.579,1222.752,772.079,1222.752z M780.08,1292.752
+			c0,4.41-3.589,8-8,8h-62.001c-4.411,0-8-3.59-8-8v-29.965l-0.002-30.035c0-4.41,3.59-8,8-8h62.002c4.41,0,8,3.59,8,8l0.001,30.035
+			V1292.752z"/>
+		<rect x="702.077" y="1262.787" style="fill:#F2F2F2;" width="78.003" height="2"/>
 	</g>
 </g>
 </svg>
