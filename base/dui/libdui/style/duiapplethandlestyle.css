@@ -1,33 +1,4 @@
 DuiAppletHandleStyle {
-    margin-left: 0;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-
-    /* The image to be drawn on top of the applet when it is in a broken state */
-    broken-applet-image: "icon-m-error";
-    /* Offset of the broken applet image relative to the top right corner of the applet */
-    broken-applet-image-offset: -8 4;
-    /* The radius of the blur to be applied in a broken applet */
-    broken-applet-blur-radius: 6;
-    /* The opacity of the applet when it is in a broken state */
-    broken-applet-opacity: 0.5;
-}
-DuiAppletHandleStyle.Landscape {
-    /* The maximum size of the applet even when the applet states it could be bigger */
-    maximum-applet-size: 816 816;
-    /* The minimum size of the applet even when the applet states it could be smaller */
-    minimum-applet-size: 88 88;
-}
-DuiAppletHandleStyle.Portrait {
-    /* The maximum size of the applet even when the applet states it could be bigger */
-    maximum-applet-size: 432 840;
-    /* The minimum size of the applet even when the applet states it could be smaller */
-    minimum-applet-size: 88 88;
 }
 
 DuiWidgetStyle#DuiAppletHandleSettingsWidget {
