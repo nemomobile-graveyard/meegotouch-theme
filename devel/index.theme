@@ -5,5 +5,5 @@ Encoding=UTF-8
 
 [X-DUI-Metatheme]
 X-Inherits=base
-#X-Icon = "THEME_ICON"
+X-Icon = "icon-l-duitheme-devel"
 X-Visible=true

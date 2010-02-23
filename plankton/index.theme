@@ -5,5 +5,5 @@ Encoding=UTF-8
 
 [X-DUI-Metatheme]
 X-Inherits=base
-X-Icon = "duitheme-thumbnail"
+X-Icon = "icon-l-duitheme-plankton"
 X-Visible=true
