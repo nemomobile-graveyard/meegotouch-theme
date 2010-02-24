@@ -592,6 +592,90 @@
        y1="1460.4832"
        x2="2090.407"
        y2="1528.397" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3700"
+       id="linearGradient2932"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.09,0,0,1.3142807,-27.809911,-1787.4913)"
+       x1="2121.5234"
+       y1="1461.5333"
+       x2="2121.5234"
+       y2="1526.9993" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3700"
+       id="linearGradient2934"
+       gradientUnits="userSpaceOnUse"
+       x1="2121.5234"
+       y1="1461.5333"
+       x2="2121.5234"
+       y2="1526.9993" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3700"
+       id="linearGradient2940"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.09,0,0,1.3142807,-27.809911,-1787.4913)"
+       x1="2121.5234"
+       y1="1461.5333"
+       x2="2121.5234"
+       y2="1526.9993" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3700"
+       id="linearGradient2942"
+       gradientUnits="userSpaceOnUse"
+       x1="2121.5234"
+       y1="1461.5333"
+       x2="2121.5234"
+       y2="1526.9993" />
+    <inkscape:perspective
+       id="perspective2952"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3690-7"
+       id="linearGradient3796-0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.09,0,0,1.2142807,-127.80991,-1641.7469)"
+       x1="2090.407"
+       y1="1460.4832"
+       x2="2090.407"
+       y2="1528.397" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3690-7">
+      <stop
+         style="stop-color:#555753;stop-opacity:1"
+         offset="0"
+         id="stop3692-5" />
+      <stop
+         style="stop-color:#888a85;stop-opacity:1"
+         offset="1"
+         id="stop3694-8" />
+    </linearGradient>
+    <linearGradient
+       y2="1528.397"
+       x2="2090.407"
+       y1="1460.4832"
+       x1="2090.407"
+       gradientTransform="matrix(0.09,0,0,1.2142807,-127.80991,-1641.7469)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2961"
+       xlink:href="#linearGradient3690-7"
+       inkscape:collect="always" />
+    <inkscape:perspective
+       id="perspective2992"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -603,9 +687,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="301.78878"
-     inkscape:cy="510.67607"
+     inkscape:zoom="8.9444444"
+     inkscape:cx="168.12986"
+     inkscape:cy="532.25965"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="true"
@@ -732,9 +816,19 @@
          transform="matrix(11.111111,0,0,1,308.99901,1329.4446)"
          id="rect6749"
          sodipodi:nodetypes="ccccccc" />
+      <rect
+         style="opacity:0.80000000000000004;color:#000000;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect2982"
+         width="71.888199"
+         height="72.223602"
+         x="126.1118"
+         y="127.96273"
+         transform="matrix(11.12839,0,0,0.99690406,305.57766,1329.878)"
+         rx="0"
+         ry="0" />
     </g>
     <g
-       style="fill:url(#linearGradient3696);fill-opacity:1;display:inline;opacity:0.8"
+       style="opacity:0.8;fill:url(#linearGradient3696);fill-opacity:1;display:inline"
        id="duitabbar-tab-active-background"
        inkscape:label="#g6934"
        transform="matrix(0.09,0,0,1,-99.80991,-1329.4446)">
@@ -755,6 +849,16 @@
          transform="matrix(11.111111,0,0,1,308.99901,1329.4446)"
          d="m 132.875,136 c -3.814,0 -6.875,3.061 -6.875,6.875 l 0,57.125 72,0 0,-57.125 C 198,139.061 194.939,136 191.125,136 l -58.25,0 z"
          style="fill:#000000;fill-opacity:1" />
+      <rect
+         style="opacity:0.8;color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect2982-8"
+         width="71.888199"
+         height="72.223602"
+         x="126.1118"
+         y="127.96273"
+         transform="matrix(11.12839,0,0,0.99690406,305.5777,1329.878)"
+         rx="0"
+         ry="0" />
     </g>
     <g
        transform="matrix(0.09,0,0,1,-99.80991,-1219.4446)"
