@@ -30,45 +30,10 @@ sub create_id_list()
     # create one long string from the file
     $content = join('', @lines);
 
-    my @tags;
     my @ids;
-    my $g_tags_open = 0;
-    while ($content =~ m/<(\/)?([^\s>\/]+)([^>]*?)(\/)?>/g) 
+    while($content =~ m/id="(dui[^"]+)/g)
     {
-        if($1)
-        {
-            $id = pop(@tags);
-            if($id eq "g")
-            {
-                $g_tags_open--;
-            }
-        }
-        else
-        {
-            if(length($4) eq 0)
-            {
-                push(@tags, $2);
-            }
-
-            $tagname = $2;
-
-            if ($g_tags_open eq 1)
-            {
-                if($3)
-                {
-                    $3 =~ m/id="([^"]+)"/;
-                    if(length($1) > 0)
-                    {
-                        #print "$filename - level " .@tags. " element: $1\n";
-                        push(@ids, $1);
-                    }
-                }
-            }
-
-            if($tagname eq "g") {
-                $g_tags_open++;
-            }
-        }
+        push(@ids, $1);
     }
 
     if(@ids)
@@ -81,5 +46,6 @@ sub create_id_list()
         }
         close(OUTPUT) || die "Couldn't close file properly";
     }
+
     return 0;
 }
