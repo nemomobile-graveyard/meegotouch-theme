@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="icon-m-messaging-smiley-lips-sealed-layer"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<g id="icon-m-messaging-smiley-lips-sealed">
+	<rect style="fill:none;" width="64" height="64"/>
+	<circle style="fill:#333333;" cx="21.403" cy="20.648" r="5"/>
+	<circle style="fill:#333333;" cx="42.598" cy="20.648" r="5"/>
+	<path style="fill:#333333;" d="M51.569,52C46.518,56.944,39.61,60,32,60C16.561,60,4,47.439,4,32S16.561,4,32,4
+		c14.081,0,25.763,10.449,27.71,24h4.032C61.772,12.217,48.317,0,32,0C14.327,0,0,14.327,0,32c0,17.674,14.327,32,32,32
+		c10.104,0,19.107-4.688,24.972-12H51.569z"/>
+	<path style="fill:#333333;" d="M53,34l-3.5,1.5L45,37v2.25h-6V36h-3v3.25h-4V36h-3v3.25h-4V36h-3v3.25h-4V36h-3v3.25v1.5V44h3
+		v-3.25h4V44h3v-3.25h4V44h3v-3.25h4V44h3v-3.25h6V43l4.5,1.5L53,46h11V34H53z M61,43.5h-5v-7h5V43.5z"/>
+</g>
+</svg>
