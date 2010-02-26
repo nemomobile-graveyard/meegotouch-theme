@@ -2,10 +2,11 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-toolbar-filter-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="65px" height="64px"
-	 viewBox="0 0 65 64" style="enable-background:new 0 0 65 64;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
 <g id="icon-m-toolbar-filter">
-	<rect x="1.007" style="fill:none;" width="64" height="64"/>
-	<path style="fill:#FFFFFF;" d="M64.25,10c0,0-46.437,0-62,0c-2,0-1,1-1,1l26,26v20l12,6V37l26-26C65.25,11,66.25,10,64.25,10z"/>
+	<rect style="fill:none;" width="64" height="64"/>
+	<path style="fill:#FFFFFF;" d="M56.849,12H7.151c-0.633,0-0.783,0.365-0.336,0.812l21.062,21.974V46.09L36.572,52V34.785
+		l20.613-21.974C57.633,12.365,57.48,12,56.849,12z"/>
 </g>
 </svg>

@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 13.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px"
-	 height="64px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
-	<g id="icon-m-clock-city-create">
-		<rect style="fill:none;" width="64" height="64"/>
-		<path style="fill:#333333;" d="M64,64V52V27H52v25h-6V0H30v52h-6V39H12v-4h12v-5H12v-4h12v-9L8,3v49L0,64H64z M39,52V8h3v44H39z"
-			/>
-	</g>
+<svg version="1.1" id="icon-m-clock-city-create-layer"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<g id="icon-m-clock-city-create">
+	<rect style="fill:none;" width="64" height="64"/>
+	<path style="fill:#333333;" d="M35.102,50.887V3.777h-14.78v47.109h-5.542V38.878H3.695v-3.787l11.084-0.007v-4.52H3.695v-3.787
+		l11.084,0.092v-8.313L0,4.701v46.186v10.068l63.937,0.035L64,34.293c0-1.017-0.832-1.848-1.848-1.848h-1.591v-10.32H58.83
+		c-0.315-3.273-2.488-6.805-5.283-7.563l-0.858-11.59h-0.47l-0.858,11.59c-2.794,0.758-4.968,4.289-5.282,7.563h-1.732v10.32h-1.591
+		c-1.017,0-1.848,0.831-1.848,1.848c0,0-0.026,16.535-0.018,16.609L35.102,50.887z M31.406,50.887h-2.771V10.15l2.771,0.093V50.887z
+		 M55.558,40.753h-6.38v-5.702c0.089-2.467,1.48-4.428,3.19-4.428s3.101,1.961,3.189,4.428V40.753z"/>
+</g>
 </svg>
