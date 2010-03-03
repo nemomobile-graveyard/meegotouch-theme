@@ -1533,8 +1533,8 @@
      inkscape:showpageshadow="false"
      inkscape:window-width="1834"
      inkscape:window-height="1521"
-     inkscape:window-x="724"
-     inkscape:window-y="25"
+     inkscape:window-x="719"
+     inkscape:window-y="518"
      inkscape:snap-bbox="true"
      inkscape:snap-nodes="false"
      inkscape:window-maximized="0"
@@ -1588,7 +1588,7 @@
      style="display:inline">
     <g
        inkscape:label="#g5122"
-       id="duislider-vertical-thumb"
+       id="duislider-vertical-handle"
        transform="translate(330,0)">
       <path
          sodipodi:type="arc"
@@ -1843,7 +1843,7 @@
     <g
        transform="matrix(4.7999999,0,0,4.7999988,218.00001,-671.99979)"
        style="display:inline"
-       id="duislider-thumb-value-background"
+       id="duislider-handle-value-background"
        inkscape:label="#g13978">
       <rect
          ry="5.0551076"
@@ -1895,7 +1895,7 @@
     </g>
     <g
        transform="translate(70,0)"
-       id="duislider-thumb"
+       id="duislider-handle"
        inkscape:label="#g5122">
       <path
          sodipodi:type="arc"
@@ -1950,7 +1950,7 @@
     </g>
     <g
        inkscape:label="#g5122"
-       id="duislider-thumb-pressed"
+       id="duislider-handle-pressed"
        transform="translate(160.68599,6.3303156)">
       <path
          transform="matrix(2.2648397,0,0,2.597938,-248.50784,-156.75041)"
@@ -2005,7 +2005,7 @@
     </g>
     <g
        transform="translate(397,6)"
-       id="duislider-vertical-thumb-pressed"
+       id="duislider-vertical-handle-pressed"
        inkscape:label="#g5122">
       <path
          transform="matrix(2.2648397,0,0,2.597938,-215.82185,-158.42009)"
