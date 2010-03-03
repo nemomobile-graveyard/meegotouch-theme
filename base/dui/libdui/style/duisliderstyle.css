@@ -1,9 +1,9 @@
 /* DuiSliderStyle : DuiWidgetStyle */
 DuiSliderStyle {
-    handle-pixmap: "duislider-thumb" 6.4mm 6.4mm;
-    handle-pressed-pixmap: "duislider-thumb-pressed" 6.4mm 6.4mm;
-    handle-vertical-pixmap: "duislider-vertical-thumb" 6.4mm 6.4mm;
-    handle-vertical-pressed-pixmap: "duislider-vertical-thumb-pressed" 6.4mm 6.4mm;
+    handle-pixmap: "duislider-handle" 6.4mm 6.4mm;
+    handle-pressed-pixmap: "duislider-handle-pressed" 6.4mm 6.4mm;
+    handle-vertical-pixmap: "duislider-vertical-handle" 6.4mm 6.4mm;
+    handle-vertical-pressed-pixmap: "duislider-vertical-handle-pressed" 6.4mm 6.4mm;
 
     background-base-image: "duislider-background" 9px 9px 9px 9px;
     background-elapsed-image: "duislider-background-elapsed" 9px 9px 9px 9px;
@@ -43,7 +43,7 @@ DuiSliderStyle {
 
     color: $COLOR_FOREGROUND;
     font: $FONT_DEFAULT;
-    background-image: "duislider-thumb-value-background" 4px 4px 4px 4px;
+    background-image: "duislider-handle-value-background" 4px 4px 4px 4px;
 }
 
 #DuiSliderImage {
