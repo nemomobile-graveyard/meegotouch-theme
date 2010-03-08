@@ -44,6 +44,7 @@ DuiContentItemStyle {
     title-object-name: "ContentItemTitle";
     subtitle-object-name: "ContentItemSubtitle";
     image-object-name: "ContentItemImage";
+    optional-image-object-name: "OptionalContentItemImage";
 }
 
 DuiContentItemStyle:selected {
@@ -133,3 +134,14 @@ DuiContentItemStyle:pressed {
     margin-bottom: 0;
 }
 
+#ContentItemOptionalImage {
+    /* inherited from DuiWidgetStyle */
+    preferred-size: 3.2mm 3.2mm;
+    minimum-size: 3.2mm 3.2mm;
+    maximum-size: 3.2mm 3.2mm;
+
+    margin-left:   0;
+    margin-right:  $MARGIN_DOUBLE;
+    margin-top:    $MARGIN_DOUBLE;
+    margin-bottom: $MARGIN_DOUBLE;
+}
