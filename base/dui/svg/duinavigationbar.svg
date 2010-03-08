@@ -1,23 +1,104 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="154px"
-	 height="854px" viewBox="0 0 154 854" style="enable-background:new 0 0 154 854;" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="182px"
+	 height="924px" viewBox="0 0 182 924" style="enable-background:new 0 0 182 924;" xml:space="preserve">
 <g id="duinavigationbar-layer">
 </g>
 <g id="dui-theme-rd">
 	<g id="duinavigationbar">
-		<g id="duimenu-background">
-			<path style="fill:#FFFFFF;" d="M88,754v88c0,6.6-5.4,12-12,12H12c-6.6,0-12-5.4-12-12v-88H88z"/>
-			<path style="fill:#999999;" d="M86,754v88c0,5.5-4.5,10-10,10H12c-5.5,0-10-4.5-10-10v-88H86z"/>
+		<g id="duinavigationbarThemeTemplateHelper">
+			<g>
+				<path style="fill:#B3B3B3;" d="M16,923c-8.271,0-15-6.729-15-15V16C1,7.729,7.729,1,16,1h149.332c8.271,0,15,6.729,15,15v892
+					c0,8.271-6.729,15-15,15H16z"/>
+				<g>
+					<path d="M165.332,2c7.72,0,14,6.28,14,14v892c0,7.72-6.28,14-14,14H16c-7.72,0-14-6.28-14-14V16C2,8.28,8.28,2,16,2H165.332
+						 M165.332,0H16C7.2,0,0,7.2,0,16v892c0,8.8,7.2,16,16,16h149.332c8.8,0,16-7.2,16-16V16C181.332,7.2,174.132,0,165.332,0
+						L165.332,0z"/>
+				</g>
+			</g>
+			<path style="fill:#010101;" d="M22.047,34.333l-0.461-1.466c-0.631,1.086-1.707,1.63-3.23,1.63c-1.416,0-2.48-0.501-3.195-1.502
+				c-0.713-1.001-1.07-2.565-1.07-4.691c0-1.784,0.381-3.241,1.143-4.373s1.844-1.697,3.246-1.697c1.148,0,2.01,0.345,2.584,1.036
+				v-5.168h2.184v16.231H22.047z M21.135,28.898l-0.012-0.677c0-1.777-0.199-2.978-0.6-3.599c-0.4-0.623-0.969-0.934-1.707-0.934
+				c-0.82,0-1.436,0.379-1.846,1.139c-0.41,0.758-0.615,1.896-0.615,3.414c0,1.593,0.197,2.785,0.596,3.578
+				c0.395,0.793,0.99,1.189,1.783,1.189c0.771,0,1.365-0.287,1.779-0.861S21.135,30.491,21.135,28.898z"/>
+			<path style="fill:#010101;" d="M29.828,34.497c-1.217,0-2.127-0.315-2.732-0.948s-0.908-1.581-0.908-2.846v-8.295h2.186v7.916
+				c0,0.895,0.156,1.566,0.471,2.015s0.789,0.671,1.426,0.671c0.793,0,1.406-0.301,1.84-0.902c0.436-0.602,0.652-1.384,0.652-2.348
+				v-7.352h2.184v11.925h-1.211l-0.439-1.764C32.535,33.854,31.381,34.497,29.828,34.497z"/>
+			<path style="fill:#010101;" d="M40.43,34.333h-2.184v-10.5h-1.363v-1.425h3.547V34.333z M39.344,18.225
+				c0.334,0,0.623,0.123,0.867,0.369c0.242,0.246,0.363,0.536,0.363,0.871c0,0.342-0.119,0.635-0.359,0.877
+				c-0.238,0.242-0.529,0.363-0.871,0.363c-0.35,0-0.643-0.121-0.883-0.363c-0.238-0.242-0.357-0.535-0.357-0.877
+				c0-0.349,0.119-0.643,0.357-0.882C38.701,18.344,38.994,18.225,39.344,18.225z"/>
+			<path style="fill:#010101;" d="M52.295,34.333h-2.184v-7.916c0-0.896-0.158-1.567-0.473-2.015s-0.785-0.672-1.414-0.672
+				c-0.793,0-1.408,0.301-1.846,0.902s-0.656,1.385-0.656,2.348v7.353h-2.186V22.408h1.221l0.441,1.764
+				c0.758-1.293,1.914-1.938,3.465-1.938c1.211,0,2.119,0.317,2.723,0.954c0.605,0.635,0.908,1.586,0.908,2.85V34.333z"/>
+			<path style="fill:#010101;" d="M61.42,32.61c-0.738,1.258-1.887,1.887-3.445,1.887c-1.086,0-1.932-0.306-2.537-0.918
+				c-0.605-0.611-0.908-1.468-0.908-2.568c0-1.135,0.311-1.98,0.934-2.538c0.621-0.557,1.367-0.905,2.234-1.046
+				c0.869-0.14,1.926-0.21,3.17-0.21v-1.404c0-1.389-0.742-2.082-2.227-2.082c-0.854,0-1.896,0.182-3.127,0.543v-1.527
+				c1.238-0.342,2.414-0.513,3.527-0.513c1.312,0,2.309,0.316,2.99,0.948c0.68,0.633,1.02,1.564,1.02,2.795v8.356h-1.189
+				L61.42,32.61z M60.867,28.52h-1.221c-0.979,0-1.711,0.207-2.199,0.62s-0.734,1.03-0.734,1.851c0,0.67,0.15,1.171,0.447,1.502
+				c0.297,0.332,0.742,0.498,1.338,0.498c0.752,0,1.334-0.24,1.748-0.719s0.621-1.127,0.621-1.947V28.52z"/>
+			<path style="fill:#010101;" d="M68.115,34.333L64.67,22.408h2.225l2.605,9.885l2.717-9.885h1.969l-3.588,11.925H68.115z"/>
+			<path style="fill:#010101;" d="M78.318,34.333h-2.184v-10.5h-1.363v-1.425h3.547V34.333z M77.232,18.225
+				c0.334,0,0.623,0.123,0.865,0.369s0.365,0.536,0.365,0.871c0,0.342-0.121,0.635-0.359,0.877c-0.24,0.242-0.531,0.363-0.871,0.363
+				c-0.35,0-0.645-0.121-0.883-0.363c-0.24-0.242-0.359-0.535-0.359-0.877c0-0.349,0.119-0.643,0.359-0.882
+				C76.588,18.344,76.883,18.225,77.232,18.225z"/>
+			<path style="fill:#010101;" d="M88.295,23.854l0.461-1.445h1.221V33.77c0,1.285-0.398,2.281-1.195,2.988
+				c-0.795,0.708-1.889,1.062-3.275,1.062c-1.135,0-2.424-0.181-3.865-0.544v-1.537c1.504,0.361,2.707,0.543,3.609,0.543
+				c0.785,0,1.361-0.146,1.727-0.436c0.367-0.291,0.594-0.67,0.682-1.139c0.09-0.468,0.135-1.133,0.135-1.994v-0.308
+				c-0.582,0.834-1.512,1.251-2.789,1.251c-1.361,0-2.381-0.47-3.061-1.41c-0.682-0.939-1.021-2.35-1.021-4.229
+				c0-1.798,0.377-3.211,1.129-4.24c0.752-1.028,1.838-1.543,3.26-1.543C86.678,22.233,87.672,22.773,88.295,23.854z M85.506,32.17
+				c0.758,0,1.336-0.272,1.732-0.815c0.396-0.544,0.596-1.714,0.596-3.513c0-1.381-0.188-2.418-0.559-3.111
+				c-0.373-0.693-0.93-1.041-1.668-1.041c-0.785,0-1.385,0.297-1.799,0.893c-0.414,0.594-0.621,1.682-0.621,3.26
+				c0,1.443,0.193,2.525,0.58,3.246S84.732,32.17,85.506,32.17z"/>
+			<path style="fill:#010101;" d="M99.133,32.61c-0.738,1.258-1.887,1.887-3.445,1.887c-1.086,0-1.932-0.306-2.537-0.918
+				c-0.605-0.611-0.908-1.468-0.908-2.568c0-1.135,0.311-1.98,0.934-2.538c0.621-0.557,1.367-0.905,2.234-1.046
+				c0.869-0.14,1.926-0.21,3.17-0.21v-1.404c0-1.389-0.742-2.082-2.227-2.082c-0.854,0-1.896,0.182-3.127,0.543v-1.527
+				c1.238-0.342,2.414-0.513,3.527-0.513c1.312,0,2.309,0.316,2.99,0.948c0.68,0.633,1.02,1.564,1.02,2.795v8.356h-1.189
+				L99.133,32.61z M98.58,28.52h-1.221c-0.979,0-1.711,0.207-2.199,0.62s-0.734,1.03-0.734,1.851c0,0.67,0.15,1.171,0.447,1.502
+				c0.297,0.332,0.742,0.498,1.338,0.498c0.752,0,1.334-0.24,1.748-0.719s0.621-1.127,0.621-1.947V28.52z"/>
+			<path style="fill:#010101;" d="M106.752,34.497c-0.93,0-1.611-0.217-2.041-0.651c-0.432-0.434-0.646-1.126-0.646-2.076v-7.937
+				h-1.568v-0.82l3.189-3.251h0.562v2.646h2.902v1.425h-2.902v7.577c0,0.65,0.107,1.079,0.318,1.287
+				c0.213,0.209,0.533,0.312,0.965,0.312c0.443,0,1.045-0.099,1.805-0.297v1.415C108.42,34.374,107.559,34.497,106.752,34.497z"/>
+			<path style="fill:#010101;" d="M113.498,34.333h-2.184v-10.5h-1.363v-1.425h3.547V34.333z M112.412,18.225
+				c0.334,0,0.623,0.123,0.867,0.369c0.242,0.246,0.363,0.536,0.363,0.871c0,0.342-0.119,0.635-0.359,0.877
+				c-0.238,0.242-0.529,0.363-0.871,0.363c-0.35,0-0.643-0.121-0.883-0.363c-0.238-0.242-0.357-0.535-0.357-0.877
+				c0-0.349,0.119-0.643,0.357-0.882C111.77,18.344,112.062,18.225,112.412,18.225z"/>
+			<path style="fill:#010101;" d="M120.912,34.497c-1.605,0-2.809-0.526-3.609-1.579c-0.799-1.053-1.199-2.632-1.199-4.737
+				c0-1.832,0.416-3.281,1.246-4.348s2.018-1.6,3.562-1.6c1.559,0,2.75,0.526,3.574,1.579s1.236,2.522,1.236,4.409
+				c0,1.941-0.385,3.473-1.154,4.594S122.58,34.497,120.912,34.497z M120.912,33.092c0.842,0,1.477-0.381,1.902-1.143
+				c0.428-0.762,0.641-2.039,0.641-3.83c0-1.265-0.219-2.326-0.656-3.184s-1.066-1.287-1.887-1.287
+				c-0.834,0-1.465,0.387-1.896,1.158c-0.43,0.773-0.646,1.877-0.646,3.312c0,1.613,0.217,2.846,0.646,3.696
+				C119.447,32.667,120.078,33.092,120.912,33.092z"/>
+			<path style="fill:#010101;" d="M136.951,34.333h-2.186v-7.916c0-0.896-0.156-1.567-0.471-2.015s-0.787-0.672-1.416-0.672
+				c-0.793,0-1.408,0.301-1.846,0.902s-0.656,1.385-0.656,2.348v7.353h-2.184V22.408h1.221l0.441,1.764
+				c0.758-1.293,1.912-1.938,3.465-1.938c1.211,0,2.117,0.317,2.723,0.954c0.605,0.635,0.908,1.586,0.908,2.85V34.333z"/>
+			<path style="fill:#010101;" d="M142.078,18.102v5.414c0.779-0.855,1.746-1.282,2.9-1.282c1.334,0,2.336,0.492,3.006,1.477
+				s1.004,2.461,1.004,4.43s-0.451,3.511-1.354,4.624c-0.902,1.115-2.143,1.672-3.723,1.672c-1.551,0-2.891-0.068-4.02-0.205V18.102
+				H142.078z M142.078,28.324v4.521c0.635,0.082,1.203,0.123,1.701,0.123c1.006,0,1.746-0.367,2.225-1.102s0.719-1.998,0.719-3.789
+				c0-1.449-0.188-2.536-0.564-3.261c-0.375-0.725-0.936-1.087-1.682-1.087c-0.725,0-1.262,0.219-1.609,0.656
+				c-0.35,0.438-0.568,0.969-0.656,1.595C142.121,26.606,142.078,27.388,142.078,28.324z"/>
+			<path style="fill:#010101;" d="M157.643,32.61c-0.738,1.258-1.887,1.887-3.445,1.887c-1.086,0-1.932-0.306-2.537-0.918
+				c-0.605-0.611-0.908-1.468-0.908-2.568c0-1.135,0.311-1.98,0.934-2.538c0.621-0.557,1.367-0.905,2.234-1.046
+				c0.869-0.14,1.926-0.21,3.17-0.21v-1.404c0-1.389-0.742-2.082-2.227-2.082c-0.854,0-1.896,0.182-3.127,0.543v-1.527
+				c1.238-0.342,2.414-0.513,3.527-0.513c1.312,0,2.309,0.316,2.99,0.948c0.68,0.633,1.02,1.564,1.02,2.795v8.356h-1.189
+				L157.643,32.61z M157.09,28.52h-1.221c-0.979,0-1.711,0.207-2.199,0.62s-0.734,1.03-0.734,1.851c0,0.67,0.15,1.171,0.447,1.502
+				c0.297,0.332,0.742,0.498,1.338,0.498c0.752,0,1.334-0.24,1.748-0.719s0.621-1.127,0.621-1.947V28.52z"/>
+			<path style="fill:#010101;" d="M163.436,22.408l0.502,1.988c0.664-1.4,1.818-2.102,3.467-2.102c0.219,0,0.379,0.01,0.482,0.031
+				v1.988c-0.172-0.014-0.428-0.02-0.77-0.02c-0.938,0-1.623,0.224-2.061,0.671c-0.438,0.448-0.656,1.147-0.656,2.097v7.271h-2.186
+				V22.408H163.436z"/>
 		</g>
-		<g id="duinavigationbar-menu-background_1_">
-			<path style="fill:#FFFFFF;" d="M88,614v88c0,6.6-5.4,12-12,12H12c-6.6,0-12-5.4-12-12v-88H88z"/>
-			<path style="fill:#999999;" d="M86,614v88c0,5.5-4.5,10-10,10H12c-5.5,0-10-4.5-10-10v-88H86z"/>
+		<g id="duimenu-background">
+			<path style="fill:#FFFFFF;" d="M105.666,803v88c0,6.6-5.4,12-12,12h-64c-6.6,0-12-5.4-12-12v-88H105.666z"/>
+			<path style="fill:#999999;" d="M103.666,803v88c0,5.5-4.5,10-10,10h-64c-5.5,0-10-4.5-10-10v-88H103.666z"/>
+		</g>
+		<g id="duinavigationbar-menu-background">
+			<path style="fill:#FFFFFF;" d="M105.666,663v88c0,6.6-5.4,12-12,12h-64c-6.6,0-12-5.4-12-12v-88H105.666z"/>
+			<path style="fill:#999999;" d="M103.666,663v88c0,5.5-4.5,10-10,10h-64c-5.5,0-10-4.5-10-10v-88H103.666z"/>
 		</g>
 		<g id="duinavigationbar-button-close-background-pressed">
 			<g>
-				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="118" y1="601" x2="118" y2="529">
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="135.666" y1="650" x2="135.666" y2="578">
 					<stop  offset="0" style="stop-color:#333333"/>
 					<stop  offset="0.0219" style="stop-color:#383838"/>
 					<stop  offset="0.0976" style="stop-color:#444444"/>
@@ -29,12 +110,12 @@
 					<stop  offset="0.9693" style="stop-color:#272727"/>
 					<stop  offset="1" style="stop-color:#1A1A1A"/>
 				</linearGradient>
-				<rect x="82" y="529" style="fill:url(#SVGID_1_);" width="72" height="72"/>
+				<rect x="99.666" y="578" style="fill:url(#SVGID_1_);" width="72" height="72"/>
 			</g>
 		</g>
 		<g id="duinavigationbar-button-close-background">
 			<g>
-				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="36" y1="601" x2="36" y2="529">
+				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="53.666" y1="650" x2="53.666" y2="578">
 					<stop  offset="0" style="stop-color:#333333"/>
 					<stop  offset="0.4129" style="stop-color:#353535"/>
 					<stop  offset="0.5616" style="stop-color:#3C3C3C"/>
@@ -45,13 +126,13 @@
 					<stop  offset="0.9492" style="stop-color:#A9A9A9"/>
 					<stop  offset="1" style="stop-color:#CCCCCC"/>
 				</linearGradient>
-				<rect y="529" style="fill:url(#SVGID_2_);" width="72" height="72"/>
+				<rect x="17.666" y="578" style="fill:url(#SVGID_2_);" width="72" height="72"/>
 			</g>
-			<rect y="541" style="fill:#999999;" width="1" height="48"/>
+			<rect x="17.666" y="590" style="fill:#999999;" width="1" height="48"/>
 		</g>
 		<g id="duinavigationbar-toolbarbutton-background-pressed">
 			<g>
-				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="118" y1="519" x2="118" y2="447">
+				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="135.666" y1="568" x2="135.666" y2="496">
 					<stop  offset="0" style="stop-color:#333333"/>
 					<stop  offset="0.0219" style="stop-color:#383838"/>
 					<stop  offset="0.0976" style="stop-color:#444444"/>
@@ -63,12 +144,12 @@
 					<stop  offset="0.9693" style="stop-color:#272727"/>
 					<stop  offset="1" style="stop-color:#1A1A1A"/>
 				</linearGradient>
-				<rect x="82" y="447" style="fill:url(#SVGID_3_);" width="72" height="72"/>
+				<rect x="99.666" y="496" style="fill:url(#SVGID_3_);" width="72" height="72"/>
 			</g>
 		</g>
 		<g id="duinavigationbar-toolbarbutton-background">
 			<g>
-				<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="36" y1="519" x2="36" y2="447">
+				<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="53.666" y1="568" x2="53.666" y2="496">
 					<stop  offset="0" style="stop-color:#333333"/>
 					<stop  offset="0.4129" style="stop-color:#353535"/>
 					<stop  offset="0.5616" style="stop-color:#3C3C3C"/>
@@ -79,12 +160,12 @@
 					<stop  offset="0.9492" style="stop-color:#A9A9A9"/>
 					<stop  offset="1" style="stop-color:#CCCCCC"/>
 				</linearGradient>
-				<rect y="447" style="fill:url(#SVGID_4_);" width="72" height="72"/>
+				<rect x="17.666" y="496" style="fill:url(#SVGID_4_);" width="72" height="72"/>
 			</g>
 		</g>
 		<g id="duinavigationbar-toolbar-background">
 			<g>
-				<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="36" y1="437" x2="36" y2="365.0005">
+				<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="53.666" y1="486" x2="53.666" y2="414.0005">
 					<stop  offset="0" style="stop-color:#333333"/>
 					<stop  offset="0.4129" style="stop-color:#353535"/>
 					<stop  offset="0.5616" style="stop-color:#3C3C3C"/>
@@ -95,14 +176,30 @@
 					<stop  offset="0.9492" style="stop-color:#A9A9A9"/>
 					<stop  offset="1" style="stop-color:#CCCCCC"/>
 				</linearGradient>
-				<rect y="365" style="fill:url(#SVGID_5_);" width="72" height="72"/>
+				<rect x="17.666" y="414" style="fill:url(#SVGID_5_);" width="72" height="72"/>
 			</g>
-			<rect y="377" style="fill:#999999;" width="1" height="48"/>
-			<rect x="71" y="377" style="fill:#CCCCCC;" width="1" height="48"/>
+			<rect x="17.666" y="426" style="fill:#999999;" width="1" height="48"/>
+		</g>
+		<g id="duinavigationbar-portrait-toolbar-background">
+			<g>
+				<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="135.666" y1="486" x2="135.666" y2="414.0005">
+					<stop  offset="0" style="stop-color:#333333"/>
+					<stop  offset="0.4129" style="stop-color:#353535"/>
+					<stop  offset="0.5616" style="stop-color:#3C3C3C"/>
+					<stop  offset="0.6676" style="stop-color:#474747"/>
+					<stop  offset="0.7534" style="stop-color:#585858"/>
+					<stop  offset="0.8268" style="stop-color:#6E6E6E"/>
+					<stop  offset="0.8918" style="stop-color:#8A8A8A"/>
+					<stop  offset="0.9492" style="stop-color:#A9A9A9"/>
+					<stop  offset="1" style="stop-color:#CCCCCC"/>
+				</linearGradient>
+				<rect x="99.666" y="414" style="fill:url(#SVGID_6_);" width="72" height="72"/>
+			</g>
+			<rect x="88.666" y="426" style="fill:#CCCCCC;" width="1" height="48"/>
 		</g>
 		<g id="duinavigationbar-viewmenu-background-pressed">
 			<g>
-				<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="118" y1="355" x2="118" y2="283">
+				<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="135.666" y1="404" x2="135.666" y2="332">
 					<stop  offset="0" style="stop-color:#333333"/>
 					<stop  offset="0.0219" style="stop-color:#383838"/>
 					<stop  offset="0.0976" style="stop-color:#444444"/>
@@ -114,12 +211,12 @@
 					<stop  offset="0.9693" style="stop-color:#272727"/>
 					<stop  offset="1" style="stop-color:#1A1A1A"/>
 				</linearGradient>
-				<rect x="82" y="283" style="fill:url(#SVGID_6_);" width="72" height="72"/>
+				<rect x="99.666" y="332" style="fill:url(#SVGID_7_);" width="72" height="72"/>
 			</g>
 		</g>
 		<g id="duinavigationbar-viewmenu-background">
 			<g>
-				<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="36" y1="355" x2="36" y2="283">
+				<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="53.666" y1="404" x2="53.666" y2="332">
 					<stop  offset="0" style="stop-color:#333333"/>
 					<stop  offset="0.4129" style="stop-color:#353535"/>
 					<stop  offset="0.5616" style="stop-color:#3C3C3C"/>
@@ -130,14 +227,14 @@
 					<stop  offset="0.9492" style="stop-color:#A9A9A9"/>
 					<stop  offset="1" style="stop-color:#CCCCCC"/>
 				</linearGradient>
-				<rect y="283" style="fill:url(#SVGID_7_);" width="72" height="72"/>
+				<rect x="17.666" y="332" style="fill:url(#SVGID_8_);" width="72" height="72"/>
 			</g>
-			<rect y="295" style="fill:#999999;" width="1" height="48"/>
-			<rect x="71" y="295" style="fill:#CCCCCC;" width="1" height="48"/>
+			<rect x="17.666" y="344" style="fill:#999999;" width="1" height="48"/>
+			<rect x="88.666" y="344" style="fill:#CCCCCC;" width="1" height="48"/>
 		</g>
 		<g id="duinavigationbar-button-home-background-pressed">
 			<g>
-				<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="118" y1="273" x2="118" y2="201">
+				<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="135.666" y1="322" x2="135.666" y2="250">
 					<stop  offset="0" style="stop-color:#333333"/>
 					<stop  offset="0.0219" style="stop-color:#383838"/>
 					<stop  offset="0.0976" style="stop-color:#444444"/>
@@ -149,12 +246,12 @@
 					<stop  offset="0.9693" style="stop-color:#272727"/>
 					<stop  offset="1" style="stop-color:#1A1A1A"/>
 				</linearGradient>
-				<rect x="82" y="201" style="fill:url(#SVGID_8_);" width="72" height="72"/>
+				<rect x="99.666" y="250" style="fill:url(#SVGID_9_);" width="72" height="72"/>
 			</g>
 		</g>
 		<g id="duinavigationbar-button-home-background">
 			<g>
-				<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="36" y1="273" x2="36" y2="201">
+				<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="53.666" y1="322" x2="53.666" y2="250">
 					<stop  offset="0" style="stop-color:#333333"/>
 					<stop  offset="0.4129" style="stop-color:#353535"/>
 					<stop  offset="0.5616" style="stop-color:#3C3C3C"/>
@@ -165,13 +262,13 @@
 					<stop  offset="0.9492" style="stop-color:#A9A9A9"/>
 					<stop  offset="1" style="stop-color:#CCCCCC"/>
 				</linearGradient>
-				<rect y="201" style="fill:url(#SVGID_9_);" width="72" height="72"/>
+				<rect x="17.666" y="250" style="fill:url(#SVGID_10_);" width="72" height="72"/>
 			</g>
-			<rect x="71" y="213" style="fill:#CCCCCC;" width="1" height="48"/>
+			<rect x="88.666" y="262" style="fill:#CCCCCC;" width="1" height="48"/>
 		</g>
 		<g id="duinavigationbar-background">
 			<g id="_x3C_path_x3E_">
-				<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="73.0005" y1="112" x2="73.0005" y2="40">
+				<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="90.6665" y1="161" x2="90.6665" y2="89">
 					<stop  offset="0" style="stop-color:#333333"/>
 					<stop  offset="0.4129" style="stop-color:#353535"/>
 					<stop  offset="0.5616" style="stop-color:#3C3C3C"/>
@@ -182,12 +279,12 @@
 					<stop  offset="0.9492" style="stop-color:#A9A9A9"/>
 					<stop  offset="1" style="stop-color:#CCCCCC"/>
 				</linearGradient>
-				<rect y="40" style="fill:url(#SVGID_10_);" width="146" height="72"/>
+				<rect x="17.666" y="89" style="fill:url(#SVGID_11_);" width="146" height="72"/>
 			</g>
 		</g>
 		<g id="duinavigationbar-button-background-pressed">
 			<g id="_x3C_path_x3E__1_">
-				<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="36" y1="191" x2="36" y2="119">
+				<linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="53.666" y1="240" x2="53.666" y2="168">
 					<stop  offset="0" style="stop-color:#333333"/>
 					<stop  offset="0.0219" style="stop-color:#383838"/>
 					<stop  offset="0.0976" style="stop-color:#444444"/>
@@ -199,12 +296,12 @@
 					<stop  offset="0.9693" style="stop-color:#272727"/>
 					<stop  offset="1" style="stop-color:#1A1A1A"/>
 				</linearGradient>
-				<rect y="119" style="fill:url(#SVGID_11_);" width="72" height="72"/>
+				<rect x="17.666" y="168" style="fill:url(#SVGID_12_);" width="72" height="72"/>
 			</g>
 		</g>
 		<g id="duinavigationbar-statusarea-background">
 			<g>
-				<linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="29" y1="28" x2="29" y2="2.842171e-14">
+				<linearGradient id="SVGID_13_" gradientUnits="userSpaceOnUse" x1="57.6665" y1="78" x2="57.6665" y2="48">
 					<stop  offset="0" style="stop-color:#000000"/>
 					<stop  offset="0.4746" style="stop-color:#020202"/>
 					<stop  offset="0.6456" style="stop-color:#090909"/>
@@ -213,7 +310,7 @@
 					<stop  offset="0.9494" style="stop-color:#3B3B3B"/>
 					<stop  offset="1" style="stop-color:#4D4D4D"/>
 				</linearGradient>
-				<rect style="fill:url(#SVGID_12_);" width="58" height="28"/>
+				<rect x="17.666" y="48" style="fill:url(#SVGID_13_);" width="80" height="30"/>
 			</g>
 		</g>
 	</g>
