@@ -44,7 +44,8 @@ DuiContentItemStyle {
     title-object-name: "ContentItemTitle";
     subtitle-object-name: "ContentItemSubtitle";
     image-object-name: "ContentItemImage";
-    optional-image-object-name: "OptionalContentItemImage";
+    optional-image-object-name: "ContentItemOptionalImage";
+    small-item-object-name: "ContentItemSmallItem";
 }
 
 DuiContentItemStyle:selected {
@@ -142,6 +143,18 @@ DuiContentItemStyle:pressed {
 
     margin-left:   0;
     margin-right:  $MARGIN_DOUBLE;
-    margin-top:    $MARGIN_DOUBLE;
+    margin-top:    $MARGIN_MEDIUM;
     margin-bottom: $MARGIN_DOUBLE;
+}
+
+#ContentItemSmallItem {
+    /* inherited from DuiWidgetStyle */
+    preferred-size: 2.8mm 2,8mm;
+    minimum-size: 2.8mm 2.8mm;
+    maximum-size: 2.8mm 2.8mm;
+
+    margin-left:   0;
+    margin-right:  $MARGIN_DOUBLE;
+    margin-top:    $MARGIN_SMALL;
+    margin-bottom: 0;
 }
