@@ -1,0 +1,54 @@
+/* DuiToolbarStyle : DuiToolbarStyle */
+DuiToolbarTabStyle {
+    /* inherited from DuiWidgetStyle */
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    background-opacity: 0.0;
+
+    preferred-size: -1 $HEIGHT_NAVIGATIONBAR;
+    minimum-size: -1 $HEIGHT_NAVIGATIONBAR;
+    maximum-size: -1 $HEIGHT_NAVIGATIONBAR;
+}
+
+DuiButtonStyle[toolbartab] {
+
+    background-image: "duitabbar-tab-inactive-background" 10px 10px 10px 10px;
+    background-color: $COLOR_BACKGROUND;
+    text-color: $COLOR_FOREGROUND;
+    /* inherited from DuiWidgetStyle */
+
+    margin-top: $MARGIN_SMALL;
+    margin-bottom: $MARGIN_SMALL;
+    margin-left: $MARGIN_XSMALL;
+    margin-right: $MARGIN_XSMALL;
+
+    minimum-size: 9.2mm 5.8mm;
+    preferred-size: 9.2mm 5.8mm;
+    maximum-size: 9.2mm 5.8mm;
+
+    reactive-margin-right: 0;
+    reactive-margin-bottom: 0;
+
+    padding-left:   $MARGIN_XSMALL;
+    padding-top:    $MARGIN_XSMALL;
+    padding-right:  $MARGIN_XSMALL;
+    padding-bottom: $MARGIN_XSMALL;
+}
+
+DuiButtonStyle[toolbartab]:pressed {
+    background-image: "duitabbar-tab-active-background-pressed" 10px 10px 10px 10px;
+    background-color: $COLOR_SELECT;
+}
+
+DuiButtonStyle[toolbartab]:selected {
+    background-image: "duitabbar-tab-active-background" 10px 10px 10px 10px;
+    background-color: $COLOR_SELECT;
+}
