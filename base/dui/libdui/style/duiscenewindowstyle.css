@@ -24,3 +24,15 @@ DuiSceneWindowStyle {
     preferred-size: 100% 100%;
     maximum-size: 100% 100%;
 }
+
+/* Temporary styling. When the status bar starts to be drawn remotely by the
+   sysuid process that styling below should be removed.
+   Currently the in-scene status bar is just a place holder to reserve space
+   in the scene for the real status bar which is diplayed on top of the application
+   window.*/
+DuiSceneWindowStyle#statusBar
+{
+    minimum-size: 100% 28px;
+    preferred-size: 100% 28px;
+    maximum-size: 100% 28px;
+}

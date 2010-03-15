@@ -29,7 +29,7 @@ DuiDialogStyle {
     /* supports only "bottom" or "center" */
     dialog-vertical-alignment: bottom;
 
-    dialog-top-margin: $HEIGHT_NAVIGATIONBAR;
+    dialog-top-margin: $HEIGHT_TOPBARS;
     dialog-bottom-margin: 0;
     dialog-left-margin: $MARGIN_LARGE;
     dialog-right-margin: $MARGIN_LARGE;
