@@ -6,7 +6,7 @@
 	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
 <g id="icon-m-common-bluetooth">
 	<rect style="fill:none;" width="64" height="64"/>
-	<path id="icon-s-bluetooth_1_" style="fill:#333333;" d="M30.342,1v25.006L19.854,15.518l-3.566,3.566L29.125,31.98L16,45.107
+	<path id="icon-s-bluetooth_2_" style="fill:#333333;" d="M30.342,1v25.006L19.854,15.518l-3.566,3.566L29.125,31.98L16,45.107
 		l3.565,3.564l10.777-10.771V63l18.521-18.486L36.253,31.98l12.604-12.521L30.342,1z M41.688,19.414l-6.308,6.303v-12.6
 		L41.688,19.414z M35.381,51.222V38.184l6.52,6.518L35.381,51.222z"/>
 </g>

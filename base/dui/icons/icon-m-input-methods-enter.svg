@@ -2,11 +2,12 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-input-methods-enter-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="36px"
-	 viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
 <g id="icon-m-input-methods-enter">
-	<polygon style="fill:#333333;" points="33.32,6.473 33.316,21.363 14.628,21.381 14.628,29.753 3.705,18.623 14.628,7.478 
-		14.627,15.447 28.811,15.447 28.811,12.801 17.272,12.801 17.274,1 0,18.623 17.273,36.225 17.273,24.021 35.965,24.021 
-		35.965,6.473 	"/>
+	<polygon style="fill:#333333;" points="37.459,12.594 37.457,26.999 19.377,27.016 19.377,35.116 8.809,24.348 19.377,13.566 
+		19.375,21.275 33.098,21.275 33.098,18.715 21.936,18.715 21.937,7.299 5.225,24.348 21.936,41.377 21.936,29.571 40.02,29.571 
+		40.02,12.594 	"/>
+	<rect style="opacity:0.35;fill:none;" width="48" height="48"/>
 </g>
 </svg>

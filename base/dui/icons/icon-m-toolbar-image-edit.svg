@@ -2,15 +2,16 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-toolbar-image-edit-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="42px" height="40px"
-	 viewBox="0 0 42 40" style="enable-background:new 0 0 42 40;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
 <g id="icon-m-toolbar-image-edit">
-	<path style="fill:#FFFFFF;" d="M5.877,34.715h21.139c0,0-4.131-14.498-8.489-4.854C15.911,23.813,10.777,16.34,5.877,34.715z"/>
-	<path style="fill:#FFFFFF;" d="M29.799,22.924v14.139H2.881V15.525h14.109l0.987-2.937H0V40h32.682V20.195l-2.094,2.08
-		C30.361,22.502,30.088,22.717,29.799,22.924z"/>
-	<path style="fill:#FFFFFF;" d="M41.582,4.983l-4.773-4.786c-0.266-0.264-0.695-0.264-0.961,0L22.129,13.785
-		c-0.263,0.265-0.576,0.771-0.696,1.125l-2.45,7.352c-0.116,0.354,0.077,0.547,0.432,0.43l7.342-2.45
-		c0.352-0.117,0.857-0.431,1.121-0.695L41.582,5.943C41.848,5.681,41.848,5.248,41.582,4.983z M26.512,18.588l-2.93,0.978
-		l-1.475-1.476l0.979-2.935l1.299-1.3l3.396,3.461L26.512,18.588z"/>
+	<rect style="fill:none;" width="64" height="64"/>
+	<path style="fill:#FFFFFF;" d="M16.987,46.715h21.138c0,0-4.13-14.498-8.488-4.854C27.021,35.813,21.887,28.34,16.987,46.715z"/>
+	<path style="fill:#FFFFFF;" d="M40.908,34.924v14.139H13.991V27.525h14.109l0.987-2.937H11.11V52h32.681V32.195l-2.094,2.079
+		C41.472,34.501,41.197,34.717,40.908,34.924z"/>
+	<path style="fill:#FFFFFF;" d="M52.692,16.983l-4.773-4.786c-0.267-0.264-0.696-0.264-0.962,0L33.238,25.785
+		c-0.262,0.265-0.575,0.771-0.695,1.125l-2.45,7.352c-0.116,0.354,0.077,0.547,0.432,0.43l7.342-2.449
+		c0.352-0.118,0.857-0.432,1.121-0.696l13.703-13.603C52.957,17.681,52.957,17.248,52.692,16.983z M37.621,30.588l-2.93,0.978
+		l-1.475-1.476l0.979-2.935l1.299-1.3l3.397,3.461L37.621,30.588z"/>
 </g>
 </svg>

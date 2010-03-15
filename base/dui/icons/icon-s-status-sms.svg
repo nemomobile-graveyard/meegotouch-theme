@@ -4,9 +4,10 @@
 <svg version="1.1" id="icon-s-status-sms-layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" width="26px" height="18px" viewBox="0 0 26 18" style="enable-background:new 0 0 26 18;" xml:space="preserve">
 <g id="icon-s-status-sms">
-	<path style="fill:#FFFFFF;" d="M12.722,12.745l-0.383-0.161L0,7.189l0,10.016C0,17.643,0.358,18,0.796,18h23.85
-		c0.438,0,0.795-0.357,0.795-0.795V7.189l-12.34,5.395L12.722,12.745z"/>
-	<path style="fill:#FFFFFF;" d="M25.44,0.795C25.44,0.357,25.083,0,24.646,0H0.796C0.358,0,0,0.357,0,0.795l0,3.444l12.722,5.572
-		L25.44,4.239V0.795z"/>
+	<rect style="fill:none;" width="26" height="18"/>
+	<path style="fill:#FFFFFF;" d="M13.002,12.745l-0.383-0.161L0.28,7.189l0,10.016C0.28,17.643,0.638,18,1.076,18h23.85
+		c0.438,0,0.795-0.357,0.795-0.795V7.189l-12.34,5.395L13.002,12.745z"/>
+	<path style="fill:#FFFFFF;" d="M25.721,0.795C25.721,0.357,25.363,0,24.926,0H1.076C0.638,0,0.28,0.357,0.28,0.795l0,3.444
+		l12.722,5.572l12.719-5.572V0.795z"/>
 </g>
 </svg>

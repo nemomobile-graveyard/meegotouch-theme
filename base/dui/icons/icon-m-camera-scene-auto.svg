@@ -6,7 +6,7 @@
 	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
 <g id="icon-m-camera-scene-auto">
 	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#333333;" d="M25.973,41.22h11.396l2.26,7.814h5.18l-9.982-34.068h-5.463L19.191,49.034h4.521L25.973,41.22z
+	<path style="fill:#333333;" d="M25.973,41.22h11.396l2.26,7.815h5.18l-9.982-34.069h-5.463L19.191,49.035h4.521L25.973,41.22z
 		 M31.719,20.066l4.756,17.735h-9.607L31.719,20.066z"/>
 	<path style="fill:#333333;" d="M1,6v52h62V6H1z M58,53H6V11h52V53z"/>
 </g>

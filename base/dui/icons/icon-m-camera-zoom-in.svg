@@ -6,7 +6,7 @@
 	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
 <g id="icon-m-camera-zoom-in">
 	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#333333;" d="M59.5,39.35l-20,0.15l-0.002,20H24.501l-0.001-20L4.5,39.361L4.5,24.5h20l0.001-20h14.997l0.002,20
+	<path style="fill:#333333;" d="M59.5,39.35l-20,0.15l-0.002,20H24.5l-0.001-20L4.5,39.361L4.5,24.5h20l0.001-20h14.998l0.002,20
 		h19.998L59.5,39.35z"/>
 </g>
 </svg>

@@ -6,7 +6,7 @@
 	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
 <g id="icon-m-toolbar-filter">
 	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#FFFFFF;" d="M56.849,12H7.151c-0.633,0-0.783,0.365-0.336,0.812l21.062,21.974V46.09L36.572,52V34.785
-		l20.613-21.974C57.633,12.365,57.48,12,56.849,12z"/>
+	<path style="fill:#FFFFFF;" d="M48.894,17H15.106c-0.429,0-0.532,0.248-0.229,0.553l14.42,16.52v9.686L34.703,47V34.072
+		l14.42-16.52C49.428,17.248,49.323,17,48.894,17z"/>
 </g>
 </svg>

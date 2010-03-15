@@ -6,7 +6,8 @@
 	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
 <g id="icon-m-common-printer">
 	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#333333;" d="M60,8L3,8.001c-2,0-2,2-2,2v29.997h8v16h45V40h8V10C62,8,60,8,60,8z M57,33h-7v19l-37,0.001v-19H6
-		v-6L57,27V33z M58,16c0,2-2,2-2,2h-9c-2,0-2-2-2-2v-2c0,0,0-2,2-2h9c0,0,2,0,2,2V16z M32,34.001l7,6l7-7H16v5l6,6L32,34.001z"/>
+	<path style="fill:#333333;" d="M60.5,8l-57,0.001c-2,0-2,2-2,2v29.997h8v16h45V40h8V10C62.5,8,60.5,8,60.5,8z M57.5,33h-7v19
+		l-37,0.001v-19h-7v-6L57.5,27V33z M58.5,16c0,2-2,2-2,2h-9c-2,0-2-2-2-2v-2c0,0,0-2,2-2h9c0,0,2,0,2,2V16z M32.5,34.001l7,6l7-7
+		h-30v5l6,6L32.5,34.001z"/>
 </g>
 </svg>

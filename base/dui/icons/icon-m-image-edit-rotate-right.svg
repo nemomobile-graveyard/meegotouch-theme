@@ -7,9 +7,9 @@
 <g id="icon-m-image-edit-rotate-right">
 	<rect style="fill:none;" width="64" height="64"/>
 	
-		<ellipse transform="matrix(0.707 -0.7072 0.7072 0.707 -29.7241 25.0797)" style="fill:#333333;" cx="15.404" cy="48.411" rx="3.915" ry="3.937"/>
+		<ellipse transform="matrix(0.707 -0.7073 0.7073 0.707 -29.7252 25.0816)" style="fill:#333333;" cx="15.404" cy="48.411" rx="3.914" ry="3.937"/>
 	
-		<ellipse transform="matrix(0.7072 -0.707 0.707 0.7072 -30.0478 36.1355)" style="fill:#333333;" cx="28.606" cy="54.348" rx="3.915" ry="3.937"/>
+		<ellipse transform="matrix(0.7072 -0.707 0.707 0.7072 -30.0479 36.1352)" style="fill:#333333;" cx="28.606" cy="54.348" rx="3.915" ry="3.937"/>
 	
 		<ellipse transform="matrix(0.707 -0.7072 0.7072 0.707 -23.8635 45.1509)" style="fill:#333333;" cx="42.557" cy="51.374" rx="3.915" ry="3.937"/>
 	<path style="fill:#333333;" d="M47.887,12.395l6.471-6.473c0.338-0.336,0.68-0.225,0.76,0.25L59,29.066

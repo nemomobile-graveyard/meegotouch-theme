@@ -5,6 +5,7 @@
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px" height="18px"
 	 viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
 <g id="icon-s-email-message-forwarded">
-	<polygon style="fill:#333333;" points="0,12.5 8.97,12.499 8.969,18 17.999,9.001 8.969,0 8.969,5.5 0,5.5 	"/>
+	<rect style="fill:none;" width="18" height="18"/>
+	<polygon style="fill:#333333;" points="0.001,12.5 8.971,12.498 8.971,18 18,9.002 8.97,0 8.971,5.5 0.001,5.5 	"/>
 </g>
 </svg>

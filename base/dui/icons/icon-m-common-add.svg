@@ -5,7 +5,8 @@
 	 x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
 <g id="icon-m-common-add">
 	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#333333;" d="M58.156,5.844v52.312H5.844V5.844H58.156 M63,1H1v62h62V1L63,1z"/>
-	<path style="fill:#333333;" d="M51,36.9L37,37v14H27V37l-14-0.09V27h14V13h10v14h14V36.9z"/>
+	<path style="fill:#333333;" d="M59,5v54H5V5H59 M64,0H0v64h64V0L64,0z"/>
+	<path style="fill:#333333;" d="M50.94,37.048H37.188v13.979H26.892V37.048H13.06v-9.973l0.236-0.288h13.596V12.974h10.296v13.813
+		H50.94V37.048z"/>
 </g>
 </svg>

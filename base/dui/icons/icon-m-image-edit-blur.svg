@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 13.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px"
-	 height="64px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
-	<g id="icon-m-image-edit-blur">
-		<rect style="fill:none;" width="64" height="64"/>
-		<path style="fill:#333333;" d="M31.998,2c0,0-22.276,25.42-22.276,37.725C9.722,52.031,19.695,62,31.998,62
-			c12.308,0,22.276-9.969,22.276-22.275C54.274,27.422,31.998,2,31.998,2z"/>
-	</g>
+<svg version="1.1" id="icon-m-image-edit-blur-layer"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<g id="icon-m-image-edit-blur">
+	<rect style="fill:none;" width="64" height="64"/>
+	<path style="fill:#333333;" d="M31.998,2c0,0-22.276,25.42-22.276,37.725C9.722,52.031,19.695,62,31.998,62
+		c12.308,0,22.277-9.969,22.277-22.275C54.274,27.422,31.998,2,31.998,2z"/>
+</g>
 </svg>

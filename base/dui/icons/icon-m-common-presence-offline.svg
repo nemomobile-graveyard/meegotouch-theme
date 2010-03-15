@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="icon-m-presence-offline-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
-	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<svg version="1.1" id="icon-m-common-presence-offline-layer"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="65px" height="64px"
+	 viewBox="0 0 65 64" style="enable-background:new 0 0 65 64;" xml:space="preserve">
 <g id="icon-m-common-presence-offline">
-	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#333333;" d="M32.004,0C14.328,0,0,14.342,0,32.02C0,49.672,14.328,64,32.004,64C49.662,64,64,49.672,64,32.02
-		C64,14.342,49.662,0,32.004,0z M47.111,41.201c1.605,1.607,1.605,4.234,0,5.838v0.002c-1.605,1.605-4.234,1.605-5.84-0.002
-		l-8.832-8.832l-7.801,7.801c-1.605,1.605-4.383,1.839-6.168,0.516c-1.789-1.32-1.936-3.715-0.332-5.322l8.646-8.645l-8.646-8.646
-		c-1.607-1.606-1.607-4.234,0-5.84c1.605-1.605,4.232-1.605,5.838,0l8.65,8.646l8.645-8.646c1.607-1.605,4.383-1.838,6.17-0.517
-		s1.936,3.718,0.33,5.323l-9.494,9.492L47.111,41.201z"/>
+	<rect x="1" style="fill:none;" width="64" height="64"/>
+	<path style="fill:#333333;" d="M33.004,1C15.881,1,2,14.894,2,32.018C2,49.119,15.881,63,33.004,63C50.111,63,64,49.119,64,32.018
+		C64,14.894,50.111,1,33.004,1z M47.639,40.914c1.557,1.557,1.557,4.101,0,5.654v0.002c-1.555,1.556-4.102,1.556-5.656-0.002
+		l-8.557-8.555L25.87,45.57c-1.555,1.555-4.247,1.781-5.976,0.499c-1.733-1.279-1.875-3.599-0.321-5.155l8.376-8.375l-8.376-8.377
+		c-1.557-1.556-1.557-4.102,0-5.656c1.555-1.555,4.1-1.555,5.655,0l8.379,8.376l8.375-8.376c1.557-1.555,4.246-1.78,5.977-0.501
+		c1.732,1.28,1.875,3.601,0.32,5.157l-9.197,9.196L47.639,40.914z"/>
 </g>
 </svg>

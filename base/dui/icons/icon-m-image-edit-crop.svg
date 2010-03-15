@@ -6,7 +6,7 @@
 	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
 <g id="icon-m-image-edit-crop">
 	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#333333;" d="M20.984,14.021V1h-8v13.021H2.037v8h10.947v27.957h30.031V63h8V49.979h10.946v-8H51.016V14.002
+	<path style="fill:#333333;" d="M20.984,14.021V1h-8v13.021H2.037v8h10.947v27.957h30.031V63h8V49.979h10.947v-8H51.016V14.002
 		L20.984,14.021z M43.016,41.979H21l-0.015,0.014V22.021h22.031V41.979z"/>
 </g>
 </svg>
