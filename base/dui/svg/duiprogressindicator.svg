@@ -106,16 +106,40 @@
 				V47.607H139.299z"/>
 		</g>
 		<g id="duiprogressindicator-bar-background">
-			<path style="fill:#808080;" d="M84,265.588c-4.963,0-9-4.038-9-9v-2c0-4.963,4.037-9,9-9h2c4.963,0,9,4.037,9,9v2
-				c0,4.962-4.037,9-9,9H84z"/>
-			<path style="fill:#999999;" d="M86,246.588c4.411,0,8,3.588,8,8v2c0,4.41-3.589,8-8,8h-2c-4.411,0-8-3.59-8-8v-2
-				c0-4.412,3.589-8,8-8H86 M86,244.588h-2c-5.5,0-10,4.5-10,10v2c0,5.5,4.5,10,10,10h2c5.5,0,10-4.5,10-10v-2
-				C96,249.088,91.5,244.588,86,244.588L86,244.588z"/>
+			<g id="Normal_22_" style="opacity:0.2;">
+				<path style="fill:#010101;" d="M134,254.449c0,3.3-2.7,6-6,6h-18c-3.3,0-6-2.7-6-6v-4c0-3.3,2.7-6,6-6h18c3.3,0,6,2.7,6,6
+					V254.449z"/>
+			</g>
+			<g id="Normal_20_">
+				<path style="fill:#CCCCCC;" d="M133,254.449c0,2.75-2.25,5-5,5h-18c-2.75,0-5-2.25-5-5v-2c0-2.75,2.25-5,5-5h18
+					c2.75,0,5,2.25,5,5V254.449z"/>
+			</g>
+			<g id="Normal_19_">
+				<path style="fill:#010101;" d="M133,252.449c0,2.75-2.25,5-5,5h-18c-2.75,0-5-2.25-5-5v-2c0-2.75,2.25-5,5-5h18
+					c2.75,0,5,2.25,5,5V252.449z"/>
+			</g>
+			<g id="Normal_18_">
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="119" y1="258.4492" x2="119" y2="246.4492">
+					<stop  offset="0" style="stop-color:#1A1A1A"/>
+					<stop  offset="1" style="stop-color:#000000"/>
+				</linearGradient>
+				<path style="fill:url(#SVGID_1_);" d="M133,253.449c0,2.75-2.25,5-5,5h-18c-2.75,0-5-2.25-5-5v-2c0-2.75,2.25-5,5-5h18
+					c2.75,0,5,2.25,5,5V253.449z"/>
+			</g>
 		</g>
 		<g id="duiprogressindicator-bar-progress">
-			<rect x="104" y="244.588" style="opacity:0;fill:#010101;" width="22" height="22"/>
-			<path style="fill:#E6E6E6;" d="M123.083,256.588c0,3.85-3.149,7-7,7h-2c-3.851,0-7-3.15-7-7v-2c0-3.851,3.149-7,7-7h2
-				c3.851,0,7,3.149,7,7V256.588z"/>
+			<rect x="104" y="264.449" style="opacity:0;fill:#010101;" width="30" height="16"/>
+			<g id="Normal_31_">
+				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="119" y1="278.4492" x2="119" y2="266.4492">
+					<stop  offset="0" style="stop-color:#74CCD4"/>
+					<stop  offset="0.1301" style="stop-color:#66C2D6"/>
+					<stop  offset="0.4156" style="stop-color:#4BB5DC"/>
+					<stop  offset="0.7046" style="stop-color:#35ADDF"/>
+					<stop  offset="1" style="stop-color:#2AAAE2"/>
+				</linearGradient>
+				<path style="fill:url(#SVGID_2_);" d="M133,273.449c0,2.75-2.25,5-5,5h-18c-2.75,0-5-2.25-5-5v-2c0-2.75,2.25-5,5-5h18
+					c2.75,0,5,2.25,5,5V273.449z"/>
+			</g>
 		</g>
 		<g id="duiprogressindicator-bar-progress-unknown-mask">
 			<rect x="104" y="214.588" style="opacity:0;fill:#010101;" width="22" height="22"/>
@@ -129,7 +153,11 @@
 		</g>
 		<g id="duiprogressindicator-spinner-large-on">
 			<circle style="opacity:0.2;fill:#010101;" cx="114" cy="144" r="8"/>
-			<circle style="fill:#FFFFFF;" cx="114" cy="144" r="7"/>
+			<radialGradient id="SVGID_3_" cx="114" cy="144" r="7" gradientUnits="userSpaceOnUse">
+				<stop  offset="0" style="stop-color:#42C4E3"/>
+				<stop  offset="1" style="stop-color:#2AAAE2"/>
+			</radialGradient>
+			<circle style="fill:url(#SVGID_3_);" cx="114" cy="144" r="7"/>
 		</g>
 		<g id="duiprogressindicator-spinner-large-off">
 			<circle style="opacity:0.2;fill:#010101;" cx="92" cy="144" r="8"/>
@@ -137,7 +165,11 @@
 		</g>
 		<g id="duiprogressindicator-spinner-medium-on">
 			<circle style="opacity:0.2;fill:#010101;" cx="114" cy="118" r="5"/>
-			<circle style="fill:#FFFFFF;" cx="114" cy="118" r="4"/>
+			<radialGradient id="SVGID_4_" cx="114" cy="118" r="4" gradientUnits="userSpaceOnUse">
+				<stop  offset="0" style="stop-color:#42C4E3"/>
+				<stop  offset="1" style="stop-color:#2AAAE2"/>
+			</radialGradient>
+			<circle style="fill:url(#SVGID_4_);" cx="114" cy="118" r="4"/>
 		</g>
 		<g id="duiprogressindicator-spinner-medium-off">
 			<circle style="opacity:0.2;fill:#010101;" cx="92" cy="118" r="5"/>
@@ -145,7 +177,11 @@
 		</g>
 		<g id="duiprogressindicator-spinner-small-on">
 			<circle style="opacity:0.2;fill:#010101;" cx="114" cy="92" r="4"/>
-			<circle style="fill:#FFFFFF;" cx="114" cy="92" r="3"/>
+			<radialGradient id="SVGID_5_" cx="114" cy="92" r="3" gradientUnits="userSpaceOnUse">
+				<stop  offset="0" style="stop-color:#42C4E3"/>
+				<stop  offset="1" style="stop-color:#2AAAE2"/>
+			</radialGradient>
+			<circle style="fill:url(#SVGID_5_);" cx="114" cy="92" r="3"/>
 		</g>
 		<g id="duiprogressindicator-spinner-small-off">
 			<circle style="opacity:0.2;fill:#010101;" cx="92" cy="92" r="4"/>

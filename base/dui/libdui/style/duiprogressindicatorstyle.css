@@ -11,8 +11,8 @@ DuiProgressIndicatorStyle {
 }
 
 DuiProgressIndicatorStyle[bar] {
-    active-image: "duiprogressindicator-bar-progress" 8px 8px 8px 8px;
-    inactive-image: "duiprogressindicator-bar-background" 8px 8px 8px 8px;
+    active-image: "duiprogressindicator-bar-progress" 7px 7px 7px 7px;
+    inactive-image: "duiprogressindicator-bar-background" 7px 7px 7px 7px;
 
     maximum-size: 100% $SIZE_ONE;
     minimum-size: $SIZE_BUTTON 1mm;

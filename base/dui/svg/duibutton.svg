@@ -128,40 +128,58 @@
 				c-0.314-0.416-0.787-0.625-1.416-0.625c-0.793,0-1.408,0.301-1.846,0.902s-0.656,1.385-0.656,2.348v7.353h-2.184v-16.231h2.184
 				v5.455c0.76-0.883,1.74-1.323,2.943-1.323c1.211,0,2.117,0.323,2.723,0.969c0.605,0.646,0.908,1.612,0.908,2.897V306.749z"/>
 		</g>
-		<g id="duibutton-switch-mask">
-			<rect x="30.5" y="517" style="fill:none;" width="96" height="48"/>
-			<g id="_x3C_Path_x3E__1_">
-				<path style="fill:#FFFFFF;" d="M124.5,541c0,12.1-9.9,22-22,22h-48c-12.1,0-22-9.9-22-22l0,0c0-12.1,9.9-22,22-22h48
-					C114.6,519,124.5,528.9,124.5,541L124.5,541z"/>
-			</g>
-		</g>
 		<g id="duibutton-switch-colorstripe">
 			<g id="_x3C_Path_x3E__2_">
-				<rect x="28.5" y="465" style="fill:#F4A81D;" width="72" height="48"/>
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="60" y1="524" x2="60" y2="480">
+					<stop  offset="0" style="stop-color:#74CCD4"/>
+					<stop  offset="0.1301" style="stop-color:#66C2D6"/>
+					<stop  offset="0.4156" style="stop-color:#4BB5DC"/>
+					<stop  offset="0.7046" style="stop-color:#35ADDF"/>
+					<stop  offset="1" style="stop-color:#2AAAE2"/>
+				</linearGradient>
+				<rect x="24" y="480" style="fill:url(#SVGID_1_);" width="72" height="44"/>
 			</g>
 			<g id="_x3C_Path_x3E__3_">
-				<rect x="100.5" y="465" style="fill:#808080;" width="72" height="48"/>
+				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="132" y1="524" x2="132" y2="480">
+					<stop  offset="0" style="stop-color:#808080"/>
+					<stop  offset="1" style="stop-color:#1A1A1A"/>
+				</linearGradient>
+				<rect x="96" y="480" style="fill:url(#SVGID_2_);" width="72" height="44"/>
 			</g>
 		</g>
-		<g id="duibutton-switch-thumb">
-			<rect id="_x3C_Path_x3E__4_" x="32.5" y="407" style="opacity:0;fill:#010101;" width="48" height="48"/>
-			<g id="_x3C_Path_x3E__5_">
-				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="56.5" y1="453" x2="56.5" y2="409">
-					<stop  offset="0" style="stop-color:#B3B3B3"/>
-					<stop  offset="1" style="stop-color:#FCFCFC"/>
-				</linearGradient>
-				<path style="fill:url(#SVGID_1_);" d="M78.5,431c0,12.1-9.9,22-22,22l0,0c-12.1,0-22-9.9-22-22l0,0c0-12.1,9.9-22,22-22l0,0
-					C68.6,409,78.5,418.9,78.5,431L78.5,431z"/>
+		<g id="duibutton-switch-mask">
+			<rect x="24" y="430" style="fill:none;" width="72" height="44"/>
+			<g id="Normal_11_">
+				<path style="fill:#FFFFFF;" d="M95,452c0,11-9,20-20,20H45c-11,0-20-9-20-20l0,0c0-11,9-20,20-20h30C86,432,95,441,95,452
+					L95,452z"/>
 			</g>
 		</g>
 		<g id="duibutton-switch-background">
-			<g id="_x3C_Path_x3E_">
-				<path style="fill:#999999;" d="M128.5,373c0,13.2-10.8,24-24,24h-48c-13.2,0-24-10.8-24-24l0,0c0-13.2,10.8-24,24-24h48
-					C117.7,349,128.5,359.8,128.5,373L128.5,373z"/>
+			<g id="Normal_14_" style="opacity:0.1;">
+				<path style="fill:#010101;" d="M96,403c0,11.55-9.45,21-21,21H45c-11.55,0-21-9.45-21-21v-2c0-11.55,9.45-21,21-21h30
+					c11.55,0,21,9.45,21,21V403z"/>
 			</g>
-			<g id="_x3C_Path_x3E__6_">
-				<path style="fill:#808080;" d="M126.5,373c0,12.1-9.9,22-22,22h-48c-12.1,0-22-9.9-22-22l0,0c0-12.1,9.9-22,22-22h48
-					C116.6,351,126.5,360.9,126.5,373L126.5,373z"/>
+			<g id="Normal_13_">
+				<path style="fill:#FFFFFF;" d="M95,403c0,11-9,20-20,20H45c-11,0-20-9-20-20l0,0c0-11,9-20,20-20h30C86,383,95,392,95,403
+					L95,403z"/>
+			</g>
+			<g id="Normal_12_">
+				<path style="fill:#333333;" d="M95,401c0,11-9,20-20,20H45c-11,0-20-9-20-20l0,0c0-11,9-20,20-20h30C86,381,95,390,95,401
+					L95,401z"/>
+			</g>
+		</g>
+		<g id="duibutton-switch-thumb">
+			<rect id="_x3C_Path_x3E__5_" x="24" y="330" style="fill:none;" width="44" height="44"/>
+			<g id="Normal_1_">
+				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="46" y1="371.5" x2="46" y2="332.5">
+					<stop  offset="0" style="stop-color:#E6E6E6"/>
+					<stop  offset="0.5042" style="stop-color:#F2F2F2"/>
+					<stop  offset="1" style="stop-color:#F7F7F7"/>
+				</linearGradient>
+				<path style="fill:url(#SVGID_3_);" d="M46,371.5c-10.752,0-19.5-8.748-19.5-19.5s8.748-19.5,19.5-19.5s19.5,8.748,19.5,19.5
+					S56.752,371.5,46,371.5L46,371.5z"/>
+				<path style="fill:#FFFFFF;" d="M46,333c10.477,0,19,8.523,19,19s-8.523,19-19,19s-19-8.523-19-19S35.523,333,46,333 M46,332
+					c-11,0-20,9-20,20s9,20,20,20s20-9,20-20S57,332,46,332L46,332z"/>
 			</g>
 		</g>
 		<g id="duibutton-checkbox-checkmark-pressed">
@@ -185,86 +203,112 @@
 			</g>
 		</g>
 		<g id="duibutton-checkbox-background-pressed">
-			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="138.5" y1="186" x2="138.5" y2="124">
-				<stop  offset="0" style="stop-color:#C9C9C9"/>
-				<stop  offset="0.4115" style="stop-color:#C8C8C8"/>
-				<stop  offset="0.5598" style="stop-color:#C1C1C1"/>
-				<stop  offset="0.6654" style="stop-color:#B5B5B5"/>
-				<stop  offset="0.7509" style="stop-color:#A4A4A4"/>
-				<stop  offset="0.824" style="stop-color:#8E8E8E"/>
-				<stop  offset="0.8888" style="stop-color:#737373"/>
-				<stop  offset="0.946" style="stop-color:#535353"/>
-				<stop  offset="0.9983" style="stop-color:#2F2F2F"/>
-				<stop  offset="1" style="stop-color:#2E2E2E"/>
-			</linearGradient>
-			<path style="fill:url(#SVGID_2_);" d="M116.5,186c-4.963,0-9-4.037-9-9v-44c0-4.963,4.037-9,9-9h44c4.963,0,9,4.037,9,9v44
-				c0,4.963-4.037,9-9,9H116.5z"/>
-			<path style="fill:#999999;" d="M160.5,125c4.411,0,8,3.589,8,8v44c0,4.411-3.589,8-8,8h-44c-4.411,0-8-3.589-8-8v-44
-				c0-4.411,3.589-8,8-8H160.5 M160.5,123h-44c-5.5,0-10,4.5-10,10v44c0,5.5,4.5,10,10,10h44c5.5,0,10-4.5,10-10v-44
-				C170.5,127.5,166,123,160.5,123L160.5,123z"/>
+			<g>
+				<path style="fill:#FFFFFF;" d="M162,178c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V178z"/>
+			</g>
+			<g>
+				<path style="fill:#333333;" d="M162,176c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V176z"/>
+			</g>
+			<g>
+				<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="130" y1="187" x2="130" y2="125">
+					<stop  offset="0" style="stop-color:#B3B3B3"/>
+					<stop  offset="1" style="stop-color:#4D4D4D"/>
+				</linearGradient>
+				<path style="fill:url(#SVGID_4_);" d="M162,177c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V177z"/>
+			</g>
 		</g>
 		<g id="duibutton-checkbox-background">
-			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="64.5" y1="186" x2="64.5" y2="124">
-				<stop  offset="0" style="stop-color:#B3B3B3"/>
-				<stop  offset="1" style="stop-color:#FCFCFC"/>
-			</linearGradient>
-			<path style="fill:url(#SVGID_3_);" d="M42.5,186c-4.963,0-9-4.037-9-9v-44c0-4.963,4.037-9,9-9h44c4.963,0,9,4.037,9,9v44
-				c0,4.963-4.037,9-9,9H42.5z"/>
-			<path style="fill:#999999;" d="M86.5,125c4.411,0,8,3.589,8,8v44c0,4.411-3.589,8-8,8h-44c-4.411,0-8-3.589-8-8v-44
-				c0-4.411,3.589-8,8-8H86.5 M86.5,123h-44c-5.5,0-10,4.5-10,10v44c0,5.5,4.5,10,10,10h44c5.5,0,10-4.5,10-10v-44
-				C96.5,127.5,92,123,86.5,123L86.5,123z"/>
+			<g>
+				<path style="fill:#808080;" d="M88,178c0,5.5-4.5,10-10,10H34c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V178z"/>
+			</g>
+			<g>
+				<path style="fill:#FFFFFF;" d="M88,176c0,5.5-4.5,10-10,10H34c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V176z"/>
+			</g>
+			<g>
+				<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="56" y1="187" x2="56" y2="125">
+					<stop  offset="0" style="stop-color:#D2D3D3"/>
+					<stop  offset="1" style="stop-color:#F2F2F2"/>
+				</linearGradient>
+				<path style="fill:url(#SVGID_5_);" d="M88,177c0,5.5-4.5,10-10,10H34c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V177z"/>
+			</g>
 		</g>
 		<g id="duibutton-background-selected-pressed">
-			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="286.5" y1="112" x2="286.5" y2="50">
-				<stop  offset="0" style="stop-color:#A7752A"/>
-				<stop  offset="1" style="stop-color:#805823"/>
-			</linearGradient>
-			<path style="fill:url(#SVGID_4_);" d="M264.5,112c-4.963,0-9-4.037-9-9V59c0-4.963,4.037-9,9-9h44c4.963,0,9,4.037,9,9v44
-				c0,4.963-4.037,9-9,9H264.5z"/>
-			<path style="fill:#999999;" d="M308.5,51c4.411,0,8,3.589,8,8v44c0,4.411-3.589,8-8,8h-44c-4.411,0-8-3.589-8-8V59
-				c0-4.411,3.589-8,8-8H308.5 M308.5,49h-44c-5.5,0-10,4.5-10,10v44c0,5.5,4.5,10,10,10h44c5.5,0,10-4.5,10-10V59
-				C318.5,53.5,314,49,308.5,49L308.5,49z"/>
+			<g>
+				<path style="fill:#FFFFFF;" d="M310,104c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10V62c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V104z"/>
+			</g>
+			<g>
+				<path style="fill:#333333;" d="M310,102c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10V60c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V102z"/>
+			</g>
+			<g>
+				<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="278" y1="113" x2="278" y2="51">
+					<stop  offset="0" style="stop-color:#2AAAE2"/>
+					<stop  offset="1" style="stop-color:#1F749A"/>
+				</linearGradient>
+				<path style="fill:url(#SVGID_6_);" d="M310,103c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10V61c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V103z"/>
+			</g>
 		</g>
 		<g id="duibutton-background-selected">
-			<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="212.5" y1="112" x2="212.5" y2="50">
-				<stop  offset="0" style="stop-color:#A7752A"/>
-				<stop  offset="1" style="stop-color:#F4A81D"/>
-			</linearGradient>
-			<path style="fill:url(#SVGID_5_);" d="M190.5,112c-4.963,0-9-4.037-9-9V59c0-4.963,4.037-9,9-9h44c4.963,0,9,4.037,9,9v44
-				c0,4.963-4.037,9-9,9H190.5z"/>
-			<path style="fill:#999999;" d="M234.5,51c4.411,0,8,3.589,8,8v44c0,4.411-3.589,8-8,8h-44c-4.411,0-8-3.589-8-8V59
-				c0-4.411,3.589-8,8-8H234.5 M234.5,49h-44c-5.5,0-10,4.5-10,10v44c0,5.5,4.5,10,10,10h44c5.5,0,10-4.5,10-10V59
-				C244.5,53.5,240,49,234.5,49L234.5,49z"/>
+			<g>
+				<path style="fill:#808080;" d="M236,104c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10V62c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V104z"/>
+			</g>
+			<g>
+				<path style="fill:#FFFFFF;" d="M236,102c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10V60c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V102z"/>
+			</g>
+			<g>
+				<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="204" y1="113" x2="204" y2="51">
+					<stop  offset="0" style="stop-color:#2AAAE2"/>
+					<stop  offset="1" style="stop-color:#83D5F7"/>
+				</linearGradient>
+				<path style="fill:url(#SVGID_7_);" d="M236,103c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10V61c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V103z"/>
+			</g>
 		</g>
 		<g id="duibutton-background-pressed">
-			<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="138.5" y1="112" x2="138.5" y2="50">
-				<stop  offset="0" style="stop-color:#C9C9C9"/>
-				<stop  offset="0.4115" style="stop-color:#C8C8C8"/>
-				<stop  offset="0.5598" style="stop-color:#C1C1C1"/>
-				<stop  offset="0.6654" style="stop-color:#B5B5B5"/>
-				<stop  offset="0.7509" style="stop-color:#A4A4A4"/>
-				<stop  offset="0.824" style="stop-color:#8E8E8E"/>
-				<stop  offset="0.8888" style="stop-color:#737373"/>
-				<stop  offset="0.946" style="stop-color:#535353"/>
-				<stop  offset="0.9983" style="stop-color:#2F2F2F"/>
-				<stop  offset="1" style="stop-color:#2E2E2E"/>
-			</linearGradient>
-			<path style="fill:url(#SVGID_6_);" d="M116.5,112c-4.963,0-9-4.037-9-9V59c0-4.963,4.037-9,9-9h44c4.963,0,9,4.037,9,9v44
-				c0,4.963-4.037,9-9,9H116.5z"/>
-			<path style="fill:#999999;" d="M160.5,51c4.411,0,8,3.589,8,8v44c0,4.411-3.589,8-8,8h-44c-4.411,0-8-3.589-8-8V59
-				c0-4.411,3.589-8,8-8H160.5 M160.5,49h-44c-5.5,0-10,4.5-10,10v44c0,5.5,4.5,10,10,10h44c5.5,0,10-4.5,10-10V59
-				C170.5,53.5,166,49,160.5,49L160.5,49z"/>
+			<g>
+				<path style="fill:#FFFFFF;" d="M162,104c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10V62c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V104z"/>
+			</g>
+			<g>
+				<path style="fill:#333333;" d="M162,102c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10V60c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V102z"/>
+			</g>
+			<g>
+				<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="130" y1="113" x2="130" y2="51">
+					<stop  offset="0" style="stop-color:#B3B3B3"/>
+					<stop  offset="1" style="stop-color:#4D4D4D"/>
+				</linearGradient>
+				<path style="fill:url(#SVGID_8_);" d="M162,103c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10V61c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V103z"/>
+			</g>
 		</g>
 		<g id="duibutton-background">
-			<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="63.5" y1="112" x2="63.5" y2="50">
-				<stop  offset="0" style="stop-color:#B3B3B3"/>
-				<stop  offset="1" style="stop-color:#FCFCFC"/>
-			</linearGradient>
-			<path style="fill:url(#SVGID_7_);" d="M41.5,112c-4.963,0-9-4.037-9-9V59c0-4.963,4.037-9,9-9h44c4.963,0,9,4.037,9,9v44
-				c0,4.963-4.037,9-9,9H41.5z"/>
-			<path style="fill:#999999;" d="M85.5,51c4.411,0,8,3.589,8,8v44c0,4.411-3.589,8-8,8h-44c-4.411,0-8-3.589-8-8V59
-				c0-4.411,3.589-8,8-8H85.5 M85.5,49h-44c-5.5,0-10,4.5-10,10v44c0,5.5,4.5,10,10,10h44c5.5,0,10-4.5,10-10V59
-				C95.5,53.5,91,49,85.5,49L85.5,49z"/>
+			<g>
+				<path style="fill:#808080;" d="M88,104c0,5.5-4.5,10-10,10H34c-5.5,0-10-4.5-10-10V62c0-5.5,4.5-10,10-10h44c5.5,0,10,4.5,10,10
+					V104z"/>
+			</g>
+			<g>
+				<path style="fill:#FFFFFF;" d="M88,102c0,5.5-4.5,10-10,10H34c-5.5,0-10-4.5-10-10V60c0-5.5,4.5-10,10-10h44c5.5,0,10,4.5,10,10
+					V102z"/>
+			</g>
+			<g>
+				<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="56" y1="113" x2="56" y2="51">
+					<stop  offset="0" style="stop-color:#D2D3D3"/>
+					<stop  offset="1" style="stop-color:#F2F2F2"/>
+				</linearGradient>
+				<path style="fill:url(#SVGID_9_);" d="M88,103c0,5.5-4.5,10-10,10H34c-5.5,0-10-4.5-10-10V61c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V103z"/>
+			</g>
 		</g>
 	</g>
 </g>

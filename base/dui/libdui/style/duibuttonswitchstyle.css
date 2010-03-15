@@ -8,9 +8,9 @@ DuiButtonSwitchStyle {
     // slider-mask defines the shape of the slider-image
     slider-mask: "duibutton-switch-mask" 15px 15px 15px 15px; 
 
-    minimum-size: 9.6mm 4.8mm;
-    maximum-size: 9.6mm 4.8mm;
-    preferred-size: 9.6mm 4.8mm;
+    minimum-size: 7.2mm 4.4mm;
+    maximum-size: 7.2mm 4.4mm;
+    preferred-size: 7.2mm 4.4mm;
 }
 
 DuiButtonSwitchStyle:pressed {
@@ -22,9 +22,9 @@ DuiButtonSwitchStyle:pressed {
     // slider-mask defines the shape of the slider-image
     slider-mask: "duibutton-switch-mask" 15px 15px 15px 15px; 
 
-    minimum-size: 9.6mm 4.8mm;
-    maximum-size: 9.6mm 4.8mm;
-    preferred-size: 9.6mm 4.8mm;
+    minimum-size: 7.2mm 4.4mm;
+    maximum-size: 7.2mm 4.4mm;
+    preferred-size: 7.2mm 4.4mm;
 }
 
 DuiButtonSwitchStyle:selected {
@@ -36,7 +36,7 @@ DuiButtonSwitchStyle:selected {
     // slider-mask defines the shape of the slider-image
     slider-mask: "duibutton-switch-mask" 15px 15px 15px 15px; 
 
-    minimum-size: 9.6mm 4.8mm;
-    maximum-size: 9.6mm 4.8mm;
-    preferred-size: 9.6mm 4.8mm;
+    minimum-size: 7.2mm 4.4mm;
+    maximum-size: 7.2mm 4.4mm;
+    preferred-size: 7.2mm 4.4mm;
 }
