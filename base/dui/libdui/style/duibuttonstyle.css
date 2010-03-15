@@ -21,7 +21,7 @@ DuiButtonStyle {
     text-margin-right: $MARGIN_XLARGE;
     text-margin-bottom: 0;
 
-    preferred-size: -1 $SIZE_BUTTON;
+    preferred-size: -1 30mm;
     minimum-size: $SIZE_BUTTON $SIZE_BUTTON;
     maximum-size: 100% $SIZE_BUTTON;
 
