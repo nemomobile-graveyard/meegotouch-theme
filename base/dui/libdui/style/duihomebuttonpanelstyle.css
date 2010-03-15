@@ -10,7 +10,7 @@ DuiHomeButtonPanelStyle {
     offset: 0 0;
 
     home-button-object-name: "HomeButton";
-    home-button-icon-id: "Icon-home";
+    home-button-icon-id: "icon-m-framework-home";
 }
 
 DuiButtonIconStyle#HomeButton {

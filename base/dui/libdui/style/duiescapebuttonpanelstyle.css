@@ -14,8 +14,8 @@ DuiEscapeButtonPanelStyle {
     back-button-object-name: "BackButton";
     close-button-object-name: "CloseButton";
 
-    back-button-icon-id: "Icon-back";
-    close-button-icon-id: "Icon-close";
+    back-button-icon-id: "icon-m-framework-back";
+    close-button-icon-id: "icon-m-framework-close";
 }
 
 DuiButtonIconStyle#BackButton {
