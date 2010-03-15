@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="icon-m-common-memorycard-layer"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<g id="icon-m-common-memorycard">
+	<rect style="fill:none;" width="64" height="64"/>
+	<g>
+		<path style="fill:#333333;" d="M47.179,29c0,1.1,0.9,2,2,2h10c1.1,0,2-0.9,2-2v-1c0-1.1-0.9-2-2-2h-10c-1.1,0-2,0.9-2,2V29z"/>
+	</g>
+	<g>
+		<path style="fill:#333333;" d="M47.179,37c0,1.1,0.9,2,2,2h10c1.1,0,2-0.9,2-2v-1c0-1.1-0.9-2-2-2h-10c-1.1,0-2,0.9-2,2V37z"/>
+	</g>
+	<g>
+		<path style="fill:#333333;" d="M47.179,45c0,1.1,0.9,2,2,2h10c1.1,0,2-0.9,2-2v-1c0-1.1-0.9-2-2-2h-10c-1.1,0-2,0.9-2,2V45z"/>
+	</g>
+	<path style="fill:#333333;" d="M47.645,10.001L1.179,10v43.9l62,0.1V23L47.645,10.001z M59.179,50h-54V13.9l41,0.1l13,11V50z"/>
+</g>
+</svg>
