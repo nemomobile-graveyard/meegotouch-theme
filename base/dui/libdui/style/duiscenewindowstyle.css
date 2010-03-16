@@ -35,4 +35,5 @@ DuiSceneWindowStyle#statusBar
     minimum-size: 100% 28px;
     preferred-size: 100% 28px;
     maximum-size: 100% 28px;
+    background-color: #000000;
 }
