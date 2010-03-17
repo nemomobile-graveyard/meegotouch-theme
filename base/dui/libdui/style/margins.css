@@ -8,7 +8,7 @@
 @const MARGIN_XLARGE:    1.6mm;
 @const MARGIN_XXLARGE:   2.4mm;
 
-@const MARGIN_DEFAULT:   0;
+@const MARGIN_DEFAULT:   $MARGIN_MEDIUM;
 
 @const PADDING_XSMALL:   0.2mm;
 @const PADDING_SMALL:    0.4mm;
