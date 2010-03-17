@@ -1,0 +1,137 @@
+#CommonPanelLayout
+{
+    background-image : "duilist-singlecolumn-center-background" 8px 8px 8px 8px;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    margin-bottom : 0;
+    minimum-size : 100 100;    
+}
+
+#CommonHeaderPanelLayout
+{
+    background-color : #000000;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    margin-bottom : 0;
+}
+
+#CommonSpacer
+{
+    minimum-size : 0 0;
+    maximum-size : 1000 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 1.8mm;
+    margin-bottom : 0;
+}
+
+DuiContentItemStyle
+{
+    title-object-name: "CommonTitle";
+    subtitle-object-name: "CommonSubTitle";
+    minimum-size : 100 100;
+    margin-top : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-bottom : 0;
+}
+
+DuiContentItemStyle#singleLabel
+{
+    title-object-name: "CommonSingleTitle";
+    subtitle-object-name: "CommonSubTitle";
+    minimum-size : 100 100;
+    margin-top : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-bottom : 0;
+}
+
+#CommonHeader
+{
+    color : #ffffff;
+}
+
+#CommonSingleTitle
+{
+    font : $FONT_LARGE;
+    margin-left : $MARGIN_XXLARGE;    
+}
+
+#CommonTitle
+{
+    font : $FONT_LARGE;
+    margin-left : $MARGIN_XXLARGE;
+    margin-top : $MARGIN_XLARGE;
+    margin-bottom : 0;
+}
+
+#CommonSubTitle
+{
+    font : $FONT_SMALL;
+    color : #515151;
+    margin-left : $MARGIN_XXLARGE;
+    margin-top : $MARGIN_XSMALL;
+    margin-bottom : 0;
+}
+
+#CommonSubText
+{
+    font : $FONT_SMALL;
+    color : #95969B;
+    margin-left : $MARGIN_XXLARGE;
+    margin-top : $MARGIN_XSMALL;
+    margin-bottom : 0;
+}
+
+#CommonTitleIcon
+{
+}
+
+#CommonMainIcon
+{
+    maximum-size: 6.4mm 6.4mm;
+    minimum-size: 6.4mm 6.4mm;
+    preferred-size: 6.4mm 6.4mm;
+    margin-left : $MARGIN_XXLARGE;
+    margin-top : 1.4mm;
+    margin-bottom : 1.4mm;
+    margin-right : 0;
+}
+
+#CommonThumbnail
+{
+
+}
+
+#CommonSwitch
+{
+    margin-right : $MARGIN_XXLARGE;
+    margin-left : $MARGIN_XXLARGE;
+}
+
+#CommonSlider
+{
+    margin-top : $MARGIN_DOUBLE;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-left : 0;
+    margin-right : 0;
+    maximum-size : 50mm -1;
+}
+
+#CommonSingleButton
+{
+    margin-right : $MARGIN_XXLARGE;
+    margin-left : $MARGIN_XXLARGE;
+    maximum-size : 50mm 6.4mm;
+}
+
+#CommonInputField
+{
+    margin-left : $MARGIN_XXLARGE;
+    margin-right : $MARGIN_XXLARGE;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+}

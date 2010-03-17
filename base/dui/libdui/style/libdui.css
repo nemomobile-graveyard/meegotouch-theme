@@ -5,6 +5,9 @@
 @import "margins.css";
 @import "sizes.css";
 
+/* common layouts for content items etc... */
+@import "commonlayouts.css";
+
 /* "master style" that most things inherit from */
 @import "duiwidgetstyle.css";
 
