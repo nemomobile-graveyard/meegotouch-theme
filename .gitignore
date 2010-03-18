@@ -4,3 +4,4 @@ math
 build-stamp
 configure-stamp
 *~
+*.ids
