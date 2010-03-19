@@ -22,20 +22,10 @@ DuiBubbleItemStyle {
     message-object-name: "BubbleItemMessage";
 }
 
-DuiBubbleItemStyle:selected {
-    background-color: $COLOR_INVERTED_FOREGROUND;
-    background-opacity: 1.0;
-}
-
-DuiBubbleItemStyle:pressed {
-    background-color: $COLOR_INVERTED_FOREGROUND;
-    background-opacity: 1.0;
-}
-
 #BubbleItemSpeechBubble {
     background-opacity: 1.0;
 
-    background-image : "speechbubble" 70px 30px 20px 30px;
+    background-image : "duibubbleitem-background"  18px 30px 10px 10px;
 
     preferred-size: 690px 90px;
     minimum-size: 690px 90px;
@@ -45,6 +35,21 @@ DuiBubbleItemStyle:pressed {
     margin-right:  0;
     margin-top:    0;
     margin-bottom: $MARGIN_SMALL;
+}
+
+DuiBubbleItemStyle:selected {
+    background-image : "duibubbleitem-background-pressed"  18px 30px 10px 10px;
+
+    background-color: $COLOR_INVERTED_FOREGROUND;
+    background-opacity: 1.0;
+}
+
+
+DuiBubbleItemStyle:pressed {
+    background-image : "duibubbleitem-background-pressed"  18px 30px 10px 10px;
+
+    background-color: $COLOR_INVERTED_FOREGROUND;
+    background-opacity: 1.0;
 }
 
 #BubbleItemAvatar {
@@ -61,7 +66,7 @@ DuiBubbleItemStyle:pressed {
 
 #BubbleItemSenderName {
     font: $FONT_SMALL;
-    color: white;
+    color: black;
 
     /* inherited from DuiWidgetStyle */
     margin-left:   140;
@@ -72,7 +77,7 @@ DuiBubbleItemStyle:pressed {
 
 #BubbleItemTimeStamp {
     font: $FONT_SMALL;
-    color: white;
+    color: black;
 
     /* inherited from DuiWidgetStyle */
     margin-left:   0;
@@ -83,7 +88,7 @@ DuiBubbleItemStyle:pressed {
 
 #BubbleItemMessage {
     font: $FONT_SMALL;
-    color: white;
+    color: black;
 
     /* inherited from DuiWidgetStyle */
     margin-left:   140;
