@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="icon-m-messaging-smiley-sleepy-layer"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<g id="icon-m-messaging-smiley-sleepy">
+	<rect style="fill:none;" width="64" height="64"/>
+	<ellipse style="fill:#333333;" cx="32" cy="47" rx="6.5" ry="7"/>
+	<path style="fill:#333333;" d="M23.606,26.359c1.049-0.984,1.784-2.148,2.227-3.359c0.735,2.16,0.056,4.84-1.968,6.74
+		c-2.631,2.469-6.463,2.659-8.564,0.422c-0.84-0.895-1.486-1.922-1.686-3.053C16.175,29.516,20.561,29.22,23.606,26.359z"/>
+	<path style="fill:#333333;" d="M40.394,26.359c-1.049-0.984-1.784-2.148-2.228-3.359c-0.734,2.16-0.055,4.84,1.969,6.74
+		c2.631,2.469,6.463,2.659,8.563,0.422c0.841-0.895,1.486-1.922,1.686-3.053C47.824,29.516,43.439,29.22,40.394,26.359z"/>
+	<path style="fill:#333333;" d="M32,4c15.439,0,28,12.561,28,28S47.439,60,32,60S4,47.439,4,32S16.561,4,32,4 M32,0
+		C14.327,0,0,14.327,0,32c0,17.674,14.327,32,32,32c17.674,0,32-14.326,32-32C64,14.327,49.674,0,32,0L32,0z"/>
+</g>
+</svg>
