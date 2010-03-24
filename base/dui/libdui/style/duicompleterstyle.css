@@ -21,6 +21,8 @@ DuiCompleterStyle {
     padding-top: 0;
     padding-right: 0;
     padding-bottom: 0;
+    press-feedback: press;
+    release-feedback: release;
 }
 
 #DuiCompleterTotalButton {
@@ -49,4 +51,8 @@ DuiCompleterStyle {
     padding-bottom: 0;
 
     color: #000000;
+}
+
+DuiCompleterStyle:pressed {
+    background-image: "duicompleter-background-pressed" 10px 10px 10px 10px;
 }
