@@ -182,7 +182,7 @@ DuiButtonStyle[single].Portrait:pressed {
 #DuiDialogTitleLabel {
     margin-left: $MARGIN_XLARGE;
     margin-right: $MARGIN_XLARGE;
-    color: $COLOR_FOREGROUND;
+    color: $COLOR_INVERTED_FOREGROUND;
     font: $FONT_DEFAULT;
 }
 
