@@ -15,7 +15,7 @@ DuiAbstractLayoutPolicyStyle#DuiAppletInventoryFlowLayoutPolicy.Portrait {
 
 DuiButtonStyle#DuiAppletButton {
     font: $FONT_SMALL;
-    text-color: #FFFFFF;
+    text-color: $COLOR_FOREGROUND;
     icon-size: 64 64;
 }
 DuiButtonStyle#DuiAppletButton.Landscape {
