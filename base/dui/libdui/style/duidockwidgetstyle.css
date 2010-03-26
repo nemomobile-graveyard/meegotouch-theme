@@ -1,8 +1,8 @@
 DuiDockWidgetStyle {
     /* inherited from DuiWidgetStyle */
     background-image: "duidockwidget-background";
-    background-opacity: 0.5;
-    background-color: #ff0000;
+    background-opacity: 1.0;
+    background-color: $COLOR_BACKGROUND;
 
     /* inherited from DuiSceneWindowStyle */
     horizontal-align: left;
