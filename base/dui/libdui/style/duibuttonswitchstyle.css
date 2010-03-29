@@ -1,12 +1,12 @@
 
 DuiButtonSwitchStyle {
-    background-image: "duibutton-switch-background" 15px 15px 15px 15px;
+    background-image: "duibutton-switch-background" 0 0 0 0;
     // thumb is the sliding part, should slide accross the whole area
-    thumb-image: "duibutton-switch-thumb" 15px 15px 15px 15px; 
+    thumb-image: "duibutton-switch-thumb" 0 0 0 0;
     // slider is behind thumb, but above background
-    slider-image: "duibutton-switch-colorstripe" 0 0 0 0;
+    slider-image: "duibutton-switch-colorstripe" 1 1 1 1;
     // slider-mask defines the shape of the slider-image
-    slider-mask: "duibutton-switch-mask" 15px 15px 15px 15px; 
+    slider-mask: "duibutton-switch-mask" 0 0 0 0;
 
     minimum-size: 7.2mm 4.4mm;
     maximum-size: 7.2mm 4.4mm;
@@ -14,13 +14,13 @@ DuiButtonSwitchStyle {
 }
 
 DuiButtonSwitchStyle:pressed {
-    background-image: "duibutton-switch-background" 15px 15px 15px 15px;
+    background-image: "duibutton-switch-background" 0 0 0 0;
     // thumb is the sliding part, should slide accross the whole area
-    thumb-image: "duibutton-switch-thumb" 15px 15px 15px 15px; 
+    thumb-image: "duibutton-switch-thumb" 0 0 0 0;
     // slider is behind thumb, but above background
-    slider-image: "duibutton-switch-colorstripe" 0 0 0 0;
+    slider-image: "duibutton-switch-colorstripe" 1 1 1 1;
     // slider-mask defines the shape of the slider-image
-    slider-mask: "duibutton-switch-mask" 15px 15px 15px 15px; 
+    slider-mask: "duibutton-switch-mask" 0 0 0 0;
 
     minimum-size: 7.2mm 4.4mm;
     maximum-size: 7.2mm 4.4mm;
@@ -28,13 +28,13 @@ DuiButtonSwitchStyle:pressed {
 }
 
 DuiButtonSwitchStyle:selected {
-    background-image: "duibutton-switch-background" 15px 15px 15px 15px;
+    background-image: "duibutton-switch-background" 0 0 0 0;
     // thumb is the sliding part, should slide accross the whole area
-    thumb-image: "duibutton-switch-thumb" 15px 15px 15px 15px; 
+    thumb-image: "duibutton-switch-thumb" 0 0 0 0;
     // slider is behind thumb, but above background
-    slider-image: "duibutton-switch-colorstripe" 0 0 0 0;
+    slider-image: "duibutton-switch-colorstripe" 1 1 1 1;
     // slider-mask defines the shape of the slider-image
-    slider-mask: "duibutton-switch-mask" 15px 15px 15px 15px; 
+    slider-mask: "duibutton-switch-mask" 0 0 0 0;
 
     minimum-size: 7.2mm 4.4mm;
     maximum-size: 7.2mm 4.4mm;
