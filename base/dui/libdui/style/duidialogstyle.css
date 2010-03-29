@@ -65,7 +65,7 @@ DuiDialogStyle.Portrait {
 
     /* TODO: replace with some proper value */
     background-image: "duidialog-background" 0px 0px 4px 0px;
-    background-color: #575252;
+    background-color: $COLOR_BACKGROUND;
 
     margin-left: 0;
     margin-top: 0;
@@ -188,7 +188,7 @@ DuiButtonStyle[single].Portrait:pressed {
 
 #DuiDialogTitleBar {
     background-image: "duidialog-header-background" 14px 14px 14px 14px;
-    background-color: #818080;
+    background-color: $COLOR_INVERTED_BACKGROUND;
     margin-right: 0;
     margin-left: 0;
     margin-top: 0;
