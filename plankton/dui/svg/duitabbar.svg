@@ -777,10 +777,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="349.36271"
-     inkscape:cy="424.90047"
+     inkscape:cx="361.36271"
+     inkscape:cy="424.40047"
      inkscape:document-units="px"
-     inkscape:current-layer="duitabbar-tab-active-background-pressed"
+     inkscape:current-layer="layer2"
      showgrid="false"
      units="px"
      showborder="true"
@@ -788,7 +788,7 @@
      inkscape:window-width="1834"
      inkscape:window-height="1521"
      inkscape:window-x="312"
-     inkscape:window-y="1"
+     inkscape:window-y="25"
      inkscape:snap-bbox="true"
      inkscape:snap-nodes="false"
      inkscape:window-maximized="0">
@@ -859,41 +859,6 @@
          x="18.330078"
          id="tspan7559"
          sodipodi:role="line">tab bar buttons background</tspan></text>
-    <g
-       transform="translate(-145.47797,-1659.9465)"
-       style="opacity:0.1;display:inline"
-       id="duinavigationbar-button-background"
-       inkscape:label="#g4328">
-      <rect
-         ry="1.0243908"
-         rx="1.000002"
-         y="1877.9465"
-         x="-233.47797"
-         height="35.999931"
-         width="2.0000062"
-         id="rect4352"
-         style="opacity:1;fill:#ffffff;fill-opacity:1"
-         transform="scale(-1,1)" />
-      <rect
-         style="opacity:0;fill:#991612;fill-opacity:1"
-         id="rect4358"
-         width="48.000004"
-         height="47.999947"
-         x="185.47797"
-         y="1871.9465"
-         rx="0"
-         ry="0" />
-      <rect
-         ry="1.0243908"
-         rx="1.000002"
-         y="1877.9465"
-         x="-187.47797"
-         height="35.999931"
-         width="1.9999746"
-         id="rect6743"
-         style="opacity:1;fill:#ffffff;fill-opacity:1"
-         transform="scale(-1,1)" />
-    </g>
     <g
        transform="matrix(0.09,0,0,1,-27.809911,-1329.4446)"
        inkscape:label="#g6934"
