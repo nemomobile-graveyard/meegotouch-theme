@@ -1,27 +1,25 @@
 /* BASE - this is the master file that includes everything else.. */
 
-@import "colors.css";
-@import "fonts.css";
-@import "margins.css";
-@import "sizes.css";
+@import "../../libduicore/style/colors.css";
+@import "../../libduicore/style/fonts.css";
+@import "../../libduicore/style/margins.css";
+@import "../../libduicore/style/sizes.css";
 
 /* common layouts for content items etc... */
-@import "commonlayouts.css";
+@import "../../libduicore/style/commonlayouts.css";
 
 /* "master style" that most things inherit from */
-@import "duiwidgetstyle.css";
+@import "../../libduicore/style/duiwidgetstyle.css";
 
 /* past "best before"-date.. */
-@import "deprecated.css";
+@import "../../libduicore/style/deprecated.css";
 
 /* default style attribute values for common components */
 /* widget styles are imported in alphabetical order */
 
-@import "duiabstractlayoutpolicy.css";
-@import "duiapplethandlestyle.css";
-@import "duiappletinventorystyle.css";
+@import "../../libduicore/style/duiabstractlayoutpolicy.css";
 @import "duiapplicationpagestyle.css";
-@import "duibasiclayoutanimationstyle.css";
+@import "../../libduicore/style/duibasiclayoutanimationstyle.css";
 @import "duibuttonstyle.css";
 @import "duibuttoniconstyle.css";
 @import "duibuttonswitchstyle.css";
@@ -30,14 +28,12 @@
 @import "duicomboboxstyle.css";
 @import "duiescapebuttonpanelstyle.css";
 @import "duiextendingbackgroundstyle.css";
-@import "duiextensionhandlestyle.css";
-@import "duiflowlayoutcontainerstyle.css";
+@import "../../libduicore/style/duiflowlayoutcontainerstyle.css";
 @import "duihomebuttonpanelstyle.css";
 @import "duiimagewidgetstyle.css";
 @import "duiinfobannerstyle.css";
 @import "duilabelstyle.css";
 @import "duiliststyle.css";
-@import "duimashupcanvasstyle.css";
 @import "duiapplicationmenustyle.css";
 @import "duimodalscenewindowstyle.css";
 @import "duinotificationstyle.css";
@@ -63,18 +59,17 @@
 @import "duitimestyle.css";
 @import "duitoolbartabstyle.css";
 @import "duitoolbarstyle.css";
-@import "duianimation.css";
-@import "duidevicestyle.css";
-@import "duiwidgetfadeinanimationstyle.css";
-@import "duiwidgetfadeoutanimationstyle.css";
-@import "duiwidgetslideinanimationstyle.css";
-@import "duiwidgetslideoutanimationstyle.css";
-@import "duiwidgetzoominanimationstyle.css";
-@import "duiwidgetzoomoutanimationstyle.css";
+@import "../../libduicore/style/duianimation.css";
+@import "../../libduicore/style/duidevicestyle.css";
+@import "../../libduicore/style/duiwidgetfadeinanimationstyle.css";
+@import "../../libduicore/style/duiwidgetfadeoutanimationstyle.css";
+@import "../../libduicore/style/duiwidgetslideinanimationstyle.css";
+@import "../../libduicore/style/duiwidgetslideoutanimationstyle.css";
+@import "../../libduicore/style/duiwidgetzoominanimationstyle.css";
+@import "../../libduicore/style/duiwidgetzoomoutanimationstyle.css";
 @import "duicontentitemstyle.css";
 @import "duisettingslanguagesettingsfactorystyle.css";
-@import "duipageswitchanimation.css";
-@import "duibasicorientationanimationstyle.css";
+@import "../../libduicore/style/duipageswitchanimation.css";
+@import "../../libduicore/style/duibasicorientationanimationstyle.css";
 @import "duipreeditstyle.css";
-@import "duiextensionareastyle.css";
 @import "duibubbleitemstyle.css";

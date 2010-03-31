@@ -1,0 +1,31 @@
+/* BASE - this is the master file that includes everything else.. */
+
+@import "colors.css";
+@import "fonts.css";
+@import "margins.css";
+@import "sizes.css";
+
+/* common layouts for content items etc... */
+@import "commonlayouts.css";
+
+/* "master style" that most things inherit from */
+@import "duiwidgetstyle.css";
+
+/* past "best before"-date.. */
+@import "deprecated.css";
+
+/* default style attribute values for common components */
+/* widget styles are imported in alphabetical order */
+
+@import "duiabstractlayoutpolicy.css";
+@import "duibasiclayoutanimationstyle.css";
+@import "duianimation.css";
+@import "duidevicestyle.css";
+@import "duiwidgetfadeinanimationstyle.css";
+@import "duiwidgetfadeoutanimationstyle.css";
+@import "duiwidgetslideinanimationstyle.css";
+@import "duiwidgetslideoutanimationstyle.css";
+@import "duiwidgetzoominanimationstyle.css";
+@import "duiwidgetzoomoutanimationstyle.css";
+@import "duipageswitchanimation.css";
+@import "duibasicorientationanimationstyle.css";

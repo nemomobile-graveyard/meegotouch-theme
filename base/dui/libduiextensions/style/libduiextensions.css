@@ -1,0 +1,25 @@
+/* BASE - this is the master file that includes everything else.. */
+
+@import "../../libduicore/style/colors.css";
+@import "../../libduicore/style/fonts.css";
+@import "../../libduicore/style/margins.css";
+@import "../../libduicore/style/sizes.css";
+
+/* common layouts for content items etc... */
+@import "../../libduicore/style/commonlayouts.css";
+
+/* "master style" that most things inherit from */
+@import "../../libduicore/style/duiwidgetstyle.css";
+
+/* past "best before"-date.. */
+@import "../../libduicore/style/deprecated.css";
+
+/* default style attribute values for common components */
+/* widget styles are imported in alphabetical order */
+
+
+@import "duiapplethandlestyle.css";
+@import "duiappletinventorystyle.css";
+@import "duiextensionareastyle.css";
+@import "duiextensionhandlestyle.css";
+@import "duimashupcanvasstyle.css";
