@@ -1,7 +1,9 @@
 /* DuiListStyle : DuiWidgetStyle */
 DuiListStyle {
     group-header-object-name: "";
-
+    horizontal-separator-object-name: "emptySeparator"; 
+    vertical-separator-object-name: "emptySeparator";
+    
     /* inherited from DuiWidgetStyle */
     margin-left: 12;
     margin-top: 12;
@@ -9,3 +11,7 @@ DuiListStyle {
     margin-bottom: 12;
 }
 
+
+#emptySeparator {
+    span: 0.0mm;
+}
