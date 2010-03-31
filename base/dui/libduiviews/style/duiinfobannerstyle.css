@@ -8,10 +8,6 @@ DuiInfoBannerStyle {
     padding-top:    $PADDING_XLARGE;
     padding-bottom: $PADDING_XLARGE;
 
-    /* inherited from DuiWidgetStyle */
-    show-animation: "DuiWidgetSlideInAnimation";
-    hide-animation: "DuiWidgetSlideOutAnimation";
-
     /* for some reason information and system banners use minimum-size!?? */
     minimum-size: 80% $HEIGHT_ONE;
     preferred-size: -1 -1;

@@ -8,8 +8,6 @@ DuiNavigationBarStyle {
     height: 50mm; /* is "height" used? doesnt seem to affect anything.. */
 
     /* inherited from DuiWidgetStyle */
-    show-animation: "DuiWidgetSlideInAnimation";
-    hide-animation: "DuiWidgetSlideOutAnimation";
     background-image: "duinavigationbar-toolbarbutton-background" 12px 12px 12px 12px;
     margin-left:   0;
     margin-top:    0;

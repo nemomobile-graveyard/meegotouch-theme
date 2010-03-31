@@ -1,8 +1,5 @@
 /* DuiPositionIndicatorStyle : DuiWidgetStyle */
 DuiPositionIndicatorStyle {
-    show-animation: "DuiWidgetFadeInAnimation";
-    hide-animation: "DuiWidgetFadeOutAnimation";
-
     on-pixmap: "duipositionindicator-indicator" 0.6mm 0.6mm;
     off-pixmap: "duipositionindicator-background" 0.6mm 0.6mm;
     pixmap-distance: 0.6mm;

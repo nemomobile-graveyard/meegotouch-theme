@@ -1,9 +1,6 @@
 /* DuiMessageBoxStyle : DuiDialogStyle */
 DuiMessageBoxStyle {
 
-    show-animation: "DuiWidgetFadeInAnimation";
-    hide-animation: "DuiWidgetFadeOutAnimation";
-
     /* inherited from DuiDialogStyle */
     dialog-vertical-alignment: center;
 

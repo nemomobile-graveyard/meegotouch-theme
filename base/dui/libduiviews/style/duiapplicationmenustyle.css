@@ -1,9 +1,6 @@
 /* DuiApplicationMenuStyle : DuiSceneWindowStyle */
 DuiApplicationMenuStyle {
 
-    show-animation: "DuiWidgetSlideInAnimation";
-    hide-animation: "DuiWidgetSlideOutAnimation";
-
     canvas-image: "duimenu-background" 10px 10px 10px 10px;
     canvas-color: #000000;
     canvas-opacity: 1.0;

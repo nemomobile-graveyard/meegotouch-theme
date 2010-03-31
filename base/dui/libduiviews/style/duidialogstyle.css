@@ -1,9 +1,6 @@
 /* DuiDialogStyle : DuiSceneWindowStyle */
 DuiDialogStyle {
 
-    show-animation: "DuiWidgetSlideInAnimation";
-    hide-animation: "DuiWidgetSlideOutAnimation";
-
     margin-left: 0;
     margin-top: 0;
     margin-right: 0;

@@ -3,9 +3,6 @@
 /* everything else goes to widget-specific .css */
 
 DuiWidgetStyle {
-    show-animation: "none";
-    hide-animation: "none";
-
     margin-left:   $MARGIN_DEFAULT;
     margin-top:    $MARGIN_DEFAULT;
     margin-right:  $MARGIN_DEFAULT;

@@ -2,8 +2,6 @@
 DuiObjectMenuStyle {
 
     /* inherited from DuiWidgetStyle */
-    show-animation: "DuiWidgetFadeInAnimation";
-    hide-animation: "DuiWidgetFadeOutAnimation";
     background-color: #000000;
     background-opacity: 0.8;
 }

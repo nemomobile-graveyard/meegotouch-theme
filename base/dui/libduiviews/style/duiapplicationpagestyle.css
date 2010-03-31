@@ -10,9 +10,5 @@ DuiApplicationPageStyle {
     preferred-size: 100% 100%;
     maximum-size: 100% 100%;
 
-    /* inherited from DuiWidgetStyle */
-    show-animation: "DuiWidgetFadeInAnimation";
-    hide-animation: "none"; // "DuiWidgetFadeOutAnimation"
-
     background-image: "duiapplicationpage-background";
 }
