@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="208px"
-	 height="448px" viewBox="0 0 208 448" style="enable-background:new 0 0 208 448;" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px"
+	 height="300px" viewBox="0 0 200 300" style="enable-background:new 0 0 200 300;" xml:space="preserve">
 <g id="duiprogressindicator-layer">
 </g>
 <g id="dui-theme-rd">
 	<g id="duiprogressindicator">
 		<g id="duiprogressindicatorThemeTemplateHelper">
 			<g>
-				<path style="fill:#B3B3B3;" d="M16,447c-8.271,0-15-6.729-15-15V16C1,7.729,7.729,1,16,1h176c8.271,0,15,6.729,15,15v416
+				<path style="fill:#B3B3B3;" d="M16,299c-8.271,0-15-6.729-15-15V16C1,7.729,7.729,1,16,1h168c8.271,0,15,6.729,15,15v268
 					c0,8.271-6.729,15-15,15H16z"/>
 				<g>
-					<path d="M192,2c7.72,0,14,6.28,14,14v416c0,7.72-6.28,14-14,14H16c-7.72,0-14-6.28-14-14V16C2,8.28,8.28,2,16,2H192 M192,0H16
-						C7.2,0,0,7.2,0,16v416c0,8.8,7.2,16,16,16h176c8.8,0,16-7.2,16-16V16C208,7.2,200.8,0,192,0L192,0z"/>
+					<path d="M184,2c7.72,0,14,6.28,14,14v268c0,7.72-6.28,14-14,14H16c-7.72,0-14-6.28-14-14V16C2,8.28,8.28,2,16,2H184 M184,0H16
+						C7.2,0,0,7.2,0,16v268c0,8.8,7.2,16,16,16h168c8.8,0,16-7.2,16-16V16C200,7.2,192.8,0,184,0L184,0z"/>
 				</g>
 			</g>
 			<path style="fill:#010101;" d="M68.143,22.408l0.441,1.701c0.43-0.635,0.908-1.107,1.436-1.414
@@ -106,19 +106,19 @@
 				V47.607H139.299z"/>
 		</g>
 		<g id="duiprogressindicator-bar-background">
-			<g id="Normal_22_" style="opacity:0.2;">
+			<g id="Normal_76_" style="opacity:0.2;">
 				<path style="fill:#010101;" d="M134,254.449c0,3.3-2.7,6-6,6h-18c-3.3,0-6-2.7-6-6v-4c0-3.3,2.7-6,6-6h18c3.3,0,6,2.7,6,6
 					V254.449z"/>
 			</g>
-			<g id="Normal_20_">
+			<g id="Normal_75_">
 				<path style="fill:#CCCCCC;" d="M133,254.449c0,2.75-2.25,5-5,5h-18c-2.75,0-5-2.25-5-5v-2c0-2.75,2.25-5,5-5h18
 					c2.75,0,5,2.25,5,5V254.449z"/>
 			</g>
-			<g id="Normal_19_">
+			<g id="Normal_74_">
 				<path style="fill:#010101;" d="M133,252.449c0,2.75-2.25,5-5,5h-18c-2.75,0-5-2.25-5-5v-2c0-2.75,2.25-5,5-5h18
 					c2.75,0,5,2.25,5,5V252.449z"/>
 			</g>
-			<g id="Normal_18_">
+			<g id="Normal_73_">
 				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="119" y1="258.4492" x2="119" y2="246.4492">
 					<stop  offset="0" style="stop-color:#1A1A1A"/>
 					<stop  offset="1" style="stop-color:#000000"/>
@@ -129,7 +129,7 @@
 		</g>
 		<g id="duiprogressindicator-bar-progress">
 			<rect x="104" y="264.449" style="opacity:0;fill:#010101;" width="30" height="16"/>
-			<g id="Normal_31_">
+			<g id="Normal_72_">
 				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="119" y1="278.4492" x2="119" y2="266.4492">
 					<stop  offset="0" style="stop-color:#74CCD4"/>
 					<stop  offset="0.1301" style="stop-color:#66C2D6"/>

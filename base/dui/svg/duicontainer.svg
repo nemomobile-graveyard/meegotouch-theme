@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="366px"
-	 height="299px" viewBox="0 0 366 299" style="enable-background:new 0 0 366 299;" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="370px"
+	 height="299px" viewBox="0 0 370 299" style="enable-background:new 0 0 370 299;" xml:space="preserve">
 <g id="duicontainer-layer">
 </g>
 <g id="dui-theme-rd">
 	<g id="duicontainer">
 		<g id="duicontainerThemeTemplateHelper">
 			<g>
-				<path style="fill:#B3B3B3;" d="M16,298c-8.271,0-15-6.729-15-15V16C1,7.729,7.729,1,16,1h334c8.271,0,15,6.729,15,15v267
+				<path style="fill:#B3B3B3;" d="M16,298c-8.271,0-15-6.729-15-15V16C1,7.729,7.729,1,16,1h338c8.271,0,15,6.729,15,15v267
 					c0,8.271-6.729,15-15,15H16z"/>
 				<g>
-					<path d="M350,2c7.72,0,14,6.28,14,14v267c0,7.72-6.28,14-14,14H16c-7.72,0-14-6.28-14-14V16C2,8.28,8.28,2,16,2H350 M350,0H16
-						C7.2,0,0,7.2,0,16v267c0,8.8,7.2,16,16,16h334c8.8,0,16-7.2,16-16V16C366,7.2,358.8,0,350,0L350,0z"/>
+					<path d="M354,2c7.72,0,14,6.28,14,14v267c0,7.72-6.28,14-14,14H16c-7.72,0-14-6.28-14-14V16C2,8.28,8.28,2,16,2H354 M354,0H16
+						C7.2,0,0,7.2,0,16v267c0,8.8,7.2,16,16,16h338c8.8,0,16-7.2,16-16V16C370,7.2,362.8,0,354,0L354,0z"/>
 				</g>
 			</g>
 			<path style="fill:#010101;" d="M146.453,34.497c-1.859,0-3.254-0.636-4.188-1.907s-1.4-3.295-1.4-6.07
@@ -58,41 +58,40 @@
 		</g>
 		<g id="duicontainer-headerless-content-background">
 			<g>
-				<path style="fill:#F2F2F2;" d="M24,278.5c-5.238,0-9.5-4.262-9.5-9.5v-86c0-5.238,4.262-9.5,9.5-9.5h86
-					c5.238,0,9.5,4.262,9.5,9.5v86c0,5.238-4.262,9.5-9.5,9.5H24z"/>
-				<path style="fill:#CCCCCC;" d="M110,174c4.962,0,9,4.037,9,9v86c0,4.963-4.038,9-9,9H24c-4.962,0-9-4.037-9-9v-86
-					c0-4.963,4.038-9,9-9H110 M110,173H24c-5.5,0-10,4.5-10,10v86c0,5.5,4.5,10,10,10h86c5.5,0,10-4.5,10-10v-86
-					C120,177.5,115.5,173,110,173L110,173z"/>
+				<rect x="10" y="183" style="fill:#808080;" width="64" height="64"/>
+			</g>
+			<g>
+				<rect x="10" y="184" style="fill:#F2F2F2;" width="64" height="62"/>
 			</g>
 		</g>
 		<g id="duicontainer-content-background">
 			<g>
-				<path style="fill:#F2F2F2;" d="M21,155.5c-5.238,0-9.5-4.262-9.5-9.5v-36.5h105V146c0,5.238-4.262,9.5-9.5,9.5H21z"/>
-				<path style="fill:#CCCCCC;" d="M116,110v36c0,4.963-4.038,9-9,9H21c-4.962,0-9-4.037-9-9v-36H116 M117,109H11v37
-					c0,5.5,4.5,10,10,10h86c5.5,0,10-4.5,10-10V109L117,109z"/>
+				<rect x="10" y="109" style="fill:#808080;" width="64" height="64"/>
 			</g>
-			<rect x="12" y="109" style="fill:#F2F2F2;" width="104" height="10"/>
+			<g>
+				<rect x="10" y="109" style="fill:#F2F2F2;" width="64" height="63"/>
+			</g>
 		</g>
 		<g id="duicontainer-header-background-static">
-			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="299" y1="104" x2="299" y2="52">
-				<stop  offset="0" style="stop-color:#000000"/>
-				<stop  offset="1" style="stop-color:#333333"/>
-			</linearGradient>
-			<path style="fill:url(#SVGID_1_);" d="M246,104V62c0-5.5,4.5-10,10-10h86c5.5,0,10,4.5,10,10v42H246z"/>
-		</g>
-		<g id="duicontainer-header-background-pressed">
-			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="183.0005" y1="104" x2="183.0005" y2="52">
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="144" y1="84" x2="144" y2="52">
 				<stop  offset="0" style="stop-color:#333333"/>
 				<stop  offset="1" style="stop-color:#000000"/>
 			</linearGradient>
-			<path style="fill:url(#SVGID_2_);" d="M130,104V62c0-5.5,4.5-10,10-10h86c5.5,0,10,4.5,10,10v42H130z"/>
+			<rect x="128" y="52" style="fill:url(#SVGID_1_);" width="32" height="32"/>
+		</g>
+		<g id="duicontainer-header-background-pressed">
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="100" y1="84" x2="100" y2="52">
+				<stop  offset="0" style="stop-color:#333333"/>
+				<stop  offset="1" style="stop-color:#000000"/>
+			</linearGradient>
+			<rect x="84" y="52" style="fill:url(#SVGID_2_);" width="32" height="32"/>
 		</g>
 		<g id="duicontainer-header-background">
-			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="64" y1="104" x2="64" y2="52">
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="26" y1="84" x2="26" y2="52">
 				<stop  offset="0" style="stop-color:#000000"/>
 				<stop  offset="1" style="stop-color:#333333"/>
 			</linearGradient>
-			<path style="fill:url(#SVGID_3_);" d="M11,104V62c0-5.5,4.5-10,10-10h86c5.5,0,10,4.5,10,10v42H11z"/>
+			<rect x="10" y="52" style="fill:url(#SVGID_3_);" width="32" height="32"/>
 		</g>
 	</g>
 </g>
