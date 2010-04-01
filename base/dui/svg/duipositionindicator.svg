@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="208px"
-	 height="191px" viewBox="0 0 208 191" style="enable-background:new 0 0 208 191;" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px"
+	 height="80px" viewBox="0 0 200 80" style="enable-background:new 0 0 200 80;" xml:space="preserve">
 <g id="duipositionindicator-layer">
 </g>
 <g id="dui-theme-rd">
 	<g id="duipositionindicator">
 		<g id="duipositionindicatorThemeTemplateHelper">
 			<g>
-				<path style="fill:#B3B3B3;" d="M16,190c-8.271,0-15-6.729-15-15V16C1,7.729,7.729,1,16,1h176c8.271,0,15,6.729,15,15v159
+				<path style="fill:#B3B3B3;" d="M16,79C7.729,79,1,72.271,1,64V16C1,7.729,7.729,1,16,1h168c8.271,0,15,6.729,15,15v48
 					c0,8.271-6.729,15-15,15H16z"/>
 				<g>
-					<path d="M192,2c7.72,0,14,6.28,14,14v159c0,7.72-6.28,14-14,14H16c-7.72,0-14-6.28-14-14V16C2,8.28,8.28,2,16,2H192 M192,0H16
-						C7.2,0,0,7.2,0,16v159c0,8.8,7.2,16,16,16h176c8.8,0,16-7.2,16-16V16C208,7.2,200.8,0,192,0L192,0z"/>
+					<path d="M184,2c7.72,0,14,6.28,14,14v48c0,7.72-6.28,14-14,14H16C8.28,78,2,71.72,2,64V16C2,8.28,8.28,2,16,2H184 M184,0H16
+						C7.2,0,0,7.2,0,16v48c0,8.8,7.2,16,16,16h168c8.8,0,16-7.2,16-16V16C200,7.2,192.8,0,184,0L184,0z"/>
 				</g>
 			</g>
 			<path style="fill:#010101;" d="M26.465,10.711h4.051c1.6,0,2.766,0.375,3.496,1.123c0.732,0.749,1.098,1.95,1.098,3.604

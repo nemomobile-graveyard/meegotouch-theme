@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="366px"
-	 height="300px" viewBox="0 0 366 300" style="enable-background:new 0 0 366 300;" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="370px"
+	 height="300px" viewBox="0 0 370 300" style="enable-background:new 0 0 370 300;" xml:space="preserve">
 <g id="duinotification-layer">
 </g>
 <g id="dui-theme-rd">
 	<g id="duinotification">
 		<g id="duinotificationThemeTemplateHelper">
 			<g>
-				<path style="fill:#B3B3B3;" d="M16,299c-8.271,0-15-6.729-15-15V16C1,7.729,7.729,1,16,1h334c8.271,0,15,6.729,15,15v268
+				<path style="fill:#B3B3B3;" d="M16,299c-8.271,0-15-6.729-15-15V16C1,7.729,7.729,1,16,1h338c8.271,0,15,6.729,15,15v268
 					c0,8.271-6.729,15-15,15H16z"/>
 				<g>
-					<path d="M350,2c7.72,0,14,6.28,14,14v268c0,7.72-6.28,14-14,14H16c-7.72,0-14-6.28-14-14V16C2,8.28,8.28,2,16,2H350 M350,0H16
-						C7.2,0,0,7.2,0,16v268c0,8.8,7.2,16,16,16h334c8.8,0,16-7.2,16-16V16C366,7.2,358.8,0,350,0L350,0z"/>
+					<path d="M354,2c7.72,0,14,6.28,14,14v268c0,7.72-6.28,14-14,14H16c-7.72,0-14-6.28-14-14V16C2,8.28,8.28,2,16,2H354 M354,0H16
+						C7.2,0,0,7.2,0,16v268c0,8.8,7.2,16,16,16h338c8.8,0,16-7.2,16-16V16C370,7.2,362.8,0,354,0L354,0z"/>
 				</g>
 			</g>
 			<path style="fill:#010101;" d="M135.986,33.833l-6.297-11.382v11.382h-2.123V18.545h1.805l6.133,11.063V18.545h2.123v15.288
@@ -76,15 +76,10 @@
 		<g id="duinotification-system-background-pressed">
 			<g>
 				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="126" y1="256" x2="126" y2="192">
-					<stop  offset="0" style="stop-color:#47A4D7"/>
-					<stop  offset="0.2849" style="stop-color:#4BA6D8"/>
-					<stop  offset="0.5137" style="stop-color:#56ADDC"/>
-					<stop  offset="0.723" style="stop-color:#67B9E4"/>
-					<stop  offset="0.9195" style="stop-color:#7FCBF0"/>
-					<stop  offset="1" style="stop-color:#8BD7F8"/>
+					<stop  offset="0" style="stop-color:#2AAAE2"/>
+					<stop  offset="1" style="stop-color:#1F749A"/>
 				</linearGradient>
-				<path style="fill:url(#SVGID_1_);" d="M158,246c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-44c0-5.5,4.5-10,10-10h44
-					c5.5,0,10,4.5,10,10V246z"/>
+				<rect x="94" y="192" style="fill:url(#SVGID_1_);" width="64" height="64"/>
 			</g>
 		</g>
 		<g id="duinotification-system-background">
@@ -97,22 +92,16 @@
 					<stop  offset="0.9195" style="stop-color:#7FCBF0"/>
 					<stop  offset="1" style="stop-color:#8BD7F8"/>
 				</linearGradient>
-				<path style="fill:url(#SVGID_2_);" d="M84,246c0,5.5-4.5,10-10,10H30c-5.5,0-10-4.5-10-10v-44c0-5.5,4.5-10,10-10h44
-					c5.5,0,10,4.5,10,10V246z"/>
+				<rect x="20" y="192" style="fill:url(#SVGID_2_);" width="64" height="64"/>
 			</g>
 		</g>
 		<g id="duinotification-information-background-pressed">
 			<g>
 				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="126" y1="182" x2="126" y2="118.0005">
-					<stop  offset="0" style="stop-color:#47A4D7"/>
-					<stop  offset="0.2849" style="stop-color:#4BA6D8"/>
-					<stop  offset="0.5137" style="stop-color:#56ADDC"/>
-					<stop  offset="0.723" style="stop-color:#67B9E4"/>
-					<stop  offset="0.9195" style="stop-color:#7FCBF0"/>
-					<stop  offset="1" style="stop-color:#8BD7F8"/>
+					<stop  offset="0" style="stop-color:#2AAAE2"/>
+					<stop  offset="1" style="stop-color:#1F749A"/>
 				</linearGradient>
-				<path style="fill:url(#SVGID_3_);" d="M158,172c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-44c0-5.5,4.5-10,10-10h44
-					c5.5,0,10,4.5,10,10V172z"/>
+				<rect x="94" y="118" style="fill:url(#SVGID_3_);" width="64" height="64"/>
 			</g>
 		</g>
 		<g id="duinotification-information-background">
@@ -125,22 +114,16 @@
 					<stop  offset="0.9195" style="stop-color:#7FCBF0"/>
 					<stop  offset="1" style="stop-color:#8BD7F8"/>
 				</linearGradient>
-				<path style="fill:url(#SVGID_4_);" d="M84,172c0,5.5-4.5,10-10,10H30c-5.5,0-10-4.5-10-10v-44c0-5.5,4.5-10,10-10h44
-					c5.5,0,10,4.5,10,10V172z"/>
+				<rect x="20" y="118" style="fill:url(#SVGID_4_);" width="64" height="64"/>
 			</g>
 		</g>
 		<g id="duinotification-event-background-pressed">
 			<g>
 				<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="126" y1="108" x2="126" y2="44">
-					<stop  offset="0" style="stop-color:#47A4D7"/>
-					<stop  offset="0.2849" style="stop-color:#4BA6D8"/>
-					<stop  offset="0.5137" style="stop-color:#56ADDC"/>
-					<stop  offset="0.723" style="stop-color:#67B9E4"/>
-					<stop  offset="0.9195" style="stop-color:#7FCBF0"/>
-					<stop  offset="1" style="stop-color:#8BD7F8"/>
+					<stop  offset="0" style="stop-color:#2AAAE2"/>
+					<stop  offset="1" style="stop-color:#1F749A"/>
 				</linearGradient>
-				<path style="fill:url(#SVGID_5_);" d="M158,98c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10V54c0-5.5,4.5-10,10-10h44
-					c5.5,0,10,4.5,10,10V98z"/>
+				<rect x="94" y="44" style="fill:url(#SVGID_5_);" width="64" height="64"/>
 			</g>
 		</g>
 		<g id="duinotification-event-background">
@@ -153,8 +136,7 @@
 					<stop  offset="0.9195" style="stop-color:#7FCBF0"/>
 					<stop  offset="1" style="stop-color:#8BD7F8"/>
 				</linearGradient>
-				<path style="fill:url(#SVGID_6_);" d="M84,98c0,5.5-4.5,10-10,10H30c-5.5,0-10-4.5-10-10V54c0-5.5,4.5-10,10-10h44
-					c5.5,0,10,4.5,10,10V98z"/>
+				<rect x="20" y="44" style="fill:url(#SVGID_6_);" width="64" height="64"/>
 			</g>
 		</g>
 	</g>

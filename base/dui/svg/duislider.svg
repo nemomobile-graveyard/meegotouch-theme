@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="278px"
-	 height="403px" viewBox="0 0 278 403" style="enable-background:new 0 0 278 403;" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="280px"
+	 height="400px" viewBox="0 0 280 400" style="enable-background:new 0 0 280 400;" xml:space="preserve">
 <g id="duislider-layer">
 </g>
 <g id="dui-theme-rd">
 	<g id="duislider">
 		<g id="duisliderThemeTemplateHelper">
 			<g>
-				<path style="fill:#B3B3B3;" d="M16,402c-8.271,0-15-6.729-15-15V16C1,7.729,7.729,1,16,1h246c8.271,0,15,6.729,15,15v371
+				<path style="fill:#B3B3B3;" d="M16,399c-8.271,0-15-6.729-15-15V16C1,7.729,7.729,1,16,1h248c8.271,0,15,6.729,15,15v368
 					c0,8.271-6.729,15-15,15H16z"/>
 				<g>
-					<path d="M262,2c7.72,0,14,6.28,14,14v371c0,7.72-6.28,14-14,14H16c-7.72,0-14-6.28-14-14V16C2,8.28,8.28,2,16,2H262 M262,0H16
-						C7.2,0,0,7.2,0,16v371c0,8.8,7.2,16,16,16h246c8.8,0,16-7.2,16-16V16C278,7.2,270.8,0,262,0L262,0z"/>
+					<path d="M264,2c7.72,0,14,6.28,14,14v368c0,7.72-6.28,14-14,14H16c-7.72,0-14-6.28-14-14V16C2,8.28,8.28,2,16,2H264 M264,0H16
+						C7.2,0,0,7.2,0,16v368c0,8.8,7.2,16,16,16h248c8.8,0,16-7.2,16-16V16C280,7.2,272.8,0,264,0L264,0z"/>
 				</g>
 			</g>
 			<path style="fill:#010101;" d="M118.146,34.497c-1.025,0-2.049-0.14-3.066-0.421v-1.589c1.121,0.321,2.123,0.481,3.004,0.481
@@ -66,7 +66,7 @@
 			<rect x="42" y="355.449" style="opacity:0;fill:#010101;" width="16" height="30"/>
 			<g id="Normal_68_">
 				
-					<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="2247.5508" y1="-3796.001" x2="2247.5508" y2="-3808.001" gradientTransform="matrix(-4.371139e-08 -1 1 -4.371139e-08 3852.0005 2617.9995)">
+					<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="2247.5508" y1="-3798.0005" x2="2247.5508" y2="-3810.0005" gradientTransform="matrix(0 -1 1 0 3854 2618)">
 					<stop  offset="0" style="stop-color:#74CCD4"/>
 					<stop  offset="0.1301" style="stop-color:#66C2D6"/>
 					<stop  offset="0.4156" style="stop-color:#4BB5DC"/>
@@ -85,7 +85,7 @@
 			</g>
 			<g id="Normal_66_" style="opacity:0.3;">
 				
-					<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="4223.4492" y1="2542.999" x2="4223.4492" y2="2530.999" gradientTransform="matrix(-4.371139e-08 1 -1 -4.371139e-08 2587 -3885.0005)">
+					<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="4225.4492" y1="2542.999" x2="4225.4492" y2="2530.999" gradientTransform="matrix(0 1 -1 0 2587 -3887)">
 					<stop  offset="0.25" style="stop-color:#FFFFFF;stop-opacity:0"/>
 					<stop  offset="0.9328" style="stop-color:#FFFFFF;stop-opacity:0.9104"/>
 					<stop  offset="1" style="stop-color:#FFFFFF"/>
@@ -106,9 +106,9 @@
 				<path style="fill:#010101;" d="M50,292c2.75,0,5,2.25,5,5v18c0,2.75-2.25,5-5,5h-2c-2.75,0-5-2.25-5-5v-18c0-2.75,2.25-5,5-5H50
 					z"/>
 			</g>
-			<g id="Normal_28_">
+			<g id="Normal_52_">
 				
-					<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="2248" y1="-3860.001" x2="2248" y2="-3872.001" gradientTransform="matrix(-4.371139e-08 -1 1 -4.371139e-08 3916.0005 2553.9995)">
+					<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="2248" y1="-3862.0005" x2="2248" y2="-3874.0005" gradientTransform="matrix(0 -1 1 0 3918 2554)">
 					<stop  offset="0" style="stop-color:#1A1A1A"/>
 					<stop  offset="1" style="stop-color:#000000"/>
 				</linearGradient>
@@ -118,16 +118,16 @@
 		</g>
 		<g id="duislider-vertical-handle-pressed">
 			<rect x="14" y="212.449" style="opacity:0;fill:#010101;" width="72" height="72"/>
-			<g id="Normal_27_">
+			<g id="Normal_51_">
 				
-					<radialGradient id="SVGID_5_" cx="128.7266" cy="168.5557" r="19.001" gradientTransform="matrix(1.1052 0 0 1.1052 -92.2676 62.1611)" gradientUnits="userSpaceOnUse">
+					<radialGradient id="SVGID_5_" cx="128.8213" cy="168.4609" r="19.001" gradientTransform="matrix(1.1052 0 0 1.1052 -92.373 62.2657)" gradientUnits="userSpaceOnUse">
 					<stop  offset="0" style="stop-color:#000000"/>
 					<stop  offset="1" style="stop-color:#000000;stop-opacity:0.1"/>
 				</radialGradient>
 				<path style="fill:url(#SVGID_5_);" d="M71,249.449c0,11-9,20-20,20h-2c-11,0-20-9-20-20v-2c0-11,9-20,20-20h2c11,0,20,9,20,20
 					V249.449z"/>
 			</g>
-			<g id="Normal_26_">
+			<g id="Normal_50_">
 				<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="50" y1="265.9492" x2="50" y2="230.9492">
 					<stop  offset="0" style="stop-color:#B3B3B3"/>
 					<stop  offset="1" style="stop-color:#4D4D4D"/>
@@ -142,16 +142,16 @@
 		</g>
 		<g id="duislider-vertical-handle">
 			<rect x="14" y="132.449" style="opacity:0;fill:#010101;" width="72" height="72"/>
-			<g id="Normal_25_">
+			<g id="Normal_49_">
 				
-					<radialGradient id="SVGID_7_" cx="125.0166" cy="96.1709" r="19.001" gradientTransform="matrix(1.1052 0 0 1.1052 -88.168 62.1611)" gradientUnits="userSpaceOnUse">
+					<radialGradient id="SVGID_7_" cx="125.1118" cy="96.0757" r="19.0015" gradientTransform="matrix(1.1052 0 0 1.1052 -88.2734 62.2657)" gradientUnits="userSpaceOnUse">
 					<stop  offset="0" style="stop-color:#000000"/>
 					<stop  offset="1" style="stop-color:#000000;stop-opacity:0.1"/>
 				</radialGradient>
 				<path style="fill:url(#SVGID_7_);" d="M71,169.449c0,11-9,20-20,20h-2c-11,0-20-9-20-20v-2c0-11,9-20,20-20h2c11,0,20,9,20,20
 					V169.449z"/>
 			</g>
-			<g id="Normal_24_">
+			<g id="Normal_48_">
 				<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="50" y1="185.9492" x2="50" y2="150.9492">
 					<stop  offset="0" style="stop-color:#E6E6E6"/>
 					<stop  offset="0.5042" style="stop-color:#F2F2F2"/>
@@ -165,7 +165,7 @@
 		</g>
 		<g id="duislider-background-elapsed">
 			<rect x="218" y="78.449" style="opacity:0;fill:#010101;" width="30" height="16"/>
-			<g id="Normal_23_">
+			<g id="Normal_47_">
 				<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="233" y1="92.4492" x2="233" y2="80.4492">
 					<stop  offset="0" style="stop-color:#74CCD4"/>
 					<stop  offset="0.1301" style="stop-color:#66C2D6"/>
@@ -179,13 +179,13 @@
 		</g>
 		<g id="duislider-background-received">
 			<rect x="218" y="98.449" style="opacity:0;fill:#010101;" width="30" height="16"/>
-			<g id="Normal_16_">
+			<g id="Normal_46_">
 				<path style="fill:#9DC53F;" d="M219,105.449c0-2.75,2.25-5,5-5h18c2.75,0,5,2.25,5,5v2c0,2.75-2.25,5-5,5h-18
 					c-2.75,0-5-2.25-5-5V105.449z"/>
 			</g>
-			<g id="Normal_17_" style="opacity:0.3;">
+			<g id="Normal_45_" style="opacity:0.3;">
 				
-					<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="6603" y1="-1861.5508" x2="6603" y2="-1873.5508" gradientTransform="matrix(-1 0 0 -1 6836 -1761.1016)">
+					<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="6605" y1="-1863.5508" x2="6605" y2="-1875.5508" gradientTransform="matrix(-1 0 0 -1 6838 -1763.1016)">
 					<stop  offset="0.25" style="stop-color:#FFFFFF;stop-opacity:0"/>
 					<stop  offset="0.9328" style="stop-color:#FFFFFF;stop-opacity:0.9104"/>
 					<stop  offset="1" style="stop-color:#FFFFFF"/>
@@ -195,19 +195,19 @@
 			</g>
 		</g>
 		<g id="duislider-background">
-			<g id="Normal_35_" style="opacity:0.2;">
+			<g id="Normal_44_" style="opacity:0.2;">
 				<path style="fill:#010101;" d="M208,88.449c0,3.3-2.7,6-6,6h-18c-3.3,0-6-2.7-6-6v-4c0-3.3,2.7-6,6-6h18c3.3,0,6,2.7,6,6V88.449
 					z"/>
 			</g>
-			<g id="Normal_34_">
+			<g id="Normal_43_">
 				<path style="fill:#CCCCCC;" d="M207,88.449c0,2.75-2.25,5-5,5h-18c-2.75,0-5-2.25-5-5v-2c0-2.75,2.25-5,5-5h18
 					c2.75,0,5,2.25,5,5V88.449z"/>
 			</g>
-			<g id="Normal_33_">
+			<g id="Normal_42_">
 				<path style="fill:#010101;" d="M207,86.449c0,2.75-2.25,5-5,5h-18c-2.75,0-5-2.25-5-5v-2c0-2.75,2.25-5,5-5h18
 					c2.75,0,5,2.25,5,5V86.449z"/>
 			</g>
-			<g id="Normal_32_">
+			<g id="Normal_41_">
 				<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="193" y1="92.4492" x2="193" y2="80.4492">
 					<stop  offset="0" style="stop-color:#1A1A1A"/>
 					<stop  offset="1" style="stop-color:#000000"/>
@@ -218,16 +218,16 @@
 		</g>
 		<g id="duislider-handle-pressed">
 			<rect x="96" y="48.449" style="opacity:0;fill:#010101;" width="72" height="72"/>
-			<g id="Normal_15_">
+			<g id="Normal_40_">
 				
-					<radialGradient id="SVGID_12_" cx="202.9209" cy="20.1665" r="19.0012" gradientTransform="matrix(1.1052 0 0 1.1052 -92.2676 62.1611)" gradientUnits="userSpaceOnUse">
+					<radialGradient id="SVGID_12_" cx="203.0156" cy="20.0713" r="19.0015" gradientTransform="matrix(1.1052 0 0 1.1052 -92.373 62.2657)" gradientUnits="userSpaceOnUse">
 					<stop  offset="0" style="stop-color:#000000"/>
 					<stop  offset="1" style="stop-color:#000000;stop-opacity:0.1"/>
 				</radialGradient>
 				<path style="fill:url(#SVGID_12_);" d="M153,85.449c0,11-9,20-20,20h-2c-11,0-20-9-20-20v-2c0-11,9-20,20-20h2c11,0,20,9,20,20
 					V85.449z"/>
 			</g>
-			<g id="Normal_2_">
+			<g id="Normal_39_">
 				<linearGradient id="SVGID_13_" gradientUnits="userSpaceOnUse" x1="132.0005" y1="101.9492" x2="132.0005" y2="66.9492">
 					<stop  offset="0" style="stop-color:#B3B3B3"/>
 					<stop  offset="1" style="stop-color:#4D4D4D"/>
@@ -242,16 +242,16 @@
 		</g>
 		<g id="duislider-handle">
 			<rect x="14" y="48.449" style="opacity:0;fill:#010101;" width="72" height="72"/>
-			<g id="Normal_30_">
+			<g id="Normal_38_">
 				
-					<radialGradient id="SVGID_14_" cx="125.0166" cy="20.1665" r="19.0012" gradientTransform="matrix(1.1052 0 0 1.1052 -88.168 62.1611)" gradientUnits="userSpaceOnUse">
+					<radialGradient id="SVGID_14_" cx="125.1118" cy="20.0713" r="19.0012" gradientTransform="matrix(1.1052 0 0 1.1052 -88.2734 62.2657)" gradientUnits="userSpaceOnUse">
 					<stop  offset="0" style="stop-color:#000000"/>
 					<stop  offset="1" style="stop-color:#000000;stop-opacity:0.1"/>
 				</radialGradient>
 				<path style="fill:url(#SVGID_14_);" d="M71,85.449c0,11-9,20-20,20h-2c-11,0-20-9-20-20v-2c0-11,9-20,20-20h2c11,0,20,9,20,20
 					V85.449z"/>
 			</g>
-			<g id="Normal_29_">
+			<g id="Normal_37_">
 				<linearGradient id="SVGID_15_" gradientUnits="userSpaceOnUse" x1="50" y1="101.9492" x2="50" y2="66.9492">
 					<stop  offset="0" style="stop-color:#E6E6E6"/>
 					<stop  offset="0.5042" style="stop-color:#F2F2F2"/>
