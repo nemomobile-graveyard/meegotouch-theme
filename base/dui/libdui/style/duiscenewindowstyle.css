@@ -32,8 +32,8 @@ DuiSceneWindowStyle {
    window.*/
 DuiSceneWindowStyle#statusBar
 {
-    minimum-size: 100% 28px;
-    preferred-size: 100% 28px;
-    maximum-size: 100% 28px;
+    minimum-size: 100% $HEIGHT_STATUSBAR;
+    preferred-size: 100% $HEIGHT_STATUSBAR;
+    maximum-size: 100% $HEIGHT_STATUSBAR;
     background-color: #000000;
 }

@@ -11,8 +11,9 @@
 @const HEIGHT_FOUR:    37.759386mm; 
 
 @const HEIGHT_NAVIGATIONBAR: 7mm;
+@const HEIGHT_STATUSBAR: 3mm;
 @const WIDTH_HOMECLOSEBUTTON: $HEIGHT_NAVIGATIONBAR;
-@const HEIGHT_TOPBARS: 9.7249042mm; /* navigation bar + status bar */
+@const HEIGHT_TOPBARS: 9mm; /* navigation bar + status bar */
 
 @const SIZE_HALF:    $HEIGHT_HALF;
 @const SIZE_ONE:     $HEIGHT_ONE;
