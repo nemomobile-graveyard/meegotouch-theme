@@ -1,4 +1,4 @@
-#CommonPanelLayout
+#CommonPanel
 {
     background-image : "duilist-singlecolumn-center-background" 8px 8px 8px 8px;
     margin-left : 0;
@@ -8,7 +8,7 @@
     minimum-size : 100 100;    
 }
 
-#CommonHeaderPanelLayout
+#CommonHeaderPanel
 {
     background-color : #000000;
     margin-left : 0;
