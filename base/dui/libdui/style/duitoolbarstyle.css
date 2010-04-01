@@ -11,7 +11,9 @@ DuiToolbarStyle {
     padding-top: 0;
     padding-bottom: 0;
 
-    background-opacity: 0.0;
+    background-opacity: 1.0;
+    background-color: $COLOR_BACKGROUND;
+    background-image: "duinavigationbar-toolbar-background" 12px 12px 12px 12px;
 
     preferred-size: -1 $HEIGHT_NAVIGATIONBAR;
     minimum-size: -1 $HEIGHT_NAVIGATIONBAR;
@@ -25,9 +27,9 @@ DuiToolbarStyle.Landscape {
 DuiTextEditStyle[toolbar] {
     font: $FONT_SMALL;
     margin-left: $MARGIN_MEDIUM;
-    margin-top: $MARGIN_DOUBLE;
+    margin-top: $MARGIN_MEDIUM;
     margin-right: $MARGIN_MEDIUM;
-    margin-bottom: $MARGIN_DOUBLE;
+    margin-bottom: $MARGIN_MEDIUM;
 
     padding-left:   $PADDING_MEDIUM;
     padding-top:    $PADDING_MEDIUM;

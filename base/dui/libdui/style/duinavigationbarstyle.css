@@ -10,7 +10,7 @@ DuiNavigationBarStyle {
     /* inherited from DuiWidgetStyle */
     show-animation: "DuiWidgetSlideInAnimation";
     hide-animation: "DuiWidgetSlideOutAnimation";
-    background-image: "duinavigationbar-background" 72px 72px 10px 10px;
+    background-image: "duinavigationbar-toolbarbutton-background" 12px 12px 12px 12px;
     margin-left:   0;
     margin-top:    0;
     margin-right:  0;
@@ -34,8 +34,8 @@ DuiNavigationBarStyle {
     arrow-icon: "icon-m-menuarrow";
     arrow-icon-size: 2.4mm 2.4mm;
 
-    background-image:;
     background-color:;
+    background-image: "duinavigationbar-viewmenu-background" 12px 12px 12px 12px;
 
     margin-left: 0;
     margin-right: 0;
@@ -57,7 +57,7 @@ DuiNavigationBarStyle {
 
 #NavigationBarMenuButton:pressed
 {
-    background-image: "duinavigationbar-button-background-pressed" 18px 18px 18px 18px;
+    background-image: "duinavigationbar-viewmenu-background-pressed" 12px 12px 12px 12px;
 }
 
 #NavigationBarMenuButtonLabel {
