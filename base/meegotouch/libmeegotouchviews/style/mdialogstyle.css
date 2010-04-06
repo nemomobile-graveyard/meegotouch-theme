@@ -148,7 +148,7 @@ MButtonStyle[single].Portrait:pressed {
     preferred-size: 5.2mm 5.2mm;
     minimum-size: 5.2mm 5.2mm;
     maximum-size: 5.2mm 5.2mm;
-                                                        
+
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
@@ -158,8 +158,8 @@ MButtonStyle[single].Portrait:pressed {
     padding-right: 0;
     padding-top: 0;
     padding-bottom: 0;
-    
-    reactive-margin-left: 2mm;   
+
+    reactive-margin-left: 2mm;
     reactive-margin-top: 2mm;
     reactive-margin-bottom: 2mm;
 }
