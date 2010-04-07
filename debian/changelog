@@ -1,4 +1,4 @@
-duitheme (0.20.0~1) unstable; urgency=low
+duitheme (0.20.0~2) unstable; urgency=low
 
   * New version [UNRELEASED]
   * Fixes: NB#161352 - In Portrait mode - The command area at bottom is getting displayed with pink color
