@@ -14,15 +14,6 @@ DuiInfoBannerStyle {
     maximum-size: 100% 100%;
 }
 
-/* Animations */
-DuiInfoBanner DuiWidgetSlideInAnimationStyle {
-    from: "left";
-}
-
-DuiInfoBanner DuiWidgetSlideOutAnimationStyle {
-    to: "left";
-}
-
 DuiInfoBannerStyle[event] {
     background-image : "duinotification-event-background" 18px 18px 18px 18px;
 }
@@ -74,4 +65,3 @@ DuiInfoBannerStyle[system] { /* this doesnt really match, check what the name is
 #SystemInfoBannerButton
 {
 }
-

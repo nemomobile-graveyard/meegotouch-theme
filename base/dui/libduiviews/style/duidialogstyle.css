@@ -35,17 +35,6 @@ DuiDialogStyle {
     dialog-preferred-size: 100% -1;
 }
 
-/* Animations */
-DuiDialog DuiWidgetSlideInAnimationStyle {
-    from: "bottom";
-    duration: 300;
-}
-
-DuiDialog DuiWidgetSlideOutAnimationStyle {
-    to: "bottom";
-    duration: 300;
-}
-
 DuiDialogStyle.Landscape {
     button-box-orientation: horizontal;
 }
@@ -121,7 +110,6 @@ DuiButtonStyle[single].Portrait {
    background-image: "duidialog-top-button-background" 14px 14px 14px 14px;
 }
 
-
 DuiButtonStyle[first].Landscape:pressed {
     background-image: "duidialog-left-button-background-pressed" 14px 14px 14px 14px;
 }
@@ -191,4 +179,3 @@ DuiButtonStyle[single].Portrait:pressed {
     margin-top: 0;
     margin-bottom: 0;
 }
-

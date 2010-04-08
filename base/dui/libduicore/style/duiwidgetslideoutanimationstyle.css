@@ -4,3 +4,12 @@ DuiWidgetSlideOutAnimationStyle {
     easing-curve: outsine;
     to: "top";
 }
+
+DuiDialog DuiWidgetSlideOutAnimationStyle {
+    to: "bottom";
+    duration: 300;
+}
+
+DuiInfoBanner DuiWidgetSlideOutAnimationStyle {
+    to: "left";
+}

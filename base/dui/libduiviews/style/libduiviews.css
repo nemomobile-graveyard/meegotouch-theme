@@ -17,9 +17,7 @@
 /* default style attribute values for common components */
 /* widget styles are imported in alphabetical order */
 
-@import "../../libduicore/style/duiabstractlayoutpolicy.css";
 @import "duiapplicationpagestyle.css";
-@import "../../libduicore/style/duibasiclayoutanimationstyle.css";
 @import "duibuttonstyle.css";
 @import "duibuttoniconstyle.css";
 @import "duibuttonswitchstyle.css";
@@ -28,7 +26,6 @@
 @import "duicomboboxstyle.css";
 @import "duiescapebuttonpanelstyle.css";
 @import "duiextendingbackgroundstyle.css";
-@import "../../libduicore/style/duiflowlayoutcontainerstyle.css";
 @import "duihomebuttonpanelstyle.css";
 @import "duiimagewidgetstyle.css";
 @import "duiinfobannerstyle.css";
@@ -59,17 +56,7 @@
 @import "duitimestyle.css";
 @import "duitoolbartabstyle.css";
 @import "duitoolbarstyle.css";
-@import "../../libduicore/style/duianimation.css";
-@import "../../libduicore/style/duidevicestyle.css";
-@import "../../libduicore/style/duiwidgetfadeinanimationstyle.css";
-@import "../../libduicore/style/duiwidgetfadeoutanimationstyle.css";
-@import "../../libduicore/style/duiwidgetslideinanimationstyle.css";
-@import "../../libduicore/style/duiwidgetslideoutanimationstyle.css";
-@import "../../libduicore/style/duiwidgetzoominanimationstyle.css";
-@import "../../libduicore/style/duiwidgetzoomoutanimationstyle.css";
 @import "duicontentitemstyle.css";
 @import "duisettingslanguagesettingsfactorystyle.css";
-@import "../../libduicore/style/duipageswitchanimation.css";
-@import "../../libduicore/style/duibasicorientationanimationstyle.css";
 @import "duipreeditstyle.css";
 @import "duibubbleitemstyle.css";
