@@ -4,6 +4,6 @@ DuiPreeditStyle {
     background-color: ;
 }
 
-DuiPreeditStyle:nocandidates {
+DuiPreeditStyle:no-candidates {
     underline: dotline;
 }
