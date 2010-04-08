@@ -2,13 +2,13 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-toolbar-camera-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
-	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <g id="icon-m-toolbar-camera">
-	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#FFFFFF;" d="M51.64,17H13.127c-1.173,0-2.14,0.967-2.14,2.143v25.713c0,1.178,0.966,2.145,2.14,2.145H51.64
-		c1.173,0,2.14-0.967,2.14-2.145V19.143C53.779,17.967,52.813,17,51.64,17z M32.383,42.031c-5.317,0-9.629-4.324-9.629-9.645
-		c0-5.326,4.313-9.643,9.629-9.643c5.319,0,9.628,4.316,9.628,9.643C42.012,37.707,37.702,42.031,32.383,42.031z M51.043,23.909
-		h-8.282v-4.146h8.282V23.909z"/>
+	<rect style="fill:none;" width="32" height="32"/>
+	<path style="fill:#FFFFFF;" d="M30.4,4.783H1.6C0.723,4.783,0,5.505,0,6.385v19.229c0,0.881,0.723,1.604,1.6,1.604h28.8
+		c0.877,0,1.6-0.723,1.6-1.604V6.385C32,5.505,31.277,4.783,30.4,4.783z M16,23.5c-3.976,0-7.201-3.233-7.201-7.212
+		c0-3.982,3.225-7.21,7.201-7.21c3.978,0,7.199,3.228,7.199,7.21C23.199,20.268,19.978,23.5,16,23.5z M29.953,10.998H23.76v-4.15
+		h6.193V10.998z"/>
 </g>
 </svg>

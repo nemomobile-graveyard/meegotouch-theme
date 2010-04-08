@@ -4,12 +4,12 @@
 <svg version="1.1" id="icon-s-status-notifier-error-layer"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="18px"
 	 viewBox="0 0 36 18" style="enable-background:new 0 0 36 18;" xml:space="preserve">
-<g id="icon-s-status-notifier-error">
+<g id="icon-s-status-notifier-error_2_">
 	<rect style="fill:none;" width="36" height="18"/>
-	<path style="fill:#FFFFFF;" d="M14.998,1.401c-1.499-0.809-3.655-1.237-5.412-1.287C9.176,0.103,8.432,0.132,8,0.246V12.99
+	<path style="fill:#FFFFFF;" d="M14.998,1.402c-1.499-0.81-3.655-1.238-5.412-1.287C9.176,0.103,8.432,0.133,8,0.246V12.99
 		c0.422-0.135,1.172-0.229,1.585-0.298c1.732-0.289,3.913,0.479,5.412,1.287c1.279,0.689,2.588,1.33,3.923,1.91
-		c0.233,0.102,0.472,0.205,0.714,0.309V3.62c-0.242-0.104-0.48-0.207-0.714-0.309C17.586,2.731,16.276,2.091,14.998,1.401z"/>
-	<g id="error">
+		c0.233,0.102,0.472,0.205,0.714,0.31V3.62c-0.242-0.103-0.48-0.207-0.714-0.309C17.586,2.731,16.276,2.091,14.998,1.402z"/>
+	<g id="error_2_">
 		<rect x="22" y="5" style="fill:#FFFFFF;" width="3" height="9"/>
 		<rect x="22" y="16" style="fill:#FFFFFF;" width="3" height="2"/>
 	</g>

@@ -2,45 +2,45 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-framework-grid-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
-	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <g id="icon-m-framework-grid">
-	<rect style="fill:none;" width="64" height="64"/>
+	<rect style="fill:none;" width="32" height="32"/>
 	<g>
-		<path style="fill:#FFFFFF;" d="M37.334,20.666c0,1.1-0.9,2-2,2h-6.667c-1.1,0-2-0.9-2-2V14c0-1.1,0.9-2,2-2h6.667c1.1,0,2,0.9,2,2
-			V20.666z"/>
+		<path style="fill:#FFFFFF;" d="M19.934,6.656c0,1.1-0.9,2-2,2h-4.393c-1.1,0-2-0.9-2-2V2.264c0-1.1,0.9-2,2-2h4.393
+			c1.1,0,2,0.9,2,2V6.656z"/>
 	</g>
 	<g>
-		<path style="fill:#FFFFFF;" d="M52.668,20.666c0,1.1-0.9,2-2,2H44c-1.1,0-2-0.9-2-2V14c0-1.1,0.9-2,2-2h6.668c1.1,0,2,0.9,2,2
-			V20.666z"/>
+		<path style="fill:#FFFFFF;" d="M32,6.656c0,1.1-0.9,2-2,2h-4.393c-1.1,0-2-0.9-2-2V2.264c0-1.1,0.9-2,2-2H30c1.1,0,2,0.9,2,2
+			V6.656z"/>
 	</g>
 	<g>
-		<path style="fill:#FFFFFF;" d="M22.667,35.332c0,1.1-0.9,2-2,2H14c-1.1,0-2-0.9-2-2v-6.666c0-1.1,0.9-2,2-2h6.667c1.1,0,2,0.9,2,2
-			V35.332z"/>
+		<path style="fill:#FFFFFF;" d="M8.394,18.195c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2v-4.393c0-1.1,0.9-2,2-2h4.394c1.1,0,2,0.9,2,2
+			V18.195z"/>
 	</g>
 	<g>
-		<path style="fill:#FFFFFF;" d="M37.334,35.332c0,1.1-0.9,2-2,2h-6.667c-1.1,0-2-0.9-2-2v-6.666c0-1.1,0.9-2,2-2h6.667
-			c1.1,0,2,0.9,2,2V35.332z"/>
+		<path style="fill:#FFFFFF;" d="M19.934,18.195c0,1.1-0.9,2-2,2h-4.393c-1.1,0-2-0.9-2-2v-4.393c0-1.1,0.9-2,2-2h4.393
+			c1.1,0,2,0.9,2,2V18.195z"/>
 	</g>
 	<g>
-		<path style="fill:#FFFFFF;" d="M52.668,35.332c0,1.1-0.9,2-2,2H44c-1.1,0-2-0.9-2-2v-6.666c0-1.1,0.9-2,2-2h6.668c1.1,0,2,0.9,2,2
-			V35.332z"/>
+		<path style="fill:#FFFFFF;" d="M32,18.195c0,1.1-0.9,2-2,2h-4.393c-1.1,0-2-0.9-2-2v-4.393c0-1.1,0.9-2,2-2H30c1.1,0,2,0.9,2,2
+			V18.195z"/>
 	</g>
 	<g>
-		<path style="fill:#FFFFFF;" d="M22.667,50c0,1.1-0.9,2-2,2H14c-1.1,0-2-0.9-2-2v-6.668c0-1.1,0.9-2,2-2h6.667c1.1,0,2,0.9,2,2V50z
-			"/>
+		<path style="fill:#FFFFFF;" d="M8.394,29.738c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2v-4.395c0-1.1,0.9-2,2-2h4.394c1.1,0,2,0.9,2,2
+			V29.738z"/>
 	</g>
 	<g>
-		<path style="fill:#FFFFFF;" d="M37.334,50c0,1.1-0.9,2-2,2h-6.667c-1.1,0-2-0.9-2-2v-6.668c0-1.1,0.9-2,2-2h6.667c1.1,0,2,0.9,2,2
-			V50z"/>
+		<path style="fill:#FFFFFF;" d="M19.934,29.738c0,1.1-0.9,2-2,2h-4.393c-1.1,0-2-0.9-2-2v-4.395c0-1.1,0.9-2,2-2h4.393
+			c1.1,0,2,0.9,2,2V29.738z"/>
 	</g>
 	<g>
-		<path style="fill:#FFFFFF;" d="M52.668,50c0,1.1-0.9,2-2,2H44c-1.1,0-2-0.9-2-2v-6.668c0-1.1,0.9-2,2-2h6.668c1.1,0,2,0.9,2,2V50z
-			"/>
+		<path style="fill:#FFFFFF;" d="M32,29.738c0,1.1-0.9,2-2,2h-4.393c-1.1,0-2-0.9-2-2v-4.395c0-1.1,0.9-2,2-2H30c1.1,0,2,0.9,2,2
+			V29.738z"/>
 	</g>
 	<g>
-		<path style="fill:#FFFFFF;" d="M22.667,20.666c0,1.1-0.9,2-2,2H14c-1.1,0-2-0.9-2-2V14c0-1.1,0.9-2,2-2h6.667c1.1,0,2,0.9,2,2
-			V20.666z"/>
+		<path style="fill:#FFFFFF;" d="M8.394,6.656c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2.264c0-1.1,0.9-2,2-2h4.394c1.1,0,2,0.9,2,2
+			V6.656z"/>
 	</g>
 </g>
 </svg>

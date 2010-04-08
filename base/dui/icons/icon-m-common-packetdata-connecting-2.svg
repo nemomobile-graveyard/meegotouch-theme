@@ -6,7 +6,7 @@
 	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <g id="icon-m-common-packetdata-connecting-2">
 	<rect style="fill:none;" width="32" height="32"/>
-	<path style="fill:#FFFFFF;" d="M0,14.29l16-0.001L6.22,4.604c0,0,0,3.277,0,4.106H0V14.29z"/>
-	<path style="fill:#FFFFFF;" d="M32,17.7l-16,0.001l9.755,9.695c0,0,0-3.274,0.021-4.109H32V17.7z"/>
+	<path style="fill:#FFFFFF;" d="M0,14.289l16-0.001L6.22,4.604c0,0,0,3.276,0,4.105H0V14.289z"/>
+	<path style="fill:#FFFFFF;" d="M32,17.699l-16,0.002l9.755,9.695c0,0,0-3.275,0.021-4.109H32V17.699z"/>
 </g>
 </svg>

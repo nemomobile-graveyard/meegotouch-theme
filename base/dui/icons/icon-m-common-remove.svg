@@ -3,9 +3,9 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-common-remove-layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
-<g id="icon-m-common-remove">
+<g id="icon-m-common-remove_2_">
 	<rect style="fill:none;" width="64" height="64"/>
 	<path style="fill:#333333;" d="M50.875,37h-37.75V26h37.75V37z"/>
-	<path style="fill:#333333;" d="M58.156,5.845v52.313H5.844V5.845H58.156 M63,1.001H1v62h62V1.001L63,1.001z"/>
+	<path style="fill:#333333;" d="M58.156,5.845v52.312H5.844V5.845H58.156 M63,1.001H1v62h62V1.001L63,1.001z"/>
 </g>
 </svg>

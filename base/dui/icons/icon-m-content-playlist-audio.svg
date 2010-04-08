@@ -2,8 +2,8 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-content-playlist-audio-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
-	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="65px"
+	 viewBox="0 0 64 65" style="enable-background:new 0 0 64 65;" xml:space="preserve">
 <g id="icon-m-content-playlist-audio">
 	<rect style="fill:none;" width="64" height="64"/>
 	<path style="fill:#333333;" d="M9.494,16.105c-1.235,0-2.237-1.001-2.237-2.236c0-1.236,1.001-2.236,2.237-2.236
@@ -22,7 +22,7 @@
 		c1.381,2.499,4.986,3.07,8.184,1.294c2.117-1.171,3.478-3.044,3.738-4.896C63.985,50.855,64,50.771,64,50.617v-3.74V24.43
 		c0-0.375-0.272-0.539-0.602-0.353L45.262,34.098c-0.325,0.182-0.59,0.634-0.59,1.02V53.35c-1.666-0.596-3.813-0.4-5.785,0.703
 		c-3.207,1.77-4.626,5.119-3.246,7.615c1.385,2.502,4.984,3.078,8.186,1.301c2.121-1.174,3.52-3.043,3.772-4.893
-		c0.017-0.205,0.036-0.313,0.036-0.463V43.18c0-0.291,0.271-0.834,0.599-1.016l12.198-6.739c0.326-0.184,0.598-0.022,0.598,0.352
+		c0.017-0.205,0.036-0.312,0.036-0.463V43.18c0-0.291,0.271-0.834,0.599-1.016l12.198-6.739c0.326-0.184,0.598-0.022,0.598,0.352
 		v11.673"/>
 	<path style="fill:#333333;" d="M30.023,55.238c0.353-0.829,0.813-1.617,1.347-2.362h-8.515H2.601V2.601h22.864H45.72v24.39
 		l2.601-1.437V1.789C48.32,0.806,47.514,0,46.529,0H25.464H1.791H1.789C0.807,0,0,0.806,0,1.789V1.79v51.897

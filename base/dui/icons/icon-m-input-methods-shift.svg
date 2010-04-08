@@ -6,7 +6,7 @@
 	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
 <g id="icon-m-input-methods-shift">
 	<rect style="opacity:0.35;fill:none;" width="48" height="48"/>
-	<path style="fill:#333333;" d="M23.99,8.857L6.961,25.568h10.806l-0.022,13.575h12.875l0.004-13.575l10.416,0.001L23.99,8.857z
-		 M28.063,23.008v13.136h-7.729L20.322,23.01h-7.101L23.99,12.441L34.771,23.01L28.063,23.008z"/>
+	<path style="fill:#333333;" d="M24,13.51l9.279,9.279h-0.416h-2.699v2.7v10.796H17.837V25.489v-2.7h-2.7h-0.415L24,13.51 M24,9.69
+		L8.204,25.489h6.933v13.497h17.727V25.489h6.934L24,9.69L24,9.69z"/>
 </g>
 </svg>

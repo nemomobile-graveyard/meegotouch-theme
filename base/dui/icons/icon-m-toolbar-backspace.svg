@@ -2,13 +2,13 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-toolbar-backspace-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
-	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
-<g id="icon-m-toolbar-backspace">
-	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#FFFFFF;" d="M21.336,18.645L7.979,32l13.357,13.354h34.683l0.003-26.71H21.336z M53.019,42.354H22.576L12.223,32
-		l10.354-10.355h30.445L53.019,42.354z"/>
-	<polygon style="fill:#FFFFFF;" points="36.635,38.361 40.873,34.123 45.111,38.361 47.23,36.24 42.992,32 47.23,27.764 
-		45.111,25.643 40.873,29.881 36.635,25.641 34.514,27.762 38.752,32 34.514,36.24 	"/>
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<g id="icon-m-toolbar-backspace_1_">
+	<rect style="fill:none;" width="32" height="32"/>
+	<path style="fill:#FFFFFF;" d="M8.897,6.004L0,16l8.897,10h23.091L31.99,6.004H8.897z M30,24.002H9.723L2.827,16l6.896-7.998
+		h20.279L30,24.002z"/>
+	<polygon style="fill:#FFFFFF;" points="19.086,20.236 21.91,17.414 24.732,20.236 26.145,18.824 23.32,16 26.145,13.179 
+		24.732,11.766 21.91,14.588 19.086,11.764 17.674,13.177 20.496,16 17.674,18.824 	"/>
 </g>
 </svg>

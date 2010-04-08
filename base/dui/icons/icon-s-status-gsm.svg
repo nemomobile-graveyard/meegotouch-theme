@@ -5,7 +5,7 @@
 	 x="0px" y="0px" width="16px" height="18px" viewBox="0 0 16 18" style="enable-background:new 0 0 16 18;" xml:space="preserve">
 <g id="icon-s-status-gsm">
 	<rect style="fill:none;" width="16" height="18"/>
-	<path style="fill:#FFFFFF;" d="M0.017,0v4.557l6.803,5.717V18h2.255v-7.717l6.909-5.682V0H0.017z M2.272,3.516V2.245h4.547v5.093
-		L2.272,3.516z M9.074,2.245h4.652v1.296L9.074,7.37V2.245z"/>
+	<path style="fill:#FFFFFF;" d="M0.016,0v4.557l6.803,5.717V18h2.254v-7.717l6.91-5.682V0H0.016z M2.272,3.516V2.245h4.547v5.093
+		L2.272,3.516z M9.073,2.245h4.652v1.296L9.073,7.37V2.245z"/>
 </g>
 </svg>

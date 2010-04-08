@@ -2,10 +2,10 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-camera-night-layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
-<g id="icon-m-camera-night">
-	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#333333;" d="M43,1c2.882,0,6.35,0.273,9,1C38,6,29,17,29,32s9,26,23,30c-2.65,0.725-5.118,1-8,1
-		c-17,0-32-12-32.089-30.765C11.829,14.839,25,1,43,1z"/>
+	 x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g id="icon-m-camera-night_1_">
+	<rect style="fill:none;" width="48" height="48"/>
+	<path style="fill:#333333;" d="M32.25,0.75c2.161,0,4.762,0.205,6.75,0.75C28.5,4.5,21.75,12.75,21.75,24S28.5,43.5,39,46.5
+		c-1.988,0.544-3.839,0.75-6,0.75c-12.75,0-24-9-24.066-23.073C8.872,11.129,18.75,0.75,32.25,0.75z"/>
 </g>
 </svg>

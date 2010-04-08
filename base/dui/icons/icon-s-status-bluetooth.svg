@@ -6,8 +6,8 @@
 	 viewBox="0 0 14 18" style="enable-background:new 0 0 14 18;" xml:space="preserve">
 <g id="icon-s-status-bluetooth">
 	<rect style="fill:none;" width="14" height="18"/>
-	<path id="icon-s-bluetooth_4_" style="fill:#FFFFFF;" d="M6.393,0v7.261L3.349,4.217L2.313,5.252L6.04,8.996l-3.811,3.809
-		l1.035,1.035l3.128-3.127V18l5.377-5.367L8.109,8.996l3.659-3.637L6.393,0z M9.687,5.346l-1.83,1.831V3.518L9.687,5.346z
-		 M7.856,14.58v-3.783l1.892,1.893L7.856,14.58z"/>
+	<path id="icon-s-bluetooth_3_" style="fill:#FFFFFF;" d="M6.393,0v7.261L3.349,4.215L2.313,5.25L6.04,8.995l-3.811,3.811
+		l1.035,1.034l3.128-3.125V18l5.377-5.367L8.109,8.995l3.659-3.635L6.393,0z M9.688,5.348L7.856,7.177V3.519L9.688,5.348z
+		 M7.856,14.582v-3.785l1.893,1.891L7.856,14.582z"/>
 </g>
 </svg>

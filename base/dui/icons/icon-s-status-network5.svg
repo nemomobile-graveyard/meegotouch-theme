@@ -5,8 +5,8 @@
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="18px"
 	 viewBox="0 0 14 18" style="enable-background:new 0 0 14 18;" xml:space="preserve">
 <g id="icon-s-status-network5">
-	<rect y="16" style="fill:#FFFFFF;" width="14" height="2"/>
 	<rect style="fill:none;" width="14" height="18"/>
+	<rect y="16" style="fill:#FFFFFF;" width="14" height="2"/>
 	<rect y="12" style="fill:#FFFFFF;" width="14" height="2"/>
 	<rect y="8" style="fill:#FFFFFF;" width="14" height="2"/>
 	<rect y="4" style="fill:#FFFFFF;" width="14" height="2"/>

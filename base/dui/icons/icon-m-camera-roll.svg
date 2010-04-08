@@ -2,12 +2,12 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-camera-roll-layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+	 x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <g id="icon-m-camera-roll">
-	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#333333;" d="M36,11H26V7c0-1.054-0.948-2-2-2h-9c-1.052,0-2,0.946-2,2v4H3c-3,0-2,4,0,4v41c-2,0-3,3.9,0,3.9h33
-		c3,0,2-3.9,0-3.9V15C38,15,39,11,36,11z M14,56H8V14.9h6V56z"/>
-	<path style="fill:#333333;" d="M40,17v36h6V43c0-3,1-5.1,4-5.1L63,38V17H40z M46,28h-4v-8.1l4,0.1V28z M53,28h-4v-8.1l4,0.1V28z
-		 M60,28h-4v-8.1l4,0.1V28z"/>
+	<rect style="fill:none;" width="32" height="32"/>
+	<path style="fill:#FFFFFF;" d="M18,5.5h-5v-2c0-0.527-0.474-1-1-1H7.5c-0.526,0-1,0.473-1,1v2h-5c-1.5,0-1,2,0,2V28
+		c-1,0-1.5,1.95,0,1.95H18c1.5,0,1-1.95,0-1.95V7.5C19,7.5,19.5,5.5,18,5.5z M7,28H4V7.45h3V28z"/>
+	<path style="fill:#FFFFFF;" d="M20,8.5v18h3v-5c0-1.5,0.5-2.55,2-2.55L31.5,19V8.5H20z M23,14h-2V9.95L23,10V14z M26.5,14h-2V9.95
+		l2,0.05V14z M30,14h-2V9.95L30,10V14z"/>
 </g>
 </svg>

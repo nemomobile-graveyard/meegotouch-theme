@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="icon-m-toolbar-send-layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" width="65px" height="64px" viewBox="0 0 65 64" style="enable-background:new 0 0 65 64;" xml:space="preserve">
+<svg version="1.1" id="icon-m-toolbar-send-sms-layer"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <g id="icon-m-toolbar-send-sms">
-	<rect x="1" style="fill:none;" width="64" height="64"/>
-	<path style="fill:#FFFFFF;" d="M39.291,37.201l-0.532-0.224l-17.137-7.491v13.909c0,0.608,0.497,1.104,1.104,1.104h33.125
-		c0.607,0,1.104-0.496,1.104-1.104V29.486l-17.139,7.491L39.291,37.201z"/>
-	<path style="fill:#FFFFFF;" d="M56.955,20.604c0-0.605-0.496-1.104-1.104-1.104H22.726c-0.607,0-1.104,0.498-1.104,1.104v4.785
-		l17.669,7.738l17.664-7.738V20.604z"/>
-	<path style="fill:#FFFFFF;" d="M9.044,24.643c0,1.061,1.045,1.929,2.321,1.929h7.697v-3.856h-7.697
-		C10.09,22.715,9.044,23.582,9.044,24.643z"/>
-	<path style="fill:#FFFFFF;" d="M9.044,32.379c0,1.063,1.045,1.932,2.321,1.932h7.697v-3.857h-7.697
-		C10.09,30.453,9.044,31.32,9.044,32.379z"/>
-	<path style="fill:#FFFFFF;" d="M9.044,40.119c0,1.06,1.045,1.928,2.321,1.928h7.697V38.19h-7.697
-		C10.09,38.19,9.044,39.058,9.044,40.119z"/>
+	<rect style="fill:none;" width="32" height="32"/>
+	<path style="fill:#FFFFFF;" d="M21.202,19.18l-0.325-0.137L10.4,14.463v8.504c0,0.371,0.304,0.675,0.675,0.675h20.25
+		c0.371,0,0.675-0.304,0.675-0.675v-8.504l-10.477,4.58L21.202,19.18z"/>
+	<path style="fill:#FFFFFF;" d="M32,9.033c0-0.371-0.304-0.675-0.675-0.675h-20.25c-0.371,0-0.675,0.304-0.675,0.675v2.926
+		l10.802,4.73L32,11.959V9.033z"/>
+	<path style="fill:#FFFFFF;" d="M0,11.086c0,0.708,0.698,1.289,1.55,1.289h5.141V9.799H1.55C0.698,9.799,0,10.378,0,11.086z"/>
+	<path style="fill:#FFFFFF;" d="M0,16.254c0,0.709,0.698,1.29,1.55,1.29h5.141v-2.577H1.55C0.698,14.967,0,15.547,0,16.254z"/>
+	<path style="fill:#FFFFFF;" d="M0,21.422c0,0.709,0.698,1.289,1.55,1.289h5.141v-2.576H1.55C0.698,20.135,0,20.715,0,21.422z"/>
 </g>
 </svg>

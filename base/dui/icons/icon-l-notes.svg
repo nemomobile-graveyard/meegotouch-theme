@@ -2,40 +2,40 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-l-notes-layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" width="65px" height="64px" viewBox="0 0 65 64" style="enable-background:new 0 0 65 64;" xml:space="preserve">
+	 y="0px" width="48px" height="49px" viewBox="0 0 48 49" style="enable-background:new 0 0 48 49;" xml:space="preserve">
 <g id="icon-l-notes">
-	<rect x="1" style="fill:none;" width="64" height="64"/>
+	<rect style="fill:none;" width="48" height="48"/>
 	<g>
-		<path style="opacity:0.2;fill:#010101;" d="M35.586,62.169L9.411,52.042c-0.871-0.339-1.306-1.316-0.966-2.19l0,0l2.63-6.79V8.011
-			c0-0.903,0.742-1.696,1.693-1.696l0,0h36.843c0.842,0,1.693,0.716,1.693,1.696l0,0v17.187l6.959,2.689
-			c0.963,0.364,1.305,1.395,0.967,2.189l0,0L49.125,56.188c-0.164,0.422-0.48,0.756-0.893,0.937l0,0l-11.35,5.021
-			C36.555,62.367,35.973,62.367,35.586,62.169L35.586,62.169z"/>
-		<polygon style="opacity:0.5;fill:#010101;" points="49.613,26.354 12.769,43.377 10.023,50.464 36.201,60.597 47.549,55.578 
-			57.652,29.467 		"/>
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="31.1909" y1="-14.0439" x2="31.1909" y2="58.6865">
+		<path style="opacity:0.2;fill:#010101;" d="M26.033,48.119L4.999,39.981C4.3,39.709,3.95,38.923,4.223,38.221l0,0l2.114-5.456
+			V4.599c0-0.725,0.596-1.362,1.361-1.362l0,0h29.605c0.676,0,1.359,0.574,1.359,1.362l0,0v13.811l5.594,2.161
+			c0.773,0.293,1.049,1.121,0.775,1.761l0,0l-8.119,20.981c-0.133,0.339-0.387,0.606-0.717,0.752l0,0L27.074,48.1
+			C26.811,48.278,26.342,48.278,26.033,48.119L26.033,48.119z"/>
+		<polygon style="opacity:0.5;fill:#010101;" points="37.305,19.338 7.698,33.018 5.491,38.713 26.525,46.855 35.645,42.823 
+			43.766,21.841 		"/>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="22.501" y1="-13.1235" x2="22.501" y2="45.3201">
 			<stop  offset="0" style="stop-color:#FEE23F"/>
 			<stop  offset="0.1759" style="stop-color:#FAD63A"/>
 			<stop  offset="0.5155" style="stop-color:#F1B831"/>
 			<stop  offset="0.981" style="stop-color:#E48A25"/>
 			<stop  offset="1" style="stop-color:#E38825"/>
 		</linearGradient>
-		<rect x="12.769" y="6.316" style="fill:url(#SVGID_1_);" width="36.845" height="38.598"/>
-		<polygon style="opacity:0.3;fill:#010101;" points="49.613,22.852 22.332,12.293 12.769,36.999 12.769,44.914 49.613,44.914 		"/>
-		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="33.8379" y1="16.3999" x2="33.8379" y2="70.5244">
+		<rect x="7.698" y="3.237" style="fill:url(#SVGID_1_);" width="29.607" height="31.016"/>
+		<polygon style="opacity:0.3;fill:#010101;" points="37.305,16.524 15.382,8.04 7.698,27.893 7.698,34.253 37.305,34.253 		"/>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="24.6284" y1="11.3398" x2="24.6284" y2="54.8328">
 			<stop  offset="0" style="stop-color:#FEE23F"/>
 			<stop  offset="0.1759" style="stop-color:#FAD63A"/>
 			<stop  offset="0.5155" style="stop-color:#F1B831"/>
 			<stop  offset="0.981" style="stop-color:#E48A25"/>
 			<stop  offset="1" style="stop-color:#E38825"/>
 		</linearGradient>
-		<polygon style="fill:url(#SVGID_2_);" points="36.201,58.906 10.023,48.771 23.299,14.48 57.652,27.775 47.549,53.888 		"/>
-		<polygon style="opacity:0.2;fill:#010101;" points="39.367,50.725 47.549,53.89 36.203,58.906 		"/>
+		<polygon style="fill:url(#SVGID_2_);" points="26.525,45.497 5.491,37.353 16.159,9.798 43.766,20.48 35.645,41.465 		"/>
+		<polygon style="opacity:0.2;fill:#010101;" points="29.07,38.922 35.645,41.466 26.529,45.497 		"/>
 		
-			<rect x="36.169" y="19.516" transform="matrix(0.3611 -0.9325 0.9325 0.3611 -4.2014 53.9745)" style="opacity:0.3;fill-rule:evenodd;clip-rule:evenodd;fill:#010101;" width="2.237" height="21.075"/>
+			<rect x="26.502" y="13.844" transform="matrix(0.3611 -0.9325 0.9325 0.3611 -3.3003 39.8059)" style="opacity:0.3;fill-rule:evenodd;clip-rule:evenodd;fill:#010101;" width="1.797" height="16.936"/>
 		
-			<rect x="24.253" y="35.396" transform="matrix(-0.9328 -0.3605 0.3605 -0.9328 54.0754 83.1172)" style="opacity:0.3;fill-rule:evenodd;clip-rule:evenodd;fill:#010101;" width="21.074" height="2.237"/>
-		<polygon style="opacity:0.3;fill-rule:evenodd;clip-rule:evenodd;fill:#010101;" points="22.058,40.227 33.266,44.555 
-			34.076,42.466 22.867,38.14 		"/>
+			<rect x="16.925" y="26.606" transform="matrix(-0.9327 -0.3605 0.3605 -0.9327 39.1604 62.3136)" style="opacity:0.3;fill-rule:evenodd;clip-rule:evenodd;fill:#010101;" width="16.935" height="1.797"/>
+		
+			<rect x="15.163" y="30.486" transform="matrix(-0.9328 -0.3603 0.3603 -0.9328 27.3302 67.8669)" style="opacity:0.3;fill-rule:evenodd;clip-rule:evenodd;fill:#010101;" width="9.655" height="1.8"/>
 	</g>
 </g>
 </svg>

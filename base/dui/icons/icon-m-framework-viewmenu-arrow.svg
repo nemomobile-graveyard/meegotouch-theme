@@ -2,12 +2,12 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-framework-viewmenu-arrow-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
-	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <g id="icon-m-framework-viewmenu-arrow">
-	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#FFFFFF;" d="M47.26,40.422c-0.385,0.771-1.016,0.771-1.402,0l-3.303-6.607c-0.387-0.771-1.018-2.033-1.404-2.805
-		l-3.303-6.607C37.463,23.631,37.853,23,38.715,23h6.275c0.862,0,2.275,0,3.137,0h6.275c0.863,0,1.252,0.631,0.866,1.402
-		l-3.302,6.607c-0.387,0.771-1.018,2.033-1.404,2.805L47.26,40.422z"/>
+	<rect style="fill:none;" width="32" height="32"/>
+	<path style="fill:#FFFFFF;" d="M16.702,24.422c-0.386,0.771-1.017,0.771-1.402,0l-3.304-6.607
+		c-0.386-0.771-1.018-2.033-1.403-2.805L7.29,8.402C6.904,7.631,7.294,7,8.156,7h6.275c0.863,0,2.275,0,3.137,0h6.275
+		c0.863,0,1.252,0.631,0.866,1.402l-3.303,6.607c-0.386,0.771-1.017,2.033-1.403,2.805L16.702,24.422z"/>
 </g>
 </svg>

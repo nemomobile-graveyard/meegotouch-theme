@@ -2,16 +2,16 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-toolbar-image-edit-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
-	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
-<g id="icon-m-toolbar-image-edit">
-	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#FFFFFF;" d="M16.987,46.715h21.138c0,0-4.13-14.498-8.488-4.854C27.021,35.813,21.887,28.34,16.987,46.715z"/>
-	<path style="fill:#FFFFFF;" d="M40.908,34.924v14.139H13.991V27.525h14.109l0.987-2.937H11.11V52h32.681V32.195l-2.094,2.079
-		C41.472,34.501,41.197,34.717,40.908,34.924z"/>
-	<path style="fill:#FFFFFF;" d="M52.692,16.983l-4.773-4.786c-0.267-0.264-0.696-0.264-0.962,0L33.238,25.785
-		c-0.262,0.265-0.575,0.771-0.695,1.125l-2.45,7.352c-0.116,0.354,0.077,0.547,0.432,0.43l7.342-2.449
-		c0.352-0.118,0.857-0.432,1.121-0.696l13.703-13.603C52.957,17.681,52.957,17.248,52.692,16.983z M37.621,30.588l-2.93,0.978
-		l-1.475-1.476l0.979-2.935l1.299-1.3l3.397,3.461L37.621,30.588z"/>
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<g id="icon-m-toolbar-image-edit_1_">
+	<rect style="fill:none;" width="32" height="32"/>
+	<path style="fill:#FFFFFF;" d="M22.822,18.239v10.829H2.207V12.573h10.807l0.756-2.249H0v20.994h25.03V16.15l-1.604,1.593
+		C23.254,17.916,23.044,18.082,22.822,18.239z"/>
+	<path style="fill:#FFFFFF;" d="M31.848,4.499l-3.655-3.666c-0.204-0.202-0.534-0.202-0.737,0L16.948,11.24
+		c-0.201,0.202-0.44,0.59-0.533,0.861l-1.876,5.631c-0.089,0.271,0.059,0.418,0.331,0.328l5.623-1.875
+		c0.27-0.091,0.657-0.331,0.859-0.533L31.848,5.234C32.051,5.033,32.051,4.701,31.848,4.499z M20.305,14.918l-2.244,0.75
+		l-1.128-1.131l0.749-2.247l0.995-0.996l2.603,2.651L20.305,14.918z"/>
+	<path style="fill:#FFFFFF;" d="M14.555,24c-2.003-4.119-6.301-10.515-10.054,2h16.19C20.691,26,17.893,17.432,14.555,24z"/>
 </g>
 </svg>
