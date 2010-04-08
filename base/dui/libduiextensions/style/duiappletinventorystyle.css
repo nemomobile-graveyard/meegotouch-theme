@@ -44,7 +44,7 @@ DuiSceneWindowStyle#DuiAppletInventoryWindow {
 }
 
 DuiAppletInventoryStyle {
-    background-image: C1-container-background 20 20 20 20;
+    background-image: ;
     minimum-size: 100% -1;
     preferred-size: 100% -1;
     maximum-size: 100% -1;
