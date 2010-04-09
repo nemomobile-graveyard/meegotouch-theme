@@ -1,14 +1,14 @@
 /* MPositionIndicatorStyle : MWidgetStyle */
 MPositionIndicatorStyle {
-    on-pixmap: "duipositionindicator-indicator" 0.6mm 0.6mm;
-    off-pixmap: "duipositionindicator-background" 0.6mm 0.6mm;
-    pixmap-distance: 0.6mm;
-    min-indicator-dots: 1;
+    indicator-image: "duipositionindicator-indicator" 5px 5px 5px 5px;
+    background-image: "duipositionindicator-background" 5px 5px 5px 5px;
+    min-indicator-size: 2mm;
     hide-timeout: 1000;
 
     /* inherited from MWidgetStyle */
     preferred-size: 0.6mm 0.6mm;
     minimum-size: 0.4mm 0.4mm;
     maximum-size: 10000 10000;
+
 }
 
