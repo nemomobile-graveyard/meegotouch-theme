@@ -3,7 +3,7 @@
 DuiSeparatorStyle {
 
     /* Note: this style is deprecated.
-       It will be replaced by the *Horizontal and *Vertical styles
+       It will be replaced by the horizontal and vertical styles
        below. */
 
     span: 0.6mm;
@@ -21,7 +21,7 @@ DuiSeparatorStyle {
     padding-bottom: 0;
 }
 
-DuiSeparatorStyleHorizontal {
+DuiSeparatorStyle:horizontal {
     span: 0.6mm;
 
     background-image: "duiseparator-horizontal-background" 2px 2px 2px 2px;
@@ -37,7 +37,7 @@ DuiSeparatorStyleHorizontal {
     padding-bottom: 0;
 }
 
-DuiSeparatorStyleVertical {
+DuiSeparatorStyle:vertical {
     span: 0.6mm;
 
     background-image: "duiseparator-vertical-background" 2px 2px 2px 2px;
