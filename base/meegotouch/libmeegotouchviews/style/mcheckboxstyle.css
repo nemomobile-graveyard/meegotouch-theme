@@ -1,0 +1,20 @@
+MCheckboxStyle {
+    background-image: "duibutton-checkbox-background" 10px 10px 10px 10px;
+
+    minimum-size: $SIZE_BUTTON $SIZE_BUTTON;
+    maximum-size: $SIZE_BUTTON $SIZE_BUTTON;
+    preferred-size: $SIZE_BUTTON $SIZE_BUTTON;
+    
+    checkmark-image: ;
+}
+
+MCheckboxStyle:pressed {
+    background-image: "duibutton-checkbox-background-pressed" 10px 10px 10px 10px;
+    checkmark-image: duibutton-checkbox-checkmark-pressed $SIZE_BUTTON $SIZE_BUTTON;
+}
+
+MCheckboxStyle:selected {
+    background-image: "duibutton-checkbox-background" 10px 10px 10px 10px;
+    checkmark-image: duibutton-checkbox-checkmark $SIZE_BUTTON $SIZE_BUTTON;
+}
+

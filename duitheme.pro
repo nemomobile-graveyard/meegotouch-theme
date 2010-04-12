@@ -6,17 +6,17 @@ TEMPLATE = subdirs
 base.files = ./base
 base.path = /usr/share/themes
 base.CONFIG += no_check_exist
-base.commands += perl extract.pl base/dui/svg/
+base.commands += perl extract.pl base/meegotouch/svg/
 
 
 # DEVEL THEME
 devel.files = ./devel
 devel.path = /usr/share/themes
 devel.CONFIG += no_check_exist
-devel.commands += perl extract.pl devel/dui/svg/
+devel.commands += perl extract.pl devel/meegotouch/svg/
 
-devel_icon.files = ./devel/dui/icons/icon-l-duitheme-devel.svg
-devel_icon.path = /usr/share/themes/base/dui/icons
+devel_icon.files = ./devel/meegotouch/icons/icon-l-duitheme-devel.svg
+devel_icon.path = /usr/share/themes/base/meegotouch/icons
 devel_icon.CONFIG += no_check_exist
 
 
@@ -25,10 +25,10 @@ devel_icon.CONFIG += no_check_exist
 plankton.files = ./plankton
 plankton.path = /usr/share/themes
 plankton.CONFIG += no_check_exist
-plankton.commands += perl extract.pl plankton/dui/svg/
+plankton.commands += perl extract.pl plankton/meegotouch/svg/
 
-plankton_icon.files = ./plankton/dui/icons/icon-l-duitheme-plankton.svg
-plankton_icon.path = /usr/share/themes/base/dui/icons
+plankton_icon.files = ./plankton/meegotouch/icons/icon-l-duitheme-plankton.svg
+plankton_icon.path = /usr/share/themes/base/meegotouch/icons
 plankton_icon.CONFIG += no_check_exist
 
 INSTALLS += base \

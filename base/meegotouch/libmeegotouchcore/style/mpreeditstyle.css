@@ -1,0 +1,9 @@
+MPreeditStyle {
+    underline: dashunderline;
+    font-color: ;
+    background-color: ;
+}
+
+MPreeditStyle:no-candidates {
+    underline: dotline;
+}

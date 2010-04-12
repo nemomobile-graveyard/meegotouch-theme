@@ -1,0 +1,63 @@
+/* MSliderStyle : MWidgetStyle */
+MSliderStyle {
+    handle-pixmap: "duislider-handle" 6.4mm 6.4mm;
+    handle-pressed-pixmap: "duislider-handle-pressed" 6.4mm 6.4mm;
+    handle-vertical-pixmap: "duislider-vertical-handle" 6.4mm 6.4mm;
+    handle-vertical-pressed-pixmap: "duislider-vertical-handle-pressed" 6.4mm 6.4mm;
+
+    background-base-image: "duislider-background" 7px 7px 7px 7px;
+    background-elapsed-image: "duislider-background-elapsed" 7px 7px 7px 7px;
+    background-received-image: "duislider-background-received" 7px 7px 7px 7px;
+
+    background-vertical-base-image: "duislider-vertical-background" 7px 7px 7px 7px;
+    background-vertical-elapsed-image: "duislider-vertical-background-elapsed" 7px 7px 7px 7px;
+    background-vertical-received-image: "duislider-vertical-background-received" 7px 7px 7px 7px;
+
+    groove-thickness: 1.4mm;
+
+    groove-preferred-length: 30mm;
+    groove-minimum-length: 20mm;
+    groove-maximum-length: 200mm; 
+}
+
+#MSliderMinMaxLabel {
+    margin-left: $MARGIN_XSMALL;
+    margin-right: $MARGIN_XSMALL;
+    margin-top:  $MARGIN_XSMALL;
+    margin-bottom: $MARGIN_XSMALL;
+
+    color: $COLOR_FOREGROUND;
+    font: $FONT_DEFAULT;
+}
+
+#MSliderHandleLabel {
+    margin-left: $MARGIN_MEDIUM;
+    margin-right: $MARGIN_MEDIUM;
+    margin-top:  $MARGIN_MEDIUM;
+    margin-bottom: $MARGIN_MEDIUM;
+
+    padding-left: $PADDING_LARGE;
+    padding-right: $PADDING_LARGE;
+    padding-top:  $PADDING_MEDIUM;
+    padding-bottom: $PADDING_MEDIUM;
+
+    color: $COLOR_FOREGROUND;
+    font: $FONT_DEFAULT;
+    background-image: "duislider-handle-value-background" 10px 10px 10px 10px;
+}
+
+#MSliderImage {
+    margin-left:   $MARGIN_XSMALL;
+    margin-top:    $MARGIN_XSMALL;
+    margin-right:  $MARGIN_XSMALL;
+    margin-bottom: $MARGIN_XSMALL;
+
+    padding-left:   $PADDING_XSMALL;
+    padding-top:    $PADDING_XSMALL;
+    padding-right:  $PADDING_XSMALL;
+    padding-bottom: $PADDING_XSMALL;
+
+    border-opacity: 0.0;
+    background-opacity: 0.0;
+}
+

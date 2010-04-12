@@ -1,0 +1,12 @@
+/* MLabelStyle : MWidgetStyle */
+MLabelStyle {
+    color: $COLOR_FOREGROUND;
+    font: $FONT_DEFAULT;
+    highlight-color: $COLOR_LINK;
+    active-highlight-color: $COLOR_LINK_ACTIVE; 
+    
+    /* inherited from MWidgetStyle */
+    press-feedback: press;
+    release-feedback: release;
+}
+

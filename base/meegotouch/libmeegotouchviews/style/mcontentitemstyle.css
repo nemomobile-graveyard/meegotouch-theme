@@ -1,0 +1,160 @@
+
+/* MGridItemStyle : MGridItemStyle */
+MContentItemStyle {    
+    background-image : "duilist-singlecolumn-center-background" 8px 8px 8px 8px;
+
+    background-image-top-left : "duilist-topleft-background" 8px 8px 8px 8px;
+    background-image-top : "duilist-top-background" 8px 8px 8px 8px;
+    background-image-top-right : "duilist-topright-background" 8px 8px 8px 8px;
+    background-image-left : "duilist-left-background" 8px 8px 8px 8px;
+    background-image-center : "duilist-center-background" 8px 8px 8px 8px;
+    background-image-right : "duilist-right-background" 8px 8px 8px 8px;    
+    background-image-bottom-left : "duilist-bottomleft-background" 8px 8px 8px 8px;
+    background-image-bottom : "duilist-bottom-background" 8px 8px 8px 8px;
+    background-image-bottom-right : "duilist-bottomright-background" 8px 8px 8px 8px;
+    
+    background-image-single : "duilist-single-background" 8px 8px 8px 8px;
+
+    background-image-singlerow-left : "duilist-singlerow-left-background" 8px 8px 8px 8px;
+    background-image-singlerow-center : "duilist-singlerow-center-background" 8px 8px 8px 8px;
+    background-image-singlerow-right : "duilist-singlerow-right-background" 8px 8px 8px 8px;
+
+    background-image-singlecolumn-top : "duilist-singlecolumn-top-background" 8px 8px 8px 8px;
+    background-image-singlecolumn-center : "duilist-singlecolumn-center-background" 8px 8px 8px 8px;
+    background-image-singlecolumn-bottom : "duilist-singlecolumn-bottom-background" 8px 8px 8px 8px;
+
+    background-color: $COLOR_BACKGROUND;
+    background-opacity: 1.0;
+
+    /* inherited from MWidgetStyle */
+    preferred-size: -1 $SIZE_ONE;
+    minimum-size: $SIZE_ONE $SIZE_ONE;
+    maximum-size: 100% $SIZE_FOUR;
+
+    margin-left:   0;
+    margin-right:  0;
+    margin-top:    0;
+    margin-bottom: 0;
+    
+    padding-left:   0;
+    padding-top:    0;
+    padding-right:  0;
+    padding-bottom: 0;
+
+    title-object-name: "ContentItemTitle";
+    subtitle-object-name: "ContentItemSubtitle";
+    image-object-name: "ContentItemImage";
+    optional-image-object-name: "ContentItemOptionalImage";
+    small-item-object-name: "ContentItemSmallItem";
+}
+
+MContentItemStyle:selected {
+    background-image : "duilist-singlecolumn-center-background-selected" 8px 8px 8px 8px;
+
+    background-image-top-left : "duilist-topleft-background-selected" 8px 8px 8px 8px;
+    background-image-top : "duilist-top-background-selected" 8px 8px 8px 8px;
+    background-image-top-right : "duilist-topright-background-selected" 8px 8px 8px 8px;
+    background-image-left : "duilist-left-background-selected" 8px 8px 8px 8px;
+    background-image-center : "duilist-center-background-selected" 8px 8px 8px 8px;
+    background-image-right : "duilist-right-background-selected" 8px 8px 8px 8px;    
+    background-image-bottom-left : "duilist-bottomleft-background-selected" 8px 8px 8px 8px;
+    background-image-bottom : "duilist-bottom-background-selected" 8px 8px 8px 8px;
+    background-image-bottom-right : "duilist-bottomright-background-selected" 8px 8px 8px 8px;
+    
+    background-image-single : "duilist-single-background-selected" 8px 8px 8px 8px;
+
+    background-image-singlerow-left : "duilist-singlerow-left-background-selected" 8px 8px 8px 8px;
+    background-image-singlerow-center : "duilist-singlerow-center-background-selected" 8px 8px 8px 8px;
+    background-image-singlerow-right : "duilist-singlerow-right-background-selected" 8px 8px 8px 8px;
+
+    background-image-singlecolumn-top : "duilist-singlecolumn-top-background-selected" 8px 8px 8px 8px;
+    background-image-singlecolumn-center : "duilist-singlecolumn-center-background-selected" 8px 8px 8px 8px;
+    background-image-singlecolumn-bottom : "duilist-singlecolumn-bottom-background-selected" 8px 8px 8px 8px;
+    
+    background-color: $COLOR_INVERTED_FOREGROUND;
+    background-opacity: 1.0;
+}
+
+MContentItemStyle:pressed {
+    background-image : "duilist-singlecolumn-center-background-pressed" 8px 8px 8px 8px;
+
+    background-image-top-left : "duilist-topleft-background-pressed" 8px 8px 8px 8px;
+    background-image-top : "duilist-top-background-pressed" 8px 8px 8px 8px;
+    background-image-top-right : "duilist-topright-background-pressed" 8px 8px 8px 8px;
+    background-image-left : "duilist-left-background-pressed" 8px 8px 8px 8px;
+    background-image-center : "duilist-center-background-pressed" 8px 8px 8px 8px;
+    background-image-right : "duilist-right-background-pressed" 8px 8px 8px 8px;    
+    background-image-bottom-left : "duilist-bottomleft-background-pressed" 8px 8px 8px 8px;
+    background-image-bottom : "duilist-bottom-background-pressed" 8px 8px 8px 8px;
+    background-image-bottom-right : "duilist-bottomright-background-pressed" 8px 8px 8px 8px;
+    
+    background-image-single : "duilist-single-background-pressed" 8px 8px 8px 8px;
+
+    background-image-singlerow-left : "duilist-singlerow-left-background-pressed" 8px 8px 8px 8px;
+    background-image-singlerow-center : "duilist-singlerow-center-background-pressed" 8px 8px 8px 8px;
+    background-image-singlerow-right : "duilist-singlerow-right-background-pressed" 8px 8px 8px 8px;
+
+    background-image-singlecolumn-top : "duilist-singlecolumn-top-background-pressed" 8px 8px 8px 8px;
+    background-image-singlecolumn-center : "duilist-singlecolumn-center-background-pressed" 8px 8px 8px 8px;
+    background-image-singlecolumn-bottom : "duilist-singlecolumn-bottom-background-pressed" 8px 8px 8px 8px;
+    
+    background-color: $COLOR_INVERTED_FOREGROUND;
+    background-opacity: 1.0;
+}
+
+#ContentItemImage {
+    /* inherited from MWidgetStyle */
+    preferred-size: 6.2283mm 6.2283mm;
+    minimum-size: 6.2283mm 6.2283mm;
+    maximum-size: 6.2283mm 6.2283mm;
+
+    margin-left:   $MARGIN_DOUBLE;
+    margin-right:  0;
+    margin-top:    $MARGIN_DOUBLE;
+    margin-bottom: $MARGIN_DOUBLE;
+}
+
+#ContentItemTitle {
+    font: $FONT_DEFAULT;
+
+    /* inherited from MWidgetStyle */
+    margin-left:   $MARGIN_XLARGE;
+    margin-right:  $MARGIN_XLARGE;
+    margin-top:    $MARGIN_MEDIUM;
+    margin-bottom: 0;
+}
+
+#ContentItemSubtitle {
+    font: $FONT_SMALL;
+    color: $COLOR_SECONDARY_FOREGROUND;
+
+    /* inherited from MWidgetStyle */
+    margin-left:   $MARGIN_XLARGE;
+    margin-right:  $MARGIN_XLARGE;
+    margin-top:    $MARGIN_SMALL;
+    margin-bottom: 0;
+}
+
+#ContentItemOptionalImage {
+    /* inherited from MWidgetStyle */
+    preferred-size: 3.2mm 3.2mm;
+    minimum-size: 3.2mm 3.2mm;
+    maximum-size: 3.2mm 3.2mm;
+
+    margin-left:   0;
+    margin-right:  $MARGIN_DOUBLE;
+    margin-top:    $MARGIN_MEDIUM;
+    margin-bottom: $MARGIN_DOUBLE;
+}
+
+#ContentItemSmallItem {
+    /* inherited from MWidgetStyle */
+    preferred-size: 2.8mm 2,8mm;
+    minimum-size: 2.8mm 2.8mm;
+    maximum-size: 2.8mm 2.8mm;
+
+    margin-left:   0;
+    margin-right:  $MARGIN_DOUBLE;
+    margin-top:    $MARGIN_SMALL;
+    margin-bottom: 0;
+}

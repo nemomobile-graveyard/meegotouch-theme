@@ -1,0 +1,6 @@
+/* MWidgetZoomInAnimationStyle : MAbstractWidgetAnimationStyle */
+MWidgetZoomInAnimationStyle {
+    duration: 1000;
+    easingCurve: linear;
+}
+

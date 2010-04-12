@@ -1,0 +1,6 @@
+/* MWidgetFadeInAnimationStyle : MAbstractWidgetAnimationStyle */
+MWidgetFadeInAnimationStyle {
+    duration: 300;
+    easing-curve: insine;
+    opacity: 1.0;
+}

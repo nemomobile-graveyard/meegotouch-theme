@@ -1,0 +1,35 @@
+/* MSceneWindowStyle : MWidgetStyle */
+MSceneWindowStyle {
+
+    margin-left:   0;
+    margin-top:    0;
+    margin-right:  0;
+    margin-bottom: 0;
+    
+    padding-left:   0;
+    padding-top:    0;
+    padding-right:  0;
+    padding-bottom: 0;
+
+    vertical-align: top;
+    horizontal-align: left;
+
+    offset: 0 0;
+
+    minimum-size: 100% 100%;
+    preferred-size: 100% 100%;
+    maximum-size: 100% 100%;
+}
+
+/* Temporary styling. When the status bar starts to be drawn remotely by the
+   sysuid process that styling below should be removed.
+   Currently the in-scene status bar is just a place holder to reserve space
+   in the scene for the real status bar which is diplayed on top of the application
+   window.*/
+MSceneWindowStyle#statusBar
+{
+    minimum-size: 100% $HEIGHT_STATUSBAR;
+    preferred-size: 100% $HEIGHT_STATUSBAR;
+    maximum-size: 100% $HEIGHT_STATUSBAR;
+    background-color: #000000;
+}

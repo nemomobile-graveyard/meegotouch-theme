@@ -1,0 +1,15 @@
+/* MWidgetSlideOutAnimationStyle : MAbstractWidgetAnimationStyle */
+MWidgetSlideOutAnimationStyle {
+    duration: 300;
+    easing-curve: outsine;
+    to: "top";
+}
+
+MDialog MWidgetSlideOutAnimationStyle {
+    to: "bottom";
+    duration: 300;
+}
+
+MInfoBanner MWidgetSlideOutAnimationStyle {
+    to: "left";
+}

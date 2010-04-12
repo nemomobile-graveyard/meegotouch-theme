@@ -1,6 +1,0 @@
-/* DuiWidgetFadeInAnimationStyle : DuiAbstractWidgetAnimationStyle */
-DuiWidgetFadeInAnimationStyle {
-    duration: 300;
-    easing-curve: insine;
-    opacity: 1.0;
-}

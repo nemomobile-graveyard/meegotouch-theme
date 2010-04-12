@@ -1,0 +1,31 @@
+/* MNotificationStyle : MWidgetStyle */
+MNotificationStyle {
+    /* inherited from MSceneWindowStyle */
+    offset: 0px 65%;
+}
+
+MNotificationStyle[event] {
+    background-image : "popupheader-normal" 40 40 5 5;
+    padding-left:   6;
+    padding-right:  6;
+    padding-top:   6;
+    padding-bottom:  6;
+
+    /* inherited from MWidgetStyle */
+    minimum-size: 380 80;
+    preferred-size: 380 80;
+    maximum-size: 380 80;
+}
+
+MNotificationStyle[information] {
+    background-image : "popupheader-normal" 40 40 5 5;
+    padding-left:   6;
+    padding-right:  6;
+    padding-top:   6;
+    padding-bottom:  6;
+
+    /* inherited from MWidgetStyle */
+    minimum-size: 300 50;
+    preferred-size: 300 50;
+    maximum-size: 300 50;
+}

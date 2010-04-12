@@ -1,0 +1,35 @@
+/* BASE - this is the master file that includes everything else.. */
+
+@import "colors.css";
+@import "fonts.css";
+@import "margins.css";
+@import "sizes.css";
+
+/* common layouts for content items etc... */
+@import "commonlayouts.css";
+
+/* "master style" that most things inherit from */
+@import "mwidgetstyle.css";
+
+/* past "best before"-date.. */
+@import "deprecated.css";
+
+/* default style attribute values for common components */
+/* widget styles are imported in alphabetical order */
+
+@import "mabstractlayoutpolicy.css";
+@import "mbasiclayoutanimationstyle.css";
+@import "manimation.css";
+@import "mdevicestyle.css";
+@import "mwidgetfadeinanimationstyle.css";
+@import "mwidgetfadeoutanimationstyle.css";
+@import "mwidgetslideinanimationstyle.css";
+@import "mwidgetslideoutanimationstyle.css";
+@import "mwidgetzoominanimationstyle.css";
+@import "mwidgetzoomoutanimationstyle.css";
+@import "mpageswitchanimation.css";
+@import "mbasicorientationanimationstyle.css";
+@import "mvideowidgetstyle.css";
+
+/* preedit styling for input context */
+@import "mpreeditstyle.css";

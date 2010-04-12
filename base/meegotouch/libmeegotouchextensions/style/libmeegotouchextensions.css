@@ -1,0 +1,25 @@
+/* BASE - this is the master file that includes everything else.. */
+
+@import "../../libmeegotouchcore/style/colors.css";
+@import "../../libmeegotouchcore/style/fonts.css";
+@import "../../libmeegotouchcore/style/margins.css";
+@import "../../libmeegotouchcore/style/sizes.css";
+
+/* common layouts for content items etc... */
+@import "../../libmeegotouchcore/style/commonlayouts.css";
+
+/* "master style" that most things inherit from */
+@import "../../libmeegotouchcore/style/mwidgetstyle.css";
+
+/* past "best before"-date.. */
+@import "../../libmeegotouchcore/style/deprecated.css";
+
+/* default style attribute values for common components */
+/* widget styles are imported in alphabetical order */
+
+
+@import "mapplethandlestyle.css";
+@import "mappletinventorystyle.css";
+@import "mextensionareastyle.css";
+@import "mextensionhandlestyle.css";
+@import "mmashupcanvasstyle.css";

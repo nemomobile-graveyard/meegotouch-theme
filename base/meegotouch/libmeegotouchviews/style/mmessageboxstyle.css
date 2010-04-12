@@ -1,0 +1,21 @@
+/* MMessageBoxStyle : MDialogStyle */
+MMessageBoxStyle {
+
+    /* inherited from MDialogStyle */
+    dialog-vertical-alignment: center;
+
+    dialog-top-margin: 8mm;
+    dialog-bottom-margin: 8mm;
+
+    /* inherited from MWidgetStyle */
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+MMessageBoxStyle.Landscape {
+    /* inherited from MDialogStyle */
+    dialog-minimum-size: 75% 1mm;
+    dialog-preferred-size: -1 -1;
+}

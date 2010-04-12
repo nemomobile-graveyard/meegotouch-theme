@@ -1,9 +1,0 @@
-DuiPreeditStyle {
-    underline: dashunderline;
-    font-color: ;
-    background-color: ;
-}
-
-DuiPreeditStyle:no-candidates {
-    underline: dotline;
-}

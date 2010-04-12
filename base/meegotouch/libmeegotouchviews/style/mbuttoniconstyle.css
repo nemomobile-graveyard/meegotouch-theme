@@ -1,0 +1,24 @@
+/* MButtonIconStyle : MButtonStyle */
+MButtonIconStyle {
+    glow-color: #FFFF00;
+    glow-duration: 700;
+    glow-radius: 8;
+    shrink-duration: 100;
+    shrink-factor: 0.2;
+
+    /* inherited from MButtonStyle */
+    icon-align: top;
+
+    /* inherited from MWidgetStyle */
+
+    icon-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
+
+    minimum-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
+    preferred-size: $HEIGHT_NAVIGATIONBAR $HEIGHT_NAVIGATIONBAR;
+    maximum-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}

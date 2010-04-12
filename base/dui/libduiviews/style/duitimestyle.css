@@ -1,9 +1,0 @@
-/* DuiTimeStyle : DuiWidgetStyle */
-DuiTimeStyle {
-    font: "Nokia Sans" 48;
-    text-color: #FFA000;
-    time-format: "HH:mmA";
-
-    /* inherited from DuiWidgetStyle */
-}
-

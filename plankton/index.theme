@@ -1,9 +1,9 @@
 [Desktop Entry]
-Type=X-DUI-Metatheme
+Type=X-MeegoTouch-Metatheme
 Name=Plankton Theme
 Encoding=UTF-8
 
-[X-DUI-Metatheme]
+[X-MeegoTouch-Metatheme]
 X-Inherits=base
 X-Icon = "icon-l-duitheme-plankton"
 X-Visible=true

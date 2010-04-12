@@ -1,0 +1,5 @@
+/* MWidgetZoomAnimationStyle : MAbstractWidgetAnimationStyle */
+MWidgetZoomOutAnimationStyle {
+    duration: 1000;
+    easingCurve: linear;
+}

@@ -1,0 +1,7 @@
+/* MObjectMenuStyle : MSceneWindowStyle */
+MObjectMenuStyle {
+
+    /* inherited from MWidgetStyle */
+    background-color: #000000;
+    background-opacity: 0.8;
+}

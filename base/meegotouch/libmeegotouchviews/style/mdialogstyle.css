@@ -1,0 +1,181 @@
+/* MDialogStyle : MSceneWindowStyle */
+MDialogStyle {
+
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    vertical-align: center;
+    horizontal-align: center;
+
+    minimum-size: 100% 100%;
+    preferred-size: 100% 100%;
+    maximum-size: 100% 100%;
+
+    vertical-spacing: $PADDING_XLARGE;
+    button-spacing: $PADDING_DEFAULT;
+
+    title-bar-height: 5.2mm;
+
+    /* supports only "bottom" or "center" */
+    dialog-vertical-alignment: bottom;
+
+    dialog-top-margin: $HEIGHT_TOPBARS;
+    dialog-bottom-margin: 0;
+    dialog-left-margin: $MARGIN_LARGE;
+    dialog-right-margin: $MARGIN_LARGE;
+
+    dialog-minimum-size: 1mm 1mm;
+    dialog-preferred-size: 100% -1;
+}
+
+MDialogStyle.Landscape {
+    button-box-orientation: horizontal;
+}
+
+MDialogStyle.Portrait {
+    button-box-orientation: vertical;
+}
+
+#MDialogContentsViewport {
+    /* inherited from MWidgetStyle */
+
+    /* let the viewport grow along with its panned widget  */
+    preferred-size: -1 -1;
+
+    /* TODO: replace with some proper value */
+    background-image: "duidialog-background" 0px 0px 4px 0px;
+    background-color: $COLOR_BACKGROUND;
+
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    padding-left: $PADDING_MEDIUM;
+    padding-right: $PADDING_MEDIUM;
+    padding-top: $PADDING_MEDIUM;
+    padding-bottom: $PADDING_MEDIUM;
+
+}
+
+MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
+    background-image: "duidialog-query-background" 14px 14px 14px 14px;
+}
+
+
+MButtonStyle[first].Landscape {
+    margin-right: 0;
+    background-image: "duidialog-left-button-background" 14px 14px 14px 14px;
+}
+
+MButtonStyle[middle].Landscape {
+   margin-left: 0;
+   margin-right: 0;
+   background-image: "duidialog-center-button-background" 14px 14px 14px 14px;
+}
+
+MButtonStyle[last].Landscape {
+   margin-left: 0;
+   background-image: "duidialog-right-button-background" 14px 14px 14px 14px;
+}
+
+MButtonStyle[single].Landscape {
+   background-image: "duidialog-single-button-background" 14px 14px 14px 14px;
+}
+
+MButtonStyle[first].Portrait {
+   margin-bottom: 0;
+   background-image: "duidialog-top-button-background" 14px 14px 14px 14px;
+}
+
+MButtonStyle[middle].Portrait {
+   margin-top: 0;
+   margin-bottom: 0;
+   background-image: "duidialog-middle-button-background" 14px 14px 14px 14px;
+}
+
+MButtonStyle[last].Portrait {
+   margin-top: 0;
+   background-image: "duidialog-bottom-button-background" 14px 14px 14px 14px;
+}
+
+MButtonStyle[single].Portrait {
+   background-image: "duidialog-top-button-background" 14px 14px 14px 14px;
+}
+
+MButtonStyle[first].Landscape:pressed {
+    background-image: "duidialog-left-button-background-pressed" 14px 14px 14px 14px;
+}
+
+MButtonStyle[middle].Landscape:pressed {
+   background-image: "duidialog-center-button-background-pressed" 14px 14px 14px 14px;
+}
+
+MButtonStyle[last].Landscape:pressed {
+   background-image: "duidialog-right-button-background-pressed" 14px 14px 14px 14px;
+}
+
+MButtonStyle[single].Landscape:pressed {
+   background-image: "duidialog-single-button-background-pressed" 14px 14px 14px 14px;
+}
+
+MButtonStyle[first].Portrait:pressed {
+   background-image: "duidialog-top-button-background-pressed" 14px 14px 14px 14px;
+}
+
+MButtonStyle[middle].Portrait:pressed {
+   background-image: "duidialog-middle-button-background-pressed" 14px 14px 14px 14px;
+}
+
+MButtonStyle[last].Portrait:pressed {
+   background-image: "duidialog-bottom-button-background-pressed" 14px 14px 14px 14px;
+}
+
+MButtonStyle[single].Portrait:pressed {
+   background-image: "duidialog-top-button-background-pressed" 14px 14px 14px 14px;
+}
+
+
+#MDialogCloseButton {
+    icon-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
+    preferred-size: 5.2mm 5.2mm;
+    minimum-size: 5.2mm 5.2mm;
+    maximum-size: 5.2mm 5.2mm;
+                                                        
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+    reactive-margin-left: 2mm;   
+    reactive-margin-top: 2mm;
+    reactive-margin-bottom: 2mm;
+}
+
+#MDialogTitleLabel {
+    margin-left: $MARGIN_XLARGE;
+    margin-right: $MARGIN_XLARGE;
+    color: $COLOR_INVERTED_FOREGROUND;
+    font: $FONT_DEFAULT;
+}
+
+#MDialogTitleBar {
+    background-image: "duidialog-header-background" 14px 14px 14px 14px;
+    background-color: $COLOR_INVERTED_BACKGROUND;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}

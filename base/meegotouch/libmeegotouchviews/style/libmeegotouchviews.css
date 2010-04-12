@@ -1,0 +1,61 @@
+/* BASE - this is the master file that includes everything else.. */
+
+@import "../../libmeegotouchcore/style/colors.css";
+@import "../../libmeegotouchcore/style/fonts.css";
+@import "../../libmeegotouchcore/style/margins.css";
+@import "../../libmeegotouchcore/style/sizes.css";
+
+/* common layouts for content items etc... */
+@import "../../libmeegotouchcore/style/commonlayouts.css";
+
+/* "master style" that most things inherit from */
+@import "../../libmeegotouchcore/style/mwidgetstyle.css";
+
+/* past "best before"-date.. */
+@import "../../libmeegotouchcore/style/deprecated.css";
+
+/* default style attribute values for common components */
+/* widget styles are imported in alphabetical order */
+
+@import "mapplicationpagestyle.css";
+@import "mbuttonstyle.css";
+@import "mbuttoniconstyle.css";
+@import "mbuttonswitchstyle.css";
+@import "mcheckboxstyle.css";
+@import "mcontainerstyle.css";
+@import "mcomboboxstyle.css";
+@import "mescapebuttonpanelstyle.css";
+@import "mextendingbackgroundstyle.css";
+@import "mhomebuttonpanelstyle.css";
+@import "mimagewidgetstyle.css";
+@import "minfobannerstyle.css";
+@import "mlabelstyle.css";
+@import "mliststyle.css";
+@import "mapplicationmenustyle.css";
+@import "mmodalscenewindowstyle.css";
+@import "mnotificationstyle.css";
+@import "mobjectmenustyle.css";
+@import "mpannablewidgetstyle.css";
+@import "mpopupliststyle.css";
+@import "mpositionindicatorstyle.css";
+@import "mprogressindicatorstyle.css";
+@import "mdialogstyle.css";
+@import "mdockwidgetstyle.css";
+@import "mmessageboxstyle.css";
+@import "mnavigationbarstyle.css";
+@import "moverlaystyle.css";
+@import "mscenelayereffectstyle.css";
+@import "mscenelayereffectdimstyle.css";
+@import "mscenewindowanimatorstyle.css";
+@import "mscenewindowstyle.css";
+@import "mseparatorstyle.css";
+@import "msliderstyle.css";
+@import "mspinnerstyle.css";
+@import "mtexteditstyle.css";
+@import "mcompleterstyle.css";
+@import "mtimestyle.css";
+@import "mtoolbartabstyle.css";
+@import "mtoolbarstyle.css";
+@import "mcontentitemstyle.css";
+@import "msettingslanguagesettingsfactorystyle.css";
+@import "mbubbleitemstyle.css";

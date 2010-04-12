@@ -1,0 +1,41 @@
+/* MEscapeButtonPanelStyle : MSceneWindowStyle */
+MEscapeButtonPanelStyle {
+
+    minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
+    maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
+    preferred-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
+
+    vertical-align: top;
+    horizontal-align: right;
+    offset: 0 0;
+
+    button-animation-length: 500;
+
+    back-button-object-name: "BackButton";
+    close-button-object-name: "CloseButton";
+
+    back-button-icon-id: "icon-m-framework-back";
+    close-button-icon-id: "icon-m-framework-close";
+}
+
+MButtonIconStyle#BackButton {
+    reactive-margin-left: $MARGIN_XLARGE;
+    reactive-margin-right: $MARGIN_XLARGE;
+    reactive-margin-bottom: $MARGIN_XLARGE;
+    background-image: "duinavigationbar-button-home-background" 12x 12px 12px 12px;
+}                              
+
+MButtonIconStyle#BackButton:pressed {
+    background-image: "duinavigationbar-button-home-background" 12x 12px 12px 12px;
+}
+
+MButtonIconStyle#CloseButton {
+    reactive-margin-left: $MARGIN_XLARGE;
+    reactive-margin-right: $MARGIN_XLARGE;
+    reactive-margin-bottom: $MARGIN_XLARGE;
+    background-image: "duinavigationbar-button-close-background" 12x 12px 12px 12px;
+}
+
+MButtonIconStyle#BackButton:pressed {
+    background-image: "duinavigationbar-button-close-background" 12x 12px 12px 12px;
+}
