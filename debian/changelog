@@ -1,9 +1,9 @@
-meegotouchtheme (0.20.0~3) unstable; urgency=low
+meegotouchtheme (0.20.0~4) unstable; urgency=low
 
   * New version [UNRELEASED]
   * Fixes: NB#161352 - In Portrait mode - The command area at bottom is getting displayed with pink color
 
- -- Tomas Junnonen <tomas.junnonen@nokia.com>  Thu, 08 Apr 2010 16:13:00 +0200
+ -- Tomas Junnonen <tomas.junnonen@nokia.com>  Mon, 12 Apr 2010 15:36:00 +0200
 
 duitheme (0.19.7-1) unstable; urgency=low
 
