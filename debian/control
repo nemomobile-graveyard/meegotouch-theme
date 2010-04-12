@@ -1,11 +1,11 @@
-Source: duitheme
+Source: meegotouchtheme
 Section: x11
 Priority: extra
 Maintainer: Tomas Junnonen <tomas.junnonen@nokia.com>
 Build-Depends: debhelper (>= 5), libqt4-dev
 Standards-Version: 3.7.2
 
-Package: duitheme
+Package: meegotouchtheme
 Architecture: all
 Depends: ui-fonts
 Conflicts: fmbe-pulse-data
