@@ -1,57 +1,9 @@
 
 /* MPopupListStyle : MDialogStyle */
 MPopupListStyle {
-    dialog-top-margin: 8mm;
+    dialog-top-margin: $HEIGHT_TOPBARS;
     dialog-bottom-margin: 0;
     dialog-left-margin: 0;
     dialog-right-margin: 0;
-}
-
-MContentItemStyle#PopupListItem {
-    background-image : "duilist-singlecolumn-center-background" 8px 8px 8px 8px;
-
-    background-color: $COLOR_BACKGROUND;
-    background-opacity: 0;
-
-    preferred-size: -1 5.8mm;
-    minimum-size: 5.8mm 5.8mm;
-    maximum-size: 100% 5.8mm;
-
-    title-object-name: "PopupListItemTitle";
-    image-object-name: "PopupListItemImage";
-}
-
-MContentItemStyle#PopupListItem:selected {
-    background-image : "duilist-singlecolumn-center-background-selected" 8px 8px 8px 8px;
-
-    background-color: $COLOR_SELECT;
-    background-opacity: 1;
-}
-
-MContentItemStyle#PopupListItem:pressed {
-    background-image : "duilist-singlecolumn-center-background-pressed" 8px 8px 8px 8px;
-
-    background-color: $COLOR_BACKGROUND;
-    background-opacity: 0;
-}
-
-#PopupListItemImage {
-    preferred-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
-    minimum-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
-    maximum-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
-
-    margin-left:   $MARGIN_SMALL;
-    margin-right:  0;
-    margin-top:    $MARGIN_SMALL;
-    margin-bottom: $MARGIN_SMALL;
-}
-
-#PopupListItemTitle {
-    font: $FONT_DEFAULT;
-
-    margin-left:   $MARGIN_MEDIUM;
-    margin-right:  $MARGIN_SMALL;
-    margin-top:    $MARGIN_SMALL;
-    margin-bottom: 0;
 }
 
