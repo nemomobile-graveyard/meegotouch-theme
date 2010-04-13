@@ -1,7 +1,7 @@
 [Desktop Entry]
-Type=X-MeegoTouch-Metatheme
+Type=X-DUI-Metatheme
 Name=Base
 Encoding=UTF-8
 
-[X-MeegoTouch-Metatheme]
+[X-DUI-Metatheme]
 X-Visible=false

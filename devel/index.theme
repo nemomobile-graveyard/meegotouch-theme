@@ -1,9 +1,9 @@
 [Desktop Entry]
-Type=X-MeegoTouch-Metatheme
+Type=X-DUI-Metatheme
 Name=RD Theme
 Encoding=UTF-8
 
-[X-MeegoTouch-Metatheme]
+[X-DUI-Metatheme]
 X-Inherits=base
 X-Icon = "icon-l-duitheme-devel"
 X-Visible=true
