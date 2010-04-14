@@ -12,4 +12,14 @@ MPannableWidgetStyle {
     preferred-size: 1 1;
     minimum-size: 0 0;
     maximum-size: 10000 10000;
+
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+   
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
