@@ -7,3 +7,11 @@ MPopupListStyle {
     dialog-right-margin: 0;
 }
 
+#MPopupListContentsViewport {
+    preferred-size: -1 -1;
+	background-image: "duiapplicationpage-background";
+}
+
+#PopupListItem {
+	margin-left: $MARGIN_LARGE;
+}
