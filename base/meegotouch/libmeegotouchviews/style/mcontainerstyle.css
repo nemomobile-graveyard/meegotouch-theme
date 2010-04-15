@@ -3,10 +3,10 @@ MContainerStyle { /* settings for the whole container */
 
     minimum-size: $SIZE_ONE, $SIZE_ONE; /* inherited from duiwidgetstyle */
 
-    margin-left: $MARGIN_XSMALL; /* inherited from duiwidgetstyle */
-    margin-right: $MARGIN_XSMALL;
-    margin-top: $MARGIN_XSMALL;
-    margin-bottom: $MARGIN_XSMALL;
+    margin-left: 0; /* inherited from duiwidgetstyle */
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 
     /* this affects the whole content including header and central widget, see also internal-margins */
     padding-left: 0;
