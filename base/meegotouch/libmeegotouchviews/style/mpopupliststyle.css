@@ -8,23 +8,7 @@ MPopupListStyle {
 }
 
 MContentItemStyle#PopupListItem {
-    background-image : ;
-    background-image-top-left : ;
-    background-image-top : ;
-    background-image-top-right : ;
-    background-image-left : ;
-    background-image-center : ;
-    background-image-right : ;
-    background-image-bottom-left : ;
-    background-image-bottom : ;
-    background-image-bottom-right : ;
-    background-image-single : ;
-    background-image-singlerow-left : ;
-    background-image-singlerow-center : ;
-    background-image-singlerow-right : ;
-    background-image-singlecolumn-top : ;
-    background-image-singlecolumn-center : ;
-    background-image-singlecolumn-bottom : ;
+    background-image : "duilist-singlecolumn-center-background" 8px 8px 8px 8px;
 
     background-color: $COLOR_BACKGROUND;
     background-opacity: 0;
@@ -38,46 +22,14 @@ MContentItemStyle#PopupListItem {
 }
 
 MContentItemStyle#PopupListItem:selected {
-    background-image : ;
-    background-image-top-left : ;
-    background-image-top : ;
-    background-image-top-right : ;
-    background-image-left : ;
-    background-image-center : ;
-    background-image-right : ;
-    background-image-bottom-left : ;
-    background-image-bottom : ;
-    background-image-bottom-right : ;
-    background-image-single : ;
-    background-image-singlerow-left : ;
-    background-image-singlerow-center : ;
-    background-image-singlerow-right : ;
-    background-image-singlecolumn-top : ;
-    background-image-singlecolumn-center : ;
-    background-image-singlecolumn-bottom : ;
+    background-image : "duilist-singlecolumn-center-background-selected" 8px 8px 8px 8px;
 
     background-color: $COLOR_SELECT;
     background-opacity: 1;
 }
 
 MContentItemStyle#PopupListItem:pressed {
-    background-image : ;
-    background-image-top-left : ;
-    background-image-top : ;
-    background-image-top-right : ;
-    background-image-left : ;
-    background-image-center : ;
-    background-image-right : ;
-    background-image-bottom-left : ;
-    background-image-bottom : ;
-    background-image-bottom-right : ;
-    background-image-single : ;
-    background-image-singlerow-left : ;
-    background-image-singlerow-center : ;
-    background-image-singlerow-right : ;
-    background-image-singlecolumn-top : ;
-    background-image-singlecolumn-center : ;
-    background-image-singlecolumn-bottom : ;
+    background-image : "duilist-singlecolumn-center-background-pressed" 8px 8px 8px 8px;
 
     background-color: $COLOR_BACKGROUND;
     background-opacity: 0;
