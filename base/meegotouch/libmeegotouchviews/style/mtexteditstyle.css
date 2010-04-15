@@ -21,7 +21,12 @@ MTextEditStyle {
 
     press-feedback: press;
     release-feedback: release;
-    
+
+    margin-top: $MARGIN_MEDIUM;
+    margin-bottom: $MARGIN_MEDIUM;
+    margin-left: $MARGIN_MEDIUM;
+    margin-right: $MARGIN_MEDIUM;
+
     padding-top: $PADDING_MEDIUM;
     padding-bottom: $PADDING_MEDIUM;
     padding-left: $PADDING_XLARGE;

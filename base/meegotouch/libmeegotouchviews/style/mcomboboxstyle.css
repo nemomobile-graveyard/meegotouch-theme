@@ -38,10 +38,10 @@ MComboBox MContentItemStyle {
     background-opacity: 1.0;
 
     /* inherited from MWidgetStyle */
-    margin-left: $MARGIN_DEFAULT;
-    margin-right: $MARGIN_DEFAULT;
-    margin-top: $MARGIN_DEFAULT;
-    margin-bottom: $MARGIN_DEFAULT;
+    margin-left: $MARGIN_MEDIUM;
+    margin-right: $MARGIN_MEDIUM;
+    margin-top: $MARGIN_MEDIUM;
+    margin-bottom: $MARGIN_MEDIUM;
 
     padding-left:   $PADDING_DEFAULT;
     padding-top:    $PADDING_DEFAULT;

@@ -1,4 +1,10 @@
 MCheckboxStyle {
+
+    margin-left: $MARGIN_MEDIUM;
+    margin-top: $MARGIN_MEDIUM;
+    margin-right: $MARGIN_MEDIUM;
+    margin-bottom: $MARGIN_MEDIUM;
+
     background-image: "duibutton-checkbox-background" 10px 10px 10px 10px;
 
     minimum-size: $SIZE_BUTTON $SIZE_BUTTON;

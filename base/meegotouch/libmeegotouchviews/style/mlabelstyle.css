@@ -1,5 +1,11 @@
 /* MLabelStyle : MWidgetStyle */
 MLabelStyle {
+
+    margin-left: $MARGIN_MEDIUM;
+    margin-right: $MARGIN_MEDIUM;
+    margin-top: $MARGIN_MEDIUM;
+    margin-bottom: $MARGIN_MEDIUM;
+
     color: $COLOR_FOREGROUND;
     font: $FONT_DEFAULT;
     highlight-color: $COLOR_LINK;
