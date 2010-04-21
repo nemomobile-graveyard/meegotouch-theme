@@ -149,7 +149,7 @@ MContentItemStyle:pressed {
 
 #ContentItemSmallItem {
     /* inherited from MWidgetStyle */
-    preferred-size: 2.8mm 2,8mm;
+    preferred-size: 2.8mm 2.8mm;
     minimum-size: 2.8mm 2.8mm;
     maximum-size: 2.8mm 2.8mm;
 
