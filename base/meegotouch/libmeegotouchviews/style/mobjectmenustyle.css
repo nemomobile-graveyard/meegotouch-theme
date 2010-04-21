@@ -2,6 +2,9 @@
 MObjectMenuStyle {
 
     /* inherited from MWidgetStyle */
-    background-color: #000000;
-    background-opacity: 0.8;
+    minimum-size: -1 -1;
+    preferred-size: -1 -1;
+
+    vertical-align: center;
+    horizontal-align: center;
 }
