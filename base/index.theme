@@ -1,7 +1,13 @@
 [Desktop Entry]
-Type=X-MeegoTouch-Metatheme
+Type=X-MeeGoTouch-Metatheme
 Name=Base
 Encoding=UTF-8
 
-[X-MeegoTouch-Metatheme]
+; this section is here for libdui 0.19 compatibility
+; remove this when libdui 0.19 is phased out
+[X-DUI-Metatheme]
+X-Visible=false
+; remove end
+
+[X-MeeGoTouch-Metatheme]
 X-Visible=false
