@@ -9,9 +9,11 @@ Encoding=UTF-8
 X-Inherits=base
 X-Icon = "icon-l-duitheme-plankton"
 X-Visible=true
+X-Libraries=meegotouchviews
 ; remove end
 
 [X-MeeGoTouch-Metatheme]
 X-Inherits=base
 X-Icon = "icon-l-duitheme-plankton"
 X-Visible=true
+X-Libraries=meegotouchviews
