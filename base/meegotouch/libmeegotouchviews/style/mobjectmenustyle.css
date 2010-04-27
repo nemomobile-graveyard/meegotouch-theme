@@ -3,7 +3,7 @@ MObjectMenuStyle {
 
     /* inherited from MWidgetStyle */
     minimum-size: -1 -1;
-    preferred-size: -1 -1;
+    preferred-size: 100% -1;
 
     vertical-align: center;
     horizontal-align: center;
