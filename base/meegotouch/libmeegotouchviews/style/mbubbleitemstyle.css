@@ -20,44 +20,24 @@ MBubbleItemBackgroundStyle {
     background-opacity: 1.0;
     background-image : "duibubbleitem-background"  18px 30px 10px 10px;
 
-    preferred-size: 690px 90px;
-    minimum-size: 690px 90px;
-    maximum-size: 690px 90px;
+    preferred-size: -1 $SIZE_ONE;
+    minimum-size: $SIZE_ONE $SIZE_ONE;
+    maximum-size: 100% $SIZE_FOUR;
 
-    margin-left: 80;
+    margin-left: $MARGIN_SMALL;
     margin-right:  0;
     margin-top:    0;
     margin-bottom: $MARGIN_SMALL;
 }
 
 MBubbleItemBackgroundStyle:pressed {
-    background-opacity: 1.0;
     background-image : "duibubbleitem-background-pressed"  18px 30px 10px 10px;
     background-color: $COLOR_INVERTED_FOREGROUND;
-
-    preferred-size: 690px 90px;
-    minimum-size: 690px 90px;
-    maximum-size: 690px 90px;
-
-    margin-left: 80;
-    margin-right:  0;
-    margin-top:    0;
-    margin-bottom: $MARGIN_SMALL;
 }
 
 MBubbleItemBackgroundStyle:selected {
-    background-opacity: 1.0;
     background-image : "duibubbleitem-background-pressed"  18px 30px 10px 10px;
     background-color: $COLOR_INVERTED_FOREGROUND;
-
-    preferred-size: 690px 90px;
-    minimum-size: 690px 90px;
-    maximum-size: 690px 90px;
-
-    margin-left: 80;
-    margin-right:  0;
-    margin-top:    0;
-    margin-bottom: $MARGIN_SMALL;
 }
 
 #BubbleItemAvatar {
@@ -67,7 +47,7 @@ MBubbleItemBackgroundStyle:selected {
     maximum-size: 6.2283mm 6.2283mm;
 
     margin-left:   $MARGIN_DOUBLE;
-    margin-right:  0;
+    margin-right:  $MARGIN_SMALL;
     margin-top:    $MARGIN_DOUBLE;
     margin-bottom: $MARGIN_DOUBLE;
 }
@@ -77,30 +57,30 @@ MBubbleItemBackgroundStyle:selected {
     color: black;
 
     /* inherited from MWidgetStyle */
-    margin-left:   140;
-    margin-right:  $MARGIN_XLARGE;
-    margin-top:    $MARGIN_LARGE;
-    margin-bottom: 0;
+    margin-left:   $MARGIN_SMALL;
+    margin-right:  0;
+    margin-top:    $MARGIN_SMALL;
+    margin-bottom: $MARGIN_SMALL;
 }
 
 #BubbleItemTimeStamp {
-    font: $FONT_SMALL;
+    font: $FONT_XSMALL;
     color: black;
 
     /* inherited from MWidgetStyle */
-    margin-left:   0;
-    margin-right:  $MARGIN_XXLARGE;
+    margin-left:   -1;
+    margin-right:  $MARGIN_SMALL;
     margin-top:    $MARGIN_SMALL;
-    margin-bottom: 0;
+    margin-bottom: $MARGIN_SMALL;
 }
 
 #BubbleItemMessage {
-    font: $FONT_SMALL;
+    font: $FONT_DEFAULT;
     color: black;
 
     /* inherited from MWidgetStyle */
-    margin-left:   140;
-    margin-right:  $MARGIN_XLARGE;
-    margin-top:    $MARGIN_SMALL;
+    margin-left:   $MARGIN_SMALL;
+    margin-right:  $MARGIN_SMALL;
+    margin-top:    0;
     margin-bottom: $MARGIN_LARGE;
 }
