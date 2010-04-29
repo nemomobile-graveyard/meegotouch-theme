@@ -100,6 +100,21 @@ duinavigationbar-button-close-background-pressed
 duinavigationbar-menu-background
 duimenu-background
 
+#viewmenubuttons
+mlist-singlecolumn-viewmenu-bottom-background
+mlist-singlecolumn-viewmenu-bottom-background-pressed
+mlist-singlecolumn-viewmenu-middle-background
+mlist-singlecolumn-viewmenu-middle-background-pressed
+mlist-bottomleft-viewmenu-background
+mlist-bottomleft-viewmenu-background-pressed
+mlist-bottomright-viewmenu-background
+mlist-bottomright-viewmenu-background-pressed
+mlist-left-viewmenu-background
+mlist-left-viewmenu-background-pressed
+mlist-right-viewmenu-background
+mlist-right-viewmenu-background-pressed
+
+
 #duicontainer
 duicontainer-header-background
 duicontainer-header-background-pressed
