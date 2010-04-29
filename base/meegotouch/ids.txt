@@ -295,6 +295,17 @@ input-field-delete-button-background-pressed
 input-field-delete-button-background
 number-input-field-background
 
+#objectmenu
+mbutton-objectmenu-top-background
+mbutton-objectmenu-top-background-pressed
+mbutton-objectmenu-middle-background
+mbutton-objectmenu-middle-background-pressed
+mbutton-objectmenu-bottom-background
+mbutton-objectmenu-bottom-background-pressed
+mbutton-objectmenu-single-background
+mbutton-objectmenu-single-background-pressed
+
+
 # *** Icons ***
 icon-l-common-video-playback.svg #large "play" icon
 icon-m-bluetooth-devices.svg
