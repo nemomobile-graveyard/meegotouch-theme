@@ -20,12 +20,8 @@ MBubbleItemBackgroundStyle {
     background-opacity: 1.0;
     background-image : "duibubbleitem-background"  18px 30px 10px 10px;
 
-    preferred-size: -1 $SIZE_ONE;
-    minimum-size: $SIZE_ONE $SIZE_ONE;
-    maximum-size: 100% $SIZE_FOUR;
-
     margin-left: $MARGIN_SMALL;
-    margin-right:  0;
+    margin-right:  $MARGIN_LARGE;
     margin-top:    0;
     margin-bottom: $MARGIN_SMALL;
 }
@@ -75,12 +71,24 @@ MBubbleItemBackgroundStyle:selected {
 }
 
 #BubbleItemMessage {
-    font: $FONT_DEFAULT;
+    font: $FONT_SMALL;
     color: black;
 
     /* inherited from MWidgetStyle */
     margin-left:   $MARGIN_SMALL;
     margin-right:  $MARGIN_SMALL;
     margin-top:    0;
-    margin-bottom: $MARGIN_LARGE;
+    margin-bottom: $MARGIN_SMALL;
+}
+
+#BubbleItemServiceIcon {
+    /* inherited from MWidgetStyle */
+    preferred-size: 2mm 2mm;
+    minimum-size: 2mm 2mm;
+    maximum-size: 2mm 2mm;
+
+    margin-left:   $MARGIN_XSMALL;
+    margin-right:  $MARGIN_XSMALL;
+    margin-top:    $MARGIN_XSMALL;
+    margin-bottom: $MARGIN_XSMALL;    
 }
