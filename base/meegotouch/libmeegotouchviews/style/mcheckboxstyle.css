@@ -12,6 +12,9 @@ MCheckboxStyle {
     preferred-size: $SIZE_BUTTON $SIZE_BUTTON;
     
     checkmark-image: ;
+
+    press-feedback: press;
+    release-feedback: release;
 }
 
 MCheckboxStyle:pressed {
