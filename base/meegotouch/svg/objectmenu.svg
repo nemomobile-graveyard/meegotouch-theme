@@ -3,97 +3,91 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="138px"
 	 height="286px" viewBox="0 0 138 286" style="enable-background:new 0 0 138 286;" xml:space="preserve">
-<g id="objectmenu-layer">
-</g>
-<g id="dui-theme-rd">
-	<g id="objectmenu">
-		<g id="mbutton-objectmenu-single-background-pressed">
-			<g>
-				<path style="fill:#808080;" d="M137.947,276c0,5.5-4.5,10-10,10H84c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h43.947
-					c5.5,0,10,4.5,10,10V276z"/>
-			</g>
-			<g>
-				<path style="fill:#FFFFFF;" d="M137.947,274c0,5.5-4.5,10-10,10H84c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h43.947
-					c5.5,0,10,4.5,10,10V274z"/>
-			</g>
-			<g>
-				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="105.9736" y1="223" x2="105.9736" y2="285">
-					<stop  offset="0" style="stop-color:#2AAAE2"/>
-					<stop  offset="1" style="stop-color:#83D5F7"/>
-				</linearGradient>
-				<path style="fill:url(#SVGID_1_);" d="M137.947,275c0,5.5-4.5,10-10,10H84c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h43.947
-					c5.5,0,10,4.5,10,10V275z"/>
-			</g>
-		</g>
-		<g id="mbutton-objectmenu-single-background">
-			<g>
-				<path style="fill:#808080;" d="M63.947,276c0,5.5-4.5,10-10,10H10c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h43.947
-					c5.5,0,10,4.5,10,10V276z"/>
-			</g>
-			<g>
-				<path style="fill:#FFFFFF;" d="M63.947,274c0,5.5-4.5,10-10,10H10c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h43.947
-					c5.5,0,10,4.5,10,10V274z"/>
-			</g>
-			<g>
-				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="31.9736" y1="223" x2="31.9736" y2="285">
-					<stop  offset="0" style="stop-color:#83D5F7"/>
-					<stop  offset="1" style="stop-color:#6AC0EC"/>
-				</linearGradient>
-				<path style="fill:url(#SVGID_2_);" d="M63.947,275c0,5.5-4.5,10-10,10H10c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h43.947
-					c5.5,0,10,4.5,10,10V275z"/>
-			</g>
-		</g>
-		<g id="mbutton-objectmenu-bottom-background-pressed">
-			<path style="fill:#808080;" d="M74,148v54c0,5.5,4.5,10,10,10h44c5.5,0,10-4.5,10-10v-54H74z"/>
-			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="106" y1="211" x2="106" y2="148">
-				<stop  offset="0" style="stop-color:#83D5F7"/>
-				<stop  offset="1" style="stop-color:#2AAAE2"/>
-			</linearGradient>
-			<path style="fill:url(#SVGID_3_);" d="M74,148v53c0,5.5,4.5,10,10,10h44c5.5,0,10-4.5,10-10v-53H74z"/>
-			<rect x="74" y="148" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
-		</g>
-		<g id="mbutton-objectmenu-bottom-background">
-			<path style="fill:#808080;" d="M0,148v54c0,5.5,4.5,10,10,10h44c5.5,0,10-4.5,10-10v-54H0z"/>
-			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="32" y1="211" x2="32" y2="148">
-				<stop  offset="0" style="stop-color:#2AAAE2"/>
-				<stop  offset="1" style="stop-color:#6AC0EC"/>
-			</linearGradient>
-			<path style="fill:url(#SVGID_4_);" d="M0,148v53c0,5.5,4.5,10,10,10h44c5.5,0,10-4.5,10-10v-53H0z"/>
-			<rect y="148" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
-		</g>
-		<g id="mbutton-objectmenu-middle-background-pressed">
-			<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="106" y1="138" x2="106" y2="74">
-				<stop  offset="0" style="stop-color:#83D5F7"/>
-				<stop  offset="1" style="stop-color:#2AAAE2"/>
-			</linearGradient>
-			<rect x="74" y="74" style="fill:url(#SVGID_5_);" width="64" height="64"/>
-			<rect x="74" y="137" style="opacity:0.2;fill:#010101;" width="64" height="1"/>
-			<rect x="74" y="74" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
-		</g>
-		<g id="mbutton-objectmenu-middle-background">
-			<rect y="74" style="fill:#6AC0EC;" width="64" height="64"/>
-			<rect y="137" style="opacity:0.2;fill:#010101;" width="64" height="1"/>
-			<rect y="74" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
-		</g>
-		<g id="mbutton-objectmenu-top-background-pressed">
-			<path style="fill:#808080;" d="M138,64V10c0-5.5-4.5-10-10-10H84c-5.5,0-10,4.5-10,10v54H138z"/>
-			
-				<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-768.0005" y1="313" x2="-768.0005" y2="250" gradientTransform="matrix(-1 0 0 -1 -662 314)">
-				<stop  offset="0" style="stop-color:#2AAAE2"/>
-				<stop  offset="1" style="stop-color:#83D5F7"/>
-			</linearGradient>
-			<path style="fill:url(#SVGID_6_);" d="M138,64V11c0-5.5-4.5-10-10-10H84c-5.5,0-10,4.5-10,10v53H138z"/>
-			<rect x="74" y="63" style="opacity:0.2;fill:#010101;" width="64" height="1"/>
-		</g>
-		<g id="mbutton-objectmenu-top-background">
-			<path style="fill:#FFFFFF;" d="M64,64V10c0-5.5-4.5-10-10-10H10C4.5,0,0,4.5,0,10v54H64z"/>
-			<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="32" y1="64" x2="32" y2="1">
-				<stop  offset="0" style="stop-color:#6AC0EC"/>
-				<stop  offset="1" style="stop-color:#83D5F7"/>
-			</linearGradient>
-			<path style="fill:url(#SVGID_7_);" d="M64,64V11c0-5.5-4.5-10-10-10H10C4.5,1,0,5.5,0,11v53H64z"/>
-			<rect y="63" style="opacity:0.2;fill:#010101;" width="64" height="1"/>
-		</g>
+<g id="mbutton-objectmenu-background-pressed">
+	<g>
+		<path style="fill:#808080;" d="M137.947,276c0,5.5-4.5,10-10,10H84c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h43.947
+			c5.5,0,10,4.5,10,10V276z"/>
 	</g>
+	<g>
+		<path style="fill:#FFFFFF;" d="M137.947,274c0,5.5-4.5,10-10,10H84c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h43.947
+			c5.5,0,10,4.5,10,10V274z"/>
+	</g>
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="105.9736" y1="223" x2="105.9736" y2="285">
+			<stop  offset="0" style="stop-color:#2AAAE2"/>
+			<stop  offset="1" style="stop-color:#83D5F7"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_1_);" d="M137.947,275c0,5.5-4.5,10-10,10H84c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h43.947
+			c5.5,0,10,4.5,10,10V275z"/>
+	</g>
+</g>
+<g id="mbutton-objectmenu-background">
+	<g>
+		<path style="fill:#808080;" d="M63.947,276c0,5.5-4.5,10-10,10H10c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h43.947
+			c5.5,0,10,4.5,10,10V276z"/>
+	</g>
+	<g>
+		<path style="fill:#FFFFFF;" d="M63.947,274c0,5.5-4.5,10-10,10H10c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h43.947
+			c5.5,0,10,4.5,10,10V274z"/>
+	</g>
+	<g>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="31.9736" y1="223" x2="31.9736" y2="285">
+			<stop  offset="0" style="stop-color:#83D5F7"/>
+			<stop  offset="1" style="stop-color:#6AC0EC"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_2_);" d="M63.947,275c0,5.5-4.5,10-10,10H10c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h43.947
+			c5.5,0,10,4.5,10,10V275z"/>
+	</g>
+</g>
+<g id="mbutton-objectmenu-background-pressed-vertical-bottom">
+	<path style="fill:#808080;" d="M74,148v54c0,5.5,4.5,10,10,10h44c5.5,0,10-4.5,10-10v-54H74z"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="106" y1="211" x2="106" y2="148">
+		<stop  offset="0" style="stop-color:#83D5F7"/>
+		<stop  offset="1" style="stop-color:#2AAAE2"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_3_);" d="M74,148v53c0,5.5,4.5,10,10,10h44c5.5,0,10-4.5,10-10v-53H74z"/>
+	<rect x="74" y="148" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+</g>
+<g id="mbutton-objectmenu-background-vertical-bottom">
+	<path style="fill:#808080;" d="M0,148v54c0,5.5,4.5,10,10,10h44c5.5,0,10-4.5,10-10v-54H0z"/>
+	<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="32" y1="211" x2="32" y2="148">
+		<stop  offset="0" style="stop-color:#2AAAE2"/>
+		<stop  offset="1" style="stop-color:#6AC0EC"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_4_);" d="M0,148v53c0,5.5,4.5,10,10,10h44c5.5,0,10-4.5,10-10v-53H0z"/>
+	<rect y="148" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+</g>
+<g id="mbutton-objectmenu-background-pressed-vertical-center">
+	<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="106" y1="138" x2="106" y2="74">
+		<stop  offset="0" style="stop-color:#83D5F7"/>
+		<stop  offset="1" style="stop-color:#2AAAE2"/>
+	</linearGradient>
+	<rect x="74" y="74" style="fill:url(#SVGID_5_);" width="64" height="64"/>
+	<rect x="74" y="137" style="opacity:0.2;fill:#010101;" width="64" height="1"/>
+	<rect x="74" y="74" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+</g>
+<g id="mbutton-objectmenu-background-vertical-center">
+	<rect y="74" style="fill:#6AC0EC;" width="64" height="64"/>
+	<rect y="137" style="opacity:0.2;fill:#010101;" width="64" height="1"/>
+	<rect y="74" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+</g>
+<g id="mbutton-objectmenu-background-pressed-vertical-top">
+	<path style="fill:#808080;" d="M138,64V10c0-5.5-4.5-10-10-10H84c-5.5,0-10,4.5-10,10v54H138z"/>
+	
+		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-768.0005" y1="313" x2="-768.0005" y2="250" gradientTransform="matrix(-1 0 0 -1 -662 314)">
+		<stop  offset="0" style="stop-color:#2AAAE2"/>
+		<stop  offset="1" style="stop-color:#83D5F7"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_6_);" d="M138,64V11c0-5.5-4.5-10-10-10H84c-5.5,0-10,4.5-10,10v53H138z"/>
+	<rect x="74" y="63" style="opacity:0.2;fill:#010101;" width="64" height="1"/>
+</g>
+<g id="mbutton-objectmenu-background-vertical-top">
+	<path style="fill:#FFFFFF;" d="M64,64V10c0-5.5-4.5-10-10-10H10C4.5,0,0,4.5,0,10v54H64z"/>
+	<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="32" y1="64" x2="32" y2="1">
+		<stop  offset="0" style="stop-color:#6AC0EC"/>
+		<stop  offset="1" style="stop-color:#83D5F7"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_7_);" d="M64,64V11c0-5.5-4.5-10-10-10H10C4.5,1,0,5.5,0,11v53H64z"/>
+	<rect y="63" style="opacity:0.2;fill:#010101;" width="64" height="1"/>
 </g>
 </svg>
