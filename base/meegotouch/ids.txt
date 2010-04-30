@@ -311,14 +311,14 @@ input-field-delete-button-background
 number-input-field-background
 
 #objectmenu
-mbutton-objectmenu-top-background
-mbutton-objectmenu-top-background-pressed
-mbutton-objectmenu-middle-background
-mbutton-objectmenu-middle-background-pressed
-mbutton-objectmenu-bottom-background
-mbutton-objectmenu-bottom-background-pressed
-mbutton-objectmenu-single-background
-mbutton-objectmenu-single-background-pressed
+mbutton-objectmenu-background-vertical-top
+mbutton-objectmenu-background-pressed-vertical-top
+mbutton-objectmenu-background-vertical-center
+mbutton-objectmenu-background-pressed-vertical-center
+mbutton-objectmenu-background-vertical-bottom
+mbutton-objectmenu-background-pressed-vertical-bottom
+mbutton-objectmenu-background
+mbutton-objectmenu-background-pressed
 
 
 # *** Icons ***
