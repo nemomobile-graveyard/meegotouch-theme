@@ -3,8 +3,21 @@ MObjectMenuStyle {
 
     /* inherited from MWidgetStyle */
     minimum-size: -1 -1;
-    preferred-size: 100% -1;
+    preferred-size: -1 -1;
 
     vertical-align: center;
     horizontal-align: center;
+}
+
+MObjectMenu MButtonStyle {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    background-tiles: mbutton-objectmenu-background 10px 10px 10px 10px;
+}
+
+MObjectMenu MButtonStyle:pressed {
+    background-tiles: mbutton-objectmenu-background-pressed 10px 10px 10px 10px;
 }
