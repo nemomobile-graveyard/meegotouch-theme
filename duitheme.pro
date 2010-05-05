@@ -6,14 +6,14 @@ TEMPLATE = subdirs
 base.files = ./base
 base.path = /usr/share/themes
 base.CONFIG += no_check_exist
-base.commands += perl extract.pl base/meegotouch/svg/
+base.commands += perl extract.pl base/meegotouch/svg/ base/meegotouch/ids.txt
 
 
 # DEVEL THEME
 devel.files = ./devel
 devel.path = /usr/share/themes
 devel.CONFIG += no_check_exist
-devel.commands += perl extract.pl devel/meegotouch/svg/
+devel.commands += perl extract.pl devel/meegotouch/svg/ base/meegotouch/ids.txt
 
 devel_icon.files = ./devel/meegotouch/icons/icon-l-duitheme-devel.svg
 devel_icon.path = /usr/share/themes/base/meegotouch/icons
@@ -25,7 +25,7 @@ devel_icon.CONFIG += no_check_exist
 plankton.files = ./plankton
 plankton.path = /usr/share/themes
 plankton.CONFIG += no_check_exist
-plankton.commands += perl extract.pl plankton/meegotouch/svg/
+plankton.commands += perl extract.pl plankton/meegotouch/svg/ base/meegotouch/ids.txt
 
 plankton_icon.files = ./plankton/meegotouch/icons/icon-l-duitheme-plankton.svg
 plankton_icon.path = /usr/share/themes/base/meegotouch/icons
