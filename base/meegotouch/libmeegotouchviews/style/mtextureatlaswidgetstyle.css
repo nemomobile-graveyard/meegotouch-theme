@@ -1,0 +1,7 @@
+/* MTextureAtlasWidgetStyle : MWidgetStyle */
+MTextureAtlasWidgetStyle {
+    /* inherited from MWidgetStyle */
+    background-color: #000000;
+    background-opacity: 0.0;
+}
+
