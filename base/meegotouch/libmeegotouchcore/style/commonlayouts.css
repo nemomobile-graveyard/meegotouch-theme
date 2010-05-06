@@ -193,8 +193,8 @@ MContentItemStyle#singleLabel
 
 #CommonIconButton 
 {
-		margin-top: $MARGIN_DOUBLE
-		margin-bottom: $MARGIN_XLARGE
+		margin-top: $MARGIN_DOUBLE;
+		margin-bottom: $MARGIN_XLARGE;
 }
 
 #CommonCheckBox
