@@ -9,6 +9,20 @@ sub main()
     my @argv = @_;
 
     print("extract all ids from svg files under directory: $argv[0]\n");
+
+    # open file and read it to array of lines
+    open( FILE, $argv[1] ) || die( "Could not open $argv[1] for reading valid ids: $!" );
+    @tmp_ids = <FILE>;
+    close(FILE) || die "Couldn't close file properly";
+
+    foreach(@tmp_ids)
+    {
+        if ($_ =~ m/^([\w-]*)/)
+        {
+            push(@valid_ids, $1);
+        }
+    }
+
     find(\&create_id_list, $argv[0]);
 }
 
@@ -31,9 +45,12 @@ sub create_id_list()
     $content = join('', @lines);
 
     my @ids;
-    while($content =~ m/id="(dui[^"]+)/g)
+    while($content =~ m/id="([^"]+)/g)
     {
-        push(@ids, $1);
+        if (grep {$_ =~ "^$1\$"} @valid_ids)
+        {
+            push(@ids, $1);
+        }
     }
 
     if(@ids)
@@ -45,6 +62,9 @@ sub create_id_list()
             print OUTPUT "$_\n";
         }
         close(OUTPUT) || die "Couldn't close file properly";
+    } else
+    {
+        print "No valid ids found in $filename\n";
     }
 
     return 0;
