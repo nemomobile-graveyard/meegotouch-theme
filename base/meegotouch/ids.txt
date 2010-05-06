@@ -21,6 +21,12 @@
 
 # *** Common ui component views ***
 
+#duibubbleitem - graphics for the chat conversation widget
+duibubbleitem-background
+duibubbleitem-background-pressed
+duibubbleitem-rightarrow-background
+duibubbleitem-rightarrow-background-pressed
+
 #duiprogressindicator - graphics for the progress indicator
 duiprogressindicator-spinner-small-off # "off"-dot
 duiprogressindicator-spinner-small-on # "on"-dot
