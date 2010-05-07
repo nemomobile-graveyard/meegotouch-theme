@@ -1,13 +1,17 @@
 /* MBasicLayoutAnimationStyle : MLayoutAnimationStyle */
 MBasicLayoutAnimationStyle {
-    geometry-easing-curve: linear;
+    x-translation-easing-curve: outback;
+    y-translation-easing-curve: outback;
     opacity-easing-curve: linear;
     initial-showing-opacity: 0.0;
-    initial-showing-scale-factor: 1.0;
     final-hiding-opacity: 0.0;
-    final-hiding-scale-factor: 1.0;
 
     /* inherited from MLayoutAnimationStyle */
     duration: 600;
+
+    /* To be removed - for backwards compatibility only */
+    geometry-easing-curve: linear;
+    initial-showing-scale-factor: 1.0;
+    final-hiding-scale-factor: 1.0;
 }
 
