@@ -5,7 +5,7 @@ MApplicationMenuStyle {
     canvas-color: #000000;
     canvas-opacity: 1.0;
     canvas-margin: $MARGIN_DOUBLE;
-    divider-image: "duimenu-divider-background" 0 0 2px 2px;
+    divider-image:;
     divider-color: #F9A427;
     divider-opacity: 1.0;
     divider-width: 0;
