@@ -326,6 +326,15 @@ mbutton-objectmenu-background-pressed-vertical-bottom
 mbutton-objectmenu-background
 mbutton-objectmenu-background-pressed
 
+#lockscreen
+lockscreen-lock-land-area-background-active
+lockscreen-lock-land-area-background-dragged
+lockscreen-notification-area-background
+lockscreen-recent-event-area-background
+lockscreen-other-events-area-background
+lockscreen-lock-lift-area-background
+lockscreen-lock-active
+lockscreen-lock
 
 # *** Icons ***
 icon-l-common-video-playback.svg #large "play" icon
