@@ -9,7 +9,7 @@ MExtensionHandleStyle {
     padding-bottom: 0;
 
     /* The image to be drawn on top of the extension when it is in a broken state */
-    broken-image: "icon-m-error";
+    broken-image: "icon-m-common-error";
     /* Offset of the broken image relative to the top right corner of the applet */
     broken-image-offset: -8 4;
     /* The radius of the blur to be applied in a broken state */
