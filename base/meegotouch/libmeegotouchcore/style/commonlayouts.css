@@ -1,7 +1,6 @@
 /* The MContentItemStyle part is temporary, for testing purposes */
 
-MContentItemStyle
-{
+MContentItemStyle {
     title-object-name: "CommonTitle";
     subtitle-object-name: "CommonSubTitle";
     minimum-size : 100 100;
@@ -11,8 +10,7 @@ MContentItemStyle
     margin-bottom : 0;
 }
 
-MContentItemStyle#singleLabel
-{
+MContentItemStyle#singleLabel {
     title-object-name: "CommonSingleTitle";
     subtitle-object-name: "CommonSubTitle";
     minimum-size : 100 100;
@@ -28,15 +26,15 @@ MContentItemStyle#singleLabel
 /*  LABELS  */
 
 
-#CommonSingleTitle
-{
+#CommonSingleTitle {
+
     font : $FONT_LARGE;
     margin-left : $MARGIN_XLARGE;    
     margin-right : $MARGIN_XLARGE;    
 }
 
-#CommonTitle
-{
+#CommonTitle {
+
     font : $FONT_LARGE;
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE; 
@@ -44,47 +42,47 @@ MContentItemStyle#singleLabel
     margin-bottom : 0;
 }
 
-#CommonSubTitle
-{
+#CommonSubTitle {
+
     font : $FONT_SMALL;
-    color : #515151;					// TBD
+    color : #515151;					/* TBD */
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE; 
     margin-top : $MARGIN_XSMALL;
     margin-bottom : 0;
 }
 
-#CommonSubText
-{
+#CommonSubText {
+
     font : $FONT_SMALL;
-    color : #95969B;					// TBD
+    color : #95969B;					/* TBD */
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE; 
     margin-top : $MARGIN_XSMALL;
     margin-bottom : 0;
 }
 
-#CommonItemInfo
-{
+#CommonItemInfo {
+
     font : $FONT_SMALL;
-    color : #95969B;					// TBD
+    color : #95969B;					/* TBD */
     margin-right : $MARGIN_XLARGE;
     margin-top : $MARGIN_XSMALL;
     margin-bottom : 0;
 }
 
-#CommonHeader
-{
+#CommonHeader {
+
     font : $FONT_SMALL;
-    color : #FFFFFF;					// TBD
+    color : #FFFFFF;					/* TBD */
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE; 
     margin-top : $MARGIN_XSMALL;
     margin-bottom : 0;
 }
 
-#CommonSubHeader
-{
+#CommonSubHeader {
+
     font : $FONT_SMALL;
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE; 
@@ -92,8 +90,8 @@ MContentItemStyle#singleLabel
     margin-bottom : 0;
 }
 
-#CommonFieldHeader
-{
+#CommonFieldHeader {
+
     font : $FONT_SMALL;
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE; 
@@ -105,8 +103,8 @@ MContentItemStyle#singleLabel
 /*  ICONS AND THUMBNAILS  */
 
 
-#CommonMainIcon
-{
+#CommonMainIcon {
+
     maximum-size: 6.4mm 6.4mm;
     minimum-size: 6.4mm 6.4mm;
     preferred-size: 6.4mm 6.4mm;
@@ -116,37 +114,37 @@ MContentItemStyle#singleLabel
     margin-right : 0;
 }
 
-#CommonTitleIcon
-{
+#CommonTitleIcon {
+
     margin-left : $MARGIN_DOUBLE;
     margin-right : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
     margin-bottom : $MARGIN_DOUBLE;
 }
 
-#CommonSubIcon
-{
+#CommonSubIcon {
+
     margin-left : $MARGIN_XSMALL;
     margin-right : $MARGIN_XSMALL;
     margin-top : $MARGIN_XSMALL;
     margin-bottom : $MARGIN_XSMALL;
 }
 
-#CommonSwitchIcon
-{
+#CommonSwitchIcon {
+
     margin-right : $MARGIN_XLARGE;
 }
 
-#CommonThumbnail
-{
+#CommonThumbnail {
+
     margin-left : 0;
     margin-right : 0;
     margin-top : 0;
     margin-bottom : 0;
 }
 
-#CommonSmallThumbnail
-{
+#CommonSmallThumbnail {
+
     margin-left : $MARGIN_DOUBLE;
     margin-right : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
@@ -157,14 +155,14 @@ MContentItemStyle#singleLabel
 /*  CONTROLS  */
 
 
-#CommonSwitch
-{
+#CommonSwitch {
+
     margin-right : $MARGIN_XLARGE;
     margin-left : $MARGIN_XLARGE;
 }
 
-#CommonSlider
-{
+#CommonSlider {
+
     margin-top : $MARGIN_DOUBLE;
     margin-bottom : $MARGIN_DOUBLE;
     margin-left : 0;
@@ -172,27 +170,27 @@ MContentItemStyle#singleLabel
     maximum-size : 50mm -1;
 }
 
-#CommonProgressIndicator
-{
+#CommonProgressIndicator {
+
     margin-right : $MARGIN_XLARGE;
 }
 
-#CommonProgressBar
-{
+#CommonProgressBar {
+
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE;
 }
 
-#CommonInputField
-{
+#CommonInputField {
+
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
 }
 
-#CommonSingleButton
-{
+#CommonSingleButton {
+
     margin-right : $MARGIN_XLARGE;
     margin-left : $MARGIN_XLARGE;
     margin-bottom : $MARGIN_DOUBLE;
@@ -200,14 +198,14 @@ MContentItemStyle#singleLabel
     maximum-size : 50mm 6.4mm;
 }
 
-#CommonIconButton 
-{
-		margin-top: $MARGIN_DOUBLE;
-		margin-bottom: $MARGIN_XLARGE;
+#CommonIconButton  {
+
+    margin-top: $MARGIN_DOUBLE;
+    margin-bottom: $MARGIN_XLARGE;
 }
 
-#CommonCheckBox
-{
+#CommonCheckBox {
+
    margin-right : $MARGIN_XLARGE;
    margin-left : $MARGIN_XLARGE;
 }
@@ -215,8 +213,8 @@ MContentItemStyle#singleLabel
 /*  PANELS & LAYOUTS */
 
 
-#CommonPanel
-{
+#CommonPanel {
+
     background-image : "duilist-singlecolumn-center-background" 8px 8px 8px 8px;
     margin-left : 0;
     margin-right : 0;
@@ -225,13 +223,13 @@ MContentItemStyle#singleLabel
     minimum-size : 88 88;  
 }
 
-#CommonPanel:pressed
-{
+#CommonPanel:pressed {
+
 	background-image : "duilist-singlecolumn-center-background-pressed" 8px 8px 8px 8px;
 }
 
-#CommonSmallPanel
-{
+#CommonSmallPanel {
+
     background-image : "duilist-singlecolumn-center-background" 8px 8px 8px 8px;
     margin-left : 0;
     margin-right : 0;
@@ -240,13 +238,13 @@ MContentItemStyle#singleLabel
     minimum-size : 50 50;  
 }
 
-#CommonSmallPanel:pressed
-{
+#CommonSmallPanel:pressed {
+
     background-image : "duilist-singlecolumn-center-background-pressed" 8px 8px 8px 8px;
 }
 
-#CommonHeaderPanel
-{
+#CommonHeaderPanel {
+
     background-color : #000000;
     margin-left : 0;
     margin-right : 0;
@@ -254,26 +252,26 @@ MContentItemStyle#singleLabel
     margin-bottom : 0;
 }
 
-#CommonTitleIconGroup
-{
+#CommonTitleIconGroup {
+
     margin-left : $MARGIN_XLARGE;
 }
 
-#CommonSubIconGroup
-{
+#CommonSubIconGroup {
+
     margin-right : $MARGIN_XLARGE;
 }
 
-#CommonButtonGroup
-{
+#CommonButtonGroup {
+
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
 }
 
-#CommonInputFieldGroup
-{
+#CommonInputFieldGroup {
+
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE;	
     margin-bottom : $MARGIN_DOUBLE;
@@ -283,8 +281,8 @@ MContentItemStyle#singleLabel
 /*  STRUCTURAL ELEMENTS  */
 
 
-#CommonSpacer 
-{
+#CommonSpacer {
+
     minimum-size : 0 0;
     maximum-size : 1000 0;
     margin-left : 0;
