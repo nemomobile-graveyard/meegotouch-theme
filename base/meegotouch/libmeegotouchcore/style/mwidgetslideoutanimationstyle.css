@@ -7,6 +7,7 @@ MWidgetSlideOutAnimationStyle {
 
 MDialog MWidgetSlideOutAnimationStyle {
     to: "bottom";
+    easing-curve: incubic;
     duration: 300;
 }
 

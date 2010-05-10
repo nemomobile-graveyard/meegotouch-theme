@@ -1,0 +1,11 @@
+MObjectMenuFadeInAnimationStyle {
+    opacity-animation-duration: 100;
+    scale-animation-duration: 500;
+
+    easing-curve: outexpo;
+
+    start-delay: 100;
+    initial-scale: 0.6;
+    opacity: 1;
+    distance-from-cursor-factor: 0.6;
+}

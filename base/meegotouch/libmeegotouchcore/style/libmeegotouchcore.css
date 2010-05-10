@@ -22,6 +22,8 @@
 @import "mwidgetslideoutanimationstyle.css";
 @import "mwidgetzoominanimationstyle.css";
 @import "mwidgetzoomoutanimationstyle.css";
+@import "mobjectmenufadeinanimation.css";
+@import "mobjectmenufadeoutanimation.css";
 @import "mpageswitchanimation.css";
 @import "mbasicorientationanimationstyle.css";
 @import "mcrossfadedorientationanimationstyle.css";
