@@ -261,6 +261,11 @@ MContentItemStyle#singleLabel
     margin-right : $MARGIN_XLARGE;
 }
 
+#CommonInputFieldGroup
+{
+    margin-left : $MARGIN_XLARGE;
+    margin-right : $MARGIN_XLARGE;	
+}
 
 /*  STRUCTURAL ELEMENTS  */
 
