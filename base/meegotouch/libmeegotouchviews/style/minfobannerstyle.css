@@ -12,6 +12,9 @@ MInfoBannerStyle {
     minimum-size: 80% $HEIGHT_ONE;
     preferred-size: -1 -1;
     maximum-size: 100% 100%;
+
+    /* Timeout (miliseconds) for SingleShoot */
+    disappearTimeout: 3000;
 }
 
 MInfoBannerStyle[event] {

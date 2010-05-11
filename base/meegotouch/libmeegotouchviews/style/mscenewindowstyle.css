@@ -19,6 +19,9 @@ MSceneWindowStyle {
     minimum-size: 100% 100%;
     preferred-size: 100% 100%;
     maximum-size: 100% 100%;
+
+   /* Timeout (miliseconds) necessary for SingleShot in some Apps: InfoBanner */
+   disappearTimeout: $TIMEOUT_DEFAULT;
 }
 
 MSceneWindowStyle#statusBar
