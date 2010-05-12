@@ -141,6 +141,9 @@ MContentItemStyle#singleLabel {
     margin-right : 0;
     margin-top : 0;
     margin-bottom : 0;
+    maximum-size: 8.6mm 8.6mm;
+    minimum-size: 8.6mm 8.6mm;
+    preferred-size: 8.6mm 8.6mm;
 }
 
 #CommonSmallThumbnail {
