@@ -1,4 +1,4 @@
 MPageSwitchAnimationStyle {
-    duration: 300;
-    easing-curve: outcubic;
+    duration: 500;
+    easing-curve: inoutexpo;
 }
