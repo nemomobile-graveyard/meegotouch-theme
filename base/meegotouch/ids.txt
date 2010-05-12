@@ -32,10 +32,10 @@ meegotouch-speechbubble-incoming-background
 meegotouch-speechbubble-incoming-background-pressed
 meegotouch-speechbubble-outgoing-background
 meegotouch-speechbubble-outgoing-background-pressed
-meegotouch-speechbubble-incoming-mirrrored-background
-meegotouch-speechbubble-incoming-mirrrored-background-pressed
-meegotouch-speechbubble-outgoing-mirrrored-background
-meegotouch-speechbubble-outgoing-mirrrored-background-pressed
+meegotouch-speechbubble-incoming-mirrored-background
+meegotouch-speechbubble-incoming-mirrored-background-pressed
+meegotouch-speechbubble-outgoing-mirrored-background
+meegotouch-speechbubble-outgoing-mirrored-background-pressed
 
 #duiprogressindicator - graphics for the progress indicator
 duiprogressindicator-spinner-small-off # "off"-dot
