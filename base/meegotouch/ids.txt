@@ -190,19 +190,22 @@ duidialog-query-top-button-background-pressed
 duidialog-query-middle-button-background-pressed
 duidialog-query-bottom-button-background-pressed
 
-#duibutton
-duibutton-background
-duibutton-background-pressed
-duibutton-background-selected
-duibutton-background-selected-pressed
-duibutton-checkbox-background
-duibutton-checkbox-background-pressed
-duibutton-checkbox-checkmark
-duibutton-checkbox-checkmark-pressed
-duibutton-switch-thumb
-duibutton-switch-background
-duibutton-switch-mask
-duibutton-switch-colorstripe
+# MButton, the regular push button variant
+meegotouch-button-background		# background graphic
+meegotouch-button-background-pressed    # pressed state
+meegotouch-button-background-selected   # selected state (toggle button for example)
+
+# MButton checkbox variant
+meegotouch-button-checkbox-background
+meegotouch-button-checkbox-background-pressed
+meegotouch-button-checkbox-checkmark
+meegotouch-button-checkbox-checkmark-pressed
+
+#MButton switch variant
+meegotouch-button-switch-background     # the "groove" part
+meegotouch-button-switch-colorstripe	# color inside the groove, to indicate "on" and "off" state
+meegotouch-button-switch-mask		# this defines the shape of the colorstripe
+meegotouch-button-switch-thumb		# the sliding part of the switch, on top of everything else
 
 #duitextedit
 duicompleter-background

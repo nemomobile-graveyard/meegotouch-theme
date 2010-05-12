@@ -1,12 +1,12 @@
 
 MButtonSwitchStyle {
-    background-image: "duibutton-switch-background" 0 0 0 0;
+    background-image: "meegotouch-button-switch-background" 0 0 0 0;
     // thumb is the sliding part, should slide accross the whole area
-    thumb-image: "duibutton-switch-thumb" 0 0 0 0;
+    thumb-image: "meegotouch-button-switch-thumb" 0 0 0 0;
     // slider is behind thumb, but above background
-    slider-image: "duibutton-switch-colorstripe" 1 1 1 1;
+    slider-image: "meegotouch-button-switch-colorstripe" 0 0 0 0;
     // slider-mask defines the shape of the slider-image
-    slider-mask: "duibutton-switch-mask" 0 0 0 0;
+    slider-mask: "meegotouch-button-switch-mask" 0 0 0 0;
 
     minimum-size: 7.2mm 4.4mm;
     maximum-size: 7.2mm 4.4mm;
@@ -14,13 +14,13 @@ MButtonSwitchStyle {
 }
 
 MButtonSwitchStyle:pressed {
-    background-image: "duibutton-switch-background" 0 0 0 0;
+    background-image: "meegotouch-button-switch-background" 0 0 0 0;
     // thumb is the sliding part, should slide accross the whole area
-    thumb-image: "duibutton-switch-thumb" 0 0 0 0;
+    thumb-image: "meegotouch-button-switch-thumb" 0 0 0 0;
     // slider is behind thumb, but above background
-    slider-image: "duibutton-switch-colorstripe" 1 1 1 1;
+    slider-image: "meegotouch-button-switch-colorstripe" 0 0 0 0;
     // slider-mask defines the shape of the slider-image
-    slider-mask: "duibutton-switch-mask" 0 0 0 0;
+    slider-mask: "meegotouch-button-switch-mask" 0 0 0 0;
 
     minimum-size: 7.2mm 4.4mm;
     maximum-size: 7.2mm 4.4mm;
@@ -28,13 +28,13 @@ MButtonSwitchStyle:pressed {
 }
 
 MButtonSwitchStyle:selected {
-    background-image: "duibutton-switch-background" 0 0 0 0;
+    background-image: "meegotouch-button-switch-background" 0 0 0 0;
     // thumb is the sliding part, should slide accross the whole area
-    thumb-image: "duibutton-switch-thumb" 0 0 0 0;
+    thumb-image: "meegotouch-button-switch-thumb" 0 0 0 0;
     // slider is behind thumb, but above background
-    slider-image: "duibutton-switch-colorstripe" 1 1 1 1;
+    slider-image: "meegotouch-button-switch-colorstripe" 0 0 0 0;
     // slider-mask defines the shape of the slider-image
-    slider-mask: "duibutton-switch-mask" 0 0 0 0;
+    slider-mask: "meegotouch-button-switch-mask" 0 0 0 0;
 
     minimum-size: 7.2mm 4.4mm;
     maximum-size: 7.2mm 4.4mm;
