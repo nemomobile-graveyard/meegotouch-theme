@@ -8,5 +8,5 @@ MObjectMenuFadeOutAnimationStyle {
 
     initial-scale: 0.6;
     opacity: 1;
-    distance-from-cursor-factor: 0.6;
+    distance-from-cursor-factor: 0.4;
 }
