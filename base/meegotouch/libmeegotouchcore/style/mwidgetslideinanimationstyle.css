@@ -1,5 +1,6 @@
 /* MWidgetSlidedeInAnimationStyle : MAbstractWidgetAnimationStyle */
 MWidgetSlideInAnimationStyle {
+    delay: 300;
     duration: 300;
     easing-curve: insine;
     from: "top";
@@ -8,7 +9,6 @@ MWidgetSlideInAnimationStyle {
 MDialog MWidgetSlideInAnimationStyle {
     from: "bottom";
     easing-curve: outexpo;
-    duration: 300;
 }
 
 MInfoBanner MWidgetSlideInAnimationStyle {
