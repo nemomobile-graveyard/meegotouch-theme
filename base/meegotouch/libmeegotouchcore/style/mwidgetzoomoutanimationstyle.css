@@ -1,5 +1,8 @@
 /* MWidgetZoomAnimationStyle : MAbstractWidgetAnimationStyle */
 MWidgetZoomOutAnimationStyle {
-    duration: 1000;
+    delay: 0;
+    duration: 300;
+    opacity: 1.0;
+    scale: 0.8;
     easingCurve: linear;
 }
