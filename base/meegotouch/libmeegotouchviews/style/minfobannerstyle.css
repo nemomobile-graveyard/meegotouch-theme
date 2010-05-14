@@ -13,8 +13,7 @@ MInfoBannerStyle {
     preferred-size: -1 -1;
     maximum-size: 100% 100%;
 
-    /* Timeout (miliseconds) for SingleShoot */
-    disappearTimeout: 3000;
+    disappear-timeout: 3000;
 }
 
 MInfoBannerStyle[event] {
