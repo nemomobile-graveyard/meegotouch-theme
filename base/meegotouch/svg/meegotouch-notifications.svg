@@ -3,10 +3,10 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="370px"
 	 height="300px" viewBox="0 0 370 300" style="enable-background:new 0 0 370 300;" xml:space="preserve">
-<g id="duinotification-layer">
+<g id="meegotouch-notifications-layer">
 </g>
-<g id="dui-theme-rd">
-	<g id="duinotification">
+<g id="theme">
+	<g id="meegotouch-notifications">
 		<g id="duinotificationThemeTemplateHelper">
 			<g>
 				<path style="fill:#B3B3B3;" d="M16,299c-8.271,0-15-6.729-15-15V16C1,7.729,7.729,1,16,1h338c8.271,0,15,6.729,15,15v268
@@ -73,51 +73,39 @@
 				c0.213,0.264,0.742,0.597,1.59,1c0.615,0.287,1.125,0.565,1.527,0.836c0.404,0.271,0.744,0.636,1.021,1.097
 				c0.275,0.462,0.414,1.041,0.414,1.738c0,1.176-0.363,2.068-1.092,2.676C237.537,33.693,236.496,33.997,235.143,33.997z"/>
 		</g>
-		<g id="duinotification-system-background-pressed">
+		<g id="meegotouch-notification-system-background-pressed">
 			<g>
 				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="126" y1="256" x2="126" y2="192">
-					<stop  offset="0" style="stop-color:#2AAAE2"/>
-					<stop  offset="1" style="stop-color:#1F749A"/>
+					<stop  offset="0" style="stop-color:#F6EB16"/>
+					<stop  offset="1" style="stop-color:#B7B933"/>
 				</linearGradient>
 				<rect x="94" y="192" style="fill:url(#SVGID_1_);" width="64" height="64"/>
 			</g>
 		</g>
-		<g id="duinotification-system-background">
+		<g id="meegotouch-notification-system-background">
 			<g>
 				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="52" y1="256" x2="52" y2="192">
-					<stop  offset="0" style="stop-color:#47A4D7"/>
-					<stop  offset="0.2849" style="stop-color:#4BA6D8"/>
-					<stop  offset="0.5137" style="stop-color:#56ADDC"/>
-					<stop  offset="0.723" style="stop-color:#67B9E4"/>
-					<stop  offset="0.9195" style="stop-color:#7FCBF0"/>
-					<stop  offset="1" style="stop-color:#8BD7F8"/>
+					<stop  offset="0" style="stop-color:#B7B933"/>
+					<stop  offset="1" style="stop-color:#F6EB16"/>
 				</linearGradient>
 				<rect x="20" y="192" style="fill:url(#SVGID_2_);" width="64" height="64"/>
 			</g>
 		</g>
-		<g id="duinotification-information-background-pressed">
-			<g>
-				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="126" y1="182" x2="126" y2="118.0005">
-					<stop  offset="0" style="stop-color:#2AAAE2"/>
-					<stop  offset="1" style="stop-color:#1F749A"/>
-				</linearGradient>
-				<rect x="94" y="118" style="fill:url(#SVGID_3_);" width="64" height="64"/>
-			</g>
+		<g id="meegotouch-notification-information-background-pressed">
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="126" y1="182" x2="126" y2="118.0005">
+				<stop  offset="0" style="stop-color:#58B947"/>
+				<stop  offset="1" style="stop-color:#1AA64A"/>
+			</linearGradient>
+			<rect x="94" y="118" style="fill:url(#SVGID_3_);" width="64" height="64"/>
 		</g>
-		<g id="duinotification-information-background">
-			<g>
-				<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="52" y1="182" x2="52" y2="118.0005">
-					<stop  offset="0" style="stop-color:#47A4D7"/>
-					<stop  offset="0.2849" style="stop-color:#4BA6D8"/>
-					<stop  offset="0.5137" style="stop-color:#56ADDC"/>
-					<stop  offset="0.723" style="stop-color:#67B9E4"/>
-					<stop  offset="0.9195" style="stop-color:#7FCBF0"/>
-					<stop  offset="1" style="stop-color:#8BD7F8"/>
-				</linearGradient>
-				<rect x="20" y="118" style="fill:url(#SVGID_4_);" width="64" height="64"/>
-			</g>
+		<g id="meegotouch-notification-information-background">
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="52" y1="182" x2="52" y2="118.0005">
+				<stop  offset="0" style="stop-color:#1AA64A"/>
+				<stop  offset="1" style="stop-color:#58B947"/>
+			</linearGradient>
+			<rect x="20" y="118" style="fill:url(#SVGID_4_);" width="64" height="64"/>
 		</g>
-		<g id="duinotification-event-background-pressed">
+		<g id="meegotouch-notification-event-background-pressed">
 			<g>
 				<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="126" y1="108" x2="126" y2="44">
 					<stop  offset="0" style="stop-color:#2AAAE2"/>
@@ -126,14 +114,10 @@
 				<rect x="94" y="44" style="fill:url(#SVGID_5_);" width="64" height="64"/>
 			</g>
 		</g>
-		<g id="duinotification-event-background">
+		<g id="meegotouch-notification-event-background">
 			<g>
 				<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="52" y1="108" x2="52" y2="44">
 					<stop  offset="0" style="stop-color:#47A4D7"/>
-					<stop  offset="0.2849" style="stop-color:#4BA6D8"/>
-					<stop  offset="0.5137" style="stop-color:#56ADDC"/>
-					<stop  offset="0.723" style="stop-color:#67B9E4"/>
-					<stop  offset="0.9195" style="stop-color:#7FCBF0"/>
 					<stop  offset="1" style="stop-color:#8BD7F8"/>
 				</linearGradient>
 				<rect x="20" y="44" style="fill:url(#SVGID_6_);" width="64" height="64"/>
