@@ -329,15 +329,15 @@ input-field-delete-button-background-pressed
 input-field-delete-button-background
 number-input-field-background
 
-#objectmenu
-mbutton-objectmenu-background-vertical-top
-mbutton-objectmenu-background-pressed-vertical-top
-mbutton-objectmenu-background-vertical-center
-mbutton-objectmenu-background-pressed-vertical-center
-mbutton-objectmenu-background-vertical-bottom
-mbutton-objectmenu-background-pressed-vertical-bottom
-mbutton-objectmenu-background
-mbutton-objectmenu-background-pressed
+# Object Menu (context menu for objects) - rounded corners tileset
+meegotouch-button-objectmenu-background-vertical-top
+meegotouch-button-objectmenu-background-pressed-vertical-top
+meegotouch-button-objectmenu-background-vertical-center 
+meegotouch-button-objectmenu-background-pressed-vertical-center
+meegotouch-button-objectmenu-background-vertical-bottom
+meegotouch-button-objectmenu-background-pressed-vertical-bottom
+meegotouch-button-objectmenu-background
+meegotouch-button-objectmenu-background-pressed
 
 #lockscreen
 lockscreen-lock-land-area-background-active
