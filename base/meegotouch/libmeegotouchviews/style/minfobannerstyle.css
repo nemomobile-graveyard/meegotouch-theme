@@ -17,7 +17,11 @@ MInfoBannerStyle {
 }
 
 MInfoBannerStyle[event] {
-    background-image : "duinotification-event-background" 18px 18px 18px 18px;
+    background-image : "meegotouch-notification-event-background" 10px 10px 10px 10px;
+}
+
+MInfoBannerStyle[event]:pressed {
+    background-image : "meegotouch-notification-event-background-pressed" 10px 10px 10px 10px;
 }
 
 #EventInfoBannerImage {
@@ -42,11 +46,19 @@ MInfoBannerStyle[event] {
 }
 
 MInfoBannerStyle[information] {
-    background-image : "duinotification-information-background" 18px 18px 18px 18px;
+    background-image : "meegotouch-notification-information-background" 10px 10px 10px 10px;
 }
 
-MInfoBannerStyle[system] { /* this doesnt really match, check what the name is! */
-    background-image : "duinotification-system-background" 18px 18px 18px 18px;
+MInfoBannerStyle[information]:pressed {
+    background-image : "meegotouch-notification-information-background-pressed" 10px 10px 10px 10px;
+}
+
+MInfoBannerStyle[system] {
+    background-image : "meegotouch-notification-system-background" 10px 10px 10px 10px;
+}
+
+MInfoBannerStyle[system]:pressed {
+    background-image : "meegotouch-notification-system-background-pressed" 10px 10px 10px 10px;
 }
 
 

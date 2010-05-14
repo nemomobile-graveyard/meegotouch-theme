@@ -151,13 +151,13 @@ duislider-vertical-background-received
 duislider-vertical-background-elapsed
 duislider-handle-value-background
 
-#duinotification
-duinotification-event-background
-duinotification-event-background-pressed
-duinotification-information-background
-duinotification-information-background-pressed
-duinotification-system-background
-duinotification-system-background-pressed
+# Notification banners (event, information, system) - normal and pressed state backgrounds
+meegotouch-notification-event-background
+meegotouch-notification-event-background-pressed
+meegotouch-notification-information-background
+meegotouch-notification-information-background-pressed
+meegotouch-notification-system-background
+meegotouch-notification-system-background-pressed
 
 #duidialog
 duidialog-header-background
