@@ -1,9 +1,13 @@
 /* MWidgetZoomInAnimationStyle : MAbstractWidgetAnimationStyle */
 MWidgetZoomInAnimationStyle {
-    delay: 0;
-    duration: 300;
-    opacity: 1.0;
+    opacity-animation-duration: 100;
+    opacity-animation-easing-curve: linear;
+
+    scale-animation-duration: 500;
+    scale-animation-easing-curve: outexpo;
+
+    delay: 200;
+    opacity: 1;
     scale: 0.8;
-    easingCurve: linear;
 }
 
