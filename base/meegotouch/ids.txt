@@ -367,6 +367,9 @@ meegotouch-textedit-button-background-pressed-vertical-center
 meegotouch-textedit-button-background-vertical-bottom
 meegotouch-textedit-button-background-pressed-bottom-center
 
+#meegotouch-new-items-counter
+meegotouch-new-items-counter-background-combined
+meegotouch-new-items-counter-background-regular
 
 # *** Icons ***
 icon-l-common-video-playback #large "play" icon
