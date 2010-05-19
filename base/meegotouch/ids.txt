@@ -228,6 +228,7 @@ duipositionindicator-indicator
 duipositionindicator-background
 
 #meegotouch-list
+meegotouch-fastscroll-background
 meegotouch-live-filter-bar-background
 meegotouch-list-header-background
 meegotouch-list-fullwidth-background-left
