@@ -50,7 +50,7 @@ MDialogStyle.Portrait {
     preferred-size: -1 -1;
 
     /* TODO: replace with some proper value */
-    background-image: "duidialog-background" 0px 0px 4px 0px;
+    background-image: "meegotouch-dialog-background" 0px 0px 0px 0px;
     background-color: $COLOR_BACKGROUND;
 
     margin-left: 0;
@@ -66,82 +66,8 @@ MDialogStyle.Portrait {
 }
 
 MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
-    background-image: "duidialog-query-background" 14px 14px 14px 14px;
+    background-image: "meegotouch-dialog-query-background" 12px 12px 12px 12px;
 }
-
-
-MButtonStyle[first].Landscape {
-    margin-right: 0;
-    background-image: "duidialog-left-button-background" 14px 14px 14px 14px;
-}
-
-MButtonStyle[middle].Landscape {
-   margin-left: 0;
-   margin-right: 0;
-   background-image: "duidialog-center-button-background" 14px 14px 14px 14px;
-}
-
-MButtonStyle[last].Landscape {
-   margin-left: 0;
-   background-image: "duidialog-right-button-background" 14px 14px 14px 14px;
-}
-
-MButtonStyle[single].Landscape {
-   background-image: "duidialog-single-button-background" 14px 14px 14px 14px;
-}
-
-MButtonStyle[first].Portrait {
-   margin-bottom: 0;
-   background-image: "duidialog-top-button-background" 14px 14px 14px 14px;
-}
-
-MButtonStyle[middle].Portrait {
-   margin-top: 0;
-   margin-bottom: 0;
-   background-image: "duidialog-middle-button-background" 14px 14px 14px 14px;
-}
-
-MButtonStyle[last].Portrait {
-   margin-top: 0;
-   background-image: "duidialog-bottom-button-background" 14px 14px 14px 14px;
-}
-
-MButtonStyle[single].Portrait {
-   background-image: "duidialog-top-button-background" 14px 14px 14px 14px;
-}
-
-MButtonStyle[first].Landscape:pressed {
-    background-image: "duidialog-left-button-background-pressed" 14px 14px 14px 14px;
-}
-
-MButtonStyle[middle].Landscape:pressed {
-   background-image: "duidialog-center-button-background-pressed" 14px 14px 14px 14px;
-}
-
-MButtonStyle[last].Landscape:pressed {
-   background-image: "duidialog-right-button-background-pressed" 14px 14px 14px 14px;
-}
-
-MButtonStyle[single].Landscape:pressed {
-   background-image: "duidialog-single-button-background-pressed" 14px 14px 14px 14px;
-}
-
-MButtonStyle[first].Portrait:pressed {
-   background-image: "duidialog-top-button-background-pressed" 14px 14px 14px 14px;
-}
-
-MButtonStyle[middle].Portrait:pressed {
-   background-image: "duidialog-middle-button-background-pressed" 14px 14px 14px 14px;
-}
-
-MButtonStyle[last].Portrait:pressed {
-   background-image: "duidialog-bottom-button-background-pressed" 14px 14px 14px 14px;
-}
-
-MButtonStyle[single].Portrait:pressed {
-   background-image: "duidialog-top-button-background-pressed" 14px 14px 14px 14px;
-}
-
 
 #MDialogCloseButton {
     icon-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
@@ -172,10 +98,78 @@ MButtonStyle[single].Portrait:pressed {
 }
 
 #MDialogTitleBar {
-    background-image: "duidialog-header-background" 14px 14px 14px 14px;
+    background-image: "meegotouch-dialog-header-background" 12px 12px 12px 12px;
     background-color: $COLOR_INVERTED_BACKGROUND;
     margin-right: 0;
     margin-left: 0;
     margin-top: 0;
     margin-bottom: 0;
 }
+
+
+/* Dialog buttons */
+MButtonStyle[first].Landscape {
+    margin-right: 0;
+    background-image: "meegotouch-button-dialog-background-horizontal-left" 12px 12px 12px 12px;
+}
+MButtonStyle[first].Landscape:pressed {
+    background-image: "meegotouch-button-dialog-background-pressed-horizontal-left" 12px 12px 12px 12px;
+}
+
+MButtonStyle[middle].Landscape {
+   margin-left: 0;
+   margin-right: 0;
+   background-image: "meegotouch-button-dialog-background-horizontal-center" 12px 12px 12px 12px;
+}
+MButtonStyle[middle].Landscape:pressed {
+   background-image: "meegotouch-button-dialog-background-pressed-horizontal-center" 12px 12px 12px 12px;
+}
+
+MButtonStyle[last].Landscape {
+   margin-left: 0;
+   background-image: "meegotouch-button-dialog-background-horizontal-right" 12px 12px 12px 12px;
+}
+MButtonStyle[last].Landscape:pressed {
+   background-image: "meegotouch-button-dialog-background-pressed-horizontal-right" 12px 12px 12px 12px;
+}
+
+MButtonStyle[single].Landscape {
+   background-image: "meegotouch-button-dialog-background" 12px 12px 12px 12px;
+}
+MButtonStyle[single].Landscape:pressed {
+   background-image: "meegotouch-button-dialog-background-pressed" 12px 12px 12px 12px;
+}
+
+MButtonStyle[first].Portrait {
+   margin-bottom: 0;
+   background-image: "meegotouch-button-dialog-background-vertical-top" 12px 12px 12px 12px;
+}
+MButtonStyle[first].Portrait:pressed {
+   background-image: "meegotouch-button-dialog-background-pressed-vertical-top" 12px 12px 12px 12px;
+}
+
+MButtonStyle[middle].Portrait {
+   margin-top: 0;
+   margin-bottom: 0;
+   background-image: "meegotouch-button-dialog-background-vertical-center" 12px 12px 12px 12px;
+}
+MButtonStyle[middle].Portrait:pressed {
+   background-image: "duidialog-middle-button-background-pressed" 12px 12px 12px 12px;
+}
+
+MButtonStyle[last].Portrait {
+   margin-top: 0;
+   background-image: "meegotouch-button-dialog-background-vertical-bottom" 12px 12px 12px 12px;
+}
+MButtonStyle[last].Portrait:pressed {
+   background-image: "meegotouch-button-dialog-background-pressed-vertical-bottom" 12px 12px 12px 12px;
+}
+
+MButtonStyle[single].Portrait {
+   background-image: "meegotouch-button-dialog-background" 12px 12px 12px 12px;
+}
+MButtonStyle[single].Portrait:pressed {
+   background-image: "meegotouch-button-dialog-background-pressed" 12px 12px 12px 12px;
+}
+
+
