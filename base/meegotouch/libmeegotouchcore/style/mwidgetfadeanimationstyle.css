@@ -1,0 +1,28 @@
+/* MWidgetFadeInAnimationStyle : MAbstractWidgetAnimationStyle */
+MWidgetFadeAnimationStyle#In {
+    delay: 0;
+    duration: 300;
+    easing-curve: insine;
+    opacity: 1.0;
+}
+
+MWidgetFadeAnimationStyle#Out {
+    delay: 0;
+    duration: 300;
+    easing-curve: outsine;
+    opacity: 1.0;
+}
+
+MSceneLayerEffect MWidgetFadeAnimationStyle#In {
+    delay: 0;
+    duration: 400;
+    easing-curve: inoutcubic;
+    opacity: 0.75;
+}
+
+MSceneLayerEffect MWidgetFadeAnimationStyle#Out {
+    delay: 300;
+    duration: 400;
+    easing-curve: outcubic;
+    opacity: 0.75;
+}
