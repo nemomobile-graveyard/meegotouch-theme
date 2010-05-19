@@ -8,16 +8,12 @@ MNavigationBarStyle {
     height: 50mm; /* is "height" used? doesnt seem to affect anything.. */
 
     /* inherited from MWidgetStyle */
-    background-image: "duinavigationbar-toolbarbutton-background" 12px 12px 12px 12px;
-    margin-left:   0;
-    margin-top:    0;
-    margin-right:  0;
-    margin-bottom: 0;
+
+    /* this is a hack until the navigationbar is refactored */
+    background-image: "meegotouch-navigationbar-toolbar-portrait-background" 12px 12px 12px 12px;
 
     padding-left:   $WIDTH_HOMECLOSEBUTTON; /* space for square button */
-    padding-top:    0;
     padding-right:  $WIDTH_HOMECLOSEBUTTON; /* space for square button */
-    padding-bottom: 0;
 
     minimum-size: 100% $HEIGHT_NAVIGATIONBAR;
     preferred-size: 100% $HEIGHT_NAVIGATIONBAR;
@@ -26,24 +22,20 @@ MNavigationBarStyle {
 
 #NavigationBarMenuButton
 {
-    text-color: $COLOR_INVERTED_FOREGROUND;
+    text-color: $COLOR_INVERTED_FOREGROUND; /* this doesnt work, set below in the label rule */
+
     horizontal-text-align: left;
 
     arrow-icon: "icon-m-menuarrow";
     arrow-icon-size: 2.4mm 2.4mm;
 
     background-color:;
-    background-image: "duinavigationbar-viewmenu-background" 12px 12px 12px 12px;
-
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    background-image: "meegotouch-button-navigationbar-viewmenu-background" 12px 12px 12px 12px;
 
     padding-left:   $PADDING_LARGE;
-    padding-top:    0;
     padding-right:  $PADDING_LARGE;
-    padding-bottom: 0;
+
+    margin-top: 0;
 
     icon-size : 3.2mm 3.2mm;
     font: $FONT_DEFAULT;
@@ -55,22 +47,12 @@ MNavigationBarStyle {
 
 #NavigationBarMenuButton:pressed
 {
-    background-image: "duinavigationbar-viewmenu-background-pressed" 12px 12px 12px 12px;
+    background-image: "meegotouch-button-navigationbar-viewmenu-background-pressed" 12px 12px 12px 12px;
 }
 
 #NavigationBarMenuButtonLabel {
 
     color: $COLOR_INVERTED_FOREGROUND;
-    
-	  margin-left: 0;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-
-    padding-left: 0;
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
     
     preferred-size: -1 -1;
     minimum-size: 0 0;

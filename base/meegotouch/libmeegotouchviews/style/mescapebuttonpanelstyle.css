@@ -22,20 +22,20 @@ MButtonIconStyle#BackButton {
     reactive-margin-left: $MARGIN_XLARGE;
     reactive-margin-right: $MARGIN_XLARGE;
     reactive-margin-bottom: $MARGIN_XLARGE;
-    background-image: "duinavigationbar-button-home-background" 12x 12px 12px 12px;
+    background-image: meegotouch-button-navigationbar-close-background $CORNER_MARGINS;
 }                              
 
 MButtonIconStyle#BackButton:pressed {
-    background-image: "duinavigationbar-button-home-background" 12x 12px 12px 12px;
+    background-image: meegotouch-button-navigationbar-close-background-pressed $CORNER_MARGINS;
 }
 
 MButtonIconStyle#CloseButton {
     reactive-margin-left: $MARGIN_XLARGE;
     reactive-margin-right: $MARGIN_XLARGE;
     reactive-margin-bottom: $MARGIN_XLARGE;
-    background-image: "duinavigationbar-button-close-background" 12x 12px 12px 12px;
+    background-image: meegotouch-button-navigationbar-close-background $CORNER_MARGINS;
 }
 
 MButtonIconStyle#BackButton:pressed {
-    background-image: "duinavigationbar-button-close-background" 12x 12px 12px 12px;
+    background-image: meegotouch-button-navigationbar-close-background-pressed $CORNER_MARGINS;
 }

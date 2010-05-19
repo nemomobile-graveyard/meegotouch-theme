@@ -1,19 +1,9 @@
 /* MToolbarStyle : MWidgetStyle */
 MToolbarStyle {
     /* inherited from MWidgetStyle */
-    margin-left: 0;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-
     background-opacity: 1.0;
     background-color: $COLOR_BACKGROUND;
-    background-image: "duinavigationbar-toolbar-background" 12px 12px 12px 12px;
+    background-image: meegotouch-navigationbar-toolbar-background $CORNER_MARGINS;
 
     preferred-size: -1 $HEIGHT_NAVIGATIONBAR;
     minimum-size: -1 $HEIGHT_NAVIGATIONBAR;
