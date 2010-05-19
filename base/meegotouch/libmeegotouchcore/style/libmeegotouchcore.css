@@ -18,8 +18,7 @@
 @import "mdevicestyle.css";
 @import "mabstractwidgetanimationstyle.css";
 @import "mwidgetfadeanimationstyle.css";
-@import "mwidgetslideinanimationstyle.css";
-@import "mwidgetslideoutanimationstyle.css";
+@import "mwidgetslideanimationstyle.css";
 @import "mwidgetzoomanimationstyle.css";
 @import "mpageswitchanimation.css";
 @import "mbasicorientationanimationstyle.css";

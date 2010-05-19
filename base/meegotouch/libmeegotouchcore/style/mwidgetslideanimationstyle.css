@@ -1,0 +1,32 @@
+/* MWidgetSlidedeAnimationStyle : MAbstractWidgetAnimationStyle */
+MWidgetSlideAnimationStyle#In {
+    delay: 300;
+    duration: 300;
+    easing-curve: insine;
+    origin: "top";
+}
+
+MWidgetSlideAnimationStyle#Out {
+    delay: 0;
+    duration: 300;
+    easing-curve: outsine;
+    origin: "top";
+}
+
+MDialog MWidgetSlideAnimationStyle#In {
+    origin: "bottom";
+    easing-curve: outexpo;
+}
+
+MDialog MWidgetSlideAnimationStyle#Out {
+    origin: "bottom";
+    easing-curve: incubic;
+}
+
+MInfoBanner MWidgetSlideAnimationStyle#In {
+    origin: "left";
+}
+
+MInfoBanner MWidgetSlideAnimationStyle#Out {
+    origin: "left";
+}
