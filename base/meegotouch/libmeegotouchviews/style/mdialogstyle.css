@@ -154,7 +154,7 @@ MButtonStyle[middle].Portrait {
    background-image: "meegotouch-button-dialog-background-vertical-center" 12px 12px 12px 12px;
 }
 MButtonStyle[middle].Portrait:pressed {
-   background-image: "duidialog-middle-button-background-pressed" 12px 12px 12px 12px;
+   background-image: "meegotouch-button-dialog-background-pressed-vertical-center" 12px 12px 12px 12px;
 }
 
 MButtonStyle[last].Portrait {
