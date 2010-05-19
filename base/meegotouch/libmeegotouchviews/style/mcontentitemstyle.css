@@ -1,27 +1,30 @@
 
 /* MGridItemStyle : MGridItemStyle */
 MContentItemStyle {    
-    background-image : "duilist-singlecolumn-center-background" 8px 8px 8px 8px;
-
-    background-image-top-left : "duilist-topleft-background" 8px 8px 8px 8px;
-    background-image-top : "duilist-top-background" 8px 8px 8px 8px;
-    background-image-top-right : "duilist-topright-background" 8px 8px 8px 8px;
-    background-image-left : "duilist-left-background" 8px 8px 8px 8px;
-    background-image-center : "duilist-center-background" 8px 8px 8px 8px;
-    background-image-right : "duilist-right-background" 8px 8px 8px 8px;    
-    background-image-bottom-left : "duilist-bottomleft-background" 8px 8px 8px 8px;
-    background-image-bottom : "duilist-bottom-background" 8px 8px 8px 8px;
-    background-image-bottom-right : "duilist-bottomright-background" 8px 8px 8px 8px;
     
-    background-image-single : "duilist-single-background" 8px 8px 8px 8px;
+    background-tiles: meegotouch-list-background $CORNER_MARGINS;
 
-    background-image-singlerow-left : "duilist-singlerow-left-background" 8px 8px 8px 8px;
-    background-image-singlerow-center : "duilist-singlerow-center-background" 8px 8px 8px 8px;
-    background-image-singlerow-right : "duilist-singlerow-right-background" 8px 8px 8px 8px;
+    background-image : meegotouch-list-fullwidth-background $CORNER_MARGINS;
 
-    background-image-singlecolumn-top : "duilist-singlecolumn-top-background" 8px 8px 8px 8px;
-    background-image-singlecolumn-center : "duilist-singlecolumn-center-background" 8px 8px 8px 8px;
-    background-image-singlecolumn-bottom : "duilist-singlecolumn-bottom-background" 8px 8px 8px 8px;
+    background-image-top-left : meegotouch-list-background-top-left $CORNER_MARGINS;
+    background-image-top : meegotouch-list-background-top $CORNER_MARGINS;
+    background-image-top-right : meegotouch-list-background-top-right $CORNER_MARGINS;
+    background-image-left : meegotouch-list-background-left $CORNER_MARGINS;
+    background-image-center : meegotouch-list-background-center $CORNER_MARGINS;
+    background-image-right : meegotouch-list-background-right $CORNER_MARGINS;
+    background-image-bottom-left : meegotouch-list-background-bottom-left $CORNER_MARGINS;
+    background-image-bottom : meegotouch-list-background-bottom $CORNER_MARGINS;
+    background-image-bottom-right : meegotouch-list-background-bottom-right $CORNER_MARGINS;
+    
+    background-image-single : meegotouch-list-background $CORNER_MARGINS;
+
+    background-image-singlerow-left : meegotouch-list-background-horizontal-left $CORNER_MARGINS;
+    background-image-singlerow-center : meegotouch-list-background-horizontal-center $CORNER_MARGINS;
+    background-image-singlerow-right : meegotouch-list-background-horizontal-right $CORNER_MARGINS;
+
+    background-image-singlecolumn-top : meegotouch-list-background-vertical-top $CORNER_MARGINS;
+    background-image-singlecolumn-center : meegotouch-list-background-vertical-center $CORNER_MARGINS;
+    background-image-singlecolumn-bottom : meegotouch-list-background-vertical-bottom $CORNER_MARGINS;
 
     background-color: $COLOR_BACKGROUND;
     background-opacity: 1.0;
@@ -31,16 +34,6 @@ MContentItemStyle {
     minimum-size: $SIZE_ONE $SIZE_ONE;
     maximum-size: 100% $SIZE_FOUR;
 
-    margin-left:   0;
-    margin-right:  0;
-    margin-top:    0;
-    margin-bottom: 0;
-    
-    padding-left:   0;
-    padding-top:    0;
-    padding-right:  0;
-    padding-bottom: 0;
-
     title-object-name: "ContentItemTitle";
     subtitle-object-name: "ContentItemSubtitle";
     image-object-name: "ContentItemImage";
@@ -49,54 +42,60 @@ MContentItemStyle {
 }
 
 MContentItemStyle:selected {
-    background-image : "duilist-singlecolumn-center-background-selected" 8px 8px 8px 8px;
 
-    background-image-top-left : "duilist-topleft-background-selected" 8px 8px 8px 8px;
-    background-image-top : "duilist-top-background-selected" 8px 8px 8px 8px;
-    background-image-top-right : "duilist-topright-background-selected" 8px 8px 8px 8px;
-    background-image-left : "duilist-left-background-selected" 8px 8px 8px 8px;
-    background-image-center : "duilist-center-background-selected" 8px 8px 8px 8px;
-    background-image-right : "duilist-right-background-selected" 8px 8px 8px 8px;    
-    background-image-bottom-left : "duilist-bottomleft-background-selected" 8px 8px 8px 8px;
-    background-image-bottom : "duilist-bottom-background-selected" 8px 8px 8px 8px;
-    background-image-bottom-right : "duilist-bottomright-background-selected" 8px 8px 8px 8px;
+    background-tiles: meegotouch-list-background-selected $CORNER_MARGINS;
+
+    background-image : meegotouch-list-fullwidth-background-selected $CORNER_MARGINS;
+
+    background-image-top-left : meegotouch-list-background-selected-top-left $CORNER_MARGINS;
+    background-image-top : meegotouch-list-background-selected-top $CORNER_MARGINS;
+    background-image-top-right : meegotouch-list-background-selected-top-right $CORNER_MARGINS;
+    background-image-left : meegotouch-list-background-selected-left $CORNER_MARGINS;
+    background-image-center : meegotouch-list-background-selected-center $CORNER_MARGINS;
+    background-image-right : meegotouch-list-background-selected-right $CORNER_MARGINS;
+    background-image-bottom-left : meegotouch-list-background-selected-bottom-left $CORNER_MARGINS;
+    background-image-bottom : meegotouch-list-background-selected-bottom $CORNER_MARGINS;
+    background-image-bottom-right : meegotouch-list-background-selected-bottom-right $CORNER_MARGINS;
     
-    background-image-single : "duilist-single-background-selected" 8px 8px 8px 8px;
+    background-image-single : meegotouch-list-background-selected $CORNER_MARGINS;
 
-    background-image-singlerow-left : "duilist-singlerow-left-background-selected" 8px 8px 8px 8px;
-    background-image-singlerow-center : "duilist-singlerow-center-background-selected" 8px 8px 8px 8px;
-    background-image-singlerow-right : "duilist-singlerow-right-background-selected" 8px 8px 8px 8px;
+    background-image-singlerow-left : meegotouch-list-background-selected-horizontal-left $CORNER_MARGINS;
+    background-image-singlerow-center : meegotouch-list-background-selected-horizontal-center $CORNER_MARGINS;
+    background-image-singlerow-right : meegotouch-list-background-selected-horizontal-right $CORNER_MARGINS;
 
-    background-image-singlecolumn-top : "duilist-singlecolumn-top-background-selected" 8px 8px 8px 8px;
-    background-image-singlecolumn-center : "duilist-singlecolumn-center-background-selected" 8px 8px 8px 8px;
-    background-image-singlecolumn-bottom : "duilist-singlecolumn-bottom-background-selected" 8px 8px 8px 8px;
+    background-image-singlecolumn-top : meegotouch-list-background-selected-vertical-top $CORNER_MARGINS;
+    background-image-singlecolumn-center : meegotouch-list-background-selected-vertical-center $CORNER_MARGINS;
+    background-image-singlecolumn-bottom : meegotouch-list-background-selected-vertical-bottom $CORNER_MARGINS;
     
     background-color: $COLOR_INVERTED_FOREGROUND;
     background-opacity: 1.0;
 }
 
 MContentItemStyle:pressed {
-    background-image : "duilist-singlecolumn-center-background-pressed" 8px 8px 8px 8px;
 
-    background-image-top-left : "duilist-topleft-background-pressed" 8px 8px 8px 8px;
-    background-image-top : "duilist-top-background-pressed" 8px 8px 8px 8px;
-    background-image-top-right : "duilist-topright-background-pressed" 8px 8px 8px 8px;
-    background-image-left : "duilist-left-background-pressed" 8px 8px 8px 8px;
-    background-image-center : "duilist-center-background-pressed" 8px 8px 8px 8px;
-    background-image-right : "duilist-right-background-pressed" 8px 8px 8px 8px;    
-    background-image-bottom-left : "duilist-bottomleft-background-pressed" 8px 8px 8px 8px;
-    background-image-bottom : "duilist-bottom-background-pressed" 8px 8px 8px 8px;
-    background-image-bottom-right : "duilist-bottomright-background-pressed" 8px 8px 8px 8px;
+    background-tiles: meegotouch-list-background-pressed $CORNER_MARGINS;
+
+    background-image : meegotouch-list-fullwidth-background-pressed $CORNER_MARGINS;
+
+    background-image-top-left : meegotouch-list-background-pressed-top-left $CORNER_MARGINS;
+    background-image-top : meegotouch-list-background-pressed-top $CORNER_MARGINS;
+    background-image-top-right : meegotouch-list-background-pressed-top-right $CORNER_MARGINS;
+    background-image-left : meegotouch-list-background-pressed-left $CORNER_MARGINS;
+    background-image-center : meegotouch-list-background-pressed-center $CORNER_MARGINS;
+    background-image-right : meegotouch-list-background-pressed-right $CORNER_MARGINS;
+    background-image-bottom-left : meegotouch-list-background-pressed-bottom-left $CORNER_MARGINS;
+    background-image-bottom : meegotouch-list-background-pressed-bottom $CORNER_MARGINS;
+    background-image-bottom-right : meegotouch-list-background-pressed-bottom-right $CORNER_MARGINS;
     
-    background-image-single : "duilist-single-background-pressed" 8px 8px 8px 8px;
+    background-image-single : meegotouch-list-background-selected $CORNER_MARGINS;
 
-    background-image-singlerow-left : "duilist-singlerow-left-background-pressed" 8px 8px 8px 8px;
-    background-image-singlerow-center : "duilist-singlerow-center-background-pressed" 8px 8px 8px 8px;
-    background-image-singlerow-right : "duilist-singlerow-right-background-pressed" 8px 8px 8px 8px;
+    background-image-singlerow-left : meegotouch-list-background-pressed-horizontal-left $CORNER_MARGINS;
+    background-image-singlerow-center : meegotouch-list-background-pressed-horizontal-center $CORNER_MARGINS;
+    background-image-singlerow-right : meegotouch-list-background-pressed-horizontal-right $CORNER_MARGINS;
 
-    background-image-singlecolumn-top : "duilist-singlecolumn-top-background-pressed" 8px 8px 8px 8px;
-    background-image-singlecolumn-center : "duilist-singlecolumn-center-background-pressed" 8px 8px 8px 8px;
-    background-image-singlecolumn-bottom : "duilist-singlecolumn-bottom-background-pressed" 8px 8px 8px 8px;
+    background-image-singlecolumn-top : meegotouch-list-background-pressed-vertical-top $CORNER_MARGINS;
+    background-image-singlecolumn-center : meegotouch-list-background-pressed-vertical-center $CORNER_MARGINS;
+    background-image-singlecolumn-bottom : meegotouch-list-background-pressed-vertical-bottom $CORNER_MARGINS;
     
     background-color: $COLOR_INVERTED_FOREGROUND;
     background-opacity: 1.0;
