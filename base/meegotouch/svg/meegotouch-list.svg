@@ -542,6 +542,9 @@
 			<rect x="20" y="93" style="fill:#F2F2F2;" width="64" height="62"/>
 			<rect x="83" y="93" style="fill:#CCCCCC;" width="1" height="62"/>
 		</g>
+		<g id="meegotouch-fastscroll-background">
+			<path style="fill:#010101;" d="M200,82h-22c-5.5,0-10-4.5-10-10V60c0-5.5,4.5-10,10-10h22V82z"/>
+		</g>
 		<g id="meegotouch-live-filter-bar-background">
 			<rect x="94" y="18" style="fill:#333333;" width="64" height="64"/>
 		</g>
