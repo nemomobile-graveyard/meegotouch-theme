@@ -264,12 +264,12 @@ meegotouch-list-background-pressed-right
 meegotouch-list-background-pressed-bottom-left
 meegotouch-list-background-pressed-bottom
 meegotouch-list-background-pressed-bottom-right
-meegotouch-list-background-horizontal-pressed-left
-meegotouch-list-background-horizontal-pressed-center
-meegotouch-list-background-horizontal-pressed-right
-meegotouch-list-background-vertical-pressed-top
-meegotouch-list-background-vertical-pressed-center
-meegotouch-list-background-vertical-pressed-bottom
+meegotouch-list-background-pressed-horizontal-left
+meegotouch-list-background-pressed-horizontal-center
+meegotouch-list-background-pressed-horizontal-right
+meegotouch-list-background-pressed-vertical-top
+meegotouch-list-background-pressed-vertical-center
+meegotouch-list-background-pressed-vertical-bottom
 meegotouch-list-background-pressed
 meegotouch-list-fullwidth-background-selected-left
 meegotouch-list-fullwidth-background-selected-center
@@ -284,12 +284,12 @@ meegotouch-list-background-selected-right
 meegotouch-list-background-selected-bottom-left
 meegotouch-list-background-selected-bottom
 meegotouch-list-background-selected-bottom-right
-meegotouch-list-background-horizontal-selected-left
-meegotouch-list-background-horizontal-selected-center
-meegotouch-list-background-horizontal-selected-right
-meegotouch-list-background-vertical-selected-top
-meegotouch-list-background-vertical-selected-center
-meegotouch-list-background-vertical-selected-bottom
+meegotouch-list-background-selected-horizontal-left
+meegotouch-list-background-selected-horizontal-center
+meegotouch-list-background-selected-horizontal-right
+meegotouch-list-background-selected-vertical-top
+meegotouch-list-background-selected-vertical-center
+meegotouch-list-background-selected-vertical-bottom
 meegotouch-list-background-selected
 
 #vkb
