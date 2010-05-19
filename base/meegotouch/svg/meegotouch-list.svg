@@ -45,7 +45,7 @@
 			<path style="fill:url(#SVGID_1_);" d="M622,811c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h44
 				c5.5,0,10,4.5,10,10V811z"/>
 		</g>
-		<g id="meegotouch-list-background-vertical-selected-bottom">
+		<g id="meegotouch-list-background-selected-vertical-bottom">
 			<path style="fill:#CCCCCC;" d="M622,685v53c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-53H622z"/>
 			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="590" y1="747" x2="590" y2="684">
 				<stop  offset="0" style="stop-color:#2AAAE2"/>
@@ -54,7 +54,7 @@
 			<path style="fill:url(#SVGID_2_);" d="M622,684v53c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-53H622z"/>
 			<rect x="558" y="684" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
 		</g>
-		<g id="meegotouch-list-background-vertical-selected-center">
+		<g id="meegotouch-list-background-selected-vertical-center">
 			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="590" y1="674" x2="590" y2="610">
 				<stop  offset="0" style="stop-color:#2AAAE2"/>
 				<stop  offset="1" style="stop-color:#83D5F7"/>
@@ -63,7 +63,7 @@
 			<rect x="558" y="673" style="opacity:0.2;fill:#010101;" width="64" height="1"/>
 			<rect x="558" y="610.001" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
 		</g>
-		<g id="meegotouch-list-background-vertical-selected-top">
+		<g id="meegotouch-list-background-selected-vertical-top">
 			<path style="fill:#FFFFFF;" d="M558,599v-53c0-5.5,4.5-10,10-10h44c5.5,0,10,4.5,10,10v53H558z"/>
 			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="590" y1="600" x2="590" y2="537">
 				<stop  offset="0" style="stop-color:#2AAAE2"/>
@@ -72,7 +72,7 @@
 			<path style="fill:url(#SVGID_4_);" d="M558,600v-53c0-5.5,4.5-10,10-10h44c5.5,0,10,4.5,10,10v53H558z"/>
 			<rect x="558" y="599" style="opacity:0.2;fill:#010101;" width="64" height="1"/>
 		</g>
-		<g id="meegotouch-list-background-horizontal-selected-right">
+		<g id="meegotouch-list-background-selected-horizontal-right">
 			<path style="fill:#CCCCCC;" d="M632,464h54c5.5,0,10,4.5,10,10v42c0,5.5-4.5,10-10,10h-54V464z"/>
 			<path style="fill:#FFFFFF;" d="M632,462h54c5.5,0,10,4.5,10,10v42c0,5.5-4.5,10-10,10h-54V462z"/>
 			<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="664" y1="525" x2="664" y2="463">
@@ -82,7 +82,7 @@
 			<path style="fill:url(#SVGID_5_);" d="M632,463h54c5.5,0,10,4.5,10,10v42c0,5.5-4.5,10-10,10h-54V463z"/>
 			<rect x="632" y="463" style="opacity:0.2;fill:#FFFFFF;" width="1" height="62"/>
 		</g>
-		<g id="meegotouch-list-background-horizontal-selected-center">
+		<g id="meegotouch-list-background-selected-horizontal-center">
 			<rect x="558" y="464" style="fill:#CCCCCC;" width="64" height="62"/>
 			<rect x="558" y="462" style="fill:#FFFFFF;" width="64" height="62"/>
 			<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="590" y1="525" x2="590" y2="463">
@@ -93,7 +93,7 @@
 			<rect x="621" y="463" style="opacity:0.2;fill:#010101;" width="1" height="62"/>
 			<rect x="558" y="463" style="opacity:0.2;fill:#FFFFFF;" width="1" height="62"/>
 		</g>
-		<g id="meegotouch-list-background-horizontal-selected-left">
+		<g id="meegotouch-list-background-selected-horizontal-left">
 			<path style="fill:#CCCCCC;" d="M548,526h-54c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h54V526z"/>
 			<path style="fill:#FFFFFF;" d="M548,524h-54c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h54V524z"/>
 			<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="516" y1="525" x2="516" y2="463">
@@ -248,7 +248,7 @@
 			<path style="fill:url(#SVGID_21_);" d="M390,811c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h44
 				c5.5,0,10,4.5,10,10V811z"/>
 		</g>
-		<g id="meegotouch-list-background-vertical-pressed-bottom">
+		<g id="meegotouch-list-background-pressed-vertical-bottom">
 			<path style="fill:#FFFFFF;" d="M390,686v52c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-52H390z"/>
 			<path style="fill:#333333;" d="M390,684v52c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-52H390z"/>
 			<linearGradient id="SVGID_22_" gradientUnits="userSpaceOnUse" x1="358.0005" y1="747" x2="358.0005" y2="685">
@@ -257,7 +257,7 @@
 			</linearGradient>
 			<path style="fill:url(#SVGID_22_);" d="M390,685v52c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-52H390z"/>
 		</g>
-		<g id="meegotouch-list-background-vertical-pressed-center">
+		<g id="meegotouch-list-background-pressed-vertical-center">
 			<rect x="326" y="612" style="fill:#FFFFFF;" width="64" height="62"/>
 			<rect x="326" y="610" style="fill:#333333;" width="64" height="62"/>
 			<linearGradient id="SVGID_23_" gradientUnits="userSpaceOnUse" x1="358.0005" y1="673" x2="358.0005" y2="611">
@@ -266,7 +266,7 @@
 			</linearGradient>
 			<rect x="326" y="611" style="fill:url(#SVGID_23_);" width="64" height="62"/>
 		</g>
-		<g id="meegotouch-list-background-vertical-pressed-top">
+		<g id="meegotouch-list-background-pressed-vertical-top">
 			<path style="fill:#FFFFFF;" d="M326,600v-52c0-5.5,4.5-10,10-10h44c5.5,0,10,4.5,10,10v52H326z"/>
 			<path style="fill:#333333;" d="M326,598v-52c0-5.5,4.5-10,10-10h44c5.5,0,10,4.5,10,10v52H326z"/>
 			<linearGradient id="SVGID_24_" gradientUnits="userSpaceOnUse" x1="358.0005" y1="599" x2="358.0005" y2="537">
@@ -275,7 +275,7 @@
 			</linearGradient>
 			<path style="fill:url(#SVGID_24_);" d="M326,599v-52c0-5.5,4.5-10,10-10h44c5.5,0,10,4.5,10,10v52H326z"/>
 		</g>
-		<g id="meegotouch-list-background-horizontal-pressed-right">
+		<g id="meegotouch-list-background-pressed-horizontal-right">
 			<path style="fill:#FFFFFF;" d="M400,464h54c5.5,0,10,4.5,10,10v42c0,5.5-4.5,10-10,10h-54V464z"/>
 			<path style="fill:#333333;" d="M400,462h54c5.5,0,10,4.5,10,10v42c0,5.5-4.5,10-10,10h-54V462z"/>
 			<linearGradient id="SVGID_25_" gradientUnits="userSpaceOnUse" x1="432" y1="525" x2="432" y2="463">
@@ -284,7 +284,7 @@
 			</linearGradient>
 			<path style="fill:url(#SVGID_25_);" d="M400,463h54c5.5,0,10,4.5,10,10v42c0,5.5-4.5,10-10,10h-54V463z"/>
 		</g>
-		<g id="meegotouch-list-background-horizontal-pressed-center">
+		<g id="meegotouch-list-background-pressed-horizontal-center">
 			<rect x="326" y="464" style="fill:#FFFFFF;" width="64" height="62"/>
 			<rect x="326" y="462" style="fill:#333333;" width="64" height="62"/>
 			<linearGradient id="SVGID_26_" gradientUnits="userSpaceOnUse" x1="358.0005" y1="525" x2="358.0005" y2="463">
@@ -293,7 +293,7 @@
 			</linearGradient>
 			<rect x="326" y="463" style="fill:url(#SVGID_26_);" width="64" height="62"/>
 		</g>
-		<g id="meegotouch-list-background-horizontal-pressed-left">
+		<g id="meegotouch-list-background-pressed-horizontal-left">
 			<path style="fill:#FFFFFF;" d="M316,526h-54c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h54V526z"/>
 			<path style="fill:#333333;" d="M316,524h-54c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h54V524z"/>
 			<linearGradient id="SVGID_27_" gradientUnits="userSpaceOnUse" x1="284" y1="525" x2="284" y2="463">
