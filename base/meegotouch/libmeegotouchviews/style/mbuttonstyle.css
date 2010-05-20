@@ -60,13 +60,13 @@ MButtonStyle {
 }
 
 MButtonStyle:pressed {
-    background-image: "meegotouch-button-background-pressed" 10px 10px 10px 10px;
+    background-image: "meegotouch-button-background-pressed" $CORNER_MARGINS;
     background-color: $COLOR_SELECT;
     text-color: $COLOR_INVERTED_FOREGROUND;
 }
 
 MButtonStyle:selected {
-    background-image: "meegotouch-button-background-selected" 10px 10px 10px 10px;
+    background-image: "meegotouch-button-background-selected" $CORNER_MARGINS;
     background-color: $COLOR_SELECT;
     text-color: $COLOR_INVERTED_FOREGROUND;
 }
