@@ -42,9 +42,9 @@
    inkscape:window-height="817"
    id="namedview48"
    showgrid="false"
-   inkscape:zoom="9.88"
-   inkscape:cx="90.276368"
-   inkscape:cy="67.444865"
+   inkscape:zoom="8"
+   inkscape:cx="73.554398"
+   inkscape:cy="69.816377"
    inkscape:window-x="0"
    inkscape:window-y="25"
    inkscape:window-maximized="0"
@@ -120,7 +120,7 @@
 			<rect
    x="96"
    y="50"
-   style="fill:#eeeeec"
+   style="fill:black;fill-opacity:1"
    width="20"
    height="1"
    id="rect37" />
@@ -151,7 +151,7 @@
 			<rect
    x="83"
    y="40"
-   style="fill:#eeeeec"
+   style="fill:black;fill-opacity:1"
    width="1"
    height="20"
    id="rect46" />
