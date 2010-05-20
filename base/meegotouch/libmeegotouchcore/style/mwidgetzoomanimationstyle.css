@@ -9,6 +9,8 @@ MWidgetZoomAnimationStyle#In {
     delay: 100;
     scale: 0.6;
     opacity: 1;
+
+    position-animation-distance-factor: 0.6;
 }
 
 MWidgetZoomAnimationStyle#Out {
@@ -22,6 +24,8 @@ MWidgetZoomAnimationStyle#Out {
     delay: 100;
     scale: 0.6;
     opacity: 1;
+
+    position-animation-distance-factor: 0.4;
 }
 
 MMessageBox MWidgetZoomAnimationStyle#In {
@@ -35,6 +39,8 @@ MMessageBox MWidgetZoomAnimationStyle#In {
     delay: 200;
     scale: 0.8;
     opacity: 1;
+
+    position-animation-distance-factor: 0.8;
 }
 
 MMessageBox MWidgetZoomAnimationStyle#Out {
@@ -48,4 +54,6 @@ MMessageBox MWidgetZoomAnimationStyle#Out {
     delay: 0;
     scale: 0.8;
     opacity: 1;
+
+    position-animation-distance-factor: 0.8;
 }
