@@ -53,9 +53,9 @@ meegotouch-progressindicator-bar-progress-unknown-mask
 meegotouch-progressindicator-bar-progress
 meegotouch-progressindicator-bar-background
 
-#duiseparator
-duiseparator-vertical-background
-duiseparator-horizontal-background
+#MSeparator
+meegotouch-separator-background-horizontal
+meegotouch-separator-background-vertical
 
 #buttongroup
 buttongroup-vertical-top-background
