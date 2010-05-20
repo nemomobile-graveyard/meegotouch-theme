@@ -41,17 +41,17 @@ meegotouch-speechbubble-outgoing-chat-background-pressed
 meegotouch-speechbubble-outgoing-chat-mirrored-background
 meegotouch-speechbubble-outgoing-chat-mirrored-background-pressed
 
-#duiprogressindicator - graphics for the progress indicator
-duiprogressindicator-spinner-small-off # "off"-dot
-duiprogressindicator-spinner-small-on # "on"-dot
-duiprogressindicator-spinner-medium-off
-duiprogressindicator-spinner-medium-on
-duiprogressindicator-spinner-large-off
-duiprogressindicator-spinner-large-on
-duiprogressindicator-bar-progress-unknown
-duiprogressindicator-bar-progress-unknown-mask
-duiprogressindicator-bar-progress
-duiprogressindicator-bar-background
+#MProgressindicator - graphics for the progress indicators
+meegotouch-progressindicator-spinner-small-off # "off"-dot
+meegotouch-progressindicator-spinner-small-on # "on"-dot
+meegotouch-progressindicator-spinner-medium-off
+meegotouch-progressindicator-spinner-medium-on
+meegotouch-progressindicator-spinner-large-off
+meegotouch-progressindicator-spinner-large-on
+meegotouch-progressindicator-bar-progress-unknown
+meegotouch-progressindicator-bar-progress-unknown-mask
+meegotouch-progressindicator-bar-progress
+meegotouch-progressindicator-bar-background
 
 #duiseparator
 duiseparator-vertical-background
@@ -146,18 +146,18 @@ duicontainer-header-background-static
 duicontainer-content-background
 duicontainer-headerless-content-background
 
-#duislider
-duislider-handle
-duislider-handle-pressed
-duislider-background
-duislider-background-received
-duislider-background-elapsed
-duislider-vertical-handle
-duislider-vertical-handle-pressed
-duislider-vertical-background
-duislider-vertical-background-received
-duislider-vertical-background-elapsed
-duislider-handle-value-background
+#MSlider widget
+meegotouch-slider-handle-background-horizontal
+meegotouch-slider-handle-background-pressed-horizontal
+meegotouch-slider-handle-background-vertical
+meegotouch-slider-handle-background-pressed-vertical
+meegotouch-slider-background-horizontal
+meegotouch-slider-elapsed-background-horizontal
+meegotouch-slider-received-background-horizontal
+meegotouch-slider-background-vertical
+meegotouch-slider-elapsed-background-vertical
+meegotouch-slider-received-background-vertical
+meegotouch-slider-handle-value-background
 
 # Notification banners (event, information, system) - normal and pressed state backgrounds
 meegotouch-notification-event-background

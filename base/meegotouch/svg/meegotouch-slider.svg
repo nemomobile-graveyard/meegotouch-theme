@@ -3,11 +3,11 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="280px"
 	 height="400px" viewBox="0 0 280 400" style="enable-background:new 0 0 280 400;" xml:space="preserve">
-<g id="duislider-layer">
+<g id="meegotouch-slider-layer">
 </g>
-<g id="dui-theme-rd">
-	<g id="duislider">
-		<g id="duisliderThemeTemplateHelper">
+<g id="theme">
+	<g id="meegotouch-slider">
+		<g id="MeegoSouchSliderThemeTemplateHelper">
 			<g>
 				<path style="fill:#B3B3B3;" d="M16,399c-8.271,0-15-6.729-15-15V16C1,7.729,7.729,1,16,1h248c8.271,0,15,6.729,15,15v368
 					c0,8.271-6.729,15-15,15H16z"/>
@@ -44,7 +44,7 @@
 				v1.988c-0.172-0.014-0.428-0.02-0.77-0.02c-0.938,0-1.623,0.224-2.061,0.671c-0.438,0.448-0.656,1.147-0.656,2.097v7.271h-2.186
 				V22.408H159.807z"/>
 		</g>
-		<g id="duislider-handle-value-background">
+		<g id="meegotouch-slider-handle-value-background">
 			<g>
 				<path style="fill:#FFFFFF;" d="M154,181c0,5.5-4.5,10-10,10h-28c-5.5,0-10-4.5-10-10v-26c0-5.5,4.5-10,10-10h28
 					c5.5,0,10,4.5,10,10V181z"/>
@@ -62,7 +62,7 @@
 					c5.5,0,10,4.5,10,10V180z"/>
 			</g>
 		</g>
-		<g id="duislider-vertical-background-elapsed">
+		<g id="meegotouch-slider-elapsed-background-vertical">
 			<rect x="42" y="355.449" style="opacity:0;fill:#010101;" width="16" height="30"/>
 			<g id="Normal_68_">
 				
@@ -77,7 +77,7 @@
 					c0-2.75,2.25-5,5-5H51z"/>
 			</g>
 		</g>
-		<g id="duislider-vertical-background-received">
+		<g id="meegotouch-slider-received-background-vertical">
 			<rect x="42" y="323.449" style="opacity:0;fill:#010101;" width="16" height="30"/>
 			<g id="Normal_67_">
 				<path style="fill:#9DC53F;" d="M49,352.449c-2.75,0-5-2.25-5-5v-18c0-2.75,2.25-5,5-5h2c2.75,0,5,2.25,5,5v18c0,2.75-2.25,5-5,5
@@ -94,7 +94,7 @@
 					c0,2.75-2.25,5-5,5H49z"/>
 			</g>
 		</g>
-		<g id="duislider-vertical-background">
+		<g id="meegotouch-slider-background-vertical">
 			<g id="Normal_65_" style="opacity:0.2;">
 				<path style="fill:#010101;" d="M52,291c3.3,0,6,2.7,6,6v18c0,3.3-2.7,6-6,6h-4c-3.3,0-6-2.7-6-6v-18c0-3.3,2.7-6,6-6H52z"/>
 			</g>
@@ -116,7 +116,7 @@
 					c0-2.75,2.25-5,5-5H51z"/>
 			</g>
 		</g>
-		<g id="duislider-vertical-handle-pressed">
+		<g id="meegotouch-slider-handle-background-pressed-vertical">
 			<rect x="14" y="212.449" style="opacity:0;fill:#010101;" width="72" height="72"/>
 			<g id="Normal_51_">
 				
@@ -140,7 +140,7 @@
 				</g>
 			</g>
 		</g>
-		<g id="duislider-vertical-handle">
+		<g id="meegotouch-slider-handle-background-vertical">
 			<rect x="14" y="132.449" style="opacity:0;fill:#010101;" width="72" height="72"/>
 			<g id="Normal_49_">
 				
@@ -163,7 +163,7 @@
 					 M50,150.449c-9.9,0-18,8.1-18,18s8.1,18,18,18s18-8.1,18-18S59.9,150.449,50,150.449L50,150.449z"/>
 			</g>
 		</g>
-		<g id="duislider-background-elapsed">
+		<g id="meegotouch-slider-elapsed-background-horizontal">
 			<rect x="218" y="78.449" style="opacity:0;fill:#010101;" width="30" height="16"/>
 			<g id="Normal_47_">
 				<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="233" y1="92.4492" x2="233" y2="80.4492">
@@ -177,7 +177,7 @@
 					c2.75,0,5,2.25,5,5V87.449z"/>
 			</g>
 		</g>
-		<g id="duislider-background-received">
+		<g id="meegotouch-slider-received-background-horizontal">
 			<rect x="218" y="98.449" style="opacity:0;fill:#010101;" width="30" height="16"/>
 			<g id="Normal_46_">
 				<path style="fill:#9DC53F;" d="M219,105.449c0-2.75,2.25-5,5-5h18c2.75,0,5,2.25,5,5v2c0,2.75-2.25,5-5,5h-18
@@ -194,7 +194,7 @@
 					c-2.75,0-5-2.25-5-5V105.449z"/>
 			</g>
 		</g>
-		<g id="duislider-background">
+		<g id="meegotouch-slider-background-horizontal">
 			<g id="Normal_44_" style="opacity:0.2;">
 				<path style="fill:#010101;" d="M208,88.449c0,3.3-2.7,6-6,6h-18c-3.3,0-6-2.7-6-6v-4c0-3.3,2.7-6,6-6h18c3.3,0,6,2.7,6,6V88.449
 					z"/>
@@ -216,7 +216,7 @@
 					c2.75,0,5,2.25,5,5V87.449z"/>
 			</g>
 		</g>
-		<g id="duislider-handle-pressed">
+		<g id="meegotouch-slider-handle-background-pressed-horizontal">
 			<rect x="96" y="48.449" style="opacity:0;fill:#010101;" width="72" height="72"/>
 			<g id="Normal_40_">
 				
@@ -240,7 +240,7 @@
 				</g>
 			</g>
 		</g>
-		<g id="duislider-handle">
+		<g id="meegotouch-slider-handle-background-horizontal">
 			<rect x="14" y="48.449" style="opacity:0;fill:#010101;" width="72" height="72"/>
 			<g id="Normal_38_">
 				

@@ -1,17 +1,17 @@
 /* MSliderStyle : MWidgetStyle */
 MSliderStyle {
-    handle-pixmap: "duislider-handle" 6.4mm 6.4mm;
-    handle-pressed-pixmap: "duislider-handle-pressed" 6.4mm 6.4mm;
-    handle-vertical-pixmap: "duislider-vertical-handle" 6.4mm 6.4mm;
-    handle-vertical-pressed-pixmap: "duislider-vertical-handle-pressed" 6.4mm 6.4mm;
+    handle-pixmap: "meegotouch-slider-handle-background-horizontal" 6.4mm 6.4mm;
+    handle-pressed-pixmap: "meegotouch-slider-handle-background-pressed-horizontal" 6.4mm 6.4mm;
+    handle-vertical-pixmap: "meegotouch-slider-handle-background-vertical" 6.4mm 6.4mm;
+    handle-vertical-pressed-pixmap: "meegotouch-slider-handle-background-pressed-vertical" 6.4mm 6.4mm;
 
-    background-base-image: "duislider-background" 7px 7px 7px 7px;
-    background-elapsed-image: "duislider-background-elapsed" 7px 7px 7px 7px;
-    background-received-image: "duislider-background-received" 7px 7px 7px 7px;
+    background-base-image: "meegotouch-slider-background-horizontal" 7px 7px 7px 7px;
+    background-elapsed-image: "meegotouch-slider-elapsed-background-horizontal" 7px 7px 7px 7px;
+    background-received-image: "meegotouch-slider-received-background-horizontal" 7px 7px 7px 7px;
 
-    background-vertical-base-image: "duislider-vertical-background" 7px 7px 7px 7px;
-    background-vertical-elapsed-image: "duislider-vertical-background-elapsed" 7px 7px 7px 7px;
-    background-vertical-received-image: "duislider-vertical-background-received" 7px 7px 7px 7px;
+    background-vertical-base-image: "meegotouch-slider-background-vertical" 7px 7px 7px 7px;
+    background-vertical-elapsed-image: "meegotouch-slider-elapsed-background-vertical" 7px 7px 7px 7px;
+    background-vertical-received-image: "meegotouch-slider-received-background-vertical" 7px 7px 7px 7px;
 
     groove-thickness: 1.4mm;
 
@@ -43,7 +43,7 @@ MSliderStyle {
 
     color: $COLOR_FOREGROUND;
     font: $FONT_DEFAULT;
-    background-image: "duislider-handle-value-background" 10px 10px 10px 10px;
+    background-image: meegotouch-slider-handle-value-background $CORNER_MARGINS;
 }
 
 #MSliderImage {
