@@ -1,6 +1,6 @@
 /* MTextEditStyle : MWidgetStyle */
 MTextEditStyle {
-    background-image: "duitextedit-background" 10px 10px 10px 10px;
+    background-image: meegotouch-textedit-background $CORNER_MARGINS;
 
     font: $FONT_LARGE;
     text-color: $COLOR_FOREGROUND;
@@ -10,7 +10,7 @@ MTextEditStyle {
     allowViewReposition: true;
     mask-string: "*";
     prompt-color: $COLOR_SECONDARY_FOREGROUND;
-    paste-failed-icon: "Icon-close";
+    paste-failed-icon: "icon-m-framework-close";
     paste-failed-duration: 3000;
     masking-delay: 1000;
 
@@ -34,6 +34,6 @@ MTextEditStyle {
 }
 
 MTextEditStyle:selected {
- background-image: "duitextedit-background-selected" 10px 10px 10px 10px;
+ background-image: meegotouch-textedit-background-selected $CORNER_MARGINS;
 }
 

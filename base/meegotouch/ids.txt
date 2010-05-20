@@ -215,13 +215,11 @@ meegotouch-button-switch-colorstripe	# color inside the groove, to indicate "on"
 meegotouch-button-switch-mask		# this defines the shape of the colorstripe
 meegotouch-button-switch-thumb		# the sliding part of the switch, on top of everything else
 
-#duitextedit
-duicompleter-background
-duicompleter-background-pressed
-duitextedit-background
-duitextedit-background-pressed
-duitextedit-background-selected
-duitextedit-background-selected-pressed
+#MTextedit text input field
+meegotouch-textedit-completer-background
+meegotouch-textedit-completer-background-pressed
+meegotouch-textedit-background
+meegotouch-textedit-background-selected
 
 #duipositionindicator
 duipositionindicator-indicator

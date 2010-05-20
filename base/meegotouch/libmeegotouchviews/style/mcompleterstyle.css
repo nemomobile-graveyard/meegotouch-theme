@@ -3,7 +3,7 @@
 
 /* MCompleterStyle : MWidgetStyle */
 MCompleterStyle {
-    background-image: "duicompleter-background" 10px 10px 10px 10px;
+    background-image: meegotouch-textedit-completer-background $CORNER_MARGINS;
     /*background-opacity: 0.8;*/
     highlight-color: #FF0000;
     height: 88;
@@ -35,7 +35,7 @@ MCompleterStyle {
     margin-top: 0;
     margin-bottom: 0;
 
-    minimum-size: $SIZE_ONE $SIZE_BUTTON;
+    minimum-size: $SIZE_BUTTON $SIZE_BUTTON;
     maximum-size: 100% 6.4mm;
 }
 #MCompleterCandidatesLabel {
@@ -54,5 +54,6 @@ MCompleterStyle {
 }
 
 MCompleterStyle:pressed {
-    background-image: "duicompleter-background-pressed" 10px 10px 10px 10px;
+    background-image: meegotouch-textedit-completer-background-pressed $CORNER_MARGINS;
+
 }
