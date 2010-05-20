@@ -218,9 +218,9 @@ meegotouch-textedit-completer-background-pressed
 meegotouch-textedit-background
 meegotouch-textedit-background-selected
 
-#duipositionindicator
-duipositionindicator-indicator
-duipositionindicator-background
+#MPositionindicator
+meegotouch-positionindicator-indicator
+meegotouch-positionindicator-background
 
 #meegotouch-list
 meegotouch-fastscroll-background
