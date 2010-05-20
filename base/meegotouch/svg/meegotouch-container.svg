@@ -3,10 +3,10 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="370px"
 	 height="299px" viewBox="0 0 370 299" style="enable-background:new 0 0 370 299;" xml:space="preserve">
-<g id="duicontainer-layer">
+<g id="meegotouch-container-layer">
 </g>
-<g id="dui-theme-rd">
-	<g id="duicontainer">
+<g id="theme">
+	<g id="meegotouch-container">
 		<g id="duicontainerThemeTemplateHelper">
 			<g>
 				<path style="fill:#B3B3B3;" d="M16,298c-8.271,0-15-6.729-15-15V16C1,7.729,7.729,1,16,1h338c8.271,0,15,6.729,15,15v267
@@ -55,16 +55,36 @@
 			<path style="fill:#010101;" d="M221.41,22.408l0.502,1.988c0.662-1.4,1.818-2.102,3.467-2.102c0.217,0,0.379,0.01,0.48,0.031
 				v1.988c-0.17-0.014-0.428-0.02-0.768-0.02c-0.938,0-1.625,0.224-2.062,0.671c-0.438,0.448-0.656,1.147-0.656,2.097v7.271h-2.184
 				V22.408H221.41z"/>
+			<g>
+				<path style="fill:#ED2224;" d="M336.667,48.885V259H169.082V48.885H336.667 M341.667,43.885H164.082V264h177.585V43.885
+					L341.667,43.885z"/>
+			</g>
+			<path style="fill:none;stroke:#ED2224;stroke-width:5;" d="M171.207,257.218"/>
+			<path style="fill:none;stroke:#ED2224;stroke-width:5;" d="M341.667,43.885"/>
 		</g>
 		<g id="duicontainer-headerless-content-background">
 			<g>
-				<rect x="10" y="183" style="fill:#808080;" width="64" height="64"/>
+				<rect x="179.779" y="183" style="fill:#808080;" width="64" height="64"/>
 			</g>
 			<g>
-				<rect x="10" y="184" style="fill:#F2F2F2;" width="64" height="62"/>
+				<rect x="179.779" y="184" style="fill:#F2F2F2;" width="64" height="62"/>
 			</g>
 		</g>
-		<g id="duicontainer-content-background">
+		<g id="duicontainer-header-background-static">
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="313.7793" y1="84" x2="313.7793" y2="52">
+				<stop  offset="0" style="stop-color:#333333"/>
+				<stop  offset="1" style="stop-color:#000000"/>
+			</linearGradient>
+			<rect x="297.779" y="52" style="fill:url(#SVGID_1_);" width="32" height="32"/>
+		</g>
+		<g id="duicontainer-header-background-pressed">
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="269.7793" y1="84" x2="269.7793" y2="52">
+				<stop  offset="0" style="stop-color:#333333"/>
+				<stop  offset="1" style="stop-color:#000000"/>
+			</linearGradient>
+			<rect x="253.779" y="52" style="fill:url(#SVGID_2_);" width="32" height="32"/>
+		</g>
+		<g id="meegotouch-container-content-background">
 			<g>
 				<rect x="10" y="109" style="fill:#808080;" width="64" height="64"/>
 			</g>
@@ -72,21 +92,7 @@
 				<rect x="10" y="109" style="fill:#F2F2F2;" width="64" height="63"/>
 			</g>
 		</g>
-		<g id="duicontainer-header-background-static">
-			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="144" y1="84" x2="144" y2="52">
-				<stop  offset="0" style="stop-color:#333333"/>
-				<stop  offset="1" style="stop-color:#000000"/>
-			</linearGradient>
-			<rect x="128" y="52" style="fill:url(#SVGID_1_);" width="32" height="32"/>
-		</g>
-		<g id="duicontainer-header-background-pressed">
-			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="100" y1="84" x2="100" y2="52">
-				<stop  offset="0" style="stop-color:#333333"/>
-				<stop  offset="1" style="stop-color:#000000"/>
-			</linearGradient>
-			<rect x="84" y="52" style="fill:url(#SVGID_2_);" width="32" height="32"/>
-		</g>
-		<g id="duicontainer-header-background">
+		<g id="meegotouch-container-header-background">
 			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="26" y1="84" x2="26" y2="52">
 				<stop  offset="0" style="stop-color:#000000"/>
 				<stop  offset="1" style="stop-color:#333333"/>

@@ -14,7 +14,7 @@ MContainerStyle { /* settings for the whole container */
     padding-top: 0;
     padding-bottom: 0;
 
-    background-image: "duicontainer-content-background" 14px 14px 14px 14px;
+    background-image: meegotouch-container-content-background $CORNER_MARGINS;
 
     icon-size: 32 32;
     internal-margins: 0;
@@ -33,11 +33,7 @@ MContainerHeaderStyle {
     padding-top: 0;
     padding-bottom: 0;
 
-    background-image: "duicontainer-header-background" 14px 14px 14px 14px;
-}
-
-MContainerHeaderStyle:pressed {
-    background-image: "duicontainer-header-background-pressed" 14px 14px 14px 14px;
+    background-image: meegotouch-container-header-background $CORNER_MARGINS;
 }
 
 MContainerHeader MLabelStyle {

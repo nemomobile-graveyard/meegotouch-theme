@@ -139,12 +139,9 @@ mlist-right-viewmenu-background
 mlist-right-viewmenu-background-pressed
 
 
-#duicontainer
-duicontainer-header-background
-duicontainer-header-background-pressed
-duicontainer-header-background-static
-duicontainer-content-background
-duicontainer-headerless-content-background
+#MContainer
+meegotouch-container-header-background
+meegotouch-container-content-background
 
 #MSlider widget
 meegotouch-slider-handle-background-horizontal
