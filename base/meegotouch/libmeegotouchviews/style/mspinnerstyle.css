@@ -1,7 +1,7 @@
 /* MSpinnerStyle : MWidgetStyle */
 MSpinnerStyle {
-    active-image: "duiprogressindicator-spinner-medium-on" 1.0mm 1.0mm;
-    inactive-image: "duiprogressindicator-spinner-medium-off" 1.0mm 1.0mm;
+    active-image: "meegotouch-progressindicator-spinner-medium-on" 1.0mm 1.0mm;
+    inactive-image: "meegotouch-progressindicator-spinner-medium-off" 1.0mm 1.0mm;
     speed: 20;
     active-element-count: 1;
     element-size: 1.0mm;
@@ -23,8 +23,8 @@ MApplicationMenuButton > MSpinnerStyle {
     padding-right: 0;
     padding-bottom: 0;
 
-    active-image: "duiprogressindicator-spinner-medium-on" 1.0mm 1.0mm;
-    inactive-image: "duiprogressindicator-spinner-medium-off" 1.0mm 1.0mm;
+    active-image: "meegotouch-progressindicator-spinner-medium-on" 1.0mm 1.0mm;
+    inactive-image: "meegotouch-progressindicator-spinner-medium-off" 1.0mm 1.0mm;
     element-size: 1mm;
 
     minimum-size: $SIZE_SPINNER_MENU $SIZE_SPINNER_MENU;
@@ -33,8 +33,8 @@ MApplicationMenuButton > MSpinnerStyle {
 }
 
 MContainer MSpinnerStyle {
-    active-image: "duiprogressindicator-spinner-large-on" 1.6mm 1.6mm;
-    inactive-image: "duiprogressindicator-spinner-large-off" 1.6mm 1.6mm;
+    active-image: "meegotouch-progressindicator-spinner-large-on" 1.6mm 1.6mm;
+    inactive-image: "meegotouch-progressindicator-spinner-large-off" 1.6mm 1.6mm;
     element-size: 1.6mm;
 
     minimum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
@@ -43,8 +43,8 @@ MContainer MSpinnerStyle {
 }
 
 MContainerHeader MSpinnerStyle {
-    active-image: "duiprogressindicator-spinner-small-on" 0.8mm 0.8mm;
-    inactive-image: "duiprogressindicator-spinner-small-off" 0.8mm 0.8mm;
+    active-image: "meegotouch-progressindicator-spinner-small-on" 0.8mm 0.8mm;
+    inactive-image: "meegotouch-progressindicator-spinner-small-off" 0.8mm 0.8mm;
     element-size: 0.8mm;
     minimum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
     preferred-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
@@ -53,8 +53,8 @@ MContainerHeader MSpinnerStyle {
 
 /* MDialog MSpinnerStyle doesnt work */
 #MDialogProgressIndicator {
-    active-image: "duiprogressindicator-spinner-small-on" 0.8mm 0.8mm;
-    inactive-image: "duiprogressindicator-spinner-small-off" 0.8mm 0.8mm;
+    active-image: "meegotouch-progressindicator-spinner-small-on" 0.8mm 0.8mm;
+    inactive-image: "meegotouch-progressindicator-spinner-small-off" 0.8mm 0.8mm;
     element-size: 0.8mm;
 
     minimum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
