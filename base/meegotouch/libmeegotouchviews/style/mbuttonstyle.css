@@ -3,8 +3,8 @@ MButtonStyle {
     font: $FONT_DEFAULT;
 
     background-image: meegotouch-button-background $CORNER_MARGINS;
-    background-color: $COLOR_BACKGROUND;
-    text-color: $COLOR_FOREGROUND;
+    background-color: $COLOR_BUTTON_BACKGROUND;
+    text-color: $COLOR_BUTTON_FOREGROUND;
 
     icon-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
     icon-align: left;

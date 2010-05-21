@@ -33,7 +33,7 @@ MComboBoxStyle {
 }
 
 MComboBox MContentItemStyle {
-    background-image : "meegotouch-button-background" 10px 10px 10px 10px;
+/*    background-image : "meegotouch-button-background" 10px 10px 10px 10px; */
     background-color: $COLOR_BACKGROUND;
     background-opacity: 1.0;
 
@@ -62,7 +62,7 @@ MComboBox MContentItemStyle {
 }
 
 MComboBox MContentItemStyle:pressed {
-    background-image : "meegotouch-button-background-pressed" 10px 10px 10px 10px;
+/*    background-image : "meegotouch-button-background-pressed" 10px 10px 10px 10px; */
     background-color: $COLOR_SELECT;
     background-opacity: 1.0;
 }
