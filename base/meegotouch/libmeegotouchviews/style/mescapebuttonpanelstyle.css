@@ -16,11 +16,11 @@ MEscapeButtonPanelStyle {
     back-button-icon-id: "icon-m-framework-back";
     close-button-icon-id: "icon-m-framework-close";
 
-    background-image: meegotouch-button-navigationbar-close-background $CORNER_MARGINS;
+/*     background-image: meegotouch-button-navigationbar-close-background $CORNER_MARGINS; */
 }
 
 MEscapeButtonPanelStyle:pressed {
-    background-image: meegotouch-button-navigationbar-close-background-pressed $CORNER_MARGINS;
+/*    background-image: meegotouch-button-navigationbar-close-background-pressed $CORNER_MARGINS; */
 }
 
 MButtonIconStyle#BackButton {
