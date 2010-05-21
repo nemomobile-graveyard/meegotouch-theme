@@ -30,3 +30,13 @@ MInfoBanner MWidgetSlideAnimationStyle#In {
 MInfoBanner MWidgetSlideAnimationStyle#Out {
     origin: "left";
 }
+
+MStatusBar MWidgetSlideAnimationStyle#In {
+    delay: 0;
+    easing-curve: linear;
+}
+
+MStatusBar MWidgetSlideAnimationStyle#Out {
+    delay: 0;
+    easing-curve: linear;
+}
