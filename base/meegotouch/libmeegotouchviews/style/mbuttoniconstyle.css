@@ -15,7 +15,7 @@ MButtonIconStyle {
 
     minimum-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
     preferred-size: $HEIGHT_NAVIGATIONBAR $HEIGHT_NAVIGATIONBAR;
-    maximum-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
+    maximum-size: 12mm 12mm;
 
     margin-top: 0;
     margin-left: 0;
