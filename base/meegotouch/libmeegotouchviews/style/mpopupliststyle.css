@@ -9,7 +9,7 @@ MPopupListStyle {
 
 #MPopupListContentsViewport {
     preferred-size: -1 -1;
-	background-image: "duiapplicationpage-background";
+    background-image: "meegotouch-applicationpage-background";
 }
 
 #PopupListItem {
