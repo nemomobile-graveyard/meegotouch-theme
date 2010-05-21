@@ -21,12 +21,6 @@
 
 # *** Common ui component views ***
 
-#duibubbleitem - These assets are now obsolete. Use speechbubble assets
-duibubbleitem-background
-duibubbleitem-background-pressed
-duibubbleitem-rightarrow-background
-duibubbleitem-rightarrow-background-pressed
-
 #meegotouch-speechbubble
 meegotouch-speechbubble-incoming-background
 meegotouch-speechbubble-incoming-background-pressed
