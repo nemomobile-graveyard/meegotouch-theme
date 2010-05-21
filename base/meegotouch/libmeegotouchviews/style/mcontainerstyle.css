@@ -33,7 +33,7 @@ MContainerHeaderStyle {
     padding-top: 0;
     padding-bottom: 0;
 
-    background-image: meegotouch-container-header-background $CORNER_MARGINS;
+    background-image: meegotouch-container-header-background 8p 8px 8px 8px;
 }
 
 MContainerHeader MLabelStyle {
