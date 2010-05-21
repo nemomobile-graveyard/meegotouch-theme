@@ -15,9 +15,9 @@ MObjectMenu MButtonStyle {
     margin-top: 0;
     margin-bottom: 0;
 
-    background-tiles: meegotouch-button-objectmenu-background 10px 10px 10px 10px;
+    background-tiles: meegotouch-button-objectmenu-background $CORNER_MARGINS;
 }
 
 MObjectMenu MButtonStyle:pressed {
-    background-tiles: meegotouch-button-objectmenu-background-pressed 10px 10px 10px 10px;
+    background-tiles: meegotouch-button-objectmenu-background-pressed $CORNER_MARGINS;
 }
