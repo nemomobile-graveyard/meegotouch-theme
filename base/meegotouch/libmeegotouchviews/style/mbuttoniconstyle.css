@@ -1,13 +1,13 @@
 /* MButtonIconStyle : MButtonStyle */
 MButtonIconStyle {
     glow-color: #FFFF00;
-    glow-duration: 700;
+    glow-duration: 800;
     glow-radius: 8;
     shrink-duration: 100;
     shrink-factor: 0.2;
 
     /* inherited from MButtonStyle */
-    icon-align: top;
+    icon-align: center;
 
     /* inherited from MWidgetStyle */
 

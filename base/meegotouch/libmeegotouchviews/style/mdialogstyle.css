@@ -70,7 +70,7 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
 }
 
 #MDialogCloseButton {
-    icon-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
+    icon-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
     preferred-size: 5.2mm 5.2mm;
     minimum-size: 5.2mm 5.2mm;
     maximum-size: 5.2mm 5.2mm;

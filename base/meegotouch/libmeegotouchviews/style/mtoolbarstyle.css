@@ -34,7 +34,7 @@ MButtonIconStyle[toolbar] {
     font: $FONT_XSMALL;
     text-color: $COLOR_INVERTED_FOREGROUND;
 
-    icon-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
+    icon-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
     icon-align: center;
     vertical-text-align: top;
     horizontal-text-align: center;
@@ -44,10 +44,7 @@ MButtonIconStyle[toolbar] {
     text-margin-right: $MARGIN_MEDIUM;
     text-margin-bottom: 0;
 
-    /* inherited from MWidgetStyle */
-    margin-top: $MARGIN_MEDIUM;
-    margin-bottom: $MARGIN_MEDIUM;
-    
+    /* inherited from MWidgetStyle */    
     padding-left:   $PADDING_MEDIUM;
     padding-top:    $PADDING_MEDIUM;
     padding-right:  $PADDING_MEDIUM;

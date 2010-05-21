@@ -1,6 +1,5 @@
 /* MEscapeButtonPanelStyle : MSceneWindowStyle */
 MEscapeButtonPanelStyle {
-
     minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
     maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
     preferred-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
@@ -16,26 +15,32 @@ MEscapeButtonPanelStyle {
 
     back-button-icon-id: "icon-m-framework-back";
     close-button-icon-id: "icon-m-framework-close";
+
+    background-image: meegotouch-button-navigationbar-close-background $CORNER_MARGINS;
+}
+
+MEscapeButtonPanelStyle:pressed {
+    background-image: meegotouch-button-navigationbar-close-background-pressed $CORNER_MARGINS;
 }
 
 MButtonIconStyle#BackButton {
+
+    minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
+    maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
+    preferred-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
+
     reactive-margin-left: $MARGIN_XLARGE;
     reactive-margin-right: $MARGIN_XLARGE;
     reactive-margin-bottom: $MARGIN_XLARGE;
-    background-image: meegotouch-button-navigationbar-close-background $CORNER_MARGINS;
 }                              
 
-MButtonIconStyle#BackButton:pressed {
-    background-image: meegotouch-button-navigationbar-close-background-pressed $CORNER_MARGINS;
-}
-
 MButtonIconStyle#CloseButton {
+
+    minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
+    maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
+    preferred-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
+
     reactive-margin-left: $MARGIN_XLARGE;
     reactive-margin-right: $MARGIN_XLARGE;
     reactive-margin-bottom: $MARGIN_XLARGE;
-    background-image: meegotouch-button-navigationbar-close-background $CORNER_MARGINS;
-}
-
-MButtonIconStyle#BackButton:pressed {
-    background-image: meegotouch-button-navigationbar-close-background-pressed $CORNER_MARGINS;
 }

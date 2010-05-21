@@ -16,7 +16,7 @@ MContainerStyle { /* settings for the whole container */
 
     background-image: meegotouch-container-content-background $CORNER_MARGINS;
 
-    icon-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
+    icon-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
     internal-margins: 0;
     internal-item-spacing: 0;
 }
