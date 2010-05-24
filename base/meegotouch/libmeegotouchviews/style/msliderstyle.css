@@ -17,7 +17,12 @@ MSliderStyle {
 
     groove-preferred-length: 30mm;
     groove-minimum-length: 20mm;
-    groove-maximum-length: 200mm; 
+    groove-maximum-length: 200mm;
+
+    steps-per-feedback: 1;
+    minimum-feedback-interval: 50;
+    move-feedback: move-slider;
+    cancel-feedback: cancel;
 }
 
 #MSliderMinMaxLabel {
