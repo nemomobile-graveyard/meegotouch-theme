@@ -11,8 +11,8 @@ MLabelStyle {
     highlight-color: $COLOR_LINK;
     active-highlight-color: $COLOR_LINK_ACTIVE; 
     
-    /* inherited from MWidgetStyle */
     press-feedback: press;
     release-feedback: release;
+    cancel-feedback: cancel;
 }
 
