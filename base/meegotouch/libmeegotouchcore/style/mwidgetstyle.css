@@ -28,9 +28,12 @@ MWidgetStyle {
     minimum-size: -1 -1;      /* Minimum size */
     maximum-size: -1 -1;      /* Maximum size */
 
-    /* Name of the feedback effect to be given when widget is pressed. */
+    /* Name of the feedback effect to be given when widget receives press event. */
     press-feedback:;
 
-    /* name of the feedback effect to be given when widget receives release event. */
+    /* Name of the feedback effect to be given when widget receives release event. */
     release-feedback:;
+
+    /* Name of the feedback effect to be given when widget receives cancel event. */
+    cancel-feedback:;
 }
