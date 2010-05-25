@@ -40,9 +40,9 @@ MBubbleItemBackgroundStyle:pressed {
 }
 
 #MBubbleItemAvatar {
-    preferred-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
-    minimum-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
-    maximum-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
+    preferred-size: $SIZE_ICON_XLARGE $SIZE_ICON_XLARGE;
+    minimum-size: $SIZE_ICON_XLARGE $SIZE_ICON_XLARGE;
+    maximum-size: $SIZE_ICON_XLARGE $SIZE_ICON_XLARGE;
 
     margin-left:   $MARGIN_DOUBLE;
     margin-right:  $MARGIN_DOUBLE;
@@ -57,7 +57,7 @@ MBubbleItemBackgroundStyle:pressed {
     margin-top: $MARGIN_LARGE;
 
     padding-top: $PADDING_XLARGE;
-    padding-bottom: 0; /* $PADDING_XLARGE; */
+    padding-bottom: $PADDING_XLARGE;
     padding-left: $PADDING_XXLARGE;
     padding-right: $PADDING_XLARGE;
 }
@@ -66,12 +66,58 @@ MBubbleItemBackgroundStyle:pressed {
     font: $FONT_DEFAULT;
     color: $COLOR_SECONDARY_FOREGROUND;
 
-    margin-left:   -1;
+    margin-left:   $MARGIN_LARGE;
     margin-right:  $MARGIN_XLARGE;
 
-    margin-top: 0;
-    margin-bottom: 0;
-
-    padding-top: 0;
-    padding-bottom: 0;
+    horizontal-align: right;
+    vertical-align: center;
 }
+
+#MBubbleItemNumberOfCommentsIcon {
+    preferred-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
+    minimum-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
+    maximum-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
+
+    margin-right: $MARGIN_XLARGE;
+    margin-left: $MARGIN_MEDIUM;
+
+    horizontal-align: right;
+    vertical-align: center;
+
+    /* from MLabel to keep in line with corresponding label */
+    margin-top: $MARGIN_MEDIUM;
+    margin-bottom: $MARGIN_MEDIUM;
+}
+
+#MBubbleItemNumberOfCommentsLabel {
+    font: $FONT_SMALL;
+    color: $COLOR_FOREGROUND;
+
+    horizontal-align: right;
+    vertical-align: center;
+}
+
+#MBubbleItemNumberOfThumbsIcon {
+    preferred-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
+    minimum-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
+    maximum-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
+
+    margin-right: $MARGIN_LARGE;
+    margin-left: $MARGIN_MEDIUM;
+
+    horizontal-align: right;
+    vertical-align: center;
+
+    /* from MLabel to keep in line with corresponding label */
+    margin-top: $MARGIN_MEDIUM;
+    margin-bottom: $MARGIN_MEDIUM;
+}
+
+#MBubbleItemNumberOfThumbsLabel {
+    font: $FONT_SMALL;
+    color: $COLOR_FOREGROUND;
+
+    horizontal-align: right;
+    vertical-align: center;
+}
+
