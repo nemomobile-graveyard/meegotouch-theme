@@ -83,3 +83,44 @@ MButtonStyle[toggle]:selected {
 /* This looks the same as regular button */
 }
 
+MButtonStyle[group] {
+    background-tiles: meegotouch-button-background $CORNER_MARGINS;
+
+    margin-left:    0;
+    margin-top:     0;
+    margin-right:   0;
+    margin-bottom:  0;
+
+    padding-left:   0;
+    padding-top:    0;
+    padding-right:  0;
+    padding-bottom: 0;
+}
+
+MButtonStyle[group]:pressed {
+    background-tiles: meegotouch-button-background-pressed $CORNER_MARGINS;
+
+    margin-left:    0;
+    margin-top:     0;
+    margin-right:   0;
+    margin-bottom:  0;
+
+    padding-left:   0;
+    padding-top:    0;
+    padding-right:  0;
+    padding-bottom: 0;
+}
+
+MButtonStyle[group]:selected {
+    background-tiles: meegotouch-button-background-selected $CORNER_MARGINS;
+
+    margin-left:    0;
+    margin-top:     0;
+    margin-right:   0;
+    margin-bottom:  0;
+
+    padding-left:   0;
+    padding-top:    0;
+    padding-right:  0;
+    padding-bottom: 0;
+}
