@@ -1,3 +1,10 @@
+meegotouchtheme (0.20.11-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#170676 Syntax error in commonlayout.css - CORNER_MARGINS (line 231)
+
+ -- Jorgen Scheibengruber <jorgen.scheibengruber@nokia.com>  Wed, 26 May 2010 14:35:56 +0300
+
 meegotouchtheme (0.20.10-2) unstable; urgency=low
 
   * New version, corrected distro name to "unstable"
