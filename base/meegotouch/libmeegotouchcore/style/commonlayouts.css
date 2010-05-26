@@ -228,7 +228,7 @@ MContentItemStyle#singleLabel {
 
 #CommonPanel:pressed {
 
-	background-image : meegotouch-list-fullwidth-background-pressed CORNER_MARGINS;
+	background-image : meegotouch-list-fullwidth-background-pressed $CORNER_MARGINS;
 }
 
 #CommonSmallPanel {
@@ -243,7 +243,7 @@ MContentItemStyle#singleLabel {
 
 #CommonSmallPanel:pressed {
 
-    background-image : meegotouch-list-fullwidth-background-pressed CORNER_MARGINS;
+    background-image : meegotouch-list-fullwidth-background-pressed $CORNER_MARGINS;
 }
 
 #CommonHeaderPanel {
