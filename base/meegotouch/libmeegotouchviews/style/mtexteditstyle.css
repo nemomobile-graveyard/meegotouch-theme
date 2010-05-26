@@ -19,8 +19,12 @@ MTextEditStyle {
     minimum-size: $SIZE_BUTTON $SIZE_BUTTON;
     /*    maximum-size: size(90%, 90%); */
 
-    press-feedback: press;
-    release-feedback: release;
+    press-word-feedback: press-textedit-word;
+    release-word-feedback: release-textedit-word;
+    press-boundary-feedback: press;
+    release-boundary-feedback: release;
+    change-selection-feedback: press-textedit-selection;
+    cancel-feedback: cancel;
 
     margin-top: $MARGIN_MEDIUM;
     margin-bottom: $MARGIN_MEDIUM;
