@@ -15,5 +15,6 @@ X-Libraries=meegotouchviews
 [X-MeeGoTouch-Metatheme]
 X-Inherits=base
 X-Icon = "icon-l-duitheme-devel"
+X-Icon="icon-l-meegotouchtheme-devel"
 X-Visible=true
 X-Libraries=meegotouchviews

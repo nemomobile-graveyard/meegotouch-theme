@@ -16,7 +16,7 @@ devel.path = $$THEME_DIR
 devel.CONFIG += no_check_exist
 devel.commands += perl extract.pl devel/meegotouch/svg/ base/meegotouch/ids.txt
 
-devel_icon.files = ./devel/meegotouch/icons/icon-l-duitheme-devel.svg
+devel_icon.files = ./devel/meegotouch/icons/icon-l-meegotouch-devel.svg
 devel_icon.path = $$THEME_DIR/base/meegotouch/icons
 devel_icon.CONFIG += no_check_exist
 
