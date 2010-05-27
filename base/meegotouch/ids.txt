@@ -77,7 +77,7 @@ buttongroup-horizontal-left-background-selected-pressed
 buttongroup-horizontal-middle-background-selected-pressed
 buttongroup-horizontal-right-background-selected-pressed
 
-#duinumpad
+#meegotouch-numpad
 meegotouch-button-numpad-background-top-left
 meegotouch-button-numpad-background-top
 meegotouch-button-numpad-background-top-right
