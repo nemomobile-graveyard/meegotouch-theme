@@ -1,0 +1,6 @@
+MSceneDimmingAnimationStyle {
+    duration: 500;
+    easing-curve: inoutcubic;
+    intensity: 1.0;
+}
+
