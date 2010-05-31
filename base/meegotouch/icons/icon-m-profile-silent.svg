@@ -2,14 +2,14 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-profile-silent-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
-	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="49px"
+	 viewBox="0 0 48 49" style="enable-background:new 0 0 48 49;" xml:space="preserve">
 <g id="icon-m-profile-silent">
-	<rect y="-1" style="fill:none;" width="64" height="64"/>
-	<path style="fill:#333333;" d="M39.635,13.851V6.444h21.314V-1H34.408c-1.26,0-2.287,1.031-2.287,2.288v5.049L39.635,13.851z"/>
-	<path style="fill:#333333;" d="M32.121,35.667v7.347c-3.051-1.09-7.891-1.277-11.499,0.736c-5.871,3.243-8.466,9.365-5.943,13.941
-		c2.535,4.58,9.227,6.614,16.221,4.427c4.23-1.319,8.211-4.986,8.672-8.382c0.029-0.368,0.068-3.188,0.068-3.465l-0.002-7.088
-		L32.121,35.667z"/>
-	<polygon style="fill:#333333;" points="63.521,47.803 58.914,52.402 11.143,4.639 15.752,0.024 	"/>
+	<rect style="fill:none;" width="48" height="48"/>
+	<path style="fill:#333333;" d="M29.727,11.139V5.584h15.985V0H25.807c-0.945,0-1.716,0.773-1.716,1.717v3.786L29.727,11.139z"/>
+	<path style="fill:#333333;" d="M24.091,27.501v5.51c-2.288-0.818-5.918-0.959-8.624,0.552c-4.403,2.433-6.35,7.024-4.457,10.456
+		c1.901,3.436,6.92,4.961,12.166,3.32c3.172-0.99,6.159-3.739,6.504-6.287c0.021-0.275,0.051-2.391,0.051-2.598l-0.002-5.316
+		L24.091,27.501z"/>
+	<polygon style="fill:#333333;" points="47.641,36.603 44.186,40.052 8.357,4.229 11.814,0.769 	"/>
 </g>
 </svg>

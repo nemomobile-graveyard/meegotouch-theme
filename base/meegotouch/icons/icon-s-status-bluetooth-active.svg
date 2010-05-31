@@ -6,10 +6,10 @@
 	 viewBox="0 0 14 18" style="enable-background:new 0 0 14 18;" xml:space="preserve">
 <g id="icon-s-status-bluetooth-active">
 	<rect style="fill:none;" width="14" height="18"/>
-	<polygon style="fill:#FFFFFF;" points="7.964,5.033 7.964,6.876 8.886,5.955 	"/>
+	<polygon style="fill:#FFFFFF;" points="7.964,5.033 7.964,6.875 8.886,5.955 	"/>
 	<polygon style="fill:#FFFFFF;" points="7.964,13.047 8.938,12.072 7.964,11.099 	"/>
 	<path style="fill:#FFFFFF;" d="M6.999,0C3.196,0,0.103,4.037,0.103,9s3.094,9,6.896,9c3.805,0,6.898-4.037,6.898-9
-		S10.804,0,6.999,0z M6.245,17.103v-6.071l-2.357,2.355L2.671,12.17l3.177-3.176L2.741,5.876l1.217-1.217l2.288,2.288V0.898
+		S10.804,0,6.999,0z M6.245,17.103v-6.071l-2.357,2.355L2.671,12.17l3.177-3.176L2.741,5.875l1.217-1.216l2.288,2.288V0.898
 		l5.084,5.068L8.278,8.996l3.053,3.031L6.245,17.103z"/>
 </g>
 </svg>

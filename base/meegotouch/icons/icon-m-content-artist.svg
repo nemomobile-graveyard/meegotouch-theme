@@ -2,12 +2,12 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-content-artist-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
-	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
-<g id="icon-m-content-artist">
-	<path style="fill:#333333;" d="M0,0v64h64V0H0z M3.5,59.479c1.05-1.914,2.273-3.501,3.428-4.382
-		c3.252-2.482,11.492-3.159,12.934-7.358c1.146-3.337-1.776-6.745-2.964-9.567c-1.396-3.32-2.263-7.022-2.263-10.687
-		c0-9.415,6.093-17.047,13.611-17.047c8.411,0,13.834,8.742,13.17,17.003c-0.156,1.945-0.65,3.863-1.521,5.634
-		c-5.411,10.991,2.979,17.446,11.801,21.542c2.566,1.191,7.299,2.207,8.805,4.862H3.5z"/>
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g id="icon-m-content-artist_1_">
+	<path style="fill:#333333;" d="M0,0v48h48V0H0z M2.625,44.609c0.788-1.436,1.706-2.625,2.571-3.287
+		c2.439-1.861,8.619-2.368,9.701-5.518c0.859-2.503-1.333-5.059-2.224-7.176c-1.047-2.49-1.697-5.267-1.697-8.015
+		c0-7.062,4.57-12.785,10.208-12.785c6.308,0,10.375,6.557,9.877,12.753c-0.116,1.458-0.487,2.896-1.141,4.225
+		c-4.059,8.243,2.234,13.084,8.85,16.156c1.927,0.893,5.476,1.655,6.604,3.646H2.625z"/>
 </g>
 </svg>

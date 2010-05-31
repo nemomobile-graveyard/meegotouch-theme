@@ -2,15 +2,15 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-camera-flash-off-screen-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px"
-	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <g id="icon-m-camera-flash-off-screen">
-	<rect style="fill:none;" width="24" height="24"/>
-	<path style="fill:#FFFFFF;" d="M12,0.338C5.581,0.339,0.375,5.547,0.375,11.97C0.375,18.385,5.581,23.587,12,23.588
-		c6.417-0.001,11.623-5.203,11.625-11.618C23.623,5.547,18.419,0.339,12,0.338z M19.716,18.139l-3.255-3.256l-1.709,1.372
-		l3.423,3.425c-1.692,1.355-3.837,2.17-6.174,2.173c-5.461-0.009-9.88-4.428-9.891-9.883c0.005-2.339,0.819-4.486,2.177-6.181
-		l2.878,2.879L8.8,7.223L5.827,4.248C7.52,2.893,9.664,2.078,12,2.075V2.073c5.458,0.011,9.879,4.433,9.89,9.896
-		C21.886,14.304,21.072,16.448,19.716,18.139z"/>
-	<polygon style="fill:#FFFFFF;" points="15.223,4.697 8.632,10.522 12.132,12.584 7.277,19.229 16.723,11.645 12.955,9.734 	"/>
+	<rect style="fill:none;" width="32" height="32"/>
+	<path style="fill:#FFFFFF;" d="M16,0.451C7.441,0.452,0.5,7.396,0.5,15.96C0.5,24.514,7.441,31.449,16,31.451
+		c8.558-0.002,15.498-6.938,15.5-15.491C31.498,7.396,24.559,0.452,16,0.451z M26.288,24.186l-4.341-4.342l-2.278,1.83l4.564,4.565
+		c-2.256,1.808-5.116,2.894-8.233,2.897C8.72,29.125,2.827,23.233,2.813,15.96c0.007-3.118,1.093-5.981,2.903-8.24l3.837,3.837
+		l2.181-1.926L7.77,5.664C10.026,3.856,12.886,2.771,16,2.768V2.765c7.278,0.014,13.173,5.911,13.186,13.195
+		C29.182,19.072,28.097,21.932,26.288,24.186z"/>
+	<polygon style="fill:#FFFFFF;" points="20.297,6.264 11.509,14.03 16.177,16.779 9.703,25.639 22.297,15.526 17.273,12.979 	"/>
 </g>
 </svg>

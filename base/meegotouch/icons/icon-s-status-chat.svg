@@ -5,7 +5,7 @@
 	 x="0px" y="0px" width="20px" height="18px" viewBox="0 0 20 18" style="enable-background:new 0 0 20 18;" xml:space="preserve">
 <g id="icon-s-status-chat">
 	<rect style="fill:none;" width="20" height="18"/>
-	<path style="fill:#FFFFFF;" d="M0.488,0v14.277h9.947v3.256c0,0-0.008,0.355,0.341,0.453c0.312,0.09,0.548-0.293,0.548-0.293
-		l2.195-3.416h5.992V0H0.488z M2.918,2.528h14.164v3.461H2.918V2.528z M2.918,8.873h7.008v2.889H2.918V8.873z"/>
+	<path style="fill:#FFFFFF;" d="M0.488,0v14.276h9.947v3.256c0,0-0.008,0.355,0.341,0.454c0.312,0.089,0.548-0.294,0.548-0.294
+		l2.195-3.416h5.992V0H0.488z M2.918,2.527h14.164v3.461H2.918V2.527z M2.918,8.873h7.008v2.889H2.918V8.873z"/>
 </g>
 </svg>

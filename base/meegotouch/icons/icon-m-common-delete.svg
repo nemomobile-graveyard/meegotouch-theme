@@ -2,11 +2,12 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-common-delete-layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+	 x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
 <g id="icon-m-common-delete">
-	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#333333;" d="M53.8,8.416H41.3V4.582c0-1.098-0.899-2-2-2h-12c-1.1,0-2,0.902-2,2v3.834H12.8c-1.1,0-2,0.902-2,2
-		v6.5h45v-6.5C55.8,9.318,54.9,8.416,53.8,8.416z"/>
-	<path style="fill:#333333;" d="M12.6,22.918l3,36.5c0,1.098,0.9,2,2,2h32.5c1.1,0,2-0.902,2-2l3-36.5H12.6z"/>
+	<rect style="fill:none;" width="48" height="48"/>
+	<path style="fill:#333333;" d="M40.35,6.312h-9.375V3.437c0-0.823-0.675-1.5-1.5-1.5h-9c-0.825,0-1.5,0.677-1.5,1.5v2.875H9.6
+		c-0.825,0-1.5,0.677-1.5,1.5v4.875h33.75V7.812C41.85,6.988,41.175,6.312,40.35,6.312z"/>
+	<path style="fill:#333333;" d="M9.45,17.188l2.25,27.375c0,0.823,0.675,1.5,1.5,1.5h24.375c0.826,0,1.5-0.677,1.5-1.5l2.25-27.375
+		H9.45z"/>
 </g>
 </svg>

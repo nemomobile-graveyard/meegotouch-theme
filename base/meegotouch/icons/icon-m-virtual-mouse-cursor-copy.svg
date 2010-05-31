@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="icon-m-virtual-mouse-cursor-copy-layer"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="35px" height="35px"
+	 viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve">
+<g id="icon-m-virtual-mouse-cursor-copy_1_">
+	<rect x="20" y="20" style="fill:#FFFFFF;" width="14" height="14"/>
+	<rect id="_x33_5_6_" style="fill:none;" width="35" height="35"/>
+	<rect id="_x33_2_7_" x="1.5" y="1.5" style="fill:none;" width="32" height="32"/>
+	<rect id="hotspot_D5_-L9_2_" x="8" y="4" style="fill:none;" width="1" height="1"/>
+	<g>
+		<g>
+			<polygon style="fill:#FFFFFF;" points="19,13 19,11 16,11 16,10 12,10 12,5 6,5 6,13 2,13 2,14 1,14 1,19 2,19 2,20 3,20 3,22 
+				4,22 4,23 5,23 5,25 6,25 6,26 7,26 7,28 8,28 8,30 21,30 21,26 22,26 22,13 			"/>
+			<rect x="7" y="4" style="fill:#FFFFFF;" width="4" height="1"/>
+		</g>
+		<path style="fill:#010101;" d="M18,14v-1v-1h-3v-1h-3h-1V7V6h-1V5.5H8V6H7v9H6v-1H4H3v1H2v3l1-0.1V19l1-0.1V21l1-0.1V22l1-0.1V24
+			l1-0.1V25l1-0.1V27l1-0.1V28v0.9L20,29v-4.1l1,0.1V15v-1H18z M20,24h-1v4h-9v-2H9v-2H8v-1H7v-2H6v-1H5v-2H4v-1H3v-1.1L4,16v-1
+			l1-0.1V16l2-0.1V18l1-0.1V7l2-0.1v6l2,0.1v-1l2-0.1v3l1,0.1v-2.1l2,0.1v2.9l1,0.1v-1l2-0.1V24z"/>
+	</g>
+	<rect x="21" y="21" style="fill:#010101;" width="12" height="12"/>
+	<rect x="22" y="22" style="fill:#FFFFFF;" width="10" height="10"/>
+	<g>
+		<polygon style="fill:#010101;" points="28,31 26,30.9 26,23 28,23 		"/>
+		<polygon style="fill:#010101;" points="23,27.9 23.1,26 31,26 31,28 		"/>
+	</g>
+</g>
+</svg>

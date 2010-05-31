@@ -2,16 +2,15 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-camera-video-night-screen-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px"
-	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <g id="icon-m-camera-video-night-screen">
-	<rect style="fill:none;" width="24" height="24"/>
-	<path style="fill:#FFFFFF;" d="M22.385,0.555c0.43,0,0.844,0.059,1.238,0.167c-1.988,0.542-3.38,2.36-3.38,4.521
-		s1.392,3.979,3.38,4.521c-0.395,0.107-0.809,0.166-1.238,0.166c-2.588,0-4.642-2.098-4.642-4.688
-		C17.743,2.654,19.797,0.555,22.385,0.555z"/>
-	<path style="fill:#FFFFFF;" d="M22.941,12.93l-3,0.75c0,0-0.375,0-0.375,0.75v0.375h-2.625V13.68c0-0.348-0.402-0.75-0.75-0.75h-12
-		c-0.375,0-0.375,0.375-0.375,0.375l-3-0.75c0,0-0.375,0.027-0.375,0.375v3.375c0,0.375,0.375,0.375,0.375,0.375l3-0.75v7.125
-		c0,0.75,1.125,0.713,1.125,0.713h10.875c0.75,0,1.125-0.713,1.125-0.713v-4.537h2.625v0.412c0,0.75,0.75,1.125,0.75,1.125
-		l2.625,0.375c0,0,0.75,0,0.75-0.375v-6.75C23.691,12.93,22.941,12.93,22.941,12.93z"/>
+	<rect style="fill:none;" width="32" height="32"/>
+	<path style="fill:#FFFFFF;" d="M29.848,0.74c0.571,0,1.124,0.078,1.649,0.223c-2.649,0.723-4.506,3.146-4.506,6.027
+		c0,2.879,1.856,5.303,4.506,6.027c-0.525,0.145-1.078,0.223-1.649,0.223c-3.452,0-6.189-2.799-6.189-6.25S26.396,0.74,29.848,0.74z
+		"/>
+	<path style="fill:#FFFFFF;" d="M30.59,17.24l-4,1c0,0-0.5,0-0.5,1v0.5h-3.5v-1.5c0-0.465-0.537-1-1-1h-16c-0.5,0-0.5,0.5-0.5,0.5
+		l-4-1c0,0-0.5,0.035-0.5,0.5v4.5c0,0.5,0.5,0.5,0.5,0.5l4-1v9.5c0,1,1.5,0.949,1.5,0.949h14.5c1,0,1.5-0.949,1.5-0.949v-6.051h3.5
+		v0.551c0,1,1,1.5,1,1.5l3.5,0.5c0,0,1,0,1-0.5v-9C31.59,17.24,30.59,17.24,30.59,17.24z"/>
 </g>
 </svg>

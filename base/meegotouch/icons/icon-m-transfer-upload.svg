@@ -2,16 +2,16 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-transfer-upload-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
-	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
 <g id="icon-m-transfer-upload">
-	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#333333;" d="M20.998,37.274h6.593l0.001,10.879C27.591,48.626,27.971,49,28.441,49h7.139
-		c0.531,0.002,0.852-0.44,0.852-0.847V37.277l6.537-0.003c0.572,0,1.295-0.68,0.633-1.41L32.643,25.28
-		c-0.336-0.375-0.924-0.371-1.263-0.004L20.366,35.864C19.805,36.479,20.357,37.274,20.998,37.274z"/>
-	<rect x="21.5" y="15" style="fill:#333333;" width="21" height="7"/>
-	<path style="fill:#333333;" d="M32,1C14.907,1,1,14.906,1,32s13.907,31,31,31c17.094,0,31-13.906,31-31S49.094,1,32,1z M32,57.686
-		C17.837,57.686,6.314,46.162,6.314,32C6.314,17.836,17.837,6.314,32,6.314S57.686,17.836,57.686,32
-		C57.686,46.162,46.163,57.686,32,57.686z"/>
+	<rect style="fill:none;" width="48" height="48"/>
+	<path style="fill:#333333;" d="M15.748,27.956h4.946l0,8.159c0,0.354,0.285,0.635,0.637,0.635h5.355
+		c0.398,0.002,0.639-0.33,0.639-0.635v-8.157l4.902-0.002c0.43,0,0.971-0.51,0.475-1.058l-8.219-7.938
+		c-0.252-0.281-0.693-0.278-0.947-0.003l-8.26,7.941C14.854,27.359,15.268,27.956,15.748,27.956z"/>
+	<rect x="16.125" y="11.25" style="fill:#333333;" width="15.75" height="5.25"/>
+	<path style="fill:#333333;" d="M24,0.75C11.18,0.75,0.75,11.18,0.75,24S11.18,47.25,24,47.25c12.82,0,23.25-10.43,23.25-23.25
+		S36.82,0.75,24,0.75z M24,43.264C13.378,43.264,4.735,34.621,4.735,24C4.735,13.377,13.378,4.736,24,4.736S43.264,13.377,43.264,24
+		C43.264,34.621,34.622,43.264,24,43.264z"/>
 </g>
 </svg>

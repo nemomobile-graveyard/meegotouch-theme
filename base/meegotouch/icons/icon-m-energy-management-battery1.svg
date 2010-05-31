@@ -2,14 +2,14 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-energy-management-battery1-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
-	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
 <g id="icon-m-energy-management-battery1">
-	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#333333;" d="M25.453,3.378v2.819H15.38c-1.033,0-1.88,0.844-1.88,1.879v52.546c0,1.033,0.847,1.878,1.88,1.878
-		h33.241c1.033,0,1.879-0.845,1.879-1.878V8.076c0-1.035-0.846-1.879-1.879-1.879H38.547V3.378c0-1.034-0.846-1.88-1.878-1.88
-		h-9.336C26.301,1.498,25.453,2.344,25.453,3.378z M44.22,11.893c1.033,0,1.878,0.845,1.878,1.878v43.168
-		c0,1.032-0.845,1.878-1.878,1.878H19.786c-1.033,0-1.878-0.846-1.878-1.878V13.771c0-1.033,0.845-1.878,1.878-1.878H44.22z"/>
-	<rect x="21.244" y="47.396" style="fill:#333333;" width="21.514" height="8.063"/>
+	<rect style="fill:none;" width="48" height="48"/>
+	<path style="fill:#333333;" d="M19.09,2.533v2.115h-7.555c-0.775,0-1.41,0.633-1.41,1.408v39.41c0,0.774,0.635,1.409,1.41,1.409
+		h24.932c0.773,0,1.408-0.635,1.408-1.409V6.057c0-0.775-0.635-1.408-1.408-1.408H28.91V2.533c0-0.775-0.635-1.41-1.408-1.41H20.5
+		C19.726,1.123,19.09,1.758,19.09,2.533z M33.164,8.919c0.775,0,1.409,0.634,1.409,1.409v32.376c0,0.774-0.634,1.408-1.409,1.408
+		H14.839c-0.775,0-1.409-0.634-1.409-1.408V10.328c0-0.775,0.634-1.409,1.409-1.409H33.164z"/>
+	<rect x="15.933" y="35.547" style="fill:#333333;" width="16.136" height="6.047"/>
 </g>
 </svg>

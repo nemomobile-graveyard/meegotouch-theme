@@ -2,11 +2,12 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-content-chat-layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+	 x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
 <g id="icon-m-content-chat">
-	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#333333;" d="M63.889,3.469c0-1.1-0.9-2-2-2H2c-1.1,0-2,0.9-2,2v43.58c0,1.1,0.9,2,2,2l30.137,0.019v11.785
-		c0,0-0.028,1.278,1.168,1.631c1.065,0.326,1.881-1.06,1.881-1.06l7.545-12.356l19.158-0.019c1.1,0,2-0.9,2-2V3.469z M32.023,33.562
-		H7.146v-6.785h24.878V33.562z M7.146,19.896v-6.785h49.758v6.785H7.146z"/>
+	<rect style="fill:none;" width="48" height="48"/>
+	<path style="fill:#333333;" d="M47.916,2.602c0-0.824-0.675-1.5-1.5-1.5H1.5c-0.825,0-1.5,0.676-1.5,1.5v32.686
+		c0,0.824,0.675,1.5,1.5,1.5l22.603,0.014v8.839c0,0-0.021,0.958,0.876,1.223c0.799,0.245,1.41-0.794,1.41-0.794l5.659-9.268
+		l14.368-0.014c0.825,0,1.5-0.676,1.5-1.5V2.602z M24.018,25.171H5.359v-5.089h18.658V25.171z M5.359,14.922V9.834h37.318v5.088
+		H5.359z"/>
 </g>
 </svg>

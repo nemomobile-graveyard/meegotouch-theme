@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="icon-m-virtual-mouse-cursor-progress-layer"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="35px" height="35px"
+	 viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve">
+<g id="icon-m-virtual-mouse-cursor-progress">
+	<rect id="_x33_5px" style="fill:none;" width="35" height="35"/>
+	<rect id="_x33_2px" x="2" y="1.5" style="fill:none;" width="32" height="32"/>
+	<rect id="hotspot_D6-L3_1_" x="2" y="5" style="fill:none;" width="1" height="1"/>
+	<g>
+		<polygon style="fill:#FFFFFF;" points="7.644,22.029 1.971,25.432 1.971,5 20,14.615 14.359,18 19.359,26 12.644,30.029 		"/>
+		<polygon style="fill:#FFFFFF;" points="18,30 18,22.666 20.797,18.938 18,14.277 18,8 34,8 34,14.277 31.203,18.938 34,22.666 
+			34,30 		"/>
+		<polygon style="fill:#010101;" points="33,9 33,14 30,19 33,23 33,29 19,29 19,23 22,19 19,14 19,9 		"/>
+		<path style="fill:#FFFFFF;" d="M20,11v3l3,5l-3,4v4h12v-4l-3-4l3-5v-3H20z M29,23v1h1v2h-8v-2h1v-1h1v-1l0,0h1v-1h0.506v-2.177V17
+			H25v-1h-1v-2h4v2h-1v1h-0.601v1.823V21H27v1h1v1l0,0H29z"/>
+		<g>
+			<polygon style="fill:#010101;" points="8.135,19.986 3.471,22.783 3.471,7.5 16.957,14.692 12.277,17.5 17.277,25.5 
+				13.135,27.986 			"/>
+		</g>
+	</g>
+</g>
+</svg>

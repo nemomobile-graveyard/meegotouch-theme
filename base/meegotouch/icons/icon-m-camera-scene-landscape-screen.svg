@@ -2,15 +2,14 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-camera-scene-landscape-screen-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px"
-	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <g id="icon-m-camera-scene-landscape-screen">
-	<rect style="fill:none;" width="24" height="24"/>
-	<path style="fill:#FFFFFF;" d="M15.449,7.744c0.493,0,0.938-0.189,1.281-0.494c0.459,0.654,1.109,1.066,1.832,1.066
-		s1.373-0.412,1.833-1.066c0.343,0.305,0.787,0.494,1.28,0.494c1.078,0,1.949-0.877,1.949-1.959s-0.871-1.96-1.949-1.96
-		c-0.249,0-0.484,0.052-0.703,0.138c-0.314-1.387-1.273-2.396-2.41-2.396s-2.096,1.01-2.41,2.396
-		c-0.218-0.086-0.454-0.138-0.703-0.138c-1.076,0-1.949,0.878-1.949,1.96S14.373,7.744,15.449,7.744z"/>
-	<path style="fill:#FFFFFF;" d="M14.25,15.375c-2.904-6.716-8.435-15.148-13.875,5.25h23.25
-		C23.625,20.625,19.089,4.668,14.25,15.375z"/>
+	<rect style="fill:none;" width="32" height="32"/>
+	<path style="fill:#FFFFFF;" d="M20.598,10.326c0.658,0,1.252-0.252,1.709-0.658c0.612,0.872,1.479,1.421,2.443,1.421
+		c0.963,0,1.83-0.549,2.443-1.421c0.457,0.406,1.05,0.658,1.707,0.658c1.438,0,2.598-1.17,2.598-2.612
+		c0-1.443-1.16-2.613-2.598-2.613c-0.332,0-0.646,0.069-0.938,0.183c-0.418-1.848-1.697-3.194-3.213-3.194s-2.795,1.347-3.213,3.194
+		c-0.291-0.113-0.606-0.183-0.939-0.183C19.163,5.101,18,6.271,18,7.714C18,9.156,19.163,10.326,20.598,10.326z"/>
+	<path style="fill:#FFFFFF;" d="M19,20.5c-3.872-8.954-11.247-20.197-18.501,7h31C31.498,27.5,25.451,6.224,19,20.5z"/>
 </g>
 </svg>

@@ -2,25 +2,25 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-common-grid-6column-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
-	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
-<g id="icon-m-common-grid-6column">
-	<rect style="fill:none;" width="64" height="64"/>
-	<rect style="fill:#333333;" width="21" height="6"/>
-	<rect y="11.6" style="fill:#333333;" width="21" height="6"/>
-	<rect y="23.199" style="fill:#333333;" width="21" height="6"/>
-	<rect y="34.801" style="fill:#333333;" width="21" height="5.998"/>
-	<rect y="46.4" style="fill:#333333;" width="21" height="6"/>
-	<rect y="58" style="fill:#333333;" width="21" height="6"/>
-	<rect x="28" style="fill:#333333;" width="21" height="6"/>
-	<rect x="28" y="11.6" style="fill:#333333;" width="21" height="6"/>
-	<path style="fill:#333333;" d="M38.52,23.199H28v6h0.883C31.542,26.491,34.835,24.412,38.52,23.199z"/>
-	<path style="fill:#333333;" d="M46,28c-9.94,0-18,8.06-18,18c0,9.942,8.06,18,18,18c9.941,0,18-8.058,18-18
-		C64,36.06,55.941,28,46,28z M45.916,57.402c-7.832,0-7.832-8.044-7.832-10.688c0-7.588,3.66-12.117,9.791-12.117
-		c1.139,0,2.356,0.086,3.343,0.234l0.851,0.131v4.816l-1.191-0.232c-0.931-0.18-1.718-0.262-2.553-0.262
-		c-1.077,0-2.473,0.308-3.188,2.564c0.682-0.206,1.443-0.309,2.291-0.309c4.123,0,6.488,2.764,6.488,7.58
-		C53.916,54.307,50.926,57.402,45.916,57.402z"/>
-	<path style="fill:#333333;" d="M46.084,46.23c-0.897,0-1.352,0.859-1.352,2.555c0,2.93,0.34,4.068,1.211,4.068
-		c0.751,0,1.324-0.268,1.324-3.647C47.268,46.23,46.498,46.23,46.084,46.23z"/>
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g id="icon-m-common-grid-6column_1_">
+	<rect style="fill:none;" width="48" height="48"/>
+	<rect style="fill:#333333;" width="15.75" height="4.5"/>
+	<rect y="8.7" style="fill:#333333;" width="15.75" height="4.5"/>
+	<rect y="17.4" style="fill:#333333;" width="15.75" height="4.499"/>
+	<rect y="26.102" style="fill:#333333;" width="15.75" height="4.497"/>
+	<rect y="34.801" style="fill:#333333;" width="15.75" height="4.5"/>
+	<rect y="43.5" style="fill:#333333;" width="15.75" height="4.5"/>
+	<rect x="21" style="fill:#333333;" width="15.75" height="4.5"/>
+	<rect x="21" y="8.7" style="fill:#333333;" width="15.75" height="4.5"/>
+	<path style="fill:#333333;" d="M28.891,17.4H21v4.499h0.662C23.656,19.868,26.125,18.309,28.891,17.4z"/>
+	<path style="fill:#333333;" d="M34.5,21C27.045,21,21,27.045,21,34.5C21,41.957,27.045,48,34.5,48C41.956,48,48,41.957,48,34.5
+		C48,27.045,41.956,21,34.5,21z M34.437,43.053c-5.874,0-5.874-6.034-5.874-8.018c0-5.69,2.746-9.087,7.344-9.087
+		c0.854,0,1.768,0.065,2.507,0.177l0.638,0.097v3.612l-0.893-0.173c-0.698-0.136-1.289-0.196-1.915-0.196
+		c-0.808,0-1.854,0.229-2.391,1.922c0.512-0.154,1.082-0.23,1.719-0.23c3.093,0,4.865,2.074,4.865,5.686
+		C40.437,40.73,38.193,43.053,34.437,43.053z"/>
+	<path style="fill:#333333;" d="M34.562,34.672c-0.673,0-1.014,0.646-1.014,1.918c0,2.195,0.255,3.051,0.908,3.051
+		c0.563,0,0.994-0.201,0.994-2.736C35.451,34.672,34.873,34.672,34.562,34.672z"/>
 </g>
 </svg>

@@ -2,14 +2,14 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-m-telephony-video-call-layer"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
-	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
-<g id="icon-m-telephony-video-call">
-	<rect style="fill:none;" width="64" height="64"/>
-	<path style="fill:#333333;" d="M50.625,50.711C45.438,54.628,38.986,56.955,32,56.955s-13.438-2.327-18.626-6.244
-		C7.788,53.991,4.245,58.726,4.142,64h55.715C59.755,58.726,56.212,53.991,50.625,50.711z"/>
-	<path style="fill:#333333;" d="M32,51.955c14.347,0,25.978-11.628,25.978-25.978S46.347,0,32,0C17.652,0,6.021,11.628,6.021,25.978
-		S17.652,51.955,32,51.955z M32,15.979c5.516,0,10,4.483,10,9.995c0,5.514-4.484,10-10,10c-5.513,0-10-4.486-10-10
-		C22,20.463,26.487,15.979,32,15.979z"/>
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g id="icon-m-telephony-video-call_1_">
+	<rect style="fill:none;" width="48" height="48"/>
+	<path style="fill:#333333;" d="M37.969,38.033C34.078,40.971,29.24,42.717,24,42.717c-5.24,0-10.078-1.746-13.97-4.684
+		C5.841,40.493,3.184,44.044,3.106,48h41.787C44.816,44.044,42.159,40.493,37.969,38.033z"/>
+	<path style="fill:#333333;" d="M24,38.967c10.76,0,19.483-8.722,19.483-19.483C43.483,8.721,34.76,0,24,0
+		C13.239,0,4.516,8.721,4.516,19.483C4.516,30.245,13.239,38.967,24,38.967z M24,11.984c4.137,0,7.5,3.363,7.5,7.496
+		c0,4.136-3.363,7.5-7.5,7.5c-4.135,0-7.5-3.364-7.5-7.5C16.5,15.348,19.865,11.984,24,11.984z"/>
 </g>
 </svg>

@@ -4,12 +4,14 @@
 <svg version="1.1" id="icon-m-common-strength4-layer"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px"
 	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
-<g id="icon-m-common-strength4_1_">
-	<rect y="8.662" style="fill:#333333;" width="4.43" height="16.074"/>
-	<rect x="7" y="8.662" style="fill:#333333;" width="4.431" height="16.074"/>
-	<rect x="14" y="8.662" style="fill:#333333;" width="4.432" height="16.074"/>
-	<rect x="21" y="8.662" style="fill:#333333;" width="4.432" height="16.074"/>
-	<rect x="27.57" y="8.662" style="opacity:0.3;fill:#333333;enable-background:new    ;" width="4.43" height="16.074"/>
+<g id="icon-m-common-strength4">
 	<rect style="opacity:0.36;fill:none;" width="32" height="32"/>
+	<g>
+		<rect y="8" style="fill:#333333;" width="4" height="15"/>
+		<rect x="7" y="8" style="fill:#333333;" width="4" height="15"/>
+		<rect x="14" y="8" style="fill:#333333;enable-background:new    ;" width="4" height="15"/>
+		<rect x="21" y="8" style="fill:#333333;enable-background:new    ;" width="4" height="15"/>
+		<rect x="28" y="8" style="opacity:0.3;fill:#333333;enable-background:new    ;" width="4" height="15"/>
+	</g>
 </g>
 </svg>
