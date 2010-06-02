@@ -161,6 +161,9 @@ MContentItemStyle#singleLabel {
 
 #CommonSubIcon {
 
+    maximum-size: 2.8mm 2.8mm;
+    minimum-size: 2.8mm 2.8mm;
+    preferred-size: 2.8mm 2.8mm;
     margin-left : $MARGIN_XSMALL;
     margin-right : $MARGIN_XSMALL;
     margin-top : $MARGIN_XSMALL;
