@@ -2,16 +2,11 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="icon-l-maps-layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" width="80px" height="80px" viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+	 y="0px" width="80px" height="81px" viewBox="0 0 80 81" style="enable-background:new 0 0 80 81;" xml:space="preserve">
 <g id="icon-l-maps_1_">
-	<path style="fill:#479142;" d="M41.044,80C73.036,80,80,65.953,80,40.061c0-25.958-7.158-40.053-38.956-40.053L38.951,0
-		C6.962,0,0,14.053,0,39.945c0,25.954,7.156,40.051,38.951,40.051L41.044,80z"/>
-	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="39.9995" y1="20.0576" x2="39.9995" y2="209.7647">
-		<stop  offset="0" style="stop-color:#FFFFFF"/>
-		<stop  offset="1" style="stop-color:#B3B2C9"/>
-	</linearGradient>
-	<path style="fill:url(#SVGID_1_);" d="M47.943,42.156l12.795,10.705l-18.28-7.018l-2.453,17.904l-2.756-20.139l-1.065-0.887
-		l-19.941-2.727l14.328-1.965l-11.683-9.773L42.87,37.13l20.887,2.866L47.943,42.156z M37.465,20.704l5.62,8.969h0.178h1.41h0.326
-		V16.129h-2.488v8.711l-5.486-8.711h-2.051v13.544h2.491V20.704z"/>
+	<path style="fill:#479142;" d="M50.699,42.988l17.234,14.418l-24.623-9.453L40.007,72.07l-3.712-27.125l-1.435-1.194L8,40.077
+		l19.299-2.646L11.562,24.267l32.304,11.95L72,40.077L50.699,42.988z M36.585,14.092l7.57,12.081h0.239h1.899h0.439V7.93h-3.352
+		v11.733L35.993,7.93H33.23v18.243h3.354V14.092z"/>
+	<rect style="fill:none;" width="80" height="80.001"/>
 </g>
 </svg>

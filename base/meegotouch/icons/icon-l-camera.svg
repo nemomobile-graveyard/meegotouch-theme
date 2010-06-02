@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="icon-l-camera-layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" width="46px" height="33px" viewBox="0 0 46 33" style="enable-background:new 0 0 46 33;" xml:space="preserve">
-<g id="icon-l-camera_1_">
-	<path style="fill:#EB2D7C;" d="M44.22,1H1.429C0.643,1,0,1.643,0,2.429v29.146c0,0.785,0.643,1.43,1.429,1.43H44.22
-		c0.785,0,1.429-0.645,1.429-1.43V2.429C45.648,1.643,45.005,1,44.22,1z M22.822,27.701c-5.67,0-10.271-4.611-10.271-10.289
-		c0-5.68,4.601-10.285,10.271-10.285c5.676,0,10.271,4.605,10.271,10.285C33.094,23.09,28.498,27.701,22.822,27.701z M42.729,8.369
-		h-8.836V3.947h8.836V8.369z"/>
+<svg version="1.1" id="iocn-l-camera-layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="84px" height="84px" viewBox="0 0 84 84" style="enable-background:new 0 0 84 84;" xml:space="preserve">
+<g id="iocn-l-camera">
+	<path style="fill:#EB2D7C;" d="M43.096,84C76.688,84,84,69.25,84,42.063c0-27.255-7.516-42.056-40.904-42.056L40.898,0
+		C7.311,0,0,14.756,0,41.941c0,27.252,7.514,42.055,40.898,42.055L43.096,84z"/>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="41.9995" y1="27.9717" x2="41.9995" y2="161.8394">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#B3B2C9"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_1_);" d="M64.465,25.199h-44.93c-0.825,0-1.5,0.674-1.5,1.5v30.603c0,0.825,0.675,1.5,1.5,1.5h44.93
+		c0.824,0,1.5-0.675,1.5-1.5V26.699C65.965,25.873,65.289,25.199,64.465,25.199z M41.998,53.235
+		c-5.954,0-10.785-4.843-10.785-10.804c0-5.965,4.831-10.799,10.785-10.799c5.959,0,10.785,4.834,10.785,10.799
+		C52.783,48.394,47.957,53.235,41.998,53.235z M62.898,32.938h-9.276v-4.645h9.276V32.938z"/>
 </g>
 </svg>
