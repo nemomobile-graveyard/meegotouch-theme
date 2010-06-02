@@ -40,22 +40,55 @@ MContentItemStyle#singleLabel {
     margin-right : $MARGIN_XLARGE; 
     margin-top : $MARGIN_XLARGE;
     margin-bottom : 0;
+    color: $COLOR_FOREGROUND;
+}
+
+#CommonTitleAccented {
+
+    font : $FONT_LARGE;
+    margin-left : $MARGIN_XLARGE;
+    margin-right : $MARGIN_XLARGE; 
+    margin-top : $MARGIN_XLARGE;
+    margin-bottom : 0;
+    color: $COLOR_ACCENT1;
+
 }
 
 #CommonSubTitle {
 
     font : $FONT_SMALL;
-    color : #515151;					/* TBD */
+    color : $COLOR_SECONDARY_FOREGROUND;				
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE; 
     margin-top : $MARGIN_XSMALL;
     margin-bottom : 0;
 }
 
+#CommonSubTitleInverted {
+	
+    font : $FONT_SMALL;
+    color : $COLOR_INVERTED_FOREGROUND;
+    margin-left : $MARGIN_XLARGE;
+    margin-right : $MARGIN_XLARGE; 
+    margin-top : $MARGIN_XSMALL;
+    margin-bottom : 0;
+}
+}
+
 #CommonSubText {
 
     font : $FONT_SMALL;
-    color : #95969B;					/* TBD */
+    color : $COLOR_SECONDARY_FOREGROUND;
+    margin-left : $MARGIN_XLARGE;
+    margin-right : $MARGIN_XLARGE; 
+    margin-top : $MARGIN_XSMALL;
+    margin-bottom : 0;
+}
+
+#CommonSubTextInverted {
+
+    font : $FONT_SMALL;
+    color : $COLOR_INVERTED_FOREGROUND;
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE; 
     margin-top : $MARGIN_XSMALL;
@@ -120,6 +153,10 @@ MContentItemStyle#singleLabel {
     margin-right : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
     margin-bottom : $MARGIN_DOUBLE;
+}
+
+#CommonHeaderIcon {
+    margin-left : $MARGIN_XLARGE;
 }
 
 #CommonSubIcon {
@@ -219,6 +256,16 @@ MContentItemStyle#singleLabel {
 #CommonPanel {
 
     background-image : meegotouch-list-fullwidth-background $CORNER_MARGINS;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    margin-bottom : 0;
+    minimum-size : 88 88;  
+}
+
+#CommonPanelInverted {
+
+    background-image : meegotouch-panel-inverted-background $CORNER_MARGINS;
     margin-left : 0;
     margin-right : 0;
     margin-top : 0;
