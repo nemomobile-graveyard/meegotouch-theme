@@ -1,3 +1,11 @@
+meegotouchtheme (0.20.13-1) unstable; urgency=low
+
+  * New version
+  * Changes: refactoring base to convert it in default theme + new icon set.
+  * Fixes: NB#160997 - DuiComboBox wrong size after language change
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 02 Jun 2010 15:46:09 +0300
+
 meegotouchtheme (0.20.12-1) unstable; urgency=low
 
   * New version
