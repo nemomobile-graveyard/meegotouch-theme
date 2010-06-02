@@ -1,20 +1,20 @@
 [Desktop Entry]
 Type=X-MeeGoTouch-Metatheme
-Name=RD Theme
+Name=Deprecated Fallback theme
 Encoding=UTF-8
 
 ; this section is here for libdui 0.19 compatibility
 ; remove this when libdui 0.19 is phased out
 [X-DUI-Metatheme]
 X-Inherits=base
-X-Icon = "icon-l-duitheme-devel"
+X-Icon = "icon-l-meegotouchtheme-devel"
 X-Visible=true
 X-Libraries=meegotouchviews
 ; remove end
 
+
 [X-MeeGoTouch-Metatheme]
 X-Inherits=base
-X-Icon = "icon-l-duitheme-devel"
 X-Icon="icon-l-meegotouchtheme-devel"
-X-Visible=true
+X-Visible=false
 X-Libraries=meegotouchviews

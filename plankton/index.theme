@@ -7,13 +7,13 @@ Encoding=UTF-8
 ; remove this when libdui 0.19 is phased out
 [X-DUI-Metatheme]
 X-Inherits=base
-X-Icon = "icon-l-duitheme-plankton"
+X-Icon = "icon-l-meegotouchtheme-plankton"
 X-Visible=true
 X-Libraries=meegotouchviews
 ; remove end
 
 [X-MeeGoTouch-Metatheme]
 X-Inherits=base
-X-Icon = "icon-l-duitheme-plankton"
+X-Icon = "icon-l-meegotouchtheme-plankton"
 X-Visible=true
 X-Libraries=meegotouchviews

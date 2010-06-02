@@ -1,13 +1,18 @@
 [Desktop Entry]
 Type=X-MeeGoTouch-Metatheme
-Name=Base
+Name=MeeGo Theme
 Encoding=UTF-8
 
 ; this section is here for libdui 0.19 compatibility
 ; remove this when libdui 0.19 is phased out
 [X-DUI-Metatheme]
-X-Visible=false
+X-Icon = "icon-l-meegotouchtheme-devel"
+X-Visible=true
+X-Libraries=meegotouchviews
 ; remove end
 
 [X-MeeGoTouch-Metatheme]
-X-Visible=false
+X-Visible=true
+X-Icon="icon-l-meegotouchtheme-devel"
+X-Libraries=meegotouchviews
+

@@ -28,7 +28,7 @@ plankton.path = $$THEME_DIR
 plankton.CONFIG += no_check_exist
 plankton.commands += perl extract.pl plankton/meegotouch/svg/ base/meegotouch/ids.txt
 
-plankton_icon.files = ./plankton/meegotouch/icons/icon-l-duitheme-plankton.svg
+plankton_icon.files = ./plankton/meegotouch/icons/icon-l-meegotouchtheme-plankton.svg
 plankton_icon.path = $$THEME_DIR/base/meegotouch/icons
 plankton_icon.CONFIG += no_check_exist
 
