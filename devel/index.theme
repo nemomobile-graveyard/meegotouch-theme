@@ -8,7 +8,7 @@ Encoding=UTF-8
 [X-DUI-Metatheme]
 X-Inherits=base
 X-Icon = "icon-l-meegotouchtheme-devel"
-X-Visible=true
+X-Visible=false
 X-Libraries=meegotouchviews
 ; remove end
 
@@ -16,5 +16,5 @@ X-Libraries=meegotouchviews
 [X-MeeGoTouch-Metatheme]
 X-Inherits=base
 X-Icon="icon-l-meegotouchtheme-devel"
-X-Visible=true
+X-Visible=false
 X-Libraries=meegotouchviews
