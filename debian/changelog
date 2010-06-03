@@ -1,3 +1,15 @@
+meegotouchtheme (0.20.14-1) unstable; urgency=low
+
+  * New version
+  * Changes: made "devel" invisible in theme switcher as it is deprecated
+  * Changes: Updated icon versions.
+  * Changes: Added INDENT_DEFAULT for common styling use.
+  * Changes: Updated default application background and added default background for portrait view.
+  * Changes: Updated video now playing icons (and removed the wrongly spelled one of toolbar-trim).
+  * Changes: Corrected typos in filenames.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 03 Jun 2010 16:42:05 +0300
+
 meegotouchtheme (0.20.13-1) unstable; urgency=low
 
   * New version
