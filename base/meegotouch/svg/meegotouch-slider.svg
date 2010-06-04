@@ -63,57 +63,43 @@
 			</g>
 		</g>
 		<g id="meegotouch-slider-elapsed-background-vertical">
-			<rect x="42" y="355.449" style="opacity:0;fill:#010101;" width="16" height="30"/>
 			<g id="Normal_68_">
 				
-					<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="2247.5508" y1="-3798.0005" x2="2247.5508" y2="-3810.0005" gradientTransform="matrix(0 -1 1 0 3854 2618)">
+					<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="2256" y1="-3798.0005" x2="2256" y2="-3810.0005" gradientTransform="matrix(0 -1 1 0 3854 2618)">
 					<stop  offset="0" style="stop-color:#74CCD4"/>
 					<stop  offset="0.1301" style="stop-color:#66C2D6"/>
 					<stop  offset="0.4156" style="stop-color:#4BB5DC"/>
 					<stop  offset="0.7046" style="stop-color:#35ADDF"/>
 					<stop  offset="1" style="stop-color:#2AAAE2"/>
 				</linearGradient>
-				<path style="fill:url(#SVGID_2_);" d="M51,356.449c2.75,0,5,2.25,5,5v18c0,2.75-2.25,5-5,5h-2c-2.75,0-5-2.25-5-5v-18
-					c0-2.75,2.25-5,5-5H51z"/>
+				<path style="fill:url(#SVGID_2_);" d="M52,356c2.2,0,4,1.8,4,4v4c0,2.2-1.8,4-4,4h-4c-2.2,0-4-1.8-4-4v-4c0-2.2,1.8-4,4-4H52z"
+					/>
 			</g>
 		</g>
 		<g id="meegotouch-slider-received-background-vertical">
-			<rect x="42" y="323.449" style="opacity:0;fill:#010101;" width="16" height="30"/>
 			<g id="Normal_67_">
-				<path style="fill:#9DC53F;" d="M49,352.449c-2.75,0-5-2.25-5-5v-18c0-2.75,2.25-5,5-5h2c2.75,0,5,2.25,5,5v18c0,2.75-2.25,5-5,5
-					H49z"/>
+				<path style="fill:#9DC53F;" d="M48,336.449c-2.2,0-4-1.8-4-4v-4c0-2.2,1.8-4,4-4h4c2.2,0,4,1.8,4,4v4c0,2.2-1.8,4-4,4H48z"/>
 			</g>
 			<g id="Normal_66_" style="opacity:0.3;">
 				
-					<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="4225.4492" y1="2542.999" x2="4225.4492" y2="2530.999" gradientTransform="matrix(0 1 -1 0 2587 -3887)">
+					<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="4217.4492" y1="2542.999" x2="4217.4492" y2="2530.999" gradientTransform="matrix(0 1 -1 0 2587 -3887)">
 					<stop  offset="0.25" style="stop-color:#FFFFFF;stop-opacity:0"/>
 					<stop  offset="0.9328" style="stop-color:#FFFFFF;stop-opacity:0.9104"/>
 					<stop  offset="1" style="stop-color:#FFFFFF"/>
 				</linearGradient>
-				<path style="fill:url(#SVGID_3_);" d="M49,352.449c-2.75,0-5-2.25-5-5v-18c0-2.75,2.25-5,5-5h2c2.75,0,5,2.25,5,5v18
-					c0,2.75-2.25,5-5,5H49z"/>
+				<path style="fill:url(#SVGID_3_);" d="M48,336.449c-2.2,0-4-1.8-4-4v-4c0-2.2,1.8-4,4-4h4c2.2,0,4,1.8,4,4v4c0,2.2-1.8,4-4,4H48
+					z"/>
 			</g>
 		</g>
 		<g id="meegotouch-slider-background-vertical">
-			<g id="Normal_65_" style="opacity:0.2;">
-				<path style="fill:#010101;" d="M52,291c3.3,0,6,2.7,6,6v18c0,3.3-2.7,6-6,6h-4c-3.3,0-6-2.7-6-6v-18c0-3.3,2.7-6,6-6H52z"/>
-			</g>
-			<g id="Normal_64_">
-				<path style="fill:#CCCCCC;" d="M52,292c2.75,0,5,2.25,5,5v18c0,2.75-2.25,5-5,5h-2c-2.75,0-5-2.25-5-5v-18c0-2.75,2.25-5,5-5H52
-					z"/>
-			</g>
-			<g id="Normal_63_">
-				<path style="fill:#010101;" d="M50,292c2.75,0,5,2.25,5,5v18c0,2.75-2.25,5-5,5h-2c-2.75,0-5-2.25-5-5v-18c0-2.75,2.25-5,5-5H50
-					z"/>
-			</g>
 			<g id="Normal_52_">
 				
-					<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="2248" y1="-3862.0005" x2="2248" y2="-3874.0005" gradientTransform="matrix(0 -1 1 0 3918 2554)">
+					<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="2256" y1="-3862.0005" x2="2256" y2="-3874.0005" gradientTransform="matrix(0 -1 1 0 3918 2554)">
 					<stop  offset="0" style="stop-color:#1A1A1A"/>
 					<stop  offset="1" style="stop-color:#000000"/>
 				</linearGradient>
-				<path style="fill:url(#SVGID_4_);" d="M51,292c2.75,0,5,2.25,5,5v18c0,2.75-2.25,5-5,5h-2c-2.75,0-5-2.25-5-5v-18
-					c0-2.75,2.25-5,5-5H51z"/>
+				<path style="fill:url(#SVGID_4_);" d="M52,292c2.2,0,4,1.8,4,4v4c0,2.2-1.8,4-4,4h-4c-2.2,0-4-1.8-4-4v-4c0-2.2,1.8-4,4-4H52z"
+					/>
 			</g>
 		</g>
 		<g id="meegotouch-slider-handle-background-pressed-vertical">
@@ -164,56 +150,41 @@
 			</g>
 		</g>
 		<g id="meegotouch-slider-elapsed-background-horizontal">
-			<rect x="218" y="78.449" style="opacity:0;fill:#010101;" width="30" height="16"/>
 			<g id="Normal_47_">
-				<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="233" y1="92.4492" x2="233" y2="80.4492">
+				<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="233" y1="92" x2="233" y2="80">
 					<stop  offset="0" style="stop-color:#74CCD4"/>
 					<stop  offset="0.1301" style="stop-color:#66C2D6"/>
 					<stop  offset="0.4156" style="stop-color:#4BB5DC"/>
 					<stop  offset="0.7046" style="stop-color:#35ADDF"/>
 					<stop  offset="1" style="stop-color:#2AAAE2"/>
 				</linearGradient>
-				<path style="fill:url(#SVGID_9_);" d="M247,87.449c0,2.75-2.25,5-5,5h-18c-2.75,0-5-2.25-5-5v-2c0-2.75,2.25-5,5-5h18
-					c2.75,0,5,2.25,5,5V87.449z"/>
+				<path style="fill:url(#SVGID_9_);" d="M239,88c0,2.2-1.8,4-4,4h-4c-2.2,0-4-1.8-4-4v-4c0-2.2,1.8-4,4-4h4c2.2,0,4,1.8,4,4V88z"
+					/>
 			</g>
 		</g>
 		<g id="meegotouch-slider-received-background-horizontal">
-			<rect x="218" y="98.449" style="opacity:0;fill:#010101;" width="30" height="16"/>
 			<g id="Normal_46_">
-				<path style="fill:#9DC53F;" d="M219,105.449c0-2.75,2.25-5,5-5h18c2.75,0,5,2.25,5,5v2c0,2.75-2.25,5-5,5h-18
-					c-2.75,0-5-2.25-5-5V105.449z"/>
+				<path style="fill:#9DC53F;" d="M227,104c0-2.2,1.8-4,4-4h4c2.2,0,4,1.8,4,4v4c0,2.2-1.8,4-4,4h-4c-2.2,0-4-1.8-4-4V104z"/>
 			</g>
 			<g id="Normal_45_" style="opacity:0.3;">
 				
-					<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="6605" y1="-1863.5508" x2="6605" y2="-1875.5508" gradientTransform="matrix(-1 0 0 -1 6838 -1763.1016)">
+					<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="6605" y1="-1863.1016" x2="6605" y2="-1875.1016" gradientTransform="matrix(-1 0 0 -1 6838 -1763.1016)">
 					<stop  offset="0.25" style="stop-color:#FFFFFF;stop-opacity:0"/>
 					<stop  offset="0.9328" style="stop-color:#FFFFFF;stop-opacity:0.9104"/>
 					<stop  offset="1" style="stop-color:#FFFFFF"/>
 				</linearGradient>
-				<path style="fill:url(#SVGID_10_);" d="M219,105.449c0-2.75,2.25-5,5-5h18c2.75,0,5,2.25,5,5v2c0,2.75-2.25,5-5,5h-18
-					c-2.75,0-5-2.25-5-5V105.449z"/>
+				<path style="fill:url(#SVGID_10_);" d="M227,104c0-2.2,1.8-4,4-4h4c2.2,0,4,1.8,4,4v4c0,2.2-1.8,4-4,4h-4c-2.2,0-4-1.8-4-4V104z
+					"/>
 			</g>
 		</g>
 		<g id="meegotouch-slider-background-horizontal">
-			<g id="Normal_44_" style="opacity:0.2;">
-				<path style="fill:#010101;" d="M208,88.449c0,3.3-2.7,6-6,6h-18c-3.3,0-6-2.7-6-6v-4c0-3.3,2.7-6,6-6h18c3.3,0,6,2.7,6,6V88.449
-					z"/>
-			</g>
-			<g id="Normal_43_">
-				<path style="fill:#CCCCCC;" d="M207,88.449c0,2.75-2.25,5-5,5h-18c-2.75,0-5-2.25-5-5v-2c0-2.75,2.25-5,5-5h18
-					c2.75,0,5,2.25,5,5V88.449z"/>
-			</g>
-			<g id="Normal_42_">
-				<path style="fill:#010101;" d="M207,86.449c0,2.75-2.25,5-5,5h-18c-2.75,0-5-2.25-5-5v-2c0-2.75,2.25-5,5-5h18
-					c2.75,0,5,2.25,5,5V86.449z"/>
-			</g>
-			<g id="Normal_41_">
+			<g id="Normal_44_">
 				<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="193" y1="92.4492" x2="193" y2="80.4492">
-					<stop  offset="0" style="stop-color:#1A1A1A"/>
-					<stop  offset="1" style="stop-color:#000000"/>
+					<stop  offset="0" style="stop-color:#000000"/>
+					<stop  offset="1" style="stop-color:#1A1A1A"/>
 				</linearGradient>
-				<path style="fill:url(#SVGID_11_);" d="M207,87.449c0,2.75-2.25,5-5,5h-18c-2.75,0-5-2.25-5-5v-2c0-2.75,2.25-5,5-5h18
-					c2.75,0,5,2.25,5,5V87.449z"/>
+				<path style="fill:url(#SVGID_11_);" d="M199,88.449c0,2.2-1.8,4-4,4h-4c-2.2,0-4-1.8-4-4v-4c0-2.2,1.8-4,4-4h4c2.2,0,4,1.8,4,4
+					V88.449z"/>
 			</g>
 		</g>
 		<g id="meegotouch-slider-handle-background-pressed-horizontal">
