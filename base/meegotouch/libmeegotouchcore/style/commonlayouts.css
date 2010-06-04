@@ -132,6 +132,16 @@ MContentItemStyle#singleLabel {
     margin-bottom : 0;
 }
 
+#CommonQueryTitle {
+    margin-left : $MARGIN_XLARGE;
+    margin-right : $MARGIN_XLARGE; 
+    }
+    
+#CommonQueryText {
+    margin-left : $MARGIN_XLARGE;
+    margin-right : $MARGIN_XLARGE; 
+    }
+
 
 /*  ICONS AND THUMBNAILS  */
 
