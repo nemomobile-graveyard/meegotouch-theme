@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="LockscreenAssets-layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" width="810px" height="550px" viewBox="0 0 810 550" style="enable-background:new 0 0 810 550;"
-	 xml:space="preserve">
-<g id="LockscreenAssets">
+<svg version="1.1" id="lockscreen-layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="810px" height="550px" viewBox="0 0 810 550" style="enable-background:new 0 0 810 550;" xml:space="preserve">
+<g id="lockscreen">
 	<g id="magnifierThemeTemplateHelper">
 		<g id="magnifierhelperBackground">
 			<g>
@@ -67,31 +66,31 @@
 	</g>
 	<g id="lockscreen-lock">
 		<g>
-			<path style="fill:#FFFFFF;" d="M119.19,219.007c-27.512,0-49.817-22.306-49.817-49.817c0-27.517,22.306-49.816,49.817-49.816
-				c27.519,0,49.816,22.3,49.816,49.816C169.007,196.701,146.709,219.007,119.19,219.007z"/>
+			<path style="fill:#FFFFFF;" d="M119.19,189.007c-27.512,0-49.817-22.306-49.817-49.817c0-27.517,22.306-49.816,49.817-49.816
+				c27.519,0,49.816,22.3,49.816,49.816C169.007,166.701,146.709,189.007,119.19,189.007z"/>
 		</g>
 		<g>
-			<path style="fill:#BBBDBF;" d="M119.19,100C80.979,100,50,130.97,50,169.189c0,38.209,30.979,69.191,69.19,69.191
-				c38.219,0,69.189-30.982,69.189-69.191C188.38,130.97,157.409,100,119.19,100z M119.19,219.007
+			<path style="fill:#BBBDBF;" d="M119.19,70C80.979,70,50,100.97,50,139.189c0,38.209,30.979,69.191,69.19,69.191
+				c38.219,0,69.189-30.982,69.189-69.191C188.38,100.97,157.409,70,119.19,70z M119.19,189.007
 				c-27.512,0-49.817-22.306-49.817-49.817c0-27.517,22.306-49.816,49.817-49.816c27.519,0,49.816,22.3,49.816,49.816
-				C169.007,196.701,146.709,219.007,119.19,219.007z"/>
+				C169.007,166.701,146.709,189.007,119.19,189.007z"/>
 		</g>
 		<g>
-			<path style="fill:#808080;" d="M119.19,219.007c-27.512,0-49.817-22.306-49.817-49.817c0-27.517,22.306-48.433,49.817-48.433
-				c27.519,0,49.816,20.916,49.816,48.433C169.007,196.701,146.709,219.007,119.19,219.007z"/>
+			<path style="fill:#808080;" d="M119.19,189.007c-27.512,0-49.817-22.306-49.817-49.817c0-27.517,22.306-48.433,49.817-48.433
+				c27.519,0,49.816,20.916,49.816,48.433C169.007,166.701,146.709,189.007,119.19,189.007z"/>
 		</g>
 		<g>
-			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="119.1899" y1="120.7568" x2="119.1899" y2="217.623">
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="119.1899" y1="90.7568" x2="119.1899" y2="187.623">
 				<stop  offset="0" style="stop-color:#F2F2F2"/>
 				<stop  offset="1" style="stop-color:#D2D3D3"/>
 			</linearGradient>
-			<path style="fill:url(#SVGID_1_);" d="M119.19,217.623c-27.512,0-49.817-20.922-49.817-48.434
-				c0-27.517,22.306-48.433,49.817-48.433c27.519,0,49.816,20.916,49.816,48.433C169.007,196.701,146.709,217.623,119.19,217.623z"
+			<path style="fill:url(#SVGID_1_);" d="M119.19,187.623c-27.512,0-49.817-20.922-49.817-48.434
+				c0-27.517,22.306-48.433,49.817-48.433c27.519,0,49.816,20.916,49.816,48.433C169.007,166.701,146.709,187.623,119.19,187.623z"
 				/>
 		</g>
 	</g>
 	<g id="lockscreen-lock-active">
-		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="119.2202" y1="300" x2="119.2202" y2="438.4414">
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="119.2202" y1="230" x2="119.2202" y2="368.4419">
 			<stop  offset="0" style="stop-color:#8BD7F8"/>
 			<stop  offset="0.0805" style="stop-color:#7FCBF0"/>
 			<stop  offset="0.277" style="stop-color:#67B9E4"/>
@@ -99,25 +98,25 @@
 			<stop  offset="0.7151" style="stop-color:#4BA6D8"/>
 			<stop  offset="1" style="stop-color:#47A4D7"/>
 		</linearGradient>
-		<path style="fill:url(#SVGID_2_);" d="M119.22,300C80.992,300,50,330.984,50,369.221c0,38.226,30.992,69.221,69.22,69.221
-			c38.236,0,69.22-30.995,69.22-69.221C188.44,330.984,157.457,300,119.22,300z M119.22,419.059
+		<path style="fill:url(#SVGID_2_);" d="M119.22,230C80.992,230,50,260.984,50,299.221c0,38.226,30.992,69.221,69.22,69.221
+			c38.236,0,69.22-30.995,69.22-69.221C188.44,260.984,157.457,230,119.22,230z M119.22,349.059
 			c-27.523,0-49.838-22.313-49.838-49.838c0-27.529,22.315-49.838,49.838-49.838c27.531,0,49.839,22.309,49.839,49.838
-			C169.059,396.745,146.751,419.059,119.22,419.059z"/>
+			C169.059,326.745,146.751,349.059,119.22,349.059z"/>
 		<g>
-			<path style="fill:#FFFFFF;" d="M119.22,419.059c-27.523,0-49.838-22.313-49.838-49.838c0-27.529,22.315-49.838,49.838-49.838
-				c27.531,0,49.839,22.309,49.839,49.838C169.059,396.745,146.751,419.059,119.22,419.059z"/>
+			<path style="fill:#FFFFFF;" d="M119.22,349.059c-27.523,0-49.838-22.313-49.838-49.838c0-27.529,22.315-49.838,49.838-49.838
+				c27.531,0,49.839,22.309,49.839,49.838C169.059,326.745,146.751,349.059,119.22,349.059z"/>
 		</g>
 		<g>
-			<path style="fill:#808080;" d="M119.22,419.059c-27.523,0-49.838-22.313-49.838-49.838c0-27.529,22.315-48.453,49.838-48.453
-				c27.531,0,49.839,20.924,49.839,48.453C169.059,396.745,146.751,419.059,119.22,419.059z"/>
+			<path style="fill:#808080;" d="M119.22,349.059c-27.523,0-49.838-22.313-49.838-49.838c0-27.529,22.315-48.453,49.838-48.453
+				c27.531,0,49.839,20.924,49.839,48.453C169.059,326.745,146.751,349.059,119.22,349.059z"/>
 		</g>
 		<g>
-			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="119.2202" y1="320.7676" x2="119.2202" y2="417.6758">
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="119.2202" y1="250.7676" x2="119.2202" y2="347.6763">
 				<stop  offset="0" style="stop-color:#F2F2F2"/>
 				<stop  offset="1" style="stop-color:#D2D3D3"/>
 			</linearGradient>
-			<path style="fill:url(#SVGID_3_);" d="M119.22,417.676c-27.523,0-49.838-20.931-49.838-48.455
-				c0-27.529,22.315-48.453,49.838-48.453c27.531,0,49.839,20.924,49.839,48.453C169.059,396.745,146.751,417.676,119.22,417.676z"
+			<path style="fill:url(#SVGID_3_);" d="M119.22,347.676c-27.523,0-49.838-20.931-49.838-48.455
+				c0-27.529,22.315-48.453,49.838-48.453c27.531,0,49.839,20.924,49.839,48.453C169.059,326.745,146.751,347.676,119.22,347.676z"
 				/>
 		</g>
 	</g>
@@ -177,26 +176,14 @@
 		<rect x="250" y="428" style="fill:url(#SVGID_7_);" width="100" height="70"/>
 	</g>
 	<g id="lockscreen-lock-land-area-background-dragged">
-		<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="461.8389" y1="493.6797" x2="461.8389" y2="310">
-			<stop  offset="0" style="stop-color:#666666"/>
-			<stop  offset="1" style="stop-color:#B3B3B3"/>
-		</linearGradient>
-		<rect x="370" y="310" style="fill:url(#SVGID_8_);" width="183.679" height="183.68"/>
+		<rect x="370" y="310" style="fill:#939598;" width="183.679" height="183.68"/>
 		<g style="opacity:0.5;">
 			<path style="fill:#FFFFFF;" d="M533.679,330v143.68H390V330H533.679 M553.679,310H370v183.68h183.679V310L553.679,310z"/>
 		</g>
-		<g>
-			<path style="opacity:0.35;fill:#010101;" d="M461.839,453.68c-28.628,0-51.839-23.211-51.839-51.84
-				c0-28.635,23.211-51.84,51.839-51.84c28.637,0,51.84,23.205,51.84,51.84C513.679,430.469,490.476,453.68,461.839,453.68z"/>
-		</g>
 	</g>
 	<g id="lockscreen-lock-land-area-background-active">
-		<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="665.5186" y1="493.6797" x2="665.5186" y2="310">
-			<stop  offset="0" style="stop-color:#666666"/>
-			<stop  offset="1" style="stop-color:#B3B3B3"/>
-		</linearGradient>
-		<rect x="573.679" y="310" style="fill:url(#SVGID_9_);" width="183.68" height="183.68"/>
-		<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="665.5186" y1="310" x2="665.5186" y2="493.6797">
+		<rect x="573.679" y="310" style="fill:#939598;" width="183.68" height="183.68"/>
+		<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="665.5186" y1="310" x2="665.5186" y2="493.6797">
 			<stop  offset="0" style="stop-color:#8BD7F8"/>
 			<stop  offset="0.0805" style="stop-color:#7FCBF0"/>
 			<stop  offset="0.277" style="stop-color:#67B9E4"/>
@@ -204,10 +191,12 @@
 			<stop  offset="0.7151" style="stop-color:#4BA6D8"/>
 			<stop  offset="1" style="stop-color:#47A4D7"/>
 		</linearGradient>
-		<path style="fill:url(#SVGID_10_);" d="M737.358,330v143.68h-143.68V330H737.358 M757.358,310h-183.68v183.68h183.68V310
+		<path style="fill:url(#SVGID_8_);" d="M737.358,330v143.68h-143.68V330H737.358 M757.358,310h-183.68v183.68h183.68V310
 			L757.358,310z"/>
-		<path style="opacity:0.35;fill:#010101;" d="M665.519,453.68c-28.629,0-51.84-23.211-51.84-51.84
-			c0-28.635,23.211-51.84,51.84-51.84c28.637,0,51.84,23.205,51.84,51.84C717.358,430.469,694.155,453.68,665.519,453.68z"/>
+	</g>
+	<g id="lockscreen-lock-land-area-center-background">
+		<path style="opacity:0.35;fill:#010101;" d="M119.22,492.121c-28.628,0-51.839-23.211-51.839-51.84
+			c0-28.635,23.211-51.84,51.839-51.84c28.637,0,51.84,23.205,51.84,51.84C171.06,468.91,147.856,492.121,119.22,492.121z"/>
 	</g>
 </g>
 </svg>
