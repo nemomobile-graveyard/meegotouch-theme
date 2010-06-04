@@ -46,20 +46,16 @@
 		</g>
 		<g id="meegotouch-slider-handle-value-background">
 			<g>
-				<path style="fill:#FFFFFF;" d="M154,181c0,5.5-4.5,10-10,10h-28c-5.5,0-10-4.5-10-10v-26c0-5.5,4.5-10,10-10h28
-					c5.5,0,10,4.5,10,10V181z"/>
+				<path style="fill:#333333;" d="M162,188c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-44c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V188z"/>
 			</g>
 			<g>
-				<path style="fill:#333333;" d="M154,179c0,5.5-4.5,10-10,10h-28c-5.5,0-10-4.5-10-10v-26c0-5.5,4.5-10,10-10h28
-					c5.5,0,10,4.5,10,10V179z"/>
-			</g>
-			<g>
-				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="129.9995" y1="144" x2="129.9995" y2="190">
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="129.9995" y1="135" x2="129.9995" y2="197">
 					<stop  offset="0" style="stop-color:#F2F2F2"/>
 					<stop  offset="1" style="stop-color:#D2D3D3"/>
 				</linearGradient>
-				<path style="fill:url(#SVGID_1_);" d="M154,180c0,5.5-4.5,10-10,10h-28c-5.5,0-10-4.5-10-10v-26c0-5.5,4.5-10,10-10h28
-					c5.5,0,10,4.5,10,10V180z"/>
+				<path style="fill:url(#SVGID_1_);" d="M162,187c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h44
+					c5.5,0,10,4.5,10,10V187z"/>
 			</g>
 		</g>
 		<g id="meegotouch-slider-elapsed-background-vertical">
