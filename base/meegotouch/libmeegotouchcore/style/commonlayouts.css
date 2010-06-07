@@ -141,6 +141,11 @@ MContentItemStyle#singleLabel {
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE; 
     }
+    
+#CommonButtonLabel {
+    margin-left : $MARGIN_XLARGE;
+    margin-right : $MARGIN_XLARGE; 
+}
 
 
 /*  ICONS AND THUMBNAILS  */
@@ -183,6 +188,17 @@ MContentItemStyle#singleLabel {
 #CommonSwitchIcon {
 
     margin-right : $MARGIN_XLARGE;
+}
+
+#CommonButtonIcon {
+    margin-left : $MARGIN_XLARGE;
+    margin-right : 0;
+    margin-top : 0;
+    margin-bottom : 0;
+    maximum-size: 3.2mm 3.2mm;
+    minimum-size: 3.2mm 3.2mm;
+    preferred-size: 3.2mm 3.2mm;
+
 }
 
 #CommonThumbnail {
