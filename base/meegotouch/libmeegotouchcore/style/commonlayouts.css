@@ -267,6 +267,30 @@ MContentItemStyle#singleLabel {
     maximum-size : 50mm 6.4mm;
 }
 
+#CommonLeftButton {
+    margin-right : $MARGIN_LARGE;
+    margin-left : $MARGIN_XLARGE;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+    maximum-size : 50mm 6.4mm;
+}
+
+#CommonCenterButton {
+    margin-right : $MARGIN_LARGE;
+    margin-left : $MARGIN_LARGE;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+    maximum-size : 50mm 6.4mm;
+}
+
+#CommonRightButton {
+    margin-right : $MARGIN_XLARGE;
+    margin-left : $MARGIN_LARGE;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+    maximum-size : 50mm 6.4mm;
+}
+
 #CommonIconButton  {
 
     margin-top: $MARGIN_DOUBLE;
