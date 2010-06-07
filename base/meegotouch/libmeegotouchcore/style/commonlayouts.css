@@ -54,10 +54,31 @@ MContentItemStyle#singleLabel {
 
 }
 
+#CommonTitleInverted {
+
+    font : $FONT_LARGE;
+    margin-left : $MARGIN_XLARGE;
+    margin-right : $MARGIN_XLARGE; 
+    margin-top : $MARGIN_XLARGE;
+    margin-bottom : 0;
+    color: $COLOR_SECONDARY_FOREGROUND;
+
+}
+
 #CommonSubTitle {
 
     font : $FONT_SMALL;
     color : $COLOR_SECONDARY_FOREGROUND;				
+    margin-left : $MARGIN_XLARGE;
+    margin-right : $MARGIN_XLARGE; 
+    margin-top : $MARGIN_XSMALL;
+    margin-bottom : 0;
+}
+
+#CommonSubTitleAccented {
+	
+    font : $FONT_SMALL;
+    color : $COLOR_ACCENT1;
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE; 
     margin-top : $MARGIN_XSMALL;
@@ -73,6 +94,7 @@ MContentItemStyle#singleLabel {
     margin-top : $MARGIN_XSMALL;
     margin-bottom : 0;
 }
+
 }
 
 #CommonSubText {
@@ -168,6 +190,14 @@ MContentItemStyle#singleLabel {
     margin-right : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
     margin-bottom : $MARGIN_DOUBLE;
+}
+
+#CommonTitleIconTop {
+
+    margin-left : $MARGIN_XLARGE;
+    margin-right : 0;
+    margin-top : $MARGIN_LARGE;
+    margin-bottom : 0;
 }
 
 #CommonHeaderIcon {
