@@ -26,11 +26,6 @@ MTextEditStyle {
     change-selection-feedback: press-textedit-selection;
     cancel-feedback: cancel;
 
-    margin-top: $MARGIN_MEDIUM;
-    margin-bottom: $MARGIN_MEDIUM;
-    margin-left: $MARGIN_MEDIUM;
-    margin-right: $MARGIN_MEDIUM;
-
     padding-top: $PADDING_MEDIUM;
     padding-bottom: $PADDING_MEDIUM;
     padding-left: $PADDING_XLARGE;

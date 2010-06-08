@@ -11,10 +11,10 @@ MButtonStyle {
     vertical-text-align: vcenter;
     horizontal-text-align: hcenter;
 
-    margin-left: $MARGIN_MEDIUM;
-    margin-top: $MARGIN_MEDIUM;
-    margin-right: $MARGIN_MEDIUM;
-    margin-bottom: $MARGIN_MEDIUM;
+    margin-left: $MARGIN_DEFAULT;
+    margin-top: $MARGIN_DEFAULT;
+    margin-right: $MARGIN_DEFAULT;
+    margin-bottom: $MARGIN_DEFAULT;
 
     text-margin-left: $MARGIN_XLARGE;
     text-margin-top: 0;
