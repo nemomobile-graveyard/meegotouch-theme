@@ -1,41 +1,17 @@
-/* The MContentItemStyle part is temporary, for testing purposes */
-
-MContentItemStyle {
-    title-object-name: "CommonTitle";
-    subtitle-object-name: "CommonSubTitle";
-    minimum-size : 100 100;
-    margin-top : 0;
-    margin-left : 0;
-    margin-right : 0;
-    margin-bottom : 0;
-}
-
-MContentItemStyle#singleLabel {
-    title-object-name: "CommonSingleTitle";
-    subtitle-object-name: "CommonSubTitle";
-    minimum-size : 100 100;
-    margin-top : 0;
-    margin-left : 0;
-    margin-right : 0;
-    margin-bottom : 0;
-}
-
-
-
-
 /*  LABELS  */
-
 
 #CommonSingleTitle {
 
-    font : $FONT_LARGE;
+    font : $FONT_DEFAULT;
     margin-left : $MARGIN_XLARGE;    
-    margin-right : $MARGIN_XLARGE;    
+    margin-right : $MARGIN_XLARGE;
+    margin-top : 0;
+    margin-bottom : 0;
 }
 
 #CommonTitle {
 
-    font : $FONT_LARGE;
+    font : $FONT_DEFAULT;
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE; 
     margin-top : $MARGIN_XLARGE;
@@ -68,7 +44,7 @@ MContentItemStyle#singleLabel {
 #CommonSubTitle {
 
     font : $FONT_SMALL;
-    color : $COLOR_SECONDARY_FOREGROUND;				
+    color : $COLOR_SECONDARY_FOREGROUND;
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE; 
     margin-top : $MARGIN_XSMALL;
@@ -178,10 +154,10 @@ MContentItemStyle#singleLabel {
     maximum-size: 6.4mm 6.4mm;
     minimum-size: 6.4mm 6.4mm;
     preferred-size: 6.4mm 6.4mm;
-    margin-left : $MARGIN_XLARGE;
-    margin-top : 1.4mm;
-    margin-bottom : 1.4mm;
-    margin-right : 0;
+    margin-left : $MARGIN_DOUBLE;
+    margin-right : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+    margin-bottom : $MARGIN_DOUBLE;
 }
 
 #CommonTitleIcon {
@@ -213,6 +189,28 @@ MContentItemStyle#singleLabel {
     margin-right : $MARGIN_XSMALL;
     margin-top : $MARGIN_XSMALL;
     margin-bottom : $MARGIN_XSMALL;
+}
+
+#CommonSubIconTop {
+
+    maximum-size: 2.8mm 2.8mm;
+    minimum-size: 2.8mm 2.8mm;
+    preferred-size: 2.8mm 2.8mm;
+    margin-left : 0;
+    margin-right : $MARGIN_XLARGE;
+    margin-top : 0;
+    margin-bottom : $MARGIN_MEDIUM;
+}
+
+#CommonSubIconBottom {
+
+    maximum-size: 2.8mm 2.8mm;
+    minimum-size: 2.8mm 2.8mm;
+    preferred-size: 2.8mm 2.8mm;
+    margin-left : 0;
+    margin-right : $MARGIN_XLARGE;
+    margin-top : 0;
+    margin-bottom : 0;
 }
 
 #CommonSwitchIcon {
@@ -275,9 +273,10 @@ MContentItemStyle#singleLabel {
 }
 
 #CommonProgressBar {
-
+    margin-top : $MARGIN_DOUBLE;
     margin-left : $MARGIN_XLARGE;
     margin-right : $MARGIN_XLARGE;
+    maximum-size: -1 16;
 }
 
 #CommonInputField {
