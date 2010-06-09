@@ -10,5 +10,9 @@ MApplicationPageStyle {
     preferred-size: 100% 100%;
     maximum-size: 100% 100%;
 
-    background-image: "meegotouch-applicationpage-background";
+    background-image: "meegotouch-applicationpage-background" 10px 10px 10px 10px;
+}
+
+MApplicationPageStyle.Portrait {
+    background-image: "meegotouch-applicationpage-portrait-background" 10px 10px 10px 10px;
 }
