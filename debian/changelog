@@ -1,4 +1,15 @@
-meegotouchtheme (0.20.17-1) lucid; urgency=low
+meegotouchtheme (0.20.18-1) unstable; urgency=low
+
+  * New version
+  * Changes:  new icons added
+  * Changes: added generic green and red button graphics. Changed group order in textfieldbuttoncomb
+  * Changes: updated lockscreen.svg
+  * Changes: added app background image for portrait and landscape views
+  * Changes: added items for banner to commonlayouts.css
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 10 Jun 2010 11:48:56 +0300
+
+meegotouchtheme (0.20.17-1) unstable; urgency=low
 
   * New version
   * Changes: Changed CommonSingleTitle, subtitles, added side top icon and side bottom icon.
