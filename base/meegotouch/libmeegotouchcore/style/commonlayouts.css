@@ -493,6 +493,94 @@
    margin-left : $INDENT_DEFAULT;
 }
 
+/*  split buttons   */
+
+#CommonSplitButtonVerticalTop {
+	background-image : 'meegotouch-button-background-vertical-top';
+	margin-left : $INDENT_DEFAULT;
+	margin-right : $INDENT_DEFAULT;
+	margin-top : $MARGIN_DOUBLE;
+	margin-bottom : 0;
+}
+#CommonSplitButtonVerticalTop:pressed {
+	background-image : 'meegotouch-button-background-pressed-vertical-top';
+}
+#CommonSplitButtonVerticalTop:selected {
+	background-image : 'meegotouch-button-background-selected-vertical-top';
+}
+
+#CommonSplitButtonVerticalCenter {
+	background-image : 'meegotouch-button-background-vertical-center';
+	margin-left : $INDENT_DEFAULT;
+	margin-right : $INDENT_DEFAULT;
+	margin-top : 0;
+	margin-bottom : 0;	
+}
+#CommonSplitButtonVerticalCenter:pressed {
+	background-image : 'meegotouch-button-background-pressed-vertical-center';
+}
+#CommonSplitButtonVerticalCenter:selected {
+	background-image : 'meegotouch-button-background-selected-vertical-center';
+}
+
+#CommonSplitButtonVerticalBottom {
+	background-image : 'meegotouch-button-background-vertical-bottom';
+	margin-left : $INDENT_DEFAULT;
+	margin-right : $INDENT_DEFAULT;
+	margin-top : 0;
+	margin-bottom : $MARGIN_DOUBLE;
+}
+#CommonSplitButtonVerticalBottom:pressed {
+	background-image : 'meegotouch-button-background-pressed-vertical-bottom';
+}
+#CommonSplitButtonVerticalBottom:selected {
+	background-image : 'meegotouch-button-background-selected-vertical-bottom';
+}
+
+#CommonSplitButtonHorizontalLeft {
+	background-image : 'meegotouch-button-background-horizontal-left';
+	margin-top : $MARGIN_DOUBLE;
+	margin-bottom : $MARGIN_DOUBLE;
+	margin-left : $INDENT_DEFAULT;
+	margin-right : 0;
+}
+#CommonSplitButtonHorizontalLeft:pressed {
+	background-image : 'meegotouch-button-background-pressed-horizontal-left';
+}
+#CommonSplitButtonHorizontalLeft:selected {
+	background-image : 'meegotouch-button-background-selected-horizontal-left';
+}
+
+#CommonSplitButtonHorizontalCenter {
+	background-image : 'meegotouch-button-background-horizontal-center';
+	margin-top : $MARGIN_DOUBLE;
+	margin-bottom : $MARGIN_DOUBLE;
+	margin-left : 0;
+	margin-right : 0;
+
+}
+#CommonSplitButtonHorizontalCenter:pressed {
+	background-image : 'meegotouch-button-background-pressed-horizontal-center';
+}
+#CommonSplitButtonHorizontalCenter:selected {
+	background-image : 'meegotouch-button-background-selected-horizontal-center';
+}
+
+#CommonSplitButtonHorizontalRight {
+	background-image : 'meegotouch-button-background-horizontal-right';
+	margin-top : $MARGIN_DOUBLE;
+	margin-bottom : $MARGIN_DOUBLE;
+	margin-left : 0;
+	margin-right : $INDENT_DEFAULT;
+}
+#CommonSplitButtonHorizontalRight:pressed {
+	background-image : 'meegotouch-button-background-pressed-horizontal-right';
+}
+#CommonSplitButtonHorizontalRight:selected {
+	background-image : 'meegotouch-button-background-selected-horizontal-right';
+}
+
+
 /*  PANELS & LAYOUTS */
 
 
