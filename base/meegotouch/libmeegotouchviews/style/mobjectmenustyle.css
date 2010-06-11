@@ -7,6 +7,8 @@ MObjectMenuStyle {
 
     vertical-align: center;
     horizontal-align: center;
+
+    appear-feedback: appear-objectmenu;
 }
 
 MObjectMenu MButtonStyle {
