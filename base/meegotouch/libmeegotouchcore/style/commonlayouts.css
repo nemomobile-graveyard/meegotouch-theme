@@ -41,6 +41,17 @@
 
 }
 
+
+#CommonSingleTitleInverted {
+
+    font : $FONT_DEFAULT;
+    margin-left : $INDENT_DEFAULT;    
+    margin-right : $INDENT_DEFAULT;
+    margin-top : 0;
+    margin-bottom : 0;
+    color : $COLOR_INVERTED_FOREGROUND;
+}
+
 #CommonSubTitle {
 
     font : $FONT_SMALL;
