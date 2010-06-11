@@ -94,7 +94,7 @@
 			<rect x="168" y="432" style="fill:url(#SVGID_5_);" width="64" height="64"/>
 			<rect x="168" y="490" style="fill:#63AF45;" width="64" height="6"/>
 		</g>
-		<g id="meegotouch-viewmenu-background-pressed-bottom">
+		<g id="meegotouch-viewmenu-background-pressed-bottom-center">
 			<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="126" y1="496" x2="126" y2="432">
 				<stop  offset="0" style="stop-color:#B3B3B3"/>
 				<stop  offset="1" style="stop-color:#4D4D4D"/>
@@ -110,7 +110,7 @@
 			<rect x="20" y="432" style="fill:url(#SVGID_7_);" width="64" height="64"/>
 			<rect x="20" y="490" style="fill:#63AF45;" width="64" height="6"/>
 		</g>
-		<g id="meegotouch-viewmenu-background-pressed-right">
+		<g id="meegotouch-viewmenu-background-pressed-center-right">
 			<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="200" y1="422" x2="200" y2="358">
 				<stop  offset="0" style="stop-color:#B3B3B3"/>
 				<stop  offset="1" style="stop-color:#4D4D4D"/>
@@ -124,7 +124,7 @@
 			</linearGradient>
 			<rect x="94" y="358" style="fill:url(#SVGID_9_);" width="64" height="64"/>
 		</g>
-		<g id="meegotouch-viewmenu-background-pressed-left">
+		<g id="meegotouch-viewmenu-background-pressed-center-left">
 			<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="52" y1="422" x2="52" y2="358">
 				<stop  offset="0" style="stop-color:#B3B3B3"/>
 				<stop  offset="1" style="stop-color:#4D4D4D"/>
@@ -139,7 +139,7 @@
 			<rect x="168" y="284" style="fill:url(#SVGID_11_);" width="64" height="64"/>
 			<rect x="168" y="284" style="fill:#63AF45;" width="64" height="6"/>
 		</g>
-		<g id="meegotouch-viewmenu-background-pressed-top">
+		<g id="meegotouch-viewmenu-background-pressed-top-center">
 			<linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="126" y1="348" x2="126" y2="284.0005">
 				<stop  offset="0" style="stop-color:#B3B3B3"/>
 				<stop  offset="1" style="stop-color:#4D4D4D"/>
@@ -155,11 +155,11 @@
 			<rect x="20" y="284" style="fill:url(#SVGID_13_);" width="64" height="64"/>
 			<rect x="20" y="284" style="fill:#63AF45;" width="64" height="6"/>
 		</g>
-		<g id="meegotouch-viewmenu-background-bottom">
+		<g id="meegotouch-viewmenu-background-bottom-right">
 			<rect x="168" y="208" style="opacity:0;fill:#010101;" width="64" height="64"/>
 			<rect x="168" y="266" style="fill:#63AF45;" width="64" height="6"/>
 		</g>
-		<g id="meegotouch-viewmenu-background-bottom-right">
+		<g id="meegotouch-viewmenu-background-bottom-center">
 			<rect x="94" y="208" style="opacity:0;fill:#010101;" width="64" height="64"/>
 			<rect x="94" y="266" style="fill:#63AF45;" width="64" height="6"/>
 			<rect x="157" y="208" style="opacity:0.2;fill:#010101;" width="1" height="58"/>
@@ -169,14 +169,14 @@
 			<rect x="20" y="266" style="fill:#63AF45;" width="64" height="6"/>
 			<rect x="83" y="208" style="opacity:0.2;fill:#010101;" width="1" height="58"/>
 		</g>
-		<g id="meegotouch-viewmenu-background-right" style="opacity:0;">
+		<g id="meegotouch-viewmenu-background-center-right" style="opacity:0;">
 			<rect x="168" y="134" style="opacity:0;fill:#010101;" width="64" height="64"/>
 		</g>
 		<g id="meegotouch-viewmenu-background-center">
 			<rect x="94" y="134" style="opacity:0;fill:#010101;" width="64" height="64"/>
 			<rect x="157" y="134" style="opacity:0.2;fill:#010101;" width="1" height="64"/>
 		</g>
-		<g id="meegotouch-viewmenu-background-left">
+		<g id="meegotouch-viewmenu-background-center-left">
 			<rect x="20" y="134" style="opacity:0;fill:#010101;" width="64" height="64"/>
 			<rect x="83" y="134" style="opacity:0.2;fill:#010101;" width="1" height="64"/>
 		</g>
@@ -184,7 +184,7 @@
 			<rect x="168" y="60" style="opacity:0;fill:#010101;" width="64" height="64"/>
 			<rect x="168" y="60" style="fill:#63AF45;" width="64" height="6"/>
 		</g>
-		<g id="meegotouch-viewmenu-background-top">
+		<g id="meegotouch-viewmenu-background-top-center">
 			<rect x="94" y="60" style="opacity:0;fill:#010101;" width="64" height="64"/>
 			<rect x="94" y="60" style="fill:#63AF45;" width="64" height="6"/>
 			<rect x="157" y="66" style="opacity:0.2;fill:#010101;" width="1" height="58"/>
