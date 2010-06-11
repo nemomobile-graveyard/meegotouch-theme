@@ -1,0 +1,32 @@
+/* MBannerStyle : MWidgetStyle */
+MBannerStyle {
+    icon-size: $SIZE_ICON $SIZE_ICON;
+
+    maximum-size: 100% 6.4mm;
+
+    disappear-timeout: 3000;
+    background-image : "meegotouch-notification-event-background" 10px 10px 10px 10px;
+}
+
+MBannerStyle[event] {
+    background-image : "meegotouch-notification-event-background" 10px 10px 10px 10px;
+}
+
+MBannerStyle[event]:pressed {
+    background-image : "meegotouch-notification-event-background-pressed" 10px 10px 10px 10px;
+}
+MBannerStyle[information] {
+    background-image : "meegotouch-notification-information-background" 10px 10px 10px 10px;
+}
+
+MBannerStyle[information]:pressed {
+    background-image : "meegotouch-notification-information-background-pressed" 10px 10px 10px 10px;
+}
+
+MBannerStyle[system] {
+    background-image : "meegotouch-notification-system-background" 10px 10px 10px 10px;
+}
+
+MBannerStyle[system]:pressed {
+    background-image : "meegotouch-notification-system-background-pressed" 10px 10px 10px 10px;
+}
