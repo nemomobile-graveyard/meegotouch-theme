@@ -11,6 +11,11 @@ MButtonSwitchStyle {
     minimum-size: 7.2mm 4.4mm;
     maximum-size: 7.2mm 4.4mm;
     preferred-size: 7.2mm 4.4mm;
+    
+    reactive-margin-left: $MARGIN_XLARGE;
+    reactive-margin-right: $MARGIN_XLARGE;
+    reactive-margin-top: $MARGIN_XLARGE;
+    reactive-margin-bottom: $MARGIN_XLARGE;
 }
 
 MButtonSwitchStyle:pressed {
