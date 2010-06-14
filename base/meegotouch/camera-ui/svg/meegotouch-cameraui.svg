@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="meegotouch-cameraui-layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="153px" height="963px" viewBox="0 0 153 963" style="enable-background:new 0 0 153 963;"
+	 xml:space="preserve">
+<g id="meegotouch-cameraui">
+	<g id="CameraUiThemeTemplateHelper">
+		<g>
+			<path style="fill:#B3B3B3;" d="M16,962.194c-8.271,0-15-6.729-15-15V17C1,8.729,7.729,2,16,2h120.631c8.271,0,15,6.729,15,15
+				v930.194c0,8.271-6.729,15-15,15H16z"/>
+			<g>
+				<path d="M136.631,3c7.72,0,14,6.28,14,14v930.194c0,7.72-6.28,14-14,14H16c-7.72,0-14-6.28-14-14V17C2,9.28,8.28,3,16,3H136.631
+					 M136.631,1H16C7.2,1,0,8.2,0,17v930.194c0,8.8,7.2,16,16,16h120.631c8.8,0,16-7.2,16-16V17C152.631,8.2,145.431,1,136.631,1
+					L136.631,1z"/>
+			</g>
+		</g>
+		<path style="fill:#010101;" d="M21.577,27.811c-0.372,0.191-1.151,0.384-2.135,0.384c-2.279,0-3.982-1.438-3.982-4.102
+			c0-2.542,1.715-4.245,4.222-4.245c0.996,0,1.643,0.215,1.919,0.359l-0.264,0.852c-0.384-0.191-0.948-0.336-1.619-0.336
+			c-1.895,0-3.154,1.211-3.154,3.334c0,1.99,1.139,3.25,3.094,3.25c0.648,0,1.295-0.132,1.715-0.336L21.577,27.811z"/>
+		<path style="fill:#010101;" d="M26.857,26.672c0,0.503,0.024,0.994,0.084,1.391h-0.947l-0.084-0.731h-0.036
+			c-0.324,0.456-0.947,0.863-1.775,0.863c-1.175,0-1.775-0.827-1.775-1.667c0-1.403,1.247-2.171,3.49-2.158v-0.121
+			c0-0.467-0.132-1.343-1.319-1.33c-0.552,0-1.116,0.155-1.523,0.432l-0.24-0.708c0.479-0.3,1.187-0.504,1.919-0.504
+			c1.775,0,2.207,1.212,2.207,2.362V26.672z M25.838,25.1c-1.151-0.023-2.458,0.18-2.458,1.308c0,0.696,0.456,1.008,0.983,1.008
+			c0.768,0,1.259-0.479,1.427-0.972c0.036-0.12,0.048-0.24,0.048-0.336V25.1z"/>
+		<path style="fill:#010101;" d="M28.564,23.828c0-0.611-0.024-1.091-0.048-1.57h0.923l0.048,0.947h0.036
+			c0.324-0.552,0.864-1.067,1.835-1.067c0.78,0,1.379,0.479,1.631,1.163h0.024c0.18-0.336,0.419-0.575,0.66-0.756
+			c0.348-0.264,0.719-0.407,1.271-0.407c0.78,0,1.919,0.504,1.919,2.519v3.406h-1.031v-3.274c0-1.127-0.42-1.786-1.259-1.786
+			c-0.612,0-1.067,0.443-1.259,0.947c-0.048,0.155-0.084,0.336-0.084,0.527v3.586h-1.031v-3.479c0-0.923-0.408-1.582-1.211-1.582
+			c-0.648,0-1.14,0.527-1.308,1.055c-0.06,0.145-0.084,0.336-0.084,0.516v3.49h-1.031V23.828z"/>
+		<path style="fill:#010101;" d="M39.16,25.352c0.024,1.428,0.923,2.016,1.991,2.016c0.755,0,1.223-0.133,1.607-0.301l0.192,0.756
+			c-0.372,0.168-1.019,0.372-1.943,0.372c-1.787,0-2.854-1.187-2.854-2.938c0-1.751,1.032-3.118,2.723-3.118
+			c1.907,0,2.399,1.655,2.399,2.723c0,0.216-0.012,0.372-0.036,0.491H39.16z M42.254,24.596c0.012-0.658-0.276-1.702-1.463-1.702
+			c-1.08,0-1.535,0.972-1.619,1.702H42.254z"/>
+		<path style="fill:#010101;" d="M44.583,24.068c0-0.684-0.012-1.271-0.048-1.811h0.923l0.048,1.151h0.036
+			c0.264-0.78,0.912-1.271,1.619-1.271c0.108,0,0.192,0.013,0.288,0.024v0.995c-0.108-0.024-0.216-0.024-0.36-0.024
+			c-0.744,0-1.271,0.553-1.416,1.344c-0.024,0.145-0.036,0.324-0.036,0.492v3.094h-1.056V24.068z"/>
+		<path style="fill:#010101;" d="M52.525,26.672c0,0.503,0.024,0.994,0.084,1.391h-0.947l-0.084-0.731h-0.036
+			c-0.324,0.456-0.947,0.863-1.775,0.863c-1.175,0-1.775-0.827-1.775-1.667c0-1.403,1.247-2.171,3.49-2.158v-0.121
+			c0-0.467-0.132-1.343-1.319-1.33c-0.552,0-1.116,0.155-1.523,0.432l-0.24-0.708c0.479-0.3,1.187-0.504,1.919-0.504
+			c1.775,0,2.207,1.212,2.207,2.362V26.672z M51.506,25.1c-1.151-0.023-2.458,0.18-2.458,1.308c0,0.696,0.456,1.008,0.983,1.008
+			c0.768,0,1.259-0.479,1.427-0.972c0.036-0.12,0.048-0.24,0.048-0.336V25.1z"/>
+		<path style="fill:#010101;" d="M55.311,19.979v4.798c0,1.799,0.803,2.566,1.883,2.566c1.188,0,1.967-0.792,1.967-2.566v-4.798
+			h1.056v4.727c0,2.482-1.308,3.489-3.059,3.489c-1.655,0-2.902-0.936-2.902-3.454v-4.762H55.311z"/>
+		<path style="fill:#010101;" d="M63.171,20.627c0,0.359-0.252,0.647-0.671,0.647c-0.384,0-0.636-0.288-0.636-0.647
+			c0-0.36,0.264-0.66,0.66-0.66C62.907,19.967,63.171,20.255,63.171,20.627z M61.996,28.062v-5.805h1.056v5.805H61.996z"/>
+	</g>
+	<g id="meegotouch-camera-pre-capture-button-top-background">
+		<path style="fill:#1A1A1A;" d="M37.028,852.694c-3.032,0-5.5,2.467-5.5,5.5v82.5h80v-88H37.028z"/>
+		<rect x="43.528" y="939.694" style="fill:#808080;" width="56" height="1"/>
+	</g>
+	<g id="meegotouch-camera-pre-capture-button-top-background-pressed">
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="71.5288" y1="839.3945" x2="71.5288" y2="751.3945">
+			<stop  offset="0" style="stop-color:#2AAAE2"/>
+			<stop  offset="0.2954" style="stop-color:#35ADDF"/>
+			<stop  offset="0.5844" style="stop-color:#4BB5DC"/>
+			<stop  offset="0.8699" style="stop-color:#66C2D6"/>
+			<stop  offset="1" style="stop-color:#74CCD4"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_1_);" d="M37.028,751.395c-3.032,0-5.5,2.469-5.5,5.5v82.5h80v-88H37.028z"/>
+	</g>
+	<g id="meegotouch-camera-pre-capture-button-bottom-background">
+		<path style="fill:#1A1A1A;" d="M31.528,732.595c0,3.033,2.468,5.5,5.5,5.5h74.5v-88.001h-80V732.595z"/>
+		<rect x="43.528" y="650.094" style="fill:#010101;" width="56" height="1"/>
+	</g>
+	<g id="meegotouch-camera-pre-capture-button-bottom-background-pressed">
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="71.5288" y1="636.7939" x2="71.5288" y2="548.7949">
+			<stop  offset="0" style="stop-color:#2AAAE2"/>
+			<stop  offset="0.2954" style="stop-color:#35ADDF"/>
+			<stop  offset="0.5844" style="stop-color:#4BB5DC"/>
+			<stop  offset="0.8699" style="stop-color:#66C2D6"/>
+			<stop  offset="1" style="stop-color:#74CCD4"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_2_);" d="M31.528,631.294c0,3.033,2.468,5.5,5.5,5.5h74.5v-87.999h-80V631.294z"/>
+	</g>
+	<g id="meegotouch-camera-panorama-stitchingbutton-background">
+		<path style="fill:#1A1A1A;" d="M37.028,530.994c-3.033,0-5.5-2.469-5.5-5.5v-68c0-3.033,2.467-5.5,5.5-5.5h74v79H37.028z"/>
+	</g>
+	<g id="meegotouch-camera-panorama-stitchingbutton-background-pressed">
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="71.2788" y1="429.6943" x2="71.2788" y2="350.6943">
+			<stop  offset="0" style="stop-color:#2AAAE2"/>
+			<stop  offset="0.2954" style="stop-color:#35ADDF"/>
+			<stop  offset="0.5844" style="stop-color:#4BB5DC"/>
+			<stop  offset="0.8699" style="stop-color:#66C2D6"/>
+			<stop  offset="1" style="stop-color:#74CCD4"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_3_);" d="M37.028,429.694c-3.033,0-5.5-2.468-5.5-5.5v-68c0-3.032,2.467-5.5,5.5-5.5h74v79H37.028z"
+			/>
+	</g>
+	<g id="meegotouch-camera-exposurevalue-tickmark">
+		<rect x="31.028" y="330.194" style="opacity:0.5;fill:#231F20;" width="1" height="10"/>
+		<rect x="32.028" y="330.194" style="fill:#FFFFFF;" width="1" height="10"/>
+	</g>
+	<g id="meegotouch-camera-capture-memoryremaining-image-background">
+		<path style="fill:#EF3F23;" d="M51.713,318.194c0,1.101-0.9,2-2,2h-18c-1.1,0-2-0.899-2-2v-18c0-1.101,0.9-2,2-2h18
+			c1.1,0,2,0.899,2,2V318.194z"/>
+	</g>
+	<g id="meegotouch-camera-capture-memoryremaining-video-background">
+		<path style="fill:#EF3F23;" d="M67.713,286.194c0,1.101-0.9,2-2,2h-34c-1.1,0-2-0.899-2-2v-18c0-1.101,0.9-2,2-2h34
+			c1.1,0,2,0.899,2,2V286.194z"/>
+	</g>
+	<g id="meegotouch-camera-videocapture-timeelapsed-background">
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="69.2129" y1="245.1943" x2="30.2129" y2="245.1943">
+			<stop  offset="0" style="stop-color:#1A1A1A"/>
+			<stop  offset="1" style="stop-color:#000000"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_4_);" d="M31.713,255.694c-0.827,0-1.5-0.673-1.5-1.5v-18c0-0.827,0.673-1.5,1.5-1.5h36
+			c0.827,0,1.5,0.673,1.5,1.5v18c0,0.827-0.673,1.5-1.5,1.5H31.713z"/>
+		<path style="fill:#666666;" d="M67.713,235.194c0.551,0,1,0.448,1,1v18c0,0.552-0.449,1-1,1h-36c-0.551,0-1-0.448-1-1v-18
+			c0-0.552,0.449-1,1-1H67.713 M67.713,234.194h-36c-1.1,0-2,0.899-2,2v18c0,1.101,0.9,2,2,2h36c1.1,0,2-0.899,2-2v-18
+			C69.713,235.094,68.813,234.194,67.713,234.194L67.713,234.194z"/>
+	</g>
+	<g id="meegotouch-camera-zoom-bar">
+		<rect x="30.213" y="211.541" style="fill:#010101;" width="12" height="12"/>
+	</g>
+	<g id="meegotouch-camera-zoom-level">
+		<path style="fill:#FFFFFF;" d="M125.713,189.551c2.2,0,4,1.801,4,4l0,0c0,2.201-1.8,4-4,4h-92c-2.2,0-4-1.799-4-4l0,0
+			c0-2.199,1.8-4,4-4H125.713z"/>
+	</g>
+	<g id="meegotouch-camera-capture-switcher-handle-background">
+		<radialGradient id="SVGID_5_" cx="48.7129" cy="148.9658" r="25" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#000000"/>
+			<stop  offset="1" style="stop-color:#000000;stop-opacity:0.1"/>
+		</radialGradient>
+		<circle style="fill:url(#SVGID_5_);" cx="48.713" cy="148.966" r="25"/>
+		<circle style="fill:#FFFFFF;" cx="48.713" cy="148.966" r="23.75"/>
+		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="26.2129" y1="148.9658" x2="71.2129" y2="148.9658">
+			<stop  offset="0" style="stop-color:#E6E6E6"/>
+			<stop  offset="0.5042" style="stop-color:#F2F2F2"/>
+			<stop  offset="1" style="stop-color:#F7F7F7"/>
+		</linearGradient>
+		<circle style="fill:url(#SVGID_6_);stroke:#FFFFFF;" cx="48.713" cy="148.966" r="22.5"/>
+	</g>
+	<g id="meegotouch-camera-capture-switcher-handle-background-pressed">
+		<radialGradient id="SVGID_7_" cx="48.7129" cy="88.9658" r="25" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#000000"/>
+			<stop  offset="1" style="stop-color:#000000;stop-opacity:0.1"/>
+		</radialGradient>
+		<circle style="fill:url(#SVGID_7_);" cx="48.713" cy="88.966" r="25"/>
+		<circle style="fill:#FFFFFF;" cx="48.713" cy="88.966" r="23.75"/>
+		<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="48.7129" y1="111.4658" x2="48.7129" y2="66.4658">
+			<stop  offset="0" style="stop-color:#2AAAE2"/>
+			<stop  offset="0.2954" style="stop-color:#35ADDF"/>
+			<stop  offset="0.5844" style="stop-color:#4BB5DC"/>
+			<stop  offset="0.8699" style="stop-color:#66C2D6"/>
+			<stop  offset="1" style="stop-color:#74CCD4"/>
+		</linearGradient>
+		<circle style="fill:url(#SVGID_8_);" cx="48.713" cy="88.966" r="22.5"/>
+	</g>
+</g>
+</svg>
