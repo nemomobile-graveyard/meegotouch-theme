@@ -145,7 +145,7 @@
 			</linearGradient>
 			<path style="fill:url(#SVGID_4_);" d="M204,51h37.676C247.354,51,252,55.5,252,61v26c0,5.5-4.646,10-10.324,10H204V51z"/>
 		</g>
-		<g id="meegotouch-textedit-combo-background-pressed-vertical-bottom">
+		<g id="meegotouch-textedit-combo-background-selected-vertical-bottom">
 			<path style="fill:#CCCCCC;" d="M146,261c0,5.5,4.5,10,10,10h38v-46h-48V261z"/>
 			<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="170.0005" y1="270" x2="170.0005" y2="223">
 				<stop  offset="0" style="stop-color:#29ABE2"/>
@@ -155,13 +155,13 @@
 			<rect x="193" y="223" style="fill:#CCCCCC;" width="1" height="47"/>
 			<rect x="146" y="223" style="fill:#808080;" width="47" height="1"/>
 		</g>
-		<g id="meegotouch-textedit-combo-background-pressed-vertical-center">
+		<g id="meegotouch-textedit-combo-background-selected-vertical-center">
 			<rect x="146" y="166" style="fill:#66C0EF;" width="48" height="47"/>
 			<rect x="146" y="212" style="opacity:0.2;fill:#FFFFFF;" width="47" height="1"/>
 			<rect x="146" y="166" style="fill:#808080;" width="47" height="1"/>
 			<rect x="193" y="166" style="fill:#CCCCCC;" width="1" height="47"/>
 		</g>
-		<g id="meegotouch-textedit-combo-background-pressed-vertical-top">
+		<g id="meegotouch-textedit-combo-background-selected-vertical-top">
 			<path style="fill:#808080;" d="M146,118c0-5.5,4.5-10,10-10h38v46h-48V118z"/>
 			<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="170.0005" y1="156" x2="170.0005" y2="109">
 				<stop  offset="0" style="stop-color:#66C0EF"/>
@@ -171,7 +171,7 @@
 			<rect x="193" y="109" style="fill:#CCCCCC;" width="1" height="47"/>
 			<rect x="146" y="155" style="opacity:0.2;fill:#FFFFFF;" width="47" height="1"/>
 		</g>
-		<g id="meegotouch-textedit-combo-background-pressed">
+		<g id="meegotouch-textedit-combo-background-selected">
 			<path d="M194,50h-37.996C150.502,50,146,54.5,146,60v14.667c0,5.5,4.502-6,10.004-6H194V50z"/>
 			<path style="fill:#CCCCCC;" d="M156.004,72.667c-5.502,0-10.004-11.5-10.004-6V88c0,5.5,4.502,10,10.004,10H194V72.667H156.004z"
 				/>
