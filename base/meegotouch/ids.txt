@@ -104,6 +104,8 @@ meegotouch-speechbubble-outgoing-mirrored-background-pressed
 #meegotouch-dialog
 meegotouch-dialog-header-background
 meegotouch-dialog-background
+meegotouch-dialog-query-button-area-background
+meegotouch-dialog-button-area-background
 meegotouch-button-dialog-background-horizontal-left
 meegotouch-button-dialog-background-horizontal-center
 meegotouch-button-dialog-background-horizontal-right
