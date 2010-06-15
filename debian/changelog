@@ -1,3 +1,17 @@
+meegotouchtheme (0.20.20-1) unstable; urgency=low
+
+  * New version
+  * Changes: updated background image for view menu
+  * Changes: added the DUI-metatheme cruft back since controlpanel is still broken.
+  * Changes: icon changes
+  * Changes: fixed typo in textfield-button-combo graphics and updated the logical names in ids.txt
+  * Changes: new icon to the theme, removed the old dui-metatheme section from index.theme
+  * Fixes: missing icon-l-meegotouch-devel.svg in duitheme.pro
+  * Changes: Updated all common graphics.
+  * Changes: use correct gfx ids
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 15 Jun 2010 13:40:33 +0300
+
 meegotouchtheme (0.20.19-1) unstable; urgency=low
 
   * New version
