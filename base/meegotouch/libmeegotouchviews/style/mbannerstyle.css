@@ -1,13 +1,12 @@
 /* MBannerStyle : MWidgetStyle */
 MBannerStyle {
-    icon-size: $SIZE_ICON $SIZE_ICON;
-
+    icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
     maximum-size: 100% 6.4mm;
-
+    padding-left: $MARGIN_XLARGE;
+    padding-right: $MARGIN_XLARGE;
     disappear-timeout: 3000;
     background-image : "meegotouch-notification-event-background" 10px 10px 10px 10px;
 }
-
 MBannerStyle[event] {
     background-image : "meegotouch-notification-event-background" 10px 10px 10px 10px;
 }

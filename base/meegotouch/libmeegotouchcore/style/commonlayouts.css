@@ -168,21 +168,21 @@
 #CommonBannerSubTitle {
     font : $FONT_DEFAULT;
     color : $COLOR_FOREGROUND;
-    margin-left : $INDENT_DEFAULT;
-    margin-top : $MARGIN_XSMALL;
+    margin-top : $MARGIN_XLARGE;
     margin-bottom : 0;
 }
 
 #CommonBannerSingleTitle {
     font : $FONT_DEFAULT;
     color : $COLOR_INVERTED_FOREGROUND;
-    margin-left : $INDENT_DEFAULT;
+    margin-right: $MARGIN_XXLARGE;
 }
 
 #CommonBannerSingleSubTitle {
     font : $FONT_DEFAULT;
     color : $COLOR_FOREGROUND;
-    margin-left : $INDENT_DEFAULT;
+    margin-left:0;
+
 }
 
 #CommonBannerItemInfo {
@@ -370,24 +370,11 @@
 }
 
 
-#CommonBannerMainIcon.Landscape {
+#CommonBannerMainIcon {
     maximum-size: 4.8mm 4.8mm;
     minimum-size: 4.8mm 4.8mm;
     preferred-size: 4.8mm 4.8mm;
-    margin-left : $INDENT_DEFAULT;
-    margin-right : 0;
-    margin-top : $MARGIN_DOUBLE;
-    margin-bottom : $MARGIN_DOUBLE;
-}
-
-#CommonBannerMainIcon.Portrait {
-    maximum-size: 6.4mm 6.4mm;
-    minimum-size: 6.4mm 6.4mm;
-    preferred-size: 6.4mm 6.4mm;
-    margin-left : $INDENT_DEFAULT;
-    margin-right : 0;
-    margin-top : $MARGIN_DOUBLE;
-    margin-bottom : $MARGIN_DOUBLE;
+    margin-right : $MARGIN_XLARGE;
 }
 
 #CommonThumbnail {
