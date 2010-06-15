@@ -1,7 +1,7 @@
 /* MApplicationMenuStyle : MSceneWindowStyle */
 MApplicationMenuStyle {
 
-    canvas-image: "duimenu-background" 10px 10px 10px 10px;
+    canvas-image: "meegotouch-navigationbar-viewmenu-background" 10px 10px 10px 10px;
     canvas-color: #000000;
     canvas-opacity: 1.0;
     canvas-margin: $MARGIN_DOUBLE;
