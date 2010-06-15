@@ -1,4 +1,4 @@
-/*  LABELS  */
+Ôªø/*  LABELS  */
 
 #CommonSingleTitle {
 
@@ -197,91 +197,91 @@
 
 #CommonSubTitleUnread {
 
-    font : $FONT_SMALL;
-    color : $COLOR_ACCENT1;
+    font : $FONT_SMALL;
+    color : $COLOR_ACCENT1;
 
-    margin-left : $INDENT_DEFAULT;
-    margin-right : $INDENT_DEFAULT;
-    margin-top : $MARGIN_XSMALL;
-    margin-bottom : 0;
+    margin-left : $INDENT_DEFAULT;
+    margin-right : $INDENT_DEFAULT;
+    margin-top : $MARGIN_XSMALL;
+    margin-bottom : 0;
 }
 
 
 #CommonTitleUnreadLeftMargin {
 
-    font : $FONT_LARGE;
-    color : $COLOR_ACCENT1;
+    font : $FONT_LARGE;
+    color : $COLOR_ACCENT1;
 
-    margin-left : $INDENT_DEFAULT;
-    margin-right : 0;
-    margin-top : $MARGIN_XLARGE;
-    margin-bottom : 0;
+    margin-left : $INDENT_DEFAULT;
+    margin-right : 0;
+    margin-top : $MARGIN_XLARGE;
+    margin-bottom : 0;
 }
 
 
 #CommonTitleUnreadRightMargin {
 
-    font : $FONT_DEFAULT;
-    color : #4444DD; /* temporary for demo - should be $COLOR_ACCENT1; */
+    font : $FONT_DEFAULT;
+    color : #4444DD; /* temporary for demo - should be $COLOR_ACCENT1; */
 
-    margin-left : 0;
-    margin-right : $INDENT_DEFAULT;
-    margin-top : $MARGIN_XLARGE;
-    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : $INDENT_DEFAULT;
+    margin-top : $MARGIN_XLARGE;
+    margin-bottom : 0;
 }
 
 
 #CommonTitleLeftMargin {
 
-    font : $FONT_DEFAULT;
-    margin-left : $INDENT_DEFAULT;
-    margin-right : 0;
-    margin-top : $MARGIN_XLARGE;
-    margin-bottom : 0;
-    color: $COLOR_FOREGROUND;
+    font : $FONT_DEFAULT;
+    margin-left : $INDENT_DEFAULT;
+    margin-right : 0;
+    margin-top : $MARGIN_XLARGE;
+    margin-bottom : 0;
+    color: $COLOR_FOREGROUND;
 }
 
 
 #CommonTitleRightMargin {
 
-    font : $FONT_DEFAULT;
-    margin-left : 0;
-    margin-right : $INDENT_DEFAULT;
-    margin-top : $MARGIN_XLARGE;
-    margin-bottom : 0;
-    color: $COLOR_FOREGROUND;
+    font : $FONT_DEFAULT;
+    margin-left : 0;
+    margin-right : $INDENT_DEFAULT;
+    margin-top : $MARGIN_XLARGE;
+    margin-bottom : 0;
+    color: $COLOR_FOREGROUND;
 }
 
 
 #CommonSubTitleLeftMargin {
 
-    font : $FONT_SMALL;
-    color : $COLOR_SECONDARY_FOREGROUND;
-    margin-left : $INDENT_DEFAULT;
-    margin-right : 0;
-    margin-top : $MARGIN_XSMALL;
-    margin-bottom : 0;
+    font : $FONT_SMALL;
+    color : $COLOR_SECONDARY_FOREGROUND;
+    margin-left : $INDENT_DEFAULT;
+    margin-right : 0;
+    margin-top : $MARGIN_XSMALL;
+    margin-bottom : 0;
 }
 
 
 #CommonSubTitleRightMargin {
 
-    font : $FONT_SMALL;
-    color : $COLOR_SECONDARY_FOREGROUND;
-    margin-left : 0;
-    margin-right : $INDENT_DEFAULT;
-    margin-top : $MARGIN_XSMALL;
-    margin-bottom : 0;
+    font : $FONT_SMALL;
+    color : $COLOR_SECONDARY_FOREGROUND;
+    margin-left : 0;
+    margin-right : $INDENT_DEFAULT;
+    margin-top : $MARGIN_XSMALL;
+    margin-bottom : 0;
 }
 
 #CommonSubTitleWithoutMargin {
 
-    font : $FONT_SMALL;
-    color : $COLOR_SECONDARY_FOREGROUND;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : $MARGIN_XSMALL;
-    margin-bottom : 0;
+    font : $FONT_SMALL;
+    color : $COLOR_SECONDARY_FOREGROUND;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : $MARGIN_XSMALL;
+    margin-bottom : 0;
 }
 
 
