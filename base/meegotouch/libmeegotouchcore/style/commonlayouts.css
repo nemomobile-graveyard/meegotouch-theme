@@ -194,40 +194,25 @@
 /*  Temporary styles */
 
 
+#CommonTitleAccentedLeftMargin {
 
-#CommonSubTitleUnread {
-
-    font : $FONT_SMALL;
-    color : $COLOR_ACCENT1;
-
-    margin-left : $INDENT_DEFAULT;
-    margin-right : $INDENT_DEFAULT;
-    margin-top : $MARGIN_XSMALL;
-    margin-bottom : 0;
-}
-
-
-#CommonTitleUnreadLeftMargin {
-
-    font : $FONT_LARGE;
-    color : $COLOR_ACCENT1;
-
+    font : $FONT_DEFAULT;
     margin-left : $INDENT_DEFAULT;
     margin-right : 0;
     margin-top : $MARGIN_XLARGE;
     margin-bottom : 0;
+    color: $COLOR_ACCENT1;
 }
 
 
-#CommonTitleUnreadRightMargin {
+#CommonTitleAccentedRightMargin {
 
     font : $FONT_DEFAULT;
-    color : #4444DD; /* temporary for demo - should be $COLOR_ACCENT1; */
-
     margin-left : 0;
     margin-right : $INDENT_DEFAULT;
     margin-top : $MARGIN_XLARGE;
     margin-bottom : 0;
+    color: $COLOR_ACCENT1;
 }
 
 
