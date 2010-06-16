@@ -3,18 +3,12 @@ Type=X-MeeGoTouch-Metatheme
 Name=Deprecated Fallback theme
 Encoding=UTF-8
 
-; this section is here for libdui 0.19 compatibility
-; remove this when libdui 0.19 is phased out
-[X-DUI-Metatheme]
-X-Inherits=base
-X-Icon = "icon-l-meegotouchtheme-devel"
-X-Visible=false
-X-Libraries=meegotouchviews
-; remove end
-
-
 [X-MeeGoTouch-Metatheme]
 X-Inherits=base
 X-Icon="icon-l-meegotouchtheme-devel"
 X-Visible=false
 X-Libraries=meegotouchviews
+
+[X-DUI-Metatheme]
+X-Icon="icon-l-meegotouchtheme-base"
+X-Visible=false

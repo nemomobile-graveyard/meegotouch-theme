@@ -1,3 +1,38 @@
+meegotouchtheme (0.20.20-1) unstable; urgency=low
+
+  * New version
+  * Changes: updated background image for view menu
+  * Changes: added the DUI-metatheme cruft back since controlpanel is still broken.
+  * Changes: icon changes
+  * Changes: fixed typo in textfield-button-combo graphics and updated the logical names in ids.txt
+  * Changes: new icon to the theme, removed the old dui-metatheme section from index.theme
+  * Fixes: missing icon-l-meegotouch-devel.svg in duitheme.pro
+  * Changes: Updated all common graphics.
+  * Changes: use correct gfx ids
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 15 Jun 2010 13:40:33 +0300
+
+meegotouchtheme (0.20.19-1) unstable; urgency=low
+
+  * New version
+  * Changes: Added feedbacks for slider
+  * Changes: Updated custom graphical assets for camera in RD theme
+  * Changes: Updated ids.txt
+  * Changes: Added split buttons to commonlayouts.css
+  * Changes: MBanner fixes
+  * Changes: updated view menu command buttons logical IDs. IDs are also updated to ids.txt
+  * Changes: added new viewconf/style for thew new MBanner
+  * Changes: added images for  experimental progress spinner
+  * Changes: added CommonSingleTitleInverted to commonlayouts.css
+  * Changes: Added states to Common Panels in commonlayouts.css
+  * Changes: Added new label variants to commonlayouts.css
+  * Changes: Defined reactive margin for mswitchbuttonstyle to make it more consistently on device.
+  * Changes: updated view menu button images
+  * Changes: Added quicklaunchbar graphics with new names.
+  * Changes: Updated quick launch bar graphics
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 14 Jun 2010 12:55:57 +0300
+
 meegotouchtheme (0.20.18-1) unstable; urgency=low
 
   * New version
