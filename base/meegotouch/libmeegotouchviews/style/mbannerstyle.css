@@ -7,6 +7,16 @@ MBannerStyle {
     disappear-timeout: 3000;
     background-image : "meegotouch-notification-event-background" 10px 10px 10px 10px;
 }
+
+MBannerStyle.Portrait {
+    icon-size: $SIZE_ICON_XLARGE $SIZE_ICON_XLARGE;
+    maximum-size: 100% 8.8mm;
+    padding-left: $MARGIN_XLARGE;
+    padding-right: $MARGIN_XLARGE;
+    disappear-timeout: 3000;
+    background-image : "meegotouch-notification-event-background" 10px 10px 10px 10px;
+}
+
 MBannerStyle[event] {
     background-image : "meegotouch-notification-event-background" 10px 10px 10px 10px;
 }

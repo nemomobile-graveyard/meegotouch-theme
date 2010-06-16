@@ -181,8 +181,6 @@
 #CommonBannerSingleSubTitle {
     font : $FONT_DEFAULT;
     color : $COLOR_FOREGROUND;
-    margin-left:0;
-
 }
 
 #CommonBannerItemInfo {
