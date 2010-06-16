@@ -1,123 +1,106 @@
 
 MBubbleItemStyle {
     /* inherited from MWidgetStyle */
-    preferred-size: -1 $SIZE_ONE;
     minimum-size: $SIZE_ONE $SIZE_ONE;
-    maximum-size: 100% $SIZE_FOUR;
 
-    margin-left:   0;
+    margin-left:   $MARGIN_DOUBLE;
     margin-right:  $MARGIN_DOUBLE;
     margin-top:    $MARGIN_DOUBLE;
-    margin-bottom: $MARGIN_DOUBLE;
+    margin-bottom: 0;
 
     padding-left:   0;
     padding-top:    0;
     padding-right:  0;
     padding-bottom: 0;
 
+    font : $FONT_DEFAULT;
+    text-color : $COLOR_FOREGROUND;
+
+    timestamp-font : $FONT_XSMALL;
+    timestamp-text-color : $COLOR_SECONDARY_FOREGROUND;
+
+    bubble-object-name : "";
+    avatar-object-name : "MBubbleItemAvatar";
 }
 
-MBubbleItemBackgroundStyle {
-    background-opacity: 1.0;
-
-    incoming-background: "meegotouch-speechbubble-incoming-background" 24px 12px 12px 12px;
-    incoming-mirrored-background: "meegotouch-speechbubble-incoming-mirrored-background" 12px 12px 24px 12px;
-
-    outgoing-background: "meegotouch-speechbubble-outgoing-background" 12px 12px 24px 12px;
-    outgoing-mirrored-background: "meegotouch-speechbubble-outgoing-mirrored-background" 12px 12px 24px 12px;
-
-    margin-top: $MARGIN_DOUBLE;
-    margin-bottom: $MARGIN_DOUBLE;
-
-}
-
-MBubbleItemBackgroundStyle:pressed {
-    incoming-background: "meegotouch-speechbubble-incoming-background-pressed" 24px 12px 12px 12px;
-    incoming-mirrored-background: "meegotouch-speechbubble-incoming-mirrored-background-pressed" 12px 12px 24px 12px;
-
-    outgoing-background: "meegotouch-speechbubble-outgoing-background-pressed" 12px 12px 24px 12px;
-    outgoing-mirrored-background: "meegotouch-speechbubble-outgoing-mirrored-background-pressed" 12px 12px 24px 12px;
-}
-
-#MBubbleItemAvatar {
-    preferred-size: $SIZE_ICON_XLARGE $SIZE_ICON_XLARGE;
-    minimum-size: $SIZE_ICON_XLARGE $SIZE_ICON_XLARGE;
-    maximum-size: $SIZE_ICON_XLARGE $SIZE_ICON_XLARGE;
+MBubbleItemStyle:outgoing {
+    text-color : $COLOR_INVERTED_FOREGROUND;
+    timestamp-text-color : $COLOR_INVERTED_SECONDARY_FOREGROUND;
 
     margin-left:   $MARGIN_DOUBLE;
     margin-right:  $MARGIN_DOUBLE;
     margin-top:    $MARGIN_DOUBLE;
+    margin-bottom: 0;
+}
+
+MBubbleItemBackgroundStyle {
+    padding-top : $PADDING_DOUBLE; 
+    padding-left : $PADDING_XXLARGE;
+    padding-bottom : $PADDING_DOUBLE; 
+    padding-right : $PADDING_XLARGE;
+
+    mirrored-object-name: "Mirrored";
+}
+
+MBubbleItemBackgroundStyle:incoming {
+    background-tiles : "meegotouch-speechbubble-incoming-background" 24px 12px 12px 12px;
+}
+
+MBubbleItemBackgroundStyle:outgoing {
+    background-tiles : "meegotouch-speechbubble-outgoing-background" 12px 12px 24px 12px;
+    padding-left : $PADDING_XLARGE;
+}
+
+MBubbleItemBackgroundStyle:incoming-pressed {
+    background-tiles : "meegotouch-speechbubble-incoming-background-pressed" 24px 12px 12px 12px;
+}
+
+MBubbleItemBackgroundStyle:outgoing-pressed {
+    background-tiles : "meegotouch-speechbubble-outgoing-background-pressed" 12px 12px 24px 12px;
+    padding-left : $PADDING_XLARGE;
+}
+
+MBubbleItemBackgroundStyle#Mirrored {
+    background-tiles : "meegotouch-speechbubble-incoming-mirrored-background" 24px 12px 12px 12px;
+}
+
+MBubbleItemBackgroundStyle#Mirrored:outgoing {
+    background-tiles : "meegotouch-speechbubble-outgoing-mirrored-background" 12px 12px 24px 12px;
+    padding-left : $PADDING_XLARGE;
+}
+
+MBubbleItemBackgroundStyle#Mirrored:incoming-pressed {
+    background-tiles : "meegotouch-speechbubble-incoming-mirrored-background-pressed" 24px 12px 12px 12px;
+}
+
+MBubbleItemBackgroundStyle#Mirrored:outgoing-pressed {
+    background-tiles : "meegotouch-speechbubble-outgoing-mirrored-background-pressed" 12px 12px 24px 12px;
+    padding-left : $PADDING_XLARGE;
+}
+
+#MBubbleItemAvatar {
+    preferred-size: 8.0mm 8.0mm;
+    minimum-size: 8.0mm 8.0mm;
+    maximum-size: 8.0mm 8.0mm;
+
+    margin-left:   $MARGIN_DOUBLE;
+    margin-right:  $MARGIN_DOUBLE;
+    margin-top:    0;
     margin-bottom: $MARGIN_DOUBLE;
 }
 
-#MBubbleItemMessage {
-    font: $FONT_LARGE;
-    color: $COLOR_FOREGROUND;
-
-    margin-top: $MARGIN_LARGE;
-
-    padding-top: $PADDING_XLARGE;
-    padding-bottom: $PADDING_XLARGE;
-    padding-left: $PADDING_XXLARGE;
-    padding-right: $PADDING_XLARGE;
-}
-
-#MBubbleItemTimeStamp {
-    font: $FONT_DEFAULT;
-    color: $COLOR_SECONDARY_FOREGROUND;
-
-    margin-left:   $MARGIN_LARGE;
-    margin-right:  $MARGIN_XLARGE;
-
-    horizontal-align: right;
-    vertical-align: center;
-}
-
-#MBubbleItemNumberOfCommentsIcon {
+#InformationalIcon {
     preferred-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
     minimum-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
     maximum-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
-
-    margin-right: $MARGIN_XLARGE;
-    margin-left: $MARGIN_MEDIUM;
-
-    horizontal-align: right;
-    vertical-align: center;
-
-    /* from MLabel to keep in line with corresponding label */
-    margin-top: $MARGIN_MEDIUM;
-    margin-bottom: $MARGIN_MEDIUM;
 }
 
-#MBubbleItemNumberOfCommentsLabel {
-    font: $FONT_SMALL;
+#InformationalLabelIncoming {
+    font: $FONT_XSMALL;
     color: $COLOR_FOREGROUND;
-
-    horizontal-align: right;
-    vertical-align: center;
 }
 
-#MBubbleItemNumberOfThumbsIcon {
-    preferred-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
-    minimum-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
-    maximum-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
-
-    margin-right: $MARGIN_LARGE;
-    margin-left: $MARGIN_MEDIUM;
-
-    horizontal-align: right;
-    vertical-align: center;
-
-    /* from MLabel to keep in line with corresponding label */
-    margin-top: $MARGIN_MEDIUM;
-    margin-bottom: $MARGIN_MEDIUM;
+#InformationalLabelOutgoing {
+    font: $FONT_XSMALL;
+    color: $COLOR_INVERTED_FOREGROUND;
 }
-
-#MBubbleItemNumberOfThumbsLabel {
-    font: $FONT_SMALL;
-    color: $COLOR_FOREGROUND;
-
-    horizontal-align: right;
-    vertical-align: center;
-}
-

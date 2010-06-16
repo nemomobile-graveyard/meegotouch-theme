@@ -102,6 +102,15 @@
 					c0,1.441,0.193,2.523,0.58,3.245C216.49,607.85,217.07,608.209,217.844,608.209z"/>
 			</g>
 		</g>
+		<g id="meegotouch-dialog-button-area-background">
+			
+				<linearGradient id="_x3C_Path_x3E__1_" gradientUnits="userSpaceOnUse" x1="3874" y1="475.8979" x2="3874" y2="395.8979" gradientTransform="matrix(-1 0 0 -1 4204 1470.8984)">
+				<stop  offset="0" style="stop-color:#E1E1E1"/>
+				<stop  offset="1" style="stop-color:#D2D2D2"/>
+			</linearGradient>
+			<path id="_x3C_Path_x3E__20_" style="fill:url(#_x3C_Path_x3E__1_);" d="M370,995v70c0,5.5-4.5,10-10,10h-60c-5.5,0-10-4.5-10-10
+				v-70H370z"/>
+		</g>
 		<g id="meegotouch-button-dialog-query-background-pressed-vertical-bottom">
 			<path style="fill:#FFFFFF;" d="M190,998v68c0,5.5-4.5,10-10,10h-60c-5.5,0-10-4.5-10-10v-68H190z"/>
 			<path style="fill:#333333;" d="M190,996v68c0,5.5-4.5,10-10,10h-60c-5.5,0-10-4.5-10-10v-68H190z"/>
@@ -375,6 +384,15 @@
 			<rect x="20" y="93" style="fill:url(#SVGID_24_);" width="80" height="78"/>
 			<rect x="99" y="93" style="opacity:0.2;" width="1" height="78"/>
 		</g>
+		<g id="meegotouch-dialog-query-button-area-background">
+			<g>
+				<linearGradient id="SVGID_25_" gradientUnits="userSpaceOnUse" x1="330" y1="82" x2="330" y2="2">
+					<stop  offset="0" style="stop-color:#D2D2D2"/>
+					<stop  offset="1" style="stop-color:#F2F2F2"/>
+				</linearGradient>
+				<rect x="290" y="2" style="fill:url(#SVGID_25_);" width="80" height="80"/>
+			</g>
+		</g>
 		<g id="meegotouch-dialog-background">
 			<g>
 				<rect x="62" y="50" style="fill:#F2F2F2;" width="32" height="32"/>
@@ -383,11 +401,11 @@
 		<g id="meegotouch-dialog-header-background">
 			<path style="fill:#CCCCCC;" d="M20,81V60c0-5.5,4.5-10,10-10h12c5.5,0,10,4.5,10,10v21H20z"/>
 			
-				<linearGradient id="SVGID_25_" gradientUnits="userSpaceOnUse" x1="51.7754" y1="66.7759" x2="51.7754" y2="97.7759" gradientTransform="matrix(1 0 0 1 -15.7754 -15.7764)">
+				<linearGradient id="SVGID_26_" gradientUnits="userSpaceOnUse" x1="51.7754" y1="66.7759" x2="51.7754" y2="97.7759" gradientTransform="matrix(1 0 0 1 -15.7754 -15.7764)">
 				<stop  offset="0" style="stop-color:#D2D2D2"/>
 				<stop  offset="1" style="stop-color:#F2F2F2"/>
 			</linearGradient>
-			<path style="fill:url(#SVGID_25_);" d="M20,82V61c0-5.5,4.5-10,10-10h12c5.5,0,10,4.5,10,10v21H20z"/>
+			<path style="fill:url(#SVGID_26_);" d="M20,82V61c0-5.5,4.5-10,10-10h12c5.5,0,10,4.5,10,10v21H20z"/>
 		</g>
 	</g>
 </g>
