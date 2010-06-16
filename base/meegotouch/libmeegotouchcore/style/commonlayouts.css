@@ -465,6 +465,86 @@
    margin-left : $INDENT_DEFAULT;
 }
 
+/* Call buttons  */
+
+#CommonSingleCallButton {
+    text-color: $COLOR_INVERTED_FOREGROUND;
+	background-image : 'meegotouch-button-positive-background';
+    margin-right : $INDENT_DEFAULT;
+    margin-left : $INDENT_DEFAULT;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+    maximum-size : 50mm 6.4mm;
+}
+#CommonSingleCallButton:pressed {
+	background-image : 'meegotouch-button-positive-background-pressed';
+	}
+
+#CommonLeftCallButton {
+    text-color: $COLOR_INVERTED_FOREGROUND;
+	background-image : 'meegotouch-button-positive-background';
+    margin-right : $MARGIN_LARGE;
+    margin-left : $INDENT_DEFAULT;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+    maximum-size : 50mm 6.4mm;
+}
+#CommonLeftCallButton:pressed {
+	background-image : 'meegotouch-button-positive-background-pressed';
+	}
+
+#CommonRightCallButton {
+    text-color: $COLOR_INVERTED_FOREGROUND;
+	background-image : 'meegotouch-button-positive-background';
+    margin-right : $INDENT_DEFAULT;
+    margin-left : $MARGIN_LARGE;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+    maximum-size : 50mm 6.4mm;
+}
+#CommonRightCallButton:pressed {
+	background-image : 'meegotouch-button-positive-background-pressed';
+	}
+
+#CommonSingleRejectButton {
+    text-color: $COLOR_INVERTED_FOREGROUND;
+	background-image : 'meegotouch-button-negative-background';
+    margin-right : $INDENT_DEFAULT;
+    margin-left : $INDENT_DEFAULT;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+    maximum-size : 50mm 6.4mm;
+}
+#CommonSingleRejectButton:pressed {
+	background-image : 'meegotouch-button-negative-background-pressed';
+	}
+
+#CommonLeftRejectButton {
+    text-color: $COLOR_INVERTED_FOREGROUND;
+	background-image : 'meegotouch-button-negative-background';
+    margin-right : $MARGIN_LARGE;
+    margin-left : $INDENT_DEFAULT;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+    maximum-size : 50mm 6.4mm;
+}
+#CommonLeftRejectButton:pressed {
+	background-image : 'meegotouch-button-negative-background-pressed';
+	}
+
+#CommonRightRejectButton {
+    text-color: $COLOR_INVERTED_FOREGROUND;
+	background-image : 'meegotouch-button-negative-background';
+    margin-right : $INDENT_DEFAULT;
+    margin-left : $MARGIN_LARGE;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+    maximum-size : 50mm 6.4mm;
+}
+#CommonRightRejectButton:pressed {
+	background-image : 'meegotouch-button-negative-background-pressed';
+	}
+
 /*  split buttons   */
 
 #CommonSplitButtonVerticalTop {
