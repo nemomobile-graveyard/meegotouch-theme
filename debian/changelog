@@ -1,3 +1,17 @@
+meegotouchtheme (0.20.21-1) unstable; urgency=low
+
+  * New version
+  * Changes: Use custom margins for list index bg tiling
+  * Change: Added call button styles to commonlayout.css
+  * Change: Minor fixes to temporary label styles in commonlayouts.css
+  * Fixes: MBanner style
+  * Change: Fixed non UTF-8 characters in commonlayouts.css
+  * Changes: Added background images for dialog and query dialog button area background.
+  * Changes: Use the same glow color in button icon view as home buttons have
+  * Changes: Fixed and improved speech bubble styling.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 16 Jun 2010 13:09:43 +0300
+
 meegotouchtheme (0.20.20-1) unstable; urgency=low
 
   * New version
