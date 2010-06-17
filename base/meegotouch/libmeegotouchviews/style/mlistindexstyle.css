@@ -3,7 +3,7 @@ MListIndexStyle {
     shortcut-object-name: "whiteFont";
 
     background-opacity: 0.5;
-    background-image: meegotouch-fastscroll-background 12px 12px;
+    background-image: meegotouch-fastscroll-background 12px 12px 12px 12px;
     preferred-size: 7mm  100%;
 
     margin-top: 0;
