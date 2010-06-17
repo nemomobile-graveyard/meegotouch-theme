@@ -95,7 +95,7 @@
 			</linearGradient>
 			<path style="fill:url(#SVGID_1_);" d="M220,875v52c0,4.4-3.6,8-8,8h-52v-60H220z"/>
 			<rect x="160" y="881" style="fill:#FFFFFF;fill-opacity:0.2;" width="1" height="48"/>
-			<rect x="160" y="875" style="opacity:0.1;" width="60" height="6"/>
+			<rect x="160" y="875" style="fill-opacity:0.2;" width="60" height="6"/>
 		</g>
 		<g id="meegotouch-button-navigationbar-portrait-tab-background-pressed-horizontal-right">
 			<rect x="90" y="875" width="60" height="60"/>

@@ -170,6 +170,9 @@
 			<g>
 				<rect x="229" y="805" style="fill:#D0D2D3;" width="1" height="59"/>
 			</g>
+			<g>
+				<rect x="170" y="805" style="fill:#D0D2D3;" width="1" height="59"/>
+			</g>
 		</g>
 		<g id="meegotouch-button-navigationbar-media-portrait-tab-background-pressed-horizontal-center">
 			<g>
@@ -193,6 +196,7 @@
 			<path d="M170,734v52c0,4.4,3.6,8,8,8h52v-60H170z"/>
 			<rect x="170" y="735" style="fill:#D0D2D3;" width="60" height="6"/>
 			<rect x="229" y="734" style="fill:#D0D2D3;" width="1" height="60"/>
+			<rect x="170" y="734" style="fill:#D0D2D3;" width="1" height="60"/>
 			<rect x="170" y="734" width="60" height="1"/>
 		</g>
 		<g id="meegotouch-button-navigationbar-media-portrait-tab-background-pressed-horizontal-left">
@@ -259,6 +263,9 @@
 			</g>
 			<g>
 				<rect x="170" y="454" style="fill:#D0D2D3;" width="1" height="59"/>
+			</g>
+			<g>
+				<rect x="229" y="454" style="fill:#D0D2D3;" width="1" height="59"/>
 			</g>
 		</g>
 		<g id="meegotouch-button-navigationbar-media-tab-background-pressed">
