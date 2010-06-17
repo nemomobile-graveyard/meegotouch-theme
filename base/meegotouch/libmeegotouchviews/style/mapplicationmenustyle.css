@@ -45,8 +45,8 @@ MAbstractLayoutPolicyStyle#menulandscape
     margin-right: $PADDING_XSMALL;
     margin-top: 0;
     margin-bottom: $PADDING_XSMALL;
-    vertical-spacing: 0; 
-    horizontal-spacing: 0; 
+    vertical-spacing: 0;
+    horizontal-spacing: 0;
 }
 
 MAbstractLayoutPolicyStyle#menuportrait
@@ -56,10 +56,10 @@ MAbstractLayoutPolicyStyle#menuportrait
     margin-top: 0;
     margin-bottom: $PADDING_XSMALL;
     vertical-spacing: 0;
-    horizontal-spacing: 0;  
+    horizontal-spacing: 0;
 }
 
-MContentItemStyle#menuactioncommand
+MListItemStyle#menuactioncommand
 {
     minimum-size: -1 8.8mm;
     preferred-size: -1 8.8mm;
