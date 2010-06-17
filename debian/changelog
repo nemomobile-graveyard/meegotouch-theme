@@ -1,3 +1,17 @@
+meegotouchtheme (0.20.22-1) unstable; urgency=low
+
+  * New version
+  * Changes: Updated list item logical names to match the background tiling name policy.
+  * Changes: updated tab graphics. Now there is a vertical line in tabs both sides
+  * Changes: Fix bad background-image syntax for list index style.
+  * Changes: Added feedbacks for label
+  * Changes: MBanner portrait style added
+  * Changes: fixed formatting
+  * Changes: reordered the file a bit, cleaned up and added COMMON_ITEM_HEIGHT
+  * Changes: added grouped buttons for normal button graphics.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 17 Jun 2010 13:04:03 +0300
+
 meegotouchtheme (0.20.21-1) unstable; urgency=low
 
   * New version
