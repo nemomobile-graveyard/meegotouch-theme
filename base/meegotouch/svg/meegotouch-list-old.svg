@@ -21,18 +21,18 @@
 		<path d="M362.535,36.17c-0.896,0-1.918-0.139-3.066-0.418v-1.646c1.23,0.351,2.201,0.526,2.912,0.526
 			c0.73,0,1.282-0.159,1.65-0.479c0.369-0.318,0.555-0.797,0.555-1.436c0-0.372-0.117-0.721-0.35-1.048
 			c-0.232-0.325-0.814-0.726-1.742-1.198c-0.596-0.301-1.076-0.586-1.446-0.855c-0.369-0.269-0.684-0.631-0.944-1.086
-			c-0.259-0.455-0.389-1.021-0.389-1.693c0-1.082,0.367-1.939,1.104-2.574c0.733-0.635,1.677-0.951,2.824-0.951
-			c1.006,0,1.914,0.133,2.728,0.397v1.569c-0.855-0.309-1.685-0.462-2.491-0.462c-0.67,0-1.171,0.15-1.501,0.451
-			c-0.333,0.302-0.498,0.753-0.498,1.354c0,0.316,0.104,0.611,0.317,0.887c0.212,0.277,0.74,0.626,1.589,1.049
-			c0.616,0.301,1.125,0.594,1.528,0.877c0.402,0.283,0.742,0.666,1.021,1.15c0.276,0.482,0.415,1.09,0.415,1.822
+			c-0.259-0.455-0.389-1.021-0.389-1.693c0-1.082,0.367-1.939,1.104-2.574c0.733-0.635,1.678-0.951,2.824-0.951
+			c1.006,0,1.914,0.133,2.729,0.397v1.569c-0.855-0.309-1.686-0.462-2.491-0.462c-0.67,0-1.171,0.15-1.501,0.451
+			c-0.333,0.302-0.498,0.753-0.498,1.354c0,0.316,0.104,0.611,0.316,0.887c0.213,0.277,0.74,0.626,1.59,1.049
+			c0.615,0.301,1.125,0.594,1.527,0.877c0.402,0.283,0.742,0.666,1.021,1.15c0.275,0.482,0.415,1.09,0.415,1.822
 			c0,1.232-0.364,2.168-1.093,2.806C364.929,35.852,363.889,36.17,362.535,36.17z"/>
-		<path d="M371.979,36.17c-0.93,0-1.608-0.227-2.039-0.682c-0.432-0.455-0.646-1.182-0.646-2.178v-8.321h-1.57v-0.86l3.188-3.408
-			h0.565v2.773h2.9v1.495h-2.9v7.945c0,0.681,0.104,1.13,0.316,1.349c0.212,0.219,0.533,0.328,0.964,0.328
+		<path d="M371.979,36.17c-0.93,0-1.607-0.227-2.039-0.682c-0.432-0.455-0.646-1.182-0.646-2.178v-8.321h-1.569v-0.86l3.188-3.408
+			h0.564v2.773h2.9v1.495h-2.9v7.945c0,0.681,0.104,1.13,0.316,1.349c0.212,0.219,0.533,0.328,0.964,0.328
 			c0.443,0,1.046-0.104,1.804-0.312v1.483C373.646,36.041,372.785,36.17,371.979,36.17z"/>
 	</g>
 	<g id="meegotouch-list-fullwidth-background-selected-right">
 		
-			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="285.0005" y1="986.5" x2="285.0005" y2="1050.5" gradientTransform="matrix(1 0 0 -1 379 1142.5)">
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-93.9995" y1="-89" x2="-93.9995" y2="-153" gradientTransform="matrix(1 0 0 1 758 245)">
 			<stop  offset="0" style="stop-color:#29ABE2"/>
 			<stop  offset="1" style="stop-color:#7DD8FF"/>
 		</linearGradient>
@@ -41,25 +41,13 @@
 		<rect x="632" y="93" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="1" height="62"/>
 		<rect x="632" y="92" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="1"/>
 	</g>
-	<g id="meegotouch-list-fullwidth-background-selected-center">
-		
-			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="211.0005" y1="986.5" x2="211.0005" y2="1050.5" gradientTransform="matrix(1 0 0 -1 379 1142.5)">
-			<stop  offset="0" style="stop-color:#29ABE2"/>
-			<stop  offset="1" style="stop-color:#7DD8FF"/>
-		</linearGradient>
-		<rect x="558" y="92" style="fill:url(#SVGID_2_);" width="64" height="64"/>
-		<rect x="621" y="93" style="opacity:0.2;enable-background:new    ;" width="1" height="62"/>
-		<rect x="558" y="155" style="opacity:0.2;enable-background:new    ;" width="64" height="1"/>
-		<rect x="558" y="92" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="1"/>
-		<rect x="558" y="93" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="1" height="62"/>
-	</g>
 	<g id="meegotouch-list-fullwidth-background-selected-left">
 		
-			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="137.0005" y1="986.5" x2="137.0005" y2="1050.5" gradientTransform="matrix(1 0 0 -1 379 1142.5)">
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-241.9995" y1="-89" x2="-241.9995" y2="-153" gradientTransform="matrix(1 0 0 1 758 245)">
 			<stop  offset="0" style="stop-color:#29ABE2"/>
 			<stop  offset="1" style="stop-color:#7DD8FF"/>
 		</linearGradient>
-		<rect x="484" y="92" style="fill:url(#SVGID_3_);" width="64" height="64"/>
+		<rect x="484" y="92" style="fill:url(#SVGID_2_);" width="64" height="64"/>
 		<rect x="484" y="155" style="opacity:0.2;enable-background:new    ;" width="64" height="1"/>
 		<rect x="484" y="92" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="1"/>
 		<rect x="547" y="93" style="opacity:0.2;enable-background:new    ;" width="1" height="62"/>
@@ -68,44 +56,27 @@
 		<rect x="400" y="94" style="fill:#FFFFFF;" width="64" height="62"/>
 		<rect x="400" y="92" style="fill:#333333;" width="64" height="62"/>
 		
-			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="53.0005" y1="987.5" x2="53.0005" y2="1049.5" gradientTransform="matrix(1 0 0 -1 379 1142.5)">
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-325.9995" y1="-90" x2="-325.9995" y2="-152" gradientTransform="matrix(1 0 0 1 758 245)">
 			<stop  offset="0" style="stop-color:#B3B3B3"/>
 			<stop  offset="1" style="stop-color:#4D4D4D"/>
 		</linearGradient>
-		<rect x="400" y="93" style="fill:url(#SVGID_4_);" width="64" height="62"/>
-	</g>
-	<g id="meegotouch-list-fullwidth-background-pressed-center">
-		<rect x="326" y="94" style="fill:#FFFFFF;" width="64" height="62"/>
-		<rect x="326" y="92" style="fill:#333333;" width="64" height="62"/>
-		
-			<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-21" y1="987.5" x2="-21" y2="1049.5" gradientTransform="matrix(1 0 0 -1 379 1142.5)">
-			<stop  offset="0" style="stop-color:#B3B3B3"/>
-			<stop  offset="1" style="stop-color:#4D4D4D"/>
-		</linearGradient>
-		<rect x="326" y="93" style="fill:url(#SVGID_5_);" width="64" height="62"/>
+		<rect x="400" y="93" style="fill:url(#SVGID_3_);" width="64" height="62"/>
 	</g>
 	<g id="meegotouch-list-fullwidth-background-pressed-left">
 		<rect x="252" y="94" style="fill:#FFFFFF;" width="64" height="62"/>
 		<rect x="252" y="92" style="fill:#333333;" width="64" height="62"/>
 		
-			<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-95.0005" y1="987.5" x2="-95.0005" y2="1049.5" gradientTransform="matrix(1 0 0 -1 379 1142.5)">
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-474" y1="-90" x2="-474" y2="-152" gradientTransform="matrix(1 0 0 1 758 245)">
 			<stop  offset="0" style="stop-color:#B3B3B3"/>
 			<stop  offset="1" style="stop-color:#4D4D4D"/>
 		</linearGradient>
-		<rect x="252" y="93" style="fill:url(#SVGID_6_);" width="64" height="62"/>
+		<rect x="252" y="93" style="fill:url(#SVGID_4_);" width="64" height="62"/>
 	</g>
 	<g id="meegotouch-list-fullwidth-background-right">
 		<rect x="168" y="94" style="fill:#CCCCCC;" width="64" height="62"/>
 		<rect x="168" y="92" style="fill:#FFFFFF;" width="64" height="62"/>
 		<rect x="168" y="93" style="fill:#F2F2F2;" width="64" height="62"/>
 		<rect x="168" y="93" style="fill:#FFFFFF;" width="1" height="62"/>
-	</g>
-	<g id="meegotouch-list-fullwidth-background-center">
-		<rect x="94" y="94" style="fill:#CCCCCC;" width="64" height="62"/>
-		<rect x="94" y="92" style="fill:#FFFFFF;" width="64" height="62"/>
-		<rect x="94" y="93" style="fill:#F2F2F2;" width="64" height="62"/>
-		<rect x="157" y="93" style="fill:#CCCCCC;" width="1" height="62"/>
-		<rect x="94" y="93" style="fill:#FFFFFF;" width="1" height="62"/>
 	</g>
 	<g id="meegotouch-list-fullwidth-background-left">
 		<rect x="20" y="94" style="fill:#CCCCCC;" width="64" height="62"/>
