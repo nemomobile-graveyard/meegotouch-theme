@@ -377,6 +377,9 @@
     margin-right : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
     margin-bottom : $MARGIN_DOUBLE;
+    maximum-size: 6.4mm 6.4mm;
+    minimum-size: 6.4mm 6.4mm;
+    preferred-size: 6.4mm 6.4mm;
 }
 
 
