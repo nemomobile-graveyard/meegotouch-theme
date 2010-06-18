@@ -4,7 +4,6 @@ MSettingsLanguageSettingFactoryStyle {
     /* The size of the content indicator */
     content-indicator-size: 16 16;
 
-    /* TODO: Remove once duicontainer supports styling */
     /* The left margin for the content indicator when it is inside a MContainer */
     content-indicator-container-margin: 12.0;
 
