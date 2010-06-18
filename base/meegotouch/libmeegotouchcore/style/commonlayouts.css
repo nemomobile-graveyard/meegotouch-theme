@@ -63,7 +63,7 @@
 }
 
 #CommonSubTitleAccented {
-	
+    
     font : $FONT_SMALL;
     color : $COLOR_ACCENT1;
     margin-left : $INDENT_DEFAULT;
@@ -73,7 +73,7 @@
 }
 
 #CommonSubTitleInverted {
-	
+    
     font : $FONT_SMALL;
     color : $COLOR_INVERTED_FOREGROUND;
     margin-left : $INDENT_DEFAULT;
@@ -107,7 +107,7 @@
 #CommonItemInfo {
 
     font : $FONT_SMALL;
-    color : #000000;					/* TBD */
+    color : #000000;                    /* TBD */
     margin-right : $INDENT_DEFAULT;
     margin-top : $MARGIN_XSMALL;
     margin-bottom : 0;
@@ -116,7 +116,7 @@
 #CommonHeader {
 
     font : $FONT_SMALL;
-    color : #FFFFFF;					/* TBD */
+    color : #FFFFFF;                    /* TBD */
     margin-left : $INDENT_DEFAULT;
     margin-right : $INDENT_DEFAULT; 
     margin-top : $MARGIN_XSMALL;
@@ -185,7 +185,7 @@
 
 #CommonBannerItemInfo {
     font : $FONT_SMALL;
-    color : #95969B;					/* TBD */
+    color : #95969B;                    /* TBD */
     margin-right : $INDENT_DEFAULT;
 }
 
@@ -470,7 +470,7 @@
 
 #CommonSingleCallButton {
     text-color: $COLOR_INVERTED_FOREGROUND;
-	background-image : meegotouch-button-positive-background $CORNER_MARGINS;
+    background-image : meegotouch-button-positive-background $CORNER_MARGINS;
     margin-right : $INDENT_DEFAULT;
     margin-left : $INDENT_DEFAULT;
     margin-bottom : $MARGIN_DOUBLE;
@@ -478,12 +478,12 @@
     maximum-size : 50mm 6.4mm;
 }
 #CommonSingleCallButton:pressed {
-	background-image : meegotouch-button-positive-background-pressed $CORNER_MARGINS;
-	}
+    background-image : meegotouch-button-positive-background-pressed $CORNER_MARGINS;
+    }
 
 #CommonLeftCallButton {
     text-color: $COLOR_INVERTED_FOREGROUND;
-	background-image : meegotouch-button-positive-background $CORNER_MARGINS;
+    background-image : meegotouch-button-positive-background $CORNER_MARGINS;
     margin-right : $MARGIN_LARGE;
     margin-left : $INDENT_DEFAULT;
     margin-bottom : $MARGIN_DOUBLE;
@@ -491,12 +491,12 @@
     maximum-size : 50mm 6.4mm;
 }
 #CommonLeftCallButton:pressed {
-	background-image : meegotouch-button-positive-background-pressed $CORNER_MARGINS;
-	}
+    background-image : meegotouch-button-positive-background-pressed $CORNER_MARGINS;
+    }
 
 #CommonRightCallButton {
     text-color: $COLOR_INVERTED_FOREGROUND;
-	background-image : meegotouch-button-positive-background $CORNER_MARGINS;
+    background-image : meegotouch-button-positive-background $CORNER_MARGINS;
     margin-right : $INDENT_DEFAULT;
     margin-left : $MARGIN_LARGE;
     margin-bottom : $MARGIN_DOUBLE;
@@ -504,12 +504,12 @@
     maximum-size : 50mm 6.4mm;
 }
 #CommonRightCallButton:pressed {
-	background-image : meegotouch-button-positive-background-pressed $CORNER_MARGINS;
-	}
+    background-image : meegotouch-button-positive-background-pressed $CORNER_MARGINS;
+    }
 
 #CommonSingleRejectButton {
     text-color: $COLOR_INVERTED_FOREGROUND;
-	background-image : meegotouch-button-negative-background $CORNER_MARGINS;
+    background-image : meegotouch-button-negative-background $CORNER_MARGINS;
     margin-right : $INDENT_DEFAULT;
     margin-left : $INDENT_DEFAULT;
     margin-bottom : $MARGIN_DOUBLE;
@@ -517,12 +517,12 @@
     maximum-size : 50mm 6.4mm;
 }
 #CommonSingleRejectButton:pressed {
-	background-image : meegotouch-button-negative-background-pressed $CORNER_MARGINS;
-	}
+    background-image : meegotouch-button-negative-background-pressed $CORNER_MARGINS;
+    }
 
 #CommonLeftRejectButton {
     text-color: $COLOR_INVERTED_FOREGROUND;
-	background-image : meegotouch-button-negative-background $CORNER_MARGINS;
+    background-image : meegotouch-button-negative-background $CORNER_MARGINS;
     margin-right : $MARGIN_LARGE;
     margin-left : $INDENT_DEFAULT;
     margin-bottom : $MARGIN_DOUBLE;
@@ -530,12 +530,12 @@
     maximum-size : 50mm 6.4mm;
 }
 #CommonLeftRejectButton:pressed {
-	background-image : meegotouch-button-negative-background-pressed $CORNER_MARGINS;
-	}
+    background-image : meegotouch-button-negative-background-pressed $CORNER_MARGINS;
+    }
 
 #CommonRightRejectButton {
     text-color: $COLOR_INVERTED_FOREGROUND;
-	background-image : meegotouch-button-negative-background $CORNER_MARGINS;
+    background-image : meegotouch-button-negative-background $CORNER_MARGINS;
     margin-right : $INDENT_DEFAULT;
     margin-left : $MARGIN_LARGE;
     margin-bottom : $MARGIN_DOUBLE;
@@ -543,8 +543,8 @@
     maximum-size : 50mm 6.4mm;
 }
 #CommonRightRejectButton:pressed {
-	background-image : meegotouch-button-negative-background-pressed $CORNER_MARGINS;
-	}
+    background-image : meegotouch-button-negative-background-pressed $CORNER_MARGINS;
+    }
 
 /*  split buttons   */
 
@@ -561,7 +561,7 @@
     margin-left : $INDENT_DEFAULT;
     margin-right : $INDENT_DEFAULT;
     margin-top : 0;
-    margin-bottom : 0;	
+    margin-bottom : 0;    
 }
 #CommonSplitButtonVerticalBottom {
     background-image : meegotouch-buttongroup-background-vertical-bottom $CORNER_MARGINS;
@@ -649,22 +649,22 @@
 
 #CommonPanel:pressed {
 
-	background-image : meegotouch-panel-background-pressed $CORNER_MARGINS;
+    background-image : meegotouch-panel-background-pressed $CORNER_MARGINS;
 }
 
 #CommonPanel:selected {
 
-	background-image : meegotouch-panel-background-selected $CORNER_MARGINS;
+    background-image : meegotouch-panel-background-selected $CORNER_MARGINS;
 }
 
 #CommonPanelInverted:pressed {
 
-	background-image : meegotouch-panel-inverted-background-pressed $CORNER_MARGINS;
+    background-image : meegotouch-panel-inverted-background-pressed $CORNER_MARGINS;
 }
 
 #CommonPanelInverted:selected {
 
-	background-image : meegotouch-panel-inverted-background-selected $CORNER_MARGINS;
+    background-image : meegotouch-panel-inverted-background-selected $CORNER_MARGINS;
 }
 
 #CommonSmallPanel {
@@ -712,7 +712,7 @@
 #CommonInputFieldGroup {
 
     margin-left : $INDENT_DEFAULT;
-    margin-right : $INDENT_DEFAULT;	
+    margin-right : $INDENT_DEFAULT;    
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
 }
