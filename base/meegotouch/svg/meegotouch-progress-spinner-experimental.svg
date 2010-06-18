@@ -88,13 +88,12 @@
 			<path style="fill:#FFFFFF;" d="M290,68c0,5.186,1.431,8,8,8c6.568,0,8-2.814,8-8s-1.432-8-8-8C291.431,60,290,62.814,290,68z"/>
 		</g>
 		<g id="meegotouch-progressindicator-spinner-small">
-			
-				<radialGradient id="SVGID_2_" cx="5328" cy="33.4902" r="8" gradientTransform="matrix(-1.25 0 0 1.25 6934 28.1377)" gradientUnits="userSpaceOnUse">
+			<rect x="264" y="60" style="fill:#D0D2D3;" width="20" height="20"/>
+			<radialGradient id="SVGID_2_" cx="279" cy="65" r="5" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#29ABE2"/>
 				<stop  offset="1" style="stop-color:#7DD8FF"/>
 			</radialGradient>
-			<rect x="264" y="60" style="fill:url(#SVGID_2_);" width="20" height="20"/>
-			<rect x="274" y="60" style="fill:#D0D2D3;" width="10" height="10"/>
+			<rect x="274" y="60" style="fill:url(#SVGID_2_);" width="10" height="10"/>
 		</g>
 		<g id="meegotouch-progressindicator-spinner-medium-foreground">
 			<path style="fill:none;" d="M238,134c-13.583,0-16-4.191-16-16s2.417-16,16-16s16,4.191,16,16S251.583,134,238,134L238,134z"/>
@@ -114,13 +113,12 @@
 				C224.861,60,222,65.629,222,76z"/>
 		</g>
 		<g id="meegotouch-progressindicator-spinner-medium">
-			
-				<radialGradient id="SVGID_4_" cx="5502.668" cy="56.8276" r="16" gradientTransform="matrix(-1.125 0 0 1.125 6388.5 14.0684)" gradientUnits="userSpaceOnUse">
+			<rect x="180" y="60" style="fill:#D0D2D3;" width="36" height="36"/>
+			<radialGradient id="SVGID_4_" cx="207" cy="69" r="9" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#29ABE2"/>
 				<stop  offset="1" style="stop-color:#7DD8FF"/>
 			</radialGradient>
-			<rect x="180" y="60" style="fill:url(#SVGID_4_);" width="36" height="36"/>
-			<rect x="198" y="60" style="fill:#D0D2D3;" width="18" height="18"/>
+			<rect x="198" y="60" style="fill:url(#SVGID_4_);" width="18" height="18"/>
 		</g>
 		<g id="meegotouch-progressindicator-spinner-large-foreground">
 			<path style="fill:none;" d="M136,208c-27.38,0-32-9.872-32-32s4.62-32,32-32s32,9.872,32,32S163.38,208,136,208L136,208z"/>
@@ -140,13 +138,12 @@
 				C109.724,60,104,71.258,104,92z"/>
 		</g>
 		<g id="meegotouch-progressindicator-spinner-large">
-			
-				<radialGradient id="SVGID_6_" cx="5310.9199" cy="68.6826" r="32" gradientTransform="matrix(-1.1562 0 0 1.1562 6197.75 17.5859)" gradientUnits="userSpaceOnUse">
+			<rect x="20" y="60" style="fill:#D0D2D3;" width="74" height="74"/>
+			<radialGradient id="SVGID_6_" cx="75.5" cy="78.5" r="18.5" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#29ABE2"/>
 				<stop  offset="1" style="stop-color:#7DD8FF"/>
 			</radialGradient>
-			<rect x="20" y="60" style="fill:url(#SVGID_6_);" width="74" height="74"/>
-			<rect x="57" y="60" style="fill:#D0D2D3;" width="37" height="37"/>
+			<rect x="57" y="60" style="fill:url(#SVGID_6_);" width="37" height="37"/>
 		</g>
 	</g>
 </g>
