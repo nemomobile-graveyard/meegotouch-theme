@@ -16,6 +16,12 @@ MObjectMenu MButtonStyle {
     margin-bottom: 0;
 
     background-tiles: meegotouch-button-objectmenu-background $CORNER_MARGINS;
+
+    minimum-size: 50% $SIZE_MENU;
+}
+
+MObjectMenu MButtonStyle.Portrait {
+    minimum-size: 90% $SIZE_MENU;
 }
 
 MObjectMenu MButtonStyle:pressed {
