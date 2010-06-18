@@ -1,3 +1,20 @@
+meegotouchtheme (0.20.23-1) unstable; urgency=low
+
+  * New version
+  * Changes: Object menu size fixes, constants.ini tweaks
+  * Changes: removed tabs and made them four spaces
+  * Changes: removed 3 duplicates
+  * Changes: fixed typo in logical id
+  * Changes: updated experimental spinner graphics.
+  * Changes: fixed some naming of list graphics
+  * Change: added size to CommonSmallThumbnail in commonlayouts.css
+  * Change: fixed syntax for split buttons in commonlayouts.css
+  * Change: fixed syntax dor call buttons in commonlayouts.css
+  * Changes: Don't hard code installation path
+  * Changes: Updated list graphics. the meegotouch-list-old will be removed after
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Fri, 18 Jun 2010 13:14:58 +0300
+
 meegotouchtheme (0.20.22-1) unstable; urgency=low
 
   * New version
