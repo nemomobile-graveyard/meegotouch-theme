@@ -1,5 +1,11 @@
 /* MButtonIconStyle : MButtonStyle */
 MButtonIconStyle {
+
+    /* icon button has no background, so use regular text color
+       for the label, as this will be against default background */
+
+    text-color: $COLOR_FOREGROUND;
+
     glow-color: #FFFFFF;
     glow-duration: 800;
     glow-radius: 8;
