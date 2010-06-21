@@ -43,6 +43,7 @@ meegotouch-button-navigationbar-media-portrait-toolbarbutton-background-pressed-
 #meegotouch-navigationbar
 meegotouch-navigationbar-statusarea-background
 meegotouch-navigationbar-shadow
+meegotouch-navigationbar-large-shadow
 meegotouch-application-window-bottom
 meegotouch-button-navigationbar-home-background
 meegotouch-button-navigationbar-home-background-pressed

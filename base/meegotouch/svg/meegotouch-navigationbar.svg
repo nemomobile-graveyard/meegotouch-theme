@@ -415,6 +415,15 @@
 			</linearGradient>
 			<rect x="118" y="48" style="opacity:0.25;fill:url(#SVGID_29_);" width="32" height="12"/>
 		</g>
+		<g id="meegotouch-navigationbar-large-shadow">
+			<linearGradient id="SVGID_30_" gradientUnits="userSpaceOnUse" x1="249.083" y1="120" x2="249.083" y2="108">
+				<stop  offset="0" style="stop-color:#000000;stop-opacity:0"/>
+				<stop  offset="0.9104" style="stop-color:#000000;stop-opacity:0.9104"/>
+				<stop  offset="1" style="stop-color:#000000"/>
+			</linearGradient>
+			<rect x="233.083" y="108" style="opacity:0.25;fill:url(#SVGID_30_);" width="32" height="12"/>
+			<rect x="233.083" y="48" style="fill:none;" width="32" height="60"/>
+		</g>
 	</g>
 </g>
 </svg>
