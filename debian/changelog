@@ -1,3 +1,15 @@
+meegotouchtheme (0.20.24-1) unstable; urgency=low
+
+  * New version
+  * Changes: updated / new icons.
+  * Changes: added launcher spinner id's to ids.txt
+  * Changes: removing mnotificationstyle.cssfrom libmeegotouchviews.css
+  * Fixes: removing duicontainer references
+  * Changes: Updated generic spinner and added new graphics for launcher specific spinner
+  * Changes: iconbutton has no background, so normal text color should be used here.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 21 Jun 2010 13:08:53 +0300
+
 meegotouchtheme (0.20.23-1) unstable; urgency=low
 
   * New version
