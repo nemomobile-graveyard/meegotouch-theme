@@ -149,6 +149,9 @@ meegotouch-button-dialog-query-background-pressed-vertical-center
 meegotouch-button-dialog-query-background-pressed-vertical-bottom
 
 #meegotouch-button
+meegotouch-combobox-indicator
+meegotouch-combobox-indicator-inverted
+
 meegotouch-button-background
 meegotouch-button-background-pressed
 meegotouch-button-background-selected
