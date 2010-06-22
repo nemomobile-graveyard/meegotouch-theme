@@ -1,3 +1,15 @@
+meegotouchtheme (0.20.25-1) unstable; urgency=low
+
+  * New version
+  * Changes: added theme preview thumbnails for theme switcher
+  * Fixes: NB#175944 - MList - the maximum size of the contentItems is limited
+  * Changes: Fixed a typo in an ID name
+  * Changes: Updated ids.txt about black "media" styled navigationbar logical ids
+  * Changes: Putting back "merge request #40: don't hard code installation path"
+  * Changes: Added drop-shadow attribute for MNavigationBarStyle
+
+ -- Tuomas Kuosmanen <tuomas.kuosmanen@nokia.com>  Tue, 22 Jun 2010 14:23:48 +0300
+
 meegotouchtheme (0.20.24-1) unstable; urgency=low
 
   * New version
