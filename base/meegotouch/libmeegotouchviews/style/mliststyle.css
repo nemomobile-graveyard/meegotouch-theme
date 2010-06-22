@@ -3,12 +3,6 @@ MListStyle {
     group-header-object-name: "";
     horizontal-separator-object-name: "emptySeparator"; 
     vertical-separator-object-name: "emptySeparator";
-    
-    /* inherited from MWidgetStyle */
-    margin-left: 12;
-    margin-top: 12;
-    margin-right: 12;
-    margin-bottom: 12;
 }
 
 
