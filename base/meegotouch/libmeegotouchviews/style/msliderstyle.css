@@ -21,6 +21,7 @@ MSliderStyle {
 
     steps-per-feedback: 1;
     minimum-feedback-interval: 50;
+    press-feedback: move-slider;
     move-feedback: move-slider;
     cancel-feedback: cancel;
 }
