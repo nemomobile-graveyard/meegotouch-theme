@@ -107,7 +107,7 @@
 #CommonItemInfo {
 
     font : $FONT_SMALL;
-    color : #000000;                    /* TBD */
+    color : $COLOR_FOREGROUND;                    /* TBD */
     margin-right : $INDENT_DEFAULT;
     margin-top : $MARGIN_XSMALL;
     margin-bottom : 0;
@@ -116,7 +116,7 @@
 #CommonHeader {
 
     font : $FONT_SMALL;
-    color : #FFFFFF;                    /* TBD */
+    color : $COLOR_INVERTED_FOREGROUND;                    /* TBD */
     margin-left : $INDENT_DEFAULT;
     margin-right : $INDENT_DEFAULT; 
     margin-top : $MARGIN_XSMALL;
@@ -410,7 +410,6 @@
     margin-top : $MARGIN_DOUBLE;
     margin-left : $INDENT_DEFAULT;
     margin-right : $INDENT_DEFAULT;
-    maximum-size: -1 16;
 }
 
 #CommonInputField {
@@ -634,7 +633,7 @@
     margin-right : 0;
     margin-top : 0;
     margin-bottom : 0;
-    minimum-size : 88 88;   
+    minimum-size : $SIZE_LIST $SIZE_LIST;   
 }
 
 #CommonPanelInverted {
@@ -644,7 +643,7 @@
     margin-right : 0;
     margin-top : 0;
     margin-bottom : 0;
-    minimum-size : 88 88;  
+    minimum-size : $SIZE_LIST $SIZE_LIST;  
 }
 
 #CommonPanel:pressed {
@@ -723,7 +722,7 @@
 #CommonSpacer {
 
     minimum-size : 0 0;
-    maximum-size : 1000 0;
+    maximum-size : 100.0mm 0;
     margin-left : 0;
     margin-right : 0;
     margin-top : 1.2mm;
