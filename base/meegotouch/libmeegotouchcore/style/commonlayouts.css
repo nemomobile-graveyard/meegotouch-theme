@@ -437,6 +437,45 @@
     maximum-size : 50mm 6.4mm;
 }
 
+#CommonRightButton {
+    margin-right : $INDENT_DEFAULT;
+    margin-left : $MARGIN_LARGE;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+    maximum-size : 50mm 6.4mm;
+}
+
+#CommonTopButton {
+    maximum-size : 50mm 6.4mm;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+}
+/* position on the left side in LS */
+#CommonTopButton.Landscape {
+    margin-right : $MARGIN_LARGE;
+    margin-left : $INDENT_DEFAULT;
+}
+#CommonTopButton.Portrait {
+    margin-right : $INDENT_DEFAULT;
+    margin-left : $INDENT_DEFAULT;
+}
+
+#CommonBottomButton {
+    maximum-size : 50mm 6.4mm;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+}
+/* position on the right side in LS */
+#CommonBottomButton.Landscape {
+    margin-right : $INDENT_DEFAULT;
+    margin-left : $INDENT_LARGE;
+}
+#CommonBottomButton.Portrait {
+    margin-right : $INDENT_DEFAULT;
+    margin-left : $INDENT_DEFAULT;
+}
+
+/* Common Center Button will be deleted, instead h and v center variants are used */
 #CommonCenterButton {
     margin-right : $MARGIN_LARGE;
     margin-left : $MARGIN_LARGE;
@@ -445,13 +484,28 @@
     maximum-size : 50mm 6.4mm;
 }
 
-#CommonRightButton {
+#CommonHorizontalCenterButton {
+    maximum-size : 50mm 6.4mm;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+}
+#CommonHorizontalCenterButton.Landscape {
+    margin-right : $MARGIN_LARGE;
+    margin-left : $MARGIN_LARGE;
+}
+#CommonHorizontalCenterButton.Portrait {
     margin-right : $INDENT_DEFAULT;
+    margin-left : $INDENT_DEFAULT;
+}
+
+#CommonVerticalCenterButton {
+    margin-right : $MARGIN_LARGE;
     margin-left : $MARGIN_LARGE;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
     maximum-size : 50mm 6.4mm;
 }
+
 
 #CommonIconButton  {
 

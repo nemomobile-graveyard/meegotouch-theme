@@ -1,3 +1,21 @@
+meegotouchtheme (0.20.26-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#176498 meegotouch-camera-capture -mode-switcher-background png has typo in filename
+  * Fixes: NB#167393 add support for an install prefix to duitheme
+  * Changes: updated icons for services
+  * Changes: use correct graphics and margins for progressbar
+  * Changes: some px > mm fixes, and color de-hardcoding
+  * Changes: Adapted to slider code changes
+  * Chagnes: Added images for music and video player
+  * Changes: Updated progressbar graphics
+  * Changes: Added feedbacks for object menu
+  * Changes: Added appear feedback for scene window
+  * Changes: Added feedbacks for switch
+  * Changes: added image for combobox indicator. Indicator logical ids are updated to ids.txt
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 23 Jun 2010 19:31:02 +0300
+
 meegotouchtheme (0.20.25-1) unstable; urgency=low
 
   * New version
