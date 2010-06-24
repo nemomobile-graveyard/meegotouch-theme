@@ -339,6 +339,10 @@
 #CommonSwitchIcon {
 
     margin-right : $INDENT_DEFAULT;
+    maximum-size: 3.2mm 3.2mm;
+    minimum-size: 3.2mm 3.2mm;
+    preferred-size: 3.2mm 3.2mm;
+    
 }
 
 #CommonButtonIcon {
