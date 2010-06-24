@@ -13,6 +13,14 @@ MWidgetFadeAnimationStyle#Out {
     opacity: 1.0;
 }
 
+MHomeButtonPanel MWidgetFadeAnimationStyle#In {
+    delay: 300;
+}
+
+MEscapeButtonPanel MWidgetFadeAnimationStyle#In {
+    delay: 300;
+}
+
 MSceneLayerEffect MWidgetFadeAnimationStyle#In {
     delay: 0;
     duration: 400;
