@@ -523,6 +523,21 @@
    margin-left : $INDENT_DEFAULT;
 }
 
+#CommonHorizontalSeparator {
+    margin-right : 0;
+    margin-left : 0;
+    margin-bottom : 0;
+    margin-top : 0;
+}
+
+#CommonVerticalSeparator {
+    margin-right : 0;
+    margin-left : 0;
+    margin-bottom : 0;
+    margin-top : 0;
+}
+
+
 /* Call buttons  */
 
 #CommonSingleCallButton {
