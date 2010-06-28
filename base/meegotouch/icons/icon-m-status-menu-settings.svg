@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="icon-m-telephony-microphone-layer"
+<svg version="1.1" id="icon-m-status-menu-settings-layer"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
 	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
-<g id="icon-m-telephony-microphone_2_">
+<g id="icon-m-status-menu-settings">
 	<rect style="fill:none;" width="48" height="48"/>
-	<path style="fill:#333333;" d="M18.982,15.088l13.93,13.93l13.695-13.699c0.856-0.852,0.857-2.241,0-3.096L35.781,1.385
-		c-0.855-0.848-2.246-0.848-3.102,0.002L18.982,15.088z M24.759,13.164l2.652-2.65l10.075,10.074l-2.65,2.648L24.759,13.164z
-		 M26.338,28.073l-6.411-6.41L6.514,36.537l4.946,4.946L26.338,28.073z M7.66,43.34l-3.01-3.011L0.75,44.243l3.007,3.005L7.66,43.34
-		z"/>
+	<path style="fill:#FFFFFF;" d="M42.422,35.553L26.719,19.836c0.771-1.044,4.545-7.886-4.491-13.113
+		c-4.07-2.357-10.252-2.435-8.435-0.611l7.235,7.24c-1.141,3.479-3.607,6.48-7.561,7.553L6.2,13.623
+		c-0.981-0.983-1.178,0.382-1.178,3.056c0,3.241,5.356,15.168,14.949,9.86L35.7,42.285c0.743,0.738,1.94,0.738,2.688,0l4.032-4.038
+		C43.162,37.501,43.162,36.296,42.422,35.553z"/>
 </g>
 </svg>
