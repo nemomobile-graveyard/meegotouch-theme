@@ -37,6 +37,6 @@ MComboBox MListItemStyle {
     padding-bottom: $PADDING_DEFAULT;
 
     preferred-size: -1 $SIZE_BUTTON;
-    minimum-size: $SIZE_ONE $SIZE_ONE;
-    maximum-size: 100% $SIZE_ONE;
+    minimum-size: $SIZE_ONE $SIZE_LIST;
+    maximum-size: 100% $SIZE_LIST;
 }
