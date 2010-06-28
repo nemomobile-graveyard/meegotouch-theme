@@ -488,21 +488,21 @@
     maximum-size : 50mm 6.4mm;
 }
 
-#CommonHorizontalCenterButton {
+#CommonVerticalCenterButton {
     maximum-size : 50mm 6.4mm;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
 }
-#CommonHorizontalCenterButton.Landscape {
+#CommonVerticalCenterButton.Landscape {
     margin-right : $MARGIN_LARGE;
     margin-left : $MARGIN_LARGE;
 }
-#CommonHorizontalCenterButton.Portrait {
+#CommonVerticalCenterButton.Portrait {
     margin-right : $INDENT_DEFAULT;
     margin-left : $INDENT_DEFAULT;
 }
 
-#CommonVerticalCenterButton {
+#CommonHorizontalCenterButton {
     margin-right : $MARGIN_LARGE;
     margin-left : $MARGIN_LARGE;
     margin-bottom : $MARGIN_DOUBLE;
