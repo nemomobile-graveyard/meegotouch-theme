@@ -1,31 +1,5 @@
 /* MComboBoxStyle : MWidgetStyle */
 MComboBoxStyle {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-
-    padding-left:   0;
-    padding-top:    0;
-    padding-right:  0;
-    padding-bottom: 0;
-
-    content-item-object-name: ;
-    item-mode: 0;
-	indicator-image: "meegotouch-combobox-indicator-inverted";
-}
-
-#ComboBoxIndicator {
-	maximum-size: $SIZE_ICON_XSMALL $SIZE_ICON_XSMALL;
-    minimum-size: $SIZE_ICON_XSMALL $SIZE_ICON_XSMALL;
-    preferred-size: $SIZE_ICON_XSMALL $SIZE_ICON_XSMALL;
-    margin-left : $MARGIN_DOUBLE;
-    margin-right : $MARGIN_DOUBLE;
-    margin-top : $MARGIN_DOUBLE;
-    margin-bottom : $MARGIN_DOUBLE;
-}
-
-MComboBox MListItemStyle {
     margin-left: $MARGIN_MEDIUM;
     margin-right: $MARGIN_MEDIUM;
     margin-top: $MARGIN_MEDIUM;
@@ -39,4 +13,63 @@ MComboBox MListItemStyle {
     preferred-size: -1 $SIZE_BUTTON;
     minimum-size: $SIZE_ONE $SIZE_LIST;
     maximum-size: 100% $SIZE_LIST;
+
+    indicator-image: "meegotouch-combobox-indicator-inverted";
+
+    title-object-name: "CommonTitle";
+    sub-title-object-name: "CommonSubTitle";
+    icon-object-name: "CommonMainIcon";
+    progress-indicator-object-name: "CommonProgressIndicator";
+    indicator-object-name: "ComboBoxIndicator";
+
+    separate-title: false;
+
+    /* not used, left for ABI compatibility*/
+    content-item-object-name: ;
+    item-mode: 0;
+}
+
+#ComboBoxIndicator {
+    maximum-size: $SIZE_ICON_XSMALL $SIZE_ICON_XSMALL;
+    minimum-size: $SIZE_ICON_XSMALL $SIZE_ICON_XSMALL;
+    preferred-size: $SIZE_ICON_XSMALL $SIZE_ICON_XSMALL;
+    margin-left : $MARGIN_DOUBLE;
+    margin-right : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+    margin-bottom : $MARGIN_DOUBLE;
+}
+
+MComboBoxStyle[button] {
+    indicator-image: "meegotouch-combobox-indicator";
+    title-object-name: "CommonTitleInverted";
+    sub-title-object-name: "CommonSubTitleInverted";
+
+    separate-title: false;
+}
+
+MComboBox MListItemStyle[button] {
+    background-tiles: meegotouch-button-background $CORNER_MARGINS;
+}
+
+MComboBox MListItemStyle[button]:pressed  {
+    background-tiles: meegotouch-button-background-pressed $CORNER_MARGINS;
+}
+
+
+
+MComboBoxStyle[labelButton] {
+    indicator-image: "meegotouch-combobox-indicator";
+    title-object-name: "CommonTitle";
+    sub-title-object-name: "CommonSubTitleInverted";
+
+    separate-title: true;
+}
+
+MComboBox MListItemStyle[labelButton] {
+    background-tiles: meegotouch-button-background $CORNER_MARGINS;
+    minimum-size: 4.8mm 4.8mm; /* blanco override of size */
+}
+
+MComboBox MListItemStyle[labelButton]:pressed {
+    background-tiles: meegotouch-button-background-pressed $CORNER_MARGINS;
 }
