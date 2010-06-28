@@ -472,7 +472,7 @@
 /* position on the right side in LS */
 #CommonBottomButton.Landscape {
     margin-right : $INDENT_DEFAULT;
-    margin-left : $INDENT_LARGE;
+    margin-left : $MARGIN_LARGE;
 }
 #CommonBottomButton.Portrait {
     margin-right : $INDENT_DEFAULT;
