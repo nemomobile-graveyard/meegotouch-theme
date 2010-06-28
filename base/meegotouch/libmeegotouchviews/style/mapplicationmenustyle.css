@@ -116,7 +116,21 @@ MApplicationMenu MComboBoxStyle
     minimum-size: -1 8.8mm;
     preferred-size: -1 8.8mm;
     maximum-size: -1 8.8mm;
-
     content-item-object-name: "menuactioncommand";
 }
 
+/* text labels in application menu items */
+MApplicationMenu MLabelStyle#CommonSingleTitle {
+    /* regular menu entries */
+   color: $COLOR_INVERTED_FOREGROUND;
+}                                                                                          
+
+MApplicationMenu MLabelStyle#CommonTitle {
+    /* menu entries that are a combobox */
+    color: $COLOR_INVERTED_FOREGROUND;
+}
+
+MApplicationMenu MLabelStyle#CommonSubTitle {
+    /* combobox secondary line of text */
+    color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
+}
