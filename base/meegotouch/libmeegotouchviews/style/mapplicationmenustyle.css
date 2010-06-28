@@ -119,18 +119,30 @@ MApplicationMenu MComboBoxStyle
     content-item-object-name: "menuactioncommand";
 }
 
+MApplicationMenu MListItemStyle {
+    background-tiles: meegotouch-viewmenu-background $CORNER_MARGINS;
+}
+
+MApplicationMenu MListItemStyle:selected {
+    background-tiles: meegotouch-viewmenu-background-selected $CORNER_MARGINS;
+}
+
+MApplicationMenu MListItemStyle:pressed {
+    background-tiles: meegotouch-viewmenu-background-pressed $CORNER_MARGINS;
+}
+
 /* text labels in application menu items */
 MApplicationMenu MLabelStyle#CommonSingleTitle {
     /* regular menu entries */
-   color: $COLOR_INVERTED_FOREGROUND;
+   color: $COLOR_FOREGROUND;
 }                                                                                          
 
 MApplicationMenu MLabelStyle#CommonTitle {
     /* menu entries that are a combobox */
-    color: $COLOR_INVERTED_FOREGROUND;
+    color: $COLOR_FOREGROUND;
 }
 
 MApplicationMenu MLabelStyle#CommonSubTitle {
     /* combobox secondary line of text */
-    color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
+    color: $COLOR_SECONDARY_FOREGROUND;
 }
