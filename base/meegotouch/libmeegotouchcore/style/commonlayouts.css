@@ -416,13 +416,50 @@
     margin-right : $INDENT_DEFAULT;
 }
 
-#CommonInputField {
 
+/* Input Fields */
+
+#CommonInputField {
     margin-left : $INDENT_DEFAULT;
     margin-right : $INDENT_DEFAULT;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
 }
+
+#CommonSingleInputField {
+    margin-left : $INDENT_DEFAULT;
+    margin-right : $INDENT_DEFAULT;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+}
+#CommonTopInputField {
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+}
+#CommonTopInputField.Portrait {
+    margin-left : $INDENT_DEFAULT;
+    margin-right : $INDENT_DEFAULT;
+}
+#CommonTopInputField.Landscape {
+    margin-left : $INDENT_DEFAULT;
+    margin-right : $MARGIN_LARGE;
+}
+
+#CommonBottomInputField {
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+}
+#CommonBottomInputField.Portrait {
+    margin-left : $INDENT_DEFAULT;
+    margin-right : $INDENT_DEFAULT;
+}
+#CommonBottomInputField.Landscape {
+    margin-left : $MARGIN_LARGE;
+    margin-right : $INDENT_DEFAULT;
+}
+
+
+/* Buttons  */
 
 #CommonSingleButton {
 
