@@ -1,3 +1,26 @@
+meegotouchtheme (0.20.27-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#176352 - Sometimes navigation bar is not fully hidden/shown when requested
+  * Changes: updated size to use SIZE_LIST
+  * Changes: Add application menu background-tiles for menuitems, fix text color
+  * Change: Fixed margins for new button styles in commonlayouts.css
+  * Change: Fixed syntax error in commonlayouts.css
+  * Changes: updated text label styles so they work with black menus on blanco
+  * Changes: new icons for R&D
+  * Changes: MApplicationMenu new style
+  * Changes: Updated experimental spinner graphics for RD
+  * Changes: added startup experience background images
+  * Change: Added separator styles to commonlayouts.css
+  * Change: Added sizes to CommonSwitchIcon in commonlayouts.css
+  * Changes: added id meegotouch-navigationbar-portrait-shadow to ids.txt
+  * Changes: added portrait mode shadow for navigationbar
+  * Change: Added button styles to commonlayout.css
+  * Changes: Added feedbacks for checkbox
+  * Changes: MComboBox doesn't use MContentItem.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 29 Jun 2010 12:21:55 +0300
+
 meegotouchtheme (0.20.26-1) unstable; urgency=low
 
   * New version
