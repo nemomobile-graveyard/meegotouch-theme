@@ -627,6 +627,12 @@
     margin-top : $MARGIN_DOUBLE;
     margin-bottom : 0;
 }
+#CommonSplitButtonVerticalTop:pressed {
+    background-image : meegotouch-buttongroup-background-pressed-vertical-top $CORNER_MARGINS;
+}
+#CommonSplitButtonVerticalTop:selected {
+    background-image : meegotouch-buttongroup-background-selected-vertical-top $CORNER_MARGINS;
+}
 
 #CommonSplitButtonVerticalCenter {
     background-image : meegotouch-buttongroup-background-vertical-center $CORNER_MARGINS;
@@ -635,6 +641,13 @@
     margin-top : 0;
     margin-bottom : 0;    
 }
+#CommonSplitButtonVerticalCenter:pressed {
+    background-image : meegotouch-buttongroup-background-pressed-vertical-center $CORNER_MARGINS;
+}
+#CommonSplitButtonVerticalCenter:selected {
+    background-image : meegotouch-buttongroup-background-selected-vertical-center $CORNER_MARGINS;
+}
+
 #CommonSplitButtonVerticalBottom {
     background-image : meegotouch-buttongroup-background-vertical-bottom $CORNER_MARGINS;
     margin-left : $INDENT_DEFAULT;
@@ -642,9 +655,6 @@
     margin-top : 0;
     margin-bottom : $MARGIN_DOUBLE;
 }
-
-
-
 #CommonSplitButtonVerticalBottom:pressed {
     background-image : meegotouch-buttongroup-background-pressed-vertical-bottom $CORNER_MARGINS;
 }
@@ -694,6 +704,151 @@
 #CommonSplitButtonHorizontalRight:selected {
     background-image : meegotouch-buttongroup-background-selected-horizontal-right $CORNER_MARGINS;
 }
+
+
+/* Experimental alternative splitbuttonstyles 28.06. */
+
+
+
+#CommonTopSplitButton {
+    margin-left : $INDENT_DEFAULT;
+    margin-top : 2mm;
+}
+
+#CommonTopSplitButton.Portrait {
+    background-image : meegotouch-buttongroup-background-vertical-top $CORNER_MARGINS;
+    margin-right : $INDENT_DEFAULT;
+    margin-bottom : 0;
+}
+#CommonTopSplitButton.Portrait:pressed {
+    background-image : meegotouch-buttongroup-background-pressed-vertical-top $CORNER_MARGINS;
+}
+#CommonTopSplitButton.Portrait:selected {
+    background-image : meegotouch-buttongroup-background-selected-vertical-top $CORNER_MARGINS;
+}
+
+#CommonTopSplitButton.Landscape {
+    background-image : meegotouch-buttongroup-background-horizontal-left $CORNER_MARGINS;
+    margin-right : 0;
+    margin-bottom : 2mm;
+}
+#CommonTopSplitButton.Landscape:pressed {
+    background-image : meegotouch-buttongroup-background-pressed-horizontal-left $CORNER_MARGINS;
+}
+#CommonTopSplitButton.Landscape:selected {
+    background-image : meegotouch-buttongroup-background-selected-horizontal-left $CORNER_MARGINS;
+}
+
+
+#CommonVerticalCenterSplitButton {
+    margin-left : 0;
+    margin-right : 0;
+}
+
+#CommonVerticalCenterSplitButton.Portrait {
+    background-image : meegotouch-buttongroup-background-vertical-center $CORNER_MARGINS;
+    margin-top : 0;
+    margin-bottom : 0;
+}
+#CommonVerticalCenterSplitButton.Portrait:pressed {
+    background-image : meegotouch-buttongroup-background-pressed-vertical-center $CORNER_MARGINS;
+}
+#CommonVerticalCenterSplitButton.Portrait:selected 
+    background-image : meegotouch-buttongroup-background-selected-vertical-center $CORNER_MARGINS;
+}
+
+#CommonVerticalCenterSplitButton.Landscape {
+    background-image : meegotouch-buttongroup-background-horizontal-center $CORNER_MARGINS;
+    margin-top : 2mm;
+    margin-bottom : 2mm;
+}
+#CommonVerticalCenterSplitButton.Landscape:pressed {
+    background-image : meegotouch-buttongroup-background-pressed-horizontal-center $CORNER_MARGINS;
+}
+#CommonVerticalCenterSplitButton.Landscape:selected {
+    background-image : meegotouch-buttongroup-background-selected-horizontal-center $CORNER_MARGINS;
+}
+
+
+#CommonBottomSplitButton {
+    margin-right : $INDENT_DEFAULT;
+    margin-bottom : 2mm;
+}
+
+#CommonBottomSplitButton.Portrait {
+    background-image : meegotouch-buttongroup-background-vertical-bottom $CORNER_MARGINS;
+    margin-left : $INDENT_DEFAULT;
+    margin-top : 0;
+}
+#CommonBottomSplitButton.Portrait:pressed {
+    background-image : meegotouch-buttongroup-background-pressed-vertical-bottom $CORNER_MARGINS;
+}
+#CommonBottomSplitButton.Portrait:selected {
+    background-image : meegotouch-buttongroup-background-selected-vertical-bottom $CORNER_MARGINS;
+}
+
+#CommonBottomSplitButton.Landscape {
+    background-image : meegotouch-buttongroup-background-horizontal-right $CORNER_MARGINS;
+    margin-left : 0;
+    margin-top : 2mm;
+}
+#CommonBottomSplitButton.Landscape:pressed {
+    background-image : meegotouch-buttongroup-background-pressed-horizontal-right $CORNER_MARGINS;
+}
+#CommonBottomSplitButton.Landscape:selected {
+    background-image : meegotouch-buttongroup-background-selected-horizontal-right $CORNER_MARGINS;
+}
+
+
+
+
+
+#CommonLeftSplitButton {
+    background-image : meegotouch-buttongroup-background-horizontal-left $CORNER_MARGINS;
+    margin-left : $INDENT_DEFAULT;
+    margin-right : 0;
+    margin-top : 2mm;
+    margin-bottom : 2mm;
+}
+#CommonLeftSplitButton:pressed {
+    background-image : meegotouch-buttongroup-background-pressed-horizontal-left $CORNER_MARGINS;
+}
+#CommonLeftSplitButton:selected {
+    background-image : meegotouch-buttongroup-background-selected-horizontal-left $CORNER_MARGINS;
+}
+
+
+#CommonHorizontalCenterSplitButton {
+    background-image : meegotouch-buttongroup-background-horizontal-center $CORNER_MARGINS;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 2mm;
+    margin-bottom : 2mm;
+}
+#CommonHorizontalCenterSplitButton:pressed {
+    background-image : meegotouch-buttongroup-background-pressed-horizontal-center $CORNER_MARGINS;
+}
+#CommonHorizontalCenterSplitButton:selected {
+    background-image : meegotouch-buttongroup-background-selected-horizontal-center $CORNER_MARGINS;
+}
+
+
+#CommonRightSplitButton {
+    background-image : meegotouch-buttongroup-background-horizontal-right $CORNER_MARGINS;
+    margin-left : 0;
+    margin-right : $INDENT_DEFAULT;
+    margin-top : 2mm;
+    margin-bottom : 2mm;
+}
+#CommonRightSplitButton:pressed {
+    background-image : meegotouch-buttongroup-background-pressed-horizontal-right $CORNER_MARGINS;
+}
+#CommonRightSplitButton:selected {
+    background-image : meegotouch-buttongroup-background-selected-horizontal-right $CORNER_MARGINS;
+}
+
+
+
 
 
 /*  PANELS & LAYOUTS */
