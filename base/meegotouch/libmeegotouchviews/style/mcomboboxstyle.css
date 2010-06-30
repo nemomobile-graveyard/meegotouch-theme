@@ -66,8 +66,9 @@ MComboBoxStyle[labelButton] {
 }
 
 MComboBox MListItemStyle[labelButton] {
+    /* this is the button-looking combobox */
     background-tiles: meegotouch-button-background $CORNER_MARGINS;
-    minimum-size: 4.8mm 4.8mm; /* blanco override of size */
+    minimum-size: 4.8mm 4.8mm; 
 }
 
 MComboBox MListItemStyle[labelButton]:pressed {
