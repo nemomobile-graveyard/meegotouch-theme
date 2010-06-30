@@ -10,6 +10,10 @@ MListItemStyle {
     preferred-size: -1 $SIZE_ONE;
     minimum-size: $SIZE_ONE $SIZE_ONE;
     maximum-size: 100% $SIZE_FOUR;
+
+    press-feedback: press;
+    release-feedback: release;
+    cancel-feedback: cancel;
 }
 
 MListItemStyle:selected {        
