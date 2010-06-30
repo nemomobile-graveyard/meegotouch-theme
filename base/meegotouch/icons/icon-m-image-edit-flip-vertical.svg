@@ -6,12 +6,12 @@
 	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
 <g id="icon-m-image-edit-flip-vertical">
 	<rect style="fill:none;" width="48" height="48"/>
-	<polygon style="fill:#333333;" points="0.75,45.514 21.807,24 0.75,2.484 	"/>
-	<path style="fill:#333333;" d="M47.025,45.514L25.967,24L47.025,2.484V45.514L47.025,45.514z M28.758,24L45.03,40.625V7.373
-		L28.758,24L28.758,24z"/>
-	<rect x="22.77" y="5.13" style="fill:#333333;" width="2.083" height="6.247"/>
-	<rect x="22.77" y="15.629" style="fill:#333333;" width="2.083" height="6.246"/>
-	<rect x="22.77" y="26.125" style="fill:#333333;" width="2.083" height="6.246"/>
-	<rect x="22.77" y="36.623" style="fill:#333333;" width="2.083" height="6.246"/>
+	<polygon style="fill:#333333;" points="2.486,0.75 24.001,21.808 45.516,0.75 	"/>
+	<path style="fill:#333333;" d="M45.515,47.025H2.486l21.516-21.059L45.515,47.025L45.515,47.025z M7.375,45.031h33.252
+		L24.001,28.758L7.375,45.031L7.375,45.031z"/>
+	<rect x="36.623" y="22.77" style="fill:#333333;" width="6.247" height="2.083"/>
+	<rect x="26.127" y="22.77" style="fill:#333333;" width="6.246" height="2.083"/>
+	<rect x="15.63" y="22.77" style="fill:#333333;" width="6.246" height="2.083"/>
+	<rect x="5.133" y="22.77" style="fill:#333333;" width="6.246" height="2.083"/>
 </g>
 </svg>
