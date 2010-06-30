@@ -1,20 +1,15 @@
 /* MSpinnerStyle : MWidgetStyle */
 MSpinnerStyle {
-    /*leaving old images in order to not break the current implementation*/
     active-image: "meegotouch-progressindicator-spinner-medium-on" 1.0mm 1.0mm;
     inactive-image: "meegotouch-progressindicator-spinner-medium-off" 1.0mm 1.0mm;
+    speed: 20;
+    active-element-count: 1;
+    element-size: 1.0mm;
+    element-count: 7;
 
-    fg-image: "meegotouch-progressindicator-spinner-large-foreground" 0 0 0 0;
-    bg-image: "meegotouch-progressindicator-spinner-large-background" 0 0 0 0;
-    mask-image: "meegotouch-progressindicator-spinner-large-mask" 0 0 0 0;
-    progress-image: "meegotouch-progressindicator-spinner-large" 0 0 0 0;
-    progress-strip-size: 3px;
-    speed: 100;
-    element-count: 3; /*still needed in order to modify stripe length*/
-
-    maximum-size: 6.4mm 6.4mm;
+    maximum-size: 100% 100%;
     minimum-size: 2mm 2mm;
-    preferred-size: 6.4mm 6.4mm;
+    preferred-size: 8.8mm 8.8mm;
 }
 
 MApplicationMenuButton > MSpinnerStyle {
@@ -28,74 +23,44 @@ MApplicationMenuButton > MSpinnerStyle {
     padding-right: 0;
     padding-bottom: 0;
 
-    /*leaving old images in order to not break the current implementation*/
     active-image: "meegotouch-progressindicator-spinner-medium-on" 1.0mm 1.0mm;
     inactive-image: "meegotouch-progressindicator-spinner-medium-off" 1.0mm 1.0mm;
+    element-size: 1mm;
 
-    fg-image: "meegotouch-progressindicator-spinner-medium-foreground" 0 0 0 0;
-    bg-image: "meegotouch-progressindicator-spinner-medium-background" 0 0 0 0;
-    mask-image: "meegotouch-progressindicator-spinner-medium-mask" 0 0 0 0;
-    progress-image: "meegotouch-progressindicator-spinner-medium" 0 0 0 0;
-
-    progress-strip-size: 1px;
-
-    minimum-size: 3.2mm 3.2mm;
-    preferred-size: 3.2mm 3.2mm;
-    maximum-size: 3.2mm 3.2mm;
+    minimum-size: $SIZE_SPINNER_MENU $SIZE_SPINNER_MENU;
+    preferred-size: $SIZE_SPINNER_MENU $SIZE_SPINNER_MENU;
+    maximum-size: $SIZE_SPINNER_MENU $SIZE_SPINNER_MENU;
 }
 
 MContainer MSpinnerStyle {
-     /*leaving old images in order to not break the current implementation*/
     active-image: "meegotouch-progressindicator-spinner-large-on" 1.6mm 1.6mm;
     inactive-image: "meegotouch-progressindicator-spinner-large-off" 1.6mm 1.6mm;
+    element-size: 1.6mm;
 
-    fg-image: "meegotouch-progressindicator-spinner-large-foreground" 0 0 0 0;
-    bg-image: "meegotouch-progressindicator-spinner-large-background" 0 0 0 0;
-    mask-image: "meegotouch-progressindicator-spinner-large-mask" 0 0 0 0;
-    progress-image: "meegotouch-progressindicator-spinner-large" 0 0 0 0;
-
-    progress-strip-size: 1px;
-
-    minimum-size: 6.4mm 6.4mm;
-    preferred-size: 6.4mm 6.4mm;
-    maximum-size: 6.4mm 6.4mm;
+    minimum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
+    preferred-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
+    maximum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
 }
 
 MContainerHeader MSpinnerStyle {
-    /*leaving old images in order to not break the current implementation*/
     active-image: "meegotouch-progressindicator-spinner-small-on" 0.8mm 0.8mm;
     inactive-image: "meegotouch-progressindicator-spinner-small-off" 0.8mm 0.8mm;
-
-    fg-image: "meegotouch-progressindicator-spinner-small-foreground" 0 0 0 0;
-    bg-image: "meegotouch-progressindicator-spinner-small-background" 0 0 0 0;
-    mask-image: "meegotouch-progressindicator-spinner-small-mask" 0 0 0 0;
-    progress-image: "meegotouch-progressindicator-spinner-small" 0 0 0 0;
-
-    progress-strip-size: 1px;
-
-    minimum-size: 1.6mm 1.6mm;
-    preferred-size: 1.6mm 1.6mm;
-    maximum-size: 1.6mm 1.6mm;
+    element-size: 0.8mm;
+    minimum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
+    preferred-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
+    maximum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
 }
 
 /* MDialog MSpinnerStyle doesnt work */
 #MDialogProgressIndicator {
-    /*leaving old images in order to not break the current implementation*/
     active-image: "meegotouch-progressindicator-spinner-small-on" 0.8mm 0.8mm;
     inactive-image: "meegotouch-progressindicator-spinner-small-off" 0.8mm 0.8mm;
-
-
-    fg-image: "meegotouch-progressindicator-spinner-small-foreground" 0 0 0 0;
-    bg-image: "meegotouch-progressindicator-spinner-small-background" 0 0 0 0;
-    mask-image: "meegotouch-progressindicator-spinner-small-mask" 0 0 0 0;
-    progress-image: "meegotouch-progressindicator-spinner-small" 0 0 0 0;
-
     element-size: 0.8mm;
 
     minimum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
     preferred-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
     maximum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
-
+    
     margin-left: $MARGIN_MEDIUM;
     margin-right: $MARGIN_MEDIUM;
     margin-top: $MARGIN_MEDIUM;
