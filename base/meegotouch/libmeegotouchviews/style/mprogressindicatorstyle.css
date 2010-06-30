@@ -1,7 +1,7 @@
 /* MProgressIndicatorStyle : MWidgetStyle */
 MProgressIndicatorStyle {
-    active-image: Dot-accented;
-    inactive-image: Dot-empty;
+    active-image: "meegotouch-progressindicator-bar-progress-unknown";
+    inactive-image: "meegotouch-progressindicator-bar-background";
     speed: 40;
     active-element-count: 2;
     element-size: 1mm;
