@@ -284,11 +284,23 @@
 }
 
 #CommonTitleIcon {
+    maximum-size: 3.2mm 3.2mm;
+    minimum-size: 3.2mm 3.2mm;
+    preferred-size: 3.2mm 3.2mm;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    margin-bottom : 0;
+}
 
-    margin-left : $MARGIN_DOUBLE;
-    margin-right : $MARGIN_DOUBLE;
-    margin-top : $MARGIN_DOUBLE;
-    margin-bottom : $MARGIN_DOUBLE;
+#CommonSettingsIcon {
+    maximum-size: 4.8mm 4.8mm;
+    minimum-size: 4.8mm 4.8mm;
+    preferred-size: 4.8mm 4.8mm;
+    margin-left : 2mm;
+    margin-right : 2mm;
+    margin-top : 2mm;
+    margin-bottom : 2mm;
 }
 
 #CommonTitleIconTop {
@@ -999,4 +1011,10 @@
     margin-right : 0;
     margin-top : 1.2mm;
     margin-bottom : 0;
+}
+
+#VerticalCenterAlignmentSpacer {
+    maximum-size: 0 0;
+    minimum-size: 0 0;
+    preferred-size: 0 0;
 }
