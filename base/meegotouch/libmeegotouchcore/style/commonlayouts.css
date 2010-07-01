@@ -981,6 +981,11 @@
     margin-top : $MARGIN_DOUBLE;
 }
 
+#CommonApplicationView {
+    margin-top : $MARGIN_DOUBLE;
+    margin-bottom : $MARGIN_DOUBLE;
+}
+
 /*  STRUCTURAL ELEMENTS  */
 
 
