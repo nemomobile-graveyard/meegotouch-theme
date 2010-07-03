@@ -1,3 +1,23 @@
+meegotouchtheme (0.20.28-1) unstable; urgency=low
+
+  * New version
+  * Change: Added CommonApplicationView to commonlayouts.css
+  * Change: Margin adjustment for #CommonSubIconGroup in commonlayouts.css
+  * Changes: replacing meegotouch-applicationpage-portrait-background to jpeg format due performance requirements
+  * Changes: replacing meegotouch-applicationpage-background to jpeg format due performance requirements
+  * Change: Added CommonApplicationView to commonlayouts.css
+  * Changes: added default wallpaper images for portrait and landscape
+  * Changes: Updated vibra haptic feedbacks to support multiple strengths
+  * Fixes: NB#176268 NB#174551 NB#175084 + new icons
+  * Changes: replaicing old images for new one for mprogresindicatorstyle.css
+  * Changes: MComboBox's appearance enhancements
+  * Changes: Toolbar missing shade
+  * Changes: Use small shadow graphics in mnavigationbar
+  * Change: Added input field styles to commonlayouts.css
+  * Change: Fixed split buttons and added alternatives to commonlayouts.css
+   
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Sat, 03 Jul 2010 14:00:33 +0300
+
 meegotouchtheme (0.20.27-1) unstable; urgency=low
 
   * New version
