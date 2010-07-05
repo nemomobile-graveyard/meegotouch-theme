@@ -1,3 +1,4 @@
+
 /* MDialogStyle : MSceneWindowStyle */
 MDialogStyle {
 
@@ -22,6 +23,8 @@ MDialogStyle {
     button-spacing: $PADDING_DEFAULT;
 
     title-bar-height: 5.2mm;
+    title-bar-alignment: center;
+    title-capitalization: false;
 
     /* supports only "bottom" or "center" */
     dialog-vertical-alignment: bottom;
