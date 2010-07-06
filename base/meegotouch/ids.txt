@@ -489,18 +489,9 @@ meegotouch-button-numpad-background-selected-bottom
 meegotouch-button-numpad-background-selected-bottom-right
 
 #meegotouch-progress-spinner-experimental
-meegotouch-progressindicator-spinner-large
-meegotouch-progressindicator-spinner-large-mask
-meegotouch-progressindicator-spinner-large-background
-meegotouch-progressindicator-spinner-large-foreground
-meegotouch-progressindicator-spinner-medium
-meegotouch-progressindicator-spinner-medium-mask
-meegotouch-progressindicator-spinner-medium-background
-meegotouch-progressindicator-spinner-medium-foreground
-meegotouch-progressindicator-spinner-small
-meegotouch-progressindicator-spinner-small-mask
-meegotouch-progressindicator-spinner-small-background
-meegotouch-progressindicator-spinner-small-foreground
+meegotouch-progressindicator-spinner-background
+meegotouch-progressindicator-spinner-progress
+meegotouch-progressindicator-spinner-foreground
 
 #vkb these are old and will be removed
 keyboard-key-ace-pressed-portrait
