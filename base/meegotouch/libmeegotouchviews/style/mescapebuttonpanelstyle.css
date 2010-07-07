@@ -25,6 +25,8 @@ MEscapeButtonPanelStyle:pressed {
 
 MButtonIconStyle#BackButton {
 
+    icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
+
     minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
     maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
     preferred-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
@@ -35,6 +37,8 @@ MButtonIconStyle#BackButton {
 }                              
 
 MButtonIconStyle#CloseButton {
+
+    icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
 
     minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
     maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR;
