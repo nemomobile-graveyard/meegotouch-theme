@@ -3,7 +3,7 @@ MToolbarStyle {
     /* inherited from MWidgetStyle */
     background-opacity: 1.0;
     background-color: $COLOR_BACKGROUND;
-    background-image: meegotouch-navigationbar-toolbar-background $CORNER_MARGINS;
+    background-image: meegotouch-navigationbar-toolbar-portrait-background $CORNER_MARGINS;
 
     preferred-size: -1 $HEIGHT_NAVIGATIONBAR;
     minimum-size: -1 $HEIGHT_NAVIGATIONBAR;
@@ -14,6 +14,7 @@ MToolbarStyle {
 
 MToolbarStyle.Landscape {
    maximum-size: 38.4mm $HEIGHT_NAVIGATIONBAR; /* size of four buttons */
+   background-image: meegotouch-navigationbar-toolbar-background $CORNER_MARGINS;
 }
 
 MTextEditStyle[toolbar] {

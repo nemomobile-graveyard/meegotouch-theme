@@ -10,7 +10,7 @@ MNavigationBarStyle {
     /* inherited from MWidgetStyle */
 
     /* this is a hack until the navigationbar is refactored */
-    background-image: "meegotouch-navigationbar-toolbar-portrait-background" 12px 12px 12px 12px;
+    background-image: "meegotouch-navigationbar-toolbar-background" 12px 12px 12px 12px;
 
     padding-left:   $WIDTH_HOMECLOSEBUTTON; /* space for square button */
     padding-right:  $WIDTH_HOMECLOSEBUTTON; /* space for square button */
