@@ -4,15 +4,12 @@
 <svg version="1.1" id="icon-m-status-menu-profile-beep-layer"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
 	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
-<g id="icon-m-status-menu-profile-beep">
+<g id="icon-m-status-menu-profile-beep_1_">
 	<rect style="fill:none;" width="48" height="48"/>
-	<g>
-		<path style="fill:#FFFFFF;" d="M22.864,13.97l0.017,19.74l-6.812-5.629l-0.727-0.599h-0.944H5.625v-7.367h8.871h0.946l0.728-0.604
-			L22.864,13.97 M25.252,9.246h-0.564c-0.13,0-0.321,0.07-0.426,0.156l-9.766,8.088H3v12.617h11.397l9.89,8.169
-			c0.104,0.088,0.295,0.155,0.426,0.155h0.564c0.126,0,0.233-0.125,0.233-0.275L25.484,9.523
-			C25.484,9.371,25.378,9.246,25.252,9.246L25.252,9.246z"/>
-		<rect x="39.094" y="20.558" style="fill:#FFFFFF;" width="5.906" height="5.906"/>
-		<rect x="29.906" y="20.558" style="fill:#FFFFFF;" width="5.906" height="5.906"/>
-	</g>
+	<circle style="fill:#010101;" cx="24" cy="24" r="23.5"/>
+	<path style="fill:#FFFFFF;" d="M21.807,17.147L21.8,30.849l-4.291-3.547l-0.607-0.503h-0.788h-4.772v-5.657l4.853-0.01l0.784-0.003
+		l0.604-0.498L21.807,17.147 M24,12.5l-7.81,6.44l-7.039,0.017v10.032h6.962l7.875,6.511L24,12.5L24,12.5z"/>
+	<rect x="34.35" y="21.5" style="fill:#FFFFFF;" width="4.5" height="4.5"/>
+	<rect x="27.35" y="21.5" style="fill:#FFFFFF;" width="4.5" height="4.5"/>
 </g>
 </svg>

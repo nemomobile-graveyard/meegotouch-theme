@@ -4,13 +4,14 @@
 <svg version="1.1" id="icon-m-status-menu-packetdata-layer"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
 	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
-<g id="icon-m-status-menu-packetdata">
+<g id="icon-m-status-menu-packetdata_1_">
 	<rect style="fill:none;" width="48" height="48"/>
+	<circle style="fill:#010101;" cx="24" cy="24" r="23.5"/>
 	<g>
-		<path style="fill:#FFFFFF;" d="M32.818,33.839c2.409-1.334,3.24-4.503,3.24-5.863c0-0.278-0.012-0.807,0.002-1.637H4
-			l13.333,12.339c0,0,0-3.75,0-4.839H32.818z"/>
-		<path style="fill:#FFFFFF;" d="M15.298,13.839c-0.663,0.258-3.409,2.631-3.409,6.582c0,0,0,0.421,0,0.918H44L30.666,9
-			c0,0,0,3.759,0,4.839H15.298z"/>
+		<path style="fill:#FFFFFF;" d="M31.055,31.839c1.928-1.067,2.592-3.603,2.592-4.69c0-0.223-0.009-0.646,0.002-1.31H8l10.667,9.871
+			c0,0,0-3,0-3.871H31.055z"/>
+		<path style="fill:#FFFFFF;" d="M17.038,15.839c-0.53,0.206-2.728,2.104-2.728,5.266c0,0,0,0.337,0,0.734H40l-10.668-9.871
+			c0,0,0,3.007,0,3.871H17.038z"/>
 	</g>
 </g>
 </svg>
