@@ -18,15 +18,6 @@ TEMPLATE = subdirs
         THEME_DIR = /usr/share/themes
     }
 }
-# install gconf schema
-    unix {
-        schemas.CONFIG += no_check_exist
-        schemas.files = $${IN_PWD}/utils/meegotouchtheme.schemas
-        schemas.path = $${M_SYSCONFDIR}/gconf/schemas
-        schemas.commands = GCONF_CONFIG_SOURCE=$(GCONF_SCHEMA_CONFIG_SOURCE) gconftool-2 --makefile-install-rule $${IN_PWD}/utils/meegotouchtheme.schemas
-        INSTALLS += schemas
-        }
-
 
 # BASE THEME
 base.files = ./base
