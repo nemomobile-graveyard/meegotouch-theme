@@ -23,4 +23,6 @@ MSceneWindowStyle#statusBar
     background-color: #000000;
     /* this is a hack, statusbar needs to use the id string directly */
     background-svgid: "meegotouch-navigationbar-statusarea-background";
+    swipe-threshold: 30;
+    press-feedback : press;
 }
