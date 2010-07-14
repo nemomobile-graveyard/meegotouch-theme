@@ -1,3 +1,19 @@
+meegotouchtheme (0.20.30-1) unstable; urgency=low
+
+  * New version
+  * New: swipe threshold for opening status indicator menu themable
+  * Fixes: NB#176700  Labels are not visible in QtStyle Dialog Test and QtStyle Example apps until button is tapped
+  * Changes: Remove margins from list index shortcut labels.
+  * Changes: Added margin around new progress indicator
+  * Changes: removing duplicated m-common-4G icon
+  * Changes: new theme name and folder structure
+  * Changes: Base icon set complete pack w27
+  * Changes: fixed toolbar graphic in portrait mode so round bottomleft and bottomright corners work
+  * Changes: navigationbar had wrong icon size defined
+  * Changes: changed the experimental spinner graphics and ids.txt accordingly
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 14 Jul 2010 13:11:31 +0300
+
 meegotouchtheme (0.20.29-1) unstable; urgency=low
 
   * New version
