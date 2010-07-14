@@ -1,18 +1,18 @@
 /* MSpinnerStyle : MWidgetStyle */
 MSpinnerStyle {
-    active-image: "meegotouch-progressindicator-spinner-medium-on" 1.0mm 1.0mm;
-    inactive-image: "meegotouch-progressindicator-spinner-medium-off" 1.0mm 1.0mm;
-    speed: 20;
-    active-element-count: 1;
-    element-size: 1.0mm;
-    element-count: 7;
+    bg-pixmap: "meegotouch-progressindicator-spinner-background" 8.8mm 8.8mm;
+    progress-pixmap: "meegotouch-progressindicator-spinner-progress" 8.8mm 8.8mm;
+    period: 2000;
 
-    maximum-size: 100% 100%;
-    minimum-size: 2mm 2mm;
+    maximum-size: 8.8mm 8.8mm;
+    minimum-size: 8.8mm 8.8mm;
     preferred-size: 8.8mm 8.8mm;
 }
 
 MApplicationMenuButton > MSpinnerStyle {
+    bg-pixmap: "meegotouch-progressindicator-spinner-background" 4mm 4mm;
+    progress-pixmap: "meegotouch-progressindicator-spinner-progress" 4mm 4mm;
+
     margin-left: $MARGIN_DOUBLE;
     margin-top: 0;
     margin-right: 0;
@@ -23,46 +23,35 @@ MApplicationMenuButton > MSpinnerStyle {
     padding-right: 0;
     padding-bottom: 0;
 
-    active-image: "meegotouch-progressindicator-spinner-medium-on" 1.0mm 1.0mm;
-    inactive-image: "meegotouch-progressindicator-spinner-medium-off" 1.0mm 1.0mm;
-    element-size: 1mm;
-
-    minimum-size: $SIZE_SPINNER_MENU $SIZE_SPINNER_MENU;
-    preferred-size: $SIZE_SPINNER_MENU $SIZE_SPINNER_MENU;
-    maximum-size: $SIZE_SPINNER_MENU $SIZE_SPINNER_MENU;
+    minimum-size: 4mm 4mm;
+    preferred-size: 4mm 4mm;
+    maximum-size: 4mm 4mm;
 }
 
 MContainer MSpinnerStyle {
-    active-image: "meegotouch-progressindicator-spinner-large-on" 1.6mm 1.6mm;
-    inactive-image: "meegotouch-progressindicator-spinner-large-off" 1.6mm 1.6mm;
-    element-size: 1.6mm;
+    bg-pixmap: "meegotouch-progressindicator-spinner-background" 8.8mm 8.8mm;
+    progress-pixmap: "meegotouch-progressindicator-spinner-progress" 8.8mm 8.8mm;
 
-    minimum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
-    preferred-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
-    maximum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
+    minimum-size: 8.8mm 8.8mm;
+    preferred-size: 8.8mm 8.8mm;
+    maximum-size: 8.8mm 8.8mm;
 }
 
 MContainerHeader MSpinnerStyle {
-    active-image: "meegotouch-progressindicator-spinner-small-on" 0.8mm 0.8mm;
-    inactive-image: "meegotouch-progressindicator-spinner-small-off" 0.8mm 0.8mm;
-    element-size: 0.8mm;
-    minimum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
-    preferred-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
-    maximum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
+    bg-pixmap: "meegotouch-progressindicator-spinner-background" 3.2mm 3.2mm;
+    progress-pixmap: "meegotouch-progressindicator-spinner-progress" 3.2mm 3.2mm;
+
+    minimum-size: 3.2mm 3.2mm;
+    preferred-size: 3.2mm 3.2mm;
+    maximum-size: 3.2mm 3.2mm;
 }
 
 /* MDialog MSpinnerStyle doesnt work */
 #MDialogProgressIndicator {
-    active-image: "meegotouch-progressindicator-spinner-small-on" 0.8mm 0.8mm;
-    inactive-image: "meegotouch-progressindicator-spinner-small-off" 0.8mm 0.8mm;
-    element-size: 0.8mm;
+    bg-pixmap: "meegotouch-progressindicator-spinner-background" 4mm 4mm;
+    progress-pixmap: "meegotouch-progressindicator-spinner-progress" 4mm 4mm;
 
-    minimum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
-    preferred-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
-    maximum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
-    
-    margin-left: $MARGIN_MEDIUM;
-    margin-right: $MARGIN_MEDIUM;
-    margin-top: $MARGIN_MEDIUM;
-    margin-bottom: $MARGIN_MEDIUM;
+    minimum-size: 4mm 4mm;
+    preferred-size: 4mm 4mm;
+    maximum-size: 4mm 4mm;
 }
