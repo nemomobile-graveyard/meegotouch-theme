@@ -36,14 +36,18 @@ MDialogStyle {
 
     dialog-minimum-size: 1mm 1mm;
     dialog-preferred-size: 100% -1;
+    dialog-button-fixed-width: -1;
+    button-box-centered: false;
 }
 
 MDialogStyle.Landscape {
     button-box-orientation: horizontal;
+    maximum-horizontal-buttons: 5;
 }
 
 MDialogStyle.Portrait {
     button-box-orientation: vertical;
+    maximum-horizontal-buttons: 1;
 }
 
 #MDialogContentsViewport {
@@ -107,6 +111,20 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
     margin-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+#MDialogButtonBox {
+    background-image: meegotouch-dialog-button-area-background 10px 10px 10px 10px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    preferred-size: -1 $SIZE_BUTTON;
+    minimum-size: -1 $SIZE_BUTTON;
 }
 
 
