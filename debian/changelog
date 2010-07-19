@@ -1,3 +1,11 @@
+meegotouchtheme (0.20.31-1) unstable; urgency=low
+
+  * New version
+  * Changes: adding a missing data-picker graphic for base
+  * Changes: Refactoring spinner stylesheet and svg
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 19 Jul 2010 15:39:32 +0300
+
 meegotouchtheme (0.20.30-1) unstable; urgency=low
 
   * New version
