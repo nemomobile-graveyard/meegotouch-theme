@@ -2,6 +2,12 @@
 MProgressIndicatorStyle {
     active-image: "meegotouch-progressindicator-bar-progress-unknown";
     inactive-image: "meegotouch-progressindicator-bar-background";
+
+    /* bar */
+    mask-image: "meegotouch-progressindicator-bar-progress-mask" 4px 4px 4px 4px;
+    fill-image: "meegotouch-progressindicator-bar-progress-unknown";
+    fill-image-tiled: false;
+
     speed: 40;
     active-element-count: 2;
     element-size: 1mm;
