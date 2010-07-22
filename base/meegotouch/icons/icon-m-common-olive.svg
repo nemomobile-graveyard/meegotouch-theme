@@ -5,6 +5,7 @@
 	 x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
 <g id="icon-m-common-olive">
 	<rect style="fill:none;" width="48" height="48"/>
-	<circle style="fill:#198642;" cx="24" cy="24" r="16"/>
+	<path style="fill:#198642;" d="M24.417,40C37.215,40,40,34.381,40,24.024c0-10.384-2.863-16.021-15.583-16.021L23.58,8
+		C10.785,8,8,13.621,8,23.978c0,10.382,2.863,16.021,15.58,16.021L24.417,40z"/>
 </g>
 </svg>
