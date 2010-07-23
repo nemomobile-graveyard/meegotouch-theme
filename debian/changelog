@@ -1,3 +1,11 @@
+meegotouchtheme (0.20.32-1) unstable; urgency=low
+
+  * New version
+  * Changes: new icon set W29
+  * Changes: Spinner stylesheet pixmap sizes changed to symbolic constants
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Fri, 23 Jul 2010 15:36:05 +0300
+
 meegotouchtheme (0.20.31-1) unstable; urgency=low
 
   * New version
