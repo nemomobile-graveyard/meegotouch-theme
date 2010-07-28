@@ -1,3 +1,13 @@
+meegotouchtheme (0.20.33-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#179997 Gallery no-content images missing
+  * Changes: Updated MMS logical ids to ids.txt
+  * Changes: Added images for MMS
+  * Changes: pattern for filling the bar, mask for the shape, filling can be tiled or stretched
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 28 Jul 2010 15:03:48 +0300
+
 meegotouchtheme (0.20.32-1) unstable; urgency=low
 
   * New version
