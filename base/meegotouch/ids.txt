@@ -298,6 +298,9 @@ meegotouch-progressindicator-bar-progress-unknown
 meegotouch-progressindicator-bar-progress-unknown-mask
 meegotouch-progressindicator-bar-progress
 meegotouch-progressindicator-bar-background
+meegotouch-progressindicator-bar-progress-left-edge
+meegotouch-progressindicator-bar-progress-right-edge
+meegotouch-progressindicator-bar-progress-mask
 
 #meegotouch launcher spinner
 meegotouch-launcher-spinner-large-1
