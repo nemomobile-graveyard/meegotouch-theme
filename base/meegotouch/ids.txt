@@ -21,6 +21,11 @@
 
 # *** Common ui component views ***
 
+#meegotouch-mms.svg
+meegotouch-mms-image-background
+meegotouch-mms-image-mask
+meegotouch-mms-slide-divider
+
 #meegotouch-media-navigationbar
 meegotouch-button-navigationbar-media-home-background
 meegotouch-button-navigationbar-media-home-background-pressed
