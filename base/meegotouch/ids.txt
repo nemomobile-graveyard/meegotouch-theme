@@ -26,6 +26,10 @@ meegotouch-mms-image-background
 meegotouch-mms-image-mask
 meegotouch-mms-slide-divider
 
+#meegotouch-gallery
+meegotouch-image-no-content-portrait-splash
+meegotouch-image-no-content-landscape-splash
+
 #meegotouch-media-navigationbar
 meegotouch-button-navigationbar-media-home-background
 meegotouch-button-navigationbar-media-home-background-pressed
