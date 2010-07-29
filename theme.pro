@@ -23,7 +23,6 @@ TEMPLATE = subdirs
 base.files = ./base
 base.path = $$THEME_DIR
 base.CONFIG += no_check_exist
-base.commands += perl extract.pl base/meegotouch/svg/ base/meegotouch/ids.txt
 base_icon.files = ./base/meegotouch/icons/icon-l-meegotouchtheme-devel.svg
 base_icon.path = $$THEME_DIR/base/meegotouch/icons
 base_icon.CONFIG += no_check_exist
@@ -32,7 +31,6 @@ base_icon.CONFIG += no_check_exist
 plankton.files = ./plankton
 plankton.path = $$THEME_DIR
 plankton.CONFIG += no_check_exist
-plankton.commands += perl extract.pl plankton/meegotouch/svg/ base/meegotouch/ids.txt
 
 plankton_icon.files = ./plankton/meegotouch/icons/icon-l-meegotouchtheme-plankton.svg
 plankton_icon.path = $$THEME_DIR/base/meegotouch/icons
