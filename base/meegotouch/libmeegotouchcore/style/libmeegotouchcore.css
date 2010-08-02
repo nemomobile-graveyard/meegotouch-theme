@@ -30,6 +30,7 @@
 @import "mpanrecognizerstyle.css";
 @import "mswiperecognizerstyle.css";
 @import "mtapandholdrecognizerstyle.css";
+@import "mwidgetrectangularclipanimationstyle.css";
 
 /* preedit styling for input context */
 @import "mpreeditstyle.css";
