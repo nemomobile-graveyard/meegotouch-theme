@@ -1,3 +1,13 @@
+meegotouchtheme (0.20.34-1) unstable; urgency=low
+
+  * New version
+  * Changes: Spinner is fast again
+  * Changes: fixed arrow sizes on navigationbar
+  * Changes: added background image for messaging contact card.
+  * Changes: remove script to generate .ids files
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 02 Aug 2010 16:19:21 +0300
+
 meegotouchtheme (0.20.33-1) unstable; urgency=low
 
   * New version
