@@ -1,28 +1,26 @@
 /* MProgressIndicatorStyle : MWidgetStyle */
 MProgressIndicatorStyle {
-    active-image: "meegotouch-progressindicator-bar-progress-unknown";
-    inactive-image: "meegotouch-progressindicator-bar-background";
 
-    /* bar */
-    mask-image: "meegotouch-progressindicator-bar-progress-mask" 4px 4px 4px 4px;
-    fill-image: "meegotouch-progressindicator-bar-progress-unknown";
-    fill-image-tiled: false;
-
-    speed: 40;
-    active-element-count: 2;
-    element-size: 1mm;
-    element-distance: 0.3;
-
-    /* inherited from MWidgetStyle */
 }
 
 MProgressIndicatorStyle[bar] {
-    active-image: "meegotouch-progressindicator-bar-progress" 4px 4px 4px 4px;
-    inactive-image: "meegotouch-progressindicator-bar-background" 4px 4px 4px 4px;
 
     maximum-size: 100% $SIZE_ONE;
     minimum-size: $SIZE_BUTTON 0.8mm;
     preferred-size: -1 0.8mm;
+
+    maximum-size: 100% $SIZE_ONE;
+    minimum-size: $SIZE_BUTTON 0.8mm;
+    preferred-size: -1 0.8mm;
+	
+    progress-bar-background: "meegotouch-progressindicator-bar-background" 4px 4px 4px 4px;
+    progress-bar-mask: "meegotouch-progressindicator-bar-mask" 4px 4px 4px 4px;
+	
+    unknown-bar-texture: "meegotouch-progressindicator-bar-unknown-texture";
+    unknown-bar-texture-tiled: false;
+    unknown-bar-size: $SIZE_ONE 100%;
+	
+    known-bar-texture: "meegotouch-progressindicator-bar-known-texture";
+    known-bar-texture-tiled: false;
     element-size: $SIZE_ONE;
-    speed: 50;
 }
