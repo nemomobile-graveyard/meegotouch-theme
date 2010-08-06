@@ -1,5 +1,7 @@
 /* MButtonIconStyle : MButtonStyle */
 MButtonIconStyle {
+    background-image:;
+    background-color:;
 
     glow-color: #FFFFFF;
     glow-duration: 800;
@@ -22,4 +24,9 @@ MButtonIconStyle {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
+}
+
+MButtonIconStyle:pressed {
+    background-image:;
+    background-color:;
 }
