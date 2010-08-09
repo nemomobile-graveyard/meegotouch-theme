@@ -1,3 +1,19 @@
+meegotouchtheme (0.20.35-1) unstable; urgency=low
+
+  * New version
+  * Changes: fixes in buttons at commonlayouts
+  * Changes: No background for button icon style
+  * Fixes: NB#182763 -  '>10' button in auto completion dialog is cut
+  * Changes: fixes for MProgressindicator
+  * Fixes: NB#183450 - added hollow versions for progress spinner in base theme
+  * Changes: new icons for launcher from Steffen
+  * Changes: new icon set W31
+  * Changes: deleting/adding new icons
+  * Changes: Added images for status menu
+  * Changes: MBasicLayoutAnimationStyle - remove long-time deprecated attributes
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 09 Aug 2010 09:57:29 +0300
+
 meegotouchtheme (0.20.34-1) unstable; urgency=low
 
   * New version
