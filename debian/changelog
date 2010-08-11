@@ -1,3 +1,11 @@
+meegotouchtheme (0.20.36-1) unstable; urgency=low
+
+  * New version
+  * Changes: Added gestures SVG file
+  * Changes: more icon updates W31
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 11 Aug 2010 15:28:04 +0300
+
 meegotouchtheme (0.20.35-1) unstable; urgency=low
 
   * New version
