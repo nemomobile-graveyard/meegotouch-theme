@@ -22,6 +22,8 @@ MComboBoxStyle {
     progress-indicator-object-name: "CommonProgressBar";
     indicator-object-name: "ComboBoxIndicator";
 
+    popup-list-type: "overlay";
+    
     separate-title: false;
 
     /* not used, left for ABI compatibility*/

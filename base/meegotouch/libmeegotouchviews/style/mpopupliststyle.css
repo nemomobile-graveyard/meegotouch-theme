@@ -1,6 +1,8 @@
-
 /* MPopupListStyle : MDialogStyle */
 MPopupListStyle {
+    item-style-name: "PopupListItem";
+    contents-viewport-style-name: "MPopupListContentsViewport";
+    
     dialog-top-margin: $HEIGHT_TOPBARS;
     dialog-bottom-margin: 0;
     dialog-left-margin: 0;
@@ -13,5 +15,67 @@ MPopupListStyle {
 }
 
 #PopupListItem {
-	margin-left: $MARGIN_LARGE;
+    margin-left: $MARGIN_LARGE;
+} 
+
+MPopupListStyle[overlay].Landscape { 
+    item-style-name: "MPopupListOverlayItem";
+    contents-viewport-style-name: "MPopupListOverlayContentsViewport";
+    
+    padding-top: $PADDING_DOUBLE;
+    padding-bottom: $PADDING_DOUBLE;
+
+    dialog-top-margin: $HEIGHT_STATUSBAR;
+    dialog-bottom-margin: 0;
+
+    title-bar-height: 0;
+    dialog-vertical-alignment: center;   
+
+    dialog-minimum-size: 48.8mm -1;
+    dialog-preferred-size: 48.8mm -1;
+}
+
+MPopupListStyle[overlay].Portrait {
+    item-style-name: "MPopupListOverlayItem";
+    contents-viewport-style-name: "MPopupListOverlayContentsViewport";
+    
+    padding-top: $PADDING_DOUBLE;
+    padding-bottom: $PADDING_DOUBLE;
+
+    dialog-top-margin: $HEIGHT_STATUSBAR;
+    dialog-bottom-margin: 0;
+
+    title-bar-height: 0;
+    dialog-vertical-alignment: center;   
+
+    dialog-minimum-size: 33.8mm -1;
+    dialog-preferred-size: 33.8mm -1;
+    
+    dialog-top-margin: $HEIGHT_TOPBARS;
+    dialog-bottom-margin: $MARGIN_LARGE;
+    dialog-left-margin: $MARGIN_LARGE;
+    dialog-right-margin: $MARGIN_LARGE;
+}
+
+#MPopupListOverlayContentsViewport {
+    preferred-size: -1 -1;
+}
+
+MListItemStyle#MPopupListOverlayItem {
+    background-tiles: meegotouch-button-objectmenu-background $CORNER_MARGINS;
+}
+
+MListItemStyle#MPopupListOverlayItem:selected {        
+    background-tiles: meegotouch-button-objectmenu-background-selected $CORNER_MARGINS;
+}
+
+MListItemStyle#MPopupListOverlayItem:pressed {
+    background-tiles: meegotouch-button-objectmenu-background-pressed $CORNER_MARGINS;
+}
+
+MPopupListStyle MListStyle {
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
 }
