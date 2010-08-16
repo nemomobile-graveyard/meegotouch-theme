@@ -19,7 +19,7 @@ MComboBoxStyle {
     title-object-name: "CommonTitle";
     sub-title-object-name: "CommonSubTitle";
     icon-object-name: "CommonMainIcon";
-    progress-indicator-object-name: "CommonProgressIndicator";
+    progress-indicator-object-name: "CommonProgressBar";
     indicator-object-name: "ComboBoxIndicator";
 
     separate-title: false;
@@ -48,11 +48,13 @@ MComboBoxStyle[button] {
 }
 
 MComboBox MListItemStyle[button] {
-    background-tiles: meegotouch-button-background $CORNER_MARGINS;
+    background-tiles: ;
+    background-image: meegotouch-button-background $CORNER_MARGINS;
 }
 
 MComboBox MListItemStyle[button]:pressed  {
-    background-tiles: meegotouch-button-background-pressed $CORNER_MARGINS;
+    background-tiles: ;
+    background-image: meegotouch-button-background-pressed $CORNER_MARGINS;
 }
 
 
@@ -67,10 +69,12 @@ MComboBoxStyle[labelButton] {
 
 MComboBox MListItemStyle[labelButton] {
     /* this is the button-looking combobox */
-    background-tiles: meegotouch-button-background $CORNER_MARGINS;
+    background-tiles: ;
+    background-image: meegotouch-button-background $CORNER_MARGINS;
     minimum-size: 4.8mm 4.8mm; 
 }
 
 MComboBox MListItemStyle[labelButton]:pressed {
-    background-tiles: meegotouch-button-background-pressed $CORNER_MARGINS;
+    background-tiles: ;
+    background-image: meegotouch-button-background-pressed $CORNER_MARGINS;
 }
