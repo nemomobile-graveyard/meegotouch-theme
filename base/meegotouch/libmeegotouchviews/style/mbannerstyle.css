@@ -4,7 +4,7 @@ MBannerStyle {
     maximum-size: 100% 6.4mm;
     padding-left: $MARGIN_XLARGE;
     padding-right: $MARGIN_XLARGE;
-    disappear-timeout: 3000;
+    disappear-timeout: 5000;
     background-image : "meegotouch-notification-event-background" 10px 10px 10px 10px;
 }
 
