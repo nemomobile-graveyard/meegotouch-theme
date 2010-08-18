@@ -1254,7 +1254,7 @@
     maximum-size : 100.0mm 0;
     margin-left : 0;
     margin-right : 0;
-    margin-top : 1.$MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
     margin-bottom : 0;
 }
 
