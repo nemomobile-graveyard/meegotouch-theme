@@ -13,7 +13,6 @@ MToolbarStyle {
 }
 
 MToolbarStyle.Landscape {
-   maximum-size: 38.4mm $HEIGHT_NAVIGATIONBAR; /* size of four buttons */
    background-image: meegotouch-navigationbar-toolbar-background $CORNER_MARGINS;
 }
 
