@@ -1,3 +1,18 @@
+meegotouchtheme (0.20.37-1) unstable; urgency=low
+
+  * New version
+  * Changes: Refactored MDialogView
+  * Fixes: NB#186002  Notes application exits when trying to edit calendar in Manage calendars view
+  * Changes: MBanner has now 5 seconds of timeout
+  * Changes: updating debhelper compatibility level to 5 (4 is deprecated)
+  * Changes: new icon set W32
+  * Changes: Added custom images for camera ui
+  * Changes: Added images for transfer ui
+  * Changes: MComboBox uses bar-like progress indicator instead of spinner-like.
+  * Changes: Meego OBS build: added yaml file and updated/synchronized .spec file according Meego OBS build
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 19 Aug 2010 10:07:49 +0300
+
 meegotouchtheme (0.20.36-1) unstable; urgency=low
 
   * New version
