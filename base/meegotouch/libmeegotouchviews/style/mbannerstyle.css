@@ -4,38 +4,62 @@ MBannerStyle {
     maximum-size: 100% 6.4mm;
     padding-left: $MARGIN_XLARGE;
     padding-right: $MARGIN_XLARGE;
-    disappear-timeout: 5000;
-    background-image : "meegotouch-notification-event-background" 10px 10px 10px 10px;
+    disappear-timeout: 3000;
 }
 
 MBannerStyle.Portrait {
-    icon-size: $SIZE_ICON_XLARGE $SIZE_ICON_XLARGE;
-    maximum-size: 100% 8.8mm;
+    icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
+    maximum-size: 100% 6.4mm;
     padding-left: $MARGIN_XLARGE;
     padding-right: $MARGIN_XLARGE;
     disappear-timeout: 3000;
-    background-image : "meegotouch-notification-event-background" 10px 10px 10px 10px;
 }
 
-MBannerStyle[event] {
-    background-image : "meegotouch-notification-event-background" 10px 10px 10px 10px;
+#MBannerTitle{
+    font: $FONT_DEFAULT_BOLD;
+    color: $COLOR_INVERTED_FOREGROUND;
+    margin-right: $MARGIN_XXLARGE;
+    margin-bottom:-3;
 }
 
-MBannerStyle[event]:pressed {
-    background-image : "meegotouch-notification-event-background-pressed" 10px 10px 10px 10px;
-}
-MBannerStyle[information] {
-    background-image : "meegotouch-notification-information-background" 10px 10px 10px 10px;
-}
-
-MBannerStyle[information]:pressed {
-    background-image : "meegotouch-notification-information-background-pressed" 10px 10px 10px 10px;
+#MBannerSubtitle{
+    font: $FONT_XSMALL;
+    color: $COLOR_INVERTED_FOREGROUND;
+    margin-top:-3;
 }
 
-MBannerStyle[system] {
-    background-image : "meegotouch-notification-system-background" 10px 10px 10px 10px;
+#MBannerSubtitleSingle{
+    font: $FONT_XSMALL;
+    color: $COLOR_INVERTED_FOREGROUND;
 }
 
-MBannerStyle[system]:pressed {
-    background-image : "meegotouch-notification-system-background-pressed" 10px 10px 10px 10px;
+#MBannerIcon{
+    maximum-size: 4.8mm 4.8mm;
+    minimum-size: 4.8mm 4.8mm;
+    preferred-size: 4.8mm 4.8mm;
+    margin-right: $MARGIN_XLARGE
+}
+
+MBannerStyle#EventBanner {
+    background-image: "meegotouch-notification-event-background" 10px 10px 10px 10px;
+}
+
+MBannerStyle#EventBanner:pressed {
+    background-image: "meegotouch-notification-event-background-pressed" 10px 10px 10px 10px;
+}
+
+MBannerStyle#InformationBanner {
+    background-image: "meegotouch-notification-information-background" 10px 10px 10px 10px;
+}
+
+MBannerStyle#InformationBanner:pressed {
+    background-image: "meegotouch-notification-information-background-pressed" 10px 10px 10px 10px;
+}
+
+MBannerStyle#SystemBanner {
+    background-image: "meegotouch-notification-system-background" 10px 10px 10px 10px;
+}
+
+MBannerStyle#SystemBanner:pressed {
+    background-image: "meegotouch-notification-system-background-pressed" 10px 10px 10px 10px;
 }
