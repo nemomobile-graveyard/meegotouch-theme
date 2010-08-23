@@ -55,10 +55,12 @@
 		<g id="meegotouch-viewmenu-background-pressed">
 			<rect x="90" y="1172" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="64"/>
 			<rect x="90" y="1235" style="fill:#66C0EF;" width="64" height="1"/>
+			<rect x="90" y="1172" style="fill:#66C0EF;" width="64" height="1"/>
 		</g>
 		<g id="meegotouch-viewmenu-background">
 			<rect x="90" y="1098" style="opacity:0.2;fill:none;enable-background:new    ;" width="64" height="64"/>
 			<rect x="90" y="1161" style="fill:#66C0EF;" width="64" height="1"/>
+			<rect x="90" y="1098" style="fill:#66C0EF;" width="64" height="1"/>
 		</g>
 		<g id="meegotouch-viewmenu-background-pressed-vertical-bottom">
 			<rect x="90" y="1024" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="64"/>
@@ -75,11 +77,13 @@
 			<rect x="90" y="800" style="fill-opacity:0;" width="64" height="64"/>
 			<rect x="90" y="863" style="fill:#66C0EF;" width="64" height="1"/>
 		</g>
-		<g id="meegotouch-viewmenu-background-vertical-center" style="opacity:0;">
-			<rect x="90" y="726" style="opacity:0.96;enable-background:new    ;" width="64" height="64"/>
+		<g id="meegotouch-viewmenu-background-vertical-center">
+			<rect x="90" y="726" style="fill-opacity:0;enable-background:new    ;" width="64" height="64"/>
+			<rect x="90" y="789" style="fill:#FFFFFF;fill-opacity:0.2;" width="64" height="1"/>
 		</g>
 		<g id="meegotouch-viewmenu-background-vertical-top">
 			<rect x="90" y="652" style="fill-opacity:0;" width="64" height="64"/>
+			<rect x="90" y="715" style="fill:#FFFFFF;fill-opacity:0.2;" width="64" height="1"/>
 			<rect x="90" y="652" style="fill:#66C0EF;" width="64" height="1"/>
 		</g>
 		<g id="meegotouch-viewmenu-background-pressed-horizontal-right">
@@ -131,6 +135,9 @@
 				<rect x="90" y="499" style="fill:none;" width="64" height="64"/>
 			</g>
 			<g>
+				<rect x="153" y="499" style="opacity:0.2;fill:#FFFFFF;" width="1" height="64"/>
+			</g>
+			<g>
 				<rect x="90" y="499" style="fill:#66C0EF;" width="64" height="1"/>
 			</g>
 			<g>
@@ -140,6 +147,9 @@
 		<g id="meegotouch-viewmenu-background-horizontal-left">
 			<g>
 				<rect x="16" y="499" style="fill:none;" width="64" height="64"/>
+			</g>
+			<g>
+				<rect x="79" y="499" style="opacity:0.2;fill:#FFFFFF;" width="1" height="64"/>
 			</g>
 			<g>
 				<rect x="16" y="499" style="fill:#66C0EF;" width="64" height="1"/>
@@ -187,31 +197,43 @@
 		</g>
 		<g id="meegotouch-viewmenu-background-bottom-center">
 			<rect x="90" y="206" style="fill-opacity:0;" width="64" height="64"/>
+			<rect x="153" y="206" style="fill:#FFFFFF;fill-opacity:0.2;" width="1" height="63"/>
 			<rect x="90" y="269" style="fill:#66C0EF;" width="64" height="1"/>
 		</g>
 		<g id="meegotouch-viewmenu-background-bottom-left">
 			<rect x="16" y="206" style="fill-opacity:0;" width="64" height="64"/>
+			<rect x="79" y="206" style="fill:#FFFFFF;fill-opacity:0.2;" width="1" height="63"/>
 			<rect x="16" y="269" style="fill:#66C0EF;" width="64" height="1"/>
 		</g>
-		<g id="meegotouch-viewmenu-background-center-right" style="opacity:0;">
-			<rect x="164" y="132" style="opacity:0.96;enable-background:new    ;" width="64" height="64"/>
+		<g id="meegotouch-viewmenu-background-center-right">
+			<rect x="164" y="132" style="fill-opacity:0;" width="64" height="64"/>
+			<rect x="164" y="195" style="fill:#FFFFFF;fill-opacity:0.2;" width="64" height="1"/>
 		</g>
 		<g id="meegotouch-viewmenu-background-center">
 			<rect x="90" y="132" style="fill-opacity:0;" width="64" height="64"/>
+			<rect x="90" y="195" style="fill:#FFFFFF;fill-opacity:0.2;" width="63" height="1"/>
+			<rect x="153" y="132" style="fill:#FFFFFF;fill-opacity:0.2;" width="1" height="64"/>
 		</g>
 		<g id="meegotouch-viewmenu-background-center-left">
 			<rect x="16" y="132" style="fill-opacity:0;" width="64" height="64"/>
+			<rect x="16" y="195" style="fill:#FFFFFF;fill-opacity:0.2;" width="63" height="1"/>
+			<rect x="79" y="132" style="fill:#FFFFFF;fill-opacity:0.2;" width="1" height="64"/>
 		</g>
 		<g id="meegotouch-viewmenu-background-top-right">
 			<rect x="164" y="58" style="fill-opacity:0;" width="64" height="64"/>
+			<rect x="164" y="121" style="fill:#FFFFFF;fill-opacity:0.2;" width="64" height="1"/>
 			<rect x="164" y="58" style="fill:#66C0EF;" width="64" height="1"/>
 		</g>
 		<g id="meegotouch-viewmenu-background-top-center">
 			<rect x="90" y="58" style="fill-opacity:0;" width="64" height="64"/>
+			<rect x="90" y="121" style="fill:#FFFFFF;fill-opacity:0.2;" width="63" height="1"/>
+			<rect x="153" y="59" style="fill:#FFFFFF;fill-opacity:0.2;" width="1" height="63"/>
 			<rect x="90" y="58" style="fill:#66C0EF;" width="64" height="1"/>
 		</g>
 		<g id="meegotouch-viewmenu-background-top-left">
 			<rect x="16" y="58" style="fill-opacity:0;" width="64" height="64"/>
+			<rect x="16" y="121" style="fill:#FFFFFF;fill-opacity:0.2;" width="63" height="1"/>
+			<rect x="79" y="59" style="fill:#FFFFFF;fill-opacity:0.2;" width="1" height="63"/>
 			<rect x="16" y="58" style="fill:#66C0EF;" width="64" height="1"/>
 		</g>
 	</g>

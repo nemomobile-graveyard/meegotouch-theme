@@ -66,7 +66,15 @@
 			</g>
 		</g>
 		<g id="meegotouch-container-header-background">
-			<rect x="10" y="52" style="fill:#E5E5E5;" width="32" height="32"/>
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="26" y1="84" x2="26" y2="52">
+				<stop  offset="0" style="stop-color:#000000"/>
+				<stop  offset="0.2668" style="stop-color:#030303"/>
+				<stop  offset="0.4811" style="stop-color:#0D0D0D"/>
+				<stop  offset="0.6772" style="stop-color:#1E1E1E"/>
+				<stop  offset="0.8612" style="stop-color:#363636"/>
+				<stop  offset="1" style="stop-color:#4D4D4D"/>
+			</linearGradient>
+			<rect x="10" y="52" style="fill:url(#SVGID_1_);" width="32" height="32"/>
 		</g>
 	</g>
 </g>
