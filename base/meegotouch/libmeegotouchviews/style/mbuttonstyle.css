@@ -6,6 +6,8 @@ MButtonStyle {
     background-color: $COLOR_BUTTON_BACKGROUND;
     text-color: $COLOR_BUTTON_FOREGROUND;
 
+    icon-id:;
+    toggled-icon-id:;
     icon-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
     icon-align: left;
     vertical-text-align: vcenter;
