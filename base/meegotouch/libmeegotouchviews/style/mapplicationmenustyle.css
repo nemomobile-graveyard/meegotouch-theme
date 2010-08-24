@@ -141,17 +141,17 @@ MApplicationMenu MListItemStyle:pressed {
 /* text labels in application menu items */
 MApplicationMenu MLabelStyle#CommonSingleTitle {
     /* regular menu entries */
-   color: $COLOR_FOREGROUND;
+   color: $COLOR_INVERTED_FOREGROUND;
 }                                                                                          
 
 MApplicationMenu MLabelStyle#CommonTitle {
     /* menu entries that are a combobox */
-    color: $COLOR_FOREGROUND;
+    color: $COLOR_INVERTED_FOREGROUND;
 }
 
 MApplicationMenu MLabelStyle#CommonSubTitle {
     /* combobox secondary line of text */
-    color: $COLOR_SECONDARY_FOREGROUND;
+    color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
 }
 
 MApplicationMenu MComboBoxStyle {
