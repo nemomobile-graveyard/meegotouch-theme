@@ -2,18 +2,18 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px"
-	 height="621px" viewBox="0 0 200 621" style="enable-background:new 0 0 200 621;" xml:space="preserve">
+	 height="730px" viewBox="0 0 200 730" style="enable-background:new 0 0 200 730;" xml:space="preserve">
 <g id="meegotouch-panel-layer">
 </g>
 <g id="theme">
 	<g id="meegotouch-panel">
 		<g id="MeegoTouchPanelThemeTemplateHelper">
 			<g>
-				<path style="fill:#B3B3B3;" d="M16,620c-8.271,0-15-6.729-15-15V16C1,7.729,7.729,1,16,1h168c8.271,0,15,6.729,15,15v589
+				<path style="fill:#B3B3B3;" d="M16,729c-8.271,0-15-6.729-15-15V16C1,7.729,7.729,1,16,1h168c8.271,0,15,6.729,15,15v698
 					c0,8.271-6.729,15-15,15H16z"/>
 				<g>
-					<path d="M184,2c7.72,0,14,6.28,14,14v589c0,7.72-6.28,14-14,14H16c-7.72,0-14-6.28-14-14V16C2,8.28,8.28,2,16,2H184 M184,0H16
-						C7.2,0,0,7.2,0,16v589c0,8.8,7.2,16,16,16h168c8.8,0,16-7.2,16-16V16C200,7.2,192.8,0,184,0L184,0z"/>
+					<path d="M184,2c7.72,0,14,6.28,14,14v698c0,7.72-6.28,14-14,14H16c-7.72,0-14-6.28-14-14V16C2,8.28,8.28,2,16,2H184 M184,0H16
+						C7.2,0,0,7.2,0,16v698c0,8.8,7.2,16,16,16h168c8.8,0,16-7.2,16-16V16C200,7.2,192.8,0,184,0L184,0z"/>
 				</g>
 			</g>
 			<g>
@@ -37,6 +37,22 @@
 				<path d="M129.777,27.96V9.409h2.496V27.96H129.777z"/>
 			</g>
 		</g>
+		<g id="meegotouch-messagingui-contactcard-background">
+			<g>
+				<path style="opacity:0.1;fill:#66C0EF;" d="M156,682c0,4.4-3.6,8-8,8H68c-4.4,0-8-3.6-8-8v-80c0-4.4,3.6-8,8-8h80
+					c4.4,0,8,3.6,8,8V682z"/>
+			</g>
+			<g>
+				<path style="opacity:0.1;fill:#66C0EF;" d="M152,682c0,2.2-1.8,4-4,4H68c-2.2,0-4-1.8-4-4v-80c0-2.2,1.8-4,4-4h80
+					c2.2,0,4,1.8,4,4V682z"/>
+			</g>
+			<g style="opacity:0.5;">
+				<path d="M147,603v78H69v-78H147 M148,602H68v80h80V602L148,602z"/>
+			</g>
+			<g>
+				<rect x="69" y="603" style="fill:#FFFFFF;" width="78" height="78"/>
+			</g>
+		</g>
 		<g id="meegotouch-contact-card-background">
 			<rect x="74" y="510" style="opacity:0.96;" width="64" height="64"/>
 		</g>
@@ -50,7 +66,7 @@
 			<rect x="74" y="407" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
 		</g>
 		<g id="meegotouch-panel-inverted-background-pressed">
-			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="106" y1="397" x2="106" y2="333">
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="106" y1="397" x2="106" y2="333.0005">
 				<stop  offset="0" style="stop-color:#B3B3B3"/>
 				<stop  offset="1" style="stop-color:#4D4D4D"/>
 			</linearGradient>
