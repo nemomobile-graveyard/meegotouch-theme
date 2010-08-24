@@ -5,11 +5,11 @@ MCheckboxStyle {
     margin-right: $MARGIN_DEFAULT;
     margin-bottom: $MARGIN_DEFAULT;
 
-    background-image: "meegotouch-button-checkbox-background" 10px 10px 10px 10px;
+    background-image: "meegotouch-button-checkbox-background" 4px 4px 4px 4px;
 
-    minimum-size: $SIZE_BUTTON $SIZE_BUTTON;
-    maximum-size: $SIZE_BUTTON $SIZE_BUTTON;
-    preferred-size: $SIZE_BUTTON $SIZE_BUTTON;
+    minimum-size: $SIZE_CHECKBOX $SIZE_CHECKBOX;
+    maximum-size: $SIZE_CHECKBOX $SIZE_CHECKBOX;
+    preferred-size: $SIZE_CHECKBOX $SIZE_CHECKBOX;
     
     checkmark-image: ;
 
@@ -21,12 +21,12 @@ MCheckboxStyle {
 }
 
 MCheckboxStyle:pressed {
-    background-image: "meegotouch-button-checkbox-background-pressed" 10px 10px 10px 10px;
-    checkmark-image: "meegotouch-button-checkbox-checkmark-pressed" $SIZE_BUTTON $SIZE_BUTTON;
+    background-image: "meegotouch-button-checkbox-background-pressed" 4px 4px 4px 4px;
+    checkmark-image: "meegotouch-button-checkbox-checkmark-pressed" $SIZE_CHECKBOX $SIZE_CHECKBOX;
 }
 
 MCheckboxStyle:selected {
-    background-image: "meegotouch-button-checkbox-background" 10px 10px 10px 10px;
-    checkmark-image: "meegotouch-button-checkbox-checkmark" $SIZE_BUTTON $SIZE_BUTTON;
+    background-image: "meegotouch-button-checkbox-background" 4px 4px 4px 4px;
+    checkmark-image: "meegotouch-button-checkbox-checkmark" $SIZE_CHECKBOX $SIZE_CHECKBOX;
 }
 
