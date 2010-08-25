@@ -4,13 +4,15 @@ MButtonSwitchStyle {
     // thumb is the sliding part, should slide accross the whole area
     thumb-image: "meegotouch-button-switch-thumb" 0 0 0 0;
     // slider is behind thumb, but above background
-    slider-image: "meegotouch-button-switch-colorstripe" 0 0 0 0;
+    slider-image: "meegotouch-button-switch-colorstripe-normal" 0 0 0 0;
     // slider-mask defines the shape of the slider-image
     slider-mask: "meegotouch-button-switch-mask" 0 0 0 0;
 
     minimum-size: 7.2mm 4.4mm;
     maximum-size: 7.2mm 4.4mm;
     preferred-size: 7.2mm 4.4mm;
+
+    thumb-margin: 0.4mm;
     
     reactive-margin-left: $MARGIN_XLARGE;
     reactive-margin-right: $MARGIN_XLARGE;
@@ -29,13 +31,9 @@ MButtonSwitchStyle:pressed {
     // thumb is the sliding part, should slide accross the whole area
     thumb-image: "meegotouch-button-switch-thumb" 0 0 0 0;
     // slider is behind thumb, but above background
-    slider-image: "meegotouch-button-switch-colorstripe" 0 0 0 0;
+    slider-image: "meegotouch-button-switch-colorstripe-normal" 0 0 0 0;
     // slider-mask defines the shape of the slider-image
     slider-mask: "meegotouch-button-switch-mask" 0 0 0 0;
-
-    minimum-size: 7.2mm 4.4mm;
-    maximum-size: 7.2mm 4.4mm;
-    preferred-size: 7.2mm 4.4mm;
 }
 
 MButtonSwitchStyle:selected {
@@ -43,11 +41,7 @@ MButtonSwitchStyle:selected {
     // thumb is the sliding part, should slide accross the whole area
     thumb-image: "meegotouch-button-switch-thumb" 0 0 0 0;
     // slider is behind thumb, but above background
-    slider-image: "meegotouch-button-switch-colorstripe" 0 0 0 0;
+    slider-image: "meegotouch-button-switch-colorstripe-active" 0 0 0 0;
     // slider-mask defines the shape of the slider-image
     slider-mask: "meegotouch-button-switch-mask" 0 0 0 0;
-
-    minimum-size: 7.2mm 4.4mm;
-    maximum-size: 7.2mm 4.4mm;
-    preferred-size: 7.2mm 4.4mm;
 }
