@@ -25,12 +25,12 @@ MSceneLayerEffect MWidgetFadeAnimationStyle#In {
     delay: 0;
     duration: 400;
     easing-curve: inoutcubic;
-    opacity: 0.75;
+    opacity: 0.87;
 }
 
 MSceneLayerEffect MWidgetFadeAnimationStyle#Out {
     delay: 300;
     duration: 400;
     easing-curve: outcubic;
-    opacity: 0.75;
+    opacity: 0.87;
 }
