@@ -1,3 +1,22 @@
+meegotouchtheme (0.20.38-1) unstable; urgency=low
+
+  * New version
+  * Changes: Faded "background" (scene) is set to less transparent.
+  * Changes: new font constants & styles
+  * Changes: updated progress indicator graphic assets for meegotouchtheme
+  * Changes: Overlay no longer has an offset by default
+  * Changes: Faded "background" (scene) is set to less transparent
+  * Changes: Application menu items has now white font color as the background
+  * Changes: updated panel graphics and removed duplicate asset for messaging
+  * Changes: updated graphical assets for meegotouch-theme
+  * Changes: css and svg for new slider design
+  * Changes: Updates slider css file
+  * Changes: Updated slider graphics
+  * Changes: updated view menu graphical assets
+  * Fixes: NB#180797 - Do not hard code in the width of the toolbar
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 26 Aug 2010 14:22:47 +0300
+
 meegotouchtheme (0.20.37-1) unstable; urgency=low
 
   * New version
