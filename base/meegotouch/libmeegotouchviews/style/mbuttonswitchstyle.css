@@ -21,6 +21,8 @@ MButtonSwitchStyle {
     reactive-margin-top: $MARGIN_XLARGE;
     reactive-margin-bottom: $MARGIN_XLARGE;
 
+    press-feedback: ;
+    release-feedback: ;
     press-on-feedback: press-on;
     press-off-feedback: press-off;
     release-on-feedback: release-on;
