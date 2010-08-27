@@ -1,241 +1,334 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="350px"
-	 height="1337px" viewBox="0 0 350 1337" style="enable-background:new 0 0 350 1337;" xml:space="preserve">
-<g id="meegotouch-viewmenubuttons-layer">
-</g>
-<g id="theme">
-	<g id="meegotouch-viewmenubuttons">
-		<g id="MeegoTouchViewMenuButtonThemeTemplateHelper">
+<svg version="1.1" id="meegotouch-viewmenubuttons-layer"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="558px" height="700px"
+	 viewBox="0 0 558 700" style="enable-background:new 0 0 558 700;" xml:space="preserve">
+<g id="meegotouch-viewmenubuttons">
+	<g id="MeegotouchViewMenuButtonsThemeTemplateHelper">
+		<g>
+			<path style="fill:#B3B3B3;" d="M16,699c-8.271,0-15-6.729-15-15V16C1,7.729,7.729,1,16,1h526c8.271,0,15,6.729,15,15v668
+				c0,8.271-6.729,15-15,15H16z"/>
 			<g>
-				<path style="fill:#B3B3B3;" d="M350,1320.686c0,8.8-7.2,16-16,16H16c-8.8,0-16-7.2-16-16V16C0,7.2,7.2,0,16,0h318
-					c8.8,0,16,7.2,16,16V1320.686z"/>
-				<path style="fill:none;stroke:#000000;stroke-width:2;" d="M350,1320.686c0,8.8-7.2,16-16,16H16c-8.8,0-16-7.2-16-16V16
-					C0,7.2,7.2,0,16,0h318c8.8,0,16,7.2,16,16V1320.686z"/>
-			</g>
-			<path d="M125.523,31.551l-4.144-15.289h2.308l3.198,12.727l3.354-12.727h2l-4.287,15.289H125.523z"/>
-			<path d="M136.311,31.551h-2.185v-10.5h-1.362v-1.426h3.547V31.551L136.311,31.551z M135.225,15.441
-				c0.334,0,0.623,0.123,0.865,0.369s0.364,0.537,0.364,0.871c0,0.342-0.12,0.635-0.359,0.877c-0.239,0.243-0.53,0.364-0.87,0.364
-				c-0.351,0-0.645-0.121-0.884-0.364c-0.239-0.242-0.358-0.535-0.358-0.877c0-0.349,0.119-0.643,0.358-0.882
-				S134.874,15.441,135.225,15.441z"/>
-			<path d="M147.23,29.727v1.486c-1.073,0.334-2.185,0.502-3.332,0.502c-1.668,0-2.916-0.502-3.743-1.508
-				c-0.827-1.004-1.24-2.553-1.24-4.645c0-1.84,0.399-3.317,1.199-4.436c0.801-1.118,1.94-1.677,3.426-1.677
-				c1.202,0,2.106,0.319,2.712,0.959c0.604,0.639,0.992,1.422,1.163,2.348c0.171,0.927,0.257,2.029,0.257,3.308h-6.439
-				c0,1.389,0.246,2.43,0.738,3.123c0.492,0.692,1.23,1.041,2.215,1.041C145.02,30.229,146.034,30.061,147.23,29.727z
-				 M141.232,24.723h4.295c0-1.442-0.17-2.462-0.512-3.057c-0.343-0.596-0.834-0.893-1.477-0.893c-0.719,0-1.268,0.309-1.646,0.924
-				C141.516,22.312,141.294,23.32,141.232,24.723z"/>
-			<path d="M165.012,19.625l-3.21,11.926h-2.562l-2.328-9.617l-2.502,9.617h-2.521L148.8,19.625h2.204l2.318,10.039l2.521-10.039
-				h2.41l2.369,10.061l2.461-10.061H165.012z"/>
-			<path d="M186.575,31.551h-2.185v-8.213c0-0.793-0.148-1.39-0.447-1.79c-0.297-0.399-0.742-0.6-1.338-0.6
-				c-0.767,0-1.354,0.301-1.77,0.901c-0.414,0.603-0.62,1.385-0.62,2.35v7.352h-2.185v-8.213c0-0.793-0.152-1.39-0.456-1.79
-				c-0.306-0.399-0.763-0.6-1.369-0.6c-0.752,0-1.333,0.304-1.743,0.913c-0.408,0.606-0.613,1.387-0.613,2.338v7.352h-2.187V19.625
-				h1.221l0.441,1.764c0.729-1.291,1.846-1.938,3.342-1.938c0.793,0,1.451,0.15,1.976,0.451c0.521,0.301,0.906,0.752,1.152,1.354
-				c0.678-1.203,1.762-1.805,3.251-1.805c1.177,0,2.058,0.318,2.646,0.953c0.588,0.637,0.884,1.586,0.884,2.852V31.551
-				L186.575,31.551z"/>
-			<path d="M197.332,29.727v1.486c-1.074,0.334-2.186,0.502-3.333,0.502c-1.668,0-2.916-0.502-3.743-1.508
-				c-0.826-1.004-1.24-2.553-1.24-4.645c0-1.84,0.4-3.317,1.199-4.436c0.801-1.118,1.941-1.677,3.426-1.677
-				c1.202,0,2.106,0.319,2.713,0.959c0.604,0.639,0.992,1.422,1.162,2.348c0.172,0.927,0.258,2.029,0.258,3.308h-6.438
-				c0,1.389,0.246,2.43,0.738,3.123c0.491,0.692,1.229,1.041,2.215,1.041C195.12,30.229,196.135,30.061,197.332,29.727z
-				 M191.333,24.723h4.296c0-1.442-0.171-2.462-0.512-3.057c-0.344-0.596-0.835-0.893-1.477-0.893c-0.721,0-1.269,0.309-1.646,0.924
-				C191.615,22.312,191.395,23.32,191.333,24.723z"/>
-			<path d="M208.96,31.551h-2.185v-7.916c0-0.896-0.157-1.566-0.474-2.015c-0.313-0.449-0.784-0.672-1.413-0.672
-				c-0.794,0-1.408,0.301-1.848,0.901c-0.439,0.602-0.655,1.385-0.655,2.35v7.352H200.2V19.625h1.221l0.44,1.764
-				c0.759-1.291,1.912-1.938,3.466-1.938c1.211,0,2.116,0.318,2.723,0.953c0.604,0.637,0.908,1.586,0.908,2.852L208.96,31.551
-				L208.96,31.551z"/>
-			<path d="M215.501,31.715c-1.217,0-2.128-0.316-2.731-0.947c-0.604-0.633-0.908-1.582-0.908-2.847v-8.296h2.186v7.916
-				c0,0.896,0.157,1.568,0.473,2.016c0.314,0.448,0.789,0.672,1.426,0.672c0.793,0,1.406-0.301,1.841-0.901
-				c0.435-0.603,0.651-1.386,0.651-2.349v-7.354h2.185v11.926h-1.211l-0.44-1.764C218.208,31.072,217.053,31.715,215.501,31.715z"/>
-		</g>
-		<g id="meegotouch-navigationbar-viewmenu-background">
-			<rect x="90" y="1248" style="fill-opacity:0;" width="64" height="64"/>
-			<rect x="90" y="1311" style="fill:#66C0EF;" width="64" height="1"/>
-			<rect x="90" y="1248" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-pressed">
-			<rect x="90" y="1172" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="64"/>
-			<rect x="90" y="1235" style="fill:#66C0EF;" width="64" height="1"/>
-			<rect x="90" y="1172" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background">
-			<rect x="90" y="1098" style="opacity:0.2;fill:none;enable-background:new    ;" width="64" height="64"/>
-			<rect x="90" y="1161" style="fill:#66C0EF;" width="64" height="1"/>
-			<rect x="90" y="1098" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-pressed-vertical-bottom">
-			<rect x="90" y="1024" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="64"/>
-			<rect x="90" y="1087" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-pressed-vertical-center">
-			<rect x="90" y="950" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="64"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-pressed-vertical-top">
-			<rect x="90" y="876" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="64"/>
-			<rect x="90" y="876" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-vertical-bottom">
-			<rect x="90" y="800" style="fill-opacity:0;" width="64" height="64"/>
-			<rect x="90" y="863" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-vertical-center">
-			<rect x="90" y="726" style="fill-opacity:0;enable-background:new    ;" width="64" height="64"/>
-			<rect x="90" y="789" style="fill:#FFFFFF;fill-opacity:0.2;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-vertical-top">
-			<rect x="90" y="652" style="fill-opacity:0;" width="64" height="64"/>
-			<rect x="90" y="715" style="fill:#FFFFFF;fill-opacity:0.2;" width="64" height="1"/>
-			<rect x="90" y="652" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-pressed-horizontal-right">
-			<g style="opacity:0.2;enable-background:new    ;">
-				<rect x="164" y="573" style="fill:#FFFFFF;" width="64" height="64"/>
-			</g>
-			<g>
-				<rect x="164" y="573" style="fill:#66C0EF;" width="64" height="1"/>
-			</g>
-			<g>
-				<rect x="164" y="636" style="fill:#66C0EF;" width="64" height="1"/>
+				<path d="M542,2c7.72,0,14,6.28,14,14v668c0,7.72-6.28,14-14,14H16c-7.72,0-14-6.28-14-14V16C2,8.28,8.28,2,16,2H542 M542,0H16
+					C7.2,0,0,7.2,0,16v668c0,8.8,7.2,16,16,16h526c8.8,0,16-7.2,16-16V16C558,7.2,550.8,0,542,0L542,0z"/>
 			</g>
 		</g>
-		<g id="meegotouch-viewmenu-background-pressed-horizontal-center">
-			<g style="opacity:0.2;enable-background:new    ;">
-				<rect x="90" y="573" style="fill:#FFFFFF;" width="64" height="64"/>
-			</g>
-			<g>
-				<rect x="90" y="573" style="fill:#66C0EF;" width="64" height="1"/>
-			</g>
-			<g>
-				<rect x="90" y="636" style="fill:#66C0EF;" width="64" height="1"/>
-			</g>
-		</g>
-		<g id="meegotouch-viewmenu-background-pressed-horizontal-left">
-			<g style="opacity:0.2;enable-background:new    ;">
-				<rect x="16" y="573" style="fill:#FFFFFF;" width="64" height="64"/>
-			</g>
-			<g>
-				<rect x="16" y="573" style="fill:#66C0EF;" width="64" height="1"/>
-			</g>
-			<g>
-				<rect x="16" y="636" style="fill:#66C0EF;" width="64" height="1"/>
-			</g>
-		</g>
-		<g id="meegotouch-viewmenu-background-horizontal-right">
-			<g>
-				<rect x="164" y="499" style="fill:none;" width="64" height="64"/>
-			</g>
-			<g>
-				<rect x="164" y="499" style="fill:#66C0EF;" width="64" height="1"/>
-			</g>
-			<g>
-				<rect x="164" y="562" style="fill:#66C0EF;" width="64" height="1"/>
-			</g>
-		</g>
-		<g id="meegotouch-viewmenu-background-horizontal-center">
-			<g>
-				<rect x="90" y="499" style="fill:none;" width="64" height="64"/>
-			</g>
-			<g>
-				<rect x="153" y="499" style="opacity:0.2;fill:#FFFFFF;" width="1" height="64"/>
-			</g>
-			<g>
-				<rect x="90" y="499" style="fill:#66C0EF;" width="64" height="1"/>
-			</g>
-			<g>
-				<rect x="90" y="562" style="fill:#66C0EF;" width="64" height="1"/>
-			</g>
-		</g>
-		<g id="meegotouch-viewmenu-background-horizontal-left">
-			<g>
-				<rect x="16" y="499" style="fill:none;" width="64" height="64"/>
-			</g>
-			<g>
-				<rect x="79" y="499" style="opacity:0.2;fill:#FFFFFF;" width="1" height="64"/>
-			</g>
-			<g>
-				<rect x="16" y="499" style="fill:#66C0EF;" width="64" height="1"/>
-			</g>
-			<g>
-				<rect x="16" y="562" style="fill:#66C0EF;" width="64" height="1"/>
-			</g>
-		</g>
-		<g id="meegotouch-viewmenu-background-pressed-bottom-right">
-			<rect x="164" y="430" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="64"/>
-			<rect x="164" y="493" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-pressed-bottom-center">
-			<rect x="90" y="430" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="64"/>
-			<rect x="90" y="493" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-pressed-bottom-left">
-			<rect x="16" y="430" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="64"/>
-			<rect x="16" y="493" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-pressed-center-right">
-			<rect x="164" y="356" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="64"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-pressed-center">
-			<rect x="90" y="356" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="64"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-pressed-center-left">
-			<rect x="16" y="356" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="64"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-pressed-top-right">
-			<rect x="164" y="282" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="64"/>
-			<rect x="164" y="282" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-pressed-top-center">
-			<rect x="90" y="282" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="64"/>
-			<rect x="90" y="282" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-pressed-top-left">
-			<rect x="16" y="282" style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" width="64" height="64"/>
-			<rect x="16" y="282" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-bottom-right">
-			<rect x="164" y="206" style="fill-opacity:0;" width="64" height="64"/>
-			<rect x="164" y="269" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-bottom-center">
-			<rect x="90" y="206" style="fill-opacity:0;" width="64" height="64"/>
-			<rect x="153" y="206" style="fill:#FFFFFF;fill-opacity:0.2;" width="1" height="63"/>
-			<rect x="90" y="269" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-bottom-left">
-			<rect x="16" y="206" style="fill-opacity:0;" width="64" height="64"/>
-			<rect x="79" y="206" style="fill:#FFFFFF;fill-opacity:0.2;" width="1" height="63"/>
-			<rect x="16" y="269" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-center-right">
-			<rect x="164" y="132" style="fill-opacity:0;" width="64" height="64"/>
-			<rect x="164" y="195" style="fill:#FFFFFF;fill-opacity:0.2;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-center">
-			<rect x="90" y="132" style="fill-opacity:0;" width="64" height="64"/>
-			<rect x="90" y="195" style="fill:#FFFFFF;fill-opacity:0.2;" width="63" height="1"/>
-			<rect x="153" y="132" style="fill:#FFFFFF;fill-opacity:0.2;" width="1" height="64"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-center-left">
-			<rect x="16" y="132" style="fill-opacity:0;" width="64" height="64"/>
-			<rect x="16" y="195" style="fill:#FFFFFF;fill-opacity:0.2;" width="63" height="1"/>
-			<rect x="79" y="132" style="fill:#FFFFFF;fill-opacity:0.2;" width="1" height="64"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-top-right">
-			<rect x="164" y="58" style="fill-opacity:0;" width="64" height="64"/>
-			<rect x="164" y="121" style="fill:#FFFFFF;fill-opacity:0.2;" width="64" height="1"/>
-			<rect x="164" y="58" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-top-center">
-			<rect x="90" y="58" style="fill-opacity:0;" width="64" height="64"/>
-			<rect x="90" y="121" style="fill:#FFFFFF;fill-opacity:0.2;" width="63" height="1"/>
-			<rect x="153" y="59" style="fill:#FFFFFF;fill-opacity:0.2;" width="1" height="63"/>
-			<rect x="90" y="58" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
-		<g id="meegotouch-viewmenu-background-top-left">
-			<rect x="16" y="58" style="fill-opacity:0;" width="64" height="64"/>
-			<rect x="16" y="121" style="fill:#FFFFFF;fill-opacity:0.2;" width="63" height="1"/>
-			<rect x="79" y="59" style="fill:#FFFFFF;fill-opacity:0.2;" width="1" height="63"/>
-			<rect x="16" y="58" style="fill:#66C0EF;" width="64" height="1"/>
-		</g>
+		<path d="M232.934,40.374l-4.896,17.474h-2.783l-4.729-17.474h2.641l3.647,14.545l3.841-14.545H232.934z"/>
+		<path d="M237.829,57.848h-2.496V45.895h-1.56v-1.68h4.056V57.848z M236.581,42.271c-0.792,0-1.416-0.624-1.416-1.416
+			s0.624-1.416,1.416-1.416c0.769,0,1.417,0.647,1.417,1.416C237.998,41.646,237.373,42.271,236.581,42.271z"/>
+		<path d="M250.55,57.464c-1.224,0.384-2.521,0.576-3.816,0.576c-4.417,0-5.688-3.072-5.688-7.033c0-3.408,1.344-6.984,5.28-6.984
+			c4.44,0,4.729,4.128,4.729,7.561h-7.368c0,2.305,0.552,4.753,3.384,4.753c1.177,0,2.353-0.265,3.48-0.576V57.464z M248.605,50.047
+			c0-1.536-0.119-4.345-2.28-4.345c-2.208,0-2.544,2.713-2.64,4.345H248.605z"/>
+		<path d="M271.118,44.215l-3.673,13.633h-2.928l-2.664-10.993l-2.856,10.993h-2.88l-3.529-13.633h2.521l2.64,11.473l2.88-11.473
+			h2.761l2.712,11.497l2.809-11.497H271.118z"/>
+		<path d="M281.1,46.23c0.816-1.464,2.16-2.208,3.816-2.208c1.584,0,2.953,0.528,3.576,2.064c0.793-1.416,2.113-2.064,3.721-2.064
+			c2.809,0,4.033,1.632,4.033,4.345v9.48h-2.496v-9.409c0-1.416-0.385-2.736-2.041-2.736c-2.064,0-2.736,1.992-2.736,3.721v8.425
+			h-2.496v-9.409c0-1.392-0.432-2.736-2.088-2.736c-2.017,0-2.688,2.017-2.688,3.721v8.425h-2.496V44.215h1.392L281.1,46.23z"/>
+		<path d="M308.772,57.464c-1.224,0.384-2.521,0.576-3.816,0.576c-4.417,0-5.688-3.072-5.688-7.033c0-3.408,1.344-6.984,5.28-6.984
+			c4.44,0,4.729,4.128,4.729,7.561h-7.368c0,2.305,0.552,4.753,3.384,4.753c1.177,0,2.353-0.265,3.48-0.576V57.464z M306.828,50.047
+			c0-1.536-0.119-4.345-2.28-4.345c-2.208,0-2.544,2.713-2.64,4.345H306.828z"/>
+		<path d="M314.195,46.23c0.865-1.488,2.257-2.208,3.961-2.208c2.856,0,4.152,1.561,4.152,4.345v9.48h-2.496v-9.073
+			c0-1.68-0.432-3.072-2.16-3.072c-2.112,0-2.856,1.921-2.856,3.721v8.425H312.3V44.215h1.392L314.195,46.23z"/>
+		<path d="M333.973,55.831c-0.864,1.488-2.256,2.209-3.961,2.209c-2.855,0-4.152-1.561-4.152-4.345v-9.48h2.496v9.072
+			c0,1.681,0.433,3.072,2.16,3.072c2.113,0,2.856-1.92,2.856-3.72v-8.425h2.497v13.633h-1.393L333.973,55.831z"/>
+	</g>
+	<g id="meegotouch-navigationbar-viewmenu-background">
+		<path style="fill:#CCCCCC;" d="M538,100.5v53c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-53H538z"/>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="506" y1="162.5" x2="506" y2="99.5">
+			<stop  offset="0" style="stop-color:#29ABE2"/>
+			<stop  offset="1" style="stop-color:#66C0EF"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_1_);" d="M538,99.5v53c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-53H538z"/>
+		<rect x="474" y="99.501" style="opacity:0;fill:#FFFFFF;" width="64" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-pressed">
+		<path style="fill:#CCCCCC;" d="M390,672c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h44
+			c5.5,0,10,4.5,10,10V672z"/>
+		<path style="fill:#FFFFFF;" d="M390,670c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h44
+			c5.5,0,10,4.5,10,10V670z"/>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="358" y1="681" x2="358" y2="619">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_2_);" d="M390,671c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h44
+			c5.5,0,10,4.5,10,10V671z"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-pressed-vertical-bottom">
+		<path style="fill:#CCCCCC;" d="M390,545v53c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-53H390z"/>
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="358" y1="607" x2="358" y2="544">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_3_);" d="M390,544v53c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-53H390z"/>
+		<rect x="326" y="544.001" style="opacity:0;fill:#FFFFFF;" width="64" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-pressed-vertical-center">
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="358" y1="534" x2="358" y2="470">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</linearGradient>
+		<rect x="326" y="470" style="fill:url(#SVGID_4_);" width="64" height="64"/>
+		<rect x="326" y="533" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="326" y="470.001" style="opacity:0;fill:#FFFFFF;" width="64" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-pressed-vertical-top">
+		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="358" y1="460" x2="358" y2="396">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</linearGradient>
+		<rect x="326" y="396" style="fill:url(#SVGID_5_);" width="64" height="64"/>
+		<rect x="326" y="459" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="326" y="396.001" style="opacity:0;fill:#FFFFFF;" width="64" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-pressed-horizontal-right">
+		<path style="fill:#CCCCCC;" d="M454,386c5.5,0,10-4.5,10-10v-53h-64v63H454z"/>
+		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="432" y1="385" x2="432" y2="322.0005">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_6_);" d="M454,385c5.5,0,10-4.5,10-10v-53h-64v63H454z"/>
+		<rect x="400" y="322" style="opacity:0;fill:#FFFFFF;" width="1" height="63"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-pressed-horizontal-center">
+		<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="358" y1="386" x2="358" y2="322.0005">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</linearGradient>
+		<rect x="326" y="322" style="fill:url(#SVGID_7_);" width="64" height="64"/>
+		<rect x="326" y="385" style="fill:#CCCCCC;" width="64" height="1"/>
+		<rect x="326" y="322" style="opacity:0;fill:#8DFF1F;" width="64" height="1"/>
+		<rect x="389" y="323" style="opacity:0.2;fill:#FFFFFF;" width="1" height="62"/>
+		<rect x="326" y="323" style="opacity:0;fill:#FFFFFF;" width="1" height="62"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-pressed-horizontal-left">
+		<path style="fill:#CCCCCC;" d="M252,376c0,5.5,4.5,10,10,10h54v-63h-64V376z"/>
+		<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="284" y1="385" x2="284" y2="322.0005">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_8_);" d="M252,375c0,5.5,4.5,10,10,10h54v-63h-64V375z"/>
+		<rect x="315" y="322" style="opacity:0.2;fill:#FFFFFF;" width="1" height="63"/>
+		<rect x="252" y="322" style="opacity:0;fill:#FFFFFF;" width="63" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-pressed-bottom-right">
+		<path style="fill:#CCCCCC;" d="M454,312c5.5,0,10-4.5,10-10v-53h-64v63H454z"/>
+		<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="432" y1="311" x2="432" y2="248">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_9_);" d="M454,311c5.5,0,10-4.5,10-10v-53h-64v63H454z"/>
+		<rect x="400" y="248" style="opacity:0;fill:#FFFFFF;" width="1" height="63"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-pressed-bottom-center">
+		<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="358" y1="312" x2="358" y2="248">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</linearGradient>
+		<rect x="326" y="248" style="fill:url(#SVGID_10_);" width="64" height="64"/>
+		<rect x="326" y="311" style="fill:#CCCCCC;" width="64" height="1"/>
+		<rect x="326" y="248" style="opacity:0;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="389" y="248" style="opacity:0.2;fill:#FFFFFF;" width="1" height="63"/>
+		<rect x="326" y="249" style="opacity:0;fill:#FFFFFF;" width="1" height="62"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-pressed-bottom-left">
+		<path style="fill:#CCCCCC;" d="M252,302c0,5.5,4.5,10,10,10h54v-63h-64V302z"/>
+		<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="284" y1="311" x2="284" y2="248">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_11_);" d="M252,301c0,5.5,4.5,10,10,10h54v-63h-64V301z"/>
+		<rect x="315" y="248" style="opacity:0.2;fill:#FFFFFF;" width="1" height="63"/>
+		<rect x="252" y="248" style="opacity:0;fill:#FFFFFF;" width="63" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-pressed-center-right">
+		<linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="432" y1="238" x2="432" y2="174">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</linearGradient>
+		<rect x="400" y="174" style="fill:url(#SVGID_12_);" width="64" height="64"/>
+		<rect x="400" y="237" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="400" y="174" style="opacity:0;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="400" y="175" style="opacity:0;fill:#FFFFFF;" width="1" height="62"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-pressed-center">
+		<linearGradient id="SVGID_13_" gradientUnits="userSpaceOnUse" x1="358" y1="238" x2="358" y2="174">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</linearGradient>
+		<rect x="326" y="174" style="fill:url(#SVGID_13_);" width="64" height="64"/>
+		<rect x="389" y="174" style="opacity:0.2;fill:#FFFFFF;" width="1" height="63"/>
+		<rect x="326" y="175" style="opacity:0;fill:#FFFFFF;" width="1" height="62"/>
+		<rect x="326" y="237" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="326" y="174" style="opacity:0;fill:#FFFFFF;" width="64" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-pressed-center-left">
+		<linearGradient id="SVGID_14_" gradientUnits="userSpaceOnUse" x1="284" y1="238" x2="284" y2="174">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</linearGradient>
+		<rect x="252" y="174" style="fill:url(#SVGID_14_);" width="64" height="64"/>
+		<rect x="315" y="174" style="opacity:0.2;fill:#FFFFFF;" width="1" height="63"/>
+		<rect x="252" y="237" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="252" y="174" style="opacity:0;fill:#CCCCCC;" width="64" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-pressed-top-right">
+		<linearGradient id="SVGID_15_" gradientUnits="userSpaceOnUse" x1="432" y1="164" x2="432" y2="100">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</linearGradient>
+		<rect x="400" y="100" style="fill:url(#SVGID_15_);" width="64" height="64"/>
+		<rect x="463" y="100" style="opacity:0.2;fill:#FFFFFF;" width="1" height="63"/>
+		<rect x="400" y="163" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="400" y="100" style="opacity:0;fill:#CCCCCC;" width="64" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-pressed-top-center">
+		<linearGradient id="SVGID_16_" gradientUnits="userSpaceOnUse" x1="358" y1="164" x2="358" y2="100">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</linearGradient>
+		<rect x="326" y="100" style="fill:url(#SVGID_16_);" width="64" height="64"/>
+		<rect x="389" y="100" style="opacity:0.2;fill:#FFFFFF;" width="1" height="63"/>
+		<rect x="326" y="163" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="326" y="100" style="opacity:0;fill:#CCCCCC;" width="64" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-pressed-top-left">
+		<linearGradient id="SVGID_17_" gradientUnits="userSpaceOnUse" x1="284" y1="164" x2="284" y2="100">
+			<stop  offset="0" style="stop-color:#B3B3B3"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</linearGradient>
+		<rect x="252" y="100" style="fill:url(#SVGID_17_);" width="64" height="64"/>
+		<rect x="315" y="100" style="opacity:0.2;fill:#FFFFFF;" width="1" height="63"/>
+		<rect x="252" y="163" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="252" y="100" style="opacity:0;fill:#CCCCCC;" width="64" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background">
+		<path style="fill:#CCCCCC;" d="M158,672c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h44
+			c5.5,0,10,4.5,10,10V672z"/>
+		<path style="fill:#FFFFFF;" d="M158,670c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h44
+			c5.5,0,10,4.5,10,10V670z"/>
+		<linearGradient id="SVGID_18_" gradientUnits="userSpaceOnUse" x1="126" y1="681" x2="126" y2="619">
+			<stop  offset="0" style="stop-color:#29ABE2"/>
+			<stop  offset="1" style="stop-color:#7DD8FF"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_18_);" d="M158,671c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-42c0-5.5,4.5-10,10-10h44
+			c5.5,0,10,4.5,10,10V671z"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-vertical-bottom">
+		<path style="fill:#CCCCCC;" d="M158,545v53c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-53H158z"/>
+		<linearGradient id="SVGID_19_" gradientUnits="userSpaceOnUse" x1="126" y1="607" x2="126" y2="544">
+			<stop  offset="0" style="stop-color:#29ABE2"/>
+			<stop  offset="1" style="stop-color:#66C0EF"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_19_);" d="M158,544v53c0,5.5-4.5,10-10,10h-44c-5.5,0-10-4.5-10-10v-53H158z"/>
+		<rect x="94" y="544.001" style="opacity:0;fill:#FFFFFF;" width="64" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-vertical-center">
+		<rect x="94" y="470" style="fill:#66C0EF;" width="64" height="64"/>
+		<rect x="94" y="533" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="94" y="470.001" style="opacity:0;fill:#FFFFFF;" width="64" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-vertical-top">
+		<rect x="94" y="396" style="fill:#66C0EF;" width="64" height="64"/>
+		<rect x="94" y="459" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="94" y="396.001" style="opacity:0;fill:#FFFFFF;" width="64" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-horizontal-right">
+		<path style="fill:#CCCCCC;" d="M222,386c5.5,0,10-4.5,10-10v-53h-64v63H222z"/>
+		<linearGradient id="SVGID_20_" gradientUnits="userSpaceOnUse" x1="200" y1="385" x2="200" y2="322.0005">
+			<stop  offset="0" style="stop-color:#29ABE2"/>
+			<stop  offset="1" style="stop-color:#7DD8FF"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_20_);" d="M222,385c5.5,0,10-4.5,10-10v-53h-64v63H222z"/>
+		<rect x="168" y="322" style="opacity:0;fill:#FFFFFF;" width="1" height="63"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-horizontal-center">
+		<linearGradient id="SVGID_21_" gradientUnits="userSpaceOnUse" x1="126" y1="386" x2="126" y2="322.0005">
+			<stop  offset="0" style="stop-color:#29ABE2"/>
+			<stop  offset="1" style="stop-color:#7DD8FF"/>
+		</linearGradient>
+		<rect x="94" y="322" style="fill:url(#SVGID_21_);" width="64" height="64"/>
+		<rect x="94" y="385" style="fill:#CCCCCC;" width="64" height="1"/>
+		<rect x="94" y="322" style="opacity:0;fill:#D5D5D5;" width="64" height="1"/>
+		<rect x="157" y="323" style="opacity:0.2;fill:#FFFFFF;" width="1" height="62"/>
+		<rect x="94" y="323" style="opacity:0;fill:#FFFFFF;" width="1" height="62"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-horizontal-left">
+		<path style="fill:#CCCCCC;" d="M20,376c0,5.5,4.5,10,10,10h54v-63H20V376z"/>
+		<linearGradient id="SVGID_22_" gradientUnits="userSpaceOnUse" x1="52" y1="385" x2="52" y2="322.0005">
+			<stop  offset="0" style="stop-color:#29ABE2"/>
+			<stop  offset="1" style="stop-color:#7DD8FF"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_22_);" d="M20,375c0,5.5,4.5,10,10,10h54v-63H20V375z"/>
+		<rect x="83" y="322" style="opacity:0.2;fill:#FFFFFF;" width="1" height="63"/>
+		<rect x="20" y="322" style="opacity:0;fill:#FFFFFF;" width="63" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-bottom-right">
+		<path style="fill:#CCCCCC;" d="M222,312c5.5,0,10-4.5,10-10v-53h-64v63H222z"/>
+		<linearGradient id="SVGID_23_" gradientUnits="userSpaceOnUse" x1="200" y1="311" x2="200" y2="248">
+			<stop  offset="0" style="stop-color:#29ABE2"/>
+			<stop  offset="1" style="stop-color:#66C0EF"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_23_);" d="M222,311c5.5,0,10-4.5,10-10v-53h-64v63H222z"/>
+		<rect x="168" y="248" style="opacity:0;fill:#FFFFFF;" width="1" height="63"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-bottom-center">
+		<linearGradient id="SVGID_24_" gradientUnits="userSpaceOnUse" x1="126" y1="312" x2="126" y2="248">
+			<stop  offset="0" style="stop-color:#29ABE2"/>
+			<stop  offset="1" style="stop-color:#66C0EF"/>
+		</linearGradient>
+		<rect x="94" y="248" style="fill:url(#SVGID_24_);" width="64" height="64"/>
+		<rect x="94" y="311" style="fill:#CCCCCC;" width="64" height="1"/>
+		<rect x="94" y="248" style="opacity:0;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="157" y="248" style="opacity:0.2;fill:#FFFFFF;" width="1" height="63"/>
+		<rect x="94" y="249" style="opacity:0;fill:#FFFFFF;" width="1" height="62"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-bottom-left">
+		<path style="fill:#CCCCCC;" d="M20,302c0,5.5,4.5,10,10,10h54v-63H20V302z"/>
+		<linearGradient id="SVGID_25_" gradientUnits="userSpaceOnUse" x1="52" y1="311" x2="52" y2="248">
+			<stop  offset="0" style="stop-color:#29ABE2"/>
+			<stop  offset="1" style="stop-color:#66C0EF"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_25_);" d="M20,301c0,5.5,4.5,10,10,10h54v-63H20V301z"/>
+		<rect x="83" y="248" style="opacity:0.2;fill:#FFFFFF;" width="1" height="63"/>
+		<rect x="20" y="248" style="opacity:0;fill:#FFFFFF;" width="63" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-center-right">
+		<rect x="168" y="174" style="fill:#66C0EF;" width="64" height="64"/>
+		<rect x="168" y="237" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="168" y="174" style="opacity:0;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="168" y="175" style="opacity:0;fill:#FFFFFF;" width="1" height="62"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-center">
+		<rect x="94" y="174" style="fill:#66C0EF;" width="64" height="64"/>
+		<rect x="157" y="174" style="opacity:0.2;fill:#FFFFFF;" width="1" height="63"/>
+		<rect x="94" y="175" style="opacity:0;fill:#FFFFFF;" width="1" height="62"/>
+		<rect x="94" y="237" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="94" y="174" style="opacity:0;fill:#FFFFFF;" width="64" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-center-left">
+		<rect x="20" y="174" style="fill:#66C0EF;" width="64" height="64"/>
+		<rect x="83" y="174" style="opacity:0.2;fill:#FFFFFF;" width="1" height="63"/>
+		<rect x="20" y="237" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="20" y="174" style="opacity:0;fill:#CCCCCC;" width="64" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-top-right">
+		<rect x="168" y="100" style="fill:#66C0EF;" width="64" height="64"/>
+		<rect x="231" y="100" style="opacity:0;fill:#CDCDCD;" width="1" height="63"/>
+		<rect x="168" y="163" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="168" y="100" style="opacity:0;fill:#CCCCCC;" width="64" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-top-center">
+		<rect x="94" y="100" style="fill:#66C0EF;" width="64" height="64"/>
+		<rect x="157" y="100" style="opacity:0.2;fill:#FFFFFF;" width="1" height="63"/>
+		<rect x="94" y="163" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="94" y="100" style="opacity:0;fill:#CCCCCC;" width="64" height="1"/>
+	</g>
+	<g id="meegotouch-viewmenu-background-top-left">
+		<rect x="20" y="100" style="fill:#66C0EF;" width="64" height="64"/>
+		<rect x="83" y="100" style="opacity:0.2;fill:#FFFFFF;" width="1" height="63"/>
+		<rect x="20" y="163" style="opacity:0.2;fill:#FFFFFF;" width="64" height="1"/>
+		<rect x="20" y="100" style="opacity:0;fill:#CCCCCC;" width="64" height="1"/>
 	</g>
 </g>
 </svg>
