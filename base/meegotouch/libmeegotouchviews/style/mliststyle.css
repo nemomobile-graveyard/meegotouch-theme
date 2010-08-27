@@ -3,6 +3,7 @@ MListStyle {
     group-header-object-name: "";
     horizontal-separator-object-name: "emptySeparator"; 
     vertical-separator-object-name: "emptySeparator";
+    group-separator-object-name: "emptySeparator";
 }
 
 
