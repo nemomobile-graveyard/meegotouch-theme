@@ -1,9 +1,13 @@
 /* MPositionIndicatorStyle : MWidgetStyle */
 MPositionIndicatorStyle {
-    indicator-image: "meegotouch-positionindicator-indicator" 5px 5px 5px 5px;
+    indicator-image: "meegotouch-positionindicator-indicator" 4px 4px 4px 4px;
     background-image: "meegotouch-positionindicator-background" 5px 5px 5px 5px;
     min-indicator-size: 2mm;
     hide-timeout: 1000;
+
+    margin-right: 0.4mm;
+    margin-top: 0.4mm;
+    margin-bottom: 0.4mm;
 
     /* inherited from MWidgetStyle */
     preferred-size: 0.6mm 0.6mm;
