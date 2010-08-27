@@ -30,7 +30,7 @@ MDialogStyle {
     dialog-vertical-alignment: bottom;
 
     dialog-top-margin: $HEIGHT_TOPBARS;
-    dialog-bottom-margin: 0;
+    dialog-bottom-margin: $MARGIN_LARGE;
     dialog-left-margin: $MARGIN_LARGE;
     dialog-right-margin: $MARGIN_LARGE;
 
@@ -65,10 +65,10 @@ MDialogStyle.Portrait {
     margin-right: 0;
     margin-bottom: 0;
 
-    padding-left: $PADDING_MEDIUM;
-    padding-right: $PADDING_MEDIUM;
-    padding-top: $PADDING_MEDIUM;
-    padding-bottom: $PADDING_MEDIUM;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 
 }
 
@@ -106,11 +106,14 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
 
 #MDialogTitleBar {
     background-image: "meegotouch-dialog-header-background" 12px 12px 12px 12px;
-    background-color: $COLOR_INVERTED_BACKGROUND;
     margin-right: 0;
     margin-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+
+    minimum-size: -1 5.2mm;
+    preferred-size: -1 5.2mm;
+    maximum-size: -1 5.2mm;
 }
 
 #MDialogButtonBox {
