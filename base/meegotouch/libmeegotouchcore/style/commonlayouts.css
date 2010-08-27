@@ -1,17 +1,41 @@
 ﻿/*  LABELS  */
 
+#CommonBodyText {
+    
+    font : $FONT_DEFAULT;
+    margin-top : 2.4mm;
+    margin-left : 2.4mm;
+    margin-bottom : 2.4mm;
+    margin-right : 2.4mm;
+}
+
+#CommonLightBodyText {
+    
+    font : $FONT_DEFAULT;
+    color : $COLOR_SECONDARY_FOREGROUND;
+    margin-top : 2.4mm;
+    margin-left : 2.4mm;
+    margin-bottom : 2.4mm;
+    margin-right : 2.4mm;
+}
+
 #CommonSingleTitle {
 
-    font : $FONT_DEFAULT;
+    font : $FONT_DEFAULT_BOLD;
     margin-left : $INDENT_DEFAULT;    
     margin-right : $INDENT_DEFAULT;
     margin-top : 0;
     margin-bottom : 0;
 }
 
+#CommonSingleTitle:selected {
+
+  color: $COLOR_INVERTED_FOREGROUND;
+}
+
 #CommonTitle {
 
-    font : $FONT_DEFAULT;
+    font : $FONT_DEFAULT_BOLD;
     margin-left : $INDENT_DEFAULT;
     margin-right : $INDENT_DEFAULT; 
     margin-top : $MARGIN_XLARGE;
@@ -19,9 +43,15 @@
     color: $COLOR_FOREGROUND;
 }
 
+#CommonTitle:selected {
+
+    color: $COLOR_INVERTED_FOREGROUND;
+}
+
+
 #CommonTitleAccented {
 
-    font : $FONT_LARGE;
+    font : $FONT_LARGE_BOLD;
     margin-left : $INDENT_DEFAULT;
     margin-right : $INDENT_DEFAULT; 
     margin-top : $MARGIN_XLARGE;
@@ -32,7 +62,7 @@
 
 #CommonTitleInverted {
 
-    font : $FONT_LARGE;
+    font : $FONT_LARGE_BOLD;
     margin-left : $INDENT_DEFAULT;
     margin-right : $INDENT_DEFAULT; 
     margin-top : $MARGIN_XLARGE;
@@ -44,7 +74,7 @@
 
 #CommonSingleTitleInverted {
 
-    font : $FONT_DEFAULT;
+    font : $FONT_DEFAULT_BOLD;
     margin-left : $INDENT_DEFAULT;    
     margin-right : $INDENT_DEFAULT;
     margin-top : 0;
@@ -60,6 +90,11 @@
     margin-right : $INDENT_DEFAULT; 
     margin-top : $MARGIN_XSMALL;
     margin-bottom : 0;
+}
+
+#CommonSubTitle:selected {
+
+    color : $COLOR_SECONDARY_FOREGROUND;
 }
 
 #CommonSubTitleAccented {
@@ -82,11 +117,9 @@
     margin-bottom : 0;
 }
 
-}
-
 #CommonSubText {
 
-    font : $FONT_SMALL;
+    font : $FONT_XSMALL;
     color : $COLOR_SECONDARY_FOREGROUND;
     margin-left : $INDENT_DEFAULT;
     margin-right : $INDENT_DEFAULT; 
@@ -96,7 +129,7 @@
 
 #CommonSubTextInverted {
 
-    font : $FONT_SMALL;
+    font : $FONT_XSMALL;
     color : $COLOR_INVERTED_FOREGROUND;
     margin-left : $INDENT_DEFAULT;
     margin-right : $INDENT_DEFAULT; 
@@ -121,6 +154,31 @@
     margin-right : $INDENT_DEFAULT; 
     margin-top : $MARGIN_XSMALL;
     margin-bottom : 0;
+}
+
+#CommonHeaderLarge {
+
+    font : $FONT_SMALL;
+    color : $COLOR_INVERTED_FOREGROUND;                    /* TBD */
+    margin-left : $INDENT_DEFAULT;
+    margin-right : $INDENT_DEFAULT; 
+    margin-top : $MARGIN_XSMALL;
+    margin-bottom : 0;
+}
+
+
+#CommonLargeGroupHeader {
+
+    font : $FONT_XLARGE;
+    color : #252525;                    /* TBD */
+    margin-left : $MARGIN_XLARGE;
+    margin-right : $INDENT_DEFAULT; 
+    margin-top : $MARGIN_XSMALL;
+    margin-bottom : 0;
+
+    minimum-size: -1 7.2mm;
+    preferred-size: -1 7.2mm;
+    maximum-size: -1 7.2mm;
 }
 
 #CommonSubHeader {
@@ -154,39 +212,6 @@
 #CommonButtonLabel {
     margin-left : $INDENT_DEFAULT;
     margin-right : $INDENT_DEFAULT; 
-}
-
-
-#CommonBannerTitle {
-    font : $FONT_DEFAULT;
-    color : $COLOR_INVERTED_FOREGROUND;
-    margin-left : $INDENT_DEFAULT;
-    margin-top : $MARGIN_XLARGE;
-    margin-bottom : 0;    
-}
-
-#CommonBannerSubTitle {
-    font : $FONT_DEFAULT;
-    color : $COLOR_FOREGROUND;
-    margin-top : $MARGIN_XLARGE;
-    margin-bottom : 0;
-}
-
-#CommonBannerSingleTitle {
-    font : $FONT_DEFAULT;
-    color : $COLOR_INVERTED_FOREGROUND;
-    margin-right: $MARGIN_XXLARGE;
-}
-
-#CommonBannerSingleSubTitle {
-    font : $FONT_DEFAULT;
-    color : $COLOR_FOREGROUND;
-}
-
-#CommonBannerItemInfo {
-    font : $FONT_SMALL;
-    color : #95969B;                    /* TBD */
-    margin-right : $INDENT_DEFAULT;
 }
 
 /*  Temporary styles */
@@ -368,23 +393,15 @@
 
 }
 
-
-#CommonBannerMainIcon {
-    maximum-size: 4.8mm 4.8mm;
-    minimum-size: 4.8mm 4.8mm;
-    preferred-size: 4.8mm 4.8mm;
-    margin-right : $MARGIN_XLARGE;
-}
-
 #CommonThumbnail {
 
-    margin-left : 0;
+    margin-left : 0.8mm;
     margin-right : 0;
-    margin-top : 0;
-    margin-bottom : 0;
-    maximum-size: 8.6mm 8.6mm;
-    minimum-size: 8.6mm 8.6mm;
-    preferred-size: 8.6mm 8.6mm;
+    margin-top : 0.4mm;
+    margin-bottom : 0.4mm;
+    maximum-size: 8.0mm 8.0mm;
+    minimum-size: 8.0mm 8.0mm;
+    preferred-size: 8.0mm 8.0mm;
 }
 
 #CommonSmallThumbnail {
@@ -479,9 +496,7 @@
     margin-left : $INDENT_DEFAULT;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
-    preferred-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
-    maximum-size : 44.8mm 6.4mm;
+
 }
 
 #CommonLeftButton {
@@ -489,10 +504,6 @@
     margin-left : $INDENT_DEFAULT;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
-    maximum-size : 44.8mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
-
 }
 
 #CommonRightButton {
@@ -500,16 +511,9 @@
     margin-left : $MARGIN_SMALL;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
-    maximum-size : 44.8mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
-
 }
 
 #CommonTopButton {
-    maximum-size : 44.8mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
     margin-top : $MARGIN_DOUBLE;
     margin-left : $INDENT_DEFAULT;
 
@@ -525,9 +529,6 @@
 }
 
 #CommonBottomButton {
-    maximum-size : 44.8mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
     margin-bottom : $MARGIN_DOUBLE;
     margin-right : $INDENT_DEFAULT;
 
@@ -548,14 +549,11 @@
     margin-left : $MARGIN_SMALL;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
-    preferred-size : 27mm 4.8mm;
-    minimum-size : 10mm 6.4mm;
+
 }
 
 #CommonVerticalCenterButton {
-    maximum-size : 44.8mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
+
 
 }
 #CommonVerticalCenterButton.Landscape {
@@ -576,9 +574,7 @@
     margin-right : $MARGIN_SMALL;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
-    maximum-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
+
 
 }
 
@@ -619,9 +615,7 @@
     margin-left : $INDENT_DEFAULT;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
-    maximum-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
+
 
 }
 #CommonSingleCallButton:pressed {
@@ -635,9 +629,7 @@
     margin-left : $INDENT_DEFAULT;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
-    maximum-size : 44.8mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
+
 
 }
 #CommonLeftCallButton:pressed {
@@ -651,9 +643,7 @@
     margin-left : $MARGIN_SMALL;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
-    maximum-size : 44.8mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
+
 
 }
 #CommonRightCallButton:pressed {
@@ -667,9 +657,7 @@
     margin-left : $INDENT_DEFAULT;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
-    maximum-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
+
 
 }
 #CommonSingleRejectButton:pressed {
@@ -683,9 +671,7 @@
     margin-left : $INDENT_DEFAULT;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
-    maximum-size : 44.8mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
+
 
 }
 #CommonLeftRejectButton:pressed {
@@ -699,9 +685,7 @@
     margin-left : $MARGIN_SMALL;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
-    maximum-size : 44.8mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
+
 
 }
 #CommonRightRejectButton:pressed {
@@ -711,9 +695,6 @@
 #CommonTopCallButton {
     text-color: $COLOR_INVERTED_FOREGROUND;
     background-image : meegotouch-button-positive-background $CORNER_MARGINS;
-    maximum-size : 44.8mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
     margin-top : $MARGIN_DOUBLE;
     margin-left : $INDENT_DEFAULT;
 
@@ -732,13 +713,9 @@
     background-image : meegotouch-button-positive-background-pressed $CORNER_MARGINS;
     }
 
-
 #CommonBottomCallButton {
     text-color: $COLOR_INVERTED_FOREGROUND;
     background-image : meegotouch-button-positive-background $CORNER_MARGINS;
-    maximum-size : 44.8mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
     margin-bottom : $MARGIN_DOUBLE;
     margin-right : $INDENT_DEFAULT;
 
@@ -760,9 +737,6 @@
 #CommonVerticalCenterCallButton {
     text-color: $COLOR_INVERTED_FOREGROUND;
     background-image : meegotouch-button-positive-background $CORNER_MARGINS;
-    maximum-size : 44.8mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
 
 }
 #CommonVerticalCenterCallButton:pressed {
@@ -790,9 +764,88 @@
     margin-right : $MARGIN_SMALL;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
-    maximum-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
+}
+
+#CommonHorizontalCenterCallButton:pressed {
+    text-color: $COLOR_INVERTED_FOREGROUND;
+    background-image : meegotouch-button-positive-background-pressed $CORNER_MARGINS;
+    }
+
+#CommonTopCallButton {
+    text-color: $COLOR_INVERTED_FOREGROUND;
+    background-image : meegotouch-button-positive-background $CORNER_MARGINS;
+    margin-top : $MARGIN_DOUBLE;
+    margin-left : $INDENT_DEFAULT;
+
+}
+/* position on the left side in LS */
+
+#CommonTopCallButton.Landscape {
+    margin-right : $MARGIN_SMALL;
+    margin-bottom : $MARGIN_DOUBLE;
+}
+#CommonTopCallButton.Portrait {
+    margin-right : $INDENT_DEFAULT;
+    margin-bottom : $MARGIN_MEDIUM; 
+}
+#CommonTopCallButton:pressed {
+    text-color: $COLOR_INVERTED_FOREGROUND;
+    background-image : meegotouch-button-positive-background-pressed $CORNER_MARGINS;
+    }
+
+
+#CommonBottomCallButton {
+    text-color: $COLOR_INVERTED_FOREGROUND;
+    background-image : meegotouch-button-positive-background $CORNER_MARGINS;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-right : $INDENT_DEFAULT;
+
+}
+/* position on the right side in LS */
+
+#CommonBottomCallButton.Landscape {
+    margin-top : $MARGIN_DOUBLE;
+    margin-left : $MARGIN_SMALL;
+}
+#CommonBottomCallButton.Portrait {
+    margin-top : 1mm;
+    margin-left : $INDENT_DEFAULT;
+}
+#CommonBottomCallButton:pressed {
+    text-color: $COLOR_INVERTED_FOREGROUND;
+    background-image : meegotouch-button-positive-background $CORNER_MARGINS;
+    }
+
+#CommonVerticalCenterCallButton {
+    text-color: $COLOR_INVERTED_FOREGROUND;
+    background-image : meegotouch-button-positive-background $CORNER_MARGINS;
+
+}
+#CommonVerticalCenterCallButton:pressed {
+    text-color: $COLOR_INVERTED_FOREGROUND;
+    background-image : meegotouch-button-positive-background-pressed $CORNER_MARGINS;
+    }
+    
+#CommonVerticalCenterCallButton.Landscape {
+    margin-top : $MARGIN_DOUBLE;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-right : $MARGIN_SMALL;
+    margin-left : $MARGIN_SMALL;
+}
+#CommonVerticalCenterCallButton.Portrait {
+    margin-top : $MARGIN_MEDIUM;
+    margin-bottom : $MARGIN_MEDIUM;
+    margin-right : $INDENT_DEFAULT;
+    margin-left : $INDENT_DEFAULT;
+}
+
+#CommonHorizontalCenterCallButton {
+    text-color: $COLOR_INVERTED_FOREGROUND;
+    background-image : meegotouch-button-positive-background $CORNER_MARGINS;
+    margin-left : $MARGIN_SMALL;
+    margin-right : $MARGIN_SMALL;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
 
 }
 #CommonHorizontalCenterCallButton:pressed {
@@ -803,9 +856,6 @@
 #CommonTopCallButton {
     text-color: $COLOR_INVERTED_FOREGROUND;
     background-image : meegotouch-button-positive-background $CORNER_MARGINS;
-    maximum-size : 44.8mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
     margin-top : $MARGIN_DOUBLE;
     margin-left : $INDENT_DEFAULT;
 
@@ -828,14 +878,12 @@
 #CommonBottomCallButton {
     text-color: $COLOR_INVERTED_FOREGROUND;
     background-image : meegotouch-button-positive-background $CORNER_MARGINS;
-    maximum-size : 44.8mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
     margin-bottom : $MARGIN_DOUBLE;
     margin-right : $INDENT_DEFAULT;
 
 }
 /* position on the right side in LS */
+
 #CommonBottomRejectButton.Landscape {
     margin-top : $MARGIN_DOUBLE;
     margin-left : $MARGIN_SMALL;
@@ -852,10 +900,6 @@
 #CommonVerticalCenterRejectButton {
     text-color: $COLOR_INVERTED_FOREGROUND;
     background-image : meegotouch-button-positive-background $CORNER_MARGINS;
-    maximum-size : 44.8mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
-
 }
 #CommonVerticalCenterRejectButton:pressed {
     text-color: $COLOR_INVERTED_FOREGROUND;
@@ -882,10 +926,6 @@
     margin-right : $MARGIN_SMALL;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
-    maximum-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
-
 }
 #CommonHorizontalCenterRejectButton:pressed {
     text-color: $COLOR_INVERTED_FOREGROUND;
@@ -987,9 +1027,6 @@
 #CommonTopSplitButton {
     margin-left : $INDENT_DEFAULT;
     margin-top : $MARGIN_DOUBLE;
-    maximum-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
 }
 
 #CommonTopSplitButton.Portrait {
@@ -1018,9 +1055,6 @@
 
 
 #CommonVerticalCenterSplitButton {
-    maximum-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
 }
 
 #CommonVerticalCenterSplitButton.Portrait {
@@ -1055,9 +1089,6 @@
 #CommonBottomSplitButton {
     margin-right : $INDENT_DEFAULT;
     margin-bottom : $MARGIN_DOUBLE;
-    maximum-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
 }
 
 #CommonBottomSplitButton.Portrait {
@@ -1094,9 +1125,6 @@
     margin-right : 0;
     margin-top : $MARGIN_DOUBLE;
     margin-bottom : $MARGIN_DOUBLE;
-    maximum-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
 }
 #CommonLeftSplitButton:pressed {
     background-image : meegotouch-buttongroup-background-pressed-horizontal-left $CORNER_MARGINS;
@@ -1112,9 +1140,7 @@
     margin-right : 0;
     margin-top : $MARGIN_DOUBLE;
     margin-bottom : $MARGIN_DOUBLE;
-    maximum-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
+
 }
 #CommonHorizontalCenterSplitButton:pressed {
     background-image : meegotouch-buttongroup-background-pressed-horizontal-center $CORNER_MARGINS;
@@ -1130,9 +1156,7 @@
     margin-right : $INDENT_DEFAULT;
     margin-top : $MARGIN_DOUBLE;
     margin-bottom : $MARGIN_DOUBLE;
-    maximum-size : 44.8mm 6.4mm;
-    minimum-size : 10mm 6.4mm;
-    preferred-size : 44.8mm 6.4mm;
+
 }
 #CommonRightSplitButton:pressed {
     background-image : meegotouch-buttongroup-background-pressed-horizontal-right $CORNER_MARGINS;
