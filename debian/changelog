@@ -1,3 +1,20 @@
+meegotouchtheme (0.20.39-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#187716 -  Invalid attribute in mimagewidgetstyle.css leads to app core dump
+  * Changes: New switch button graphics and style update.
+  * Changes: Updated items in commonlayouts.css
+  * New: Group dividers support for lists.
+  * Changes: updating MDialogStyle
+  * Changes: updating MButtonStyle.css
+  * Changes: updating commonlayouts.
+  * Changes: Updated gestures assets. Gesture indicator was green, now it is RD blue
+  * Changes: Updated view menu buttons back to blue RD style
+  * Changes: Updated position indicator assets and css file
+  * Changes: Updated object menu assets for RD
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Fri, 27 Aug 2010 18:25:44 +0300
+
 meegotouchtheme (0.20.38-1) unstable; urgency=low
 
   * New version
