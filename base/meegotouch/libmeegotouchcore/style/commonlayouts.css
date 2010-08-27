@@ -200,6 +200,7 @@
 }
 
 #CommonQueryTitle {
+    font: $FONT_DEFAULT_BOLD;
     margin-left : $INDENT_DEFAULT;
     margin-right : $INDENT_DEFAULT; 
     }
@@ -391,6 +392,16 @@
     minimum-size: 3.2mm 3.2mm;
     preferred-size: 3.2mm 3.2mm;
 
+}
+
+#CommonQueryIcon {
+    margin-left : $MARGIN_DOUBLE;
+    margin-right : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+    margin-bottom : $MARGIN_DOUBLE;
+    maximum-size: 8.0mm 8.0mm;
+    minimum-size: 8.0mm 8.0mm;
+    preferred-size: 8.0mm 8.0mm;
 }
 
 #CommonThumbnail {
