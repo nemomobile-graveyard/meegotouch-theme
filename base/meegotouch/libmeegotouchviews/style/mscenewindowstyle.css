@@ -21,8 +21,6 @@ MSceneWindowStyle#statusBar
     preferred-size: 100% $HEIGHT_STATUSBAR;
     maximum-size: 100% $HEIGHT_STATUSBAR;
     background-color: #000000;
-    /* this is a hack, statusbar needs to use the id string directly */
-    background-svgid: "meegotouch-navigationbar-statusarea-background";
     swipe-threshold: 30;
     press-feedback : press;
 }
