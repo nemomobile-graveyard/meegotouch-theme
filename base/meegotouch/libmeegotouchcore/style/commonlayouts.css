@@ -1247,6 +1247,17 @@
     margin-bottom : 0;
 }
 
+#CommonLargeHeaderPanel {
+
+    background-image : meegotouch-list-fullwidth-background $CORNER_MARGINS;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    margin-bottom : 0;
+    minimum-size : 72 72;  
+}
+
+
 #CommonTitleIconGroup {
 
     margin-left : $INDENT_DEFAULT;
