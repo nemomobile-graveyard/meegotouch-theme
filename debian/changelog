@@ -7,7 +7,7 @@ meegotouchtheme (0.20.40-1) unstable; urgency=low
   * New: Scene manager support for theme defined transition animations.
   * Changes: Fixes MImageWidget should not have any background.
 
- -- Adrian Yanes <ayanes@MLap.tietoenator.com>  Mon, 30 Aug 2010 16:40:46 +0300
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 30 Aug 2010 16:40:46 +0300
 
 meegotouchtheme (0.20.39-1) unstable; urgency=low
 
