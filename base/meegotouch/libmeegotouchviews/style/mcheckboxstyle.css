@@ -17,7 +17,6 @@ MCheckboxStyle {
     press-off-feedback: press-off;
     release-on-feedback: release-on;
     release-off-feedback: release-off;
-    cancel-feedback: cancel;
 }
 
 MCheckboxStyle:pressed {

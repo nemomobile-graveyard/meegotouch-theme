@@ -42,7 +42,6 @@ MContentItemStyle {
 
     press-feedback: press;
     release-feedback: release;
-    cancel-feedback: cancel;
 }
 
 MContentItemStyle:selected {

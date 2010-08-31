@@ -45,7 +45,6 @@ MButtonStyle {
     */
     press-feedback: press;
     release-feedback: release;
-    cancel-feedback: cancel;
 }
 
 #ButtonLabel {

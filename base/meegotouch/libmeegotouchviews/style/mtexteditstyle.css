@@ -24,7 +24,6 @@ MTextEditStyle {
     press-boundary-feedback: press;
     release-boundary-feedback: release;
     change-selection-feedback: press-textedit-selection;
-    cancel-feedback: cancel;
 
     padding-top: $PADDING_MEDIUM;
     padding-bottom: $PADDING_MEDIUM;
