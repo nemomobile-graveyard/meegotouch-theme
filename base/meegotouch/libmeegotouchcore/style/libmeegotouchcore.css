@@ -13,6 +13,7 @@
 /* widget styles are imported in alphabetical order */
 
 @import "mabstractlayoutpolicy.css";
+@import "mapplicationwindowstyle.css";
 @import "mbasiclayoutanimationstyle.css";
 @import "manimation.css";
 @import "mdevicestyle.css";
