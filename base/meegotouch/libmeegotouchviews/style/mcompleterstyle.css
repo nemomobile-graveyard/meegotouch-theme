@@ -37,7 +37,7 @@ MCompleterStyle {
 
     minimum-size: $SIZE_BUTTON $SIZE_BUTTON;
     maximum-size: 100% 6.4mm;
-    preferred-size: 10mm, $SIZE_BUTTON;
+    preferred-size: 10mm $SIZE_BUTTON;
 }
 #MCompleterCandidatesLabel {
     font: $FONT_LARGE;
