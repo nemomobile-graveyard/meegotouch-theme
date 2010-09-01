@@ -54,4 +54,11 @@ MContainerHeader MSpinnerStyle {
     minimum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
     preferred-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
     maximum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
+    
+    margin-left: $MARGIN_MEDIUM;
+    margin-top: $MARGIN_MEDIUM;
+    margin-right: $MARGIN_MEDIUM;
+    margin-bottom: $MARGIN_MEDIUM;
 }
+
+
