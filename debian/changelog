@@ -1,3 +1,18 @@
+meegotouchtheme (0.20.41-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#188294, spinner position in dialog is incorrect
+  * Fixes:NB#182763 -  '>10' button in auto completion dialog is cut
+  * New: mbuttonstyle.css - icon-id and toggled-icon-Id
+  * Changes: Styles and view configuration for the popuplist overlay display mode.
+  * Changes: Remove invalid semicolon from mscenemanagerstyle.
+  * Changes: new styles for MBanner
+  * Changes: Added CommonLargeHeaderPanel to commonlayouts.css
+  * Changes: updated and renamed pin query custom graphics
+  * Changes: removed obsoled graphics for list
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 01 Sep 2010 14:26:11 +0300
+
 meegotouchtheme (0.20.40-1) unstable; urgency=low
 
   * New version
