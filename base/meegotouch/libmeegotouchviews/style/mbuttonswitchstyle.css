@@ -1,10 +1,12 @@
 
 MButtonSwitchStyle {
+    background-tiles: ;
     background-image: "meegotouch-button-switch-background" 0 0 0 0;
     // thumb is the sliding part, should slide accross the whole area
     thumb-image: "meegotouch-button-switch-thumb" 0 0 0 0;
     // slider is behind thumb, but above background
     slider-image: "meegotouch-button-switch-colorstripe-normal" 0 0 0 0;
+    slider-image-selected: "meegotouch-button-switch-colorstripe-active" 0 0 0 0;
     // slider-mask defines the shape of the slider-image
     slider-mask: "meegotouch-button-switch-mask" 0 0 0 0;
 
@@ -27,21 +29,11 @@ MButtonSwitchStyle {
 }
 
 MButtonSwitchStyle:pressed {
+    background-tiles: ;
     background-image: "meegotouch-button-switch-background" 0 0 0 0;
-    // thumb is the sliding part, should slide accross the whole area
-    thumb-image: "meegotouch-button-switch-thumb" 0 0 0 0;
-    // slider is behind thumb, but above background
-    slider-image: "meegotouch-button-switch-colorstripe-normal" 0 0 0 0;
-    // slider-mask defines the shape of the slider-image
-    slider-mask: "meegotouch-button-switch-mask" 0 0 0 0;
 }
 
 MButtonSwitchStyle:selected {
+    background-tiles: ;
     background-image: "meegotouch-button-switch-background" 0 0 0 0;
-    // thumb is the sliding part, should slide accross the whole area
-    thumb-image: "meegotouch-button-switch-thumb" 0 0 0 0;
-    // slider is behind thumb, but above background
-    slider-image: "meegotouch-button-switch-colorstripe-active" 0 0 0 0;
-    // slider-mask defines the shape of the slider-image
-    slider-mask: "meegotouch-button-switch-mask" 0 0 0 0;
 }
