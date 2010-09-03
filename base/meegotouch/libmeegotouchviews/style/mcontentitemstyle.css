@@ -34,8 +34,8 @@ MContentItemStyle {
     minimum-size: $SIZE_ONE $SIZE_ONE;
     maximum-size: 100% $SIZE_FOUR;
 
-    title-object-name: "ContentItemTitle";
-    subtitle-object-name: "ContentItemSubtitle";
+    title-object-name: "CommonTitle";
+    subtitle-object-name: "CommonSubTitle";
     image-object-name: "ContentItemImage";
     optional-image-object-name: "ContentItemOptionalImage";
     small-item-object-name: "ContentItemSmallItem";
