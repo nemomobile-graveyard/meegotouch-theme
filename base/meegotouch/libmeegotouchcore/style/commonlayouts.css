@@ -616,6 +616,15 @@
     margin-top : 0;
 }
 
+/* Inverted buttons */
+
+#CommonSingleInvertedButton {
+    margin-right : $INDENT_DEFAULT;
+    margin-left : $INDENT_DEFAULT;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+}
+
 
 /* Call buttons  */
 
