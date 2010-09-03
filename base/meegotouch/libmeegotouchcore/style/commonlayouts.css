@@ -1286,10 +1286,52 @@
     margin-top : $MARGIN_DOUBLE;
 }
 
-#CommonApplicationView {
-    margin-top : $MARGIN_DOUBLE;
-    margin-bottom : $MARGIN_DOUBLE;
+/* Items for regulating even columns in full width views and dialogs */
+
+#CommonLeftDialogItem {
+    preferred-size: 50mm 8.8mm;
+    minimum-size: 10mm -1;
+    maximum-size: 50mm -1;
 }
+
+#CommonRightDialogItem {
+    preferred-size: 50mm 8.8mm;
+    minimum-size: 10mm -1;
+    maximum-size: 50mm -1;
+}
+
+#CommonLeftColumn {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    preferred-size: 100% $SIZE_ONE;
+    minimum-size: 50% $SIZE_ONE;
+    maximum-size: 100% $SIZE_ONE;
+}
+
+#CommonLeftColumn.Portrait {
+    preferred-size: 100% $SIZE_ONE;
+    minimum-size: -1 -1;
+    maximum-size: -1 -1;
+}
+
+#CommonRightColumn {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    preferred-size: 50% $SIZE_ONE;
+    minimum-size: 50% $SIZE_ONE;
+    maximum-size: -1 -1;
+}
+
+#CommonRightColumn.Portrait {
+    preferred-size: 100% $SIZE_ONE;
+    minimum-size: -1 -1;
+    maximum-size: -1 -1;
+}
+
 
 /*  STRUCTURAL ELEMENTS  */
 
