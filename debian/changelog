@@ -1,3 +1,9 @@
+meegotouchtheme (0.20.42-1) unstable; urgency=low
+
+  * Fixes: NB#187100 - List items are using wrong backgrounds in many applications.
+
+ -- Daniel d'Andrada <daniel.dandrada@nokia.com>  Mon, 06 Sep 2010 12:07:38 +0300
+
 meegotouchtheme (0.20.41-1) unstable; urgency=low
 
   * New version
