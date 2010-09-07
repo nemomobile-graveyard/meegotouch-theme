@@ -79,3 +79,7 @@ MPopupListStyle MListStyle {
     margin-right: 0;
     margin-bottom: 0;
 }
+
+MPopupList > MLabelStyle#CommonSingleTitle { 
+    color: $COLOR_FOREGROUND;
+}
