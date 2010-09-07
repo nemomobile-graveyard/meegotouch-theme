@@ -10,6 +10,10 @@ MListIndexStyle {
     margin-left: 0;
     margin-bottom: 0;
     margin-right: 0;
+    
+    appear-delay: 500;
+    appear-duration: 300;
+    fade-out-delay: 2000;
 }
 
 #whiteFont {
