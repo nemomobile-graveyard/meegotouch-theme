@@ -5,6 +5,8 @@ MBannerStyle {
     padding-left: $MARGIN_XLARGE;
     padding-right: $MARGIN_XLARGE;
     disappear-timeout: 3000;
+    /* MBanner without styleName will use by default event background*/
+    background-image: "meegotouch-notification-event-background" 10px 10px 10px 10px;
 }
 
 MBannerStyle.Portrait {
@@ -39,6 +41,8 @@ MBannerStyle.Portrait {
     preferred-size: 4.8mm 4.8mm;
     margin-right: $MARGIN_XLARGE
 }
+
+/* Use styleName to setup one of this MBanner: EventBanner, InformationBanner, SystemBanner */
 
 MBannerStyle#EventBanner {
     background-image: "meegotouch-notification-event-background" 10px 10px 10px 10px;
