@@ -38,6 +38,9 @@ MDialogStyle {
     dialog-preferred-size: 100% -1;
     dialog-button-fixed-width: -1;
     button-box-centered: false;
+
+    has-close-button: true;
+    has-title-bar: true;
 }
 
 MDialogStyle.Landscape {
