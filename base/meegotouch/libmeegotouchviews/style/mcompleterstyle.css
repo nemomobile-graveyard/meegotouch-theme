@@ -1,10 +1,9 @@
 @const COMPLETERLABELMARGIN: $MARGIN_XLARGE;
 @const COMPLETERBUTTONMARGIN: $MARGIN_DOUBLE;
 
-/* MCompleterStyle : MWidgetStyle */
+/* MCompleterStyle : MSceneWindowStyle */
 MCompleterStyle {
     background-image: meegotouch-textedit-completer-background $CORNER_MARGINS;
-    /*background-opacity: 0.8;*/
     highlight-color: #FF0000;
     height: 88;
     display-border: $MARGIN_DOUBLE;
@@ -12,6 +11,10 @@ MCompleterStyle {
     button-margin: $COMPLETERBUTTONMARGIN;
     button-width: 100;
     y-position-offset: 8;
+
+    minimum-size: -1 -1;
+    preferred-size: -1 -1;
+    maximum-size: -1 -1;
 
     margin-left: 0;
     margin-top: 0;
