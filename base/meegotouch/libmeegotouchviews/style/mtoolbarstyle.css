@@ -59,3 +59,7 @@ MButtonIconStyle[toolbar] {
     reactive-margin-top: $MARGIN_MEDIUM;
     reactive-margin-bottom: $MARGIN_MEDIUM;
 }
+
+MButtonIconStyle[toolbar].Portrait {
+    maximum-size: 100% $HEIGHT_NAVIGATIONBAR;
+}

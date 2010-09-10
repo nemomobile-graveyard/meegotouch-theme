@@ -43,6 +43,10 @@ MButtonStyle[toolbartab] {
     padding-bottom: $PADDING_MEDIUM;  
 }
 
+MButtonStyle[toolbartab].Portrait {
+    maximum-size: 100% $HEIGHT_NAVIGATIONBAR;
+}
+
 MButtonStyle[toolbartab]:pressed {
     background-image: meegotouch-button-navigationbar-tab-background-pressed $CORNER_MARGINS;
     background-color: $COLOR_SELECT;
