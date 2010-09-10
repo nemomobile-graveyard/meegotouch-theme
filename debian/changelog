@@ -1,3 +1,17 @@
+meegotouchtheme (0.20.43-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#191271 -  MCompleter has wrong size.
+  * Fixes: NB#190068 -  Banner background is transparent so it it makes the Banner text very hard to see
+  * New: List index bar auto visibility animation parameters.
+  * Changes: Added avatar placeholder styles to commonstyles.css
+  * Changes: There should not be cancel feedback by default
+  * Changes: Updated vibration feedbacks
+  * Changes: modifying temporal color at MPopupList->CommonSingleTitle
+  * Changes: Updated CommonIconButton in commonlayouts.css
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Fri, 10 Sep 2010 16:03:58 +0300
+
 meegotouchtheme (0.20.42-1) unstable; urgency=low
 
   * Fixes: NB#187100 - List items are using wrong backgrounds in many applications.
