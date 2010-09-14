@@ -3,6 +3,7 @@ MSpinnerStyle {
     bg-pixmap: "meegotouch-progressindicator-spinner-background" $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
     progress-pixmap: "meegotouch-progressindicator-spinner-progress" $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
     period: 1500;
+    refresh-rate: 33;
 
     maximum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
     minimum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
