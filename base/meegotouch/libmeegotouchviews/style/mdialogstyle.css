@@ -116,6 +116,12 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
     maximum-size: -1 5.2mm;
 }
 
+#MDialogProgressIndicator {                                                    
+    margin-left: $MARGIN_DOUBLE;
+    margin-right: $MARGIN_XLARGE
+    margin-top: $MARGIN_LARGE
+}
+
 #MDialogButtonBox {
     background-image: meegotouch-dialog-button-area-background 10px 10px 10px 10px;
     margin-left: 0;
