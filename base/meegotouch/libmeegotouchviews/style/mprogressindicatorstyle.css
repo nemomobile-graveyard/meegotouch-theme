@@ -4,11 +4,6 @@ MProgressIndicatorStyle {
 }
 
 MProgressIndicatorStyle[bar] {
-
-    maximum-size: 100% $SIZE_ONE;
-    minimum-size: $SIZE_BUTTON 0.8mm;
-    preferred-size: -1 0.8mm;
-
     maximum-size: 100% $SIZE_ONE;
     minimum-size: $SIZE_BUTTON 0.8mm;
     preferred-size: -1 0.8mm;
