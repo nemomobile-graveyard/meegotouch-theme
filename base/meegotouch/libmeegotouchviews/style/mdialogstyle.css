@@ -118,8 +118,8 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
 
 #MDialogProgressIndicator {                                                    
     margin-left: $MARGIN_DOUBLE;
-    margin-right: $MARGIN_XLARGE
-    margin-top: $MARGIN_LARGE
+    margin-right: $MARGIN_XLARGE;
+    margin-top: $MARGIN_LARGE;
 }
 
 #MDialogButtonBox {
