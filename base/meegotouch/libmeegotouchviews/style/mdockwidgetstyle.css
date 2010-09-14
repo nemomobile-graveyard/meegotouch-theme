@@ -8,6 +8,8 @@ MDockWidgetStyle {
     horizontal-align: left;
     vertical-align: bottom;
 
+    offset: 0 -$HEIGHT_STATUSBAR;
+
     minimum-size: 100% $HEIGHT_NAVIGATIONBAR;
     preferred-size: 100% $HEIGHT_NAVIGATIONBAR;
     maximum-size: 100% $HEIGHT_NAVIGATIONBAR;
