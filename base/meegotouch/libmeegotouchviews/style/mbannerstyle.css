@@ -7,6 +7,7 @@ MBannerStyle {
     disappear-timeout: 3000;
     /* MBanner without styleName will use by default event background*/
     background-image: "meegotouch-notification-event-background" 10px 10px 10px 10px;
+    color: $COLOR_FOREGROUND; /* To avoid white over white */
 }
 
 MBannerStyle.Portrait {
