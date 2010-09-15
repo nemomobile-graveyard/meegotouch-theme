@@ -51,7 +51,7 @@
 
 #CommonTitleAccented {
 
-    font : $FONT_LARGE_BOLD;
+    font : $FONT_DEFAULT_BOLD;
     margin-left : $INDENT_DEFAULT;
     margin-right : $INDENT_DEFAULT; 
     margin-top : $MARGIN_XLARGE;
@@ -62,7 +62,7 @@
 
 #CommonTitleInverted {
 
-    font : $FONT_LARGE_BOLD;
+    font : $FONT_DEFAULT_BOLD;
     margin-left : $INDENT_DEFAULT;
     margin-right : $INDENT_DEFAULT; 
     margin-top : $MARGIN_XLARGE;
