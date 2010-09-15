@@ -146,6 +146,15 @@
     margin-bottom : 0;
 }
 
+#CommonCountBubbleTop {
+    margin-right : $INDENT_DEFAULT;
+    margin-top : $MARGIN_XLARGE;
+}
+
+#CommonCountBubble {
+    margin-right : $INDENT_DEFAULT;
+}
+
 #CommonHeader {
 
     font : $FONT_SMALL;
