@@ -9,6 +9,7 @@ MEscapeButtonPanelStyle {
     offset: 0 0;
 
     button-animation-length: 500;
+    has-close-button: true;
 
     back-button-object-name: "BackButton";
     close-button-object-name: "CloseButton";
