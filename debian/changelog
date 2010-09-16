@@ -1,3 +1,25 @@
+meegotouchtheme (0.20.44-1) unstable; urgency=low
+
+  * New version
+  * Changes: Deleting duplicated lines from mprogressindicatorstyle.css
+  * Changes: Adding MWidgetView as the default view of MWidgetController
+  * Changes: MBanner with default color to avoid white over white
+  * Fixes: NB#182584 feedreader: font size of read and unread post in feed view is different
+  * Changes: Added CommonCountBubble styles to commonlayouts.css
+  * Changes: Adding refresh rate attribute to spinner
+  * New: MDialogStyle - has-title-bar and has-close-button
+  * New: hasTitleLabel in MApplicationPageStyle
+  * Changes: fixing typo at mdialogstyle.css
+  * Fixes: NB#188294 -  spinner position in dialog is incorrect
+  * Fixes: NB#182490 -  Tapping on bottom tool bar is selecting a next post from the list in feed view [only portrait mode]
+  * Fixes: NB#183084 - (text_..._tabs) MToolBar: "Text" shown in tab view when using ... theme.
+  * Changes: Fixes haptic feedback for checkbox
+  * Changes: Fixes haptic feedback for MButtonSwitch
+  * Changes: Offset for MDockWidget, to make it display correct when affected by status bar show/hide animation.
+  * Changes: Added feedbacks for bubble item
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 16 Sep 2010 11:22:16 +0300
+
 meegotouchtheme (0.20.43-1) unstable; urgency=low
 
   * New version
