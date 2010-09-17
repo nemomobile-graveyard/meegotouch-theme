@@ -167,6 +167,9 @@ MButtonStyle[last].Landscape:pressed {
 }
 
 MButtonStyle[single].Landscape {
+   preferred-size: -1 $SIZE_BUTTON;
+   minimum-size: -1 $SIZE_BUTTON;
+   maximum-size: -1 $SIZE_BUTTON;
    background-image: "meegotouch-button-dialog-background" 12px 12px 12px 12px;
 }
 MButtonStyle[single].Landscape:pressed {
@@ -199,6 +202,9 @@ MButtonStyle[last].Portrait:pressed {
 }
 
 MButtonStyle[single].Portrait {
+   preferred-size: -1 $SIZE_BUTTON;
+   minimum-size: -1 $SIZE_BUTTON;
+   maximum-size: -1 $SIZE_BUTTON;
    background-image: "meegotouch-button-dialog-background" 12px 12px 12px 12px;
 }
 MButtonStyle[single].Portrait:pressed {
