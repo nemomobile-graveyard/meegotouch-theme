@@ -10,13 +10,10 @@ MToolbarStyle {
     maximum-size: -1 $HEIGHT_NAVIGATIONBAR;
 
     drop-shadow-image: meegotouch-navigationbar-portrait-shadow;
-
-    floatable: true;
 }
 
 MToolbarStyle.Landscape {
-    background-image: meegotouch-navigationbar-toolbar-background $CORNER_MARGINS;
-    floatable: false;
+   background-image: meegotouch-navigationbar-toolbar-background $CORNER_MARGINS;
 }
 
 MTextEditStyle[toolbar] {
