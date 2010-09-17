@@ -224,6 +224,14 @@
     margin-right : $INDENT_DEFAULT; 
 }
 
+#CommonInvertedButtonLabel {
+    text-color: $COLOR_FOREGROUND;
+    margin-right : $INDENT_DEFAULT;
+    margin-left : $INDENT_DEFAULT;
+}
+
+
+
 /*  Temporary styles */
 
 
@@ -661,6 +669,18 @@
     margin-left : $INDENT_DEFAULT;
     margin-bottom : $MARGIN_DOUBLE;
     margin-top : $MARGIN_DOUBLE;
+}
+
+#CommonSingleOversizeInvertedButton {
+    text-color: $COLOR_FOREGROUND;
+    background-image : meegotouch-button-inverted-background $CORNER_MARGINS;
+    margin-right : $INDENT_DEFAULT;
+    margin-left : $INDENT_DEFAULT;
+    margin-bottom : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+    maximum-size : 46.6mm 6.4mm;
+    minimum-size : 10mm 6.4mm;
+    preferred-size : 46.6mm 6.4mm;
 }
 
 
