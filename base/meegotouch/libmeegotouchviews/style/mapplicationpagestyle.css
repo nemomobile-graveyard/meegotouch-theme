@@ -23,3 +23,9 @@ MApplicationPage MLabelStyle#titleLabel {
    preferred-size: 100% $HEIGHT_STATUSBAR;
    minimum-size: 100% $HEIGHT_STATUSBAR;
 }
+
+MApplicationPageStyle#QtTransparentApplicationPage {
+   background-color: ;
+   background-image: ;
+   background-opacity: 0;
+}
