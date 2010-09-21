@@ -1,3 +1,10 @@
 MApplicationWindowStyle {
     auto-hide-timeout: 5000;
+    floatable-tool-bar: true;
+    floatable-tab-bar: true;
+}
+
+MApplicationWindowStyle.Landscape {
+    floatable-tool-bar: false;
+    floatable-tab-bar: false;
 }
