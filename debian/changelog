@@ -1,3 +1,19 @@
+meegotouchtheme (0.20.45-1) unstable; urgency=low
+
+  * New version
+  * Changes: updated icon shapes a bit to match RD theme style
+  * Changes: updated style to match the rest of icon set
+  * Changes: Removed duplicate icon (icon-l-email is the currently used one)
+  * New: MApplicationWindowStyle - floatable-tool-bar and floatable-tab-bar
+  * Fixes: NB#192581 - Default buttons in MMessageBox doesnt look like they are sized or positioned correctly.
+  * Changes: Renamed 'move-slider' feedback to 'move'
+  * Changes: Added transparent style to MApplicationPageStyle for plain Qt
+  * Changes: added icon button placeholder to commonlayouts.css
+  * Changes: Added pressed states to inverted buttons in commonlayouts.css
+  * Changes: added inverted button styles to commonlayouts.css
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 23 Sep 2010 15:08:33 +0300
+
 meegotouchtheme (0.20.44-1) unstable; urgency=low
 
   * New version
