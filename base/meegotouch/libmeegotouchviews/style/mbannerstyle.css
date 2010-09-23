@@ -40,7 +40,7 @@ MBannerStyle.Portrait {
     maximum-size: 4.8mm 4.8mm;
     minimum-size: 4.8mm 4.8mm;
     preferred-size: 4.8mm 4.8mm;
-    margin-right: $MARGIN_XLARGE
+    margin-right: $MARGIN_XLARGE;
 }
 
 /* Use styleName to setup one of this MBanner: EventBanner, InformationBanner, SystemBanner */
