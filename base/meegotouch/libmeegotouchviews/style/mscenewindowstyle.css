@@ -21,6 +21,7 @@ MSceneWindowStyle#statusBar
     preferred-size: 100% $HEIGHT_STATUSBAR;
     maximum-size: 100% $HEIGHT_STATUSBAR;
     background-color: #000000;
+    use-swipe-gesture: true;
     swipe-threshold: 30;
     press-feedback : press;
 }
