@@ -1273,57 +1273,87 @@
 
 #CommonPanel {
 
-    background-image : meegotouch-panel-background $CORNER_MARGINS;
+    background-tiles : meegotouch-panel-background $CORNER_MARGINS;
     margin-left : 0;
     margin-right : 0;
     margin-top : 0;
     margin-bottom : 0;
-    minimum-size : $SIZE_LIST $SIZE_LIST;   
+    preferred-size: -1 $SIZE_ONE;
+    minimum-size: $SIZE_ONE $SIZE_ONE;
+    maximum-size: 100% $SIZE_FOUR;  
 }
 
 #CommonPanelInverted {
 
-    background-image : meegotouch-panel-inverted-background $CORNER_MARGINS;
+    background-tiles : meegotouch-panel-inverted-background $CORNER_MARGINS;
     margin-left : 0;
     margin-right : 0;
     margin-top : 0;
     margin-bottom : 0;
-    minimum-size : $SIZE_LIST $SIZE_LIST;  
+    preferred-size: -1 $SIZE_ONE;
+    minimum-size: $SIZE_ONE $SIZE_ONE;
+    maximum-size: 100% $SIZE_FOUR;  
 }
+
+#CommonPanelNoFeedback {
+
+    background-tiles : meegotouch-panel-background $CORNER_MARGINS;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    margin-bottom : 0;
+    preferred-size: -1 $SIZE_ONE;
+    minimum-size: $SIZE_ONE $SIZE_ONE;
+    maximum-size: 100% $SIZE_FOUR;  
+}
+
 
 #CommonPanel:pressed {
 
-    background-image : meegotouch-panel-background-pressed $CORNER_MARGINS;
+    background-tiles : meegotouch-panel-background-pressed $CORNER_MARGINS;
 }
 
 #CommonPanel:selected {
 
-    background-image : meegotouch-panel-background-selected $CORNER_MARGINS;
+    background-tiles : meegotouch-panel-background-selected $CORNER_MARGINS;
 }
 
 #CommonPanelInverted:pressed {
 
-    background-image : meegotouch-panel-inverted-background-pressed $CORNER_MARGINS;
+    background-tiles : meegotouch-panel-inverted-background-pressed $CORNER_MARGINS;
 }
 
 #CommonPanelInverted:selected {
 
-    background-image : meegotouch-panel-inverted-background-selected $CORNER_MARGINS;
+    background-tiles : meegotouch-panel-inverted-background-selected $CORNER_MARGINS;
+}
+
+
+#CommonPanelNoFeedback:pressed {
+
+    background-tiles : meegotouch-panel-background $CORNER_MARGINS;
+}
+
+#CommonPanelNoFeedback:selected {
+
+    background-tiles : meegotouch-panel-background $CORNER_MARGINS;
 }
 
 #CommonSmallPanel {
 
-    background-image : meegotouch-list-fullwidth-background $CORNER_MARGINS;
+    background-tiles : meegotouch-list-fullwidth-background $CORNER_MARGINS;
     margin-left : 0;
     margin-right : 0;
     margin-top : 0;
     margin-bottom : 0;
-    minimum-size : 50 50;  
+    preferred-size: -1 50;
+    minimum-size: $SIZE_ONE 50;
+    maximum-size: 100% $SIZE_FOUR;
 }
 
 #CommonSmallPanel:pressed {
 
-    background-image : meegotouch-list-fullwidth-background-pressed $CORNER_MARGINS;
+    background-tiles : meegotouch-list-fullwidth-background-pressed $CORNER_MARGINS;
 }
 
 #CommonHeaderPanel {
@@ -1337,12 +1367,14 @@
 
 #CommonLargeHeaderPanel {
 
-    background-image : meegotouch-list-fullwidth-background $CORNER_MARGINS;
+    background-tiles : meegotouch-list-fullwidth-background $CORNER_MARGINS;
     margin-left : 0;
     margin-right : 0;
     margin-top : 0;
     margin-bottom : 0;
-    minimum-size : 72 72;  
+    minimum-size : -1 72;  
+    minimum-size: $SIZE_ONE 72;
+    maximum-size: 100% $SIZE_FOUR;
 }
 
 
