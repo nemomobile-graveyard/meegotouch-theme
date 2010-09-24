@@ -1,70 +1,255 @@
 /* MBannerStyle : MWidgetStyle */
 MBannerStyle {
-    icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
-    maximum-size: 100% 6.4mm;
-    padding-left: $MARGIN_XLARGE;
-    padding-right: $MARGIN_XLARGE;
-    disappear-timeout: 3000;
-    /* MBanner without styleName will use by default event background*/
-    background-image: "meegotouch-notification-event-background" 10px 10px 10px 10px;
-    color: $COLOR_FOREGROUND; /* To avoid white over white */
-}
+    icon-size: 0 0;
+    padding-top: 0;
+    padding-bottom:0;
+    padding-right: 0;
+    padding-left: 0;
 
-MBannerStyle.Portrait {
-    icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
-    maximum-size: 100% 6.4mm;
-    padding-left: $MARGIN_XLARGE;
-    padding-right: $MARGIN_XLARGE;
     disappear-timeout: 3000;
 }
 
-#MBannerTitle{
-    font: $FONT_DEFAULT_BOLD;
-    color: $COLOR_INVERTED_FOREGROUND;
-    margin-right: $MARGIN_XXLARGE;
-    margin-bottom:-3;
+MBanner MLabelStyle {
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:0;
+    margin-right:0;
+
+    padding-top:0;
+    padding-bottom:0;
+    padding-right:0;
+    padding-left:0;
 }
 
-#MBannerSubtitle{
-    font: $FONT_XSMALL;
-    color: $COLOR_INVERTED_FOREGROUND;
-    margin-top:-3;
-}
+/* Event Banner */
 
-#MBannerSubtitleSingle{
-    font: $FONT_XSMALL;
-    color: $COLOR_INVERTED_FOREGROUND;
-}
-
-#MBannerIcon{
-    maximum-size: 4.8mm 4.8mm;
-    minimum-size: 4.8mm 4.8mm;
-    preferred-size: 4.8mm 4.8mm;
-    margin-right: $MARGIN_XLARGE;
-}
-
-/* Use styleName to setup one of this MBanner: EventBanner, InformationBanner, SystemBanner */
-
-MBannerStyle#EventBanner {
+MBannerStyle #EventBanner {
+    icon-size: 1.5mm 1.5mm;
+    minimum-size: 100% 3.6mm;
+    maximum-size: 100% 3.6mm;
+    preferred-size: 100% 3.6mm;
     background-image: "meegotouch-notification-event-background" 10px 10px 10px 10px;
+    margin-bottom:2.0mm;
 }
 
-MBannerStyle#EventBanner:pressed {
+MBannerStyle #EventBanner:pressed {
     background-image: "meegotouch-notification-event-background-pressed" 10px 10px 10px 10px;
 }
 
-MBannerStyle#InformationBanner {
-    background-image: "meegotouch-notification-information-background" 10px 10px 10px 10px;
+#MBannerTitleEvent {
+    font: $FONT_XSMALL_BOLD;
+    color: $COLOR_INVERTED_FOREGROUND;
+    margin-right: $MARGIN_LARGE;
+    margin-left: $MARGIN_LARGE;
 }
 
-MBannerStyle#InformationBanner:pressed {
-    background-image: "meegotouch-notification-information-background-pressed" 10px 10px 10px 10px;
+#MBannerSubtitleEvent{
+    font: $FONT_XSMALL_REGULAR;
+    color: $COLOR_INVERTED_FOREGROUND;
 }
 
-MBannerStyle#SystemBanner {
+#MBannerIconEvent{
+     margin-left:0.1mm;
+}
+/* Event banner at event screen */
+
+MBannerStyle #EventScreen {
+    minimum-size: 40mm 13.5mm;
+    maximum-size: 40mm 13.5mm;
+    preferred-size: 40mm 13.5mm;
+    icon-size: 5mm 5mm;
+    background-image: "meegotouch-notification-lockscreen-background" 10px 10px 10px 10px;
+}
+
+#HeadLine {
+    font: $FONT_XSMALL_BOLD;
+    margin-top: 3mm;
+    color:$COLOR_INVERTED_FOREGROUND;
+}
+#IconScreen {
+    maximum-size: 5mm 5mm;
+    minimum-size: 5mm 5mm;
+    preferred-size: 5mm 5mm;
+
+    margin-right: 2mm;
+    margin-top:3mm;
+    margin-left:3mm;
+    margin-bottom:5.5mm;
+}
+#Body {    
+   /*font: $FONT_DEFAULT_LIGHT; */
+   /* opacity: 0.5; */
+    color:$COLOR_INVERTED_FOREGROUND;
+  /*margin-bottom:5.5mm; */
+    margin-top:0.6mm;
+}
+
+#TimeStamp { 
+    font: $FONT_XSMALL_BOLD;
+    color:$COLOR_INVERTED_FOREGROUND;
+    margin-bottom:0.3mm;
+}
+
+/* Event banner at lock screen */
+
+MBannerStyle #LockScreen {
+    minimum-size: 40mm 13.5mm;
+    maximum-size: 40mm 13.5mm;
+    preferred-size: 40mm 13.5mm;
+    icon-size: 5mm 5mm;
+    background-image: "meegotouch-notification-lockscreen-background" 10px 10px 10px 10px;
+}
+
+#HeadLine {
+    font: $FONT_XSMALL_BOLD;
+    margin-top: 3mm;
+    color:$COLOR_INVERTED_FOREGROUND;
+}
+#IconScreen {
+    maximum-size: 5mm 5mm;
+    minimum-size: 5mm 5mm;
+    preferred-size: 5mm 5mm;
+
+    margin-right: 2mm;
+    margin-top:3mm;
+    margin-left:3mm;
+    margin-bottom:5.5mm;
+}
+#Body {    
+   /*font: $FONT_DEFAULT_LIGHT; */
+   /* opacity: 0.5; */
+    color:$COLOR_INVERTED_FOREGROUND;
+  /*margin-bottom:5.5mm; */
+    margin-top:0.6mm;
+}
+
+#TimeStamp { 
+    font: $FONT_XSMALL_BOLD;
+    color:$COLOR_INVERTED_FOREGROUND;
+    margin-bottom:0.3mm;
+}
+
+MBannerStyle #SystemBanner {
+    /*System banners hasn't icon*/
+    icon-size: 0 0;
+    margin-right: $MARGIN_LARGE;
+    margin-top:$MARGIN_LARGE;
+    margin-left:$MARGIN_LARGE;
+    margin-bottom:$MARGIN_LARGE;
     background-image: "meegotouch-notification-system-background" 10px 10px 10px 10px;
 }
 
-MBannerStyle#SystemBanner:pressed {
+MBannerStyle #SystemBanner:pressed {
     background-image: "meegotouch-notification-system-background-pressed" 10px 10px 10px 10px;
 }
+
+MBannerStyle #SystemBanner.Landscape {
+    maximum-size: 83.8mm 8mm;
+    minimum-size: 46.6mm 6.4mm;
+    preferred-size: 83.8mm -1;
+}
+
+MBannerStyle #SystemBanner.Portrait {
+    maximum-size: 46.4mm 10.6mm;
+    minimum-size: 46.4mm 6.4mm;
+    preferred-size: 46.4mm -1;
+}
+
+#MBannerTitleSystem {
+    color:$COLOR_INVERTED_FOREGROUND;
+    font: $FONT_DEFAULT;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: $INDENT_DEFAULT;
+}
+/* Information Banner */
+
+MBannerStyle #InformationBanner {
+    icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
+    margin-right: 1mm;
+    margin-top:1mm;
+    margin-left:1mm;
+    margin-bottom:1mm;
+    background-image: "meegotouch-notification-information-background" 10px 10px 10px 10px;
+}
+
+MBannerStyle #Information:pressed {
+    background-image: "meegotouch-notification-information-background-pressed" 10px 10px 10px 10px;
+}
+
+MBannerStyle #InformationBanner.Landscape {
+    maximum-size: 83.4mm 8mm;
+    minimum-size: 46mm 8mm;
+    preferred-size: 83.4mm -1;
+}
+
+MBannerStyle #InformationBanner.Portrait {
+    maximum-size: 46.4mm 10.6mm;
+    minimum-size: 46.4mm 8mm;
+    preferred-size: 46.4mm -1;
+}
+
+#MBannerTitleInformation{
+    color:$COLOR_INVERTED_FOREGROUND;
+    font: $FONT_DEFAULT;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: $INDENT_DEFAULT;
+}
+
+#MBannerIconInformation{
+    margin-right: 0;
+    margin-left: $INDENT_DEFAULT;
+    margin-top: $INDENT_DEFAULT;
+    margin-bottom: $INDENT_DEFAULT;
+}
+
+/*Generic MBanner it can contain anything*/
+
+MBannerStyle #GenericBanner {
+    icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
+    margin-right: $MARGIN_LARGE;
+    margin-top:$MARGIN_LARGE;
+    margin-left:$MARGIN_LARGE;
+    margin-bottom:$MARGIN_LARGE;
+    background-image: "meegotouch-notification-system-background" 10px 10px 10px 10px;
+}
+
+MBannerStyle #GenericBanner:pressed {
+    background-image: "meegotouch-notification-system-background-pressed" 10px 10px 10px 10px;
+}
+
+MBannerStyle #GenericBanner.Landscape {
+    maximum-size: 83.4mm 10.6mm;
+    minimum-size: 46.6mm 6.4mm;
+    preferred-size: 83.4mm -1;
+}
+
+MBannerStyle #GenericBanner.Portrait {
+    maximum-size: 46.4mm 10.6mm;
+    minimum-size: 46.4mm 6.4mm;
+    preferred-size: 46.4mm -1;
+}
+
+#MBannerTitleGeneric {
+    color:$COLOR_INVERTED_FOREGROUND;
+    font: $FONT_DEFAULT;
+    margin-left: $INDENT_DEFAULT;
+}
+
+#MBannerSubTitleGeneric {
+    color:$COLOR_INVERTED_FOREGROUND;
+    font: $FONT_SMALL;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: $INDENT_DEFAULT;
+}
+
+#MBannerIconGeneric {
+    margin-right: 0;
+    margin-left: $INDENT_DEFAULT;
+    margin-top: $INDENT_DEFAULT;
+    margin-bottom: $INDENT_DEFAULT;
+}
+
+#MBannerTimeStampGeneric{
+    color:$COLOR_INVERTED_FOREGROUND;
+    font: $FONT_SMALL;
+} 
