@@ -360,9 +360,9 @@
 
 #CommonSubIcon {
 
-    maximum-size: 2.8mm 2.8mm;
-    minimum-size: 2.8mm 2.8mm;
-    preferred-size: 2.8mm 2.8mm;
+    maximum-size: 2.4mm 2.4mm;
+    minimum-size: 2.4mm 2.4mm;
+    preferred-size: 2.4mm 2.4mm;
     margin-left : $MARGIN_XSMALL;
     margin-right : $MARGIN_XSMALL;
     margin-top : $MARGIN_XSMALL;
@@ -371,9 +371,9 @@
 
 #CommonSubIconTop {
 
-    maximum-size: 2.8mm 2.8mm;
-    minimum-size: 2.8mm 2.8mm;
-    preferred-size: 2.8mm 2.8mm;
+    maximum-size: 2.4mm 2.4mm;
+    minimum-size: 2.4mm 2.4mm;
+    preferred-size: 2.4mm 2.4mm;
     margin-left : 0;
     margin-right : $INDENT_DEFAULT;
     margin-top : 0;
@@ -382,9 +382,9 @@
 
 #CommonSubIconBottom {
 
-    maximum-size: 2.8mm 2.8mm;
-    minimum-size: 2.8mm 2.8mm;
-    preferred-size: 2.8mm 2.8mm;
+    maximum-size: 2.4mm 2.4mm;
+    minimum-size: 2.4mm 2.4mm;
+    preferred-size: 2.4mm 2.4mm;
     margin-left : 0;
     margin-right : $INDENT_DEFAULT;
     margin-top : 0;
