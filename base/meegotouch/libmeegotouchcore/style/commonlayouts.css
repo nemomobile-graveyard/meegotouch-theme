@@ -337,13 +337,13 @@
 }
 
 #CommonSettingsIcon {
-    maximum-size: 4.8mm 4.8mm;
-    minimum-size: 4.8mm 4.8mm;
-    preferred-size: 4.8mm 4.8mm;
-    margin-left : 2mm;
-    margin-right : 2mm;
-    margin-top : 2mm;
-    margin-bottom : 2mm;
+    maximum-size: 6.4mm 6.4mm;
+    minimum-size: 6.4mm 6.4mm;
+    preferred-size: 6.4mm 6.4mm;
+    margin-left : $MARGIN_DOUBLE;
+    margin-right : $MARGIN_DOUBLE;
+    margin-top : $MARGIN_DOUBLE;
+    margin-bottom : $MARGIN_DOUBLE;
 }
 
 #CommonTitleIconTop {
