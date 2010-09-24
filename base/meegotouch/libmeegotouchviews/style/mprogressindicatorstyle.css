@@ -18,4 +18,6 @@ MProgressIndicatorStyle[bar] {
     known-bar-texture: "meegotouch-progressindicator-bar-known-texture";
     known-bar-texture-tiled: false;
     element-size: $SIZE_ONE;
+
+    refresh-rate: 20;
 }
