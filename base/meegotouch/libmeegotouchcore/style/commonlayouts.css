@@ -119,7 +119,7 @@
 
 #CommonSubText {
 
-    font : $FONT_XSMALL;
+    font : $FONT_SMALL;
     color : $COLOR_SECONDARY_FOREGROUND;
     margin-left : $INDENT_DEFAULT;
     margin-right : $INDENT_DEFAULT; 
@@ -129,7 +129,7 @@
 
 #CommonSubTextInverted {
 
-    font : $FONT_XSMALL;
+    font : $FONT_SMALL;
     color : $COLOR_INVERTED_FOREGROUND;
     margin-left : $INDENT_DEFAULT;
     margin-right : $INDENT_DEFAULT; 
