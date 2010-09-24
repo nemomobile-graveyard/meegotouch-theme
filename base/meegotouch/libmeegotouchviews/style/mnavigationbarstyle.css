@@ -18,8 +18,9 @@ MNavigationBarStyle {
     minimum-size: 100% $HEIGHT_NAVIGATIONBAR;
     preferred-size: 100% $HEIGHT_NAVIGATIONBAR;
     maximum-size: 100% $HEIGHT_NAVIGATIONBAR;
-    
+
     drop-shadow-image: meegotouch-navigationbar-shadow;
+    has-title: true;
 }
 
 #NavigationBarMenuButton
@@ -55,7 +56,7 @@ MNavigationBarStyle {
 #NavigationBarMenuButtonLabel {
 
     color: $COLOR_INVERTED_FOREGROUND;
-    
+
     preferred-size: -1 -1;
     minimum-size: 0 0;
     maximum-size: 100% 100%;
