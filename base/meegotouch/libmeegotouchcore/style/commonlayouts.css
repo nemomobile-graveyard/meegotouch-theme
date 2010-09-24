@@ -118,7 +118,7 @@
 }
 
 #CommonSubText {
-
+/* Font size changed to small, the use of this style might change */
     font : $FONT_SMALL;
     color : $COLOR_SECONDARY_FOREGROUND;
     margin-left : $INDENT_DEFAULT;
