@@ -1,3 +1,4 @@
 MSceneManagerStyle {
   page-switch-animation: "MPageSwitchSlideAnimation";
+  object-menu-animation: "MWidgetRectangularClipAnimation"
 }
