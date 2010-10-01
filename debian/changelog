@@ -1,3 +1,21 @@
+meegotouchtheme (0.20.46-1) unstable; urgency=low
+
+  * New version
+  * Changes: Adding slider handle arrows to meegotouch-slider.svg
+  * Changes: adding press-timeout property, 140ms
+  * New: MNavigationBarStyle - has-title
+  * Changes: Maximum velocity property for the pannable viewport.
+  * Changes: adding refresh-rate (fps)
+  * Changes: updated settings icon size to 6.4mm
+  * New: hasCloseButton for MEscapeButtonPanelStyle
+  * Fixes: NB#191045 - #CommonSubText font very small
+  * Changes: bigger font size for CommonSubText in commonlayouts.css
+  * Changes: subicon size adjusted in commonlayouts.css
+  * Changes: fixing typo at MBanner
+  * Changes: Status bar style default for "open status menu by swiping" behavior
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Fri, 01 Oct 2010 11:14:29 +0300
+
 meegotouchtheme (0.20.45-1) unstable; urgency=low
 
   * New version
