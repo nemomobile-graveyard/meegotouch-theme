@@ -201,6 +201,7 @@ meegotouch-button-switch-thumb
 meegotouch-button-switch-background
 meegotouch-button-switch-mask
 meegotouch-button-switch-colorstripe
+meegotouch-button-switch-colorstripe-normal
 
 #meegotouch-viewmenubuttons
 meegotouch-viewmenu-background-top-left
@@ -285,6 +286,10 @@ meegotouch-slider-background-vertical
 meegotouch-slider-received-background-vertical
 meegotouch-slider-elapsed-background-vertical
 meegotouch-slider-handle-value-background
+meegotouch-slider-handle-label-arrow-down
+meegotouch-slider-handle-label-arrow-left
+meegotouch-slider-handle-label-arrow-right
+meegotouch-slider-handle-label-arrow-up
 
 #meegotouch-objectmenu
 meegotouch-button-objectmenu-background-vertical-top
