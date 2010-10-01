@@ -136,7 +136,31 @@
      x1="50"
      y1="101.9492"
      x2="50"
-     y2="66.949203" /></defs><sodipodi:namedview
+     y2="66.949203" /><inkscape:perspective
+     id="perspective2889"
+     inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+     inkscape:vp_z="1 : 0.5 : 1"
+     inkscape:vp_y="0 : 1000 : 0"
+     inkscape:vp_x="0 : 0.5 : 1"
+     sodipodi:type="inkscape:persp3d" /><inkscape:perspective
+     id="perspective2905"
+     inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+     inkscape:vp_z="1 : 0.5 : 1"
+     inkscape:vp_y="0 : 1000 : 0"
+     inkscape:vp_x="0 : 0.5 : 1"
+     sodipodi:type="inkscape:persp3d" /><inkscape:perspective
+     id="perspective2889-2"
+     inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+     inkscape:vp_z="1 : 0.5 : 1"
+     inkscape:vp_y="0 : 1000 : 0"
+     inkscape:vp_x="0 : 0.5 : 1"
+     sodipodi:type="inkscape:persp3d" /><inkscape:perspective
+     id="perspective2905-2"
+     inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+     inkscape:vp_z="1 : 0.5 : 1"
+     inkscape:vp_y="0 : 1000 : 0"
+     inkscape:vp_x="0 : 0.5 : 1"
+     sodipodi:type="inkscape:persp3d" /></defs><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
    borderopacity="1"
@@ -149,9 +173,9 @@
    inkscape:window-height="1126"
    id="namedview210"
    showgrid="false"
-   inkscape:zoom="4.1522261"
+   inkscape:zoom="2"
    inkscape:cx="140"
-   inkscape:cy="267.90462"
+   inkscape:cy="269.96622"
    inkscape:window-x="0"
    inkscape:window-y="25"
    inkscape:window-maximized="1"
@@ -201,27 +225,28 @@
    id="path26" />
 		<path
    d="m 98,213 0.5,1 0.5,-1 -1,0 z"
-   id="meegotouch-slider-handle-label-arrow-down"
+   id="path2991"
    sodipodi:nodetypes="cccc"
    inkscape:label="#path26-4"
    style="fill:#b3b3b3;fill-opacity:1" /><path
    d="m 146,214 -0.5,-1 -0.5,1 1,0 z"
-   id="meegotouch-slider-handle-label-arrow-up"
+   id="path2993"
    sodipodi:nodetypes="cccc"
    inkscape:label="#path26-4"
    style="fill:#b3b3b3;fill-opacity:1" /><path
    d="m 175,149 -1,0.5 1,0.5 0,-1 z"
-   id="meegotouch-slider-handle-label-arrow-left"
+   id="path2987"
    sodipodi:nodetypes="cccc"
    inkscape:label="#path26-4"
    style="fill:#b3b3b3;fill-opacity:1" /><path
    d="m 174,197 1,0.5 -1,0.5 0,-1 z"
-   id="meegotouch-slider-handle-label-arrow-right"
+   id="path2989"
    sodipodi:nodetypes="cccc"
    inkscape:label="#path26-4"
    style="fill:#b3b3b3;fill-opacity:1" /></g>
 		<g
-   id="meegotouch-slider-handle-value-background">
+   id="meegotouch-slider-handle-value-background"
+   transform="translate(1.5183307,0)">
 			<g
    id="g29">
 				<path
@@ -238,7 +263,7 @@
    y1="135"
    x2="129.9995"
    y2="197"
-   gradientTransform="translate(-0.48166933,0)">
+   gradientTransform="translate(-2,0)">
 					<stop
    offset="0"
    style="stop-color:#F2F2F2"
@@ -608,8 +633,21 @@
    id="path185" />
 				</g>
 			</g>
-		</g>
+		</g><g
+   transform="matrix(0,0.0625,0.125,0,160.625,170.375)"
+   id="meegotouch-slider-handle-label-arrow-right"
+   inkscape:label="#meegotouch-slider-handle-label-arrow-right"><path
+     d="m 122,191 8,8 8,-8 -16,0 z"
+     id="path26-1-3-3"
+     sodipodi:nodetypes="cccc" /></g>
 		<g
+   transform="matrix(0,0.0625,-0.125,0,209.375,141.375)"
+   id="meegotouch-slider-handle-label-arrow-left"
+   inkscape:label="#meegotouch-slider-handle-label-arrow-left">
+<path
+   d="m 122,191 8,8 8,-8 -16,0 z"
+   id="path26-1-3"
+   sodipodi:nodetypes="cccc" /></g><g
    id="meegotouch-slider-handle-background-horizontal"
    transform="translate(-0.48166933,-0.44900131)">
 			<rect
@@ -678,6 +716,12 @@
 			</g>
 		</g>
 	<g
+   transform="matrix(0.0625,0,0,0.125,91.893331,195.125)"
+   id="meegotouch-slider-handle-label-arrow-down"
+   inkscape:label="#meegotouch-slider-handle-label-arrow-down"><path
+     d="m 122,191 8,8 8,-8 -16,0 z"
+     id="path26-1"
+     sodipodi:nodetypes="cccc" /></g><g
    id="meegotouch-slider-handle-background-vertical"
    transform="translate(0,-0.44900513)">
 			<rect
@@ -745,6 +789,11 @@
    d="m 50,151.449 c 9.374,0 17,7.626 17,17 0,9.374 -7.626,17 -17,17 -9.374,0 -17,-7.626 -17,-17 0,-9.374 7.626,-17 17,-17 m 0,-1 c -9.9,0 -18,8.1 -18,18 0,9.9 8.1,18 18,18 9.9,0 18,-8.1 18,-18 0,-9.9 -8.1,-18 -18,-18 l 0,0 z"
    id="path124" />
 			</g>
-		</g></g>
-</g>
-</svg>
+		</g><g
+   transform="matrix(0.0625,0,0,-0.125,123.89333,243.875)"
+   id="meegotouch-slider-handle-label-arrow-up"
+   inkscape:label="#meegotouch-slider-handle-label-arrow-up"><path
+     d="m 122,191 8,8 8,-8 -16,0 z"
+     id="path26-1-6"
+     sodipodi:nodetypes="cccc" /></g></g>
+</g></svg>
