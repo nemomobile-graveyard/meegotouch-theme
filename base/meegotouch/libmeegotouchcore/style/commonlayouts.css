@@ -1031,93 +1031,6 @@
     background-image : meegotouch-button-positive-background-pressed $CORNER_MARGINS;
     }
 
-/*  Old split buttons   */
-
-#CommonSplitButtonVerticalTop {
-    background-image : meegotouch-buttongroup-background-vertical-top $CORNER_MARGINS;
-    margin-left : $INDENT_DEFAULT;
-    margin-right : $INDENT_DEFAULT;
-    margin-top : $MARGIN_DOUBLE;
-    margin-bottom : 0;
-}
-#CommonSplitButtonVerticalTop:pressed {
-    background-image : meegotouch-buttongroup-background-pressed-vertical-top $CORNER_MARGINS;
-}
-#CommonSplitButtonVerticalTop:selected {
-    background-image : meegotouch-buttongroup-background-selected-vertical-top $CORNER_MARGINS;
-}
-
-#CommonSplitButtonVerticalCenter {
-    background-image : meegotouch-buttongroup-background-vertical-center $CORNER_MARGINS;
-    margin-left : $INDENT_DEFAULT;
-    margin-right : $INDENT_DEFAULT;
-    margin-top : 0;
-    margin-bottom : 0;    
-}
-#CommonSplitButtonVerticalCenter:pressed {
-    background-image : meegotouch-buttongroup-background-pressed-vertical-center $CORNER_MARGINS;
-}
-#CommonSplitButtonVerticalCenter:selected {
-    background-image : meegotouch-buttongroup-background-selected-vertical-center $CORNER_MARGINS;
-}
-
-#CommonSplitButtonVerticalBottom {
-    background-image : meegotouch-buttongroup-background-vertical-bottom $CORNER_MARGINS;
-    margin-left : $INDENT_DEFAULT;
-    margin-right : $INDENT_DEFAULT;
-    margin-top : 0;
-    margin-bottom : $MARGIN_DOUBLE;
-}
-#CommonSplitButtonVerticalBottom:pressed {
-    background-image : meegotouch-buttongroup-background-pressed-vertical-bottom $CORNER_MARGINS;
-}
-#CommonSplitButtonVerticalBottom:selected {
-    background-image : meegotouch-buttongroup-background-selected-vertical-bottom $CORNER_MARGINS;
-}
-
-#CommonSplitButtonHorizontalLeft {
-    background-image : meegotouch-buttongroup-background-horizontal-left $CORNER_MARGINS;
-    margin-top : $MARGIN_DOUBLE;
-    margin-bottom : $MARGIN_DOUBLE;
-    margin-left : $INDENT_DEFAULT;
-    margin-right : 0;
-}
-#CommonSplitButtonHorizontalLeft:pressed {
-    background-image : meegotouch-buttongroup-background-pressed-horizontal-left $CORNER_MARGINS;
-}
-#CommonSplitButtonHorizontalLeft:selected {
-    background-image : meegotouch-buttongroup-background-selected-horizontal-left $CORNER_MARGINS;
-}
-
-#CommonSplitButtonHorizontalCenter {
-    background-image : meegotouch-buttongroup-background-horizontal-center $CORNER_MARGINS;
-    margin-top : $MARGIN_DOUBLE;
-    margin-bottom : $MARGIN_DOUBLE;
-    margin-left : 0;
-    margin-right : 0;
-
-}
-#CommonSplitButtonHorizontalCenter:pressed {
-    background-image : meegotouch-buttongroup-background-pressed-horizontal-center $CORNER_MARGINS;
-}
-#CommonSplitButtonHorizontalCenter:selected {
-    background-image : meegotouch-buttongroup-background-selected-horizontal-center $CORNER_MARGINS;
-}
-
-#CommonSplitButtonHorizontalRight {
-    background-image : meegotouch-buttongroup-background-horizontal-right $CORNER_MARGINS;
-    margin-top : $MARGIN_DOUBLE;
-    margin-bottom : $MARGIN_DOUBLE;
-    margin-left : 0;
-    margin-right : $INDENT_DEFAULT;
-}
-#CommonSplitButtonHorizontalRight:pressed {
-    background-image : meegotouch-buttongroup-background-pressed-horizontal-right $CORNER_MARGINS;
-}
-#CommonSplitButtonHorizontalRight:selected {
-    background-image : meegotouch-buttongroup-background-selected-horizontal-right $CORNER_MARGINS;
-}
-
 
 /* New splitbuttonstyles 28.06. */
 
@@ -1166,7 +1079,7 @@
 #CommonVerticalCenterSplitButton.Portrait:pressed {
     background-image : meegotouch-buttongroup-background-pressed-vertical-center $CORNER_MARGINS;
 }
-#CommonVerticalCenterSplitButton.Portrait:selected 
+#CommonVerticalCenterSplitButton.Portrait:selected {
     background-image : meegotouch-buttongroup-background-selected-vertical-center $CORNER_MARGINS;
 }
 
