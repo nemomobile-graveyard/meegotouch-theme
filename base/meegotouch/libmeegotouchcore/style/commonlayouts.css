@@ -452,7 +452,7 @@
     minimum-size: 8.0mm 8.0mm;
     preferred-size: 8.0mm 8.0mm;
 /* The image is temporary and will be replaced with a dedicated placeholder graphic */
-    avatarBackgroundImage: meegotouch-panel-background-selected;
+    avatarBackgroundImage: meegotouch-avatar-placeholder-background;
 }
 
 #CommonAvatarInitials {
