@@ -1,4 +1,6 @@
-﻿/*  LABELS  */
+﻿@import "commonbaselayouts.css";
+
+/*  LABELS  */
 
 #CommonBodyText {
     
@@ -18,36 +20,6 @@
     margin-bottom : 2.4mm;
     margin-right : 2.4mm;
 }
-
-#CommonSingleTitle {
-
-    font : $FONT_DEFAULT_BOLD;
-    margin-left : $INDENT_DEFAULT;    
-    margin-right : $INDENT_DEFAULT;
-    margin-top : 0;
-    margin-bottom : 0;
-}
-
-#CommonSingleTitle:selected {
-
-  color: $COLOR_INVERTED_FOREGROUND;
-}
-
-#CommonTitle {
-
-    font : $FONT_DEFAULT_BOLD;
-    margin-left : $INDENT_DEFAULT;
-    margin-right : $INDENT_DEFAULT; 
-    margin-top : $MARGIN_XLARGE;
-    margin-bottom : 0;
-    color: $COLOR_FOREGROUND;
-}
-
-#CommonTitle:selected {
-
-    color: $COLOR_INVERTED_FOREGROUND;
-}
-
 
 #CommonTitleAccented {
 
@@ -80,21 +52,6 @@
     margin-top : 0;
     margin-bottom : 0;
     color : $COLOR_INVERTED_FOREGROUND;
-}
-
-#CommonSubTitle {
-
-    font : $FONT_SMALL;
-    color : $COLOR_SECONDARY_FOREGROUND;
-    margin-left : $INDENT_DEFAULT;
-    margin-right : $INDENT_DEFAULT; 
-    margin-top : $MARGIN_XSMALL;
-    margin-bottom : 0;
-}
-
-#CommonSubTitle:selected {
-
-    color : $COLOR_SECONDARY_FOREGROUND;
 }
 
 #CommonSubTitleAccented {
