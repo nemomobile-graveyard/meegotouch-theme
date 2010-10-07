@@ -32,7 +32,7 @@ MContentItemStyle {
     /* inherited from MWidgetStyle */
     preferred-size: -1 $SIZE_ONE;
     minimum-size: $SIZE_ONE $SIZE_ONE;
-    maximum-size: 100% $SIZE_FOUR;
+    maximum-size: 100% $SIZE_ONE;
 
     title-object-name: "CommonTitle";
     subtitle-object-name: "CommonSubTitle";
