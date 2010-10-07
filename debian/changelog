@@ -1,3 +1,18 @@
+meegotouchtheme (0.20.47-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#181838 - Localization files and CSS style are read multiple times at startup
+  * Fixes: NB#195974 - Navigation bar text gets shorter and shorter in Clock app
+  * Fixes: NB#195159 - MContentItem expands vertically
+  * Changes: Added avatar placeholder image assets and changed logical Id to commonlayouts.css
+  * Changes: Updated some vibra feedbacks
+  * Changes: removed redundant call button styles from commonlayouts
+  * Changes: removed old split buttonstyles and fixed new ones in commonlayouts
+  * Changes: fixing encoding at svg
+  * Fixes: adding missings ids to ids.txt
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 07 Oct 2010 14:55:55 +0300
+
 meegotouchtheme (0.20.46-1) unstable; urgency=low
 
   * New version
