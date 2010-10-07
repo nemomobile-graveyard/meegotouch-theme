@@ -57,7 +57,7 @@ MNavigationBarStyle {
 
     color: $COLOR_INVERTED_FOREGROUND;
 
-    preferred-size: -1 -1;
+    preferred-size: 100% -1;
     minimum-size: 0 0;
     maximum-size: 100% 100%;
 }
