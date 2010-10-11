@@ -14,6 +14,10 @@ MListIndexStyle {
     appear-delay: 500;
     appear-duration: 300;
     fade-out-delay: 2000;
+
+    floating-index-offset: 50;
+    floating-index-count: 3;
+    floating-snap-distance: 20;
 }
 
 #whiteFont {
@@ -24,3 +28,27 @@ MListIndexStyle {
     margin-bottom: 0;
     margin-right: 0;
 }
+
+MListIndexTooltipStyle {
+    background-image: meegotouch-scroll-bubble-background $CORNER_MARGINS;
+    arrow-pixmap: meegotouch-scroll-bubble-arrow;
+
+    padding-top: 2.0mm;
+    padding-left: 2.0mm;
+    padding-bottom: 2.0mm;
+    padding-right: 2.0mm;   
+}
+
+MListIndexTooltip MLabelStyle#IndexLabel {
+    color: #AAAAAA;
+}
+
+MListIndexTooltip MLabelStyle#IndexLabel:selected {
+    color: #FFFFFF;
+}
+
+MListIndexTooltip MSeparatorStyle#IndexSeparator {
+    span: 0.6mm;
+    background-image: "meegotouch-separator-background-horizontal" 2px 2px 2px 2px;
+}
+
