@@ -1,7 +1,7 @@
 /* BASE - this is the master file that includes everything else.. */
 
-/* common base layouts for content items etc... */
-@import "../../libmeegotouchcore/style/commonbaselayouts.css";
+/* common layouts for content items etc... */
+@import "./commonlayouts/commonlayouts.css";
 
 /* "master style" that most things inherit from */
 @import "../../libmeegotouchcore/style/mwidgetstyle.css";

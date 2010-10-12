@@ -1,0 +1,280 @@
+@const C_INPUT_BG:          meegotouch-textedit-background $CORNER_MARGINS;
+@const C_INPUT_BG_SELECTED: meegotouch-textedit-background-selected $CORNER_MARGINS;
+@const C_INPUT_BG_INVERTED: meegotouch-textedit-background $CORNER_MARGINS;
+@const C_INPUT_BG_SELECTED_INVERTED: meegotouch-textedit-background-selected $CORNER_MARGINS;
+
+
+#CommonSwitch {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonLeftSwitch {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    0;
+}
+#CommonRightSwitch {
+margin-left:     0;
+margin-right:    $INDENT_DEFAULT;
+}
+
+#CommonCheckBox {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonLeftCheckBox {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    0;
+}
+#CommonRightCheckBox {
+margin-left:     0;
+margin-right:    $INDENT_DEFAULT;
+}
+
+#CommonRadioButton {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonLeftRadioButton {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    0;
+}
+#CommonRightRadioButton {
+margin-left:     0;
+margin-right:    $INDENT_DEFAULT;
+}
+
+#CommonSlider {
+margin-top:      $MARGIN_DOUBLE;
+margin-bottom:   $MARGIN_DOUBLE;
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+minimum-size:    32.2mm -1;
+preferred-size:  44.8mm -1;
+maximum-size:    44.8mm -1;
+}
+
+#CommonViewHeaderSpinner {
+margin-top:      $MARGIN_LARGE;
+margin-bottom:   $MARGIN_LARGE;
+margin-left:     0;
+margin-right:    $INDENT_DEFAULT;
+minimum-size:    2.4mm 2.4mm;
+preferred-size:  2.4mm 2.4mm;
+maximum-size:    2.4mm 2.4mm;
+}
+#CommonListItemSpinner {
+margin-top:      0;
+margin-bottom:   0;
+margin-left:     0;
+margin-right:    $INDENT_DEFAULT;
+minimum-size:    3.2mm 3.2mm;
+preferred-size:  3.2mm 3.2mm;
+maximum-size:    3.2mm 3.2mm;
+}
+#CommonViewHeaderSpinner {
+margin-top:      0;
+margin-bottom:   0;
+margin-left:     0;
+margin-right:    0;
+minimum-size:    9.6mm 9.6mm;
+preferred-size:  9.6mm 9.6mm;
+maximum-size:    9.6mm 9.6mm;
+}
+
+#CommonProgressBar {
+margin-top:      $MARGIN_DOUBLE;
+margin-bottom:   $MARGIN_DOUBLE;
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+/* This is causing problems at MAdvanceListItem Fix me
+minimum-size:    32.2mm -1;
+preferred-size:  44.8mm -1;
+maximum-size:    44.8mm -1; */
+}
+
+/* Input Fields */
+
+#CommonSingleInputField {
+background-image:$C_INPUT_BG;
+margin-top:      $MARGIN_DOUBLE;
+margin-bottom:   $MARGIN_DOUBLE;
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonSingleInputField:selected {
+background-image: $C_INPUT_BG_SELECTED;
+}
+#CommonTopInputField {
+background-image:$C_INPUT_BG;
+margin-top:      $MARGIN_DOUBLE;
+margin-bottom:   $MARGIN_DOUBLE;
+}
+#CommonTopInputField:selected {
+background-image: $C_INPUT_BG_SELECTED;
+}
+#CommonTopInputField.Portrait {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonTopInputField.Landscape {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $MARGIN_LARGE;
+}
+
+#CommonBottomInputField {
+background-image:$C_INPUT_BG;
+margin-top:      $MARGIN_DOUBLE;
+margin-bottom:   $MARGIN_DOUBLE;
+}
+#CommonBottomInputField:selected {
+background-image: $C_INPUT_BG_SELECTED;
+}
+#CommonBottomInputField.Portrait {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonBottomInputField.Landscape {
+margin-left:     $MARGIN_LARGE;
+margin-right:    $INDENT_DEFAULT;
+}
+
+#CommonSingleInputFieldLabeled {
+background-image:$C_INPUT_BG;
+margin-top:      0;
+margin-bottom:   $MARGIN_DOUBLE;
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonSingleInputFieldLabeled:selected {
+background-image: $C_INPUT_BG_SELECTED;
+}
+#CommonTopInputFieldLabeled {
+background-image:$C_INPUT_BG;
+margin-top:      0;
+margin-bottom:   $MARGIN_DOUBLE;
+}
+#CommonTopInputFieldLabeled.Portrait {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonTopInputFieldLabeled.Landscape {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $MARGIN_LARGE;
+}
+
+#CommonBottomInputFieldLabeled {
+background-image:$C_INPUT_BG;
+margin-top:      0;
+margin-bottom:   $MARGIN_DOUBLE;
+}
+#CommonBottomInputFieldLabeled:selected {
+background-image: $C_INPUT_BG_SELECTED;
+}
+#CommonBottomInputFieldLabeled.Portrait {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonBottomInputFieldLabeled.Landscape {
+margin-left:     $MARGIN_LARGE;
+margin-right:    $INDENT_DEFAULT;
+}
+
+/* Inverted Input Fields */
+
+#CommonSingleInputFieldInverted {
+background-image:$C_INPUT_BG_INVERTED;
+margin-top:      $MARGIN_DOUBLE;
+margin-bottom:   $MARGIN_DOUBLE;
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonSingleInputFieldInverted:selected {
+background-image: $C_INPUT_BG_SELECTED_INVERTED;
+}
+#CommonTopInputFieldInverted {
+background-image:$C_INPUT_BG_INVERTED;
+margin-top:      $MARGIN_DOUBLE;
+margin-bottom:   $MARGIN_DOUBLE;
+}
+#CommonTopInputFieldInverted:selected {
+background-image: $C_INPUT_BG_SELECTED_INVERTED;
+}
+#CommonTopInputFieldInverted.Portrait {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonTopInputFieldInverted.Landscape {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $MARGIN_LARGE;
+}
+
+#CommonBottomInputFieldInverted {
+background-image:$C_INPUT_BG_INVERTED;
+margin-top:      $MARGIN_DOUBLE;
+margin-bottom:   $MARGIN_DOUBLE;
+}
+#CommonBottomInputFieldInverted:selected {
+background-image: $C_INPUT_BG_SELECTED_INVERTED;
+}
+#CommonBottomInputFieldInverted.Portrait {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonBottomInputFieldInverted.Landscape {
+margin-left:     $MARGIN_LARGE;
+margin-right:    $INDENT_DEFAULT;
+}
+
+#CommonSingleInputFieldLabeledInverted {
+background-image:$C_INPUT_BG_INVERTED;
+margin-top:      0;
+margin-bottom:   $MARGIN_DOUBLE;
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonSingleInputFieldLabeledInverted:selected {
+background-image: $C_INPUT_BG_SELECTED_INVERTED;
+}
+#CommonTopInputFieldLabeledInverted {
+background-image:$C_INPUT_BG_INVERTED;
+margin-top:      0;
+margin-bottom:   $MARGIN_DOUBLE;
+}
+#CommonTopInputFieldLabeledInverted:selected {
+background-image: $C_INPUT_BG_SELECTED_INVERTED;
+}
+#CommonTopInputFieldLabeledInverted.Portrait {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonTopInputFieldLabeledInverted.Landscape {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $MARGIN_LARGE;
+}
+
+#CommonBottomInputFieldLabeledInverted {
+background-image:$C_INPUT_BG_INVERTED;
+margin-top:      0;
+margin-bottom:   $MARGIN_DOUBLE;
+}
+#CommonBottomInputFieldLabeledInverted:selected {
+background-image: $C_INPUT_BG_SELECTED_INVERTED;
+}
+#CommonBottomInputFieldLabeledInverted.Portrait {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonBottomInputFieldLabeledInverted.Landscape {
+margin-left:     $MARGIN_LARGE;
+margin-right:    $INDENT_DEFAULT;
+}
+
+/* Special items */
+
+#CommonCountBubble {
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonCountBubbleTop {
+margin-top:      $MARGIN_XLARGE;
+margin-right:    $INDENT_DEFAULT;
+}

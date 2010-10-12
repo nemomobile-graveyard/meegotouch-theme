@@ -1,0 +1,711 @@
+@const CTITLE_FONT:    "Nokia Standard" bold 26;
+@const CSUBTITLE_FONT: "Nokia Standard" light 22;
+@const CTITLE_M_TOP:    1.5mm;
+@const CSUBTITLE_M_TOP: 0.2mm;
+@const CTITLE_COLOR:          $COLOR_FOREGROUND;
+@const CTITLE_COLOR_DISABLED: #797979;
+@const CTITLE_COLOR_PRESSED:  #797979;
+@const CTITLE_COLOR_SELECTED: #FFFFFF;
+@const CSUBTITLE_COLOR:       $COLOR_SECONDARY_FOREGROUND;
+@const CSUBTITLE_COLOR_DISABLED: #797979;
+@const CSUBTITLE_COLOR_PRESSED:  #797979;
+@const CSUBTITLE_COLOR_SELECTED: #FFFFFF;
+@const CTITLE_COLOR_INVERTED:          $COLOR_INVERTED_FOREGROUND;
+@const CTITLE_COLOR_DISABLED_INVERTED: #797979;
+@const CTITLE_COLOR_PRESSED_INVERTED:  #797979;
+@const CTITLE_COLOR_SELECTED_INVERTED: #FFFFFF;
+@const CSUBTITLE_COLOR_INVERTED:       $COLOR_INVERTED_SECONDARY_FOREGROUND;
+@const CSUBTITLE_COLOR_DISABLED_INVERTED: #797979;
+@const CSUBTITLE_COLOR_PRESSED_INVERTED:  #797979;
+@const CSUBTITLE_COLOR_SELECTED_INVERTED: #FFFFFF;
+
+/* labels for default application background color */
+#CommonSingleTitle {
+font:          $CTITLE_FONT;
+color:         $CTITLE_COLOR;
+margin-top:    0;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSingleTitle:pressed {
+color:         $CTITLE_COLOR_PRESSED;
+}
+#CommonSingleTitle:selected {
+color:         $CTITLE_COLOR_SELECTED;
+}
+#CommonSingleTitleDisabled {
+font:          $CTITLE_FONT;
+color:         $CTITLE_COLOR_DISABLED;
+margin-top:    0;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSingleTitleAccented {
+font:          $CTITLE_FONT;
+color:         $COLOR_ACCENT1;
+margin-top:    0;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonTitle {
+font:          $CTITLE_FONT;
+color:         $CTITLE_COLOR;
+margin-top:    $CTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonTitle:pressed {
+color:         $CTITLE_COLOR_PRESSED;
+}
+#CommonTitle:selected {
+color:         $CTITLE_COLOR_SELECTED;
+}
+#CommonTitleDisabled {
+font:          $CTITLE_FONT;
+color:         $CTITLE_COLOR_DISABLED;
+margin-top:    $CTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonTitleAccented {
+font:          $CTITLE_FONT;
+color:         $COLOR_ACCENT1;
+margin-top:    $CTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonTitleBottom {
+font:          $CTITLE_FONT;
+color:         $CTITLE_COLOR;
+margin-top:    0.1mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonTitleBottom:pressed {
+color:         $CTITLE_COLOR_PRESSED;
+}
+#CommonTitleBottom:selected {
+color:         $CTITLE_COLOR_SELECTED;
+}
+#CommonTitleBottomDisabled {
+font:          $CTITLE_FONT;
+color:         $CTITLE_COLOR_DISABLED;
+margin-top:    0.1mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubTitle {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR;
+margin-top:    $CSUBTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubTitleAccented {
+font:          $CSUBTITLE_FONT;
+color:         $COLOR_ACCENT1;
+margin-top:    $CSUBTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubTitle:pressed {
+color:         $CSUBTITLE_COLOR_PRESSED;
+}
+#CommonSubTitle:selected {
+color:         $CSUBTITLE_COLOR_SELECTED;
+}
+#CommonSubTitleDisabled {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR_DISABLED;
+margin-top:    $CSUBTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubTitleWithIcon {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR;
+margin-top:    $CSUBTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubTitleWithIcon:pressed {
+color:         $CSUBTITLE_COLOR_PRESSED;
+}
+#CommonSubTitleWithIcon:selected {
+color:         $CSUBTITLE_COLOR_SELECTED;
+}
+#CommonSubTitleWithIconDisabled {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR_DISABLED;
+margin-top:    $CSUBTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubTitleTop {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR;
+margin-top:    1.6mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubTitleTop:pressed {
+color:         $CSUBTITLE_COLOR_PRESSED;
+}
+#CommonSubTitleTop:selected {
+color:         $CSUBTITLE_COLOR_SELECTED;
+}
+#CommonSubTitleTopDisabled {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR_DISABLED;
+margin-top:    1.6mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubText {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR;
+margin-top:    0.2mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonBodyText {
+font:          "Nokia Standard" light 24;
+color:         $COLOR_FOREGROUND;
+margin-top:    2.4mm;
+margin-bottom: 2.4mm;
+margin-left:   2.4mm;
+margin-right:  2.4mm;
+}
+#CommonBodyTextLight {
+font:          "Nokia Standard" light 24;
+color:         $COLOR_SECONDARY_FOREGROUND;
+margin-top:    2.4mm;
+margin-bottom: 2.4mm;
+margin-left:   2.4mm;
+margin-right:  2.4mm;
+}
+#CommonXLargeGroupHeader {
+font:          "Nokia Standard" light 56;
+color:         $COLOR_FOREGROUND;
+margin-top:    0.8mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonLargeGroupHeader {
+font:          "Nokia Standard" light 40;
+color:         $COLOR_FOREGROUND;
+margin-top:    0.6mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonGroupHeader {
+font:          "Nokia Standard" light 32;
+color:         $COLOR_FOREGROUND;
+margin-top:    0.8mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSmallGroupHeader {
+font:          "Nokia Standard" bold 22;
+color:         $COLOR_FOREGROUND;
+margin-top:    0.5mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSmallGroupHeaderLight {
+font:          "Nokia Standard" light 22;
+color:         $COLOR_FOREGROUND;
+margin-top:    0.5mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonViewHeader {
+font:          "Nokia Standard" bold 22;
+color:         $COLOR_FOREGROUND;
+margin-top:    0.9mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonViewHeaderWithIcon {
+font:          "Nokia Standard" bold 22;
+color:         $COLOR_FOREGROUND;
+margin-top:    0.9mm;
+margin-bottom: 0;
+margin-left:   0.8mm;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonOverlayViewHeader {
+font:          "Nokia Standard" bold 22;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    0.9mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonLargeOverlayViewHeader {
+font:          $CTITLE_FONT;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    1.6mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonOverlaySubHeader {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR;
+margin-top:    0.2mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonOverlayRightSubHeader {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR;
+margin-top:    0.2mm;
+margin-bottom: 0;
+margin-left:   0;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonInputFieldText {
+font:          "Nokia Standard" light 24;
+color:         $COLOR_FOREGROUND;
+margin-top:    0;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonInputFieldTextActive {
+font:          "Nokia Standard" light 24;
+color:         $COLOR_FOREGROUND;
+margin-top:    0;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonInputFieldTextHint {
+font:          "Nokia Standard" light 24;
+color:         #C0C0C0;
+margin-top:    0;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonFieldLabel { /* same as field header, needs update */
+font:          "Nokia Standard" light 22;
+color:         $COLOR_FOREGROUND;
+margin-top:    0.8mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+} 
+#CommonButtonLabel {
+font:          $CB_FONT;
+color:         $CB_FONT_COLOR;
+}
+#CommonQueryTitle {
+font:          "Nokia Standard" bold 32;
+color:         $COLOR_ACCENT1;
+margin-top:    2.8mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonQueryText {
+font:          "Nokia Standard" light 22;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    1mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+
+/* labels for inverted application background color */
+#CommonSingleTitleInverted {
+font:          $CTITLE_FONT;
+color:         $CTITLE_COLOR_INVERTED;
+margin-top:    0;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSingleTitleInverted:pressed {
+color:         $CTITLE_COLOR_PRESSED_INVERTED;
+}
+#CommonSingleTitleInverted:selected {
+color:         $CTITLE_COLOR_SELECTED_INVERTED;
+}
+#CommonSingleTitleDisabledInverted {
+font:          $CTITLE_FONT;
+color:         $CTITLE_COLOR_DISABLED_INVERTED;
+margin-top:    0;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonTitleInverted {
+font:          $CTITLE_FONT;
+color:         $CTITLE_COLOR_INVERTED;
+margin-top:    $CTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonTitleInverted:pressed {
+color:         $CTITLE_COLOR_PRESSED_INVERTED;
+}
+#CommonTitleInverted:selected {
+color:         $CTITLE_COLOR_SELECTED_INVERTED;
+}
+#CommonTitleDisabledInverted {
+font:          $CTITLE_FONT;
+color:         $CTITLE_COLOR_DISABLED_INVERTED;
+margin-top:    $CTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonTitleBottomInverted {
+font:          $CTITLE_FONT;
+color:         $CTITLE_COLOR_INVERTED;
+margin-top:    0.1mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonTitleBottomInverted:pressed {
+color:         $CTITLE_COLOR_PRESSED_INVERTED;
+}
+#CommonTitleBottomInverted:selected {
+color:         $CTITLE_COLOR_SELECTED_INVERTED;
+}
+#CommonTitleBottomDisabledInverted {
+font:          $CTITLE_FONT;
+color:         $CTITLE_COLOR_DISABLED_INVERTED;
+margin-top:    0.1mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubTitleInverted {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR_INVERTED;
+margin-top:    $CSUBTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubTitleInverted:pressed {
+color:         $CSUBTITLE_COLOR_PRESSED_INVERTED;
+}
+#CommonSubTitleInverted:selected {
+color:         $CSUBTITLE_COLOR_SELECTED_INVERTED;
+}
+#CommonSubTitleDisabledInverted {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
+margin-top:    $CSUBTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubTitleWithIconInverted {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR_INVERTED;
+margin-top:    $CSUBTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubTitleWithIconInverted:pressed {
+color:         $CSUBTITLE_COLOR_PRESSED_INVERTED;
+}
+#CommonSubTitleWithIconInverted:selected {
+color:         $CSUBTITLE_COLOR_SELECTED_INVERTED;
+}
+#CommonSubTitleWithIconDisabledInverted {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
+margin-top:    $CSUBTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubTitleTopInverted {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR_INVERTED;
+margin-top:    1.6mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubTitleTopInverted:pressed {
+color:         $CSUBTITLE_COLOR_PRESSED_INVERTED;
+}
+#CommonSubTitleTopInverted:selected {
+color:         $CSUBTITLE_COLOR_SELECTED_INVERTED;
+}
+#CommonSubTitleTopDisabledInverted {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
+margin-top:    1.6mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubTextInverted {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR_INVERTED;
+margin-top:    0.2mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonBodyTextInverted {
+font:          "Nokia Standard" light 24;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    2.4mm;
+margin-bottom: 2.4mm;
+margin-left:   2.4mm;
+margin-right:  2.4mm;
+}
+#CommonBodyTextLightInverted {
+font:          "Nokia Standard" light 24;
+color:         $COLOR_INVERTED_SECONDARY_FOREGROUND;
+margin-top:    2.4mm;
+margin-bottom: 2.4mm;
+margin-left:   2.4mm;
+margin-right:  2.4mm;
+}
+#CommonXLargeGroupHeaderInverted {
+font:          "Nokia Standard" light 56;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    0.8mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonLargeGroupHeaderInverted {
+font:          "Nokia Standard" light 40;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    0.6mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonGroupHeaderInverted {
+font:          "Nokia Standard" light 32;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    0.8mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSmallGroupHeaderInverted {
+font:          "Nokia Standard" bold 22;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    0.5mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSmallGroupHeaderLightInverted {
+font:          "Nokia Standard" light 22;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    0.5mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonViewHeaderInverted {
+font:          "Nokia Standard" bold 22;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    0.9mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonViewHeaderWithIconInverted {
+font:          "Nokia Standard" bold 22;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    0.9mm;
+margin-bottom: 0;
+margin-left:   0.8mm;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonOverlayViewHeaderInverted {
+font:          "Nokia Standard" bold 22;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    0.9mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonLargeOverlayViewHeaderInverted {
+font:          $CTITLE_FONT;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    1.6mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonOverlaySubHeaderInverted {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR_INVERTED;
+margin-top:    0.2mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonOverlayRightSubHeaderInverted {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR_INVERTED;
+margin-top:    0.2mm;
+margin-bottom: 0;
+margin-left:   0;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonInputFieldTextInverted {
+font:          "Nokia Standard" light 24;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    0;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonInputFieldTextActiveInverted {
+font:          "Nokia Standard" light 24;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    0;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonInputFieldTextHintInverted {
+font:          "Nokia Standard" light 24;
+color:         #C0C0C0;
+margin-top:    0;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonFieldLabelInverted { /* same as field header, needs update */
+font:          "Nokia Standard" light 22;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    0.8mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+} 
+#CommonButtonLabelInverted {
+font:          $CB_FONT;
+color:         $CB_FONT_COLOR_INVERTED;
+}
+/* Other Labels */
+
+#CommonItemInfo {
+font:          $FONT_SMALL;
+color:         $COLOR_FOREGROUND;
+margin-top:    $MARGIN_XSMALL;
+margin-bottom: 0;
+margin-right:  $INDENT_DEFAULT;
+}
+
+#CommonAvatarInitials {
+    font: $FONT_XLARGE_BOLD;
+    color: $COLOR_INVERTED_FOREGROUND;
+} /* move this to contacts? */
+
+/* temporary styles */
+
+#CommonTitleLeftMargin {
+font:          $CTITLE_FONT;
+color:         $CTITLE_COLOR;
+margin-top:    $CTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  0;
+}
+#CommonTitleRightMargin {
+font:          $CTITLE_FONT;
+color:         $CTITLE_COLOR;
+margin-top:    $CTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   0;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonTitleWithoutargin {
+font:          $CTITLE_FONT;
+color:         $CTITLE_COLOR;
+margin-top:    $CTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   0;
+margin-right:  0;
+}
+#CommonTitleAccentedLeftMargin {
+font:          $CTITLE_FONT;
+color:         $COLOR_ACCENT1;
+margin-top:    $CTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  0;
+}
+#CommonTitleAccentedRightMargin {
+font:          $CTITLE_FONT;
+color:         $COLOR_ACCENT1;
+margin-top:    $CTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   0;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubTitleLeftMargin {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR;
+margin-top:    $CSUBTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  0;
+}
+#CommonSubTitleRightMargin {
+font:          $CSUBTITLE_FONT;
+color:         $CSUBTITLE_COLOR;
+margin-top:    $CSUBTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   0;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSubTitleWithoutMargin {
+font:          $CSUBTITLE_FONT;
+color:         $COLOR_ACCENT1;
+margin-top:    $CSUBTITLE_M_TOP;
+margin-bottom: 0;
+margin-left:   0;
+margin-right:  0;
+}
+
+
+#CommonAvatarInitials {
+    font: $FONT_XLARGE_BOLD;
+    color: $COLOR_INVERTED_FOREGROUND;
+} /* move this to contacts? */

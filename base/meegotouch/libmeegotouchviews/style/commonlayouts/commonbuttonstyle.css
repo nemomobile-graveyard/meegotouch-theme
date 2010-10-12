@@ -1,0 +1,1020 @@
+/* CB reffers to CommonButton */
+/* CSB reffers to CommonSplitButton */
+@const CB_WIDTH:    32.2mm;
+@const CB_HEIGHT:   5.1mm;
+@const CB_M_TOP:    1.5mm;
+@const CB_M_BOTTOM: 1.5mm;
+@const CB_M_LEFT:   $INDENT_DEFAULT;
+@const CB_M_RIGHT:  $INDENT_DEFAULT;
+@const CB_FONT:     "Nokia Standard" bold uppercase 22;
+@const CB_FONT_COLOR:          #000000;
+/*@const CB_FONT_COLOR_PRESSED:  #797979; */
+/* const CB_FONT_COLOR_SELECTED: #FFFFFF; */
+@const CB_FONT_COLOR_INVERTED: #FFFFFF;
+@const CB_FONT_COLOR_INVERTED_PRESSED: #797979;
+@const CB_FONT_COLOR_INVERTED_SELECTED: #FFFFFF;
+@const CB_FONT_COLOR_POSITIVE: #FFFFFF;
+@const CB_FONT_COLOR_NEGATIVE: #FFFFFF;
+@const CB_SPACE_RIGHT:  0.3mm;
+@const CB_SPACE_LEFT:   0.3mm;
+@const CB_SPACE_TOP:    0.3mm;
+@const CB_SPACE_BOTTOM: 0.2mm;
+@const CSB_SPACE_RIGHT:  0;
+@const CSB_SPACE_LEFT:   0;
+@const CSB_SPACE_TOP:    0;
+@const CSB_SPACE_BOTTOM: 0;
+@const CB_BG_INVERTED:          meegotouch-button-inverted-background;
+@const CB_BG_INVERTED_PRESSED:  meegotouch-button-inverted-background-pressed;
+@const CB_BG_INVERTED_SELECTED: meegotouch-button-inverted-background-selected;
+@const CB_BG_POSITIVE:          meegotouch-button-positive-background;
+@const CB_BG_POSITIVE_PRESSED:  meegotouch-button-positive-background-pressed;
+@const CB_BG_POSITIVE_SELECTED: meegotouch-button-positive-background-selected;
+@const CB_BG_NEGATIVE:          meegotouch-button-negative-background;
+@const CB_BG_NEGATIVE_PRESSED:  meegotouch-button-negative-background-pressed;
+@const CB_BG_NEGATIVE_SELECTED: meegotouch-button-negative-background-selected;
+
+/* buttons for default application background color */
+
+#CommonSingleButton {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR;
+}
+
+#CommonLeftButton {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR;
+}
+
+#CommonHorizontalCenterButton {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR;
+}
+
+#CommonRightButton {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR;
+}
+
+#CommonTopButton {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-left:     $CB_M_LEFT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR;
+}
+#CommonTopButton.Portrait {
+margin-bottom:   $CB_SPACE_BOTTOM;
+margin-right:    $CB_M_RIGHT;
+}
+#CommonTopButton.Landscape {
+margin-bottom:   $CB_M_BOTTOM;
+margin-right:    $CB_SPACE_RIGHT;
+}
+
+#CommonVerticalCenterButton {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR;
+}
+#CommonVerticalCenterButton.Portrait {
+margin-top:      $CB_SPACE_TOP;
+margin-bottom:   $CB_SPACE_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+}
+#CommonVerticalCenterButton.Landscape {
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+}
+
+#CommonBottomButton {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-bottom:   $CB_M_BOTTOM;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR;
+}
+#CommonBottomButton.Portrait {
+margin-top:      $CB_SPACE_TOP;
+margin-left:     $CB_M_LEFT;
+}
+#CommonBottomButton.Landscape {
+margin-top:      $CB_M_TOP;
+margin-left:     $CB_SPACE_LEFT;
+}
+
+/* buttons for inverted application background color */
+
+#CommonSingleButtonInverted {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_INVERTED;
+background-image:$CB_BG_INVERTED $CORNER_MARGINS;
+}
+#CommonSingleButtonInverted:pressed {
+background-image:$CB_BG_INVERTED_PRESSED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonSingleButtonInverted:selected {
+background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+#CommonLeftButtonInverted {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_INVERTED;
+background-image:$CB_BG_INVERTED $CORNER_MARGINS;
+}
+#CommonLeftButtonInverted:pressed {
+background-image:$CB_BG_INVERTED_PRESSED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonLeftButtonInverted:selected {
+background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+#CommonHorizontalCenterButtonInverted {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_INVERTED;
+background-image:$CB_BG_INVERTED $CORNER_MARGINS;
+}
+#CommonHorizontalCenterButtonInverted:pressed {
+background-image:$CB_BG_INVERTED_PRESSED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonHorizontalCenterButtonInverted:selected {
+background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+#CommonRightButtonInverted {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_INVERTED;
+background-image:$CB_BG_INVERTED $CORNER_MARGINS;
+}
+#CommonRightButtonInverted:pressed {
+background-image:$CB_BG_INVERTED_PRESSED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonRightButtonInverted:selected {
+background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+#CommonTopButtonInverted {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-left:     $CB_M_LEFT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_INVERTED;
+background-image:$CB_BG_INVERTED $CORNER_MARGINS;
+}
+#CommonTopButtonInverted.Portrait {
+margin-bottom:   $CB_SPACE_BOTTOM;
+margin-right:    $CB_M_RIGHT;
+}
+#CommonTopButtonInverted.Landscape {
+margin-bottom:   $CB_M_BOTTOM;
+margin-right:    $CB_SPACE_RIGHT;
+}
+#CommonTopButtonInverted:pressed {
+background-image:$CB_BG_INVERTED_PRESSED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonTopButtonInverted:selected {
+background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+#CommonVerticalCenterButtonInverted {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_INVERTED;
+background-image:$CB_BG_INVERTED $CORNER_MARGINS;
+}
+#CommonVerticalCenterButtonInverted.Portrait {
+margin-top:      $CB_SPACE_TOP;
+margin-bottom:   $CB_SPACE_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+}
+#CommonVerticalCenterButtonInverted.Landscape {
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+}
+#CommonVerticalCenterButtonInverted:pressed {
+background-image:$CB_BG_INVERTED_PRESSED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonVerticalCenterButtonInverted:selected {
+background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+#CommonBottomButtonInverted {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-bottom:   $CB_M_BOTTOM;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_INVERTED;
+background-image:$CB_BG_INVERTED $CORNER_MARGINS;
+}
+#CommonBottomButtonInverted.Portrait {
+margin-top:      $CB_SPACE_TOP;
+margin-left:     $CB_M_LEFT;
+}
+#CommonBottomButtonInverted.Landscape {
+margin-top:      $CB_M_TOP;
+margin-left:     $CB_SPACE_LEFT;
+}
+#CommonBottomButtonInverted:pressed {
+background-image:$CB_BG_INVERTED_PRESSED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonBottomButtonInverted:selected {
+background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+/* Single oversized buttons */
+
+#CommonSingleOversizeButton {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    44.8mm $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR;
+}
+
+#CommonSingleOversizeButtonInverted {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    44.8mm $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_INVERTED;
+background-image:$CB_BG_INVERTED $CORNER_MARGINS;
+}
+#CommonSingleOversizeButton:pressed {
+background-image:$CB_BG_INVERTED_PRESSED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonSingleOversizeButton:selected {
+background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+/* positive buttons */
+
+#CommonSingleButtonPositive {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_POSITIVE;
+background-image:$CB_BG_POSITIVE $CORNER_MARGINS;
+}
+#CommonSingleButtonPositive:pressed {
+background-image:$CB_BG_POSITIVE_PRESSED $CORNER_MARGINS;
+}
+#CommonSingleButtonPositive:selected {
+background-image:$CB_BG_POSITIVE_SELECTED $CORNER_MARGINS;
+}
+
+#CommonLeftButtonPositive {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_POSITIVE;
+background-image:$CB_BG_POSITIVE $CORNER_MARGINS;
+}
+#CommonLeftButtonPositive:pressed {
+background-image:$CB_BG_POSITIVE_PRESSED $CORNER_MARGINS;
+}
+#CommonLeftButtonPositive:selected {
+background-image:$CB_BG_POSITIVE_SELECTED $CORNER_MARGINS;
+}
+
+#CommonHorizontalCenterButtonPositive {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_POSITIVE;
+background-image:$CB_BG_POSITIVE $CORNER_MARGINS;
+}
+
+#CommonRightButtonPositive {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_POSITIVE;
+background-image:$CB_BG_POSITIVE $CORNER_MARGINS;
+}
+#CommonRightButtonPositive:pressed {
+background-image:$CB_BG_POSITIVE_PRESSED $CORNER_MARGINS;
+}
+#CommonRightButtonPositive:selected {
+background-image:$CB_BG_POSITIVE_SELECTED $CORNER_MARGINS;
+}
+
+#CommonTopButtonPositive {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-left:     $CB_M_LEFT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_POSITIVE;
+background-image:$CB_BG_POSITIVE $CORNER_MARGINS;
+}
+#CommonTopButtonPositive.Portrait {
+margin-bottom:   $CB_SPACE_BOTTOM;
+margin-right:    $CB_M_RIGHT;
+}
+#CommonTopButtonPositive.Landscape {
+margin-bottom:   $CB_M_BOTTOM;
+margin-right:    $CB_SPACE_RIGHT;
+}
+#CommonTopButtonPositive:pressed {
+background-image:$CB_BG_POSITIVE_PRESSED $CORNER_MARGINS;
+}
+#CommonTopButtonPositive:selected {
+background-image:$CB_BG_POSITIVE_SELECTED $CORNER_MARGINS;
+}
+
+#CommonVerticalCenterButtonPositive {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_POSITIVE;
+background-image:$CB_BG_POSITIVE $CORNER_MARGINS;
+}
+#CommonVerticalCenterButtonPositive.Portrait {
+margin-top:      $CB_SPACE_TOP;
+margin-bottom:   $CB_SPACE_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+}
+#CommonVerticalCenterButtonPositive.Landscape {
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+}
+#CommonVerticalCenterButtonPositive:pressed {
+background-image:$CB_BG_POSITIVE_PRESSED $CORNER_MARGINS;
+}
+#CommonVerticalCenterButtonPositive:selected {
+background-image:$CB_BG_POSITIVE_SELECTED $CORNER_MARGINS;
+}
+
+#CommonBottomButtonPositive {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-bottom:   $CB_M_BOTTOM;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_POSITIVE;
+background-image:$CB_BG_POSITIVE $CORNER_MARGINS;
+}
+#CommonBottomButtonPositive.Portrait {
+margin-top:      $CB_SPACE_TOP;
+margin-left:     $CB_M_LEFT;
+}
+#CommonBottomButtonPositive.Landscape {
+margin-top:      $CB_M_TOP;
+margin-left:     $CB_SPACE_LEFT;
+}
+#CommonBottomButtonPositive:pressed {
+background-image:$CB_BG_POSITIVE_PRESSED $CORNER_MARGINS;
+}
+#CommonBottomButtonPositive:selected {
+background-image:$CB_BG_POSITIVE_SELECTED $CORNER_MARGINS;
+}
+
+/* negative buttons */
+
+#CommonSingleButtonNegative {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_NEGATIVE;
+background-image:$CB_BG_NEGATIVE $CORNER_MARGINS;
+}
+#CommonSingleButtonNegative:pressed {
+background-image:$CB_BG_NEGATIVE_PRESSED $CORNER_MARGINS;
+}
+#CommonSingleButtonNegative:selected {
+background-image:$CB_BG_NEGATIVE_SELECTED $CORNER_MARGINS;
+}
+
+#CommonLeftButtonNegative {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_NEGATIVE;
+background-image:$CB_BG_NEGATIVE $CORNER_MARGINS;
+}
+#CommonLeftButtonNegative:pressed {
+background-image:$CB_BG_NEGATIVE_PRESSED $CORNER_MARGINS;
+}
+#CommonLeftButtonNegative:selected {
+background-image:$CB_BG_NEGATIVE_SELECTED $CORNER_MARGINS;
+}
+
+#CommonHorizontalCenterButtonNegative {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_NEGATIVE;
+background-image:$CB_BG_NEGATIVE $CORNER_MARGINS;
+}
+
+#CommonRightButtonNegative {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_NEGATIVE;
+background-image:$CB_BG_NEGATIVE $CORNER_MARGINS;
+}
+#CommonRightButtonNegative:pressed {
+background-image:$CB_BG_NEGATIVE_PRESSED $CORNER_MARGINS;
+}
+#CommonRightButtonNegative:selected {
+background-image:$CB_BG_NEGATIVE_SELECTED $CORNER_MARGINS;
+}
+
+#CommonTopButtonNegative {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-left:     $CB_M_LEFT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_NEGATIVE;
+background-image:$CB_BG_NEGATIVE $CORNER_MARGINS;
+}
+#CommonTopButtonNegative.Portrait {
+margin-bottom:   $CB_SPACE_BOTTOM;
+margin-right:    $CB_M_RIGHT;
+}
+#CommonTopButtonNegative.Landscape {
+margin-bottom:   $CB_M_BOTTOM;
+margin-right:    $CB_SPACE_RIGHT;
+}
+#CommonTopButtonNegative:pressed {
+background-image:$CB_BG_NEGATIVE_PRESSED $CORNER_MARGINS;
+}
+#CommonTopButtonNegative:selected {
+background-image:$CB_BG_NEGATIVE_SELECTED $CORNER_MARGINS;
+}
+
+#CommonVerticalCenterButtonNegative {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_NEGATIVE;
+background-image:$CB_BG_NEGATIVE $CORNER_MARGINS;
+}
+#CommonVerticalCenterButtonNegative.Portrait {
+margin-top:      $CB_SPACE_TOP;
+margin-bottom:   $CB_SPACE_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+}
+#CommonVerticalCenterButtonNegative.Landscape {
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+}
+#CommonVerticalCenterButtonNegative:pressed {
+background-image:$CB_BG_NEGATIVE_PRESSED $CORNER_MARGINS;
+}
+#CommonVerticalCenterButtonNegative:selected {
+background-image:$CB_BG_NEGATIVE_SELECTED $CORNER_MARGINS;
+}
+
+#CommonBottomButtonNegative {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-bottom:   $CB_M_BOTTOM;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_NEGATIVE;
+background-image:$CB_BG_NEGATIVE $CORNER_MARGINS;
+}
+#CommonBottomButtonNegative.Portrait {
+margin-top:      $CB_SPACE_TOP;
+margin-left:     $CB_M_LEFT;
+}
+#CommonBottomButtonNegative.Landscape {
+margin-top:      $CB_M_TOP;
+margin-left:     $CB_SPACE_LEFT;
+}
+#CommonBottomButtonNegative:pressed {
+background-image:$CB_BG_NEGATIVE_PRESSED $CORNER_MARGINS;
+}
+#CommonBottomButtonNegative:selected {
+background-image:$CB_BG_NEGATIVE_SELECTED $CORNER_MARGINS;
+}
+
+/* split-buttons for default application background color */
+
+#CommonLeftSplitButton {
+background-image:meegotouch-buttongroup-background-horizontal-left $CORNER_MARGINS;
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CSB_SPACE_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR;
+}
+#CommonLeftSplitButton:pressed {
+background-image:meegotouch-buttongroup-background-pressed-horizontal-left $CORNER_MARGINS;
+}
+#CommonLeftSplitButton:selected {
+background-image:meegotouch-buttongroup-background-selected-horizontal-left $CORNER_MARGINS;
+}
+
+#CommonHorizontalCenterSplitButton {
+background-image:meegotouch-buttongroup-background-horizontal-center $CORNER_MARGINS;
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CSB_SPACE_LEFT;
+margin-right:    $CSB_SPACE_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR;
+}
+#CommonHorizontalCenterSplitButton:pressed {
+background-image:meegotouch-buttongroup-background-pressed-horizontal-center $CORNER_MARGINS;
+}
+#CommonHorizontalCenterSplitButton:selected {
+background-image:meegotouch-buttongroup-background-selected-horizontal-center $CORNER_MARGINS;
+}
+
+#CommonRightSplitButton {
+background-image:meegotouch-buttongroup-background-horizontal-right $CORNER_MARGINS;
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CSB_SPACE_LEFT;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR;
+}
+#CommonRightSplitButton:pressed {
+background-image:meegotouch-buttongroup-background-pressed-horizontal-right $CORNER_MARGINS;
+}
+#CommonRightSplitButton:selected {
+background-image:meegotouch-buttongroup-background-selected-horizontal-right $CORNER_MARGINS;
+}
+
+#CommonTopSplitButton {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-left:     $CB_M_LEFT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR;
+}
+
+#CommonTopSplitButton.Portrait {
+background-image:meegotouch-buttongroup-background-vertical-top $CORNER_MARGINS;
+margin-bottom:   $CSB_SPACE_BOTTOM;
+margin-right:    $CB_M_RIGHT;
+}
+#CommonTopSplitButton.Portrait:pressed {
+background-image:meegotouch-buttongroup-background-pressed-vertical-top $CORNER_MARGINS;
+}
+#CommonTopSplitButton.Portrait:selected {
+background-image:meegotouch-buttongroup-background-selected-vertical-top $CORNER_MARGINS;
+}
+
+#CommonTopSplitButton.Landscape {
+background-image:meegotouch-buttongroup-background-horizontal-left $CORNER_MARGINS;
+margin-bottom:   $CB_M_BOTTOM;
+margin-right:    $CSB_SPACE_RIGHT;
+}
+#CommonTopSplitButton.Landscape:pressed {
+background-image:meegotouch-buttongroup-background-pressed-horizontal-left $CORNER_MARGINS;
+}
+#CommonTopSplitButton.Landscape:selected {
+background-image:meegotouch-buttongroup-background-selected-horizontal-left $CORNER_MARGINS;
+}
+
+#CommonVerticalCenterSplitButton {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR;
+}
+
+#CommonVerticalCenterSplitButton.Portrait {
+background-image:meegotouch-buttongroup-background-vertical-center $CORNER_MARGINS;
+margin-top:      $CSB_SPACE_TOP;
+margin-bottom:   $CSB_SPACE_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+}
+#CommonVerticalCenterSplitButton.Portrait:pressed {
+background-image:meegotouch-buttongroup-background-pressed-vertical-center $CORNER_MARGINS;
+}
+#CommonVerticalCenterSplitButton.Portrait:selected {
+background-image:meegotouch-buttongroup-background-selected-vertical-center $CORNER_MARGINS;
+}
+
+#CommonVerticalCenterSplitButton.Landscape {
+background-image:meegotouch-buttongroup-background-horizontal-center $CORNER_MARGINS;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CSB_SPACE_LEFT;
+margin-right:    $CSB_SPACE_RIGHT;
+}
+#CommonVerticalCenterSplitButton.Landscape:pressed {
+background-image:meegotouch-buttongroup-background-pressed-horizontal-center $CORNER_MARGINS;
+}
+#CommonVerticalCenterSplitButton.Landscape:selected {
+background-image:meegotouch-buttongroup-background-selected-horizontal-center $CORNER_MARGINS;
+}
+
+#CommonBottomSplitButton {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-bottom:   $CB_M_BOTTOM;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR;
+}
+
+#CommonBottomSplitButton.Portrait {
+background-image:meegotouch-buttongroup-background-vertical-bottom $CORNER_MARGINS;
+margin-top:      $CSB_SPACE_TOP;
+margin-left:     $CB_M_LEFT;
+}
+#CommonBottomSplitButton.Portrait:pressed {
+background-image:meegotouch-buttongroup-background-pressed-vertical-bottom $CORNER_MARGINS;
+}
+#CommonBottomSplitButton.Portrait:selected {
+background-image:meegotouch-buttongroup-background-selected-vertical-bottom $CORNER_MARGINS;
+}
+
+#CommonBottomSplitButton.Landscape {
+background-image:meegotouch-buttongroup-background-horizontal-right $CORNER_MARGINS;
+margin-top:      $CB_M_TOP;
+margin-left:     $CSB_SPACE_LEFT;
+}
+#CommonBottomSplitButton.Landscape:pressed {
+background-image:meegotouch-buttongroup-background-pressed-horizontal-right $CORNER_MARGINS;
+}
+#CommonBottomSplitButton.Landscape:selected {
+background-image:meegotouch-buttongroup-background-selected-horizontal-right $CORNER_MARGINS;
+}
+
+/* split-buttons for inverted application background color */
+
+#CommonLeftSplitButtonInverted {
+background-image:meegotouch-buttongroup-inverted-background-horizontal-left $CORNER_MARGINS;
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CSB_SPACE_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_INVERTED;
+}
+#CommonLeftSplitButtonInverted:pressed {
+background-image:meegotouch-buttongroup-inverted-background-pressed-horizontal-left $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonLeftSplitButtonInverted:selected {
+background-image:meegotouch-buttongroup-inverted-background-selected-horizontal-left $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+#CommonHorizontalCenterSplitButtonInverted {
+background-image:meegotouch-buttongroup-inverted-background-horizontal-center $CORNER_MARGINS;
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CSB_SPACE_LEFT;
+margin-right:    $CSB_SPACE_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_INVERTED;
+}
+#CommonHorizontalCenterSplitButtonInverted:pressed {
+background-image:meegotouch-buttongroup-inverted-background-pressed-horizontal-center $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonHorizontalCenterSplitButtonInverted:selected {
+background-image:meegotouch-buttongroup-inverted-background-selected-horizontal-center $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+#CommonRightSplitButtonInverted {
+background-image:meegotouch-buttongroup-inverted-background-horizontal-right $CORNER_MARGINS;
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CSB_SPACE_LEFT;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_INVERTED;
+}
+#CommonRightSplitButtonInverted:pressed {
+background-image:meegotouch-buttongroup-inverted-background-pressed-horizontal-right $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonRightSplitButtonInverted:selected {
+background-image:meegotouch-buttongroup-inverted-background-selected-horizontal-right $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+#CommonTopSplitButtonInverted {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-top:      $CB_M_TOP;
+margin-left:     $CB_M_LEFT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_INVERTED;
+}
+
+#CommonTopSplitButtonInverted.Portrait {
+background-image:meegotouch-buttongroup-inverted-background-vertical-top $CORNER_MARGINS;
+margin-bottom:   $CSB_SPACE_BOTTOM;
+margin-right:    $CB_M_RIGHT;
+}
+#CommonTopSplitButtonInverted.Portrait:pressed {
+background-image:meegotouch-buttongroup-inverted-background-pressed-vertical-top $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonTopSplitButtonInverted.Portrait:selected {
+background-image:meegotouch-buttongroup-inverted-background-selected-vertical-top $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+#CommonTopSplitButtonInverted.Landscape {
+background-image:meegotouch-buttongroup-inverted-background-horizontal-left $CORNER_MARGINS;
+margin-bottom:   $CB_M_BOTTOM;
+margin-right:    $CSB_SPACE_RIGHT;
+}
+#CommonTopSplitButtonInverted.Landscape:pressed {
+background-image:meegotouch-buttongroup-inverted-background-pressed-horizontal-left $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonTopSplitButtonInverted.Landscape:selected {
+background-image:meegotouch-buttongroup-inverted-background-selected-horizontal-left $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+#CommonVerticalCenterSplitButtonInverted {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_INVERTED;
+}
+
+#CommonVerticalCenterSplitButtonInverted.Portrait {
+background-image:meegotouch-buttongroup-inverted-background-vertical-center $CORNER_MARGINS;
+margin-top:      $CSB_SPACE_TOP;
+margin-bottom:   $CSB_SPACE_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+}
+#CommonVerticalCenterSplitButtonInverted.Portrait:pressed {
+background-image:meegotouch-buttongroup-inverted-background-pressed-vertical-center $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonVerticalCenterSplitButtonInverted.Portrait:selected {
+background-image:meegotouch-buttongroup-inverted-background-selected-vertical-center $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+#CommonVerticalCenterSplitButtonInverted.Landscape {
+background-image:meegotouch-buttongroup-inverted-background-horizontal-center $CORNER_MARGINS;
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CSB_SPACE_LEFT;
+margin-right:    $CSB_SPACE_RIGHT;
+}
+#CommonVerticalCenterSplitButtonInverted.Landscape:pressed {
+background-image:meegotouch-buttongroup-inverted-background-pressed-horizontal-center $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonVerticalCenterSplitButtonInverted.Landscape:selected {
+background-image:meegotouch-buttongroup-inverted-background-selected-horizontal-center $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+#CommonBottomSplitButtonInverted {
+minimum-size:    $CB_HEIGHT $CB_HEIGHT;
+preferred-size:  $CB_WIDTH $CB_HEIGHT;
+maximum-size:    $CB_WIDTH $CB_HEIGHT;
+margin-bottom:   $CB_M_BOTTOM;
+margin-right:    $CB_M_RIGHT;
+font:            $CB_FONT;
+text-color:      $CB_FONT_COLOR_INVERTED;
+}
+
+#CommonBottomSplitButtonInverted.Portrait {
+background-image:meegotouch-buttongroup-inverted-background-vertical-bottom $CORNER_MARGINS;
+margin-top:      $CSB_SPACE_TOP;
+margin-left:     $CB_M_LEFT;
+}
+#CommonBottomSplitButtonInverted.Portrait:pressed {
+background-image:meegotouch-buttongroup-inverted-background-pressed-vertical-bottom $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonBottomSplitButtonInverted.Portrait:selected {
+background-image:meegotouch-buttongroup-inverted-background-selected-vertical-bottom $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+#CommonBottomSplitButtonInverted.Landscape {
+background-image:meegotouch-buttongroup-inverted-background-horizontal-right $CORNER_MARGINS;
+margin-top:      $CB_M_TOP;
+margin-left:     $CSB_SPACE_LEFT;
+}
+#CommonBottomSplitButtonInverted.Landscape:pressed {
+background-image:meegotouch-buttongroup-inverted-background-pressed-horizontal-right $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonBottomSplitButtonInverted.Landscape:selected {
+background-image:meegotouch-buttongroup-inverted-background-selected-horizontal-right $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+
+/* Temp for camera, needs to become moved */
+
+#CommonIconButton {
+/* px to mm is pending PPI adjustment */
+minimum-size:      64px 88px;
+preferred-size:    114px 88px;
+maximum-size:      114px 88px;
+font:              $FONT_XSMALL;
+text-color:        $COLOR_SECONDARY_FOREGROUND;
+text-margin-top:   $MARGIN_MEDIUM;
+/* right and left text-margin might be needed due to a padding-bug */
+text-margin-left:  1px;
+text-margin-right: 1px;
+icon-size:         64px 64px;
+}
+
+#CommonIconButtonPlaceholder {
+minimum-size:      64px 88px;
+preferred-size:    114px 88px;
+maximum-size:      114px 88px;
+background-image:  ;
+background-color:  ;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+
+#CommonIconButton:selected {
+background-image:  ;
+background-color:  ;
+}

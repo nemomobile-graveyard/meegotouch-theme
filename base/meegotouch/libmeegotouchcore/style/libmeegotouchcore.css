@@ -1,8 +1,4 @@
 /* BASE - this is the master file that includes everything else.. */
-
-/* common layouts for content items etc... */
-@import "commonlayouts.css";
-
 /* "master style" that most things inherit from */
 @import "mwidgetstyle.css";
 

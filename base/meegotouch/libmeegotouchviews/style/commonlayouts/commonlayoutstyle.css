@@ -1,0 +1,129 @@
+
+
+#CommonHorizontalSeparator {
+margin-top:     0;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+}
+
+#CommonVerticalSeparator {
+margin-right:   0;
+margin-left:    0;
+margin-bottom:  0;
+margin-top:     0;
+}
+
+#CommonDivider {
+margin-top:     0;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+}
+#CommonItemDivider {
+margin-top:     0;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+}
+#CommonGroupDivider {
+margin-top:     0;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+}
+
+#CommonSpacer {
+minimum-size:   0 0;
+preferred-size: 100.0mm 0;
+maximum-size:   100.0mm 0;
+margin-top:     $MARGIN_DOUBLE;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+}
+
+#CommonSpacer {
+minimum-size:   0 0;
+preferred-size: 100.0mm 0;
+maximum-size:   100.0mm 0;
+margin-top:     $MARGIN_SMALL;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+}
+
+#CommonTitleIconGroup {
+margin-left:    $INDENT_DEFAULT;
+}
+
+#CommonSubIconGroup {
+margin-top:     0;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   $INDENT_DEFAULT;
+}
+
+#CommonButtonGroup {
+margin-top:     $MARGIN_DOUBLE;
+margin-bottom:  $MARGIN_DOUBLE;
+margin-left:    $INDENT_DEFAULT;
+margin-right:   $INDENT_DEFAULT;
+}
+
+#CommonInputFieldGroup {
+margin-top:     $MARGIN_DOUBLE;
+margin-bottom:  $MARGIN_DOUBLE;
+margin-left:    $INDENT_DEFAULT;
+margin-right:   $INDENT_DEFAULT;
+}
+
+/* Items for regulating even columns in full width views and dialogs */
+
+#CommonLeftDialogItem {
+minimum-size:   10mm -1;
+preferred-size: 50mm 8.8mm;
+maximum-size:   50mm -1;
+}
+
+#CommonRightDialogItem {
+minimum-size:   10mm -1;
+preferred-size: 50mm 8.8mm;
+maximum-size:   50mm -1;
+}
+
+#CommonLeftColumn {
+minimum-size:   50% $SIZE_ONE;
+preferred-size: 100% $SIZE_ONE;
+maximum-size:   100% $SIZE_ONE;
+margin-top:     0;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+}
+
+#CommonLeftColumn.Portrait {
+minimum-size:   -1 -1;
+preferred-size: 100% $SIZE_ONE;
+maximum-size:   -1 -1;
+}
+
+#CommonRightColumn {
+minimum-size:   50% $SIZE_ONE;
+preferred-size: 50% $SIZE_ONE;
+maximum-size:   -1 -1;
+margin-top:     0;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+}
+
+#CommonRightColumn.Portrait {
+minimum-size:   -1 -1;
+preferred-size: 100% $SIZE_ONE;
+maximum-size:   -1 -1;
+}
+
+
+
+

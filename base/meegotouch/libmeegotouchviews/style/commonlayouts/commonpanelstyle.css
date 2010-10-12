@@ -1,0 +1,264 @@
+@const CP_BG:                   meegotouch-panel-background $CORNER_MARGINS;
+@const CP_BG_PRESSED:           meegotouch-panel-background-pressed $CORNER_MARGINS;
+@const CP_BG_SELECTED:          meegotouch-panel-background-selected $CORNER_MARGINS;
+@const CP_INVERTED_BG:          meegotouch-panel-inverted-background $CORNER_MARGINS;
+@const CP_INVERTED_BG_PRESSED:  meegotouch-panel-inverted-background-pressed $CORNER_MARGINS;
+@const CP_INVERTED_BG_SELECTED: meegotouch-panel-inverted-background-selected $CORNER_MARGINS;
+@const CUP_BG:                  meegotouch-panel-background $CORNER_MARGINS;
+@const CUP_BG_PRESSED:          meegotouch-panel-background-pressed $CORNER_MARGINS;
+@const CUP_BG_SELECTED:         meegotouch-panel-background-selected $CORNER_MARGINS;
+@const CUP_INVERTED_BG:         meegotouch-panel-inverted-background $CORNER_MARGINS;
+@const CUP_INVERTED_BG_PRESSED: meegotouch-panel-inverted-background-pressed $CORNER_MARGINS;
+@const CUP_INVERTED_BG_SELECTED:meegotouch-panel-inverted-background-selected $CORNER_MARGINS;
+
+/*  PANELS & LAYOUTS */
+
+#CommonPanel {
+minimum-size:      $SIZE_LIST $SIZE_LIST;
+preferred-size:    -1 $SIZE_LIST;
+maximum-size:      -1 $SIZE_LIST;
+background-tiles:  ;
+background-image:  $CP_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonPanel:pressed {
+background-tiles:  ;
+background-image:  $CP_BG_PRESSED;
+}
+#CommonPanel:selected {
+background-tiles:  ;
+background-image:  $CP_BG_SELECTED;
+
+}
+
+#CommonPanelInverted {
+minimum-size:      $SIZE_LIST $SIZE_LIST;
+preferred-size:    -1 $SIZE_LIST;
+maximum-size:      -1 $SIZE_LIST;
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonPanelInverted:pressed {
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG_PRESSED;
+}
+#CommonPanelInverted:selected {
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG_SELECTED;
+}
+
+#CommonUnreadPanel {
+minimum-size:      $SIZE_LIST $SIZE_LIST;    
+preferred-size:    -1 $SIZE_LIST;
+maximum-size:      -1 $SIZE_LIST;
+background-tiles:  ;
+background-image:  $CUP_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonUnreadPanel:pressed {
+background-tiles:  ;
+background-image:  $CUP_BG_PRESSED;
+}
+#CommonUnreadPanel:selected {
+background-tiles:  ;
+background-image:  $CUP_BG_SELECTED;
+}
+
+#CommonUnreadPanelInverted {
+minimum-size:      $SIZE_LIST $SIZE_LIST;    
+preferred-size:    -1 $SIZE_LIST;
+maximum-size:      -1 $SIZE_LIST; 
+background-tiles:  ;
+background-image:  $CUP_INVERTED_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonUnreadPanelInverted:pressed {
+background-tiles:  ;
+background-image:  $CUP_INVERTED_BG_PRESSED;
+}
+#CommonUnreadPanelInverted:selected {
+background-tiles:  ;
+background-image:  $CUP_INVERTED_BG_SELECTED;
+}
+
+#CommonSmallPanel {
+minimum-size:      50 50;   
+preferred-size:    -1 50;   
+maximum-size:      -1 $SIZE_LIST; 
+background-tiles:  ;
+background-image:  $CP_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonSmallPanel:pressed {
+background-tiles:  ;
+background-image:  $CP_BG_PRESSED;
+}
+#CommonSmallPanel:selected {
+background-tiles:  ;
+background-image:  $CP_BG_SELECTED;
+}
+
+#CommonSmallPanelInverted {
+minimum-size:      50 50;   
+preferred-size:    -1 50;   
+maximum-size:      -1 $SIZE_LIST; 
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonSmallPanelInverted:pressed {
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG_PRESSED;
+}
+#CommonSmallPanelInverted:selected {
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG_SELECTED;
+}
+
+#CommonLargePanel {
+minimum-size:      $SIZE_LIST $SIZE_LIST;   
+preferred-size:    -1 -1;
+maximum-size:      -1 -1;
+background-tiles:  ;
+background-image:  $CP_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonLargePanel:pressed {
+background-tiles:  ;
+background-image:  $CP_BG_PRESSED;
+}
+#CommonLargePanel:selected {
+background-tiles:  ;
+background-image:  $CP_BG_SELECTED;
+}
+
+#CommonLargePanelInverted {
+minimum-size:      $SIZE_LIST $SIZE_LIST;   
+preferred-size:    -1 -1;
+maximum-size:      -1 -1;
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonLargePanelInverted:pressed {
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG_PRESSED;
+}
+#CommonLargePanelInverted:selected {
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG_SELECTED;
+}
+
+#CommonXLargeGroupHeaderPanel {
+minimum-size:      72 72;   
+preferred-size:    -1 72;   
+maximum-size:      -1 -1; 
+background-tiles:  ;
+background-image:  $CP_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonXLargeGroupHeaderPanelInverted {
+minimum-size:      72 72;   
+preferred-size:    -1 72;   
+maximum-size:      -1 -1; 
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonLargeGroupHeaderPanel {
+minimum-size:      56 56;
+preferred-size:    -1 56;   
+maximum-size:      -1 -1; 
+background-tiles:  ;
+background-image:  $CP_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonLargeGroupHeaderPanelInverted {
+minimum-size:      56 56;
+preferred-size:    -1 56;   
+maximum-size:      -1 -1; 
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonGroupHeaderPanel {
+minimum-size:      48 48; 
+preferred-size:    -1 48;   
+maximum-size:      -1 -1; 
+background-tiles:  ;
+background-image:  $CP_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonGroupHeaderPanelInverted {
+minimum-size:      48 48; 
+preferred-size:    -1 48;   
+maximum-size:      -1 -1; 
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonSmallGroupHeaderPanel {
+minimum-size:      32 32;   
+preferred-size:    -1 32;   
+maximum-size:      -1 -1; 
+background-tiles:  ;
+background-image:  $CP_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonSmallGroupHeaderPanelInverted {
+minimum-size:      32 32;   
+preferred-size:    -1 32;   
+maximum-size:      -1 -1; 
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
