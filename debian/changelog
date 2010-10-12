@@ -1,3 +1,14 @@
+meegotouchtheme (0.20.48-1) unstable; urgency=low
+
+  * New version
+  * New: Floating list index widget view graphics and styles.
+  * New: object-menu-animation in MSceneManagerStyle
+  * New: MWidgetRectangularClipAnimationStyle
+  * Fixes: Avoiding canceling of swipe gesture when touch screen jitter is visible
+  * Changes: Define MStatusBarStyle in mstatusbarstyle.css as MStatusBarStyle, not MSceneWindowStyle#statusBar
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 12 Oct 2010 11:57:32 +0300
+
 meegotouchtheme (0.20.47-1) unstable; urgency=low
 
   * New version
