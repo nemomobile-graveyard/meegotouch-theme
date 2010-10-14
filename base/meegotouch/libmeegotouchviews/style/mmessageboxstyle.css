@@ -8,6 +8,7 @@ MMessageBoxStyle {
     dialog-bottom-margin: 8mm;
 
     has-title-bar: false;
+    has-close-button: false;
 
     /* inherited from MWidgetStyle */
     padding-top: 0px;
