@@ -996,6 +996,7 @@ icon-m-settings-applications
 icon-m-settings-keychain
 icon-m-settings-sound-feedback
 icon-m-settings-touch-feedback
+icon-m-settings-utilities
 icon-m-startup-clock
 icon-m-startup-help
 icon-m-startup-personalize
