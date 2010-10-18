@@ -6,6 +6,10 @@ MToolbarTabStyle {
     preferred-size: -1 $HEIGHT_NAVIGATIONBAR;
     minimum-size: -1 $HEIGHT_NAVIGATIONBAR;
     maximum-size: -1 $HEIGHT_NAVIGATIONBAR;
+
+    has-icons: true;
+    has-labels: false;
+    has-spaces: false;
 }
 
 MButtonStyle[toolbartab] {
@@ -25,9 +29,9 @@ MButtonStyle[toolbartab] {
     text-margin-right: $MARGIN_MEDIUM;
     text-margin-bottom: 0;
 
-    minimum-size: 9.6mm 6.0mm;
-    preferred-size: 9.6mm 6.0mm;
-    maximum-size: 9.6mm 6.0mm;
+    minimum-size: 100% $HEIGHT_NAVIGATIONBAR;
+    preferred-size: 100% $HEIGHT_NAVIGATIONBAR;
+    maximum-size: 100% $HEIGHT_NAVIGATIONBAR;
 
     reactive-margin-top: $MARGIN_MEDIUM;
     reactive-margin-bottom: $MARGIN_MEDIUM;

@@ -10,10 +10,16 @@ MToolbarStyle {
     maximum-size: -1 $HEIGHT_NAVIGATIONBAR;
 
     drop-shadow-image: meegotouch-navigationbar-portrait-shadow;
+
+    capacity: 4;
+    has-icons:  true;
+    has-labels: false;
+    has-spaces: false;
 }
 
 MToolbarStyle.Landscape {
-   background-image: meegotouch-navigationbar-toolbar-background $CORNER_MARGINS;
+    background-image: meegotouch-navigationbar-toolbar-background $CORNER_MARGINS;
+    has-spaces: true;
 }
 
 MTextEditStyle[toolbar] {
@@ -33,7 +39,7 @@ MTextEditStyle[toolbar] {
 
 MButtonIconStyle[toolbar] {
     /* inherited from MButtonStyle */
-    font: $FONT_XSMALL;
+    font: $FONT_XXSMALL;
     text-color: $COLOR_INVERTED_FOREGROUND;
 
     icon-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
