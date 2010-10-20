@@ -123,6 +123,28 @@ text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
 background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
 text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
 }
+/***********/
+#CommonQueryButton {
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     0.3mm;
+margin-right:    0.3mm;
+
+minimum-size: 20.6mm 5.1mm;
+maximum-size:20.6mm 5.1mm;
+preferred-size:20.6mm 5.1mm;
+
+text-color:      $CB_FONT_COLOR_INVERTED;
+background-image:$CB_BG_INVERTED $CORNER_MARGINS;
+}
+#CommonQueryButton:pressed {
+background-image:$CB_BG_INVERTED_PRESSED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonQueryButton:selected {
+background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
 
 #CommonLeftButtonInverted {
 margin-top:      $CB_M_TOP;
