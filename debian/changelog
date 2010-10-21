@@ -1,3 +1,31 @@
+meegotouchtheme (0.20.49-1) unstable; urgency=low
+
+  * New version
+  * Changes: adding temporal style for call-ui
+  * Changes: fixing typo at spacer
+  * Changes: Updated audio input feedback effects
+  * Changes: Clean up mtoolbartabstyle.css a litle
+  * Changes: Setting values for new tool bar properties (capacity, has-icons, has-labels, has-spaces)
+  * New: font constants for input method
+  * Changes: updated notifications graphical assets, added one new asset
+  * Changes: moving constants to mbuttonstyle
+  * Changes: updating splitbutton background
+  * Changes: fixing typo at mtexteditzoomstyle.css
+  * Changes: adding mixing id related with BMC#7538
+  * Changes: putting commonlayouts in a common place to avoid re-reading.
+  * Changes: MNavigationBar refactoring
+  * Fixes: MB#7538 - Red Blocks displayed in Settings application
+  * New: meegotouch-completer.svg
+  * Changes: Deleted unsused vkb.svg
+  * Changes: MMessageBox has no close button
+  * Changes: Removed plankton from project file
+  * Changes: Fixing file permissions
+  * Changes: Removed outdated check-duplicate-ids script
+  * Changes: Removed unused spec and yaml files, plankton directory
+  * New: MGraphicsHighlightEffectStyle
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 21 Oct 2010 13:33:03 +0300
+
 meegotouchtheme (0.20.48-1) unstable; urgency=low
 
   * New version
