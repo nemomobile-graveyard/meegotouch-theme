@@ -280,6 +280,24 @@ background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
 text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
 }
 
+/* Call button patch FIX me*/
+
+#CommonSingleCallButton {
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+
+text-color:      $CB_FONT_COLOR_POSITIVE;
+background-image:$CB_BG_POSITIVE $CORNER_MARGINS;
+}
+#CommonSingleCallButton:pressed {
+background-image:$CB_BG_POSITIVE_PRESSED $CORNER_MARGINS;
+}
+#CommonSingleCallButton:selected {
+background-image:$CB_BG_POSITIVE_SELECTED $CORNER_MARGINS;
+}
+
 /* positive buttons */
 
 #CommonSingleButtonPositive {
