@@ -47,19 +47,4 @@ MContainerHeader MSpinnerStyle {
     maximum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
 }
 
-/* MDialog MSpinnerStyle doesnt work */
-#MDialogProgressIndicator {
-    bg-pixmap: "meegotouch-progressindicator-spinner-background" $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
-    progress-pixmap: "meegotouch-progressindicator-spinner-progress" $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
-
-    minimum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
-    preferred-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
-    maximum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
-    
-    margin-left: $MARGIN_MEDIUM;
-    margin-top: $MARGIN_MEDIUM;
-    margin-right: $MARGIN_MEDIUM;
-    margin-bottom: $MARGIN_MEDIUM;
-}
-
 

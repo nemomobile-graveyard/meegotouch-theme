@@ -119,12 +119,6 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
     maximum-size: -1 5.2mm;
 }
 
-#MDialogProgressIndicator {                                                    
-    margin-left: $MARGIN_DOUBLE;
-    margin-right: $MARGIN_XLARGE;
-    margin-top: $MARGIN_LARGE;
-}
-
 #MDialogButtonBox {
     background-image: meegotouch-dialog-button-area-background 10px 10px 10px 10px;
     margin-left: 0;
@@ -139,76 +133,13 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
     minimum-size: -1 $SIZE_BUTTON;
 }
 
+#MDialogProgressIndicator {
+    maximum-size: 3.2mm 3.2mm;
+    minimum-size: 3.2mm 3.2mm;
+    preferred-size: 3.2mm 3.2mm; 
 
-/* Dialog buttons */
-MButtonStyle[first].Landscape {
-    margin-right: 0;
-    background-image: "meegotouch-button-dialog-background-horizontal-left" 12px 12px 12px 12px;
+    margin-top: $MARGIN_LARGE;
+    bg-pixmap: "meegotouch-progressindicator-spinner-background" 32px 32px;
+    progress-pixmap: "meegotouch-progressindicator-spinner-progress" 32px 32px;
 }
-MButtonStyle[first].Landscape:pressed {
-    background-image: "meegotouch-button-dialog-background-pressed-horizontal-left" 12px 12px 12px 12px;
-}
-
-MButtonStyle[middle].Landscape {
-   margin-left: 0;
-   margin-right: 0;
-   background-image: "meegotouch-button-dialog-background-horizontal-center" 12px 12px 12px 12px;
-}
-MButtonStyle[middle].Landscape:pressed {
-   background-image: "meegotouch-button-dialog-background-pressed-horizontal-center" 12px 12px 12px 12px;
-}
-
-MButtonStyle[last].Landscape {
-   margin-left: 0;
-   background-image: "meegotouch-button-dialog-background-horizontal-right" 12px 12px 12px 12px;
-}
-MButtonStyle[last].Landscape:pressed {
-   background-image: "meegotouch-button-dialog-background-pressed-horizontal-right" 12px 12px 12px 12px;
-}
-
-MButtonStyle[single].Landscape {
-   preferred-size: -1 $SIZE_BUTTON;
-   minimum-size: -1 $SIZE_BUTTON;
-   maximum-size: -1 $SIZE_BUTTON;
-   background-image: "meegotouch-button-dialog-background" 12px 12px 12px 12px;
-}
-MButtonStyle[single].Landscape:pressed {
-   background-image: "meegotouch-button-dialog-background-pressed" 12px 12px 12px 12px;
-}
-
-MButtonStyle[first].Portrait {
-   margin-bottom: 0;
-   background-image: "meegotouch-button-dialog-background-vertical-top" 12px 12px 12px 12px;
-}
-MButtonStyle[first].Portrait:pressed {
-   background-image: "meegotouch-button-dialog-background-pressed-vertical-top" 12px 12px 12px 12px;
-}
-
-MButtonStyle[middle].Portrait {
-   margin-top: 0;
-   margin-bottom: 0;
-   background-image: "meegotouch-button-dialog-background-vertical-center" 12px 12px 12px 12px;
-}
-MButtonStyle[middle].Portrait:pressed {
-   background-image: "meegotouch-button-dialog-background-pressed-vertical-center" 12px 12px 12px 12px;
-}
-
-MButtonStyle[last].Portrait {
-   margin-top: 0;
-   background-image: "meegotouch-button-dialog-background-vertical-bottom" 12px 12px 12px 12px;
-}
-MButtonStyle[last].Portrait:pressed {
-   background-image: "meegotouch-button-dialog-background-pressed-vertical-bottom" 12px 12px 12px 12px;
-}
-
-MButtonStyle[single].Portrait {
-   preferred-size: -1 $SIZE_BUTTON;
-   minimum-size: -1 $SIZE_BUTTON;
-   maximum-size: -1 $SIZE_BUTTON;
-   background-image: "meegotouch-button-dialog-background" 12px 12px 12px 12px;
-}
-MButtonStyle[single].Portrait:pressed {
-   background-image: "meegotouch-button-dialog-background-pressed" 12px 12px 12px 12px;
-}
-
 
