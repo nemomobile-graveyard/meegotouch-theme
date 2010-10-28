@@ -870,6 +870,9 @@ text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
 #CommonListIconButton {
 margin-right: $INDENT_DEFAULT;
 }
+#CommonListIconButtonInverted {
+margin-right: $INDENT_DEFAULT;
+}
 
 #CommonListButton {
 background-image: 'meegotouch-textedit-button-background' 20px 20px 20px 20px;
@@ -884,6 +887,21 @@ background-image: 'meegotouch-textedit-button-background-pressed' 20px 20px 20px
 }
 #CommonListButton:selected {
 background-image: 'meegotouch-textedit-button-background-selected' 20px 20px 20px 20px;
+}
+
+#CommonListButtonInverted {
+background-image: 'meegotouch-textedit-button-inverted-background' 20px 20px 20px 20px;
+minimum-size:     4.2mm 4.3mm;
+preferred-size:   4.2mm 4.3mm;
+maximum-size:     12.2mm 4.3mm;
+margin-left:      0;
+margin-right:     $INDENT_DEFAULT;
+}
+#CommonListButtonInverted:pressed {
+background-image: 'meegotouch-textedit-button-inverted-background-pressed' 20px 20px 20px 20px;
+}
+#CommonListButtonInverted:selected {
+background-image: 'meegotouch-textedit-button-inverted-background-selected' 20px 20px 20px 20px;
 }
 
 /* Toolbar buttons */
@@ -947,6 +965,9 @@ background-image: 'meegotouch-button-navigationbar-tab-button-background-horizon
 #CommonOverlayToolbarButton {
 /* TBD */
 }
+
+/* Input Field Buttons */
+
 #CommonRightInputFieldButton {
 background-image: 'meegotouch-textedit-button-background' 20px 20px 20px 20px;
 minimum-size:     4.2mm 4.3mm;
@@ -974,6 +995,35 @@ background-image: 'meegotouch-textedit-button-background-pressed' 20px 20px 20px
 }
 #CommonLeftInputFieldButton:selected {
 background-image: 'meegotouch-textedit-button-background-selected' 20px 20px 20px 20px;
+}
+
+#CommonRightInputFieldButtonInverted {
+background-image: 'meegotouch-textedit-button-inverted-background' 20px 20px 20px 20px;
+minimum-size:     4.2mm 4.3mm;
+preferred-size:   4.2mm 4.3mm;
+maximum-size:     12.2mm 4.3mm;
+margin-left:      0;
+margin-right:     $INDENT_DEFAULT;
+}
+#CommonRightInputFieldButtonInverted:pressed {
+background-image: 'meegotouch-textedit-button-inverted-background-pressed' 20px 20px 20px 20px;
+}
+#CommonRightInputFieldButtonInverted:selected {
+background-image: 'meegotouch-textedit-button-inverted-background-selected' 20px 20px 20px 20px;
+}
+#CommonLeftInputFieldButtonInverted {
+background-image: 'meegotouch-textedit-button-inverted-background' 20px 20px 20px 20px;
+minimum-size:     4.2mm 4.3mm;
+preferred-size:   4.2mm 4.3mm;
+maximum-size:     12.2mm 4.3mm;
+margin-left:      $INDENT_DEFAULT;
+margin-right:     0;
+}
+#CommonLeftInputFieldButtonInverted:pressed {
+background-image: 'meegotouch-textedit-button-inverted-background-pressed' 20px 20px 20px 20px;
+}
+#CommonLeftInputFieldButtonInverted:selected {
+background-image: 'meegotouch-textedit-button-inverted-background-selected' 20px 20px 20px 20px;
 }
 
 /* Temp for camera, needs to become moved */
