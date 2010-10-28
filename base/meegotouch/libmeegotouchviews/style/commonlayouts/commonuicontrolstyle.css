@@ -3,6 +3,7 @@
 @const C_INPUT_BG_INVERTED: meegotouch-textedit-background $CORNER_MARGINS;
 @const C_INPUT_BG_SELECTED_INVERTED: meegotouch-textedit-background-selected $CORNER_MARGINS;
 
+/* switch */
 
 #CommonSwitch {
 margin-left:     $INDENT_DEFAULT;
@@ -16,6 +17,20 @@ margin-right:    0;
 margin-left:     0;
 margin-right:    $INDENT_DEFAULT;
 }
+#CommonSwitchInverted {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonLeftSwitchInverted {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    0;
+}
+#CommonRightSwitchInverted {
+margin-left:     0;
+margin-right:    $INDENT_DEFAULT;
+}
+
+/* Checkbox */
 
 #CommonCheckBox {
 margin-left:     $INDENT_DEFAULT;
@@ -30,6 +45,21 @@ margin-left:     0;
 margin-right:    $INDENT_DEFAULT;
 }
 
+#CommonCheckBoxInverted {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonLeftCheckBoxInverted {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    0;
+}
+#CommonRightCheckBoxInverted {
+margin-left:     0;
+margin-right:    $INDENT_DEFAULT;
+}
+
+/* Radio Button */
+
 #CommonRadioButton {
 margin-left:     $INDENT_DEFAULT;
 margin-right:    $INDENT_DEFAULT;
@@ -43,6 +73,21 @@ margin-left:     0;
 margin-right:    $INDENT_DEFAULT;
 }
 
+#CommonRadioButtonInverted {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+#CommonLeftRadioButtonInverted {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    0;
+}
+#CommonRightRadioButtonInverted {
+margin-left:     0;
+margin-right:    $INDENT_DEFAULT;
+}
+
+/* Slider */
+
 #CommonSlider {
 margin-top:      $MARGIN_DOUBLE;
 margin-bottom:   $MARGIN_DOUBLE;
@@ -52,6 +97,18 @@ minimum-size:    32.2mm -1;
 preferred-size:  44.8mm -1;
 maximum-size:    44.8mm -1;
 }
+
+#CommonSliderInverted {
+margin-top:      $MARGIN_DOUBLE;
+margin-bottom:   $MARGIN_DOUBLE;
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+minimum-size:    32.2mm -1;
+preferred-size:  44.8mm -1;
+maximum-size:    44.8mm -1;
+}
+
+/* Spinner */
 
 #CommonViewHeaderSpinner {
 margin-top:      $MARGIN_LARGE;
@@ -81,7 +138,47 @@ preferred-size:  9.6mm 9.6mm;
 maximum-size:    9.6mm 9.6mm;
 }
 
+#CommonViewHeaderSpinnerInverted {
+margin-top:      $MARGIN_LARGE;
+margin-bottom:   $MARGIN_LARGE;
+margin-left:     0;
+margin-right:    $INDENT_DEFAULT;
+minimum-size:    2.4mm 2.4mm;
+preferred-size:  2.4mm 2.4mm;
+maximum-size:    2.4mm 2.4mm;
+}
+#CommonListItemSpinnerInverted {
+margin-top:      0;
+margin-bottom:   0;
+margin-left:     0;
+margin-right:    $INDENT_DEFAULT;
+minimum-size:    3.2mm 3.2mm;
+preferred-size:  3.2mm 3.2mm;
+maximum-size:    3.2mm 3.2mm;
+}
+#CommonViewHeaderSpinnerInverted {
+margin-top:      0;
+margin-bottom:   0;
+margin-left:     0;
+margin-right:    0;
+minimum-size:    9.6mm 9.6mm;
+preferred-size:  9.6mm 9.6mm;
+maximum-size:    9.6mm 9.6mm;
+}
+
+/* Progress bar */
+
 #CommonProgressBar {
+margin-top:      $MARGIN_DOUBLE;
+margin-bottom:   $MARGIN_DOUBLE;
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+/* This is causing problems at MAdvanceListItem Fix me
+minimum-size:    32.2mm -1;
+preferred-size:  44.8mm -1;
+maximum-size:    44.8mm -1; */
+}
+#CommonProgressBarInverted {
 margin-top:      $MARGIN_DOUBLE;
 margin-bottom:   $MARGIN_DOUBLE;
 margin-left:     $INDENT_DEFAULT;
@@ -179,6 +276,11 @@ margin-left:     $MARGIN_LARGE;
 margin-right:    $INDENT_DEFAULT;
 }
 
+#CommonToolbarInputField {
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+}
+
 /* Inverted Input Fields */
 
 #CommonSingleInputFieldInverted {
@@ -270,6 +372,10 @@ margin-right:    $INDENT_DEFAULT;
 }
 
 /* Special items */
+
+#CommonOverlayComboBox {
+/* TBD */
+}
 
 #CommonCountBubble {
 margin-right:    $INDENT_DEFAULT;
