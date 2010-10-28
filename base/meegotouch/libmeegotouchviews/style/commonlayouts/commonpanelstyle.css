@@ -54,6 +54,47 @@ background-tiles:  ;
 background-image:  $CP_INVERTED_BG_SELECTED;
 }
 
+#CommonPanelNoFeedback {
+minimum-size:      $SIZE_LIST $SIZE_LIST;
+preferred-size:    -1 $SIZE_LIST;
+maximum-size:      -1 $SIZE_LIST;
+background-tiles:  ;
+background-image:  $CP_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonPanelNoFeedback:pressed {
+background-tiles:  ;
+background-image:  $CP_BG;
+}
+#CommonPanelNoFeedback:selected {
+background-tiles:  ;
+background-image:  $CP_BG;
+
+}
+
+#CommonPanelNoFeedbackInverted {
+minimum-size:      $SIZE_LIST $SIZE_LIST;
+preferred-size:    -1 $SIZE_LIST;
+maximum-size:      -1 $SIZE_LIST;
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonPanelNoFeedbackInverted:pressed {
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG;
+}
+#CommonPanelNoFeedbackInverted:selected {
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG;
+}
+
 #CommonUnreadPanel {
 minimum-size:      $SIZE_LIST $SIZE_LIST;    
 preferred-size:    -1 $SIZE_LIST;
@@ -174,6 +215,8 @@ background-tiles:  ;
 background-image:  $CP_INVERTED_BG_SELECTED;
 }
 
+/* Header panels */
+
 #CommonXLargeGroupHeaderPanel {
 minimum-size:      72 72;   
 preferred-size:    -1 72;   
@@ -262,3 +305,66 @@ margin-bottom:     0;
 margin-left:       0;
 margin-right:      0;
 }
+
+/* View Header panels */
+
+#CommonViewHeaderPanel {
+minimum-size:      40 40; 
+preferred-size:    100% 40;   
+maximum-size:      100% -1; 
+background-tiles:  ;
+background-image:  'meegotouch-view-header' 15px 15px 15px 15px;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+
+#CommonViewHeaderPanelInverted {
+minimum-size:      40 40; 
+preferred-size:    100% 40;   
+maximum-size:      100% -1; 
+background-tiles:  ;
+background-image:  'meegotouch-view-header-inverted' 15px 15px 15px 15px;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+
+#CommonViewHeaderPanelColored {
+minimum-size:      40 40; 
+preferred-size:    100% 40;   
+maximum-size:      100% -1; 
+background-tiles:  ;
+background-image:  'meegotouch-view-header-colored' 15px 15px 15px 15px;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+
+#CommonViewHeaderPanelColoredInverted {
+minimum-size:      40 40; 
+preferred-size:    100% 40;   
+maximum-size:      100% -1; 
+background-tiles:  ;
+background-image:  'meegotouch-view-header-colored-inverted' 15px 15px 15px 15px;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+
+#CommonOverlayViewHeaderPanel {
+minimum-size:      40 40; 
+preferred-size:    100% -1;   
+maximum-size:      100% -1; 
+background-tiles:  ;
+background-image:  'meegotouch-view-header-overlay' 15px 15px 15px 15px;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+
