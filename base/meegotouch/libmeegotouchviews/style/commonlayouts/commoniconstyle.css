@@ -8,10 +8,30 @@
 maximum-size:   $ICON64;
 minimum-size:   $ICON64;
 preferred-size: $ICON64;
-margin-left:    $MARGIN_DOUBLE;
-margin-right:   $MARGIN_DOUBLE;
-margin-top:     $MARGIN_DOUBLE;
-margin-bottom:  $MARGIN_DOUBLE;
+margin-left:    $INDENT_DEFAULT;
+margin-right:   0;
+margin-top:     $MARGIN_LARGE;
+margin-bottom:  $MARGIN_LARGE;
+}
+
+#CommonRightMainIcon {
+maximum-size:   $ICON64;
+minimum-size:   $ICON64;
+preferred-size: $ICON64;
+margin-left:    0;
+margin-right:   $INDENT_DEFAULT;
+margin-top:     $MARGIN_LARGE;
+margin-bottom:  $MARGIN_LARGE;
+}
+
+#CommonRightIcon {
+maximum-size:   $ICON32;
+minimum-size:   $ICON32;
+preferred-size: $ICON32;
+margin-left:    0;
+margin-right:   $INDENT_DEFAULT;
+margin-top:     0;
+margin-bottom:  0;
 }
 
 #CommonTitleIcon {
@@ -20,6 +40,26 @@ minimum-size:   $ICON32;
 preferred-size: $ICON32;
 margin-left:    0;
 margin-right:   0;
+margin-top:     0;
+margin-bottom:  0;
+}
+
+#CommonDrillDownIcon {
+maximum-size:   $ICON32;
+minimum-size:   $ICON32;
+preferred-size: $ICON32;
+margin-left:    0;
+margin-right:   $INDENT_DEFAULT;
+margin-top:     0;
+margin-bottom:  0;
+}
+
+#CommonComboBoxIcon {
+maximum-size:   $ICON32;
+minimum-size:   $ICON32;
+preferred-size: $ICON32;
+margin-left:    0;
+margin-right:   $INDENT_DEFAULT;
 margin-top:     0;
 margin-bottom:  0;
 }
@@ -43,6 +83,16 @@ margin-bottom:  0;
 
 #CommonHeaderIcon {
 margin-left:    $INDENT_DEFAULT;
+}
+
+#CommonViewHeaderIcon {
+maximum-size:   $ICON24;
+minimum-size:   $ICON24;
+preferred-size: $ICON24;
+margin-left:    $INDENT_DEFAULT;
+margin-right:   0;
+margin-top:     0;
+margin-bottom:  0;
 }
 
 #CommonSubIcon {
@@ -103,13 +153,23 @@ margin-bottom:  $MARGIN_DOUBLE;
 }
 
 #CommonThumbnail {
-maximum-size:   $ICON80;
-minimum-size:   $ICON80;
-preferred-size: $ICON80;
-margin-left:    0.8mm;
+maximum-size:   $ICON64;
+minimum-size:   $ICON64;
+preferred-size: $ICON64;
+margin-left:    $INDENT_DEFAULT;
 margin-right:   0;
-margin-top:     0.4mm;
-margin-bottom:  0.4mm;
+margin-top:     $MARGIN_LARGE;
+margin-bottom:  $MARGIN_LARGE;
+}
+
+#CommonRightThumbnail {
+maximum-size:   $ICON64;
+minimum-size:   $ICON64;
+preferred-size: $ICON64;
+margin-left:    0;
+margin-right:   $INDENT_DEFAULT;
+margin-top:     $MARGIN_LARGE;
+margin-bottom:  $MARGIN_LARGE;
 }
 
 #CommonAvatarPlaceholder {
