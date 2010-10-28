@@ -1,6 +1,35 @@
+/* Divider */
 
+#CommonItemDivider {
+background-image: 'meegotouch-separator-background-horizontal' 4px 4px 2px 2px;
+span:			0.9mm;
+margin-top:     0;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+}
+
+#CommonGroupDivider {
+background-image: 'meegotouch-groupseparator-background-horizontal' 4px 4px 2px 2px;
+span:			0.9mm;
+margin-top:     0;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+}
+
+#CommonGroupHeaderDivider {
+background-image: 'meegotouch-groupseparator-header-background-horizontal' 4px 4px 2px 2px;
+span:			0.9mm;
+margin-top:     0;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+}
 
 #CommonHorizontalSeparator {
+background-image: 'meegotouch-separator-background-horizontal' 4px 4px 2px 2px;
+span:			0.1mm;
 margin-top:     0;
 margin-bottom:  0;
 margin-left:    0;
@@ -8,35 +37,64 @@ margin-right:   0;
 }
 
 #CommonVerticalSeparator {
+background-image: 'meegotouch-separator-background-vertical' 4px 4px 2px 2px;
 margin-right:   0;
 margin-left:    0;
 margin-bottom:  0;
 margin-top:     0;
 }
 
-#CommonDivider {
+
+#CommonItemDividerInverted {
+background-image: 'meegotouch-separator-inverted-background-horizontal' 4px 4px 2px 2px;
+span:			0.9mm;
 margin-top:     0;
 margin-bottom:  0;
 margin-left:    0;
 margin-right:   0;
 }
-#CommonItemDivider {
+
+#CommonGroupDividerInverted {
+background-image: 'meegotouch-groupseparator-inverted-background-horizontal' 4px 4px 2px 2px;
+span:			0.9mm;
 margin-top:     0;
 margin-bottom:  0;
 margin-left:    0;
 margin-right:   0;
 }
-#CommonGroupDivider {
+
+#CommonGroupHeaderDividerInverted {
+background-image: 'meegotouch-groupseparator-header-inverted-background-horizontal' 4px 4px 2px 2px;
+span:			0.9mm;
 margin-top:     0;
 margin-bottom:  0;
 margin-left:    0;
 margin-right:   0;
 }
+
+#CommonHorizontalSeparatorInverted {
+background-image: 'meegotouch-separator-inverted-background-horizontal' 4px 4px 2px 2px;
+span:			0.1mm;
+margin-top:     0;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+}
+
+#CommonVerticalSeparatorInverted {
+background-image: 'meegotouch-separator-inverted-background-vertical' 4px 4px 2px 2px;
+margin-right:   0;
+margin-left:    0;
+margin-bottom:  0;
+margin-top:     0;
+}
+
+/* Spacer */
 
 #CommonSpacer {
 minimum-size:   0 0;
-preferred-size: 100.0mm 0;
-maximum-size:   100.0mm 0;
+preferred-size: 100% 0;
+maximum-size:   100% 0;
 margin-top:     $MARGIN_DOUBLE;
 margin-bottom:  0;
 margin-left:    0;
@@ -45,13 +103,15 @@ margin-right:   0;
 
 #CommonSmallSpacer {
 minimum-size:   0 0;
-preferred-size: 100.0mm 0;
-maximum-size:   100.0mm 0;
+preferred-size: 100% 0;
+maximum-size:   100% 0;
 margin-top:     $MARGIN_SMALL;
 margin-bottom:  0;
 margin-left:    0;
 margin-right:   0;
 }
+
+/* Groups */
 
 #CommonTitleIconGroup {
 margin-left:    $INDENT_DEFAULT;
