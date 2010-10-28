@@ -1,3 +1,17 @@
+meegotouchtheme (0.20.51-1) unstable; urgency=low
+
+  * New version
+  * Changes: Updated commonuicontrolstyle.css
+  * Changes: Updated commonbuttonstyle.css
+  * Changes: Updated commonpanelstyle.css
+  * Changes: Updated commonlayoutstyle.css
+  * Changes: Updated commoniconstyle.css
+  * Changes: Adding new buttonstyles from toolki 1.5.4 to commonbuttonstyles.css
+  * Changes: adapting dialogs to the new layouts
+  * Mbanner: new layouts
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 28 Oct 2010 12:30:56 +0300
+
 meegotouchtheme (0.20.50-1) unstable; urgency=low
 
   * New version
