@@ -172,7 +172,29 @@ margin-top:     $MARGIN_LARGE;
 margin-bottom:  $MARGIN_LARGE;
 }
 
+#CommonLargeThumbnail {
+maximum-size:   $ICON80;
+minimum-size:   $ICON80;
+preferred-size: $ICON80;
+margin-left:    $INDENT_DEFAULT;
+margin-right:   0;
+margin-top:     $MARGIN_SMALL;
+margin-bottom:  $MARGIN_SMALL;
+}
+
 #CommonAvatarPlaceholder {
+maximum-size:   $ICON64;
+minimum-size:   $ICON64;
+preferred-size: $ICON64;
+margin-left:    $MARGIN_LARGE;
+margin-right:   0;
+margin-top:     $MARGIN_LARGE;
+margin-bottom:  $MARGIN_LARGE;
+/* The image is temporary and will be replaced with a dedicated placeholder graphic */
+avatarBackgroundImage: 'meegotouch-panel-background-selected';
+}
+
+#CommonLargeAvatarPlaceholder {
 maximum-size:   $ICON80;
 minimum-size:   $ICON80;
 preferred-size: $ICON80;
