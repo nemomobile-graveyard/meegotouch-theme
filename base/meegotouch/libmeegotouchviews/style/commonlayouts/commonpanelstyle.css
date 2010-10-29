@@ -217,7 +217,7 @@ background-image:  $CP_INVERTED_BG_SELECTED;
 
 /* Header panels */
 
-#CommonXLargeGroupHeaderPanel {
+#CommonXLargeHeaderPanel {
 minimum-size:      72 72;   
 preferred-size:    -1 72;   
 maximum-size:      -1 -1; 
@@ -228,7 +228,7 @@ margin-bottom:     0;
 margin-left:       0;
 margin-right:      0;
 }
-#CommonXLargeGroupHeaderPanelInverted {
+#CommonXLargeHeaderPanelInverted {
 minimum-size:      72 72;   
 preferred-size:    -1 72;   
 maximum-size:      -1 -1; 
@@ -239,7 +239,7 @@ margin-bottom:     0;
 margin-left:       0;
 margin-right:      0;
 }
-#CommonLargeGroupHeaderPanel {
+#CommonLargeHeaderPanel {
 minimum-size:      56 56;
 preferred-size:    -1 56;   
 maximum-size:      -1 -1; 
@@ -250,9 +250,31 @@ margin-bottom:     0;
 margin-left:       0;
 margin-right:      0;
 }
-#CommonLargeGroupHeaderPanelInverted {
+#CommonLargeHeaderPanelInverted {
 minimum-size:      56 56;
 preferred-size:    -1 56;   
+maximum-size:      -1 -1; 
+background-tiles:  ;
+background-image:  $CP_INVERTED_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonHeaderPanel {
+minimum-size:      32 32; 
+preferred-size:    -1 48;   
+maximum-size:      -1 -1; 
+background-tiles:  ;
+background-image:  $CP_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonHeaderPanelInverted {
+minimum-size:      32 32; 
+preferred-size:    -1 48;   
 maximum-size:      -1 -1; 
 background-tiles:  ;
 background-image:  $CP_INVERTED_BG;
@@ -262,44 +284,22 @@ margin-left:       0;
 margin-right:      0;
 }
 #CommonGroupHeaderPanel {
-minimum-size:      48 48; 
-preferred-size:    -1 48;   
+minimum-size:      32 32;   
+preferred-size:    -1 32;   
 maximum-size:      -1 -1; 
 background-tiles:  ;
-background-image:  $CP_BG;
+background-image:  $CP_BG; /* Needs asset */
 margin-top:        0;
 margin-bottom:     0;
 margin-left:       0;
 margin-right:      0;
 }
 #CommonGroupHeaderPanelInverted {
-minimum-size:      48 48; 
-preferred-size:    -1 48;   
-maximum-size:      -1 -1; 
-background-tiles:  ;
-background-image:  $CP_INVERTED_BG;
-margin-top:        0;
-margin-bottom:     0;
-margin-left:       0;
-margin-right:      0;
-}
-#CommonSmallGroupHeaderPanel {
 minimum-size:      32 32;   
 preferred-size:    -1 32;   
 maximum-size:      -1 -1; 
 background-tiles:  ;
-background-image:  $CP_BG;
-margin-top:        0;
-margin-bottom:     0;
-margin-left:       0;
-margin-right:      0;
-}
-#CommonSmallGroupHeaderPanelInverted {
-minimum-size:      32 32;   
-preferred-size:    -1 32;   
-maximum-size:      -1 -1; 
-background-tiles:  ;
-background-image:  $CP_INVERTED_BG;
+background-image:  $CP_INVERTED_BG; /* Needs asset */
 margin-top:        0;
 margin-bottom:     0;
 margin-left:       0;
