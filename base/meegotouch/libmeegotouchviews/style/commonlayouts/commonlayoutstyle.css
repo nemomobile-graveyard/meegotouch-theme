@@ -95,7 +95,7 @@ margin-top:     0;
 minimum-size:   0 0;
 preferred-size: 100% 0;
 maximum-size:   100% 0;
-margin-top:     $MARGIN_DOUBLE;
+margin-top:     $MARGIN_LARGE;
 margin-bottom:  0;
 margin-left:    0;
 margin-right:   0;
@@ -106,6 +106,26 @@ minimum-size:   0 0;
 preferred-size: 100% 0;
 maximum-size:   100% 0;
 margin-top:     $MARGIN_SMALL;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+}
+
+#CommonLargeSpacer {
+minimum-size:   0 0;
+preferred-size: 100% 0;
+maximum-size:   100% 0;
+margin-top:     $MARGIN_XLARGE;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+}
+
+#CommonXLargeSpacer {
+minimum-size:   0 0;
+preferred-size: 100% 0;
+maximum-size:   100% 0;
+margin-top:     $MARGIN_XXLARGE;
 margin-bottom:  0;
 margin-left:    0;
 margin-right:   0;
