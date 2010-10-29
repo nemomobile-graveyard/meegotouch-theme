@@ -10,6 +10,7 @@ MToolbarTabStyle {
     has-icons: true;
     has-labels: false;
     has-spaces: false;
+    label-only-as-common-button: false;
 }
 
 MButtonStyle[toolbartab] {

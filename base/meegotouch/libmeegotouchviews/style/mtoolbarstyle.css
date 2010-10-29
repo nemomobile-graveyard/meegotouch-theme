@@ -15,6 +15,7 @@ MToolbarStyle {
     has-icons:  true;
     has-labels: false;
     has-spaces: false;
+    label-only-as-common-button: true;
 }
 
 MToolbarStyle.Landscape {
@@ -69,3 +70,15 @@ MButtonIconStyle[toolbar] {
 MButtonIconStyle[toolbar].Portrait {
     maximum-size: 100% $HEIGHT_NAVIGATIONBAR;
 }
+
+MButtonStyle#ToolBarLabelOnlyCommonButton {
+    margin-left:   $MARGIN_SMALL;
+    margin-top:    $MARGIN_DOUBLE;
+    margin-right:  $MARGIN_SMALL;
+    margin-bottom: $MARGIN_DOUBLE;
+
+    minimum-size:    4.2mm 5.0mm;
+    preferred-size: 18.0mm 5.0mm;
+    maximum-size:   18.0mm 5.0mm;
+}
+
