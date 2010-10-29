@@ -108,6 +108,28 @@ preferred-size:  44.8mm -1;
 maximum-size:    44.8mm -1;
 }
 
+/* Seeker */
+
+#CommonSeeker {
+margin-top:      $MARGIN_DOUBLE;
+margin-bottom:   $MARGIN_DOUBLE;
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+minimum-size:    32.2mm -1;
+preferred-size:  44.8mm -1;
+maximum-size:    44.8mm -1;
+}
+
+#CommonSeekerInverted {
+margin-top:      $MARGIN_DOUBLE;
+margin-bottom:   $MARGIN_DOUBLE;
+margin-left:     $INDENT_DEFAULT;
+margin-right:    $INDENT_DEFAULT;
+minimum-size:    32.2mm -1;
+preferred-size:  44.8mm -1;
+maximum-size:    44.8mm -1;
+}
+
 /* Spinner */
 
 #CommonViewHeaderSpinner {
