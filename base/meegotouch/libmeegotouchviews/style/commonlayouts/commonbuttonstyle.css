@@ -1233,7 +1233,7 @@ margin-right:     0;
 background-image: 'meegotouch-button-navigationbar-tab-button-background-pressed-horizontal-center' $TBSB_CORNERS;
 }
 #CommonToolbarCenterSplitButton:selected {
-background-image: 'meegotouch-button-navigationbar-tab-button-background-selected-horizontal-center' $TSBB_CORNERS;
+background-image: 'meegotouch-button-navigationbar-tab-button-background-selected-horizontal-center' $TBSB_CORNERS;
 }
 #CommonToolbarRightSplitButton {
 background-image: 'meegotouch-button-navigationbar-tab-button-background-horizontal-right' $TBSB_CORNERS;
