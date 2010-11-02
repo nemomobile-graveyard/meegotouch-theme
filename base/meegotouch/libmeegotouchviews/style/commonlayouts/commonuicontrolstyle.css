@@ -33,8 +33,8 @@ margin-right:    $INDENT_DEFAULT;
 /* Checkbox */
 
 #CommonCheckBox {
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+margin-left:     1.5mm;
+margin-right:    1.5mm;
 }
 #CommonLeftCheckBox {
 margin-left:     $INDENT_DEFAULT;
