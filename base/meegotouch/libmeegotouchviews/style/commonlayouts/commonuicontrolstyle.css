@@ -2,6 +2,7 @@
 @const C_INPUT_BG_SELECTED: meegotouch-textedit-background-selected $CORNER_MARGINS;
 @const C_INPUT_BG_INVERTED: meegotouch-textedit-background $CORNER_MARGINS;
 @const C_INPUT_BG_SELECTED_INVERTED: meegotouch-textedit-background-selected $CORNER_MARGINS;
+@const CHECKBOX_SIZE:       4.2mm 4.2mm;
 
 /* switch */
 
@@ -103,6 +104,9 @@ background-image:'meegotouch-button-checkbox-inverted-background-selected' 0px 0
 /* Radio Button */
 
 #CommonRadioButton {
+minimum-size:    $CHECKBOX_SIZE;
+preferred-size:  $CHECKBOX_SIZE;
+maximum-size:    $CHECKBOX_SIZE;
 background-image:'meegotouch-button-radiobutton-background' 0px 0px 0px 0px;
 margin-left:     $INDENT_DEFAULT;
 margin-right:    $INDENT_DEFAULT;
@@ -114,6 +118,9 @@ background-image:'meegotouch-button-radiobutton-background-pressed' 0px 0px 0px 
 background-image:'meegotouch-button-radiobutton-background-selected' 0px 0px 0px 0px;
 }
 #CommonLeftRadioButton {
+minimum-size:    $CHECKBOX_SIZE;
+preferred-size:  $CHECKBOX_SIZE;
+maximum-size:    $CHECKBOX_SIZE;
 background-image:'meegotouch-button-radiobutton-background' 0px 0px 0px 0px;
 margin-left:     $INDENT_DEFAULT;
 margin-right:    0;
@@ -125,6 +132,9 @@ background-image:'meegotouch-button-radiobutton-background-pressed' 0px 0px 0px 
 background-image:'meegotouch-button-radiobutton-background-selected' 0px 0px 0px 0px;
 }
 #CommonRightRadioButton {
+minimum-size:    $CHECKBOX_SIZE;
+preferred-size:  $CHECKBOX_SIZE;
+maximum-size:    $CHECKBOX_SIZE;
 background-image:'meegotouch-button-radiobutton-background' 0px 0px 0px 0px;
 margin-left:     0;
 margin-right:    $INDENT_DEFAULT;
@@ -137,6 +147,9 @@ background-image:'meegotouch-button-radiobutton-background-selected' 0px 0px 0px
 }
 
 #CommonRadioButtonInverted {
+minimum-size:    $CHECKBOX_SIZE;
+preferred-size:  $CHECKBOX_SIZE;
+maximum-size:    $CHECKBOX_SIZE;
 background-image:'meegotouch-button-radiobutton-inverted-background' 0px 0px 0px 0px;
 margin-left:     $INDENT_DEFAULT;
 margin-right:    $INDENT_DEFAULT;
@@ -149,6 +162,9 @@ background-image:'meegotouch-button-radiobutton-inverted-background-selected' 0p
 }
 
 #CommonLeftRadioButtonInverted {
+minimum-size:    $CHECKBOX_SIZE;
+preferred-size:  $CHECKBOX_SIZE;
+maximum-size:    $CHECKBOX_SIZE;
 background-image:'meegotouch-button-radiobutton-inverted-background' 0px 0px 0px 0px;
 margin-left:     $INDENT_DEFAULT;
 margin-right:    0;
@@ -161,6 +177,9 @@ background-image:'meegotouch-button-radiobutton-inverted-background-selected' 0p
 }
 
 #CommonRightRadioButtonInverted {
+minimum-size:    $CHECKBOX_SIZE;
+preferred-size:  $CHECKBOX_SIZE;
+maximum-size:    $CHECKBOX_SIZE;
 background-image:'meegotouch-button-radiobutton-inverted-background' 0px 0px 0px 0px;
 margin-left:     0;
 margin-right:    $INDENT_DEFAULT;
