@@ -1313,6 +1313,38 @@ background-image: 'meegotouch-textedit-button-inverted-background-pressed' 20px 
 background-image: 'meegotouch-textedit-button-inverted-background-selected' 20px 20px 20px 20px;
 }
 
+/* Very small Icon button */
+
+#CommonSmallIconButton {
+background-image: 'meegotouch-textedit-button-background' 20px 20px 20px 20px;
+minimum-size:     4.2mm 4.3mm;
+preferred-size:   4.2mm 4.3mm;
+maximum-size:     12.2mm 4.3mm;
+margin-left:      0;
+margin-right:     0;
+}
+#CommonSmallIconButton:pressed {
+background-image: 'meegotouch-textedit-button-background-pressed' 20px 20px 20px 20px;
+}
+#CommonSmallIconButton:selected {
+background-image: 'meegotouch-textedit-button-background-selected' 20px 20px 20px 20px;
+}
+
+#CommonSmallIconButtonInverted {
+background-image: 'meegotouch-textedit-button-inverted-background' 20px 20px 20px 20px;
+minimum-size:     4.2mm 4.3mm;
+preferred-size:   4.2mm 4.3mm;
+maximum-size:     12.2mm 4.3mm;
+margin-left:      0;
+margin-right:     0;
+}
+#CommonSmallIconButtonInverted:pressed {
+background-image: 'meegotouch-textedit-button-inverted-background-pressed' 20px 20px 20px 20px;
+}
+#CommonSmallIconButtonInverted:selected {
+background-image: 'meegotouch-textedit-button-inverted-background-selected' 20px 20px 20px 20px;
+}
+
 /* Temp for camera, needs to become moved */
 
 #CommonIconButton {
