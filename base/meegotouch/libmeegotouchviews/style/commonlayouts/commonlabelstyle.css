@@ -232,6 +232,14 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
+#CommonApplicationHeader {
+font:          $FONT_FAMILY light 40;
+color:         $COLOR_FOREGROUND;
+margin-top:    2.2mm;
+margin-bottom: 1.5;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
 #CommonViewHeader {
 font:          $FONT_FAMILY bold 22;
 color:         $COLOR_FOREGROUND;
@@ -527,6 +535,14 @@ font:          $FONT_FAMILY bold 22;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.5mm;
 margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonApplicationHeaderInverted {
+font:          $FONT_FAMILY light 40;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    2.2mm;
+margin-bottom: 1.5;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
