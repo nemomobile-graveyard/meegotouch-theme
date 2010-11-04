@@ -368,3 +368,25 @@ margin-left:       0;
 margin-right:      0;
 }
 
+/* Text frames */
+
+#CommonTextFrame {
+minimum-size:      -1 -1; 
+preferred-size:    100% -1;   
+maximum-size:      100% -1; 
+background-image:  'meegotouch-text-frame-background' 15px 15px 15px 15px;
+margin-top:        $MARGIN_XLARGE;
+margin-bottom:     $MARGIN_XLARGE;
+margin-left:       $INDENT_DEFAULT;
+margin-right:      $INDENT_DEFAULT;
+}
+#CommonTextFrameInverted {
+minimum-size:      -1 -1; 
+preferred-size:    100% -1;   
+maximum-size:      100% -1; 
+background-image:  'meegotouch-text-frame-inverted-background' 15px 15px 15px 15px;
+margin-top:        $MARGIN_XLARGE;
+margin-bottom:     $MARGIN_XLARGE;
+margin-left:       $INDENT_DEFAULT;
+margin-right:      $INDENT_DEFAULT;
+}
