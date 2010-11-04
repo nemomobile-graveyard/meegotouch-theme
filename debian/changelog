@@ -1,3 +1,30 @@
+meegotouchtheme (0.20.52-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#200900 - "Delete all Conversations" Query is not displaying
+  * Changes: decreasing delay & duration at mgraphicshighlighteffectstyle.css
+  * Fixes: NB#197516 - R&D theme depends on nokia fonts.
+  * Fixes: NB#201889 - Positionindicator triggers warnings from MScalableImage at startup
+  * Changes: Settings for label only tool bar buttons
+  * Changes: Added CommonSmallIconButton styles
+  * Changes: Some missing sizes to commoncheckboxes added
+  * Changes: Updated common  checkboxes and radiobutton sizes
+  * Changes: Updates common styles for checkbox and radiobutton
+  * Changes: Updated #CommonCheckBox margins in commonuicontrolstyle.css
+  * Fixes: NB#200779 - Portrait mode: collection and Recommendations buttons are not equally sized
+  * Fixes: MB#201467 - Typo in commonbuttonstyle
+  * Fixes: MB#195933 - Missing icons for duicontrolpanel
+  * Changes: Updated commonuicontrolstyle.css
+  * Changes: Updated commoniconstyle.css Toolkit 1.5.5
+  * Changes: Updated commonlayoutstyle.css Toolkit 1.5.5
+  * Changes: Updated commonpanelstyle.css Toolkit 1.5.5
+  * Changes: Updated commonlabelstyle.css Toolki 1.5.5
+  * Changes: Updated commonbuttonstyle.css Toolkit 1.5.5
+  * Changes: Fix typo with -pressed and -selected states
+  * Changes: new style for mpreedit
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 04 Nov 2010 13:06:30 +0200
+
 meegotouchtheme (0.20.51-1) unstable; urgency=low
 
   * New version
