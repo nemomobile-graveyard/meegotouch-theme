@@ -3,6 +3,6 @@ MGraphicsHighlightEffectStyle {
 
     start-strength: 0.2;
     end-strength: 0.9;
-    duration: 500;
-    delay: 100;
+    duration: 250;
+    delay: 0;
 }
