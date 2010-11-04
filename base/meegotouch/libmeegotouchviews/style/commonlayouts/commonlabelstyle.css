@@ -1,5 +1,5 @@
-@const CTITLE_FONT:    "Nokia Standard" bold 26;
-@const CSUBTITLE_FONT: "Nokia Standard" light 22;
+@const CTITLE_FONT:    $FONT_FAMILY bold 26;
+@const CSUBTITLE_FONT: $FONT_FAMILY light 22;
 @const CTITLE_M_TOP:    1.5mm;
 @const CSUBTITLE_M_TOP: 0.2mm;
 @const CTITLE_COLOR:          $COLOR_FOREGROUND;
@@ -185,7 +185,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonBodyText {
-font:          "Nokia Standard" light 24;
+font:          $FONT_FAMILY light 24;
 color:         $COLOR_FOREGROUND;
 margin-top:    2.4mm;
 margin-bottom: 2.4mm;
@@ -193,23 +193,23 @@ margin-left:   2.4mm;
 margin-right:  2.4mm;
 }
 #CommonBodyTextLight {
-font:          "Nokia Standard" light 24;
+font:          $FONT_FAMILY light 24;
 color:         $COLOR_SECONDARY_FOREGROUND;
 margin-top:    2.4mm;
 margin-bottom: 2.4mm;
 margin-left:   2.4mm;
 margin-right:  2.4mm;
 }
-#CommonXLargeHeader {
-font:          "Nokia Standard" light 56;
+#CommonXLargeGroupHeader {
+font:          $FONT_FAMILY light 56;
 color:         $COLOR_FOREGROUND;
 margin-top:    0.8mm;
 margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonLargeHeader {
-font:          "Nokia Standard" light 40;
+#CommonLargeGroupHeader {
+font:          $FONT_FAMILY light 40;
 color:         $COLOR_FOREGROUND;
 margin-top:    0.6mm;
 margin-bottom: 0;
@@ -217,7 +217,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonHeader {
-font:          "Nokia Standard" bold 22;
+font:          $FONT_FAMILY bold 22;
 color:         $COLOR_FOREGROUND;
 margin-top:    0.5mm;
 margin-bottom: 0;
@@ -225,7 +225,23 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonGroupHeader {
-font:          "Nokia Standard" bold 22;
+font:          $FONT_FAMILY light 32;
+color:         $COLOR_FOREGROUND;
+margin-top:    0.8mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSmallGroupHeader {
+font:          $FONT_FAMILY bold 22;
+color:         $COLOR_FOREGROUND;
+margin-top:    0.5mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSmallGroupHeaderLight {
+font:          $FONT_FAMILY light 22;
 color:         $COLOR_FOREGROUND;
 margin-top:    0.5mm;
 margin-bottom: 0;
@@ -233,7 +249,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonViewHeader {
-font:          "Nokia Standard" bold 22;
+font:          $FONT_FAMILY bold 22;
 color:         $COLOR_FOREGROUND;
 margin-top:    0.9mm;
 margin-bottom: 0;
@@ -241,7 +257,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonLargeViewHeader {
-font:          "Nokia Standard" bold 26;
+font:          $FONT_FAMILY bold 26;
 color:         $COLOR_FOREGROUND;
 margin-top:    0;
 margin-bottom: 0;
@@ -249,7 +265,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonViewHeaderWithIcon {
-font:          "Nokia Standard" bold 22;
+font:          $FONT_FAMILY bold 22;
 color:         $COLOR_FOREGROUND;
 margin-top:    0.9mm;
 margin-bottom: 0;
@@ -257,7 +273,7 @@ margin-left:   0.8mm;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonOverlayViewHeader {
-font:          "Nokia Standard" bold 22;
+font:          $FONT_FAMILY bold 22;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.9mm;
 margin-bottom: 0;
@@ -289,7 +305,7 @@ margin-left:   0;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonInputFieldText {
-font:          "Nokia Standard" light 24;
+font:          $FONT_FAMILY light 24;
 color:         $COLOR_FOREGROUND;
 margin-top:    0;
 margin-bottom: 0;
@@ -297,7 +313,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonInputFieldTextActive {
-font:          "Nokia Standard" light 24;
+font:          $FONT_FAMILY light 24;
 color:         $COLOR_FOREGROUND;
 margin-top:    0;
 margin-bottom: 0;
@@ -305,7 +321,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonInputFieldTextHint {
-font:          "Nokia Standard" light 24;
+font:          $FONT_FAMILY light 24;
 color:         #C0C0C0;
 margin-top:    0;
 margin-bottom: 0;
@@ -313,7 +329,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonFieldLabel { /* same as field header, needs update */
-font:          "Nokia Standard" light 22;
+font:          $FONT_FAMILY light 22;
 color:         $COLOR_FOREGROUND;
 margin-top:    0.8mm;
 margin-bottom: 0;
@@ -325,7 +341,7 @@ font:          $CB_FONT;
 color:         $CB_FONT_COLOR;
 }
 #CommonQueryTitle {
-font:          "Nokia Standard" bold 32;
+font:          $FONT_FAMILY bold 32;
 color:         $COLOR_ACCENT1;
 margin-top:    2.8mm;
 margin-bottom: 0;
@@ -333,7 +349,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonQueryText {
-font:          "Nokia Standard" light 22;
+font:          $FONT_FAMILY light 22;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    1mm;
 margin-bottom: 0;
@@ -483,7 +499,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonBodyTextInverted {
-font:          "Nokia Standard" light 24;
+font:          $FONT_FAMILY light 24;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    2.4mm;
 margin-bottom: 2.4mm;
@@ -491,23 +507,23 @@ margin-left:   2.4mm;
 margin-right:  2.4mm;
 }
 #CommonBodyTextLightInverted {
-font:          "Nokia Standard" light 24;
+font:          $FONT_FAMILY light 24;
 color:         $COLOR_INVERTED_SECONDARY_FOREGROUND;
 margin-top:    2.4mm;
 margin-bottom: 2.4mm;
 margin-left:   2.4mm;
 margin-right:  2.4mm;
 }
-#CommonXLargeHeaderInverted {
-font:          "Nokia Standard" light 56;
+#CommonXLargeGroupHeaderInverted {
+font:          $FONT_FAMILY light 56;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.8mm;
 margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonLargeHeaderInverted {
-font:          "Nokia Standard" light 40;
+#CommonLargeGroupHeaderInverted {
+font:          $FONT_FAMILY light 40;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.6mm;
 margin-bottom: 0;
@@ -515,7 +531,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonHeaderInverted {
-font:          "Nokia Standard" bold 22;
+font:          $FONT_FAMILY bold 22;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.5mm;
 margin-bottom: 0;
@@ -523,7 +539,23 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonGroupHeaderInverted {
-font:          "Nokia Standard" bold 22;
+font:          $FONT_FAMILY light 32;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    0.8mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSmallGroupHeaderInverted {
+font:          $FONT_FAMILY bold 22;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    0.5mm;
+margin-bottom: 0;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonSmallGroupHeaderLightInverted {
+font:          $FONT_FAMILY light 22;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.5mm;
 margin-bottom: 0;
@@ -531,7 +563,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonViewHeaderInverted {
-font:          "Nokia Standard" bold 22;
+font:          $FONT_FAMILY bold 22;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.9mm;
 margin-bottom: 0;
@@ -539,7 +571,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonLargeViewHeaderInverted {
-font:          "Nokia Standard" bold 26;
+font:          $FONT_FAMILY bold 26;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0;
 margin-bottom: 0;
@@ -547,7 +579,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonViewHeaderWithIconInverted {
-font:          "Nokia Standard" bold 22;
+font:          $FONT_FAMILY bold 22;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.9mm;
 margin-bottom: 0;
@@ -555,7 +587,7 @@ margin-left:   0.8mm;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonOverlayViewHeaderInverted {
-font:          "Nokia Standard" bold 22;
+font:          $FONT_FAMILY bold 22;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.9mm;
 margin-bottom: 0;
@@ -587,7 +619,7 @@ margin-left:   0;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonInputFieldTextInverted {
-font:          "Nokia Standard" light 24;
+font:          $FONT_FAMILY light 24;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0;
 margin-bottom: 0;
@@ -595,7 +627,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonInputFieldTextActiveInverted {
-font:          "Nokia Standard" light 24;
+font:          $FONT_FAMILY light 24;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0;
 margin-bottom: 0;
@@ -603,7 +635,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonInputFieldTextHintInverted {
-font:          "Nokia Standard" light 24;
+font:          $FONT_FAMILY light 24;
 color:         #C0C0C0;
 margin-top:    0;
 margin-bottom: 0;
@@ -611,7 +643,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonFieldLabelInverted { /* same as field header, needs update */
-font:          "Nokia Standard" light 22;
+font:          $FONT_FAMILY light 22;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.8mm;
 margin-bottom: 0;
@@ -654,14 +686,14 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  0;
 }
 #CommonTitleRightMargin {
-font:          $FONT_FAMILY normal 2.6mm;
+font:          $CTITLE_FONT;
 color:         $CTITLE_COLOR;
 margin-top:    $CTITLE_M_TOP;
 margin-bottom: 0;
 margin-left:   0;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonTitleWithoutMargin {
+#CommonTitleWithoutargin {
 font:          $CTITLE_FONT;
 color:         $CTITLE_COLOR;
 margin-top:    $CTITLE_M_TOP;
@@ -678,7 +710,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  0;
 }
 #CommonTitleAccentedRightMargin {
-font:          $FONT_FAMILY normal 2.6mm;
+font:          $CTITLE_FONT;
 color:         $COLOR_ACCENT1;
 margin-top:    $CTITLE_M_TOP;
 margin-bottom: 0;
@@ -709,4 +741,10 @@ margin-bottom: 0;
 margin-left:   0;
 margin-right:  0;
 }
+
+
+#CommonAvatarInitials {
+    font: $FONT_XLARGE_BOLD;
+    color: $COLOR_INVERTED_FOREGROUND;
+} /* move this to contacts? */
 

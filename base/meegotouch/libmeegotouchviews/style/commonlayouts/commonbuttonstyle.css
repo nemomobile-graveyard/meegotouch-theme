@@ -4,7 +4,7 @@
 @const CB_M_BOTTOM: 1.5mm;
 @const CB_M_LEFT:   $INDENT_DEFAULT;
 @const CB_M_RIGHT:  $INDENT_DEFAULT;
-@const CB_FONT:     "Nokia Standard" bold uppercase 22;
+@const CB_FONT:     $FONT_FAMILY bold uppercase 22;
 @const CB_FONT_COLOR:          #000000;
 /*@const CB_FONT_COLOR_PRESSED:  #797979; */
 /* const CB_FONT_COLOR_SELECTED: #FFFFFF; */

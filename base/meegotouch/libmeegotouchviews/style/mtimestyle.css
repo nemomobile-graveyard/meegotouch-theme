@@ -1,6 +1,6 @@
 /* MTimeStyle : MWidgetStyle */
 MTimeStyle {
-    font: "Nokia Sans" 48;
+    font: $FONT_FAMILY 48;
     text-color: #FFA000;
     time-format: "HH:mmA";
 
