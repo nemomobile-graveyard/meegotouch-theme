@@ -12,6 +12,7 @@
 @const CB_FONT_COLOR_INVERTED_PRESSED: #797979;
 @const CB_FONT_COLOR_INVERTED_SELECTED: #FFFFFF;
 @const CB_FONT_COLOR_POSITIVE: #FFFFFF;
+@const CB_FONT_COLOR_ACCENT: #FFFFFF;
 @const CB_FONT_COLOR_NEGATIVE: #FFFFFF;
 @const CB_SPACE_RIGHT:  0.3mm;
 @const CB_SPACE_LEFT:   0.3mm;
@@ -27,12 +28,18 @@
 @const CB_BG_POSITIVE:          meegotouch-button-positive-background;
 @const CB_BG_POSITIVE_PRESSED:  meegotouch-button-positive-background-pressed;
 @const CB_BG_POSITIVE_SELECTED: meegotouch-button-positive-background-selected;
+@const CB_BG_ACCENT:            meegotouch-button-accent-background;
+@const CB_BG_ACCENT_PRESSED:    meegotouch-button-accent-background-pressed;
+@const CB_BG_ACCENT_SELECTED:   meegotouch-button-accent-background-selected;
 @const CB_BG_NEGATIVE:          meegotouch-button-negative-background;
 @const CB_BG_NEGATIVE_PRESSED:  meegotouch-button-negative-background-pressed;
 @const CB_BG_NEGATIVE_SELECTED: meegotouch-button-negative-background-selected;
 @const CB_BG_POSITIVE_INVERTED:          meegotouch-button-positive-inverted-background;
 @const CB_BG_POSITIVE_INVERTED_PRESSED:  meegotouch-button-positive-inverted-background-pressed;
 @const CB_BG_POSITIVE_INVERTED_SELECTED: meegotouch-button-positive-inverted-background-selected;
+@const CB_BG_ACCENT_INVERTED:          meegotouch-button-accent-inverted-background;
+@const CB_BG_ACCENT_INVERTED_PRESSED:  meegotouch-button-accent-inverted-background-pressed;
+@const CB_BG_ACCENT_INVERTED_SELECTED: meegotouch-button-accent-inverted-background-selected;
 @const CB_BG_NEGATIVE_INVERTED:          meegotouch-button-negative-inverted-background;
 @const CB_BG_NEGATIVE_INVERTED_PRESSED:  meegotouch-button-negative-inverted-background-pressed;
 @const CB_BG_NEGATIVE_INVERTED_SELECTED: meegotouch-button-negative-inverted-background-selected;
@@ -1344,6 +1351,261 @@ background-image: 'meegotouch-textedit-button-inverted-background-pressed' 20px 
 #CommonSmallIconButtonInverted:selected {
 background-image: 'meegotouch-textedit-button-inverted-background-selected' 20px 20px 20px 20px;
 }
+
+
+/* accent buttons */
+
+#CommonSingleButtonAccent {
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+
+text-color:      $CB_FONT_COLOR_ACCENT;
+background-image:$CB_BG_ACCENT $CORNER_MARGINS;
+}
+#CommonSingleButtonAccent:pressed {
+background-image:$CB_BG_ACCENT_PRESSED $CORNER_MARGINS;
+}
+#CommonSingleButtonAccent:selected {
+background-image:$CB_BG_ACCENT_SELECTED $CORNER_MARGINS;
+}
+
+#CommonLeftButtonAccent {
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+
+text-color:      $CB_FONT_COLOR_ACCENT;
+background-image:$CB_BG_ACCENT $CORNER_MARGINS;
+}
+#CommonLeftButtonAccent:pressed {
+background-image:$CB_BG_ACCENT_PRESSED $CORNER_MARGINS;
+}
+#CommonLeftButtonAccent:selected {
+background-image:$CB_BG_ACCENT_SELECTED $CORNER_MARGINS;
+}
+
+#CommonHorizontalCenterButtonAccent {
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+
+text-color:      $CB_FONT_COLOR_ACCENT;
+background-image:$CB_BG_ACCENT $CORNER_MARGINS;
+}
+
+#CommonRightButtonAccent {
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_M_RIGHT;
+
+text-color:      $CB_FONT_COLOR_ACCENT;
+background-image:$CB_BG_ACCENT $CORNER_MARGINS;
+}
+#CommonRightButtonAccent:pressed {
+background-image:$CB_BG_ACCENT_PRESSED $CORNER_MARGINS;
+}
+#CommonRightButtonAccent:selected {
+background-image:$CB_BG_ACCENT_SELECTED $CORNER_MARGINS;
+}
+
+#CommonTopButtonAccent {
+margin-top:      $CB_M_TOP;
+margin-left:     $CB_M_LEFT;
+text-color:      $CB_FONT_COLOR_ACCENT;
+background-image:$CB_BG_ACCENT $CORNER_MARGINS;
+}
+#CommonTopButtonAccent.Portrait {
+margin-bottom:   $CB_SPACE_BOTTOM;
+margin-right:    $CB_M_RIGHT;
+}
+#CommonTopButtonAccent.Landscape {
+margin-bottom:   $CB_M_BOTTOM;
+margin-right:    $CB_SPACE_RIGHT;
+}
+#CommonTopButtonAccent:pressed {
+background-image:$CB_BG_ACCENT_PRESSED $CORNER_MARGINS;
+}
+#CommonTopButtonAccent:selected {
+background-image:$CB_BG_ACCENT_SELECTED $CORNER_MARGINS;
+}
+
+#CommonVerticalCenterButtonAccent {
+text-color:      $CB_FONT_COLOR_ACCENT;
+background-image:$CB_BG_ACCENT $CORNER_MARGINS;
+}
+#CommonVerticalCenterButtonAccent.Portrait {
+margin-top:      $CB_SPACE_TOP;
+margin-bottom:   $CB_SPACE_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+}
+#CommonVerticalCenterButtonAccent.Landscape {
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+}
+#CommonVerticalCenterButtonAccent:pressed {
+background-image:$CB_BG_ACCENT_PRESSED $CORNER_MARGINS;
+}
+#CommonVerticalCenterButtonAccent:selected {
+background-image:$CB_BG_ACCENT_SELECTED $CORNER_MARGINS;
+}
+
+#CommonBottomButtonAccent {
+margin-bottom:   $CB_M_BOTTOM;
+margin-right:    $CB_M_RIGHT;
+
+text-color:      $CB_FONT_COLOR_ACCENT;
+background-image:$CB_BG_ACCENT $CORNER_MARGINS;
+}
+#CommonBottomButtonAccent.Portrait {
+margin-top:      $CB_SPACE_TOP;
+margin-left:     $CB_M_LEFT;
+}
+#CommonBottomButtonAccent.Landscape {
+margin-top:      $CB_M_TOP;
+margin-left:     $CB_SPACE_LEFT;
+}
+#CommonBottomButtonAccent:pressed {
+background-image:$CB_BG_ACCENT_PRESSED $CORNER_MARGINS;
+}
+#CommonBottomButtonAccent:selected {
+background-image:$CB_BG_ACCENT_SELECTED $CORNER_MARGINS;
+}
+
+
+/* ACCENT inverted buttons */
+
+#CommonSingleButtonAccentInverted {
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+
+text-color:      $CB_FONT_COLOR_ACCENT;
+background-image:$CB_BG_ACCENT_INVERTED $CORNER_MARGINS;
+}
+#CommonSingleButtonAccentInverted:pressed {
+background-image:$CB_BG_ACCENT_INVERTED_PRESSED $CORNER_MARGINS;
+}
+#CommonSingleButtonAccentInverted:selected {
+background-image:$CB_BG_ACCENT_INVERTED_SELECTED $CORNER_MARGINS;
+}
+
+#CommonLeftButtonAccentInverted {
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+
+text-color:      $CB_FONT_COLOR_ACCENT;
+background-image:$CB_BG_ACCENT_INVERTED $CORNER_MARGINS;
+}
+#CommonLeftButtonAccentInverted:pressed {
+background-image:$CB_BG_ACCENT_INVERTED_PRESSED $CORNER_MARGINS;
+}
+#CommonLeftButtonAccentInverted:selected {
+background-image:$CB_BG_ACCENT_INVERTED_SELECTED $CORNER_MARGINS;
+}
+
+#CommonHorizontalCenterButtonAccentInverted {
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+
+text-color:      $CB_FONT_COLOR_ACCENT;
+background-image:$CB_BG_ACCENT_INVERTED $CORNER_MARGINS;
+}
+
+#CommonRightButtonAccentInverted {
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_M_RIGHT;
+
+text-color:      $CB_FONT_COLOR_ACCENT;
+background-image:$CB_BG_ACCENT_INVERTED $CORNER_MARGINS;
+}
+#CommonRightButtonAccentInverted:pressed {
+background-image:$CB_BG_ACCENT_INVERTED_PRESSED $CORNER_MARGINS;
+}
+#CommonRightButtonAccentInverted:selected {
+background-image:$CB_BG_ACCENT_INVERTED_SELECTED $CORNER_MARGINS;
+}
+
+#CommonTopButtonAccentInverted {
+margin-top:      $CB_M_TOP;
+margin-left:     $CB_M_LEFT;
+text-color:      $CB_FONT_COLOR_ACCENT;
+background-image:$CB_BG_ACCENT_INVERTED $CORNER_MARGINS;
+}
+#CommonTopButtonAccentInverted.Portrait {
+margin-bottom:   $CB_SPACE_BOTTOM;
+margin-right:    $CB_M_RIGHT;
+}
+#CommonTopButtonAccentInverted.Landscape {
+margin-bottom:   $CB_M_BOTTOM;
+margin-right:    $CB_SPACE_RIGHT;
+}
+#CommonTopButtonAccentInverted:pressed {
+background-image:$CB_BG_ACCENT_INVERTED_PRESSED $CORNER_MARGINS;
+}
+#CommonTopButtonAccentInverted:selected {
+background-image:$CB_BG_ACCENT_INVERTED_SELECTED $CORNER_MARGINS;
+}
+
+#CommonVerticalCenterButtonAccentInverted {
+text-color:      $CB_FONT_COLOR_ACCENT;
+background-image:$CB_BG_ACCENT_INVERTED $CORNER_MARGINS;
+}
+#CommonVerticalCenterButtonAccentInverted.Portrait {
+margin-top:      $CB_SPACE_TOP;
+margin-bottom:   $CB_SPACE_BOTTOM;
+margin-left:     $CB_M_LEFT;
+margin-right:    $CB_M_RIGHT;
+}
+#CommonVerticalCenterButtonAccentInverted.Landscape {
+margin-top:      $CB_M_TOP;
+margin-bottom:   $CB_M_BOTTOM;
+margin-left:     $CB_SPACE_LEFT;
+margin-right:    $CB_SPACE_RIGHT;
+}
+#CommonVerticalCenterButtonAccentInverted:pressed {
+background-image:$CB_BG_ACCENT_INVERTED_PRESSED $CORNER_MARGINS;
+}
+#CommonVerticalCenterButtonAccentInverted:selected {
+background-image:$CB_BG_ACCENT_INVERTED_SELECTED $CORNER_MARGINS;
+}
+
+#CommonBottomButtonAccentInverted {
+margin-bottom:   $CB_M_BOTTOM;
+margin-right:    $CB_M_RIGHT;
+
+text-color:      $CB_FONT_COLOR_ACCENT;
+background-image:$CB_BG_ACCENT_INVERTED $CORNER_MARGINS;
+}
+#CommonBottomButtonAccentInverted.Portrait {
+margin-top:      $CB_SPACE_TOP;
+margin-left:     $CB_M_LEFT;
+}
+#CommonBottomButtonAccentInverted.Landscape {
+margin-top:      $CB_M_TOP;
+margin-left:     $CB_SPACE_LEFT;
+}
+#CommonBottomButtonAccentInverted:pressed {
+background-image:$CB_BG_ACCENT_INVERTED_PRESSED $CORNER_MARGINS;
+}
+#CommonBottomButtonAccentInverted:selected {
+background-image:$CB_BG_ACCENT_INVERTED_SELECTED $CORNER_MARGINS;
+}
+
 
 /* Temp for camera, needs to become moved */
 
