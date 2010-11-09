@@ -1,3 +1,17 @@
+meegotouchtheme (0.20.53-1) unstable; urgency=low
+
+  * New version
+  * Changes: Added Accent button styles to commonstyles
+  * Fixes: NB#201466 - Uninitialized properties in MSceneManagerStyle
+  * Changes: Namechange #CommonGroupDivider to #CommonHeaderDivider
+  * Changes: Added #CommonTextFrame to commonpanelstyle.css RevBy: TrustMe
+  * Changes: Added #CommonApplicationHeader to commonlabelstyles.css RevBy: TrustMe
+  * Changes: adding style for the header at dialog
+  * Changes: fixing conflicts with CommonHeaders
+  * Changes: Set dock widget offset to 0.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 09 Nov 2010 15:18:49 +0200
+
 meegotouchtheme (0.20.52-1) unstable; urgency=low
 
   * New version
