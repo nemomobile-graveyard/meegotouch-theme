@@ -25,7 +25,7 @@ MSliderStyle {
     groove-maximum-length: 200mm;
 
     steps-per-feedback: 1;
-    minimum-feedback-interval: 70;
+    minimum-feedback-interval: 50;
     feedback-speed-limit: 8;
     press-feedback: move;
     move-feedback: move;
