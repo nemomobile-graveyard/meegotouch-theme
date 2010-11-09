@@ -30,3 +30,6 @@
 
 /* preedit styling for input context */
 @import "mpreeditstyle.css";
+
+/* Style parameters for intelligent scrolling */
+@import "mrelocatorstyle.css";
