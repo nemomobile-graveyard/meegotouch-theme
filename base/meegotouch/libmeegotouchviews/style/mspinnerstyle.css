@@ -1,9 +1,10 @@
 /* MSpinnerStyle : MWidgetStyle */
 MSpinnerStyle {
-    bg-pixmap: "meegotouch-progressindicator-spinner-background" $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
-    progress-pixmap: "meegotouch-progressindicator-spinner-progress" $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
-    period: 1500;
+    base-image-name: "spinner";
+    base-image-size: $SIZE_SPINNER_LARGE;
+    period: 2000;
     refresh-rate: 33;
+    number-of-frames: 10;
 
     maximum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
     minimum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
@@ -11,9 +12,7 @@ MSpinnerStyle {
 }
 
 MApplicationMenuButton > MSpinnerStyle {
-    bg-pixmap: "meegotouch-progressindicator-spinner-background" $SIZE_SPINNER_MENU $SIZE_SPINNER_MENU;
-    progress-pixmap: "meegotouch-progressindicator-spinner-progress" $SIZE_SPINNER_MENU $SIZE_SPINNER_MENU;
-
+    base-image-size: $SIZE_SPINNER_MENU;
     margin-left: $MARGIN_DOUBLE;
     margin-top: 0;
     margin-right: 0;
@@ -30,18 +29,13 @@ MApplicationMenuButton > MSpinnerStyle {
 }
 
 MContainer MSpinnerStyle {
-    bg-pixmap: "meegotouch-progressindicator-spinner-background" $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
-    progress-pixmap: "meegotouch-progressindicator-spinner-progress" $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
-
     minimum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
     preferred-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
     maximum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
 }
 
 MContainerHeader MSpinnerStyle {
-    bg-pixmap: "meegotouch-progressindicator-spinner-background" $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
-    progress-pixmap: "meegotouch-progressindicator-spinner-progress" $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
-
+    base-image-size: $SIZE_SPINNER_SMALL;
     minimum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
     preferred-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
     maximum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
