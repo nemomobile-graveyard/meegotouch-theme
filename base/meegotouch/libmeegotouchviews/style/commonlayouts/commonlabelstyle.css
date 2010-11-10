@@ -651,12 +651,20 @@ margin-right:  $INDENT_DEFAULT;
 #CommonAvatarInitials {
     font: $FONT_XLARGE_BOLD;
     color: $COLOR_INVERTED_FOREGROUND;
-} /* move this to contacts? */
+    margin-top:    0;
+    margin-bottom: 0;
+    margin-left:   0;
+    margin-right:  0;
+} 
 
 #CommonLargeAvatarInitials {
     font: $FONT_FAMILY bold 4.0mm;
     color: $COLOR_INVERTED_FOREGROUND;
-} /* move this to contacts? */
+    margin-top:    0;
+    margin-bottom: 0;
+    margin-left:   0;
+    margin-right:  0;
+} 
 
 
 /* temporary styles */
