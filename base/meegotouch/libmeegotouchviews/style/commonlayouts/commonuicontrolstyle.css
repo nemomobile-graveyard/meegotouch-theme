@@ -273,7 +273,7 @@ minimum-size:    3.2mm 3.2mm;
 preferred-size:  3.2mm 3.2mm;
 maximum-size:    3.2mm 3.2mm;
 }
-#CommonViewHeaderSpinner {
+#CommonLargeSpinner {
 margin-top:      0;
 margin-bottom:   0;
 margin-left:     0;
@@ -284,6 +284,8 @@ maximum-size:    9.6mm 9.6mm;
 }
 
 #CommonViewHeaderSpinnerInverted {
+/* bg-pixmap: "meegotouch-progressindicator-spinner-background-inverted" 2.4mm 2.4mm;
+progress-pixmap: "meegotouch-progressindicator-spinner-progress-inverted" 2.4mm 2.4mm; */
 margin-top:      $MARGIN_LARGE;
 margin-bottom:   $MARGIN_LARGE;
 margin-left:     0;
@@ -301,7 +303,7 @@ minimum-size:    3.2mm 3.2mm;
 preferred-size:  3.2mm 3.2mm;
 maximum-size:    3.2mm 3.2mm;
 }
-#CommonViewHeaderSpinnerInverted {
+#CommonLargeSpinnerInverted {
 margin-top:      0;
 margin-bottom:   0;
 margin-left:     0;
@@ -314,8 +316,8 @@ maximum-size:    9.6mm 9.6mm;
 /* Progress bar */
 
 #CommonProgressBar {
-margin-top:      $MARGIN_DOUBLE;
-margin-bottom:   $MARGIN_DOUBLE;
+margin-top:      $MARGIN_LARGE;
+margin-bottom:   $MARGIN_LARGE;
 margin-left:     $INDENT_DEFAULT;
 margin-right:    $INDENT_DEFAULT;
 /* This is causing problems at MAdvanceListItem Fix me
@@ -324,8 +326,8 @@ preferred-size:  44.8mm -1;
 maximum-size:    44.8mm -1; */
 }
 #CommonProgressBarInverted {
-margin-top:      $MARGIN_DOUBLE;
-margin-bottom:   $MARGIN_DOUBLE;
+margin-top:      $MARGIN_LARGE;
+margin-bottom:   $MARGIN_LARGE;
 margin-left:     $INDENT_DEFAULT;
 margin-right:    $INDENT_DEFAULT;
 /* This is causing problems at MAdvanceListItem Fix me
