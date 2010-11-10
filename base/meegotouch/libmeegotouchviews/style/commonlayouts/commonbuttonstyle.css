@@ -1,7 +1,7 @@
 @const CB_WIDTH:    32.2mm; /* CB reffers to CommonButton */
 @const CB_HEIGHT:   5.1mm;
-@const CB_M_TOP:    1.5mm;
-@const CB_M_BOTTOM: 1.5mm;
+@const CB_M_TOP:    0.7mm;
+@const CB_M_BOTTOM: 0.6mm;
 @const CB_M_LEFT:   $INDENT_DEFAULT;
 @const CB_M_RIGHT:  $INDENT_DEFAULT;
 @const CB_FONT:     $FONT_FAMILY bold uppercase 22;
