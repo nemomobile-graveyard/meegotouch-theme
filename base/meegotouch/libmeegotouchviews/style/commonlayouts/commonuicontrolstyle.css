@@ -33,7 +33,7 @@ margin-right:    $INDENT_DEFAULT;
 
 /* Checkbox */
 
-#CommonCheckBox {
+#CommonCheckbox {
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
@@ -41,13 +41,13 @@ background-image: meegotouch-button-checkbox-background 0px 0px 0px 0px;
 margin-left:     1.5mm;
 margin-right:    1.5mm;
 }
-#CommonCheckBox:pressed {
+#CommonCheckbox:pressed {
 background-image: meegotouch-button-checkbox-background-pressed 0px 0px 0px 0px;
 }
-#CommonCheckBox:selected {
+#CommonCheckbox:selected {
 background-image: meegotouch-button-checkbox-background-selected 0px 0px 0px 0px;
 }
-#CommonLeftCheckBox {
+#CommonLeftCheckbox {
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
@@ -55,13 +55,13 @@ background-image: meegotouch-button-checkbox-background 0px 0px 0px 0px;
 margin-left:     $INDENT_DEFAULT;
 margin-right:    0;
 }
-#CommonLeftCheckBox:pressed {
+#CommonLeftCheckbox:pressed {
 background-image: meegotouch-button-checkbox-background-pressed 0px 0px 0px 0px;
 }
-#CommonLeftCheckBox:selected {
+#CommonLeftCheckbox:selected {
 background-image: meegotouch-button-checkbox-background-selected 0px 0px 0px 0px;
 }
-#CommonRightCheckBox {
+#CommonRightCheckbox {
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
@@ -69,14 +69,14 @@ background-image: meegotouch-button-checkbox-background 0px 0px 0px 0px;
 margin-left:     0;
 margin-right:    $INDENT_DEFAULT;
 }
-#CommonRightCheckBox:pressed {
+#CommonRightCheckbox:pressed {
 background-image: meegotouch-button-checkbox-background-pressed 0px 0px 0px 0px;
 }
-#CommonRightCheckBox:selected {
+#CommonRightCheckbox:selected {
 background-image: meegotouch-button-checkbox-background-selected 0px 0px 0px 0px;
 }
 
-#CommonCheckBoxInverted {
+#CommonCheckboxInverted {
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
@@ -84,13 +84,13 @@ background-image: meegotouch-button-checkbox-inverted-background 0px 0px 0px 0px
 margin-left:     $INDENT_DEFAULT;
 margin-right:    $INDENT_DEFAULT;
 }
-#CommonCheckBoxInverted:pressed {
+#CommonCheckboxInverted:pressed {
 background-image: meegotouch-button-checkbox-inverted-background-pressed 0px 0px 0px 0px;
 }
-#CommonCheckBoxInverted:selected {
+#CommonCheckboxInverted:selected {
 background-image: meegotouch-button-checkbox-inverted-background-selected 0px 0px 0px 0px;
 }
-#CommonLeftCheckBoxInverted {
+#CommonLeftCheckboxInverted {
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
@@ -98,13 +98,13 @@ background-image: meegotouch-button-checkbox-inverted-background  0px 0px 0px 0p
 margin-left:     $INDENT_DEFAULT;
 margin-right:    0;
 }
-#CommonLeftCheckBoxInverted:pressed {
+#CommonLeftCheckboxInverted:pressed {
 background-image:meegotouch-button-checkbox-inverted-background-pressed 0px 0px 0px 0px;
 }
-#CommonLeftCheckBoxInverted:selected {
+#CommonLeftCheckboxInverted:selected {
 background-image:meegotouch-button-checkbox-inverted-background-selected 0px 0px 0px 0px;
 }
-#CommonRightCheckBoxInverted {
+#CommonRightCheckboxInverted {
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
@@ -112,10 +112,10 @@ background-image:meegotouch-button-checkbox-inverted-background 0px 0px 0px 0px;
 margin-left:     0;
 margin-right:    $INDENT_DEFAULT;
 }
-#CommonRightCheckBoxInverted:pressed {
+#CommonRightCheckboxInverted:pressed {
 background-image:meegotouch-button-checkbox-inverted-background-pressed 0px 0px 0px 0px;
 }
-#CommonRightCheckBoxInverted:selected {
+#CommonRightCheckboxInverted:selected {
 background-image:meegotouch-button-checkbox-inverted-background-selected 0px 0px 0px 0px;
 }
 
