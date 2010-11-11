@@ -37,86 +37,86 @@ margin-right:    $INDENT_DEFAULT;
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
-background-image:'meegotouch-button-checkbox-background' 0px 0px 0px 0px;
+background-image: meegotouch-button-checkbox-background 0px 0px 0px 0px;
 margin-left:     1.5mm;
 margin-right:    1.5mm;
 }
 #CommonCheckBox:pressed {
-background-image:'meegotouch-button-checkbox-background-pressed' 0px 0px 0px 0px;
+background-image: meegotouch-button-checkbox-background-pressed 0px 0px 0px 0px;
 }
 #CommonCheckBox:selected {
-background-image:'meegotouch-button-checkbox-background-selected' 0px 0px 0px 0px;
+background-image: meegotouch-button-checkbox-background-selected 0px 0px 0px 0px;
 }
 #CommonLeftCheckBox {
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
-background-image:'meegotouch-button-checkbox-background' 0px 0px 0px 0px;
+background-image: meegotouch-button-checkbox-background 0px 0px 0px 0px;
 margin-left:     $INDENT_DEFAULT;
 margin-right:    0;
 }
 #CommonLeftCheckBox:pressed {
-background-image:'meegotouch-button-checkbox-background-pressed' 0px 0px 0px 0px;
+background-image: meegotouch-button-checkbox-background-pressed 0px 0px 0px 0px;
 }
 #CommonLeftCheckBox:selected {
-background-image:'meegotouch-button-checkbox-background-selected' 0px 0px 0px 0px;
+background-image: meegotouch-button-checkbox-background-selected 0px 0px 0px 0px;
 }
 #CommonRightCheckBox {
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
-background-image:'meegotouch-button-checkbox-background' 0px 0px 0px 0px;
+background-image: meegotouch-button-checkbox-background 0px 0px 0px 0px;
 margin-left:     0;
 margin-right:    $INDENT_DEFAULT;
 }
 #CommonRightCheckBox:pressed {
-background-image:'meegotouch-button-checkbox-background-pressed' 0px 0px 0px 0px;
+background-image: meegotouch-button-checkbox-background-pressed 0px 0px 0px 0px;
 }
 #CommonRightCheckBox:selected {
-background-image:'meegotouch-button-checkbox-background-selected' 0px 0px 0px 0px;
+background-image: meegotouch-button-checkbox-background-selected 0px 0px 0px 0px;
 }
 
 #CommonCheckBoxInverted {
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
-background-image:'meegotouch-button-checkbox-inverted-background' 0px 0px 0px 0px;
+background-image: meegotouch-button-checkbox-inverted-background 0px 0px 0px 0px;
 margin-left:     $INDENT_DEFAULT;
 margin-right:    $INDENT_DEFAULT;
 }
 #CommonCheckBoxInverted:pressed {
-background-image:'meegotouch-button-checkbox-inverted-background-pressed' 0px 0px 0px 0px;
+background-image: meegotouch-button-checkbox-inverted-background-pressed 0px 0px 0px 0px;
 }
 #CommonCheckBoxInverted:selected {
-background-image:'meegotouch-button-checkbox-inverted-background-selected' 0px 0px 0px 0px;
+background-image: meegotouch-button-checkbox-inverted-background-selected 0px 0px 0px 0px;
 }
 #CommonLeftCheckBoxInverted {
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
-background-image:'meegotouch-button-checkbox-inverted-background' 0px 0px 0px 0px;
+background-image: meegotouch-button-checkbox-inverted-background  0px 0px 0px 0px;
 margin-left:     $INDENT_DEFAULT;
 margin-right:    0;
 }
 #CommonLeftCheckBoxInverted:pressed {
-background-image:'meegotouch-button-checkbox-inverted-background-pressed' 0px 0px 0px 0px;
+background-image:meegotouch-button-checkbox-inverted-background-pressed 0px 0px 0px 0px;
 }
 #CommonLeftCheckBoxInverted:selected {
-background-image:'meegotouch-button-checkbox-inverted-background-selected' 0px 0px 0px 0px;
+background-image:meegotouch-button-checkbox-inverted-background-selected 0px 0px 0px 0px;
 }
 #CommonRightCheckBoxInverted {
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
-background-image:'meegotouch-button-checkbox-inverted-background' 0px 0px 0px 0px;
+background-image:meegotouch-button-checkbox-inverted-background 0px 0px 0px 0px;
 margin-left:     0;
 margin-right:    $INDENT_DEFAULT;
 }
 #CommonRightCheckBoxInverted:pressed {
-background-image:'meegotouch-button-checkbox-inverted-background-pressed' 0px 0px 0px 0px;
+background-image:meegotouch-button-checkbox-inverted-background-pressed 0px 0px 0px 0px;
 }
 #CommonRightCheckBoxInverted:selected {
-background-image:'meegotouch-button-checkbox-inverted-background-selected' 0px 0px 0px 0px;
+background-image:meegotouch-button-checkbox-inverted-background-selected 0px 0px 0px 0px;
 }
 
 /* Radio Button */
@@ -125,88 +125,88 @@ background-image:'meegotouch-button-checkbox-inverted-background-selected' 0px 0
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
-background-image:'meegotouch-button-radiobutton-background' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-background 0px 0px 0px 0px;
 margin-left:     $INDENT_DEFAULT;
 margin-right:    $INDENT_DEFAULT;
 }
 #CommonRadioButton:pressed {
-background-image:'meegotouch-button-radiobutton-background-pressed' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-background-pressed 0px 0px 0px 0px;
 }
 #CommonRadioButton:selected {
-background-image:'meegotouch-button-radiobutton-background-selected' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-background-selected 0px 0px 0px 0px;
 }
 #CommonLeftRadioButton {
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
-background-image:'meegotouch-button-radiobutton-background' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-background 0px 0px 0px 0px;
 margin-left:     $INDENT_DEFAULT;
 margin-right:    0;
 }
 #CommonLeftRadioButton:pressed {
-background-image:'meegotouch-button-radiobutton-background-pressed' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-background-pressed 0px 0px 0px 0px;
 }
 #CommonLeftRadioButton:selected {
-background-image:'meegotouch-button-radiobutton-background-selected' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-background-selected 0px 0px 0px 0px;
 }
 #CommonRightRadioButton {
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
-background-image:'meegotouch-button-radiobutton-background' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-background 0px 0px 0px 0px;
 margin-left:     0;
 margin-right:    $INDENT_DEFAULT;
 }
 #CommonRightRadioButton:pressed {
-background-image:'meegotouch-button-radiobutton-background-pressed' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-background-pressed 0px 0px 0px 0px;
 }
 #CommonRightRadioButton:selected {
-background-image:'meegotouch-button-radiobutton-background-selected' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-background-selected 0px 0px 0px 0px;
 }
 
 #CommonRadioButtonInverted {
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
-background-image:'meegotouch-button-radiobutton-inverted-background' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-inverted-background 0px 0px 0px 0px;
 margin-left:     $INDENT_DEFAULT;
 margin-right:    $INDENT_DEFAULT;
 }
 #CommonRadioButtonInverted:pressed {
-background-image:'meegotouch-button-radiobutton-inverted-background-pressed' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-inverted-background-pressed 0px 0px 0px 0px;
 }
 #CommonRadioButtonInverted:selected {
-background-image:'meegotouch-button-radiobutton-inverted-background-selected' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-inverted-background-selected 0px 0px 0px 0px;
 }
 
 #CommonLeftRadioButtonInverted {
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
-background-image:'meegotouch-button-radiobutton-inverted-background' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-inverted-background 0px 0px 0px 0px;
 margin-left:     $INDENT_DEFAULT;
 margin-right:    0;
 }
 #CommonLeftRadioButtonInverted:pressed {
-background-image:'meegotouch-button-radiobutton-inverted-background-pressed' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-inverted-background-pressed 0px 0px 0px 0px;
 }
 #CommonLeftRadioButtonInverted:selected {
-background-image:'meegotouch-button-radiobutton-inverted-background-selected' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-inverted-background-selected 0px 0px 0px 0px;
 }
 
 #CommonRightRadioButtonInverted {
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
-background-image:'meegotouch-button-radiobutton-inverted-background' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-inverted-background 0px 0px 0px 0px;
 margin-left:     0;
 margin-right:    $INDENT_DEFAULT;
 }
 #CommonLeftRadioButtonInverted:pressed {
-background-image:'meegotouch-button-radiobutton-inverted-background-pressed' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-inverted-background-pressed 0px 0px 0px 0px;
 }
 #CommonLeftRadioButtonInverted:selected {
-background-image:'meegotouch-button-radiobutton-inverted-background-selected' 0px 0px 0px 0px;
+background-image:meegotouch-button-radiobutton-inverted-background-selected 0px 0px 0px 0px;
 }
 
 /* Slider */
