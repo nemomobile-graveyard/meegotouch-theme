@@ -1,7 +1,7 @@
 /* Divider */
 
 #CommonItemDivider {
-background-image: 'meegotouch-separator-background-horizontal' 4px 4px 2px 2px;
+background-image: meegotouch-separator-background-horizontal 4px 4px 2px 2px;
 span:			0.9mm;
 margin-top:     0;
 margin-bottom:  0;
@@ -10,7 +10,7 @@ margin-right:   0;
 }
 
 #CommonHeaderDivider {
-background-image: 'meegotouch-groupseparator-background-horizontal' 4px 4px 2px 2px;
+background-image: meegotouch-groupseparator-background-horizontal 4px 4px 2px 2px;
 span:			0.9mm;
 margin-top:     0;
 margin-bottom:  0;
@@ -19,7 +19,7 @@ margin-right:   0;
 }
 
 #CommonGroupHeaderDivider {
-background-image: 'meegotouch-groupseparator-header-background-horizontal' 4px 4px 2px 2px;
+background-image: meegotouch-groupseparator-header-background-horizontal 4px 4px 2px 2px;
 span:			0.9mm;
 margin-top:     0;
 margin-bottom:  0;
@@ -28,7 +28,7 @@ margin-right:   0;
 }
 
 #CommonHorizontalSeparator {
-background-image: 'meegotouch-separator-background-horizontal' 4px 4px 2px 2px;
+background-image: meegotouch-separator-background-horizontal 4px 4px 2px 2px;
 span:			0.1mm;
 margin-top:     0;
 margin-bottom:  0;
@@ -37,7 +37,7 @@ margin-right:   0;
 }
 
 #CommonVerticalSeparator {
-background-image: 'meegotouch-separator-background-vertical' 4px 4px 2px 2px;
+background-image: meegotouch-separator-background-vertical 4px 4px 2px 2px;
 margin-right:   0;
 margin-left:    0;
 margin-bottom:  0;
@@ -46,7 +46,7 @@ margin-top:     0;
 
 
 #CommonItemDividerInverted {
-background-image: 'meegotouch-separator-inverted-background-horizontal' 4px 4px 2px 2px;
+background-image: meegotouch-separator-inverted-background-horizontal 4px 4px 2px 2px;
 span:			0.9mm;
 margin-top:     0;
 margin-bottom:  0;
@@ -55,7 +55,7 @@ margin-right:   0;
 }
 
 #CommonHeaderDividerInverted {
-background-image: 'meegotouch-groupseparator-inverted-background-horizontal' 4px 4px 2px 2px;
+background-image: meegotouch-groupseparator-inverted-background-horizontal 4px 4px 2px 2px;
 span:			0.9mm;
 margin-top:     0;
 margin-bottom:  0;
@@ -64,7 +64,7 @@ margin-right:   0;
 }
 
 #CommonGroupHeaderDividerInverted {
-background-image: 'meegotouch-groupseparator-header-inverted-background-horizontal' 4px 4px 2px 2px;
+background-image: meegotouch-groupseparator-header-inverted-background-horizontal 4px 4px 2px 2px;
 span:			0.9mm;
 margin-top:     0;
 margin-bottom:  0;
@@ -73,7 +73,7 @@ margin-right:   0;
 }
 
 #CommonHorizontalSeparatorInverted {
-background-image: 'meegotouch-separator-inverted-background-horizontal' 4px 4px 2px 2px;
+background-image: meegotouch-separator-inverted-background-horizontal 4px 4px 2px 2px;
 span:			0.1mm;
 margin-top:     0;
 margin-bottom:  0;
@@ -82,7 +82,7 @@ margin-right:   0;
 }
 
 #CommonVerticalSeparatorInverted {
-background-image: 'meegotouch-separator-inverted-background-vertical' 4px 4px 2px 2px;
+background-image: meegotouch-separator-inverted-background-vertical 4px 4px 2px 2px;
 margin-right:   0;
 margin-left:    0;
 margin-bottom:  0;
