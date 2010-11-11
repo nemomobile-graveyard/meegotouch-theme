@@ -28,6 +28,9 @@ MSliderStyle {
     minimum-feedback-interval: 50;
     press-feedback: move;
     move-feedback: move;
+
+    handle-label-margin: 0px;
+    handle-label-arrow-margin: 11px;
 }
 
 #MSliderMinMaxLabel {
