@@ -1139,7 +1139,7 @@ margin-right: $INDENT_DEFAULT;
 }
 
 #CommonListButton {
-background-image: 'meegotouch-textedit-button-background' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-background 20px 20px 20px 20px;
 minimum-size:     4.2mm 4.3mm;
 preferred-size:   4.2mm 4.3mm;
 maximum-size:     12.2mm 4.3mm;
@@ -1147,14 +1147,14 @@ margin-left:      0;
 margin-right:     $INDENT_DEFAULT;
 }
 #CommonListButton:pressed {
-background-image: 'meegotouch-textedit-button-background-pressed' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-background-pressed 20px 20px 20px 20px;
 }
 #CommonListButton:selected {
-background-image: 'meegotouch-textedit-button-background-selected' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-background-selected 20px 20px 20px 20px;
 }
 
 #CommonListButtonInverted {
-background-image: 'meegotouch-textedit-button-inverted-background' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-inverted-background 20px 20px 20px 20px;
 minimum-size:     4.2mm 4.3mm;
 preferred-size:   4.2mm 4.3mm;
 maximum-size:     12.2mm 4.3mm;
@@ -1162,14 +1162,14 @@ margin-left:      0;
 margin-right:     $INDENT_DEFAULT;
 }
 #CommonListButtonInverted:pressed {
-background-image: 'meegotouch-textedit-button-inverted-background-pressed' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-inverted-background-pressed 20px 20px 20px 20px;
 }
 #CommonListButtonInverted:selected {
-background-image: 'meegotouch-textedit-button-inverted-background-selected' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-inverted-background-selected 20px 20px 20px 20px;
 }
 
 #CommonHeaderButton {
-background-image: 'meegotouch-textedit-button-background' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-background 20px 20px 20px 20px;
 minimum-size:     4.2mm 4.3mm;
 preferred-size:   4.2mm 4.3mm;
 maximum-size:     12.2mm 4.3mm;
@@ -1177,14 +1177,14 @@ margin-left:      0;
 margin-right:     $INDENT_DEFAULT;
 }
 #CommonHeaderButton:pressed {
-background-image: 'meegotouch-textedit-button-background-pressed' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-background-pressed 20px 20px 20px 20px;
 }
 #CommonHeaderButton:selected {
-background-image: 'meegotouch-textedit-button-background-selected' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-background-selected 20px 20px 20px 20px;
 }
 
 #CommonHeaderButtonInverted {
-background-image: 'meegotouch-textedit-button-inverted-background' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-inverted-background 20px 20px 20px 20px;
 minimum-size:     4.2mm 4.3mm;
 preferred-size:   4.2mm 4.3mm;
 maximum-size:     12.2mm 4.3mm;
@@ -1192,16 +1192,16 @@ margin-left:      0;
 margin-right:     $INDENT_DEFAULT;
 }
 #CommonHeaderButtonInverted:pressed {
-background-image: 'meegotouch-textedit-button-inverted-background-pressed' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-inverted-background-pressed 20px 20px 20px 20px;
 }
 #CommonHeaderButtonInverted:selected {
-background-image: 'meegotouch-textedit-button-inverted-background-selected' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-inverted-background-selected 20px 20px 20px 20px;
 }
 
 /* Toolbar buttons */
 
 #CommonToolbarButton {
-background-image: 'meegotouch-button-navigationbar-tab-button-background' $TBB_CORNERS;
+background-image: meegotouch-button-navigationbar-tab-button-background $TBB_CORNERS;
 minimum-size:     $TBB_HEIGHT $TBB_HEIGHT;
 preferred-size:   $TBB_WIDTH $TBB_HEIGHT;
 maximum-size:     $TBB_WIDTH $TBB_HEIGHT;
@@ -1209,13 +1209,13 @@ margin-left:      $MARGIN_SMALL;
 margin-right:     $MARGIN_SMALL;
 }
 #CommonToolbarButton:pressed {
-background-image: 'meegotouch-button-navigationbar-tab-button-background-pressed' $TBB_CORNERS;
+background-image: meegotouch-button-navigationbar-tab-button-background-pressed $TBB_CORNERS;
 }
 #CommonToolbarButton:selected {
-background-image: 'meegotouch-button-navigationbar-tab-button-background-selected' $TBB_CORNERS;
+background-image: meegotouch-button-navigationbar-tab-button-background-selected $TBB_CORNERS;
 }
 #CommonToolbarLeftSplitButton {
-background-image: 'meegotouch-button-navigationbar-tab-button-background-horizontal-left' $TBSB_CORNERS;
+background-image: meegotouch-button-navigationbar-tab-button-background-horizontal-left $TBSB_CORNERS;
 minimum-size:     $TBSB_HEIGHT $TBSB_HEIGHT;
 preferred-size:   $TBSB_WIDTH $TBSB_HEIGHT;
 maximum-size:     $TBSB_WIDTH $TBSB_HEIGHT;
@@ -1223,13 +1223,13 @@ margin-left:      $MARGIN_SMALL;
 margin-right:     0;
 }
 #CommonToolbarLeftSplitButton:pressed {
-background-image: 'meegotouch-button-navigationbar-tab-button-background-pressed-horizontal-left' $TBSB_CORNERS;
+background-image: meegotouch-button-navigationbar-tab-button-background-pressed-horizontal-left $TBSB_CORNERS;
 }
 #CommonToolbarLeftSplitButton:selected {
-background-image: 'meegotouch-button-navigationbar-tab-button-background-selected-horizontal-left' $TBSB_CORNERS;
+background-image: meegotouch-button-navigationbar-tab-button-background-selected-horizontal-left $TBSB_CORNERS;
 }
 #CommonToolbarCenterSplitButton {
-background-image: 'meegotouch-button-navigationbar-tab-button-background-horizontal-center' $TBSB_CORNERS;
+background-image: meegotouch-button-navigationbar-tab-button-background-horizontal-center $TBSB_CORNERS;
 minimum-size:     $TBSB_HEIGHT $TBSB_HEIGHT;
 preferred-size:   $TBSB_WIDTH $TBSB_HEIGHT;
 maximum-size:     $TBSB_WIDTH $TBSB_HEIGHT;
@@ -1237,13 +1237,13 @@ margin-left:      0;
 margin-right:     0;
 }
 #CommonToolbarCenterSplitButton:pressed {
-background-image: 'meegotouch-button-navigationbar-tab-button-background-pressed-horizontal-center' $TBSB_CORNERS;
+background-image: meegotouch-button-navigationbar-tab-button-background-pressed-horizontal-center $TBSB_CORNERS;
 }
 #CommonToolbarCenterSplitButton:selected {
-background-image: 'meegotouch-button-navigationbar-tab-button-background-selected-horizontal-center' $TBSB_CORNERS;
+background-image: meegotouch-button-navigationbar-tab-button-background-selected-horizontal-center $TBSB_CORNERS;
 }
 #CommonToolbarRightSplitButton {
-background-image: 'meegotouch-button-navigationbar-tab-button-background-horizontal-right' $TBSB_CORNERS;
+background-image: meegotouch-button-navigationbar-tab-button-background-horizontal-right $TBSB_CORNERS;
 minimum-size:     $TBSB_HEIGHT $TBSB_HEIGHT;
 preferred-size:   $TBSB_WIDTH $TBSB_HEIGHT;
 maximum-size:     $TBSB_WIDTH $TBSB_HEIGHT;
@@ -1251,10 +1251,10 @@ margin-left:      0;
 margin-right:     $MARGIN_SMALL;
 }
 #CommonToolbarRightSplitButton:pressed {
-background-image: 'meegotouch-button-navigationbar-tab-button-background-pressed-horizontal-right' $TBSB_CORNERS;
+background-image: meegotouch-button-navigationbar-tab-button-background-pressed-horizontal-right $TBSB_CORNERS;
 }
 #CommonToolbarRightSplitButton:selected {
-background-image: 'meegotouch-button-navigationbar-tab-button-background-selected-horizontal-right' $TBSB_CORNERS;
+background-image: meegotouch-button-navigationbar-tab-button-background-selected-horizontal-right $TBSB_CORNERS;
 }
 #CommonOverlayToolbarButton {
 /* TBD */
@@ -1263,7 +1263,7 @@ background-image: 'meegotouch-button-navigationbar-tab-button-background-selecte
 /* Input Field Buttons */
 
 #CommonRightInputFieldButton {
-background-image: 'meegotouch-textedit-button-background' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-background 20px 20px 20px 20px;
 minimum-size:     4.2mm 4.3mm;
 preferred-size:   4.2mm 4.3mm;
 maximum-size:     12.2mm 4.3mm;
@@ -1271,13 +1271,13 @@ margin-left:      0;
 margin-right:     $INDENT_DEFAULT;
 }
 #CommonRightInputFieldButton:pressed {
-background-image: 'meegotouch-textedit-button-background-pressed' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-background-pressed 20px 20px 20px 20px;
 }
 #CommonRightInputFieldButton:selected {
-background-image: 'meegotouch-textedit-button-background-selected' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-background-selected 20px 20px 20px 20px;
 }
 #CommonLeftInputFieldButton {
-background-image: 'meegotouch-textedit-button-background' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-background 20px 20px 20px 20px;
 minimum-size:     4.2mm 4.3mm;
 preferred-size:   4.2mm 4.3mm;
 maximum-size:     12.2mm 4.3mm;
@@ -1285,14 +1285,14 @@ margin-left:      $INDENT_DEFAULT;
 margin-right:     0;
 }
 #CommonLeftInputFieldButton:pressed {
-background-image: 'meegotouch-textedit-button-background-pressed' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-background-pressed 20px 20px 20px 20px;
 }
 #CommonLeftInputFieldButton:selected {
-background-image: 'meegotouch-textedit-button-background-selected' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-background-selected 20px 20px 20px 20px;
 }
 
 #CommonRightInputFieldButtonInverted {
-background-image: 'meegotouch-textedit-button-inverted-background' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-inverted-background 20px 20px 20px 20px;
 minimum-size:     4.2mm 4.3mm;
 preferred-size:   4.2mm 4.3mm;
 maximum-size:     12.2mm 4.3mm;
@@ -1300,13 +1300,13 @@ margin-left:      0;
 margin-right:     $INDENT_DEFAULT;
 }
 #CommonRightInputFieldButtonInverted:pressed {
-background-image: 'meegotouch-textedit-button-inverted-background-pressed' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-inverted-background-pressed 20px 20px 20px 20px;
 }
 #CommonRightInputFieldButtonInverted:selected {
-background-image: 'meegotouch-textedit-button-inverted-background-selected' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-inverted-background-selected 20px 20px 20px 20px;
 }
 #CommonLeftInputFieldButtonInverted {
-background-image: 'meegotouch-textedit-button-inverted-background' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-inverted-background 20px 20px 20px 20px;
 minimum-size:     4.2mm 4.3mm;
 preferred-size:   4.2mm 4.3mm;
 maximum-size:     12.2mm 4.3mm;
@@ -1314,16 +1314,16 @@ margin-left:      $INDENT_DEFAULT;
 margin-right:     0;
 }
 #CommonLeftInputFieldButtonInverted:pressed {
-background-image: 'meegotouch-textedit-button-inverted-background-pressed' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-inverted-background-pressed 20px 20px 20px 20px;
 }
 #CommonLeftInputFieldButtonInverted:selected {
-background-image: 'meegotouch-textedit-button-inverted-background-selected' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-inverted-background-selected 20px 20px 20px 20px;
 }
 
 /* Very small Icon button */
 
 #CommonSmallIconButton {
-background-image: 'meegotouch-textedit-button-background' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-background 20px 20px 20px 20px;
 minimum-size:     4.2mm 4.3mm;
 preferred-size:   4.2mm 4.3mm;
 maximum-size:     12.2mm 4.3mm;
@@ -1331,14 +1331,14 @@ margin-left:      0;
 margin-right:     0;
 }
 #CommonSmallIconButton:pressed {
-background-image: 'meegotouch-textedit-button-background-pressed' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-background-pressed 20px 20px 20px 20px;
 }
 #CommonSmallIconButton:selected {
-background-image: 'meegotouch-textedit-button-background-selected' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-background-selected 20px 20px 20px 20px;
 }
 
 #CommonSmallIconButtonInverted {
-background-image: 'meegotouch-textedit-button-inverted-background' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-inverted-background 20px 20px 20px 20px;
 minimum-size:     4.2mm 4.3mm;
 preferred-size:   4.2mm 4.3mm;
 maximum-size:     12.2mm 4.3mm;
@@ -1346,10 +1346,10 @@ margin-left:      0;
 margin-right:     0;
 }
 #CommonSmallIconButtonInverted:pressed {
-background-image: 'meegotouch-textedit-button-inverted-background-pressed' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-inverted-background-pressed 20px 20px 20px 20px;
 }
 #CommonSmallIconButtonInverted:selected {
-background-image: 'meegotouch-textedit-button-inverted-background-selected' 20px 20px 20px 20px;
+background-image: meegotouch-textedit-button-inverted-background-selected 20px 20px 20px 20px;
 }
 
 
