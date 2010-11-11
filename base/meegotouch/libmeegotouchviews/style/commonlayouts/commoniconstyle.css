@@ -191,7 +191,7 @@ margin-right:   0;
 margin-top:     $MARGIN_LARGE;
 margin-bottom:  $MARGIN_LARGE;
 /* The image is temporary and will be replaced with a dedicated placeholder graphic */
-avatarBackgroundImage: 'meegotouch-panel-background-selected';
+avatarBackgroundImage: meegotouch-panel-background-selected;
 }
 
 #CommonLargeAvatarPlaceholder {
@@ -203,5 +203,5 @@ margin-right:   0;
 margin-top:     0.4mm;
 margin-bottom:  0.4mm;
 /* The image is temporary and will be replaced with a dedicated placeholder graphic */
-avatarBackgroundImage: 'meegotouch-panel-background-selected';
+avatarBackgroundImage: meegotouch-panel-background-selected;
 }
