@@ -90,6 +90,12 @@ MBannerStyle #EventScreen {
     margin-bottom:0.3mm;
 }
 
+#PrefixTimeStamp { 
+    font: $FONT_XSMALL_BOLD;
+    color:$COLOR_INVERTED_FOREGROUND;
+    margin-bottom:0.3mm;
+}
+
 /* Event banner at lock screen */
 
 MBannerStyle #LockScreen {
