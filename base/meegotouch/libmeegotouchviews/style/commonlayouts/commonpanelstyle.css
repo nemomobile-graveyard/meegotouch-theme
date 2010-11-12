@@ -135,6 +135,47 @@ background-tiles:  ;
 background-image:  $CUP_INVERTED_BG_SELECTED;
 }
 
+#CommonLargeUnreadPanel {
+minimum-size:      $SIZE_LIST $SIZE_LIST;    
+preferred-size:    -1 -1;
+maximum-size:      -1 -1;
+background-tiles:  ;
+background-image:  $CUP_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonLargeUnreadPanel:pressed {
+background-tiles:  ;
+background-image:  $CUP_BG_PRESSED;
+}
+#CommonLargeUnreadPanel:selected {
+background-tiles:  ;
+background-image:  $CUP_BG_SELECTED;
+}
+
+#CommonLargeUnreadPanelInverted {
+minimum-size:      $SIZE_LIST $SIZE_LIST;    
+preferred-size:    -1 -1;
+maximum-size:      -1 -1; 
+background-tiles:  ;
+background-image:  $CUP_INVERTED_BG;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      0;
+}
+#CommonLargeUnreadPanelInverted:pressed {
+background-tiles:  ;
+background-image:  $CUP_INVERTED_BG_PRESSED;
+}
+#CommonLargeUnreadPanelInverted:selected {
+background-tiles:  ;
+background-image:  $CUP_INVERTED_BG_SELECTED;
+}
+
+
 #CommonSmallPanel {
 minimum-size:      50 50;   
 preferred-size:    -1 50;   
