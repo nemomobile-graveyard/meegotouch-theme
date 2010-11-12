@@ -11,6 +11,7 @@
 @const CB_FONT_COLOR_INVERTED: #FFFFFF;
 @const CB_FONT_COLOR_INVERTED_PRESSED: #797979;
 @const CB_FONT_COLOR_INVERTED_SELECTED: #FFFFFF;
+@const CB_FONT_COLOR_INVERTED_DISABLED: #4E4E4E;
 @const CB_FONT_COLOR_POSITIVE: #FFFFFF;
 @const CB_FONT_COLOR_ACCENT: #FFFFFF;
 @const CB_FONT_COLOR_NEGATIVE: #FFFFFF;
@@ -25,24 +26,31 @@
 @const CB_BG_INVERTED:          meegotouch-button-inverted-background;
 @const CB_BG_INVERTED_PRESSED:  meegotouch-button-inverted-background-pressed;
 @const CB_BG_INVERTED_SELECTED: meegotouch-button-inverted-background-selected;
+@const CB_BG_INVERTED_DISABLED: meegotouch-button-inverted-background-disabled;
 @const CB_BG_POSITIVE:          meegotouch-button-positive-background;
 @const CB_BG_POSITIVE_PRESSED:  meegotouch-button-positive-background-pressed;
 @const CB_BG_POSITIVE_SELECTED: meegotouch-button-positive-background-selected;
+@const CB_BG_POSITIVE_DISABLED: meegotouch-button-positive-background-disabled;
 @const CB_BG_ACCENT:            meegotouch-button-accent-background;
 @const CB_BG_ACCENT_PRESSED:    meegotouch-button-accent-background-pressed;
 @const CB_BG_ACCENT_SELECTED:   meegotouch-button-accent-background-selected;
+@const CB_BG_ACCENT_DISABLED:   meegotouch-button-accent-background-disabled;
 @const CB_BG_NEGATIVE:          meegotouch-button-negative-background;
 @const CB_BG_NEGATIVE_PRESSED:  meegotouch-button-negative-background-pressed;
 @const CB_BG_NEGATIVE_SELECTED: meegotouch-button-negative-background-selected;
+@const CB_BG_NEGATIVE_DISABLED: meegotouch-button-negative-background-disabled;
 @const CB_BG_POSITIVE_INVERTED:          meegotouch-button-positive-inverted-background;
 @const CB_BG_POSITIVE_INVERTED_PRESSED:  meegotouch-button-positive-inverted-background-pressed;
 @const CB_BG_POSITIVE_INVERTED_SELECTED: meegotouch-button-positive-inverted-background-selected;
+@const CB_BG_POSITIVE_INVERTED_DISABLED: meegotouch-button-positive-inverted-background-disabled;
 @const CB_BG_ACCENT_INVERTED:          meegotouch-button-accent-inverted-background;
 @const CB_BG_ACCENT_INVERTED_PRESSED:  meegotouch-button-accent-inverted-background-pressed;
 @const CB_BG_ACCENT_INVERTED_SELECTED: meegotouch-button-accent-inverted-background-selected;
+@const CB_BG_ACCENT_INVERTED_DISABLED: meegotouch-button-accent-inverted-background-disabled;
 @const CB_BG_NEGATIVE_INVERTED:          meegotouch-button-negative-inverted-background;
 @const CB_BG_NEGATIVE_INVERTED_PRESSED:  meegotouch-button-negative-inverted-background-pressed;
 @const CB_BG_NEGATIVE_INVERTED_SELECTED: meegotouch-button-negative-inverted-background-selected;
+@const CB_BG_NEGATIVE_INVERTED_DISABLED: meegotouch-button-negative-inverted-background-disabled;
 @const TBB_CORNERS: 20px 20px 20px 20px; /* Toolbar buttons */
 @const TBB_WIDTH:    18.6mm;
 @const TBB_HEIGHT:   4.2mm;
@@ -140,6 +148,10 @@ text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
 background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
 text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
 }
+#CommonSingleButtonInverted:disabled {
+background-image:$CB_BG_INVERTED_DISABLED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
+}
 
 #CommonLeftButtonInverted {
 margin-top:      $CB_M_TOP;
@@ -157,6 +169,10 @@ text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
 #CommonLeftButtonInverted:selected {
 background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
 text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+#CommonLeftButtonInverted:disabled {
+background-image:$CB_BG_INVERTED_DISABLED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
 }
 
 #CommonHorizontalCenterButtonInverted {
@@ -176,6 +192,10 @@ text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
 background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
 text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
 }
+#CommonHorizontalCenterButtonInverted:disabled {
+background-image:$CB_BG_INVERTED_DISABLED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
+}
 
 #CommonRightButtonInverted {
 margin-top:      $CB_M_TOP;
@@ -193,6 +213,10 @@ text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
 #CommonRightButtonInverted:selected {
 background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
 text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+#CommonRightButtonInverted:disabled {
+background-image:$CB_BG_INVERTED_DISABLED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
 }
 
 #CommonTopButtonInverted {
@@ -217,6 +241,10 @@ text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
 #CommonTopButtonInverted:selected {
 background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
 text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+#CommonTopButtonInverted:disabled {
+background-image:$CB_BG_INVERTED_DISABLED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
 }
 
 #CommonVerticalCenterButtonInverted {
@@ -243,6 +271,10 @@ text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
 background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
 text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
 }
+#CommonVerticalCenterButtonInverted:disabled {
+background-image:$CB_BG_INVERTED_DISABLED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
+}
 
 #CommonBottomButtonInverted {
 margin-bottom:   $CB_M_BOTTOM;
@@ -266,6 +298,10 @@ text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
 #CommonBottomButtonInverted:selected {
 background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
 text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+#CommonBottomButtonInverted:disabled {
+background-image:$CB_BG_INVERTED_DISABLED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
 }
 
 /* Single oversized buttons */
@@ -296,6 +332,10 @@ text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
 background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
 text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
 }
+#CommonSingleOversizeButton:disabled {
+background-image:$CB_BG_INVERTED_DISABLED $CORNER_MARGINS;
+text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
+}
 
 /* Call button patch FIX me*/
 
@@ -313,6 +353,9 @@ background-image:$CB_BG_POSITIVE_PRESSED $CORNER_MARGINS;
 }
 #CommonSingleCallButton:selected {
 background-image:$CB_BG_POSITIVE_SELECTED $CORNER_MARGINS;
+}
+#CommonSingleCallButton:disabled {
+background-image:$CB_BG_POSITIVE_DISABLED $CORNER_MARGINS;
 }
 
 /* positive buttons */
@@ -332,6 +375,9 @@ background-image:$CB_BG_POSITIVE_PRESSED $CORNER_MARGINS;
 #CommonSingleButtonPositive:selected {
 background-image:$CB_BG_POSITIVE_SELECTED $CORNER_MARGINS;
 }
+#CommonSingleButtonPositive:disabled {
+background-image:$CB_BG_POSITIVE_DISABLED $CORNER_MARGINS;
+}
 
 #CommonLeftButtonPositive {
 margin-top:      $CB_M_TOP;
@@ -347,6 +393,9 @@ background-image:$CB_BG_POSITIVE_PRESSED $CORNER_MARGINS;
 }
 #CommonLeftButtonPositive:selected {
 background-image:$CB_BG_POSITIVE_SELECTED $CORNER_MARGINS;
+}
+#CommonLeftButtonPositive:disabled {
+background-image:$CB_BG_POSITIVE_DISABLED $CORNER_MARGINS;
 }
 
 #CommonHorizontalCenterButtonPositive {
@@ -374,6 +423,9 @@ background-image:$CB_BG_POSITIVE_PRESSED $CORNER_MARGINS;
 #CommonRightButtonPositive:selected {
 background-image:$CB_BG_POSITIVE_SELECTED $CORNER_MARGINS;
 }
+#CommonRightButtonPositive:disabled {
+background-image:$CB_BG_POSITIVE_DISABLED $CORNER_MARGINS;
+}
 
 #CommonTopButtonPositive {
 margin-top:      $CB_M_TOP;
@@ -394,6 +446,9 @@ background-image:$CB_BG_POSITIVE_PRESSED $CORNER_MARGINS;
 }
 #CommonTopButtonPositive:selected {
 background-image:$CB_BG_POSITIVE_SELECTED $CORNER_MARGINS;
+}
+#CommonTopButtonPositive:disabled {
+background-image:$CB_BG_POSITIVE_DISABLED $CORNER_MARGINS;
 }
 
 #CommonVerticalCenterButtonPositive {
@@ -418,6 +473,9 @@ background-image:$CB_BG_POSITIVE_PRESSED $CORNER_MARGINS;
 #CommonVerticalCenterButtonPositive:selected {
 background-image:$CB_BG_POSITIVE_SELECTED $CORNER_MARGINS;
 }
+#CommonVerticalCenterButtonPositive:disabled {
+background-image:$CB_BG_POSITIVE_DISABLED $CORNER_MARGINS;
+}
 
 #CommonBottomButtonPositive {
 margin-bottom:   $CB_M_BOTTOM;
@@ -440,6 +498,9 @@ background-image:$CB_BG_POSITIVE_PRESSED $CORNER_MARGINS;
 #CommonBottomButtonPositive:selected {
 background-image:$CB_BG_POSITIVE_SELECTED $CORNER_MARGINS;
 }
+#CommonBottomButtonPositive:disabled {
+background-image:$CB_BG_POSITIVE_DISABLED $CORNER_MARGINS;
+}
 
 /* negative buttons */
 
@@ -457,6 +518,9 @@ background-image:$CB_BG_NEGATIVE_PRESSED $CORNER_MARGINS;
 #CommonSingleButtonNegative:selected {
 background-image:$CB_BG_NEGATIVE_SELECTED $CORNER_MARGINS;
 }
+#CommonSingleButtonNegative:selected {
+background-image:$CB_BG_NEGATIVE_DISABLED $CORNER_MARGINS;
+}
 
 #CommonLeftButtonNegative {
 margin-top:      $CB_M_TOP;
@@ -472,6 +536,9 @@ background-image:$CB_BG_NEGATIVE_PRESSED $CORNER_MARGINS;
 }
 #CommonLeftButtonNegative:selected {
 background-image:$CB_BG_NEGATIVE_SELECTED $CORNER_MARGINS;
+}
+#CommonLeftButtonNegative:disabled {
+background-image:$CB_BG_NEGATIVE_DISABLED $CORNER_MARGINS;
 }
 
 #CommonHorizontalCenterButtonNegative {
@@ -497,6 +564,9 @@ background-image:$CB_BG_NEGATIVE_PRESSED $CORNER_MARGINS;
 #CommonRightButtonNegative:selected {
 background-image:$CB_BG_NEGATIVE_SELECTED $CORNER_MARGINS;
 }
+#CommonRightButtonNegative:disabled {
+background-image:$CB_BG_NEGATIVE_DISABLED $CORNER_MARGINS;
+}
 
 #CommonTopButtonNegative {
 margin-top:      $CB_M_TOP;
@@ -518,6 +588,9 @@ background-image:$CB_BG_NEGATIVE_PRESSED $CORNER_MARGINS;
 }
 #CommonTopButtonNegative:selected {
 background-image:$CB_BG_NEGATIVE_SELECTED $CORNER_MARGINS;
+}
+#CommonTopButtonNegative:disabled {
+background-image:$CB_BG_NEGATIVE_DISABLED $CORNER_MARGINS;
 }
 
 #CommonVerticalCenterButtonNegative {
@@ -542,6 +615,9 @@ background-image:$CB_BG_NEGATIVE_PRESSED $CORNER_MARGINS;
 #CommonVerticalCenterButtonNegative:selected {
 background-image:$CB_BG_NEGATIVE_SELECTED $CORNER_MARGINS;
 }
+#CommonVerticalCenterButtonNegative:disabled {
+background-image:$CB_BG_NEGATIVE_DISABLED $CORNER_MARGINS;
+}
 
 #CommonBottomButtonNegative {
 margin-bottom:   $CB_M_BOTTOM;
@@ -564,6 +640,9 @@ background-image:$CB_BG_NEGATIVE_PRESSED $CORNER_MARGINS;
 #CommonBottomButtonNegative:selected {
 background-image:$CB_BG_NEGATIVE_SELECTED $CORNER_MARGINS;
 }
+#CommonBottomButtonNegative:disabled {
+background-image:$CB_BG_NEGATIVE_DISABLED $CORNER_MARGINS;
+}
 
 /* positive inverted buttons */
 
@@ -582,6 +661,9 @@ background-image:$CB_BG_POSITIVE_INVERTED_PRESSED $CORNER_MARGINS;
 #CommonSingleButtonPositiveInverted:selected {
 background-image:$CB_BG_POSITIVE_INVERTED_SELECTED $CORNER_MARGINS;
 }
+#CommonSingleButtonPositiveInverted:disabled {
+background-image:$CB_BG_POSITIVE_INVERTED_DISABLED $CORNER_MARGINS;
+}
 
 #CommonLeftButtonPositiveInverted {
 margin-top:      $CB_M_TOP;
@@ -597,6 +679,9 @@ background-image:$CB_BG_POSITIVE_INVERTED_PRESSED $CORNER_MARGINS;
 }
 #CommonLeftButtonPositiveInverted:selected {
 background-image:$CB_BG_POSITIVE_INVERTED_SELECTED $CORNER_MARGINS;
+}
+#CommonLeftButtonPositiveInverted:disabled {
+background-image:$CB_BG_POSITIVE_INVERTED_DISABLED $CORNER_MARGINS;
 }
 
 #CommonHorizontalCenterButtonPositiveInverted {
@@ -624,6 +709,9 @@ background-image:$CB_BG_POSITIVE_INVERTED_PRESSED $CORNER_MARGINS;
 #CommonRightButtonPositiveInverted:selected {
 background-image:$CB_BG_POSITIVE_INVERTED_SELECTED $CORNER_MARGINS;
 }
+#CommonRightButtonPositiveInverted:disabled {
+background-image:$CB_BG_POSITIVE_INVERTED_DISABLED $CORNER_MARGINS;
+}
 
 #CommonTopButtonPositiveInverted {
 margin-top:      $CB_M_TOP;
@@ -644,6 +732,9 @@ background-image:$CB_BG_POSITIVE_INVERTED_PRESSED $CORNER_MARGINS;
 }
 #CommonTopButtonPositiveInverted:selected {
 background-image:$CB_BG_POSITIVE_INVERTED_SELECTED $CORNER_MARGINS;
+}
+#CommonTopButtonPositiveInverted:disabled {
+background-image:$CB_BG_POSITIVE_INVERTED_DISABLED $CORNER_MARGINS;
 }
 
 #CommonVerticalCenterButtonPositiveInverted {
@@ -668,6 +759,9 @@ background-image:$CB_BG_POSITIVE_INVERTED_PRESSED $CORNER_MARGINS;
 #CommonVerticalCenterButtonPositiveInverted:selected {
 background-image:$CB_BG_POSITIVE_INVERTED_SELECTED $CORNER_MARGINS;
 }
+#CommonVerticalCenterButtonPositiveInverted:disabled {
+background-image:$CB_BG_POSITIVE_INVERTED_DISABLED $CORNER_MARGINS;
+}
 
 #CommonBottomButtonPositiveInverted {
 margin-bottom:   $CB_M_BOTTOM;
@@ -689,6 +783,9 @@ background-image:$CB_BG_POSITIVE_INVERTED_PRESSED $CORNER_MARGINS;
 }
 #CommonBottomButtonPositiveInverted:selected {
 background-image:$CB_BG_POSITIVE_INVERTED_SELECTED $CORNER_MARGINS;
+}
+#CommonBottomButtonPositiveInverted:disabled {
+background-image:$CB_BG_POSITIVE_INVERTED_DISABLED $CORNER_MARGINS;
 }
 
 /* negative inverted buttons */
@@ -723,6 +820,9 @@ background-image:$CB_BG_NEGATIVE_INVERTED_PRESSED $CORNER_MARGINS;
 #CommonLeftButtonNegativeInverted:selected {
 background-image:$CB_BG_NEGATIVE_INVERTED_SELECTED $CORNER_MARGINS;
 }
+#CommonLeftButtonNegativeInverted:Disabled {
+background-image:$CB_BG_NEGATIVE_INVERTED_DISABLED $CORNER_MARGINS;
+}
 
 #CommonHorizontalCenterButtonNegativeInverted {
 margin-top:      $CB_M_TOP;
@@ -747,6 +847,9 @@ background-image:$CB_BG_NEGATIVE_INVERTED_PRESSED $CORNER_MARGINS;
 #CommonRightButtonNegativeInverted:selected {
 background-image:$CB_BG_NEGATIVE_INVERTED_SELECTED $CORNER_MARGINS;
 }
+#CommonRightButtonNegativeInverted:disabled {
+background-image:$CB_BG_NEGATIVE_INVERTED_DISABLED $CORNER_MARGINS;
+}
 
 #CommonTopButtonNegativeInverted {
 margin-top:      $CB_M_TOP;
@@ -768,6 +871,9 @@ background-image:$CB_BG_NEGATIVE_INVERTED_PRESSED $CORNER_MARGINS;
 }
 #CommonTopButtonNegativeInverted:selected {
 background-image:$CB_BG_NEGATIVE_INVERTED_SELECTED $CORNER_MARGINS;
+}
+#CommonTopButtonNegativeInverted:disabled {
+background-image:$CB_BG_NEGATIVE_INVERTED_DISABLED $CORNER_MARGINS;
 }
 
 #CommonVerticalCenterButtonNegativeInverted {
@@ -792,6 +898,9 @@ background-image:$CB_BG_NEGATIVE_INVERTED_PRESSED $CORNER_MARGINS;
 #CommonVerticalCenterButtonNegativeInverted:selected {
 background-image:$CB_BG_NEGATIVE_INVERTED_SELECTED $CORNER_MARGINS;
 }
+#CommonVerticalCenterButtonNegativeInverted:disabled {
+background-image:$CB_BG_NEGATIVE_INVERTED_DISABLED $CORNER_MARGINS;
+}
 
 #CommonBottomButtonNegativeInverted {
 margin-bottom:   $CB_M_BOTTOM;
@@ -813,6 +922,9 @@ background-image:$CB_BG_NEGATIVE_INVERTED_PRESSED $CORNER_MARGINS;
 }
 #CommonBottomButtonNegativeInverted:selected {
 background-image:$CB_BG_NEGATIVE_INVERTED_SELECTED $CORNER_MARGINS;
+}
+#CommonBottomButtonNegativeInverted:disabled {
+background-image:$CB_BG_NEGATIVE_INVERTED_DISABLED $CORNER_MARGINS;
 }
 
 
@@ -1152,6 +1264,9 @@ background-image: meegotouch-textedit-button-background-pressed 20px 20px 20px 2
 #CommonListButton:selected {
 background-image: meegotouch-textedit-button-background-selected 20px 20px 20px 20px;
 }
+#CommonListButton:disabled {
+background-image: meegotouch-textedit-button-background-disabled 20px 20px 20px 20px;
+}
 
 #CommonListButtonInverted {
 background-image: meegotouch-textedit-button-inverted-background 20px 20px 20px 20px;
@@ -1166,6 +1281,9 @@ background-image: meegotouch-textedit-button-inverted-background-pressed 20px 20
 }
 #CommonListButtonInverted:selected {
 background-image: meegotouch-textedit-button-inverted-background-selected 20px 20px 20px 20px;
+}
+#CommonListButtonInverted:disabled {
+background-image: meegotouch-textedit-button-inverted-background-disabled 20px 20px 20px 20px;
 }
 
 #CommonHeaderButton {
@@ -1182,6 +1300,9 @@ background-image: meegotouch-textedit-button-background-pressed 20px 20px 20px 2
 #CommonHeaderButton:selected {
 background-image: meegotouch-textedit-button-background-selected 20px 20px 20px 20px;
 }
+#COmmonHeaderButton:disabled {
+background-image: meegotouch-textedit-button-background-disabled 20px 20px 20px 20px;
+}
 
 #CommonHeaderButtonInverted {
 background-image: meegotouch-textedit-button-inverted-background 20px 20px 20px 20px;
@@ -1196,6 +1317,9 @@ background-image: meegotouch-textedit-button-inverted-background-pressed 20px 20
 }
 #CommonHeaderButtonInverted:selected {
 background-image: meegotouch-textedit-button-inverted-background-selected 20px 20px 20px 20px;
+}
+#CommonHeaderButtonInverted:disabled {
+background-image: meegotouch-textedit-button-inverted-background-disabled 20px 20px 20px 20px;
 }
 
 /* Toolbar buttons */
@@ -1276,6 +1400,9 @@ background-image: meegotouch-textedit-button-background-pressed 20px 20px 20px 2
 #CommonRightInputFieldButton:selected {
 background-image: meegotouch-textedit-button-background-selected 20px 20px 20px 20px;
 }
+#COmmonRightInputFieldButton:disabled {
+background-image: meegotouch-textedit-button-background-disabled 20px 20px 20px 20px;
+}
 #CommonLeftInputFieldButton {
 background-image: meegotouch-textedit-button-background 20px 20px 20px 20px;
 minimum-size:     4.2mm 4.3mm;
@@ -1289,6 +1416,9 @@ background-image: meegotouch-textedit-button-background-pressed 20px 20px 20px 2
 }
 #CommonLeftInputFieldButton:selected {
 background-image: meegotouch-textedit-button-background-selected 20px 20px 20px 20px;
+}
+#CommonLeftInputFieldButton:disabled {
+background-image: meegotouch-textedit-button-background-disabled 20px 20px 20px 20px;
 }
 
 #CommonRightInputFieldButtonInverted {
@@ -1305,6 +1435,9 @@ background-image: meegotouch-textedit-button-inverted-background-pressed 20px 20
 #CommonRightInputFieldButtonInverted:selected {
 background-image: meegotouch-textedit-button-inverted-background-selected 20px 20px 20px 20px;
 }
+#CommonRightInputFieldButtonInverted:disabled {
+background-image: meegotouch-textedit-button-inverted-background-disabled 20px 20px 20px 20px;
+}
 #CommonLeftInputFieldButtonInverted {
 background-image: meegotouch-textedit-button-inverted-background 20px 20px 20px 20px;
 minimum-size:     4.2mm 4.3mm;
@@ -1318,6 +1451,9 @@ background-image: meegotouch-textedit-button-inverted-background-pressed 20px 20
 }
 #CommonLeftInputFieldButtonInverted:selected {
 background-image: meegotouch-textedit-button-inverted-background-selected 20px 20px 20px 20px;
+}
+#CommonLeftInputFieldButtonDisabled:disabled {
+background-image: meegotouch-textedit-button-inverted-background-disabled 20px 20px 20px 20px;
 }
 
 /* Very small Icon button */
@@ -1336,6 +1472,9 @@ background-image: meegotouch-textedit-button-background-pressed 20px 20px 20px 2
 #CommonSmallIconButton:selected {
 background-image: meegotouch-textedit-button-background-selected 20px 20px 20px 20px;
 }
+#CommonSmallIconButton:disabled {
+background-image: meegotouch-textedit-button-background-disabled 20px 20px 20px 20px;
+}
 
 #CommonSmallIconButtonInverted {
 background-image: meegotouch-textedit-button-inverted-background 20px 20px 20px 20px;
@@ -1350,6 +1489,9 @@ background-image: meegotouch-textedit-button-inverted-background-pressed 20px 20
 }
 #CommonSmallIconButtonInverted:selected {
 background-image: meegotouch-textedit-button-inverted-background-selected 20px 20px 20px 20px;
+}
+#CommonSmallIconButtonInverted:disabled {
+background-image: meegotouch-textedit-button-inverted-background-disabled 20px 20px 20px 20px;
 }
 
 
@@ -1370,6 +1512,9 @@ background-image:$CB_BG_ACCENT_PRESSED $CORNER_MARGINS;
 #CommonSingleButtonAccent:selected {
 background-image:$CB_BG_ACCENT_SELECTED $CORNER_MARGINS;
 }
+#CommonSingleButtonAccent:disabled {
+background-image:$CB_BG_ACCENT_DISABLED $CORNER_MARGINS;
+}
 
 #CommonLeftButtonAccent {
 margin-top:      $CB_M_TOP;
@@ -1385,6 +1530,9 @@ background-image:$CB_BG_ACCENT_PRESSED $CORNER_MARGINS;
 }
 #CommonLeftButtonAccent:selected {
 background-image:$CB_BG_ACCENT_SELECTED $CORNER_MARGINS;
+}
+#CommonLeftButtonAccent:disabled {
+background-image:$CB_BG_ACCENT_DISABLED $CORNER_MARGINS;
 }
 
 #CommonHorizontalCenterButtonAccent {
@@ -1412,6 +1560,9 @@ background-image:$CB_BG_ACCENT_PRESSED $CORNER_MARGINS;
 #CommonRightButtonAccent:selected {
 background-image:$CB_BG_ACCENT_SELECTED $CORNER_MARGINS;
 }
+#CommonRightButtonAccent:disabled {
+background-image:$CB_BG_ACCENT_DISABLED $CORNER_MARGINS;
+}
 
 #CommonTopButtonAccent {
 margin-top:      $CB_M_TOP;
@@ -1432,6 +1583,9 @@ background-image:$CB_BG_ACCENT_PRESSED $CORNER_MARGINS;
 }
 #CommonTopButtonAccent:selected {
 background-image:$CB_BG_ACCENT_SELECTED $CORNER_MARGINS;
+}
+#CommonTopButtonAccent:disabled {
+background-image:$CB_BG_ACCENT_DISABLED $CORNER_MARGINS;
 }
 
 #CommonVerticalCenterButtonAccent {
@@ -1456,6 +1610,9 @@ background-image:$CB_BG_ACCENT_PRESSED $CORNER_MARGINS;
 #CommonVerticalCenterButtonAccent:selected {
 background-image:$CB_BG_ACCENT_SELECTED $CORNER_MARGINS;
 }
+#CommonVerticalCenterButtonAccent:disabled {
+background-image:$CB_BG_ACCENT_DISABLED $CORNER_MARGINS;
+}
 
 #CommonBottomButtonAccent {
 margin-bottom:   $CB_M_BOTTOM;
@@ -1478,6 +1635,9 @@ background-image:$CB_BG_ACCENT_PRESSED $CORNER_MARGINS;
 #CommonBottomButtonAccent:selected {
 background-image:$CB_BG_ACCENT_SELECTED $CORNER_MARGINS;
 }
+#CommonBottomButtonAccent:disabled {
+background-image:$CB_BG_ACCENT_DISABLED $CORNER_MARGINS;
+}
 
 
 /* ACCENT inverted buttons */
@@ -1497,6 +1657,9 @@ background-image:$CB_BG_ACCENT_INVERTED_PRESSED $CORNER_MARGINS;
 #CommonSingleButtonAccentInverted:selected {
 background-image:$CB_BG_ACCENT_INVERTED_SELECTED $CORNER_MARGINS;
 }
+#CommonSingleButtonAccentInverted:disabled {
+background-image:$CB_BG_ACCENT_INVERTED_DISABLED $CORNER_MARGINS;
+}
 
 #CommonLeftButtonAccentInverted {
 margin-top:      $CB_M_TOP;
@@ -1512,6 +1675,9 @@ background-image:$CB_BG_ACCENT_INVERTED_PRESSED $CORNER_MARGINS;
 }
 #CommonLeftButtonAccentInverted:selected {
 background-image:$CB_BG_ACCENT_INVERTED_SELECTED $CORNER_MARGINS;
+}
+#CommonLeftButtonAccentInverted:disabled {
+background-image:$CB_BG_ACCENT_INVERTED_DISABLED $CORNER_MARGINS;
 }
 
 #CommonHorizontalCenterButtonAccentInverted {
@@ -1539,6 +1705,9 @@ background-image:$CB_BG_ACCENT_INVERTED_PRESSED $CORNER_MARGINS;
 #CommonRightButtonAccentInverted:selected {
 background-image:$CB_BG_ACCENT_INVERTED_SELECTED $CORNER_MARGINS;
 }
+#CommonRightButtonAccentInverted:disabled {
+background-image:$CB_BG_ACCENT_INVERTED_DISABLED $CORNER_MARGINS;
+}
 
 #CommonTopButtonAccentInverted {
 margin-top:      $CB_M_TOP;
@@ -1559,6 +1728,9 @@ background-image:$CB_BG_ACCENT_INVERTED_PRESSED $CORNER_MARGINS;
 }
 #CommonTopButtonAccentInverted:selected {
 background-image:$CB_BG_ACCENT_INVERTED_SELECTED $CORNER_MARGINS;
+}
+#CommonTopButtonAccentInverted:disabled {
+background-image:$CB_BG_ACCENT_INVERTED_DISABLED $CORNER_MARGINS;
 }
 
 #CommonVerticalCenterButtonAccentInverted {
@@ -1583,6 +1755,9 @@ background-image:$CB_BG_ACCENT_INVERTED_PRESSED $CORNER_MARGINS;
 #CommonVerticalCenterButtonAccentInverted:selected {
 background-image:$CB_BG_ACCENT_INVERTED_SELECTED $CORNER_MARGINS;
 }
+#CommonVerticalCenterButtonAccentInverted:disabled {
+background-image:$CB_BG_ACCENT_INVERTED_DISABLED $CORNER_MARGINS;
+}
 
 #CommonBottomButtonAccentInverted {
 margin-bottom:   $CB_M_BOTTOM;
@@ -1604,6 +1779,9 @@ background-image:$CB_BG_ACCENT_INVERTED_PRESSED $CORNER_MARGINS;
 }
 #CommonBottomButtonAccentInverted:selected {
 background-image:$CB_BG_ACCENT_INVERTED_SELECTED $CORNER_MARGINS;
+}
+#CommonBottomButtonAccentInverted:disabled {
+background-image:$CB_BG_ACCENT_INVERTED_DISABLED $CORNER_MARGINS;
 }
 
 

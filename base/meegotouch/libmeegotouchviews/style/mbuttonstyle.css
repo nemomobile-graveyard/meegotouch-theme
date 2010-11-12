@@ -74,6 +74,11 @@ MButtonStyle:selected {
     text-color: $COLOR_INVERTED_FOREGROUND;
 }
 
+MButtonStyle:disabled {
+    background-image: meegotouch-button-background-disabled $CORNER_MARGINS;
+    text-color: $COLOR_BUTTON_DISABLED_FOREGROUND;
+}
+
 MButtonStyle[toggle] {
 /* This looks the same as regular button */
 }
@@ -83,6 +88,10 @@ MButtonStyle[toggle]:pressed {
 }
 
 MButtonStyle[toggle]:selected {
+/* This looks the same as regular button */
+}
+
+MButtonStyle[toggle]:disabled {
 /* This looks the same as regular button */
 }
 
@@ -127,3 +136,18 @@ MButtonStyle[group]:selected {
     padding-right:  0;
     padding-bottom: 0;
 }
+
+MButtonStyle[group]:disabled {
+    background-tiles: meegotouch-button-background-disabled $CORNER_MARGINS;
+
+    margin-left:    0;
+    margin-top:     0;
+    margin-right:   0;
+    margin-bottom:  0;
+
+    padding-left:   0;
+    padding-top:    0;
+    padding-right:  0;
+    padding-bottom: 0;
+}
+
