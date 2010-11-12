@@ -29,3 +29,24 @@ MObjectMenu MButtonStyle.Portrait {
 MObjectMenu MButtonStyle:pressed {
     background-tiles: meegotouch-button-objectmenu-background-pressed $CORNER_MARGINS;
 }
+
+MObjectMenu MWidgetStyle#ObjectMenuTitleArea {
+}
+
+MObjectMenuTitleArea > MSpinnerStyle {
+    bg-pixmap: "meegotouch-progressindicator-spinner-background" $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
+    progress-pixmap: "meegotouch-progressindicator-spinner-progress" $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
+    
+    minimum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
+    preferred-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
+    maximum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
+}
+
+MObjectMenuTitleArea > MLabelStyle {
+    margin-left: $MARGIN_LARGE;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    color:$COLOR_BUTTON_BACKGROUND;
+}
+
