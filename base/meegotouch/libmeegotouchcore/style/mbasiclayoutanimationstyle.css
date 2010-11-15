@@ -6,6 +6,8 @@ MBasicLayoutAnimationStyle {
     initial-showing-opacity: 0.0;
     final-hiding-opacity: 0.0;
 
+    animate-opacity: true;
+
     /* inherited from MLayoutAnimationStyle */
     duration: 600;
 }
