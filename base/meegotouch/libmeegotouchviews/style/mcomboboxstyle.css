@@ -1,26 +1,26 @@
 /* MComboBoxStyle : MWidgetStyle */
 MComboBoxStyle {
-    margin-left: $MARGIN_MEDIUM;
-    margin-right: $MARGIN_MEDIUM;
-    margin-top: $MARGIN_MEDIUM;
-    margin-bottom: $MARGIN_MEDIUM;
+    margin-left: $MARGIN_DEFAULT;
+    margin-right: $MARGIN_DEFAULT;
+    margin-top: $MARGIN_DEFAULT;
+    margin-bottom: $MARGIN_DEFAULT;
 
     padding-left:   $PADDING_DEFAULT;
     padding-top:    $PADDING_DEFAULT;
     padding-right:  $PADDING_DEFAULT;
     padding-bottom: $PADDING_DEFAULT;
 
-    preferred-size: -1 $SIZE_BUTTON;
+    preferred-size: -1 $SIZE_LIST;
     minimum-size: $SIZE_ONE $SIZE_LIST;
     maximum-size: 100% $SIZE_LIST;
 
-    indicator-image: "meegotouch-combobox-indicator-inverted";
+    indicator-image: "icon-m-common-combobox-arrow";
 
     title-object-name: "CommonTitle";
     sub-title-object-name: "CommonSubTitle";
     icon-object-name: "CommonMainIcon";
     progress-indicator-object-name: "CommonProgressBar";
-    indicator-object-name: "ComboBoxIndicator";
+    indicator-object-name: "CommonComboBoxIcon";
 
     popup-list-type: "overlay";
     
@@ -31,52 +31,51 @@ MComboBoxStyle {
     item-mode: 0;
 }
 
-#ComboBoxIndicator {
-    maximum-size: $SIZE_ICON_XSMALL $SIZE_ICON_XSMALL;
-    minimum-size: $SIZE_ICON_XSMALL $SIZE_ICON_XSMALL;
-    preferred-size: $SIZE_ICON_XSMALL $SIZE_ICON_XSMALL;
-    margin-left : $MARGIN_DOUBLE;
-    margin-right : $MARGIN_DOUBLE;
-    margin-top : $MARGIN_DOUBLE;
-    margin-bottom : $MARGIN_DOUBLE;
+MComboBox MListItemStyle {
+    background-tiles: ;
+    background-image: "meegotouch-panel-background" $CORNER_MARGINS;
+    background-color: ;
+    preferred-size: -1 $SIZE_LIST;
+    minimum-size: $SIZE_ONE $SIZE_LIST;
+    maximum-size: 100% $SIZE_LIST;
+}
+MComboBox MListItemStyle:pressed {
+    background-tiles: ;
+    background-image: "meegotouch-panel-background-pressed" $CORNER_MARGINS;
+    background-color: ;
 }
 
 MComboBoxStyle[button] {
-    indicator-image: "meegotouch-combobox-indicator";
-    title-object-name: "CommonTitleInverted";
-    sub-title-object-name: "CommonSubTitleInverted";
+    title-object-name: "CommonTitle";
+    sub-title-object-name: "CommonSubTitle";
 
     separate-title: false;
 }
-
 MComboBox MListItemStyle[button] {
     background-tiles: ;
-    background-image: meegotouch-button-background $CORNER_MARGINS;
+    background-image: meegotouch-panel-background $CORNER_MARGINS;
 }
-
 MComboBox MListItemStyle[button]:pressed  {
     background-tiles: ;
-    background-image: meegotouch-button-background-pressed $CORNER_MARGINS;
+    background-image: meegotouch-panel-background-pressed $CORNER_MARGINS;
 }
 
-
-
 MComboBoxStyle[labelButton] {
-    indicator-image: "meegotouch-combobox-indicator";
-    title-object-name: "CommonTitle";
-    sub-title-object-name: "CommonSubTitleInverted";
+    title-object-name: "CommonFieldLabel";
+    sub-title-object-name: "CommonButtonLabel";
 
     separate-title: true;
 }
-
 MComboBox MListItemStyle[labelButton] {
     /* this is the button-looking combobox */
     background-tiles: ;
     background-image: meegotouch-button-background $CORNER_MARGINS;
-    minimum-size: 4.8mm 4.8mm; 
+    minimum-size: 32.2mm 5.1mm; 
+    preferred-size: 32.2mm 5.1mm;
+    maximum-size: 44.8mm 5.1mm;
 }
-
 MComboBox MListItemStyle[labelButton]:pressed {
     background-tiles: ;
     background-image: meegotouch-button-background-pressed $CORNER_MARGINS;
 }
+
