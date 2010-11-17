@@ -3,12 +3,8 @@ MButtonIconStyle {
     background-image:;
     background-color:;
 
-    glow-color: #FFFFFF;
-    glow-duration: 800;
-    glow-radius: 8;
-    shrink-duration: 100;
-    shrink-factor: 0.2;
-
+    content-opacity: 1;
+	
     /* inherited from MButtonStyle */
     icon-align: center;
 
@@ -29,6 +25,8 @@ MButtonIconStyle {
 MButtonIconStyle:pressed {
     background-image:;
     background-color:;
+
+    content-opacity: 0.5;
 }
 
 MButtonIconStyle:disabled {
