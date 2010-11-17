@@ -1,3 +1,25 @@
+meegotouchtheme (0.20.55-1) unstable; urgency=low
+
+  * Fixes: NB#204830 CommonApplicationHeader and CommonApplicationHeaderInverted styles are broken
+  * Changes: ComboBox fixes
+  * Changes: Added maximum size for object menu header and items
+  * Changes: Changed spinner in object menu header to image
+  * Changes: Added graphical assets for switch new implementation
+  * Changes: MBasicLayoutAnimation - add option to disable opacity animation
+  * Fixes: NB#201345 - Setting MButton disabled does not change it's appearance
+  * Changes: Added CommonLargeUnreadPanel styles to commonpanelstyle.css
+  * Changes: New value for mscenelayereffectdimstyle: opacity 0.95
+  * Changes: adding prefix style to MBanner
+  * Changes: Added styling for object menu label
+  * Changes: Corrected Checkbox name typo in commonuicontrolstyle.css
+  * Changes: Corrected asset id syntax errors in commonbuttonstyle.css
+  * Changes: Corrected asset id syntax errors in commoniconstyle.css
+  * Changes: Corrected asset id syntax errors in commonlayoutstyle.css
+  * Changes: Corrected asset id syntax in commonpanelstyle.css
+  * Changes: Corrected asset id syntax errors in commonuicontrol.css
+
+ -- Tobias Koch <tobias.koch@nokia.com>  Wed, 17 Nov 2010 16:42:34 +0200
+
 meegotouchtheme (0.20.54-1) unstable; urgency=low
 
   * New: Style for Intelligent Scrolling parameters.
