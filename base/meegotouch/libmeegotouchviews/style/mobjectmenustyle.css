@@ -1,4 +1,5 @@
 /* MObjectMenuStyle : MSceneWindowStyle */
+
 MObjectMenuStyle {
 
     /* inherited from MWidgetStyle */
@@ -11,7 +12,12 @@ MObjectMenuStyle {
     appear-feedback: appear-objectmenu;
 }
 
+@const CB_WIDTH: 44.8mm;
+@const CB_HEIGHT:  6.4mm;
+
 MObjectMenu MButtonStyle {
+    maximum-size: $CB_WIDTH $CB_HEIGHT;
+
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -31,6 +37,7 @@ MObjectMenu MButtonStyle:pressed {
 }
 
 MObjectMenu MWidgetStyle#ObjectMenuTitleArea {
+    maximum-size: $CB_WIDTH $CB_HEIGHT;
 }
 
 MObjectMenuTitleArea > MImageWidgetStyle {
