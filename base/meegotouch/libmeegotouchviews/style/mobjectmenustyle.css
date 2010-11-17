@@ -33,10 +33,7 @@ MObjectMenu MButtonStyle:pressed {
 MObjectMenu MWidgetStyle#ObjectMenuTitleArea {
 }
 
-MObjectMenuTitleArea > MSpinnerStyle {
-    bg-pixmap: "meegotouch-progressindicator-spinner-background" $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
-    progress-pixmap: "meegotouch-progressindicator-spinner-progress" $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
-    
+MObjectMenuTitleArea > MImageWidgetStyle {
     minimum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
     preferred-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
     maximum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
