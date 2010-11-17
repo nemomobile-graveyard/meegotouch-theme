@@ -236,7 +236,7 @@ margin-right:  $INDENT_DEFAULT;
 font:          $FONT_FAMILY light 40;
 color:         $COLOR_FOREGROUND;
 margin-top:    2.2mm;
-margin-bottom: 1.5;
+margin-bottom: 1.5mm;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
@@ -542,7 +542,7 @@ margin-right:  $INDENT_DEFAULT;
 font:          $FONT_FAMILY light 40;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    2.2mm;
-margin-bottom: 1.5;
+margin-bottom: 1.5mm;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
