@@ -64,6 +64,8 @@ margin-top:        0;
 margin-bottom:     0;
 margin-left:       0;
 margin-right:      0;
+press-feedback:    ;
+release-feedback:  ;
 }
 #CommonPanelNoFeedback:pressed {
 background-tiles:  ;
@@ -85,6 +87,8 @@ margin-top:        0;
 margin-bottom:     0;
 margin-left:       0;
 margin-right:      0;
+press-feedback:    ;
+release-feedback:  ;
 }
 #CommonPanelNoFeedbackInverted:pressed {
 background-tiles:  ;
