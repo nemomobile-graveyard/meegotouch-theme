@@ -594,9 +594,33 @@ minimum-size: -1 0.1mm;
 
 /* Special items */
 
+/* The overlay style is temporarily copied from the inverted style and will be updated with the correct asset id's as soon as possible */
+
 #CommonOverlayComboBox {
-/* TBD */
+background-tiles: ;
+background-image: meegotouch-panel-inverted-background $CORNER_MARGINS;
+title-object-name: "ComboBoxEmptyTitle";
+sub-title-object-name: "CommonButtonLabelInverted";
+indicator-image: "icon-m-textinput-combobox-arrow";
+separate-title: false;
+margin-left: $INDENT_DEFAULT;
+margin-right: $INDENT_DEFAULT;
+margin-top: 0.6mm;
+margin-bottom: 0.6mm;
+minimum-size: 32.2mm 5.1mm;
+preferred-size: 32.2mm 5.1mm;
+maximum-size: 32.2mm 5.1mm;
 }
+MComboBox#CommonOverlayComboBox MListItemStyle[labelButton] {
+/* this is the button-looking combobox */
+background-tiles: ;
+background-image: meegotouch-button-inverted-background $CORNER_MARGINS;
+}
+MComboBox#CommonOverlayComboBox MListItemStyle[labelButton]:pressed {
+background-tiles: ;
+background-image: meegotouch-button-inverted-background-pressed $CORNER_MARGINS;
+}
+
 
 #CommonCountBubble {
 margin-right:    $INDENT_DEFAULT;
