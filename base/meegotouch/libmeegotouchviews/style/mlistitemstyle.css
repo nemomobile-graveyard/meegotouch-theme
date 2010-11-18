@@ -8,8 +8,8 @@ MListItemStyle {
     background-opacity: 1.0;
 
     /* inherited from MWidgetStyle */
-    preferred-size: -1 $SIZE_ONE;
-    minimum-size: $SIZE_ONE $SIZE_ONE;
+    preferred-size: -1 $SIZE_LIST;
+    minimum-size: $SIZE_ONE $SIZE_LIST;
     maximum-size: 100% $SIZE_FOUR;
 
     press-feedback: press;
