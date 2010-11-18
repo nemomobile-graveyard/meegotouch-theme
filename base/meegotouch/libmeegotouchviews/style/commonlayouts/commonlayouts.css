@@ -1,11 +1,8 @@
-/* how to add constants */
-/* example: */
-/* @const NUMPAD_BUTTON_MARGIN_LEFT: 0mm; */
-
-/* how to import other css */
+/*  common styles  */
 
 @import "commonbuttonstyle.css";
 @import "commonpanelstyle.css";
+@import "commonframepanelstyle.css";
 @import "commonlabelstyle.css";
 @import "commoniconstyle.css";
 @import "commonuicontrolstyle.css";
