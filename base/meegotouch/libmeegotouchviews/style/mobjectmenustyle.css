@@ -10,6 +10,8 @@ MObjectMenuStyle {
     horizontal-align: center;
 
     appear-feedback: appear-objectmenu;
+    
+    maximum-size: -1 75%;
 }
 
 @const CB_WIDTH: 44.8mm;
@@ -22,6 +24,8 @@ MObjectMenu MButtonStyle {
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 0;
+
+    padding-left: $MARGIN_LARGE;
 
     background-tiles: meegotouch-button-objectmenu-background $CORNER_MARGINS;
 
@@ -37,7 +41,10 @@ MObjectMenu MButtonStyle:pressed {
 }
 
 MObjectMenu MWidgetStyle#ObjectMenuTitleArea {
+    padding-left: $MARGIN_LARGE;
+        
     maximum-size: $CB_WIDTH $CB_HEIGHT;
+    minimum-size: 50% $SIZE_MENU;
 }
 
 MObjectMenuTitleArea > MImageWidgetStyle {
@@ -51,6 +58,11 @@ MObjectMenuTitleArea > MLabelStyle {
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 0;
+
     color:$COLOR_BUTTON_BACKGROUND;
+}
+
+MObjectMenu MPannableWidgetStyle {
+    preferred-size: -1 -1;
 }
 
