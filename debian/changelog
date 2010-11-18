@@ -1,3 +1,15 @@
+meegotouchtheme (0.20.56-1) unstable; urgency=low
+
+  * Changes: List item height is now SIZE_LIST instead of SIZE_ONE
+  * New: Added commonlistitemstyle.css for testing
+  * Changes: Added temprary ComboBoxOverlay style to commonuicontrolstyle.css
+  * Changes: disabled the haptic feedback for CommonPanelNoFeedback items in commonpanelstyle.css
+  * Fixes: NB#204198 To -dos check box is shown as red box
+  * Changes: New switch button styles to match updated rendering code.
+  * Changes: Modified object menu styling to support panning.
+
+ -- Tobias Koch <tobias.koch@nokia.com>  Thu, 18 Nov 2010 16:07:05 +0200
+
 meegotouchtheme (0.20.55-1) unstable; urgency=low
 
   * Fixes: NB#204830 CommonApplicationHeader and CommonApplicationHeaderInverted styles are broken
