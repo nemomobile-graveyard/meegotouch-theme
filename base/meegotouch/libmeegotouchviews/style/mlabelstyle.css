@@ -13,5 +13,6 @@ MLabelStyle {
     
     press-feedback: press;
     release-feedback: release;
+    text-opacity: 1.0;
 }
 
