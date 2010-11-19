@@ -136,35 +136,35 @@ background-image:  $CL_INVERTED_BG_SELECTED;
 
 /* Label inverts */
 
-MListItemStyle#CommonBasicListItemInverted MLabelStyle#CommonTitle {
+MBasicListItem#CommonBasicListItemInverted MLabelStyle#CommonTitle {
    color: $CTITLE_COLOR_INVERTED;
 }
-MListItemStyle#CommonBasicListItemInverted MLabelStyle#CommonSingleTitle {
+MBasicListItem#CommonBasicListItemInverted MLabelStyle#CommonSingleTitle {
    color: $CTITLE_COLOR_INVERTED;
 }
-MListItemStyle#CommonBasicListItemInverted MLabelStyle#CommonSubTitle {
+MBasicListItem#CommonBasicListItemInverted MLabelStyle#CommonSubTitle {
    color: $CSUBTITLE_COLOR_INVERTED;
 }
 
-MListItemStyle#CommonDetailedListItemInverted MLabelStyle#CommonTitle {
+MDetailedListItem#CommonDetailedListItemInverted MLabelStyle#CommonTitle {
    color: $CTITLE_COLOR_INVERTED;
 }
-MListItemStyle#CommonDetailedListItemInverted MLabelStyle#CommonSingleTitle {
+MDetailedListItem#CommonDetailedListItemInverted MLabelStyle#CommonSingleTitle {
    color: $CTITLE_COLOR_INVERTED;
 }
-MListItemStyle#CommonDetailedListItemInverted MLabelStyle#CommonSubTitle {
+MDetailedListItem#CommonDetailedListItemInverted MLabelStyle#CommonSubTitle {
    color: $CSUBTITLE_COLOR_INVERTED;
 }
-MListItemStyle#CommonDetailedListItemInverted MLabelStyle#CommonItemInfo {
+MDetailedListItem#CommonDetailedListItemInverted MLabelStyle#CommonItemInfo {
    color: $CSUBTITLE_COLOR_INVERTED;
 }
 
-MListItemStyle#CommonAdvancedListItemInverted MLabelStyle#CommonTitle {
+MAdvancedListItem#CommonAdvancedListItemInverted MLabelStyle#CommonTitle {
    color: $CTITLE_COLOR_INVERTED;
 }
-MListItemStyle#CommonAdvancedListItemInverted MLabelStyle#CommonSingleTitle {
+MAdvancedListItem#CommonAdvancedListItemInverted MLabelStyle#CommonSingleTitle {
    color: $CTITLE_COLOR_INVERTED;
 }
-MListItemStyle#CommonAdvancedListItemInverted MLabelStyle#CommonSubTitle {
+MAdvancedListItem#CommonAdvancedListItemInverted MLabelStyle#CommonSubTitle {
    color: $CSUBTITLE_COLOR_INVERTED;
 }
