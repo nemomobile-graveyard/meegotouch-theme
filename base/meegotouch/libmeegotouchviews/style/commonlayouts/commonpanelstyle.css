@@ -4,12 +4,12 @@
 @const CP_INVERTED_BG:          meegotouch-panel-inverted-background $CORNER_MARGINS;
 @const CP_INVERTED_BG_PRESSED:  meegotouch-panel-inverted-background-pressed $CORNER_MARGINS;
 @const CP_INVERTED_BG_SELECTED: meegotouch-panel-inverted-background-selected $CORNER_MARGINS;
-@const CUP_BG:                  meegotouch-panel-background $CORNER_MARGINS;
-@const CUP_BG_PRESSED:          meegotouch-panel-background-pressed $CORNER_MARGINS;
-@const CUP_BG_SELECTED:         meegotouch-panel-background-selected $CORNER_MARGINS;
-@const CUP_INVERTED_BG:         meegotouch-panel-inverted-background $CORNER_MARGINS;
-@const CUP_INVERTED_BG_PRESSED: meegotouch-panel-inverted-background-pressed $CORNER_MARGINS;
-@const CUP_INVERTED_BG_SELECTED:meegotouch-panel-inverted-background-selected $CORNER_MARGINS;
+@const CUP_BG:                  meegotouch-unread-panel-background $CORNER_MARGINS;
+@const CUP_BG_PRESSED:          meegotouch-unread-panel-background-pressed $CORNER_MARGINS;
+@const CUP_BG_SELECTED:         meegotouch-unread-panel-background-selected $CORNER_MARGINS;
+@const CUP_INVERTED_BG:         meegotouch-unread-panel-inverted-background $CORNER_MARGINS;
+@const CUP_INVERTED_BG_PRESSED: meegotouch-unread-panel-inverted-background-pressed $CORNER_MARGINS;
+@const CUP_INVERTED_BG_SELECTED:meegotouch-unread-panel-inverted-background-selected $CORNER_MARGINS;
 
 /*  PANELS & LAYOUTS */
 
