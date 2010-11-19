@@ -10,8 +10,6 @@ MObjectMenuStyle {
     horizontal-align: center;
 
     appear-feedback: appear-objectmenu;
-    
-    maximum-size: -1 75%;
 }
 
 @const CB_WIDTH: 44.8mm;
@@ -48,13 +46,15 @@ MObjectMenu MWidgetStyle#ObjectMenuTitleArea {
 }
 
 MObjectMenuTitleArea > MImageWidgetStyle {
+    margin-right: $MARGIN_LARGE;
+    
     minimum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
     preferred-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
     maximum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
 }
 
 MObjectMenuTitleArea > MLabelStyle {
-    margin-left: $MARGIN_LARGE;
+    margin-left: 0;
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 0;
@@ -64,5 +64,6 @@ MObjectMenuTitleArea > MLabelStyle {
 
 MObjectMenu MPannableWidgetStyle {
     preferred-size: -1 -1;
+    maximum-size: -1 42%;
 }
 
