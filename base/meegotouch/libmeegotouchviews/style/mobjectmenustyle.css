@@ -64,6 +64,6 @@ MObjectMenuTitleArea > MLabelStyle {
 
 MObjectMenu MPannableWidgetStyle {
     preferred-size: -1 -1;
-    maximum-size: -1 42%;
+    maximum-size: -1 50%;
 }
 
