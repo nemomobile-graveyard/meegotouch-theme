@@ -1251,9 +1251,10 @@ margin-right: $INDENT_DEFAULT;
 }
 
 #CommonListButton {
+font: $FONT_FAMILY bold 20;
 background-image: meegotouch-textedit-button-background 20px 20px 20px 20px;
 minimum-size:     4.2mm 4.3mm;
-preferred-size:   4.2mm 4.3mm;
+preferred-size:   12.2mm 4.3mm;
 maximum-size:     12.2mm 4.3mm;
 margin-left:      0;
 margin-right:     $INDENT_DEFAULT;
@@ -1269,9 +1270,10 @@ background-image: meegotouch-textedit-button-background-disabled 20px 20px 20px 
 }
 
 #CommonListButtonInverted {
+font: $FONT_FAMILY bold 20;
 background-image: meegotouch-textedit-button-inverted-background 20px 20px 20px 20px;
 minimum-size:     4.2mm 4.3mm;
-preferred-size:   4.2mm 4.3mm;
+preferred-size:   12.2mm 4.3mm;
 maximum-size:     12.2mm 4.3mm;
 margin-left:      0;
 margin-right:     $INDENT_DEFAULT;
