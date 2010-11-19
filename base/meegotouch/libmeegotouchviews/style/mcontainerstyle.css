@@ -1,7 +1,7 @@
 
 MContainerStyle { /* settings for the whole container */
 
-    minimum-size: $SIZE_ONE, $SIZE_ONE; /* inherited from duiwidgetstyle */
+    minimum-size: $SIZE_ONE $SIZE_ONE; /* inherited from duiwidgetstyle */
 
     margin-left: 0; /* inherited from duiwidgetstyle */
     margin-right: 0;
@@ -33,7 +33,7 @@ MContainerHeaderStyle {
     padding-top: 0;
     padding-bottom: 0;
 
-    background-image: meegotouch-container-header-background 8p 8px 8px 8px;
+    background-image: meegotouch-container-header-background 8px 8px 8px 8px;
 }
 
 MContainerHeader MLabelStyle {
