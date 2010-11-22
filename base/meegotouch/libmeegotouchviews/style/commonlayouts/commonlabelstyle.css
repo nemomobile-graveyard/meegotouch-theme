@@ -727,7 +727,7 @@ margin-right:  $INDENT_DEFAULT;
 }
 #CommonSubTitleWithoutMargin {
 font:          $CSUBTITLE_FONT;
-color:         $COLOR_ACCENT1;
+color:         $CSUBTITLE_COLOR;
 margin-top:    $CSUBTITLE_M_TOP;
 margin-bottom: 0;
 margin-left:   0;
