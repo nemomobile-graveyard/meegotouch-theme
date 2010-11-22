@@ -19,6 +19,8 @@ MContainerStyle { /* settings for the whole container */
     icon-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
     internal-margins: 0;
     internal-item-spacing: 0;
+
+    title-style-name: "CommonGroupHeader";
 }
 
 MContainerHeaderStyle {
