@@ -1,3 +1,30 @@
+meegotouchtheme (0.20.57-1) unstable; urgency=low
+
+  * New version
+  * Changes: Use minimum size for 1px separators as span doesn't work.
+  * Changes: Get rid of some unneeded constants.
+  * Changes: Updated position indicator graphical assets. Added graphical assets for horizontal position indicator. Committing again because on last commit i had wrong syntax in fix message.
+  * Fixes: NB#190329 -added horizontal position indicator graphics
+  * Changes: Updated position indicator graphical assets. Added graphical assets for horizontal position indicator
+  * Fixes: NB# 190329 - added horizontal position indicator graphics
+  * New: MHomeButtonStyle#systemDialog
+  * Changes: deleting old stuff
+  * Changes: Updated vibration feedbacks
+  * Changes: Update the MSpinner's CSS to meet the new MSpinner's needs
+  * Changes: Fixed color of CommonSubTitleWithoutMargin to default
+  * Changes: Set title-style-name in container.
+  * Changes: Add new properties for MSliderStyle
+  * Changes: fixed typos in containerstyle.css
+  * Fixes: NB#205704 - No difference between read and unread posts in feeds application
+  * Changes: adding default opacity for label (text-opacity)
+  * Fixes: NB#203742 Delete button is not shown if set to potrait mode in sync settings page with long BT name
+  * Changes: Tweaked max size of the MObjectMenu pannable area from 42% to 50%.
+  * Changes: adding inverted styles for MList*
+  * Changes: Fixed margins from object menu header.
+  * Changes: adding new graphics for mspinner in PNG
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 23 Nov 2010 15:59:08 +0000
+
 meegotouchtheme (0.20.56-1) unstable; urgency=low
 
   * Changes: List item height is now SIZE_LIST instead of SIZE_ONE
