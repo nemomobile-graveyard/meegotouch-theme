@@ -133,6 +133,7 @@ MBannerStyle #LockScreen {
     font: $FONT_XSMALL_BOLD;
     color:$COLOR_INVERTED_FOREGROUND;
     margin-bottom:0.3mm;
+    text-opacity: 0.1;
 }
 
 MBannerStyle #SystemBanner {
