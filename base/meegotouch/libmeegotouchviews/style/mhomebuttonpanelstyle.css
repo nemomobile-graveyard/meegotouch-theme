@@ -15,6 +15,10 @@ MHomeButtonPanelStyle {
     background-image: meegotouch-button-navigationbar-home-background $CORNER_MARGINS;
 }
 
+MHomeButtonPanelStyle#systemDialog {
+    offset: 0 $HEIGHT_STATUSBAR;
+}
+
 MHomeButtonPanelStyle:pressed {
     background-image: meegotouch-button-navigationbar-home-background-pressed $CORNER_MARGINS;
 }
