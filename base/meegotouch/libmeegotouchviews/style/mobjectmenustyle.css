@@ -12,11 +12,8 @@ MObjectMenuStyle {
     appear-feedback: appear-objectmenu;
 }
 
-@const CB_WIDTH: 44.8mm;
-@const CB_HEIGHT:  6.4mm;
-
 MObjectMenu MButtonStyle {
-    maximum-size: $CB_WIDTH $CB_HEIGHT;
+    maximum-size: -1 $SIZE_BUTTON;
 
     margin-left: 0;
     margin-right: 0;
@@ -41,7 +38,7 @@ MObjectMenu MButtonStyle:pressed {
 MObjectMenu MWidgetStyle#ObjectMenuTitleArea {
     padding-left: $MARGIN_LARGE;
         
-    maximum-size: $CB_WIDTH $CB_HEIGHT;
+    maximum-size: -1 $SIZE_LIST;
     minimum-size: 50% $SIZE_MENU;
 }
 
