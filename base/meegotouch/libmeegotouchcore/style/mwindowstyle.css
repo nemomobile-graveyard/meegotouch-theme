@@ -1,0 +1,9 @@
+MWindowStyle {
+    background-image: "meegotouch-window-background-forcex11";
+    background-color: #ffffff;
+}
+
+MWindowStyle.Landscape {
+    background-image: "meegotouch-window-background-forcex11";
+    background-color: #ffffff;
+}
