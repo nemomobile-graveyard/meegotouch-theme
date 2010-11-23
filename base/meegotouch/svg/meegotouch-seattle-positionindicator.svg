@@ -150,28 +150,28 @@
 		</g>
 	</g>
 	<g id="meegotouch-positionindicator-inverted-background-horizontal" transform="translate(27, 53)">
-		<rect id="_x3C_Path_x3E__19_" x="283" y="89" style="opacity:0.1;fill:#FFFFFF;" width="12" height="6"/>
+		<rect id="_x3C_Path_x3E__19_" x="273" y="86" style="opacity:0.1;fill:#FFFFFF;" width="12" height="6"/>
 	</g>
 	<g id="meegotouch-positionindicator-inverted-indicator-horizontal" transform="translate(27, 37)">
-		<path id="_x3C_Path_x3E__18_" style="fill:#FFFFFF;" d="M295,95v6h-12v-6H295z"/>
+		<path id="_x3C_Path_x3E__18_" style="fill:#FFFFFF;" d="M285,92v6h-12v-6H285z"/>
 	</g>
 	<g id="meegotouch-positionindicator-inverted-background" transform="translate(27, 53)">
-		<rect id="_x3C_Path_x3E__16_" x="283" y="63" style="opacity:0.1;fill:#FFFFFF;" width="6" height="12"/>
+		<rect id="_x3C_Path_x3E__16_" x="273" y="60" style="opacity:0.1;fill:#FFFFFF;" width="6" height="12"/>
 	</g>
 	<g id="meegotouch-positionindicator-inverted-indicator" transform="translate(27, 37)">
-		<path id="_x3C_Path_x3E__15_" style="fill:#FFFFFF;" d="M289,78h-6V66h6V78z"/>
+		<path id="_x3C_Path_x3E__15_" style="fill:#FFFFFF;" d="M279,75h-6V63h6V75z"/>
 	</g>
 	<g id="meegotouch-positionindicator-background-horizontal" transform="translate(27, 53)">
-		<rect id="_x3C_Path_x3E__13_" x="73" y="89" style="opacity:0.1;enable-background:new    ;" width="12" height="6"/>
+		<rect id="_x3C_Path_x3E__13_" x="73" y="86" style="opacity:0.1;enable-background:new    ;" width="12" height="6"/>
 	</g>
 	<g id="meegotouch-positionindicator-indicator-horizontal" transform="translate(27, 37)">
-		<path id="_x3C_Path_x3E__12_" style="fill:#191819;" d="M85,95v6H73v-6H85z"/>
+		<path id="_x3C_Path_x3E__12_" style="fill:#191819;" d="M85,92v6H73v-6H85z"/>
 	</g>
 	<g id="meegotouch-positionindicator-background" transform="translate(27, 53)">
-		<rect id="_x3C_Path_x3E__8_" x="73" y="63" style="opacity:0.1;enable-background:new    ;" width="6" height="12"/>
+		<rect id="_x3C_Path_x3E__8_" x="73" y="60" style="opacity:0.1;enable-background:new    ;" width="6" height="12"/>
 	</g>
 	<g id="meegotouch-positionindicator-indicator" transform="translate(27, 37)">
-		<path id="_x3C_Path_x3E__10_" style="fill:#191919;" d="M79,78h-6V66h6V78z"/>
+		<path id="_x3C_Path_x3E__10_" style="fill:#191919;" d="M79,75h-6V63h6V75z"/>
 	</g>
 </g>
 </svg>
