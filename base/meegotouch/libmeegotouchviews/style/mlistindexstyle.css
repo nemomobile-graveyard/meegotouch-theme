@@ -48,7 +48,7 @@ MListIndexTooltip MLabelStyle#IndexLabel:selected {
 }
 
 MListIndexTooltip MSeparatorStyle#IndexSeparator {
-    span: 0.6mm;
-    background-image: "meegotouch-separator-background-horizontal" 2px 2px 2px 2px;
+    span: 0.1mm;
+    background-image: "meegotouch-separator-background-horizontal" 0px 0px 0px 0px;
 }
 
