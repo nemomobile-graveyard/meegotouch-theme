@@ -39,6 +39,17 @@ MApplicationMenuStyle {
 
 }
 
+MApplicationMenu MPannableWidgetStyle.Portrait {
+    preferred-size: -1 -1;
+    maximum-size: 100% 75%;
+}
+
+MApplicationMenu MPannableWidgetStyle.Landscape {
+    preferred-size: -1 -1;
+    maximum-size: 50% 75%;
+}
+
+
 MAbstractLayoutPolicyStyle#menulandscape
 {
     margin-left: $PADDING_XSMALL;
