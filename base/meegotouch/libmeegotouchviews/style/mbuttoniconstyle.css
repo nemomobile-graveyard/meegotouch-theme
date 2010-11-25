@@ -30,3 +30,8 @@ MButtonIconStyle:pressed {
     background-image:;
     background-color:;
 }
+
+MButtonIconStyle:disabled {
+    background-image:;
+    background-color:;
+}
