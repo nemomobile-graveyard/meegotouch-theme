@@ -1,3 +1,14 @@
+meegotouchtheme (0.20.58-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#207125 - Navi bar back icon not dimmed when app menu accessed.
+  * Changes: Updated separator styles.
+  * Changes: new layouts for MBanner
+  * Changes: Added styling for pannable widget inside the application menu.
+  * Changes: adding opacity for MBanner timestamp(label)
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 25 Nov 2010 15:35:47 +0000
+
 meegotouchtheme (0.20.57-1) unstable; urgency=low
 
   * New version
