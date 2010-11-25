@@ -95,6 +95,36 @@ MButtonStyle[toggle]:disabled {
 /* This looks the same as regular button */
 }
 
+MButtonStyle[affirmative] {
+    background-image: meegotouch-button-positive-background $CORNER_MARGINS;
+    text-color: $COLOR_INVERTED_FOREGROUND;
+}
+
+MButtonStyle[affirmative]:pressed {
+    background-image: meegotouch-button-positive-background-pressed $CORNER_MARGINS;
+    text-color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
+}
+
+MButtonStyle[affirmative]:selected {
+    background-image: meegotouch-button-positive-background-selected $CORNER_MARGINS;
+    text-color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
+}
+
+MButtonStyle[negative] {
+    background-image: meegotouch-button-negative-background $CORNER_MARGINS;
+    text-color: $COLOR_INVERTED_FOREGROUND;
+}
+
+MButtonStyle[negative]:pressed {
+    background-image: meegotouch-button-negative-background-pressed $CORNER_MARGINS;
+    text-color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
+}
+
+MButtonStyle[negative]:selected {
+    background-image: meegotouch-button-negative-background-selected $CORNER_MARGINS;
+    text-color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
+}
+
 MButtonStyle[group] {
     background-tiles: meegotouch-button-background $CORNER_MARGINS;
 
