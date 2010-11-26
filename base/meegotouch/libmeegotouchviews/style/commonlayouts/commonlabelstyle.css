@@ -688,6 +688,15 @@ margin-right:  $INDENT_DEFAULT;
     text-opacity: 1.0;
 }
 
+#CommonEmptyStateButtonGroupHeader {
+    font: $FONT_FAMILY light 2.4mm;
+    color: $COLOR_INVERTED_FOREGROUND;
+    margin-top:    0;
+    margin-bottom: 1.8mm;
+    margin-left:   0;
+    margin-right:  0;
+}
+
 #CommonEmptyStateTitleInverted {
     font: $FONT_FAMILY light 6.2mm;
     color: $COLOR_INVERTED_FOREGROUND;
@@ -706,6 +715,15 @@ margin-right:  $INDENT_DEFAULT;
     margin-left:   0;
     margin-right:  0;
     text-opacity: 1.0;
+}
+
+#CommonEmptyStateButtonGroupHeaderInverted {
+    font: $FONT_FAMILY light 2.4mm;
+    color: $COLOR_INVERTED_FOREGROUND;
+    margin-top:    0;
+    margin-bottom: 1.8mm;
+    margin-left:   0;
+    margin-right:  0;
 }
 
 /* temporary styles */
