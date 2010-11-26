@@ -1,3 +1,15 @@
+meegotouchtheme (0.20.59-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#204307 - Progress spinner is not moving and not looks good
+  * Changes: Add CommonApplicationPageInverted style.
+  * Changes: Added Button Group Header style for empty states to commonlabelstyle.css
+  * Changes: Added Empty state label styles to commonlabestyle.css
+  * Changes: new version for integration
+  * New: MWindowStyle
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Fri, 26 Nov 2010 18:14:56 +0000
+
 meegotouchtheme (0.20.58-1) unstable; urgency=low
 
   * New version
