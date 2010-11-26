@@ -256,6 +256,7 @@ maximum-size:    44.8mm -1;
 /* Spinner */
 
 #CommonViewHeaderSpinner {
+base-image-size: $SIZE_SPINNER_SMALL;
 margin-top:      $MARGIN_LARGE;
 margin-bottom:   $MARGIN_LARGE;
 margin-left:     0;
@@ -265,6 +266,7 @@ preferred-size:  2.4mm 2.4mm;
 maximum-size:    2.4mm 2.4mm;
 }
 #CommonListItemSpinner {
+base-image-size: $SIZE_SPINNER_DEFAULT;
 margin-top:      0;
 margin-bottom:   0;
 margin-left:     0;
@@ -274,6 +276,7 @@ preferred-size:  3.2mm 3.2mm;
 maximum-size:    3.2mm 3.2mm;
 }
 #CommonLargeSpinner {
+base-image-size: $SIZE_SPINNER_LARGE;
 margin-top:      0;
 margin-bottom:   0;
 margin-left:     0;
@@ -284,8 +287,8 @@ maximum-size:    9.6mm 9.6mm;
 }
 
 #CommonViewHeaderSpinnerInverted {
-/* bg-pixmap: "meegotouch-progressindicator-spinner-background-inverted" 2.4mm 2.4mm;
-progress-pixmap: "meegotouch-progressindicator-spinner-progress-inverted" 2.4mm 2.4mm; */
+base-image-name: "spinnerinverted";
+base-image-size: $SIZE_SPINNER_SMALL;
 margin-top:      $MARGIN_LARGE;
 margin-bottom:   $MARGIN_LARGE;
 margin-left:     0;
@@ -295,6 +298,8 @@ preferred-size:  2.4mm 2.4mm;
 maximum-size:    2.4mm 2.4mm;
 }
 #CommonListItemSpinnerInverted {
+base-image-name: "spinnerinverted";
+base-image-size: $SIZE_SPINNER_DEFAULT;
 margin-top:      0;
 margin-bottom:   0;
 margin-left:     0;
@@ -304,6 +309,8 @@ preferred-size:  3.2mm 3.2mm;
 maximum-size:    3.2mm 3.2mm;
 }
 #CommonLargeSpinnerInverted {
+base-image-name: "spinnerinverted";
+base-image-size: $SIZE_SPINNER_LARGE;
 margin-top:      0;
 margin-bottom:   0;
 margin-left:     0;

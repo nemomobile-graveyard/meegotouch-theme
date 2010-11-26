@@ -3,7 +3,6 @@ MSpinnerStyle {
     base-image-name: "spinner";
     base-image-size: $SIZE_SPINNER_LARGE;
     period: 2000;
-    refresh-rate: 33;
     number-of-frames: 10;
 
     maximum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
