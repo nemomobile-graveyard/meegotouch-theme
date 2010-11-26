@@ -666,6 +666,47 @@ margin-right:  $INDENT_DEFAULT;
     margin-right:  0;
 } 
 
+/* Empty state labels */
+
+#CommonEmptyStateTitle {
+    font: $FONT_FAMILY light 6.2mm;
+    color: $COLOR_INVERTED_FOREGROUND;
+    margin-top:    0;
+    margin-bottom: 0;
+    margin-left:   0;
+    margin-right:  0;
+    text-opacity: 0.5;
+}
+
+#CommonEmptyStateTitleKeyword {
+    font: $FONT_FAMILY light 6.2mm;
+    color: $COLOR_INVERTED_FOREGROUND;
+    margin-top:    0;
+    margin-bottom: 0;
+    margin-left:   0;
+    margin-right:  0;
+    text-opacity: 1.0;
+}
+
+#CommonEmptyStateTitleInverted {
+    font: $FONT_FAMILY light 6.2mm;
+    color: $COLOR_INVERTED_FOREGROUND;
+    margin-top:    0;
+    margin-bottom: 0;
+    margin-left:   0;
+    margin-right:  0;
+    text-opacity: 0.5;
+}
+
+#CommonEmptyStateTitleKeywordInverted {
+    font: $FONT_FAMILY light 6.2mm;
+    color: $COLOR_INVERTED_FOREGROUND;
+    margin-top:    0;
+    margin-bottom: 0;
+    margin-left:   0;
+    margin-right:  0;
+    text-opacity: 1.0;
+}
 
 /* temporary styles */
 
