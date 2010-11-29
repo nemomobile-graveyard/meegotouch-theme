@@ -10,6 +10,9 @@ MLabelStyle {
     font: $FONT_DEFAULT;
     highlight-color: $COLOR_LINK;
     active-highlight-color: $COLOR_LINK_ACTIVE; 
+
+    horizontal-alignment: left;
+    vertical-alignment: vcenter;
     
     press-feedback: press;
     release-feedback: release;
