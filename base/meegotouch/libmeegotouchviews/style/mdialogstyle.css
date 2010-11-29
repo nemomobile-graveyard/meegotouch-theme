@@ -134,12 +134,12 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
 }
 
 #MDialogProgressIndicator {
-    maximum-size: 3.2mm 3.2mm;
-    minimum-size: 3.2mm 3.2mm;
-    preferred-size: 3.2mm 3.2mm; 
+    base-image-name: "spinner";
+    base-image-size: $SIZE_SPINNER_DIALOG;
+    maximum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
+    minimum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
+    preferred-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG; 
 
     margin-top: $MARGIN_LARGE;
-    bg-pixmap: "meegotouch-progressindicator-spinner-background" 32px 32px;
-    progress-pixmap: "meegotouch-progressindicator-spinner-progress" 32px 32px;
 }
 

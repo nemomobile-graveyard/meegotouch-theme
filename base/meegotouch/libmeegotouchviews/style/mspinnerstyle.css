@@ -38,6 +38,8 @@ MContainerHeader MSpinnerStyle {
     minimum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
     preferred-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
     maximum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
+
+    margin-right: $INDENT_DEFAULT;
 }
 
 
