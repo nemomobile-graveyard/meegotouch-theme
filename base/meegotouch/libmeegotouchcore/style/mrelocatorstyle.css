@@ -10,6 +10,6 @@ MRelocatorStyle.Landscape {
     bottom-no-go-margin: 4mm;
 }
 
-MRelocatorStyle.Landscape:PhysicalKeyboard {
+MRelocatorStyle.Landscape:physical-keyboard {
     vertical-anchor-position: 15mm;
 }
