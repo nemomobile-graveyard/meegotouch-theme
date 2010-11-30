@@ -1,6 +1,6 @@
 /* MSceneLayerEffectDimStyle : MSceneLayerEffectStyle */
 MSceneLayerEffectDimStyle {
-    opacity: 0.95;
+    opacity: 0.98;
     easing-curve: inoutcubic;
     fade-duration: 500;
 }
