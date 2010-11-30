@@ -1,3 +1,21 @@
+meegotouchtheme (0.20.60-1) unstable; urgency=low
+
+  * New version
+  * Changes: opacity increase to 0.98 at MSceneLayerEffectStyle
+  * Changes: new styles for MButtonIconView
+  * Changes: Refactor icon-opacity style property to content-opacity.
+  * Changes: Added graphical assets for application window corners
+  * Changes: Updated virtual keyboard assets. Buttons have now 2px of invisible margin on left and right side
+  * Changes: Default list header widget styles.
+  * New: MTextMagnifier style
+  * Changes: Updated virtual keyboard assets. Shadow is part of magnifier. Added mask for magnifier
+  * Changes: A few more spinner tweaks.
+  * Changes: Delete old assets.
+  * New: Label text alignment from style default settings.
+  * Changes: adding assets in PNG for spinner
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 30 Nov 2010 17:27:58 +0000
+
 meegotouchtheme (0.20.59-1) unstable; urgency=low
 
   * New version
