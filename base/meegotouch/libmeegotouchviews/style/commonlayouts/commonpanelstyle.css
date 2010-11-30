@@ -333,7 +333,7 @@ minimum-size:      32 32;
 preferred-size:    -1 32;   
 maximum-size:      -1 -1; 
 background-tiles:  ;
-background-image:  $CP_BG; /* Needs asset */
+background-image:  "meegotouch-list-header-background";
 margin-top:        0;
 margin-bottom:     0;
 margin-left:       0;
@@ -344,7 +344,7 @@ minimum-size:      32 32;
 preferred-size:    -1 32;   
 maximum-size:      -1 -1; 
 background-tiles:  ;
-background-image:  $CP_INVERTED_BG; /* Needs asset */
+background-image:  "meegotouch-list-header-inverted-background";
 margin-top:        0;
 margin-bottom:     0;
 margin-left:       0;
