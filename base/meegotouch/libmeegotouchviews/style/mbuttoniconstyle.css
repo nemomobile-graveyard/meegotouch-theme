@@ -3,8 +3,17 @@ MButtonIconStyle {
     background-image:;
     background-color:;
 
+    /* those attributes are deprecated and have no effect anymore.
+       remove them once their corresponding definitions are removed
+       from the style class. */
+    glow-color: #FFFFFF;
+    glow-duration: 800;
+    glow-radius: 8;
+    shrink-duration: 100;
+    shrink-factor: 0.2;
+
     content-opacity: 1;
-	
+
     /* inherited from MButtonStyle */
     icon-align: center;
 
