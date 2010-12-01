@@ -106,6 +106,7 @@ meegotouch-notification-event-background
 meegotouch-notification-event-background-pressed
 meegotouch-notification-information-background
 meegotouch-notification-information-background-pressed
+meegotouch-notification-lockscreen-background
 meegotouch-notification-system-background
 meegotouch-notification-system-background-pressed
 meegotouch-new-items-counter-background-regular
@@ -202,6 +203,10 @@ meegotouch-button-switch-background
 meegotouch-button-switch-mask
 meegotouch-button-switch-colorstripe
 meegotouch-button-switch-colorstripe-normal
+meegotouch-switch-off
+meegotouch-switch-thumb
+meegotouch-switch-disabled
+meegotouch-switch-pressed
 
 #meegotouch-viewmenubuttons
 meegotouch-viewmenu-background-top-left
@@ -380,6 +385,7 @@ meegotouch-list-fullwidth-background-right
 
 #meegotouch-list
 meegotouch-list-header-background
+meegotouch-list-header-inverted-background
 meegotouch-live-filter-bar-background
 meegotouch-fastscroll-background
 meegotouch-list-fullwidth-background-top-left
