@@ -38,10 +38,10 @@ preferred-size:    -1 $CFP_HEIGHT;
 maximum-size:      -1 $CFP_HEIGHT;
 background-tiles:  ;
 background-image:  $CFP_BG;
-margin-top:        CFP_M_TOP;
-margin-bottom:     CFP_M_BOTTOM;
-margin-left:       CFP_M_LEFT;
-margin-right:      CFP_M_RIGHT;
+margin-top:        $CFP_M_TOP;
+margin-bottom:     $CFP_M_BOTTOM;
+margin-left:       $CFP_M_LEFT;
+margin-right:      $CFP_M_RIGHT;
 }
 #CommonFramePanel:pressed {
 background-tiles:  ;
@@ -58,10 +58,10 @@ preferred-size:    -1 $CFP_HEIGHT;
 maximum-size:      -1 $CFP_HEIGHT;
 background-tiles:  ;
 background-image:  $CFP_BG_TOP;
-margin-top:        CFP_M_TOP;
+margin-top:        $CFP_M_TOP;
 margin-bottom:     0;
-margin-left:       CFP_M_LEFT;
-margin-right:      CFP_M_RIGHT;
+margin-left:       $CFP_M_LEFT;
+margin-right:      $CFP_M_RIGHT;
 }
 #CommonTopFramePanel:pressed {
 background-tiles:  ;
@@ -80,8 +80,8 @@ background-tiles:  ;
 background-image:  $CFP_BG_CENTER;
 margin-top:        0;
 margin-bottom:     0;
-margin-left:       CFP_M_LEFT;
-margin-right:      CFP_M_RIGHT;
+margin-left:       $CFP_M_LEFT;
+margin-right:      $CFP_M_RIGHT;
 }
 #CommonCenterFramePanel:pressed {
 background-tiles:  ;
@@ -99,9 +99,9 @@ maximum-size:      -1 $CFP_HEIGHT;
 background-tiles:  ;
 background-image:  $CFP_BG_BOTTOM;
 margin-top:        0;
-margin-bottom:     CFP_M_BOTTOM;
-margin-left:       CFP_M_LEFT;
-margin-right:      CFP_M_RIGHT;
+margin-bottom:     $CFP_M_BOTTOM;
+margin-left:       $CFP_M_LEFT;
+margin-right:      $CFP_M_RIGHT;
 }
 #CommonBottomFramePanel:pressed {
 background-tiles:  ;
@@ -120,10 +120,10 @@ preferred-size:    -1 $CFP_HEIGHT_SMALL;
 maximum-size:      -1 $CFP_HEIGHT_SMALL;
 background-tiles:  ;
 background-image:  $CFP_BG;
-margin-top:        CFP_M_TOP;
-margin-bottom:     CFP_M_BOTTOM;
-margin-left:       CFP_M_LEFT;
-margin-right:      CFP_M_RIGHT;
+margin-top:        $CFP_M_TOP;
+margin-bottom:     $CFP_M_BOTTOM;
+margin-left:       $CFP_M_LEFT;
+margin-right:      $CFP_M_RIGHT;
 }
 #CommonSmallFramePanel:pressed {
 background-tiles:  ;
@@ -140,10 +140,10 @@ preferred-size:    -1 $CFP_HEIGHT;
 maximum-size:      -1 $CFP_HEIGHT;
 background-tiles:  ;
 background-image:  $CFP_BG_TOP;
-margin-top:        CFP_M_TOP;
+margin-top:        $CFP_M_TOP;
 margin-bottom:     0;
-margin-left:       CFP_M_LEFT;
-margin-right:      CFP_M_RIGHT;
+margin-left:       $CFP_M_LEFT;
+margin-right:      $CFP_M_RIGHT;
 }
 #CommonSmallTopFramePanel:pressed {
 background-tiles:  ;
@@ -162,8 +162,8 @@ background-tiles:  ;
 background-image:  $CFP_BG_CENTER;
 margin-top:        0;
 margin-bottom:     0;
-margin-left:       CFP_M_LEFT;
-margin-right:      CFP_M_RIGHT;
+margin-left:       $CFP_M_LEFT;
+margin-right:      $CFP_M_RIGHT;
 }
 #CommonSmallCenterFramePanel:pressed {
 background-tiles:  ;
@@ -181,9 +181,9 @@ maximum-size:      -1 $CFP_HEIGHT;
 background-tiles:  ;
 background-image:  $CFP_BG_BOTTOM;
 margin-top:        0;
-margin-bottom:     CFP_M_BOTTOM;
-margin-left:       CFP_M_LEFT;
-margin-right:      CFP_M_RIGHT;
+margin-bottom:     $CFP_M_BOTTOM;
+margin-left:       $CFP_M_LEFT;
+margin-right:      $CFP_M_RIGHT;
 }
 #CommonSmallBottomFramePanel:pressed {
 background-tiles:  ;
@@ -202,10 +202,10 @@ preferred-size:    -1 $CFP_HEIGHT;
 maximum-size:      -1 $CFP_HEIGHT;
 background-tiles:  ;
 background-image:  $CFP_BG_INVERTED;
-margin-top:        CFP_M_TOP;
-margin-bottom:     CFP_M_BOTTOM;
-margin-left:       CFP_M_LEFT;
-margin-right:      CFP_M_RIGHT;
+margin-top:        $CFP_M_TOP;
+margin-bottom:     $CFP_M_BOTTOM;
+margin-left:       $CFP_M_LEFT;
+margin-right:      $CFP_M_RIGHT;
 }
 #CommonFramePanelInverted:pressed {
 background-tiles:  ;
@@ -222,10 +222,10 @@ preferred-size:    -1 $CFP_HEIGHT;
 maximum-size:      -1 $CFP_HEIGHT;
 background-tiles:  ;
 background-image:  $CFP_BG_TOP_INVERTED;
-margin-top:        CFP_M_TOP;
+margin-top:        $CFP_M_TOP;
 margin-bottom:     0;
-margin-left:       CFP_M_LEFT;
-margin-right:      CFP_M_RIGHT;
+margin-left:       $CFP_M_LEFT;
+margin-right:      $CFP_M_RIGHT;
 }
 #CommonTopFramePanelInverted:pressed {
 background-tiles:  ;
@@ -244,8 +244,8 @@ background-tiles:  ;
 background-image:  $CFP_BG_CENTER_INVERTED;
 margin-top:        0;
 margin-bottom:     0;
-margin-left:       CFP_M_LEFT;
-margin-right:      CFP_M_RIGHT;
+margin-left:       $CFP_M_LEFT;
+margin-right:      $CFP_M_RIGHT;
 }
 #CommonCenterFramePanelInverted:pressed {
 background-tiles:  ;
@@ -263,9 +263,9 @@ maximum-size:      -1 $CFP_HEIGHT;
 background-tiles:  ;
 background-image:  $CFP_BG_BOTTOM_INVERTED;
 margin-top:        0;
-margin-bottom:     CFP_M_BOTTOM;
-margin-left:       CFP_M_LEFT;
-margin-right:      CFP_M_RIGHT;
+margin-bottom:     $CFP_M_BOTTOM;
+margin-left:       $CFP_M_LEFT;
+margin-right:      $CFP_M_RIGHT;
 }
 #CommonBottomFramePanelInverted:pressed {
 background-tiles:  ;
@@ -284,10 +284,10 @@ preferred-size:    -1 $CFP_HEIGHT_SMALL;
 maximum-size:      -1 $CFP_HEIGHT_SMALL;
 background-tiles:  ;
 background-image:  $CFP_BG_INVERTED;
-margin-top:        CFP_M_TOP;
-margin-bottom:     CFP_M_BOTTOM;
-margin-left:       CFP_M_LEFT;
-margin-right:      CFP_M_RIGHT;
+margin-top:        $CFP_M_TOP;
+margin-bottom:     $CFP_M_BOTTOM;
+margin-left:       $CFP_M_LEFT;
+margin-right:      $CFP_M_RIGHT;
 }
 #CommonSmallFramePanelInverted:pressed {
 background-tiles:  ;
@@ -304,10 +304,10 @@ preferred-size:    -1 $CFP_HEIGHT;
 maximum-size:      -1 $CFP_HEIGHT;
 background-tiles:  ;
 background-image:  $CFP_BG_TOP_INVERTED;
-margin-top:        CFP_M_TOP;
+margin-top:        $CFP_M_TOP;
 margin-bottom:     0;
-margin-left:       CFP_M_LEFT;
-margin-right:      CFP_M_RIGHT;
+margin-left:       $CFP_M_LEFT;
+margin-right:      $CFP_M_RIGHT;
 }
 #CommonSmallTopFramePanelInverted:pressed {
 background-tiles:  ;
@@ -326,8 +326,8 @@ background-tiles:  ;
 background-image:  $CFP_BG_CENTER_INVERTED;
 margin-top:        0;
 margin-bottom:     0;
-margin-left:       CFP_M_LEFT;
-margin-right:      CFP_M_RIGHT;
+margin-left:       $CFP_M_LEFT;
+margin-right:      $CFP_M_RIGHT;
 }
 #CommonSmallCenterFramePanelInverted:pressed {
 background-tiles:  ;
@@ -345,9 +345,9 @@ maximum-size:      -1 $CFP_HEIGHT;
 background-tiles:  ;
 background-image:  $CFP_BG_BOTTOM_INVERTED;
 margin-top:        0;
-margin-bottom:     CFP_M_BOTTOM;
-margin-left:       CFP_M_LEFT;
-margin-right:      CFP_M_RIGHT;
+margin-bottom:     $CFP_M_BOTTOM;
+margin-left:       $CFP_M_LEFT;
+margin-right:      $CFP_M_RIGHT;
 }
 #CommonSmallBottomFramePanelInverted:pressed {
 background-tiles:  ;
