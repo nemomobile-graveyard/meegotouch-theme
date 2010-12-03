@@ -1,3 +1,15 @@
+meegotouchtheme (0.20.61-1) unstable; urgency=low
+
+  * New version
+  * Changes: use black as default color for mpreedit underline-color
+  * Changes: Set text colour for inverted list buttons.
+  * Fixes: NB#208894 - CommonFramePanel style has wrongly defined style properties.
+  * Changes: renamed some assets.
+  * Changes: Add some missing IDs.
+  * Changes: Get rid of warnings regarding uninitialized attributes
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Fri, 03 Dec 2010 17:49:39 +0000
+
 meegotouchtheme (0.20.60-1) unstable; urgency=low
 
   * New version
