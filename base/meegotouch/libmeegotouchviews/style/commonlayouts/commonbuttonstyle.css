@@ -1270,7 +1270,8 @@ background-image: meegotouch-textedit-button-background-disabled 20px 20px 20px 
 }
 
 #CommonListButtonInverted {
-font: $FONT_FAMILY bold 20;
+font:             $FONT_FAMILY bold 20;
+text-color:       $CB_FONT_COLOR_INVERTED;
 background-image: meegotouch-textedit-button-inverted-background 20px 20px 20px 20px;
 minimum-size:     4.2mm 4.3mm;
 preferred-size:   12.2mm 4.3mm;
@@ -1279,12 +1280,15 @@ margin-left:      0;
 margin-right:     $INDENT_DEFAULT;
 }
 #CommonListButtonInverted:pressed {
+text-color:       $CB_FONT_COLOR_INVERTED_PRESSED;
 background-image: meegotouch-textedit-button-inverted-background-pressed 20px 20px 20px 20px;
 }
 #CommonListButtonInverted:selected {
+text-color:       $CB_FONT_COLOR_INVERTED_SELECTED;
 background-image: meegotouch-textedit-button-inverted-background-selected 20px 20px 20px 20px;
 }
 #CommonListButtonInverted:disabled {
+text-color:       $CB_FONT_COLOR_INVERTED_DISABLED;
 background-image: meegotouch-textedit-button-inverted-background-disabled 20px 20px 20px 20px;
 }
 
