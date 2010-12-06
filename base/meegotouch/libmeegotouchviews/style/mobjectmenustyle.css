@@ -10,6 +10,10 @@ MObjectMenuStyle {
     horizontal-align: center;
 
     appear-feedback: appear-objectmenu;
+    title-style-name: "CommonPanel";
+    title-icon-style-name: "CommonMainIcon";
+    title-label-style-name: "CommonSingleTitle";
+    title-separator-style-name: "CommonHorizontalSeparator";
 }
 
 MObjectMenu MButtonStyle {
