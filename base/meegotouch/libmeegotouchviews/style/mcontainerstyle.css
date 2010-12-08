@@ -38,6 +38,3 @@ MContainerHeaderStyle {
     background-image: meegotouch-container-header-background 8px 8px 8px 8px;
 }
 
-MContainerHeader MLabelStyle {
-   color: $COLOR_INVERTED_FOREGROUND;
-}
