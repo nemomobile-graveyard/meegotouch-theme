@@ -1,3 +1,13 @@
+meegotouchtheme (0.20.62-1) unstable; urgency=low
+
+  * New version   
+  * Changes: added CommonItemInfoInverted to commonlabelstyle.css
+  * Fixes: NB#208992 - Check boxes are not available for shuffle and repeat in view menu [..].
+  * Changes: Make buttons in tabbar use MButtonTabView
+  * Changes: missing styles for objectmenu
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 08 Dec 2010 15:39:24 +0200
+
 meegotouchtheme (0.20.61-1) unstable; urgency=low
 
   * New version
