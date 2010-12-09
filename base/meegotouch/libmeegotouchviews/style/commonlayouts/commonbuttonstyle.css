@@ -1331,7 +1331,7 @@ background-image: meegotouch-textedit-button-inverted-background-disabled 20px 2
 /* Toolbar buttons */
 
 #CommonToolbarButton {
-background-image: meegotouch-button-navigationbar-tab-button-background $TBB_CORNERS;
+background-image: meegotouch-button-navigationbar-button-background $TBB_CORNERS;
 minimum-size:     $TBB_HEIGHT $TBB_HEIGHT;
 preferred-size:   $TBB_WIDTH $TBB_HEIGHT;
 maximum-size:     $TBB_WIDTH $TBB_HEIGHT;
@@ -1339,10 +1339,10 @@ margin-left:      $MARGIN_SMALL;
 margin-right:     $MARGIN_SMALL;
 }
 #CommonToolbarButton:pressed {
-background-image: meegotouch-button-navigationbar-tab-button-background-pressed $TBB_CORNERS;
+background-image: meegotouch-button-navigationbar-button-background-pressed $TBB_CORNERS;
 }
 #CommonToolbarButton:selected {
-background-image: meegotouch-button-navigationbar-tab-button-background-selected $TBB_CORNERS;
+background-image: meegotouch-button-navigationbar-button-background-selected $TBB_CORNERS;
 }
 #CommonToolbarLeftSplitButton {
 background-image: meegotouch-button-navigationbar-tab-button-background-horizontal-left $TBSB_CORNERS;
@@ -1386,8 +1386,95 @@ background-image: meegotouch-button-navigationbar-tab-button-background-pressed-
 #CommonToolbarRightSplitButton:selected {
 background-image: meegotouch-button-navigationbar-tab-button-background-selected-horizontal-right $TBSB_CORNERS;
 }
+
+#CommonToolbarButtonInverted {
+background-image: meegotouch-button-navigationbar-button-background $TBB_CORNERS;
+minimum-size:     $TBB_HEIGHT $TBB_HEIGHT;
+preferred-size:   $TBB_WIDTH $TBB_HEIGHT;
+maximum-size:     $TBB_WIDTH $TBB_HEIGHT;
+margin-left:      $MARGIN_SMALL;
+margin-right:     $MARGIN_SMALL;
+text-color:       $CB_FONT_COLOR_INVERTED;
+}
+#CommonToolbarButtonInverted:pressed {
+background-image: meegotouch-button-navigationbar-button-background-pressed $TBB_CORNERS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonToolbarButtonInverted:selected {
+background-image: meegotouch-button-navigationbar-button-background-selected $TBB_CORNERS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+#CommonToolbarLeftSplitButtonInverted {
+background-image: meegotouch-button-navigationbar-tab-button-background-horizontal-left $TBSB_CORNERS;
+minimum-size:     $TBSB_HEIGHT $TBSB_HEIGHT;
+preferred-size:   $TBSB_WIDTH $TBSB_HEIGHT;
+maximum-size:     $TBSB_WIDTH $TBSB_HEIGHT;
+margin-left:      $MARGIN_SMALL;
+margin-right:     0;
+text-color:       $CB_FONT_COLOR_INVERTED;
+}
+#CommonToolbarLeftSplitButtonInverted:pressed {
+background-image: meegotouch-button-navigationbar-tab-button-background-pressed-horizontal-left $TBSB_CORNERS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonToolbarLeftSplitButtonInverted:selected {
+background-image: meegotouch-button-navigationbar-tab-button-background-selected-horizontal-left $TBSB_CORNERS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+#CommonToolbarCenterSplitButtonInverted {
+background-image: meegotouch-button-navigationbar-tab-button-background-horizontal-center $TBSB_CORNERS;
+minimum-size:     $TBSB_HEIGHT $TBSB_HEIGHT;
+preferred-size:   $TBSB_WIDTH $TBSB_HEIGHT;
+maximum-size:     $TBSB_WIDTH $TBSB_HEIGHT;
+margin-left:      0;
+margin-right:     0;
+text-color:       $CB_FONT_COLOR_INVERTED;
+}
+#CommonToolbarCenterSplitButtonInverted:pressed {
+background-image: meegotouch-button-navigationbar-tab-button-background-pressed-horizontal-center $TBSB_CORNERS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonToolbarCenterSplitButtonInverted:selected {
+background-image: meegotouch-button-navigationbar-tab-button-background-selected-horizontal-center $TBSB_CORNERS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+#CommonToolbarRightSplitButtonInverted {
+background-image: meegotouch-button-navigationbar-tab-button-background-horizontal-right $TBSB_CORNERS;
+minimum-size:     $TBSB_HEIGHT $TBSB_HEIGHT;
+preferred-size:   $TBSB_WIDTH $TBSB_HEIGHT;
+maximum-size:     $TBSB_WIDTH $TBSB_HEIGHT;
+margin-left:      0;
+margin-right:     $MARGIN_SMALL;
+text-color:       $CB_FONT_COLOR_INVERTED;
+}
+#CommonToolbarRightSplitButtonInverted:pressed {
+background-image: meegotouch-button-navigationbar-tab-button-background-pressed-horizontal-right $TBSB_CORNERS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonToolbarRightSplitButtonInverted:selected {
+background-image: meegotouch-button-navigationbar-tab-button-background-selected-horizontal-right $TBSB_CORNERS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+
+/* Overlay toolbar buttons */
+
+}
 #CommonOverlayToolbarButton {
-/* TBD */
+background-image: meegotouch-button-content-overlay-navigationbar-button-inverted-background $TBB_CORNERS;
+minimum-size:     $TBB_HEIGHT $TBB_HEIGHT;
+preferred-size:   $TBB_WIDTH $TBB_HEIGHT;
+maximum-size:     $TBB_WIDTH $TBB_HEIGHT;
+margin-left:      $MARGIN_SMALL;
+margin-right:     $MARGIN_SMALL;
+text-color:       $CB_FONT_COLOR_INVERTED;
+}
+#CommonOverlayToolbarButton:pressed {
+background-image: meegotouch-button-content-overlay-navigationbar-button-inverted-background-pressed $TBB_CORNERS;
+text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonOverlayToolbarButton:selected {
+background-image: meegotouch-button-content-overlay-navigationbar-button-inverted-background-selected $TBB_CORNERS;
+text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
 }
 
 /* Input Field Buttons */
