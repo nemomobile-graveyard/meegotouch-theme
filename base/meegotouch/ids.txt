@@ -205,6 +205,8 @@ meegotouch-button-switch-colorstripe
 meegotouch-button-switch-colorstripe-normal
 meegotouch-switch-off
 meegotouch-switch-thumb
+meegotouch-switch-thumb-disabled
+meegotouch-switch-thumb-pressed
 meegotouch-switch-disabled
 meegotouch-switch-pressed
 
