@@ -31,12 +31,12 @@ MApplicationMenuStyle {
 MApplicationMenu MPannableWidgetStyle {
     minimum-size: 54.4mm -1;
     preferred-size: 54.4mm -1;
-    maximum-size: 54.4mm -1;
+    maximum-size: 54.4mm 36.0mm;
 }
 MApplicationMenu MPannableWidgetStyle.Portrait {
     minimum-size: 44.8mm -1;
     preferred-size: 44.8mm -1;
-    maximum-size: 44.8mm -1;
+    maximum-size: 44.8mm 67.8mm;
 }
 
 MApplicationMenu MListItemStyle {
