@@ -1,9 +1,9 @@
 MWindowStyle {
-    background-image: "meegotouch-window-background-forcex11";
-    background-color: #ffffff;
+    x11-startup-pixmap: "meegotouch-window-background-forcex11";
+    startup-fill-color: #ffffff;
 }
 
 MWindowStyle.Landscape {
-    background-image: "meegotouch-window-background-forcex11";
-    background-color: #ffffff;
+    x11-startup-pixmap: "meegotouch-window-background-forcex11";
+    startup-fill-color: #ffffff;
 }
