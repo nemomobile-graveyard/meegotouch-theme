@@ -56,11 +56,22 @@ MBannerStyle #ShortEventBanner:pressed {
 /* Private banner at event screen */
 
 MBannerStyle #PrivateBanner {
+    icon-size: 5mm 5mm;
+    margin-right: 0.8mm;
+    margin-left: 0.8mm;
+    background-image: "meegotouch-notification-lockscreen-background" 10px 10px 10px 10px;
+}
+
+MBannerStyle #PrivateBanner.Landscape {
+    minimum-size: 83.8mm 8mm;
+    maximum-size: 83.8mm 12.6mm;
+    preferred-size: 83.8mm 9.7mm;
+}
+
+MBannerStyle #PrivateBanner.Portrait {
     minimum-size: 46.4mm 8mm;
     maximum-size: 46.4mm 12.6mm;
     preferred-size: 46.4mm 9.7mm;
-    icon-size: 5mm 5mm;
-    background-image: "meegotouch-notification-lockscreen-background" 10px 10px 10px 10px;
 }
 
 #PrivateBannerIcon {
@@ -73,6 +84,7 @@ MBannerStyle #PrivateBanner {
     margin-left: 2mm;
     margin-bottom: 0mm;
 }
+
 #PrivateBannerTitle {
     font: $FONT_XSMALL_BOLD;
     margin-top: 1.5mm;
@@ -95,11 +107,22 @@ MBannerStyle #PrivateBanner {
 /* Event banner at event screen */
 
 MBannerStyle #FullEventBanner {
+    icon-size: 5mm 5mm;
+    margin-right: 0.8mm;
+    margin-left: 0.8mm;
+    background-image: "meegotouch-notification-lockscreen-background" 10px 10px 10px 10px;
+}
+
+MBannerStyle #FullEventBanner.Landscape {
+    minimum-size: 83.8mm 8mm;
+    maximum-size: 83.8mm 12.6mm;
+    preferred-size: 83.8mm 9.7mm;
+}
+
+MBannerStyle #FullEventBanner.Portrait {
     minimum-size: 46.4mm 8mm;
     maximum-size: 46.4mm 12.6mm;
     preferred-size: 46.4mm 9.7mm;
-    icon-size: 5mm 5mm;
-    background-image: "meegotouch-notification-lockscreen-background" 10px 10px 10px 10px;
 }
 
 #FullEventBannerTitle {
