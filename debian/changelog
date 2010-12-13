@@ -1,3 +1,11 @@
+meegotouchtheme (0.20.63-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#210518 - Mail is sent from Google account with incorrect font.
+  * Fixes: NB#210823 - Full event banners (MBannerStyle#FullEventBanner) defines width only for portrait
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 13 Dec 2010 17:54:58 +0200
+
 meegotouchtheme (0.20.62-1) unstable; urgency=low
 
   * New version   
