@@ -18,11 +18,16 @@ MSliderStyle {
     background-vertical-elapsed-image: "meegotouch-slider-elapsed-background-vertical" 4px 4px 4px 4px;
     background-vertical-received-image: "meegotouch-slider-received-background-vertical" 4px 4px 4px 4px;
 
-    groove-thickness: 1.2mm;
+    indicator-style-name: "MSliderHandleIndicator";
 
+    groove-thickness: 1.0mm;
+    groove-margin: 2.7mm;
     groove-preferred-length: 30mm;
     groove-minimum-length: 20mm;
     groove-maximum-length: 200mm;
+
+    elapsed-offset: 0.5mm;
+    indicator-offset: 3.2mm;
 
     steps-per-feedback: 1;
     minimum-feedback-interval: 50;
@@ -39,24 +44,38 @@ MSliderStyle {
     margin-top:  $MARGIN_XSMALL;
     margin-bottom: $MARGIN_XSMALL;
 
-    color: $COLOR_FOREGROUND;
-    font: $FONT_DEFAULT;
+    color: $COLOR_SECONDARY_FOREGROUND;
+    font: $FONT_FAMILY light 2.2mm;
 }
 
-#MSliderHandleLabel {
-    margin-left: $MARGIN_DEFAULT;
-    margin-right: $MARGIN_DEFAULT;
-    margin-top: $MARGIN_DEFAULT;
-    margin-bottom: $MARGIN_DEFAULT;
+#MSliderHandleIndicator {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    padding-left: 1.0mm;
+    padding-right: 1.0mm;
+    padding-top:  0.5mm;
+    padding-bottom: 0.3mm;
+
+    color: $COLOR_INVERTED_FOREGROUND;
+    background-image: meegotouch-slider-handle-value-background 11px 11px 11px 11px;
+}
+
+#MSliderHandleIndicatorInverted {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     
-    padding-left: $PADDING_XXLARGE;
-    padding-right: $PADDING_XXLARGE;
-    padding-top:  $PADDING_XXLARGE;
-    padding-bottom: $PADDING_XXLARGE;
+    padding-left: 1.0mm;
+    padding-right: 1.0mm;
+    padding-top:  0.5mm;
+    padding-bottom: 0.3mm;
 
     color: $COLOR_FOREGROUND;
-    font: $FONT_DEFAULT;
-    background-image: meegotouch-slider-handle-value-background 31px 31px 31px 31px;
+    background-image: meegotouch-slider-handle-value-inverted-background 11px 11px 11px 11px;
 }
 
 #MSliderImage {

@@ -222,6 +222,21 @@ maximum-size:    44.8mm -1;
 }
 
 #CommonSliderInverted {
+handle-pixmap:                      "meegotouch-slider-handle-inverted-background-horizontal" 0mm 0mm;
+handle-pressed-pixmap:              "meegotouch-slider-handle-inverted-background-pressed-horizontal" 0mm 0mm;
+handle-vertical-pixmap:             "meegotouch-slider-handle-inverted-background-vertical" 0mm 0mm;
+handle-vertical-pressed-pixmap:     "meegotouch-slider-handle-inverted-background-pressed-vertical" 0mm 0mm;
+handle-label-arrow-left-pixmap:     "meegotouch-slider-handle-label-arrow-left-inverted" 0mm 0mm;
+handle-label-arrow-right-pixmap:    "meegotouch-slider-handle-label-arrow-right-inverted" 0mm 0mm;
+handle-label-arrow-up-pixmap:       "meegotouch-slider-handle-label-arrow-up-inverted" 0mm 0mm;
+handle-label-arrow-down-pixmap:     "meegotouch-slider-handle-label-arrow-down-inverted" 0mm 0mm;
+background-base-image:              "meegotouch-slider-inverted-background-horizontal" 4px 4px 4px 4px;
+background-elapsed-image:           "meegotouch-slider-elapsed-inverted-background-horizontal" 4px 4px 4px 4px;
+background-received-image:          "meegotouch-slider-received-inverted-background-horizontal" 4px 4px 4px 4px;
+background-vertical-base-image:     "meegotouch-slider-inverted-background-vertical" 4px 4px 4px 4px;
+background-vertical-elapsed-image:  "meegotouch-slider-elapsed-inverted-background-vertical" 4px 4px 4px 4px;
+background-vertical-received-image: "meegotouch-slider-received-inverted-background-vertical" 4px 4px 4px 4px;
+indicator-style-name:               "MSliderHandleIndicatorInverted";
 margin-top:      $MARGIN_DOUBLE;
 margin-bottom:   $MARGIN_DOUBLE;
 margin-left:     $INDENT_DEFAULT;
@@ -234,23 +249,42 @@ maximum-size:    44.8mm -1;
 /* Seeker */
 
 #CommonSeeker {
-margin-top:      $MARGIN_DOUBLE;
-margin-bottom:   $MARGIN_DOUBLE;
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
-minimum-size:    32.2mm -1;
-preferred-size:  44.8mm -1;
-maximum-size:    44.8mm -1;
+handle-pixmap:                  "meegotouch-seeker-handle-background-horizontal" 0mm 0mm;
+handle-pressed-pixmap:          "meegotouch-seeker-handle-background-horizontal" 0mm 0mm;
+handle-vertical-pixmap:         "meegotouch-seeker-handle-background-vertical" 0mm 0mm;
+handle-vertical-pressed-pixmap: "meegotouch-seeker-handle-background-vertical" 0mm 0mm;
+margin-top:                     $MARGIN_DOUBLE;
+margin-bottom:                  $MARGIN_DOUBLE;
+margin-left:                    $INDENT_DEFAULT;
+margin-right:                   $INDENT_DEFAULT;
+minimum-size:                   32.2mm -1;
+preferred-size:                 44.8mm -1;
+maximum-size:                   44.8mm -1;
 }
 
 #CommonSeekerInverted {
-margin-top:      $MARGIN_DOUBLE;
-margin-bottom:   $MARGIN_DOUBLE;
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
-minimum-size:    32.2mm -1;
-preferred-size:  44.8mm -1;
-maximum-size:    44.8mm -1;
+handle-pixmap:                      "meegotouch-seeker-handle-inverted-background-horizontal" 0mm 0mm;
+handle-pressed-pixmap:              "meegotouch-seeker-handle-inverted-background-horizontal" 0mm 0mm;
+handle-vertical-pixmap:             "meegotouch-seeker-handle-inverted-background-vertical" 0mm 0mm;
+handle-vertical-pressed-pixmap:     "meegotouch-seeker-handle-inverted-background-vertical" 0mm 0mm;
+handle-label-arrow-left-pixmap:     "meegotouch-slider-handle-label-arrow-left-inverted" 0mm 0mm;
+handle-label-arrow-right-pixmap:    "meegotouch-slider-handle-label-arrow-right-inverted" 0mm 0mm;
+handle-label-arrow-up-pixmap:       "meegotouch-slider-handle-label-arrow-up-inverted" 0mm 0mm;
+handle-label-arrow-down-pixmap:     "meegotouch-slider-handle-label-arrow-down-inverted" 0mm 0mm;
+background-base-image:              "meegotouch-slider-inverted-background-horizontal" 4px 4px 4px 4px;
+background-elapsed-image:           "meegotouch-slider-elapsed-inverted-background-horizontal" 4px 4px 4px 4px;
+background-received-image:          "meegotouch-slider-received-inverted-background-horizontal" 4px 4px 4px 4px;
+background-vertical-base-image:     "meegotouch-slider-inverted-background-vertical" 4px 4px 4px 4px;
+background-vertical-elapsed-image:  "meegotouch-slider-elapsed-inverted-background-vertical" 4px 4px 4px 4px;
+background-vertical-received-image: "meegotouch-slider-received-inverted-background-vertical" 4px 4px 4px 4px;
+indicator-style-name:               "MSliderHandleIndicatorInverted";
+margin-top:                         $MARGIN_DOUBLE;
+margin-bottom:                      $MARGIN_DOUBLE;
+margin-left:                        $INDENT_DEFAULT;
+margin-right:                       $INDENT_DEFAULT;
+minimum-size:                       32.2mm -1;
+preferred-size:                     44.8mm -1;
+maximum-size:                       44.8mm -1;
 }
 
 /* Spinner */
