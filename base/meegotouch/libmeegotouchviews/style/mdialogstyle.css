@@ -1,7 +1,6 @@
 
 /* MDialogStyle : MSceneWindowStyle */
 MDialogStyle {
-
     margin-left: 0;
     margin-top: 0;
     margin-right: 0;
@@ -10,58 +9,65 @@ MDialogStyle {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 0.4mm;
 
     vertical-align: center;
     horizontal-align: center;
 
-    minimum-size: 100% 100%;
-    preferred-size: 100% 100%;
-    maximum-size: 100% 100%;
+    minimum-size: -1 -1;
+    preferred-size: -1 -1;
+    maximum-size: -1 -1;
 
-    vertical-spacing: $PADDING_XLARGE;
-    button-spacing: $PADDING_DEFAULT;
+    vertical-spacing: 0;
+    button-spacing: 0;
 
-    title-bar-height: 5.2mm;
-    title-bar-alignment: center;
+    title-bar-height: 5.7mm;
+    title-bar-alignment: top;
     title-capitalization: false;
 
     /* supports only "bottom" or "center" */
-    dialog-vertical-alignment: bottom;
+    dialog-vertical-alignment: center;
 
-    dialog-top-margin: $HEIGHT_TOPBARS;
-    dialog-bottom-margin: $MARGIN_LARGE;
-    dialog-left-margin: $MARGIN_LARGE;
-    dialog-right-margin: $MARGIN_LARGE;
+    dialog-top-margin: 3.5mm;
+    dialog-bottom-margin: 0;
+    dialog-left-margin: 0;
+    dialog-right-margin: 0;
 
-    dialog-minimum-size: 1mm 1mm;
-    dialog-preferred-size: 100% -1;
+    dialog-minimum-size: 54.4mm 13.7mm;
+    dialog-preferred-size: 54.4mm -1;
     dialog-button-fixed-width: -1;
     button-box-centered: false;
 
     has-close-button: true;
     has-title-bar: true;
-}
 
-MDialogStyle.Landscape {
     button-box-orientation: horizontal;
-    maximum-horizontal-buttons: 5;
+    button-box-centered: true;
+    dialog-button-fixed-width: 21.2mm;
+
+    maximum-horizontal-buttons: 3;
+
+    /* This is a hack to avoid the animation starting from the corner. This should become obsolete eventually. */
+    padding-left: 16mm;
+    padding-right: 16mm;
 }
 
 MDialogStyle.Portrait {
-    button-box-orientation: vertical;
-    maximum-horizontal-buttons: 1;
+    dialog-minimum-size: 44.8mm 13.7mm;
+    dialog-preferred-size: 44.8mm -1;
+    maximum-horizontal-buttons: 2;
+    button-spacing: $MARGIN_DEFAULT;
+
+    /* This is a hack to avoid the animation starting from the corner. This should become obsolete eventually. */
+    padding-left: 1.6mm;
+    padding-right: 1.6mm;
 }
 
 #MDialogContentsViewport {
-    /* inherited from MWidgetStyle */
-
-    /* let the viewport grow along with its panned widget  */
+    /* 5 * SIZE_BUTTON + 0.4mm padding */
+    minimum-size: -1 -1;
     preferred-size: -1 -1;
-
-    /* TODO: replace with some proper value */
-    background-image: "meegotouch-dialog-background" 0px 0px 0px 0px;
-    background-color: $COLOR_BACKGROUND;
+    maximum-size: -1 32.4mm;
 
     margin-left: 0;
     margin-top: 0;
@@ -71,8 +77,16 @@ MDialogStyle.Portrait {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 0.4mm;
 
+    background-image: "meegotouch-dialog-background" 12px 12px 12px 12px;
+}
+
+#MDialogContentsViewport.Portrait {
+    /* 10 * SIZE_BUTTON + 0.4mm padding */
+    minimum-size: -1 -1;
+    preferred-size: -1 -1;
+    maximum-size: -1 64.4mm;
 }
 
 MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
@@ -81,8 +95,8 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
 
 #MDialogCloseButton {
     icon-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
-    preferred-size: 5.2mm 5.2mm;
     minimum-size: 5.2mm 5.2mm;
+    preferred-size: 5.2mm 5.2mm;
     maximum-size: 5.2mm 5.2mm;
 
     margin-top: 0;
@@ -114,12 +128,16 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
     margin-top: 0;
     margin-bottom: 0;
 
-    minimum-size: -1 5.2mm;
-    preferred-size: -1 5.2mm;
-    maximum-size: -1 5.2mm;
+    minimum-size: -1 5.7mm;
+    preferred-size: -1 5.7mm;
+    maximum-size: -1 5.7mm;
 }
 
 #MDialogButtonBox {
+    minimum-size: -1 $SIZE_BUTTON;
+    preferred-size: -1 $SIZE_BUTTON;
+    maximum-size: -1 $SIZE_BUTTON;
+
     background-image: meegotouch-dialog-button-area-background 10px 10px 10px 10px;
     margin-left: 0;
     margin-top: 0;
@@ -129,16 +147,14 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
     padding-right: 0;
     padding-top: 0;
     padding-bottom: 0;
-    preferred-size: -1 $SIZE_BUTTON;
-    minimum-size: -1 $SIZE_BUTTON;
 }
 
 #MDialogProgressIndicator {
-    base-image-name: "spinner";
+    base-image-name: "spinnerinverted";
     base-image-size: $SIZE_SPINNER_DIALOG;
-    maximum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
     minimum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
-    preferred-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG; 
+    preferred-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
+    maximum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
 
     margin-top: $MARGIN_LARGE;
 }

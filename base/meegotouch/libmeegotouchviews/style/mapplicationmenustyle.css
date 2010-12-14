@@ -2,10 +2,10 @@
 /* MApplicationMenuStyle : MSceneWindowStyle */
 MApplicationMenuStyle {
     /* Some of this may be obsolete. */
-    canvas-image: "meegotouch-navigationbar-viewmenu-background" 10px 10px 10px 10px;
+    canvas-image: ;
     canvas-color: #000000;
-    canvas-opacity: 1.0;
-    canvas-margin: $MARGIN_DOUBLE;
+    canvas-opacity: 0.0;
+    canvas-margin: 0;
     divider-image: ;
     divider-color: #F9A427;
     divider-opacity: 1.0;
@@ -17,11 +17,11 @@ MApplicationMenuStyle {
 
     /* inherited from MSceneWindowStyle */
     vertical-align: top;
-    horizontal-align: left;
+    horizontal-align: center;
     padding-top: $HEIGHT_NAVIGATIONBAR;
-    minimum-size: -1 -1;
-    preferred-size: -1 -1;
-    maximum-size: -1 -1;
+    minimum-size: 100% 100%;
+    preferred-size: 100% 100%;
+    maximum-size: 100% 100%;
 
     /* inherited from MWidgetStyle */
     background-color: #000000;
@@ -29,6 +29,7 @@ MApplicationMenuStyle {
 }
 
 MApplicationMenu MPannableWidgetStyle {
+    background-image: "meegotouch-navigationbar-viewmenu-background" 10px 10px 10px 10px;
     minimum-size: 54.4mm -1;
     preferred-size: 54.4mm -1;
     maximum-size: 54.4mm 36.0mm;
@@ -67,6 +68,11 @@ MApplicationMenu MComboBoxStyle {
     maximum-size: 54.4mm 8.0mm;
     background-image: meegotouch-viewmenu-background-vertical-center $CORNER_MARGINS;
     background-tiles: ;
+
+    indicator-image: "icon-m-textinput-combobox-arrow";
+    title-object-name: "CommonTitleInverted";
+    sub-title-object-name: "CommonSubTitleInverted";
+    progress-indicator-object-name: "CommonProgressBarInverted";
 }
 MApplicationMenu MComboBoxStyle.Portrait {
     minimum-size: 44.8mm 8.0mm;
@@ -83,4 +89,19 @@ MApplicationMenu MComboBoxStyle:pressed {
 }
 
 
+/* text labels in application menu items */
+MApplicationMenu MLabelStyle#CommonSingleTitle {
+    /* regular menu entries */
+   color: $COLOR_INVERTED_FOREGROUND;
+} 
+
+MApplicationMenu MLabelStyle#CommonTitle {
+    /* menu entries that are a combobox */
+    color: $COLOR_INVERTED_FOREGROUND;
+}
+
+MApplicationMenu MLabelStyle#CommonSubTitle {
+    /* combobox secondary line of text */
+    color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
+}
 
