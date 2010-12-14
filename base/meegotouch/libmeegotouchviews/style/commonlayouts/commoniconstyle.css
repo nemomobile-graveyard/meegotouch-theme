@@ -34,7 +34,7 @@ margin-top:     0;
 margin-bottom:  0;
 }
 
-#CommonRightFramePanelIcon {
+#CommonFramePanelRightIcon {
 maximum-size:   $ICON48;
 minimum-size:   $ICON48;
 preferred-size: $ICON48;
@@ -44,7 +44,7 @@ margin-top:     0;
 margin-bottom:  0;
 }
 
-#CommonLeftFramePanelIcon {
+#CommonFramePanelLeftIcon {
 maximum-size:   $ICON48;
 minimum-size:   $ICON48;
 preferred-size: $ICON48;
