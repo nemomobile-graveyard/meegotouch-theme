@@ -496,20 +496,20 @@
 		<polygon style="opacity:0.5;fill:#FFFFFF;" points="108.5,108.5 108.5,107.086 107.085,108.5 		"/>
 	</g>
 	<g id="meegotouch-seeker-handle-inverted-background-vertical">
-		<rect x="810.5" y="351.5" style="opacity:0;fill:#FFFFFF;" width="10" height="10"/>
-		<path style="fill:#FFFFFF;" d="M817.5,356.5c0,1.482-0.52,2-2,2s-2-0.518-2-2c0-1.48,0.52-2,2-2S817.5,355.02,817.5,356.5z"/>
+		<rect x="813.5" y="324.5" style="opacity:0;fill:#FFFFFF;" width="64" height="64"/>
+		<path style="fill:#FFFFFF;" d="M847.5,356.5c0,1.482-0.52,2-2,2s-2-0.518-2-2c0-1.48,0.52-2,2-2S847.5,355.02,847.5,356.5z"/>
 	</g>
 	<g id="meegotouch-seeker-handle-inverted-background-horizontal">
-		<rect x="810.5" y="226.5" style="opacity:0;fill:#FFFFFF;" width="10" height="10"/>
-		<path style="fill:#FFFFFF;" d="M817.5,231.5c0,1.482-0.52,2-2,2s-2-0.518-2-2c0-1.48,0.52-2,2-2S817.5,230.02,817.5,231.5z"/>
+		<rect x="813.5" y="199.5" style="opacity:0;fill:#FFFFFF;" width="64" height="64"/>
+		<path style="fill:#FFFFFF;" d="M847.5,231.5c0,1.482-0.52,2-2,2s-2-0.518-2-2c0-1.48,0.52-2,2-2S847.5,230.02,847.5,231.5z"/>
 	</g>
 	<g id="meegotouch-seeker-handle-background-vertical">
-		<rect x="320.5" y="351.5" style="opacity:0;fill:#FFFFFF;" width="10" height="10"/>
-		<path style="fill:#FFFFFF;" d="M327.5,356.5c0,1.482-0.52,2-2,2s-2-0.518-2-2c0-1.48,0.52-2,2-2S327.5,355.02,327.5,356.5z"/>
+		<rect x="323.5" y="324.5" style="opacity:0;fill:#FFFFFF;" width="64" height="64"/>
+		<path style="fill:#FFFFFF;" d="M357.5,356.5c0,1.482-0.52,2-2,2s-2-0.518-2-2c0-1.48,0.52-2,2-2S357.5,355.02,357.5,356.5z"/>
 	</g>
 	<g id="meegotouch-seeker-handle-background-horizontal">
-		<rect x="320.5" y="226.5" style="opacity:0;fill:#FFFFFF;" width="10" height="10"/>
-		<path style="fill:#FFFFFF;" d="M327.5,231.5c0,1.482-0.52,2-2,2s-2-0.518-2-2c0-1.48,0.52-2,2-2S327.5,230.02,327.5,231.5z"/>
+		<rect x="323.5" y="199.5" style="opacity:0;fill:#FFFFFF;" width="64" height="64"/>
+		<path style="fill:#FFFFFF;" d="M357.5,231.5c0,1.482-0.52,2-2,2s-2-0.518-2-2c0-1.48,0.52-2,2-2S357.5,230.02,357.5,231.5z"/>
 	</g>
 </g>
 </svg>
