@@ -27,7 +27,7 @@ MSliderStyle {
     groove-maximum-length: 200mm;
 
     elapsed-offset: 0.5mm;
-    indicator-offset: 3.2mm;
+    indicator-offset: 3.8mm;
 
     steps-per-feedback: 1;
     minimum-feedback-interval: 50;
@@ -56,10 +56,11 @@ MSliderStyle {
 
     padding-left: 1.0mm;
     padding-right: 1.0mm;
-    padding-top:  0.5mm;
-    padding-bottom: 0.3mm;
+    padding-top:  0.3mm;
+    padding-bottom: 0.5mm;
 
     color: $COLOR_INVERTED_FOREGROUND;
+    font: $FONT_DEFAULT;
     background-image: meegotouch-slider-handle-value-background 11px 11px 11px 11px;
 }
 
@@ -68,13 +69,14 @@ MSliderStyle {
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 0;
-    
+
     padding-left: 1.0mm;
     padding-right: 1.0mm;
-    padding-top:  0.5mm;
-    padding-bottom: 0.3mm;
+    padding-top:  0.3mm;
+    padding-bottom: 0.5mm;
 
     color: $COLOR_FOREGROUND;
+    font: $FONT_DEFAULT;
     background-image: meegotouch-slider-handle-value-inverted-background 11px 11px 11px 11px;
 }
 
