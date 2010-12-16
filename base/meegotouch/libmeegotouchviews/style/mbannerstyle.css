@@ -161,8 +161,7 @@ MBannerStyle #FullEventBanner.Portrait {
 /* System Banner */
 
 MBannerStyle #SystemBanner {
-    /*System banners hasn't icon*/
-    icon-size: 0 0;
+    icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
     margin-right: $MARGIN_LARGE;
     margin-top:$MARGIN_LARGE;
     margin-left:$MARGIN_LARGE;
@@ -192,10 +191,18 @@ MBannerStyle #SystemBanner.Portrait {
     margin-left: $INDENT_DEFAULT;
     margin-right: $INDENT_DEFAULT;
 }
+
+#SystemBannerTitleIcon{
+    margin-right: 0;
+    margin-left: $INDENT_DEFAULT;
+    margin-top: $INDENT_DEFAULT;
+    margin-bottom: $INDENT_DEFAULT;
+}
+
 /* Information Banner */
 
 MBannerStyle #InformationBanner {
-    icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
+    icon-size: 0 0;
     margin-right: 1mm;
     margin-top:1mm;
     margin-left:1mm;
@@ -224,13 +231,6 @@ MBannerStyle #InformationBanner.Portrait {
     font: $FONT_DEFAULT;
     margin-left: $INDENT_DEFAULT;
     margin-right: $INDENT_DEFAULT;
-}
-
-#InformationBannerIcon{
-    margin-right: 0;
-    margin-left: $INDENT_DEFAULT;
-    margin-top: $INDENT_DEFAULT;
-    margin-bottom: $INDENT_DEFAULT;
 }
 
 /*Generic MBanner it can contain anything*/
