@@ -4,6 +4,16 @@
 @const C_INPUT_BG_SELECTED_INVERTED: meegotouch-textedit-background-selected $CORNER_MARGINS;
 @const CHECKBOX_SIZE:       4.2mm 4.2mm;
 
+/* position indicator */
+
+#CommonPositionIndicator {
+}
+#CommonPositionIndicatorInverted {
+indicator-image:    "meegotouch-positionindicator-inverted-indicator" 2px 2px 2px 2px;
+background-image:   "meegotouch-positionindicator-inverted-background" 2px 2px 2px 2px;
+minimum-size:       0.6mm 0.6mm;
+}
+
 /* switch */
 
 #CommonSwitch {

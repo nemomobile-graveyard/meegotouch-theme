@@ -141,12 +141,12 @@ MBannerStyle #FullEventBanner.Portrait {
     margin-left: 2mm;
     margin-bottom: 0mm;
 }
-#FullEventBannerSubtitle {    
+#FullEventBannerSubtitle {
     color:$COLOR_INVERTED_FOREGROUND;
     margin-top:0.6mm;
 }
 
-#FullEventBannerTimeStamp { 
+#FullEventBannerTimeStamp {
     font: $FONT_XSMALL_BOLD;
     color:$COLOR_INVERTED_FOREGROUND;
     margin-bottom:0.3mm;
