@@ -14,6 +14,7 @@ MTextEditStyle {
     paste-failed-icon: "icon-m-framework-close";
     paste-failed-duration: 3000;
     masking-delay: 1000;
+    cursor-width: 2;
 
     /* inherited from MWidgetStyle */
     /* preferred-size: size(150, 90%); */
