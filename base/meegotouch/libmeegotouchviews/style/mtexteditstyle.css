@@ -8,6 +8,7 @@ MTextEditStyle {
     selection-background-color: $COLOR_SELECT;
     selection-threshold: 15.0;
     allow-view-reposition: true;
+    disable-magnifier: false;
     mask-string: "*";
     prompt-color: $COLOR_SECONDARY_FOREGROUND;
     paste-failed-icon: "icon-m-framework-close";
