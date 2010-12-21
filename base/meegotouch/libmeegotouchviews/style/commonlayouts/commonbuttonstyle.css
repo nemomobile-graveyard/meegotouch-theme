@@ -1947,8 +1947,8 @@ background-image:$CB_BG_ACCENT_INVERTED_DISABLED $CORNER_MARGINS;
 #CommonIconButton {
 /* px to mm is pending PPI adjustment */
 minimum-size:      64px 88px;
-preferred-size:    114px 88px;
-maximum-size:      114px 88px;
+preferred-size:    130px 88px;
+maximum-size:      130px 88px;
 font:              $FONT_XSMALL;
 text-color:        $COLOR_SECONDARY_FOREGROUND;
 text-margin-top:   $MARGIN_MEDIUM;
@@ -1959,8 +1959,8 @@ icon-size:         64px 64px;
 }
 #CommonIconButtonPlaceholder {
 minimum-size:      64px 88px;
-preferred-size:    114px 88px;
-maximum-size:      114px 88px;
+preferred-size:    130px 88px;
+maximum-size:      130px 88px;
 background-image:  ;
 background-color:  ;
 margin-top:        0;
