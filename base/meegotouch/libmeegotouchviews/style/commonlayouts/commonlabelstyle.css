@@ -678,7 +678,7 @@ margin-right:  $INDENT_DEFAULT;
 
 #CommonEmptyStateTitle {
     font: $FONT_FAMILY light 6.2mm;
-    color: $COLOR_INVERTED_FOREGROUND;
+    color: $COLOR_FOREGROUND;
     margin-top:    0;
     margin-bottom: 0;
     margin-left:   0;
@@ -688,7 +688,7 @@ margin-right:  $INDENT_DEFAULT;
 
 #CommonEmptyStateTitleKeyword {
     font: $FONT_FAMILY light 6.2mm;
-    color: $COLOR_INVERTED_FOREGROUND;
+    color: $COLOR_FOREGROUND;
     margin-top:    0;
     margin-bottom: 0;
     margin-left:   0;
@@ -698,7 +698,7 @@ margin-right:  $INDENT_DEFAULT;
 
 #CommonEmptyStateButtonGroupHeader {
     font: $FONT_FAMILY light 2.4mm;
-    color: $COLOR_INVERTED_FOREGROUND;
+    color: $COLOR_FOREGROUND;
     margin-top:    0;
     margin-bottom: 1.8mm;
     margin-left:   0;
