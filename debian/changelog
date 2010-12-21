@@ -1,3 +1,12 @@
+meegotouchtheme (0.20.64-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#211844 - Camera-ui icons in meegotouchtheme-nokia are not found by the application
+  * Fixes: NB#210462 - Unable to style MMessageBox.
+  * Fixes: NB#209116: Slider/seeker style updates.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 21 Dec 2010 14:44:34 +0100
+
 meegotouchtheme (0.20.63-1) unstable; urgency=low
 
   * New version
