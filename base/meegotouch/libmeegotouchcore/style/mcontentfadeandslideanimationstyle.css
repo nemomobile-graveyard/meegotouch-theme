@@ -1,0 +1,25 @@
+MContentFadeAndSlideAnimationStyle
+{
+    content-object-name: ;
+
+    fade-out-duration: 250;
+    fade-out-easing-curve: incubic;
+
+    slide-out-displacement: 30 0;
+    slide-out-duration: 250;
+    slide-out-easing-curve: incubic;
+
+    delay: 250;
+
+    fade-in-duration: 250;
+    fade-in-easing-curve:  outcubic;
+
+    slide-in-displacement: -30 0;
+    slide-in-duration: 250;
+    slide-in-easing-curve: outcubic;
+}
+
+MNavigationBar MContentFadeAndSlideAnimationStyle
+{
+    content-object-name: "ContentToAnimate";
+}

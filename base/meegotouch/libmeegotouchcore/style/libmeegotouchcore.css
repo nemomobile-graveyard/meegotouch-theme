@@ -29,6 +29,7 @@
 @import "mtapandholdrecognizerstyle.css";
 @import "mwidgetrectangularclipanimationstyle.css";
 @import "mwindowstyle.css";
+@import "mcontentfadeandslideanimationstyle.css";
 
 /* preedit styling for input context */
 @import "mpreeditstyle.css";
