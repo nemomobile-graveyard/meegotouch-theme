@@ -96,6 +96,8 @@ meegotouch-button-navigationbar-portrait-tab-background-selected-horizontal-cent
 meegotouch-button-navigationbar-portrait-tab-background-horizontal-right
 meegotouch-button-navigationbar-portrait-tab-background-pressed-horizontal-right
 meegotouch-button-navigationbar-portrait-tab-background-selected-horizontal-right
+meegotouch-navigationbar-landscape-inverted-background
+meegotouch-navigationbar-portrait-inverted-background
 
 #meegotouch-container
 meegotouch-container-header-background
@@ -297,6 +299,20 @@ meegotouch-slider-handle-label-arrow-down
 meegotouch-slider-handle-label-arrow-left
 meegotouch-slider-handle-label-arrow-right
 meegotouch-slider-handle-label-arrow-up
+meegotouch-slider-elapsed-inverted-background-vertical
+meegotouch-slider-elapsed-inverted-background-horizontal
+meegotouch-slider-handle-inverted-background-pressed-horizontal
+meegotouch-slider-handle-inverted-background-pressed-vertical
+meegotouch-slider-handle-inverted-background-vertical
+meegotouch-slider-handle-label-arrow-down-inverted
+meegotouch-slider-handle-label-arrow-left-inverted
+meegotouch-slider-handle-label-arrow-right-inverted
+meegotouch-slider-handle-label-arrow-up-inverted
+meegotouch-slider-inverted-background-horizontal
+meegotouch-slider-inverted-background-vertical
+meegotouch-slider-received-inverted-background-horizontal
+meegotouch-slider-received-inverted-background-vertical
+meegotouch-slider-handle-inverted-background-horizontal
 
 #meegotouch-objectmenu
 meegotouch-button-objectmenu-background-vertical-top
@@ -366,6 +382,8 @@ meegotouch-launcher-spinner-small-16
 #meegotouch-positionindicator
 meegotouch-positionindicator-indicator
 meegotouch-positionindicator-background
+meegotouch-positionindicator-inverted-background
+meegotouch-positionindicator-inverted-indicator
 
 #meegotouch-separator
 meegotouch-separator-background-vertical
@@ -608,6 +626,17 @@ lockscreen-other-events-area-background
 lockscreen-lock-lift-area-background
 lockscreen-lock-active
 lockscreen-lock
+
+#Seeker
+meegotouch-seeker-handle-background-horizontal
+meegotouch-seeker-handle-background-vertical
+meegotouch-seeker-handle-inverted-background-horizontal
+meegotouch-seeker-handle-inverted-background-vertical
+
+#Banner
+meegotouch-fulleventbanner-background
+meegotouch-fulleventbanner-background-pressed
+meegotouch-shorteventbanner-background
 
 # *** Icons ***
 icon-l-common-video-playback #large "play" icon
