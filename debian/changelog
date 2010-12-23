@@ -1,3 +1,10 @@
+meegotouchtheme (0.20.65-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#214475 - Panning continues slowly for too long
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 23 Dec 2010 09:50:54 +0100
+
 meegotouchtheme (0.20.64-1) unstable; urgency=low
 
   * New version
