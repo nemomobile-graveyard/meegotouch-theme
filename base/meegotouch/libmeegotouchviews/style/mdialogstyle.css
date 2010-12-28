@@ -150,7 +150,7 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
 }
 
 #MDialogProgressIndicator {
-    base-image-name: "spinnerinverted";
+    base-image-name: "spinner";
     base-image-size: $SIZE_SPINNER_DIALOG;
     minimum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
     preferred-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
