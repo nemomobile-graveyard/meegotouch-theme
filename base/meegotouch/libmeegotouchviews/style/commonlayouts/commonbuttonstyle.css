@@ -1972,3 +1972,20 @@ margin-right:      0;
 background-image:  ;
 background-color:  ;
 }
+
+MButtonStyle[group] #MButtonInvertedStyle {
+    background-tiles: meegotouch-button-inverted-background $CORNER_MARGINS;
+    text-color:      $CB_FONT_COLOR_ACCENT;
+}
+
+MButtonStyle[group] #MButtonInvertedStyle:pressed {
+    background-tiles: meegotouch-button-inverted-background-pressed $CORNER_MARGINS;
+}
+
+MButtonStyle[group] #MButtonInvertedStyle:selected {
+    background-tiles: meegotouch-button-inverted-background-selected $CORNER_MARGINS;
+}
+
+MButtonStyle[group] #MButtonInvertedStyle:disabled {
+    background-tiles: meegotouch-button-inverted-background-disabled $CORNER_MARGINS;
+}
