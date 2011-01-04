@@ -19,9 +19,9 @@ MApplicationMenuStyle {
     vertical-align: top;
     horizontal-align: center;
     padding-top: $HEIGHT_NAVIGATIONBAR;
-    minimum-size: 100% 100%;
-    preferred-size: 100% 100%;
-    maximum-size: 100% 100%;
+    minimum-size: 100% -1;
+    preferred-size: 100% -1;
+    maximum-size: 100% -1;
 
     /* inherited from MWidgetStyle */
     background-color: #000000;
@@ -103,5 +103,11 @@ MApplicationMenu MLabelStyle#CommonTitle {
 MApplicationMenu MLabelStyle#CommonSubTitle {
     /* combobox secondary line of text */
     color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
+}
+
+#MApplicationMenuTopArea {
+    maximum-size: -1 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
