@@ -1,3 +1,10 @@
+meegotouchtheme (0.20.66-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#216194 -Base theme missing constants
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 04 Jan 2011 09:55:52 +0100
+
 meegotouchtheme (0.20.65-1) unstable; urgency=low
 
   * New version
