@@ -104,7 +104,7 @@ background-image: meegotouch-button-checkbox-inverted-background-selected 0px 0p
 minimum-size:    $CHECKBOX_SIZE;
 preferred-size:  $CHECKBOX_SIZE;
 maximum-size:    $CHECKBOX_SIZE;
-background-image: meegotouch-button-checkbox-inverted-background  0px 0px 0px 0px;
+background-image: meegotouch-button-checkbox-inverted-background 0px 0px 0px 0px;
 margin-left:     $INDENT_DEFAULT;
 margin-right:    0;
 }
