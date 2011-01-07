@@ -27,6 +27,8 @@ MButtonStyle {
     minimum-size: 10mm 6.4mm;
     maximum-size: 44.8mm 6.4mm;
 
+    content-opacity: 1.0;
+
     /* Name of the feedback effects to be used when the button is pressed.
        Defaults to standard "press" & "release" feedback, but different
        buttons might have different effects depending on its size, shape and function.
