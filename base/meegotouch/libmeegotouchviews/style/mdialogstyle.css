@@ -14,9 +14,9 @@ MDialogStyle {
     vertical-align: center;
     horizontal-align: center;
 
-    minimum-size: -1 -1;
-    preferred-size: -1 -1;
-    maximum-size: -1 -1;
+    minimum-size: 100% 100%;
+    preferred-size: 100% 100%;
+    maximum-size: 100% 100%;
 
     vertical-spacing: 0;
     button-spacing: 0;
