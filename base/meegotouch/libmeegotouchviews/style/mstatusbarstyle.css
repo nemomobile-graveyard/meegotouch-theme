@@ -7,4 +7,5 @@ MStatusBarStyle
     use-swipe-gesture: true;
     swipe-threshold: 30;
     press-feedback : press;
+    press-dim-factor: 0.6;
 }
