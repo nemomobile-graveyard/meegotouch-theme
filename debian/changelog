@@ -1,3 +1,15 @@
+meegotouchtheme (0.20.67-1) unstable; urgency=low
+
+  * New version
+  * Changes: Remove duplicated position indicator style.
+  * Changes: MDialogStyle - Force the dialog size to be 100% again
+  * Changes: Set the preferred size of the pannable widget to -1 -1 instead of 1 1
+  * Fixes: NB#217214 - #CommonLeftCheckBoxInverted is broken and causes abort in libmeegotouch
+  * Changes: added styling for MTextEdit cursorWidth
+  * New: MApplicationMenuAnimationStyle.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 13 Jan 2011 13:42:21 +0200
+
 meegotouchtheme (0.20.66-1) unstable; urgency=low
 
   * New version
