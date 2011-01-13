@@ -47,6 +47,11 @@ MDialogStyle {
 
     maximum-horizontal-buttons: 3;
 
+    contentsViewportStyleName: "MDialogContentsViewport";
+    buttonBoxStyleName: "MDialogButtonBox";
+    titleBarStyleName: "MDialogTitleBar";
+    titleLabelStyleName: "CommonDialogHeader";
+
     /* This is a hack to avoid the animation starting from the corner. This should become obsolete eventually. */
     padding-left: 16mm;
     padding-right: 16mm;
@@ -91,6 +96,7 @@ MDialogStyle.Portrait {
 
 MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
     background-image: "meegotouch-dialog-query-background" 12px 12px 12px 12px;
+    maximum-size: -1 100%;
 }
 
 #MDialogCloseButton {
@@ -157,5 +163,23 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
     maximum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
 
     margin-top: $MARGIN_LARGE;
+}
+
+/*
+  Styles for dialogs which should not be height-restricted.
+  These are provided here for convenience because styling dialogs
+  from libraries can be non-trivial.
+*/
+
+#FullsizeDialog {
+    contents-viewport-style-name: "FullsizeDialogContentsViewport";
+}
+#FullsizeDialogNoTitle {
+    has-title-bar: false;
+    contents-viewport-style-name: "FullsizeDialogContentsViewport";
+}
+
+#FullsizeDialogContentsViewport {
+    maximum-size: -1 100%;
 }
 
