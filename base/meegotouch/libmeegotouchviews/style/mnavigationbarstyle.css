@@ -7,11 +7,6 @@ MNavigationBarStyle {
     button-animation-length: 500;
     height: 50mm; /* is "height" used? doesnt seem to affect anything.. */
 
-    /* inherited from MWidgetStyle */
-
-    /* this is a hack until the navigationbar is refactored */
-    background-image: "meegotouch-navigationbar-toolbar-background" 12px 12px 12px 12px;
-
     padding-left:   $WIDTH_HOMECLOSEBUTTON; /* space for square button */
     padding-right:  0;
 
@@ -19,7 +14,7 @@ MNavigationBarStyle {
     preferred-size: 100% $HEIGHT_NAVIGATIONBAR;
     maximum-size: 100% $HEIGHT_NAVIGATIONBAR;
 
-    drop-shadow-image: meegotouch-navigationbar-shadow;
+    drop-shadow-image: ;
     has-title: true;
     has-close-button: true;
 
@@ -27,6 +22,14 @@ MNavigationBarStyle {
     close-button-style-name: "MNavigationBarCloseButton";
     back-button-style-name: "MNavigationBarBackButton";
     menu-button-style-name: "MNavigationBarMenuButton";
+}
+
+MNavigationBarStyle.Landscape {
+    background-image: "meegotouch-navigationbar-landscape-background" $CORNER_MARGINS;
+}
+
+MNavigationBarStyle.Portrait {
+    background-image: "meegotouch-navigationbar-portrait-background" $CORNER_MARGINS;
 }
 
 #MNavigationBarEscapeButtonSlot
@@ -73,7 +76,7 @@ MApplicationMenuButtonStyle {
     arrow-icon-size: 3.2mm 3.2mm;
 
     background-color:;
-    background-image: "meegotouch-button-navigationbar-viewmenu-background" 12px 12px 12px 12px;
+    background-image:;
 
     padding-left:   $PADDING_LARGE;
     padding-right:  $PADDING_LARGE;
@@ -90,7 +93,7 @@ MApplicationMenuButtonStyle {
 
 MApplicationMenuButtonStyle :pressed
 {
-    background-image: "meegotouch-button-navigationbar-viewmenu-background-pressed" 12px 12px 12px 12px;
+    background-image: ;
 }
 
 #NavigationBarMenuButtonLabel {

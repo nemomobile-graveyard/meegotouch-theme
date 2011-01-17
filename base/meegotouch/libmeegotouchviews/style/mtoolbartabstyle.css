@@ -15,7 +15,7 @@ MToolbarTabStyle {
 
 MButtonStyle[toolbartab] {
     font: $FONT_XSMALL;
-    background-image: meegotouch-button-navigationbar-tab-background $CORNER_MARGINS;
+    background-tiles: meegotouch-button-navigationbar-tab-button-background $CORNER_MARGINS;
     background-color: $COLOR_BACKGROUND;
     text-color: $COLOR_INVERTED_FOREGROUND;
     /* inherited from MWidgetStyle */
@@ -45,7 +45,7 @@ MButtonStyle[toolbartab] {
     padding-left:   $PADDING_MEDIUM;
     padding-top:    $PADDING_MEDIUM;
     padding-right:  $PADDING_MEDIUM;
-    padding-bottom: $PADDING_MEDIUM;  
+    padding-bottom: $PADDING_MEDIUM;
 }
 
 MButtonStyle[toolbartab].Portrait {
@@ -54,11 +54,11 @@ MButtonStyle[toolbartab].Portrait {
 }
 
 MButtonStyle[toolbartab]:pressed {
-    background-image: meegotouch-button-navigationbar-tab-background-pressed $CORNER_MARGINS;
+    background-image: meegotouch-button-navigationbar-tab-button-background-pressed $CORNER_MARGINS;
     background-color: $COLOR_SELECT;
 }
 
 MButtonStyle[toolbartab]:selected {
-    background-image: meegotouch-button-navigationbar-tab-background-selected $CORNER_MARGINS;
+    background-image: meegotouch-button-navigationbar-tab-button-background-selected $CORNER_MARGINS;
     background-color: $COLOR_SELECT;
 }

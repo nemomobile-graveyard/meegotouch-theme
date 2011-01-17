@@ -1,6 +1,6 @@
 MDockWidgetStyle {
     /* inherited from MWidgetStyle */
-    background-image: meegotouch-navigationbar-toolbar-portrait-background $CORNER_MARGINS;
+    background-image: meegotouch-navigationbar-portrait-background $CORNER_MARGINS;
     background-opacity: 1.0;
     background-color: $COLOR_BACKGROUND;
 

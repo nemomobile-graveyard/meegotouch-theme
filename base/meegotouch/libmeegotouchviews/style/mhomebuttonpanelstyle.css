@@ -12,7 +12,7 @@ MHomeButtonPanelStyle {
     home-button-object-name: "HomeButton";
     home-button-icon-id: "icon-m-framework-home";
 
-    background-image: meegotouch-button-navigationbar-home-background $CORNER_MARGINS;
+    background-image:;
 }
 
 MHomeButtonPanelStyle#systemDialog {
@@ -20,7 +20,7 @@ MHomeButtonPanelStyle#systemDialog {
 }
 
 MHomeButtonPanelStyle:pressed {
-    background-image: meegotouch-button-navigationbar-home-background-pressed $CORNER_MARGINS;
+    background-image: ;
 }
 
 MButtonIconStyle#HomeButton {
