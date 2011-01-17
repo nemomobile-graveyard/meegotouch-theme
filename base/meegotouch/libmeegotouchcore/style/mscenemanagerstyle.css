@@ -9,4 +9,5 @@ MSceneManagerStyle {
   popup-list-animation: "MWidgetZoomAnimation";
   message-box-animation: "MWidgetZoomAnimation";
   system-banner-animation: "MWidgetScaleFadeAnimation";
+  navigation-bar-animation: "MWidgetFadeAnimation";
 }
