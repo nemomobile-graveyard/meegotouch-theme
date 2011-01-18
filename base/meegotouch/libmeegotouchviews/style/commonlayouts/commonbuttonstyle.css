@@ -932,6 +932,7 @@ background-image:$CB_BG_NEGATIVE_INVERTED_DISABLED $CORNER_MARGINS;
 
 #CommonLeftSplitButton {
 background-image:meegotouch-button-background-horizontal-left $CORNER_MARGINS;
+background-tiles:;
 margin-top:      $CB_M_TOP;
 margin-bottom:   $CB_M_BOTTOM;
 margin-left:     $CB_M_LEFT;
@@ -949,6 +950,7 @@ background-image:meegotouch-button-background-disabled-horizontal-left $CORNER_M
 
 #CommonHorizontalCenterSplitButton {
 background-image:meegotouch-button-background-horizontal-center $CORNER_MARGINS;
+background-tiles:;
 margin-top:      $CB_M_TOP;
 margin-bottom:   $CB_M_BOTTOM;
 margin-left:     $CSB_SPACE_LEFT;
@@ -966,6 +968,7 @@ background-image:meegotouch-button-background-disabled-horizontal-center $CORNER
 
 #CommonRightSplitButton {
 background-image:meegotouch-button-background-horizontal-right $CORNER_MARGINS;
+background-tiles:;
 margin-top:      $CB_M_TOP;
 margin-bottom:   $CB_M_BOTTOM;
 margin-left:     $CSB_SPACE_LEFT;
@@ -982,6 +985,7 @@ background-image:meegotouch-button-background-disabled-horizontal-right $CORNER_
 }
 
 #CommonTopSplitButton {
+background-tiles:;
 margin-top:      $CB_M_TOP;
 margin-left:     $CB_M_LEFT;
 }
@@ -1014,6 +1018,7 @@ background-image:meegotouch-button-background-disabled-horizontal-left $CORNER_M
 }
 
 #CommonVerticalCenterSplitButton {
+background-tiles:;
 }
 
 #CommonVerticalCenterSplitButton.Portrait {
@@ -1051,6 +1056,7 @@ background-image:meegotouch-button-background-disabled-horizontal-center $CORNER
 }
 
 #CommonBottomSplitButton {
+background-tiles:;
 margin-bottom:   $CB_M_BOTTOM;
 margin-right:    $CB_M_RIGHT;
 }
@@ -1089,6 +1095,7 @@ background-image:meegotouch-button-background-disabled-horizontal-right $CORNER_
 
 #CommonLeftSplitButtonInverted {
 background-image:meegotouch-button-inverted-background-horizontal-left $CORNER_MARGINS;
+background-tiles:;
 margin-top:      $CB_M_TOP;
 margin-bottom:   $CB_M_BOTTOM;
 margin-left:     $CB_M_LEFT;
@@ -1110,6 +1117,7 @@ text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
 }
 #CommonHorizontalCenterSplitButtonInverted {
 background-image:meegotouch-button-inverted-background-horizontal-center $CORNER_MARGINS;
+background-tiles:;
 margin-top:      $CB_M_TOP;
 margin-bottom:   $CB_M_BOTTOM;
 margin-left:     $CSB_SPACE_LEFT;
@@ -1132,6 +1140,7 @@ text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
 
 #CommonRightSplitButtonInverted {
 background-image:meegotouch-button-inverted-background-horizontal-right $CORNER_MARGINS;
+background-tiles:;
 margin-top:      $CB_M_TOP;
 margin-bottom:   $CB_M_BOTTOM;
 margin-left:     $CSB_SPACE_LEFT;
@@ -1153,6 +1162,7 @@ text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
 }
 
 #CommonTopSplitButtonInverted {
+background-tiles:;
 margin-top:      $CB_M_TOP;
 margin-left:     $CB_M_LEFT;
 text-color:      $CB_FONT_COLOR_INVERTED;
@@ -1195,6 +1205,7 @@ text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
 }
 
 #CommonVerticalCenterSplitButtonInverted {
+background-tiles:;
 text-color:      $CB_FONT_COLOR_INVERTED;
 }
 
@@ -1239,6 +1250,7 @@ text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
 }
 
 #CommonBottomSplitButtonInverted {
+background-tiles:;
 margin-bottom:   $CB_M_BOTTOM;
 margin-right:    $CB_M_RIGHT;
 text-color:      $CB_FONT_COLOR_INVERTED;
@@ -1973,19 +1985,3 @@ background-image:  ;
 background-color:  ;
 }
 
-MButtonStyle[group] #MButtonInvertedStyle {
-    background-tiles: meegotouch-button-inverted-background $CORNER_MARGINS;
-    text-color:      $CB_FONT_COLOR_ACCENT;
-}
-
-MButtonStyle[group] #MButtonInvertedStyle:pressed {
-    background-tiles: meegotouch-button-inverted-background-pressed $CORNER_MARGINS;
-}
-
-MButtonStyle[group] #MButtonInvertedStyle:selected {
-    background-tiles: meegotouch-button-inverted-background-selected $CORNER_MARGINS;
-}
-
-MButtonStyle[group] #MButtonInvertedStyle:disabled {
-    background-tiles: meegotouch-button-inverted-background-disabled $CORNER_MARGINS;
-}
