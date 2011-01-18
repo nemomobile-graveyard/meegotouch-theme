@@ -1,3 +1,16 @@
+meegotouchtheme (0.20.68-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#216596 - Missing navigationbar assets in development theme.
+  * Changes: Add convenience styles for fullscreen dialogs and default stylenames.
+  * Changes: Added navigation-bar-animation to MSceneManagerStyle
+  * Changes: Add press dimming factor to MStatusBarStyle
+  * Fixes: NB#218550 - navigation bar animates to the wrong direction when drilling down.
+  * Changes: new constant for color font for keyboard
+  * Changes: Added attribute for system banner animations to MSceneManagerStyle.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 18 Jan 2011 15:53:33 +0200
+
 meegotouchtheme (0.20.67-1) unstable; urgency=low
 
   * New version
