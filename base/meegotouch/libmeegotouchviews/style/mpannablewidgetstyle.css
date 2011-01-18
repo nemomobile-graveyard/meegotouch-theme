@@ -9,7 +9,7 @@ MPannableWidgetStyle {
     border-friction-c: 0.45;
 
     /* inherited from MWidgetStyle */
-    preferred-size: -1 -1;
+    preferred-size: 1 1;
     minimum-size: 0 0;
     maximum-size: 10000 10000;
 
