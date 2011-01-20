@@ -17,15 +17,17 @@ MDialogAnimationStyle#In {
 
     title-bar-animation-duration: 400;
     title-bar-animation-distance: 25;
+    title-bar-animation-easing-curve: overshotbezier;
 
     contents-viewport-opacity-animation-duration: 550;
-    contents-viewport-opacity-animation-easing-curve: inquint;
+    contents-viewport-opacity-animation-easing-curve: outexpo;
 
     contents-viewport-scale-animation-duration: 550;
-    contents-viewport-scale-animation-easing-curve: inquint;
+    contents-viewport-scale-animation-easing-curve: outexpo;
 
     button-box-animation-duration: 400;
     button-box-animation-distance: 25;
+    button-box-animation-easing-curve: overshotbezier;
 
     scale: 0.8;
     opacity: 1;
@@ -36,8 +38,9 @@ MDialogAnimationStyle#Out {
     contents-viewport-animation-delay: 0;
     button-box-animation-delay: 0;
 
-    title-bar-animation-duration: 100;
+    title-bar-animation-duration: 125;
     title-bar-animation-distance: 30;
+    title-bar-animation-easing-curve: overshotbezier;
 
     contents-viewport-opacity-animation-duration: 100;
     contents-viewport-opacity-animation-easing-curve: inquint;
@@ -45,8 +48,9 @@ MDialogAnimationStyle#Out {
     contents-viewport-scale-animation-duration: 100;
     contents-viewport-scale-animation-easing-curve: inquint;
 
-    button-box-animation-duration: 100;
+    button-box-animation-duration: 125;
     button-box-animation-distance: 30;
+    button-box-animation-easing-curve: overshotbezier;
 
     scale: 0.8;
     opacity: 1;
@@ -59,15 +63,17 @@ MMessageBox MDialogAnimationStyle#In {
 
     title-bar-animation-duration: 0;
     title-bar-animation-distance: 0;
+    title-bar-animation-easing-curve: ;
 
     contents-viewport-opacity-animation-duration: 550;
-    contents-viewport-opacity-animation-easing-curve: inquint;
+    contents-viewport-opacity-animation-easing-curve: overshotbezier;
 
     contents-viewport-scale-animation-duration: 550;
-    contents-viewport-scale-animation-easing-curve: inquint;
+    contents-viewport-scale-animation-easing-curve: overshotbezier;
 
     button-box-animation-duration: 400;
     button-box-animation-distance: 25;
+    button-box-animation-easing-curve: overshotbezier;
 
     scale: 0.8;
     opacity: 1;
@@ -80,6 +86,7 @@ MMessageBox MDialogAnimationStyle#Out {
 
     title-bar-animation-duration: 0;
     title-bar-animation-distance: 0;
+    title-bar-animation-easing-curve: ;
 
     contents-viewport-opacity-animation-duration: 100;
     contents-viewport-opacity-animation-easing-curve: inquint;
@@ -89,6 +96,7 @@ MMessageBox MDialogAnimationStyle#Out {
 
     button-box-animation-duration: 100;
     button-box-animation-distance: 30;
+    button-box-animation-easing-curve: overshotbezier;
 
     scale: 0.8;
     opacity: 1;
