@@ -16,6 +16,14 @@ MToolbarStyle {
     has-labels: false;
     has-spaces: false;
     label-only-as-common-button: true;
+    alignment-margins: 0; 
+    center-to-parent: false;
+    center-common-buttons-to-parent: false;
+
+    label-only-common-button-style-name: "ToolBarLabelOnlyCommonButton";
+    label-only-button-style-name: "ToolBarLabelOnlyButton";
+    icon-button-style-name: "ToolBarIconButton";
+    icon-label-button-style-name: "ToolBarIconButton";
 }
 
 MToolbarStyle.Landscape {
