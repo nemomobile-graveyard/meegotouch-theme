@@ -378,15 +378,25 @@ margin-right:      0;
 }
 
 #CommonLargeViewHeaderPanel {
-minimum-size:      40 64;
-preferred-size:    100% 64;
-maximum-size:      100% -1;
-background-tiles:  ;
-background-image:  meegotouch-view-header 15px 15px 15px 15px;
-margin-top:        0;
-margin-bottom:     0;
-margin-left:       0;
-margin-right:      0;
+    minimum-size:      40 64;
+    preferred-size:    100% 64;
+    maximum-size:      100% -1;
+    background-tiles:  ;
+    background-image:  meegotouch-view-header-interactive 15px 15px 15px 15px;
+    margin-top:        0;
+    margin-bottom:     0;
+    margin-left:       0;
+    margin-right:      0;
+}
+
+#CommonLargeViewHeaderPanel:pressed {
+    background-tiles:  ;
+    background-image:  meegotouch-view-header-interactive-pressed 15px 15px 15px 15px;
+}
+
+#CommonLargeViewHeaderPanel:selected {
+    background-tiles:  ;
+    background-image:  meegotouch-view-header-interactive-selected 15px 15px 15px 15px;
 }
 
 #CommonLargeViewHeaderPanelInverted {

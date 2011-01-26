@@ -249,12 +249,12 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonLargeViewHeader {
-font:          $FONT_FAMILY bold 26;
-color:         $COLOR_FOREGROUND;
-margin-top:    0;
-margin-bottom: 0;
-margin-left:   $INDENT_DEFAULT;
-margin-right:  $INDENT_DEFAULT;
+    font:              $FONT_FAMILY light 32;
+    color:             $COLOR_FOREGROUND;
+    margin-top:        0;
+    margin-bottom:     0;
+    margin-left:       $INDENT_DEFAULT;
+    margin-right:      $INDENT_DEFAULT;
 }
 #CommonViewHeaderWithIcon {
 font:          $FONT_FAMILY bold 22;
