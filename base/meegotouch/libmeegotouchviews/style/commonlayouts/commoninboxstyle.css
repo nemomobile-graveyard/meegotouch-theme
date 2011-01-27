@@ -68,9 +68,18 @@
     margin-bottom:     0;
 }
 
-#CommonInboxItemInfo {
+#CommonInboxUnreadItemInfo {
     font:              $FONT_FAMILY light 18;
     color:             $COLOR_ACCENT1;
+    margin-left:       0;
+    margin-right:      0;
+    margin-top:        5px;
+    margin-bottom:     0;
+}
+
+#CommonInboxReadItemInfo {
+    font:              $FONT_FAMILY light 18;
+    color:             $COLOR_SECONDARY_FOREGROUND;
     margin-left:       0;
     margin-right:      0;
     margin-top:        5px;
