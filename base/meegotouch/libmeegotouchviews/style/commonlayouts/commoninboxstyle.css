@@ -1,6 +1,6 @@
 @const CIP_BG:          meegotouch-unread-inbox-panel-background 17px 17px 17px 17px;
-@const CIP_BG_PRESSED:  meegotouch-unread-inbox-panel-background-pressed $CORNER_MARGINS;
-@const CIP_BG_SELECTED: meegotouch-unread-inbox-panel-background-selected $CORNER_MARGINS;
+@const CIP_BG_PRESSED:  meegotouch-unread-inbox-panel-background-pressed 17px 17px 17px 17px;
+@const CIP_BG_SELECTED: meegotouch-unread-inbox-panel-background-selected 17px 17px 17px 17px;
 @const CIP_LP:         28px;
 @const CIP_RP:         14px;
 
