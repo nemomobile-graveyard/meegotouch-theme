@@ -44,3 +44,17 @@ MNavigationBar MWidgetFadeAnimationStyle#Out {
     delay: 0;
     duration: 300;
 }
+
+MSheet MWidgetFadeAnimationStyle#In {
+    delay: 0;
+    duration: 350;
+    easing-curve: inoutexpo;
+    opacity: 1.0;
+}
+
+MSheet MWidgetFadeAnimationStyle#Out {
+    delay: 0;
+    duration: 350;
+    easing-curve: inoutexpo;
+    opacity: 1.0;
+}

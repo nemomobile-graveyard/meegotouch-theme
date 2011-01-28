@@ -13,4 +13,7 @@ MSceneWindowStyle {
    disappear-timeout: 0;
 
    appear-feedback: ;
+
+   appearance-animation: ;
+   disappearance-animation: ;
 }

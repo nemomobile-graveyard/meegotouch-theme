@@ -40,3 +40,29 @@ MStatusBar MWidgetSlideAnimationStyle#Out {
     delay: 0;
     easing-curve: linear;
 }
+
+MSheet MWidgetSlideAnimationStyle#In {
+    delay: 0;
+    duration: 350;
+    easing-curve: outexpo;
+    origin: "bottom";
+}
+
+MSheet MWidgetSlideAnimationStyle#Out {
+    delay: 0;
+    duration: 350;
+    easing-curve: inoutexpo;
+    origin: "bottom";
+}
+
+MSheetSlot MWidgetSlideAnimationStyle#In {
+    duration: 250;
+    origin: "top";
+    easing-curve: outexpo;
+}
+
+MSheetSlot MWidgetSlideAnimationStyle#Out {
+    duration: 250;
+    origin: "top";
+    easing-curve: outexpo;
+}
