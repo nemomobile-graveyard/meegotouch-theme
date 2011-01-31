@@ -1,3 +1,14 @@
+meegotouchtheme (0.20.69-1) unstable; urgency=low
+
+  * New version
+  * Changes: Fixed typos in bugfix number 221695
+  * Changes: Fix border values as requested by Otso.
+  * Fixes: NB#221695 - Common styles are missing for inbox views
+  * Fixes: NB#216190 - Inverted styles do not work in button groups.
+  * Fixes: NB#212951 - Short event banner visuals do not match the layout guide
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 31 Jan 2011 16:02:32 +0200
+
 meegotouchtheme (0.20.68-1) unstable; urgency=low
 
   * New version
