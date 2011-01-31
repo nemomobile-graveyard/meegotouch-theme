@@ -31,6 +31,10 @@ MBannerStyle #ShortEventBanner {
     background-image: "meegotouch-shorteventbanner-background" 10px 10px 10px 10px;
 }
 
+MBannerStyle #ShortEventBanner:pressed {
+    background-image: "meegotouch-shorteventbanner-background-pressed" 10px 10px 10px 10px;
+}
+
 #ShortEventBannerTitle {
     font: $FONT_XSMALL_BOLD;
     color: $COLOR_INVERTED_FOREGROUND;
