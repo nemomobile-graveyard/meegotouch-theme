@@ -1,3 +1,13 @@
+meegotouchtheme (0.20.70-1) unstable; urgency=low
+
+  * New version
+  * Changes: Modified slider feedback parameter
+  * Changes: Added speed limit to filter slider input feedback
+  * New: List item deletion animation.
+  * Fixes: NB#212959 - [TASK] Short event banner is missing pressed-down state
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 01 Feb 2011 12:49:24 +0200
+
 meegotouchtheme (0.20.69-1) unstable; urgency=low
 
   * New version
