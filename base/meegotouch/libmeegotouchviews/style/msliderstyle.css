@@ -30,7 +30,8 @@ MSliderStyle {
     indicator-offset: 3.8mm;
 
     steps-per-feedback: 1;
-    minimum-feedback-interval: 50;
+    minimum-feedback-interval: 70;
+    feedback-speed-limit: 8;
     press-feedback: move;
     move-feedback: move;
 
