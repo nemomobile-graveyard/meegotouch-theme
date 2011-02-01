@@ -75,9 +75,9 @@ margin-bottom:  0;
 }
 
 #CommonComboBoxIcon {
-maximum-size:   $ICON48;
-minimum-size:   $ICON48;
-preferred-size: $ICON48;
+maximum-size:   $ICON32;
+minimum-size:   $ICON32;
+preferred-size: $ICON32;
 margin-left:    0;
 margin-right:   $INDENT_DEFAULT;
 margin-top:     0;
