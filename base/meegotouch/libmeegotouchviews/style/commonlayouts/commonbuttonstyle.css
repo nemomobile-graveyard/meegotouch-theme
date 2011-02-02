@@ -1181,9 +1181,9 @@ text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
 background-image:meegotouch-button-inverted-background-selected-vertical-top $CORNER_MARGINS;
 text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
 }
-#CommonTopSplitButtonInverted.Portrait:selected {
+#CommonTopSplitButtonInverted.Portrait:disabled {
 background-image:meegotouch-button-inverted-background-disabled-vertical-top $CORNER_MARGINS;
-text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
 }
 
 #CommonTopSplitButtonInverted.Landscape {
