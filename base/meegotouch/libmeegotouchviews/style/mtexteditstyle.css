@@ -34,6 +34,9 @@ MTextEditStyle {
 }
 
 MTextEditStyle:selected {
- background-image: meegotouch-textedit-background-selected $CORNER_MARGINS;
+    background-image: meegotouch-textedit-background-selected $CORNER_MARGINS;
 }
 
+MTextEditStyle:error {
+    background-image: meegotouch-textedit-background-error $CORNER_MARGINS;
+}

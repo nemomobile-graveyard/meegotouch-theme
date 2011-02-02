@@ -244,6 +244,7 @@ meegotouch-textedit-completer-background
 meegotouch-textedit-completer-background-pressed
 meegotouch-textedit-background
 meegotouch-textedit-background-selected
+meegotouch-textedit-background-error
 
 #meegotouch-splitbuttongroup
 meegotouch-buttongroup-background-vertical-top
