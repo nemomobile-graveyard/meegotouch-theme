@@ -63,7 +63,7 @@ MMessageBox MDialogAnimationStyle#In {
 
     title-bar-animation-duration: 0;
     title-bar-animation-distance: 0;
-    title-bar-animation-easing-curve: ;
+    title-bar-animation-easing-curve: linear;
 
     contents-viewport-opacity-animation-duration: 550;
     contents-viewport-opacity-animation-easing-curve: overshotbezier;
@@ -86,7 +86,7 @@ MMessageBox MDialogAnimationStyle#Out {
 
     title-bar-animation-duration: 0;
     title-bar-animation-distance: 0;
-    title-bar-animation-easing-curve: ;
+    title-bar-animation-easing-curve: linear;
 
     contents-viewport-opacity-animation-duration: 100;
     contents-viewport-opacity-animation-easing-curve: inquint;
