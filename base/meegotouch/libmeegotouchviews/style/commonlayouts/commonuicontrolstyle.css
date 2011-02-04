@@ -25,10 +25,24 @@ margin-right:    $INDENT_DEFAULT;
 #CommonLeftSwitchInverted {
 margin-left:     $INDENT_DEFAULT;
 margin-right:    0;
+thumb-image: "meegotouch-switch-thumb-inverted" 14px 14px 14px 14px;
+thumb-image-shadow: "meegotouch-switch-shadow-inverted" 14px 14px 14px 14px;
+slider-image: "meegotouch-switch-off-inverted" 32px 32px 20px 20px;
+slider-image-selected: "meegotouch-switch-on-inverted" 32px 32px 20px 20px;
+}
+#CommonLeftSwitchInverted:pressed {
+thumb-image: "meegotouch-switch-thumb-pressed-inverted" 14px 14px 14px 14px;
 }
 #CommonRightSwitchInverted {
 margin-left:     0;
 margin-right:    $INDENT_DEFAULT;
+thumb-image: "meegotouch-switch-thumb-inverted" 14px 14px 14px 14px;
+thumb-image-shadow: "meegotouch-switch-shadow-inverted" 14px 14px 14px 14px;
+slider-image: "meegotouch-switch-off-inverted" 32px 32px 20px 20px;
+slider-image-selected: "meegotouch-switch-on-inverted" 32px 32px 20px 20px;
+}
+#CommonRightSwitchInverted:pressed {
+thumb-image: "meegotouch-switch-thumb-pressed-inverted" 14px 14px 14px 14px;
 }
 
 /* Checkbox */
