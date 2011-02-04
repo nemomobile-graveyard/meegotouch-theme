@@ -16,7 +16,7 @@ MButtonSwitchStyle {
     maximum-size: 7.2mm 4.4mm;
     preferred-size: 7.2mm 4.4mm;
 
-    thumb-margin: 0.4mm;
+    thumb-margin: 0.7mm;
     
     reactive-margin-left: $MARGIN_XLARGE;
     reactive-margin-right: $MARGIN_XLARGE;
