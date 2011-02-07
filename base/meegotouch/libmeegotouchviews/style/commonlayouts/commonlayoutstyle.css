@@ -233,12 +233,13 @@ maximum-size:   -1 -1;
 /* List styles */
 
 MListStyle#CommonListInverted {
-	group-separator-object-name: "CommonGroupHeaderDividerInverted";
-	group-header-object-name: "CommonGroupHeaderPanelInverted";
+    group-separator-object-name: "CommonGroupHeaderDividerInverted";
+    group-header-object-name: "CommonGroupHeaderPanelInverted";
+    list-index-style-name: "Inverted";
 }
 
 MListHeaderStyle#CommonGroupHeaderPanelInverted {
-	title-style-name: "CommonGroupHeaderInverted";
+    title-style-name: "CommonGroupHeaderInverted";
 }
 
 
