@@ -7,6 +7,8 @@ MBannerStyle {
     padding-left: 0;
 
     disappear-timeout: 3000;
+    /* Only works for even & full */
+/*    press-down-banner-opacity: 0.6; */
 }
 
 MBanner MLabelStyle {
@@ -32,7 +34,7 @@ MBannerStyle #ShortEventBanner {
 }
 
 MBannerStyle #ShortEventBanner:pressed {
-    background-image: "meegotouch-shorteventbanner-background-pressed" 10px 10px 10px 10px;
+    background-image: "meegotouch-fulleventbanner-background-pressed" 10px 10px 10px 10px;
 }
 
 #ShortEventBannerTitle {
@@ -114,7 +116,7 @@ MBannerStyle #PrivateBanner.Portrait {
 /* Event banner at event screen */
 
 MBannerStyle #FullEventBanner {
-    icon-size: 5mm 5mm;
+    icon-size: 4.8mm 4.8mm;
     margin-right: 0.8mm;
     margin-left: 0.8mm;
     background-image: "meegotouch-fulleventbanner-background" 10px 10px 10px 10px;
@@ -136,37 +138,47 @@ MBannerStyle #FullEventBanner.Portrait {
     preferred-size: 46.4mm 9.7mm;
 }
 
-#FullEventBannerTitle {
-    font: $FONT_XSMALL_BOLD;
-    margin-top: 1.5mm;
-    color:$COLOR_INVERTED_FOREGROUND;
-}
-
 #FullEventBannerIcon {
-    maximum-size: 5mm 5mm;
-    minimum-size: 5mm 5mm;
-    preferred-size: 5mm 5mm;
+    maximum-size: 4.8mm 4.8mm;
+    minimum-size: 4.8mm 4.8mm;
+    preferred-size: 4.8mm 4.8mm;
+
+    margin-top: 1.6mm;
+    margin-bottom: 1.6mm;
+
     margin-left: 2mm;
     margin-right: 2mm;
-    margin-top: 1.5mm;
-    margin-left: 2mm;
-    margin-bottom: 0mm;
 }
-#FullEventBannerSubtitle {
+
+#FullEventBannerTitle {
+    font: $FONT_FAMILY light 2.6mm;
     color:$COLOR_INVERTED_FOREGROUND;
+
+    margin-top: 1.6mm;
+}
+
+#FullEventBannerSubtitle {
+    font: $FONT_XSMALL_LIGHT;
+    color:$COLOR_INVERTED_FOREGROUND;
+
     margin-top:0.6mm;
 }
 
 #FullEventBannerTimeStamp {
-    font: $FONT_XSMALL_BOLD;
+    font: $FONT_XSMALL_LIGHT;
     color:$COLOR_INVERTED_FOREGROUND;
-    margin-bottom:0.3mm;
+
+    margin-top:0.6mm;
+    margin-bottom: 1.6mm;
 }
 
 #FullEventBannerPrefixTimeStamp { 
-    font: $FONT_XSMALL_BOLD;
+    font: $FONT_XSMALL_LIGHT;
     color:$COLOR_INVERTED_FOREGROUND;
-    margin-bottom:0.3mm;
+
+    margin-top:0.6mm;
+    margin-bottom: 1.6mm;
+    margin-right: 0.8mm;
 }
 
 /* System Banner */
