@@ -38,6 +38,8 @@ MBannerStyle #ShortEventBanner:pressed {
 #ShortEventBannerTitle {
     font: $FONT_XSMALL_BOLD;
     color: $COLOR_INVERTED_FOREGROUND;
+    margin-top: 0.1mm;
+    margin-left:0.1mm;
     margin-right: $MARGIN_LARGE;
     margin-left: $MARGIN_LARGE;
 }
@@ -45,6 +47,8 @@ MBannerStyle #ShortEventBanner:pressed {
 #ShortEventBannerSubtitle {
     font: $FONT_XSMALL_REGULAR;
     color: $COLOR_INVERTED_FOREGROUND;
+    margin-top: 0.1mm;
+    margin-left:0.1mm;
 }
 
 #ShortEventBannerIcon {
