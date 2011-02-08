@@ -1,3 +1,16 @@
+meegotouchtheme (0.20.73-1) unstable; urgency=low
+
+  * New version
+  * Changes: enabling opacity for MBanner
+  * Fixes: NB#212966 - Full event banner visuals do not match the layout guide
+  * Fixes: NB#225313 - Fast scroll indicator for black background should be white, not black.
+  * Changes: adding extra patch for NB#212951
+  * Fixes: NB#225196 - Asset id missing from inverted switch styles.
+  * Fixes: NB#224694 - Switch button graphics do not look right.
+  * Changes: Added new commonsheetstyle.css.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 08 Feb 2011 15:12:14 +0200
+
 meegotouchtheme (0.20.72-1) unstable; urgency=low
 
   * New version
