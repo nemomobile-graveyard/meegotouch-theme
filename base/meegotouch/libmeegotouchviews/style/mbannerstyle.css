@@ -8,7 +8,7 @@ MBannerStyle {
 
     disappear-timeout: 3000;
     /* Only works for even & full */
-/*    press-down-banner-opacity: 0.6; */
+    press-down-banner-opacity: 0.6;
 }
 
 MBanner MLabelStyle {
