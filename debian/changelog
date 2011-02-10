@@ -1,3 +1,11 @@
+meegotouchtheme (0.20.74-1) unstable; urgency=low
+
+  * New version
+  * Changes: fixing typo at commonlayoutstyle.css
+  * Changes: Add appropiate images for horizontal orientation to MPositionIndicator's css
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 10 Feb 2011 14:12:34 +0200
+
 meegotouchtheme (0.20.73-1) unstable; urgency=low
 
   * New version
