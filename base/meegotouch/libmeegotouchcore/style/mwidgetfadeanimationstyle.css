@@ -34,3 +34,13 @@ MSceneLayerEffect MWidgetFadeAnimationStyle#Out {
     easing-curve: outcubic;
     opacity: 0.87;
 }
+
+MNavigationBar MWidgetFadeAnimationStyle#In {
+    delay: 300;
+    duration: 300;
+}
+
+MNavigationBar MWidgetFadeAnimationStyle#Out {
+    delay: 0;
+    duration: 300;
+}
