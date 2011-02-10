@@ -13,8 +13,8 @@
 @const CSB_FONT_COLOR_ACCENT: #FFFFFF;
 
 @const CEP_BG:  ;
-@const CEP_BG_SELECTED: meegotouch-editor-inputfield-panel-background-selected 0 0 40px 0;
-@const CEP_BG_PRESSED: meegotouch-editor-inputfield-panel-background-pressed 0 0 40px 0;
+@const CEP_BG_SELECTED: meegotouch-editor-inputfield-panel-background-selected 20px 0 40px 0;
+@const CEP_BG_PRESSED: meegotouch-editor-inputfield-panel-background-pressed 20px 0 40px 0;
 
 
 #CommonSheetHeaderPanel {
