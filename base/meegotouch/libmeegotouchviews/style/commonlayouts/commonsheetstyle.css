@@ -1,11 +1,11 @@
-@const CSB_WIDTH:    13px;
+@const CSB_WIDTH:    130px;
 @const CSB_HEIGHT:   42px;
 @const CSB_M_TOP:    15px;
 @const CSB_M_BOTTOM: 15px;
 @const CSB_M_LEFT:   $INDENT_DEFAULT;
 @const CSB_M_RIGHT:  $INDENT_DEFAULT;
 @const CSB_BORDER_VALUES: 20px 20px 20px 20px;
-@const CSB_FONT:     $FONT_FAMILY bold uppercase 22;
+@const CSB_FONT:     $FONT_FAMILY bold 22;
 @const CSB_FONT_COLOR_INVERTED: #FFFFFF;
 @const CSB_FONT_COLOR_INVERTED_PRESSED: #797979;
 @const CSB_FONT_COLOR_INVERTED_SELECTED: #FFFFFF;
@@ -157,7 +157,8 @@
     preferred-size:    100% -1;
     maximum-size:      100% 100%;
     background-tiles:  ;
-    background-image:  $CEP_BG;
+    background-image:  ;
+    background-color:  ;
     margin-top:        0;
     margin-bottom:     0;
     margin-left:       0;
@@ -188,11 +189,44 @@ MLabelStyle#CommonEditorInputFieldLabel:selected {
 }
 
 #CommonEditorExpandButton {
-
+    background-image: meegotouch-editor-expand-button-background;
+    minimum-size:     58px 25px;
+    preferred-size:   58px 25px;
+    maximum-size:     58px 25px;
+    margin-top:       0;
+    margin-bottom:    0;
+    margin-left:      0;
+    margin-right:     $INDENT_DEFAULT;
 }
 
 #CommonEditorExpandButton:pressed {
+    background-image: meegotouch-editor-expand-button-background-pressed;
+}
 
+#CommonEditorExpandButtonPanel {
+    minimum-size:      56 25;
+    preferred-size:    100% 25;
+    maximum-size:      100% 25;
+    background-tiles:  ;
+    background-image:  meegotouch-textedit-collapsed-background;
+    background-color:  ;
+    margin-top:        0;
+    margin-bottom:     0;
+    margin-left:       0;
+    margin-right:      0;
+}
+
+#CommonEditorNoteAreaExpandButtonPanel {
+    minimum-size:      56 25;
+    preferred-size:    100% 25;
+    maximum-size:      100% 25;
+    background-tiles:  ;
+    background-image:  meegotouch-textedit-expanded-background;
+    background-color:  ;
+    margin-top:        0;
+    margin-bottom:     0;
+    margin-left:       0;
+    margin-right:      0;
 }
 
 MTextEditStyle#CommonEditorInputField {
