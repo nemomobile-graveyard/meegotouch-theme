@@ -87,6 +87,9 @@
 }
 
 #CommonInboxSubTitleIcon {
+    minimum-size:      18px 18px;
+    preferred-size:    18px 18px;
+    maximum-size:      18px 18px;
     margin-top:        0;
     margin-bottom:     0;
     margin-left:       0;
@@ -101,6 +104,9 @@
 }
 
 #CommonInboxRightThumbail {
+    minimum-size:      64px 64px;
+    preferred-size:    64px 64px;
+    maximum-size:      64px 64px;
     margin-top:        15px;
     margin-bottom:     0;
     margin-left:       $MARGIN_DOUBLE;
