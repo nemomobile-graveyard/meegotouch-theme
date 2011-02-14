@@ -684,3 +684,11 @@ margin-right:    $INDENT_DEFAULT;
 margin-top:      $MARGIN_XLARGE;
 margin-right:    $INDENT_DEFAULT;
 }
+
+
+MStatusBarStyle#CommonStatusBarNoMenu {
+press-feedback:;
+press-dim-factor: 1;
+enable-status-indicator-menu: false;
+}
+
