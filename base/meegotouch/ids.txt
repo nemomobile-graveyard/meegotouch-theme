@@ -97,7 +97,7 @@ meegotouch-button-navigationbar-portrait-tab-background-horizontal-right
 meegotouch-button-navigationbar-portrait-tab-background-pressed-horizontal-right
 meegotouch-button-navigationbar-portrait-tab-background-selected-horizontal-right
 meegotouch-navigationbar-landscape-background
-meegotouhc-navigationbar-portrait-background
+meegotouch-navigationbar-portrait-background
 meegotouch-navigationbar-landscape-inverted-background
 meegotouch-navigationbar-portrait-inverted-background
 
