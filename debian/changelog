@@ -1,3 +1,19 @@
+meegotouchtheme (0.20.75-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#225576 - [TASK] Unable to disable checkbox style buttons
+  * Changes: fixing red background in CommonPanel
+  * Changes: Don't use (transparent) panel background asset.
+  * Changes: Fix a typo in IDs.
+  * Changes: Add some missing IDs.
+  * Changes: Add common style to disable status indicator menu.
+  * Changes: Added fixed size for CommonInboxSubtitleIcon and CommonInboxRightThumbnail.
+  * Changes: Add error style for MTextEdit.
+  * Changes: Addition to bugfix 226607 adding border values for editor panel
+  * Fixes: NB#226607 - Style attributes in Commonsheetstyle not according to Design
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 15 Feb 2011 15:20:28 +0200
+
 meegotouchtheme (0.20.74-1) unstable; urgency=low
 
   * New version
