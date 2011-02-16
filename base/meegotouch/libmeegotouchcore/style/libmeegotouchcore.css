@@ -32,6 +32,7 @@
 @import "mwidgetrectangularclipanimationstyle.css";
 @import "mwindowstyle.css";
 @import "mcontentfadeandslideanimationstyle.css";
+@import "mtapstatemachinestyle.css";
 
 /* preedit styling for input context */
 @import "mpreeditstyle.css";
