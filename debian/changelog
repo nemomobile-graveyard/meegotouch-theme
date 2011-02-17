@@ -1,3 +1,19 @@
+meegotouchtheme (0.20.76-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#228527 - #CommonToolbarButtonInverted points to wrong assets.
+  * Changes: removing limits in height in MBanner
+  * Changes: Updated release vibration feedback
+  * Fixes: NB#227635 - Strings in Full event banner are in wrong order
+  * Changes: Fixed misspelled style name in commonbuttonstyle.css
+  * Changes: Updated vibra feedback effects
+  * Fixes: NB#223558 - Tool bar is displayed on top of the animation when changing from page without the toolbar to a page with toolbar
+  * Changes: Also reset background colours for common panels.
+  * Changes: Fix empty panel background constant.
+  * New: adding style sheet for MTapStateMachine class
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 17 Feb 2011 17:32:34 +0200
+
 meegotouchtheme (0.20.75-1) unstable; urgency=low
 
   * New version
