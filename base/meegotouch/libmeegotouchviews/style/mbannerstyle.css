@@ -127,13 +127,13 @@ MBannerStyle #FullEventBanner {
 MBannerStyle #FullEventBanner.Landscape {
     minimum-size: 83.8mm 8mm;
     maximum-size:83.8mm 12.6mm;
-    preferred-size: 83.8mm 9.7mm;
+    preferred-size: 83.8mm -1mm;
 }
 
 MBannerStyle #FullEventBanner.Portrait {
     minimum-size: 46.4mm 8mm;
     maximum-size: 46.4mm 12.6mm;
-    preferred-size: 46.4mm 9.7mm;
+    preferred-size: 46.4mm -1mm;
 }
 
 #FullEventBannerIcon {
