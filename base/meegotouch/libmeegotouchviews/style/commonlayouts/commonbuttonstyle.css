@@ -1621,7 +1621,7 @@ background-image: meegotouch-textedit-button-inverted-background-pressed 20px 20
 #CommonLeftInputFieldButtonInverted:selected {
 background-image: meegotouch-textedit-button-inverted-background-selected 20px 20px 20px 20px;
 }
-#CommonLeftInputFieldButtonDisabled:disabled {
+#CommonLeftInputFieldButtonInverted:disabled {
 background-image: meegotouch-textedit-button-inverted-background-disabled 20px 20px 20px 20px;
 }
 
