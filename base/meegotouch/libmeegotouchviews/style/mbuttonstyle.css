@@ -48,6 +48,8 @@ MButtonStyle {
     press-feedback: press;
     release-feedback: release;
     press-timeout: 140;
+
+    transition: "default";
 }
 
 #ButtonLabel {
