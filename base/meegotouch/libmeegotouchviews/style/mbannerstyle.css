@@ -123,7 +123,9 @@ MBannerStyle #FullEventBanner {
 
     background-image: "meegotouch-fulleventbanner-background" 10px 10px 10px 10px;
 }
-
+MBannerStyle #FullEventBanner:pressed {
+    background-image: "meegotouch-fulleventbanner-background-pressed" 10px 10px 10px 10px;
+}
 MBannerStyle #FullEventBanner.Landscape {
     minimum-size: 83.8mm 8mm;
     maximum-size:83.8mm 12.6mm;

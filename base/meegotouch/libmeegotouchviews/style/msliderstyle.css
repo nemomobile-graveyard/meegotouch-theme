@@ -21,7 +21,7 @@ MSliderStyle {
     indicator-style-name: "MSliderHandleIndicator";
 
     groove-thickness: 1.0mm;
-    groove-margin: 2.7mm;
+    groove-margin: 1.8mm;
     groove-preferred-length: 30mm;
     groove-minimum-length: 20mm;
     groove-maximum-length: 200mm;
