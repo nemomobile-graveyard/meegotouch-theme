@@ -26,7 +26,7 @@ MBanner MLabelStyle {
 /* Short event banner */
 
 MBannerStyle #ShortEventBanner {
-    icon-size: 1.5mm 1.5mm;
+    icon-size: 1.8mm 1.8mm;
     minimum-size: 100% 3.6mm;
     maximum-size: 100% 3.6mm;
     preferred-size: 100% 3.6mm;
