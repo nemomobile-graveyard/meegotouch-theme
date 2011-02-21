@@ -5,8 +5,8 @@ MBannerStyle {
     padding-bottom:0;
     padding-right: 0;
     padding-left: 0;
-
-    disappear-timeout: 3000;
+    /* In msec */
+    disappear-timeout: 5000;
     /* Only works for shorteventbanner & fulleventbanner */
     press-down-banner-opacity: 0.6;
 }
