@@ -1,3 +1,15 @@
+meegotouchtheme (0.20.77-1) unstable; urgency=low
+
+  * Nee version
+  * Fixes: NB#221447 - error messages disappear after very short period of time
+  * Changes: new icon size for event banner
+  * Changes: needed for NB#213541 - Application menu updates its contents during disappearance animation.
+  * Fixes: NB#229209 - CommonEditorInputField styles have too large left margin. (excluding label)
+  * Changes: set MButton's default transition
+  * Changes: modifying margin of groove@MSlider
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 22 Feb 2011 13:42:51 +0200
+
 meegotouchtheme (0.20.76-1) unstable; urgency=low
 
   * New version
