@@ -555,7 +555,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonLargeViewHeaderInverted {
-font:          $FONT_FAMILY bold 26;
+font:          $FONT_FAMILY light 32;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0;
 margin-bottom: 0;
