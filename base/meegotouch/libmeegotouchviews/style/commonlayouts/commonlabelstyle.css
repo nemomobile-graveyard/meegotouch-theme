@@ -34,7 +34,10 @@ color:         $CTITLE_COLOR_PRESSED;
 #CommonSingleTitle:selected {
 color:         $CTITLE_COLOR_SELECTED;
 }
-#CommonSingleTitleDisabled {
+#CommonSingleTitle:disabled {
+color:         $CTITLE_COLOR_DISABLED;
+}
+#CommonSingleTitleDisabled { /* will be deprecated */
 font:          $CTITLE_FONT;
 color:         $CTITLE_COLOR_DISABLED;
 margin-top:    0;
@@ -64,7 +67,10 @@ color:         $CTITLE_COLOR_PRESSED;
 #CommonTitle:selected {
 color:         $CTITLE_COLOR_SELECTED;
 }
-#CommonTitleDisabled {
+#CommonTitle:disabled {
+color:         $CTITLE_COLOR_DISABLED;
+}
+#CommonTitleDisabled { /* will be deprecated */
 font:          $CTITLE_FONT;
 color:         $CTITLE_COLOR_DISABLED;
 margin-top:    $CTITLE_M_TOP;
@@ -94,7 +100,10 @@ color:         $CTITLE_COLOR_PRESSED;
 #CommonTitleBottom:selected {
 color:         $CTITLE_COLOR_SELECTED;
 }
-#CommonTitleBottomDisabled {
+#CommonTitleBottom:disabled {
+color:         $CTITLE_COLOR_DISABLED;
+}
+#CommonTitleBottomDisabled { /* will be deprecated */
 font:          $CTITLE_FONT;
 color:         $CTITLE_COLOR_DISABLED;
 margin-top:    0.1mm;
@@ -124,7 +133,10 @@ color:         $CSUBTITLE_COLOR_PRESSED;
 #CommonSubTitle:selected {
 color:         $CSUBTITLE_COLOR_SELECTED;
 }
-#CommonSubTitleDisabled {
+#CommonSubTitle:disabled {
+color:         $CSUBTITLE_COLOR_DISABLED;
+}
+#CommonSubTitleDisabled { /* will be deprecated */
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR_DISABLED;
 margin-top:    $CSUBTITLE_M_TOP;
@@ -146,7 +158,10 @@ color:         $CSUBTITLE_COLOR_PRESSED;
 #CommonSubTitleWithIcon:selected {
 color:         $CSUBTITLE_COLOR_SELECTED;
 }
-#CommonSubTitleWithIconDisabled {
+#CommonSubTitleWithIcon:disabled {
+color:         $CSUBTITLE_COLOR_DISABLED;
+}
+#CommonSubTitleWithIconDisabled { /* will be deprecated */
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR_DISABLED;
 margin-top:    $CSUBTITLE_M_TOP;
@@ -168,7 +183,10 @@ color:         $CSUBTITLE_COLOR_PRESSED;
 #CommonSubTitleTop:selected {
 color:         $CSUBTITLE_COLOR_SELECTED;
 }
-#CommonSubTitleTopDisabled {
+#CommonSubTitleTop:disabled {
+color:         $CSUBTITLE_COLOR_DISABLED;
+}
+#CommonSubTitleTopDisabled { /* will be deprecated */
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR_DISABLED;
 margin-top:    1.6mm;
@@ -364,7 +382,10 @@ color:         $CTITLE_COLOR_PRESSED_INVERTED;
 #CommonSingleTitleInverted:selected {
 color:         $CTITLE_COLOR_SELECTED_INVERTED;
 }
-#CommonSingleTitleDisabledInverted {
+#CommonSingleTitleInverted:disabled {
+color:         $CTITLE_COLOR_DISABLED_INVERTED;
+}
+#CommonSingleTitleDisabledInverted { /* will be deprecated */
 font:          $CTITLE_FONT;
 color:         $CTITLE_COLOR_DISABLED_INVERTED;
 margin-top:    0;
@@ -386,7 +407,10 @@ color:         $CTITLE_COLOR_PRESSED_INVERTED;
 #CommonTitleInverted:selected {
 color:         $CTITLE_COLOR_SELECTED_INVERTED;
 }
-#CommonTitleDisabledInverted {
+#CommonTitleInverted:disabled {
+color:         $CTITLE_COLOR_DISABLED_INVERTED;
+}
+#CommonTitleDisabledInverted { /* will be deprecated */
 font:          $CTITLE_FONT;
 color:         $CTITLE_COLOR_DISABLED_INVERTED;
 margin-top:    $CTITLE_M_TOP;
@@ -408,7 +432,10 @@ color:         $CTITLE_COLOR_PRESSED_INVERTED;
 #CommonTitleBottomInverted:selected {
 color:         $CTITLE_COLOR_SELECTED_INVERTED;
 }
-#CommonTitleBottomDisabledInverted {
+#CommonTitleBottomInverted:disabled {
+color:         $CTITLE_COLOR_DISABLED_INVERTED;
+}
+#CommonTitleBottomDisabledInverted { /* will be deprecated */
 font:          $CTITLE_FONT;
 color:         $CTITLE_COLOR_DISABLED_INVERTED;
 margin-top:    0.1mm;
@@ -430,7 +457,10 @@ color:         $CSUBTITLE_COLOR_PRESSED_INVERTED;
 #CommonSubTitleInverted:selected {
 color:         $CSUBTITLE_COLOR_SELECTED_INVERTED;
 }
-#CommonSubTitleDisabledInverted {
+#CommonSubTitleInverted:disabled {
+color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
+}
+#CommonSubTitleDisabledInverted { /* will be deprecated */
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
 margin-top:    $CSUBTITLE_M_TOP;
@@ -452,7 +482,10 @@ color:         $CSUBTITLE_COLOR_PRESSED_INVERTED;
 #CommonSubTitleWithIconInverted:selected {
 color:         $CSUBTITLE_COLOR_SELECTED_INVERTED;
 }
-#CommonSubTitleWithIconDisabledInverted {
+#CommonSubTitleWithIconInverted:disabled {
+color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
+}
+#CommonSubTitleWithIconDisabledInverted { /* will be deprecated */
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
 margin-top:    $CSUBTITLE_M_TOP;
@@ -474,7 +507,10 @@ color:         $CSUBTITLE_COLOR_PRESSED_INVERTED;
 #CommonSubTitleTopInverted:selected {
 color:         $CSUBTITLE_COLOR_SELECTED_INVERTED;
 }
-#CommonSubTitleTopDisabledInverted {
+#CommonSubTitleTopInverted:disabled {
+color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
+}
+#CommonSubTitleTopDisabledInverted { /* will be deprecated */
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
 margin-top:    1.6mm;
