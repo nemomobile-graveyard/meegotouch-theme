@@ -270,7 +270,7 @@ MLabelStyle#CommonEditorComboBoxSubTitle {
 
 MComboBoxStyle#CommonEditorComboBox {
     background-tiles: ;
-    background-image: meegotouch-panel-background $CORNER_MARGINS;
+    background-image: ;
     title-object-name: "ComboBoxEmptyTitle";
     separate-title: false;
     indicator-image: ;

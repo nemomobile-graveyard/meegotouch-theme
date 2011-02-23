@@ -1,7 +1,7 @@
-@const CL_BG:                   meegotouch-panel-background $CORNER_MARGINS;
+@const CL_BG:                   ;
 @const CL_BG_PRESSED:           meegotouch-panel-background-pressed $CORNER_MARGINS;
 @const CL_BG_SELECTED:          meegotouch-panel-background-selected $CORNER_MARGINS;
-@const CL_INVERTED_BG:          meegotouch-panel-inverted-background $CORNER_MARGINS;
+@const CL_INVERTED_BG:          ;
 @const CL_INVERTED_BG_PRESSED:  meegotouch-panel-inverted-background-pressed $CORNER_MARGINS;
 @const CL_INVERTED_BG_SELECTED: meegotouch-panel-inverted-background-selected $CORNER_MARGINS;
 

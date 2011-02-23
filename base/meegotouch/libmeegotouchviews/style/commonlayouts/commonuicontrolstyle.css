@@ -581,7 +581,7 @@ progress-indicator-object-name: "CommonProgressBarInverted";
 }
 MComboBox#CommonComboBoxInverted MListItemStyle {
 background-tiles: ;
-background-image: meegotouch-panel-inverted-background $CORNER_MARGINS;
+background-image: ;
 }
 MComboBox#CommonComboBoxInverted MListItemStyle:pressed {
 background-tiles: ;
@@ -590,7 +590,7 @@ background-image: meegotouch-panel-inverted-background-pressed $CORNER_MARGINS;
 
 #CommonComboBoxButtonNoTitle {
 background-tiles: ;
-background-image: meegotouch-panel-background $CORNER_MARGINS;
+background-image: ;
 title-object-name: "ComboBoxEmptyTitle";
 separate-title: false;
 margin-left: $INDENT_DEFAULT;
@@ -603,7 +603,7 @@ maximum-size: 32.2mm 5.1mm;
 }
 #CommonComboBoxButtonNoTitleInverted {
 background-tiles: ;
-background-image: meegotouch-panel-inverted-background $CORNER_MARGINS;
+background-image: ;
 title-object-name: "ComboBoxEmptyTitle";
 sub-title-object-name: "CommonButtonLabelInverted";
 indicator-image: "icon-m-textinput-combobox-arrow";
@@ -653,7 +653,7 @@ minimum-size: -1 0.1mm;
 
 #CommonOverlayComboBox {
 background-tiles: ;
-background-image: meegotouch-panel-inverted-background $CORNER_MARGINS;
+background-image: ;
 title-object-name: "ComboBoxEmptyTitle";
 sub-title-object-name: "CommonButtonLabelInverted";
 indicator-image: "icon-m-textinput-combobox-arrow";
