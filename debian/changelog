@@ -1,3 +1,14 @@
+meegotouchtheme (0.20.78-1) unstable; urgency=low
+
+  * New version
+  * Changes: Added tooltip font attribute to mtexeditstyle.css for bug 229699
+  * Fixes: NB#210199 - Specification doesn't specify if conversation threads and message bubbles should be highlighted after tapping on them
+  * Changes: Use blank backgrounds instead of totally transparent assets.
+  * Changes: Added disabled states to later replace existing Disabled styles
+  * Fixes: NB#229586 - CommonLargeViewHeader and CommonLargeViewHeaderInverted not in sync
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 24 Feb 2011 16:00:43 +0200
+
 meegotouchtheme (0.20.77-1) unstable; urgency=low
 
   * Nee version
