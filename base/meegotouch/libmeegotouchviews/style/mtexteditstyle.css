@@ -10,6 +10,7 @@ MTextEditStyle {
     allow-view-reposition: true;
     disable-magnifier: false;
     mask-string: "*";
+    prompt-font: $FONT_LARGE;
     prompt-color: $COLOR_SECONDARY_FOREGROUND;
     paste-failed-icon: "icon-m-framework-close";
     paste-failed-duration: 3000;
