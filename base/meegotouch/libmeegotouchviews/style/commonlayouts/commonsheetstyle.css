@@ -288,6 +288,7 @@ MComboBoxStyle#CommonEditorComboBox {
 MComboBox#CommonEditorComboBox MListItemStyle[labelButton] {
     background-tiles: ;
     background-image: ;
+    background-color: ;
     minimum-size: 56 56;
     preferred-size: 100% 56;
     maximum-size: 100% 56;
@@ -295,6 +296,7 @@ MComboBox#CommonEditorComboBox MListItemStyle[labelButton] {
 MComboBox#CommonEditorComboBox MListItemStyle[labelButton]:pressed {
     background-tiles: ;
     background-image: ;
+    background-color: ;
     minimum-size: 56 56;
     preferred-size: 100% 56;
     maximum-size: 100% 56;
