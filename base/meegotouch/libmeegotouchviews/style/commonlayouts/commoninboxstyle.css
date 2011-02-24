@@ -31,6 +31,8 @@
 }
 
 #CommonInboxReadPanel {
+    background-tiles:  ;
+    background-image:  ;
     minimum-size:      $SIZE_LIST $SIZE_LIST;    
     preferred-size:    -1 -1;
     maximum-size:      -1 -1;
@@ -41,6 +43,15 @@
     padding-left:      $CIP_LP;
     padding-right:     $CIP_RP;
     padding-bottom:    $MARGIN_DOUBLE;
+}
+
+#CommonInboxReadPanel:pressed {
+    background-tiles:  ;
+    background-image:  meegotouch-panel-background-pressed;
+}
+#CommonInboxReadPanel:selected {
+    background-tiles:  ;
+    background-image:  meegotouch-panel-background-selected;
 }
 
 #CommonInboxTitle {
