@@ -847,3 +847,86 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
+
+/* Count bubbles are labels */
+
+#CommonLargeCountBubble {
+font: $FONT_FAMILY 22;
+color: $COLOR_INVERTED_FOREGROUND;
+padding-top: 2px;
+padding-left: 10px;
+padding-right: 10px;
+margin-right: $INDENT_DEFAULT;
+background-image: "meegotouch-countbubble-background-large" 16px 16px 0 0;
+minimum-size: 32px 32px;
+preferred-size: -1 32px;
+maximum-size: -1 32px;
+}
+
+#CommonCountBubble {
+font: $FONT_FAMILY 18;
+color: $COLOR_FOREGROUND;
+padding-top: 1px;
+padding-left: 7px;
+padding-right: 7px;
+margin-right: $INDENT_DEFAULT;
+background-image: "meegotouch-inbox-subicon-background" 12px 12px 0 0;
+minimum-size: 24px 24px;
+preferred-size: -1 24px;
+maximum-size: -1 24px;
+}
+
+#CommonCountBubbleTop {
+font: $FONT_FAMILY 18;
+color: $COLOR_FOREGROUND;
+padding-top: 1px;
+padding-left: 7px;
+padding-right: 7px;
+margin-right: $INDENT_DEFAULT;
+margin-top: $MARGIN_DOUBLE;
+background-image: "meegotouch-inbox-subicon-background" 12px 12px 0 0;
+minimum-size: 24px 24px;
+preferred-size: -1 24px;
+maximum-size: -1 24px;
+}
+
+
+#CommonLargeCountBubbleInverted {
+font: $FONT_FAMILY 22;
+color: $COLOR_INVERTED_FOREGROUND;
+padding-top: 2px;
+padding-left: 10px;
+padding-right: 10px;
+margin-right: $INDENT_DEFAULT;
+background-image: "meegotouch-countbubble-inverted-background-large" 16px 16px 0 0;
+minimum-size: 32px 32px;
+preferred-size: -1 32px;
+maximum-size: -1 32px;
+}
+
+#CommonCountBubbleInverted {
+font: $FONT_FAMILY 18;
+color: $COLOR_FOREGROUND;
+padding-top: 1px;
+padding-left: 7px;
+padding-right: 7px;
+margin-right: $INDENT_DEFAULT;
+background-image: "meegotouch-inbox-subicon-inverted-background" 12px 12px 0 0;
+minimum-size: 24px 24px;
+preferred-size: -1 24px;
+maximum-size: -1 24px;
+}
+
+#CommonCountBubbleTopInverted {
+font: $FONT_FAMILY 18;
+color: $COLOR_FOREGROUND;
+padding-top: 1px;
+padding-left: 7px;
+padding-right: 7px;
+margin-right: $INDENT_DEFAULT;
+margin-top: $MARGIN_DOUBLE;
+background-image: "meegotouch-inbox-subicon-inverted-background" 12px 12px 0 0;
+minimum-size: 24px 24px;
+preferred-size: -1 24px;
+maximum-size: -1 24px;
+}

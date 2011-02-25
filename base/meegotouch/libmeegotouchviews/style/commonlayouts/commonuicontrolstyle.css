@@ -681,14 +681,6 @@ background-image: meegotouch-button-inverted-background-pressed $CORNER_MARGINS;
 }
 
 
-#CommonCountBubble {
-margin-right:    $INDENT_DEFAULT;
-}
-#CommonCountBubbleTop {
-margin-top:      $MARGIN_XLARGE;
-margin-right:    $INDENT_DEFAULT;
-}
-
 
 MStatusBarStyle#CommonStatusBarNoMenu {
 press-feedback:;

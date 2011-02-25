@@ -1,10 +1,9 @@
 @const CIP_BG:          meegotouch-unread-inbox-panel-background 17px 17px 17px 17px;
 @const CIP_BG_PRESSED:  meegotouch-unread-inbox-panel-background-pressed 17px 17px 17px 17px;
 @const CIP_BG_SELECTED: meegotouch-unread-inbox-panel-background-selected 17px 17px 17px 17px;
-@const CIP_LP:         28px;
-@const CIP_RP:         14px;
+@const CIP_LP:          $PADDING_DOUBLE;
 
-/* for development purpose all these styles are temporarily consolidated in on file */
+/* for development purpose all these styles are temporarily consolidated in one file */
 
 #CommonInboxUnreadPanel {
     minimum-size:      $SIZE_LIST $SIZE_LIST;    
@@ -17,7 +16,6 @@
     margin-left:       0;
     margin-right:      0;
     padding-left:      $CIP_LP;
-    padding-right:     $CIP_RP;
     padding-bottom:    $MARGIN_DOUBLE;
 }
 
@@ -41,7 +39,6 @@
     margin-left:       0;
     margin-right:      0;
     padding-left:      $CIP_LP;
-    padding-right:     $CIP_RP;
     padding-bottom:    $MARGIN_DOUBLE;
 }
 
@@ -56,16 +53,16 @@
 
 #CommonInboxTitle {
     font:              $FONT_FAMILY bold 24;
-    margin-left:       0;
-    margin-right:      0;
+    margin-left:       $INDENT_DEFAULT;
+    margin-right:      $INDENT_DEFAULT;
     margin-top:        13px;
     margin-bottom:     0;
 }
 
 #CommonInboxSubTitle {
     font:              $FONT_FAMILY light 22;
-    margin-left:       0;
-    margin-right:      0;
+    margin-left:       $INDENT_DEFAULT;
+    margin-right:      $INDENT_DEFAULT;
     margin-top:        0;
     margin-bottom:     0;
 }
@@ -73,8 +70,8 @@
 #CommonInboxSubText {
     font:              $FONT_FAMILY light 22;
     color:             $COLOR_SECONDARY_FOREGROUND;
-    margin-left:       0;
-    margin-right:      0;
+    margin-left:       $INDENT_DEFAULT;
+    margin-right:      $INDENT_DEFAULT;
     margin-top:        $MARGIN_XSMALL;
     margin-bottom:     0;
 }
@@ -82,8 +79,8 @@
 #CommonInboxUnreadItemInfo {
     font:              $FONT_FAMILY light 18;
     color:             $COLOR_ACCENT1;
-    margin-left:       0;
-    margin-right:      0;
+    margin-left:       $INDENT_DEFAULT;
+    margin-right:      $INDENT_DEFAULT;
     margin-top:        5px;
     margin-bottom:     0;
 }
@@ -91,8 +88,8 @@
 #CommonInboxReadItemInfo {
     font:              $FONT_FAMILY light 18;
     color:             $COLOR_SECONDARY_FOREGROUND;
-    margin-left:       0;
-    margin-right:      0;
+    margin-left:       $INDENT_DEFAULT;
+    margin-right:      $INDENT_DEFAULT;
     margin-top:        5px;
     margin-bottom:     0;
 }
@@ -103,15 +100,15 @@
     maximum-size:      18px 18px;
     margin-top:        0;
     margin-bottom:     0;
-    margin-left:       0;
-    margin-right:      8px;
+    margin-left:       $INDENT_DEFAULT;
+    margin-right:      0;
 }
 
 #CommonInboxSubIconTop {
     margin-top:        15px;
     margin-bottom:     0;
     margin-left:       1px;
-    margin-right:      1px;
+    margin-right:      $INDENT_DEFAULT;
 }
 
 #CommonInboxRightThumbail {
@@ -121,6 +118,6 @@
     margin-top:        15px;
     margin-bottom:     0;
     margin-left:       $MARGIN_DOUBLE;
-    margin-right:      0;
+    margin-right:      $INDENT_DEFAULT;
 }
 
