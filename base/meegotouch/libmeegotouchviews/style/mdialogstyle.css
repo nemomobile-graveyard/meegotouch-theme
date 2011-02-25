@@ -183,3 +183,21 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
     maximum-size: -1 100%;
 }
 
+/*
+  Some dialogs should be fixed to use all available space in all cases,
+  rather than growing with the content. This style is an easy way to
+  accomplish that.
+*/
+
+#FixedHeightDialog {
+    contents-viewport-style-name: "FixedHeightDialogContentsViewport";
+}
+#FixedHeightDialogContentsViewport {
+    /* 5 * SIZE_BUTTON + 0.4mm padding */
+    minimum-size: -1 32.4mm;
+}
+#FixedHeightDialogContentsViewport.Portrait {
+    /* 10 * SIZE_BUTTON + 0.4mm padding */
+    minimum-size: -1 64.4mm;
+}
+
