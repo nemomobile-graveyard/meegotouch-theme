@@ -1,8 +1,15 @@
-meegotouchtheme (0.20.79~1) unstable; urgency=low
+meegotouchtheme (0.20.79-1) unstable; urgency=low
 
-  * [unreleased]
+  * New version
+  * New: MBasicSheetHeaderStyle
+  * New: MSheetStyle and MSheet-related changes
+  * Changes: New feedback effects
+  * Changes: Add additional style to help fix NB#225405.
+  * Changes: Udpated inbox and countbubble styles according to toolkit
+  * Fixes: NB#230262 - [TASK] Rotation duration should be 500ms instead of 800ms
+  * Changes: Also set background-color to blank where background is transparent.
 
- -- Daniel d'Andrada <daniel.dandrada@nokia.com>  Mon, 28 Feb 2011 11:46:08 +0200
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 28 Feb 2011 15:40:13 +0200
 
 meegotouchtheme (0.20.78-1) unstable; urgency=low
 
