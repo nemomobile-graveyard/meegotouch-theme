@@ -2,11 +2,6 @@
 MMessageBoxStyle {
 
     /* inherited from MDialogStyle */
-    dialog-vertical-alignment: center;
-
-    dialog-top-margin: 8mm;
-    dialog-bottom-margin: 8mm;
-
     has-title-bar: false;
     has-close-button: false;
 
@@ -15,6 +10,8 @@ MMessageBoxStyle {
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
+
+    button-box-style-name: "MMessageBoxButtonBox";
 }
 
 MMessageBoxStyle.Landscape {
@@ -32,4 +29,11 @@ MMessageBoxStyle#LargeButtonsQueryDialog.Horizontal {
 MMessageBoxStyle#LargeButtonsQueryDialog.Portrait {
     dialog-button-fixed-width: -1;
     maximum-horizontal-buttons: 1;
+}
+
+#MMessageBoxButtonBox {
+    background-image: ;
+    minimum-size: -1 8mm;
+    preferred-size: -1 8mm;
+    maximum-size: -1 8mm;
 }
