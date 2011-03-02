@@ -688,3 +688,8 @@ press-dim-factor: 1;
 enable-status-indicator-menu: false;
 }
 
+#CommonContentItemInverted {
+    title-object-name: "CommonTitleInverted";
+    subtitle-object-name: "CommonSubTitleInverted";
+}
+
