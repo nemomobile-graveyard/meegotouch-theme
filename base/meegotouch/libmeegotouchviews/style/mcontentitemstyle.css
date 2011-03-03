@@ -1,10 +1,10 @@
 
 /* MGridItemStyle : MGridItemStyle */
 MContentItemStyle {    
-    
     background-tiles: meegotouch-list-background $CORNER_MARGINS;
 
-    background-image : meegotouch-list-fullwidth-background $CORNER_MARGINS;
+    background-image: ;
+    background-color: ;
 
     background-image-top-left : meegotouch-list-background-top-left $CORNER_MARGINS;
     background-image-top : meegotouch-list-background-top-center $CORNER_MARGINS;
@@ -15,7 +15,7 @@ MContentItemStyle {
     background-image-bottom-left : meegotouch-list-background-bottom-left $CORNER_MARGINS;
     background-image-bottom : meegotouch-list-background-bottom-center $CORNER_MARGINS;
     background-image-bottom-right : meegotouch-list-background-bottom-right $CORNER_MARGINS;
-    
+
     background-image-single : meegotouch-list-background $CORNER_MARGINS;
 
     background-image-singlerow-left : meegotouch-list-background-horizontal-left $CORNER_MARGINS;

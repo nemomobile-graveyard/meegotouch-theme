@@ -84,7 +84,8 @@ MDialogStyle.Portrait {
     padding-top: 0;
     padding-bottom: 0.4mm;
 
-    background-image: "meegotouch-dialog-background" 12px 12px 12px 12px;
+    background-image: ;
+    background-color: ;
 }
 
 #MDialogContentsViewport.Portrait {
@@ -95,7 +96,8 @@ MDialogStyle.Portrait {
 }
 
 MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
-    background-image: "meegotouch-dialog-query-background" 12px 12px 12px 12px;
+    background-image: ;
+    background-color: ;
     maximum-size: -1 100%;
 }
 

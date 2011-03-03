@@ -33,7 +33,7 @@ MComboBoxStyle {
 
 MComboBox MListItemStyle {
     background-tiles: ;
-    background-image: "meegotouch-panel-background" $CORNER_MARGINS;
+    background-image: ;
     background-color: ;
     preferred-size: -1 $SIZE_LIST;
     minimum-size: $SIZE_ONE $SIZE_LIST;
@@ -53,7 +53,8 @@ MComboBoxStyle[button] {
 }
 MComboBox MListItemStyle[button] {
     background-tiles: ;
-    background-image: meegotouch-panel-background $CORNER_MARGINS;
+    background-image: ;
+    background-color: ;
 }
 MComboBox MListItemStyle[button]:pressed  {
     background-tiles: ;
