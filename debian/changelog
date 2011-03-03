@@ -1,3 +1,11 @@
+meegotouchtheme (0.20.80-1) unstable; urgency=low
+
+  * New version
+  * New: Inverted style for MContentItem with labels.
+  * Changes: Remove extra margins and fix button box in message box style.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 03 Mar 2011 14:01:44 +0200
+
 meegotouchtheme (0.20.79-1) unstable; urgency=low
 
   * New version
