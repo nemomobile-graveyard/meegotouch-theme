@@ -683,8 +683,6 @@ background-image: meegotouch-button-inverted-background-pressed $CORNER_MARGINS;
 
 
 MStatusBarStyle#CommonStatusBarNoMenu {
-press-feedback:;
-press-dim-factor: 1;
 enable-status-indicator-menu: false;
 }
 
