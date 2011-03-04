@@ -1,4 +1,11 @@
 /* MWidgetSlidedeAnimationStyle : MAbstractWidgetAnimationStyle */
+MWidgetSlideAnimationStyle {
+    delay: 0;
+    duration: 5000;
+    easing-curve: linear;
+    origin: "right";
+}
+
 MWidgetSlideAnimationStyle#In {
     delay: 300;
     duration: 300;
@@ -33,11 +40,13 @@ MInfoBanner MWidgetSlideAnimationStyle#Out {
 
 MStatusBar MWidgetSlideAnimationStyle#In {
     delay: 0;
+    duration: 300;
     easing-curve: linear;
 }
 
 MStatusBar MWidgetSlideAnimationStyle#Out {
     delay: 0;
+    duration: 300;
     easing-curve: linear;
 }
 
