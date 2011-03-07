@@ -247,6 +247,23 @@ MTextEditStyle#CommonEditorInputField {
     padding-right: $INDENT_DEFAULT;
 }
 
+MTextEditStyle#CommonEditorInputFieldMultiline {
+    background-image: ;
+    font: $FONT_FAMILY bold 26;
+
+    minimum-size: 56 56;
+    preferred-size: 100% -1;
+    maximum-size: 100% 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: $MARGIN_LARGE;
+    margin-right: 0;
+    padding-top: 15;
+    padding-bottom: 11;
+    padding-left: $PADDING_LARGE;
+    padding-right: $INDENT_DEFAULT;
+}
+
 MTextEditStyle#CommonEditorInputField:selected {
     background-image: ;
 }
