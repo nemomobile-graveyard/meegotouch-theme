@@ -30,10 +30,14 @@ MApplicationMenuStyle {
 
 MApplicationMenu MPannableWidgetStyle {
     background-image: "meegotouch-navigationbar-viewmenu-background" 10px 10px 10px 10px;
+}
+
+MApplicationMenu MPannableWidgetStyle.Landscape {
     minimum-size: 54.4mm -1;
     preferred-size: 54.4mm -1;
-    maximum-size: 54.4mm 36.0mm;
+    maximum-size: 54.4mm 35.8mm;
 }
+
 MApplicationMenu MPannableWidgetStyle.Portrait {
     minimum-size: 44.8mm -1;
     preferred-size: 44.8mm -1;
@@ -41,12 +45,14 @@ MApplicationMenu MPannableWidgetStyle.Portrait {
 }
 
 MApplicationMenu MListItemStyle {
-    minimum-size: 54.4mm 6.4mm;
-    preferred-size: 54.4mm 6.4mm;
-    maximum-size: 54.4mm 6.4mm;
     background-image: ;
     background-color: ;
     background-tiles: ;
+}
+MApplicationMenu MListItemStyle.Landscape {
+    minimum-size: 54.4mm 6.4mm;
+    preferred-size: 54.4mm 6.4mm;
+    maximum-size: 54.4mm 6.4mm;
 }
 MApplicationMenu MListItemStyle.Portrait {
     minimum-size: 44.8mm 6.4mm;
