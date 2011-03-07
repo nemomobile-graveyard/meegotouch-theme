@@ -4,6 +4,7 @@ MListStyle {
     horizontal-separator-object-name: "emptySeparator"; 
     vertical-separator-object-name: "emptySeparator";
     group-separator-object-name: "emptySeparator";
+    list-index-style-name: "";
 }
 
 

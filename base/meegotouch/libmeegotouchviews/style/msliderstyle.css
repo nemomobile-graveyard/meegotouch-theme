@@ -37,6 +37,9 @@ MSliderStyle {
 
     handle-label-margin: 0px;
     handle-label-arrow-margin: 11px;
+
+    min-label-fixed-width: 0;
+    max-label-fixed-width: 0;
 }
 
 #MSliderMinMaxLabel {
