@@ -1,3 +1,18 @@
+meegotouchtheme (0.20.81-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#232402 - [REG] Application menu look changes in given scenario
+  * New: Style for editor toolbar
+  * Changes: New release feedback for static and pannable areas
+  * Changes: Add a new common editor input field multiline style.
+  * New: MBorderDecorationRoundedCornersStyle
+  * Changes: Get rid of some warning messages about undefined properties
+  * Changes: Make MStatusBar use reactive margins
+  * Changes: Remove unnecessary style properties, see NB#231340.
+  * Changes: Remove usage of transparent assets.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 07 Mar 2011 16:33:40 +0200
+
 meegotouchtheme (0.20.80-1) unstable; urgency=low
 
   * New version
