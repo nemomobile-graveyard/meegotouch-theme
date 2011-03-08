@@ -1,3 +1,13 @@
+meegotouchtheme (0.20.82-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#234002 - CommonFramePanelLeftIcon - missing margin on Top
+  * Fixes: NB#229952 - [REG] Dimming layer is almost opaque
+  * Changes: opacity changed to make items behind dialogs more visible.
+  * Fixes: NB#232870 - Missing initialisation in style's default constructors.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 08 Mar 2011 16:12:49 +0200
+
 meegotouchtheme (0.20.81-1) unstable; urgency=low
 
   * New version
