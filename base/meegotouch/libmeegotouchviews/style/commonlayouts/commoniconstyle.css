@@ -39,19 +39,19 @@ maximum-size:   $ICON48;
 minimum-size:   $ICON48;
 preferred-size: $ICON48;
 margin-left:    0;
-margin-right:   $INDENT_DEFAULT;
-margin-top:     0;
-margin-bottom:  0;
+margin-right:   17px;
+margin-top:     17px;
+margin-bottom:  18px;
 }
 
 #CommonFramePanelLeftIcon {
 maximum-size:   $ICON48;
 minimum-size:   $ICON48;
 preferred-size: $ICON48;
-margin-left:    $INDENT_DEFAULT;
+margin-left:    17px;
 margin-right:   0;
-margin-top:     0;
-margin-bottom:  0;
+margin-top:     17px;
+margin-bottom:  18px;
 }
 
 #CommonTitleIcon {
