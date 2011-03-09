@@ -189,8 +189,8 @@ background-image:  $CUP_INVERTED_BG_SELECTED;
 
 
 #CommonSmallPanel {
-minimum-size:      50 50;   
-preferred-size:    -1 50;   
+minimum-size:      64px 64px;   
+preferred-size:    -1 64px;   
 maximum-size:      -1 $SIZE_LIST; 
 background-tiles:  ;
 background-image:  $CP_BG;
@@ -210,8 +210,8 @@ background-image:  $CP_BG_SELECTED;
 }
 
 #CommonSmallPanelInverted {
-minimum-size:      50 50;   
-preferred-size:    -1 50;   
+minimum-size:      64px 64px;   
+preferred-size:    -1 64px;   
 maximum-size:      -1 $SIZE_LIST; 
 background-tiles:  ;
 background-image:  $CP_INVERTED_BG;
