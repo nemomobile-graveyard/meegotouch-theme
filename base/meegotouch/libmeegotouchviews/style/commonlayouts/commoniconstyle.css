@@ -64,7 +64,19 @@ margin-top:     0;
 margin-bottom:  0;
 }
 
+/* either of the drill down icons will be perecated at some point */ 
+
 #CommonDrillDownIcon {
+maximum-size:   $ICON32;
+minimum-size:   $ICON32;
+preferred-size: $ICON32;
+margin-left:    0;
+margin-right:   $INDENT_DEFAULT;
+margin-top:     0;
+margin-bottom:  0;
+}
+
+#CommonDrilldownIcon {
 maximum-size:   $ICON32;
 minimum-size:   $ICON32;
 preferred-size: $ICON32;
