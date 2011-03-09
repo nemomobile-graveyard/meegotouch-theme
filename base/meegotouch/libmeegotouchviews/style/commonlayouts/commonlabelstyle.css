@@ -353,16 +353,16 @@ color:         $CB_FONT_COLOR;
 #CommonQueryTitle {
 font:          $FONT_FAMILY bold 32;
 color:         $COLOR_ACCENT1;
-margin-top:    2.8mm;
+margin-top:    28px;
 margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonQueryText {
-font:          $FONT_FAMILY light 22;
+font:          $FONT_FAMILY light 24;
 color:         $COLOR_INVERTED_FOREGROUND;
-margin-top:    1mm;
-margin-bottom: 0;
+margin-top:    17px;
+margin-bottom: 26px;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
