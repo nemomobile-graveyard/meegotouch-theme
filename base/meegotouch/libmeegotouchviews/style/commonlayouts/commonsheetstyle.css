@@ -11,6 +11,7 @@
 @const CSB_FONT_COLOR_INVERTED_SELECTED: #FFFFFF;
 @const CSB_FONT_COLOR_INVERTED_DISABLED: #4E4E4E;
 @const CSB_FONT_COLOR_ACCENT: #FFFFFF;
+@const COLOR_EDITOR_PROMPT: #CCCCCC;
 
 @const CEP_BG:  ;
 @const CEP_BG_SELECTED: meegotouch-editor-inputfield-panel-background-selected 20px 0 40px 0;
@@ -232,7 +233,8 @@ MLabelStyle#CommonEditorInputFieldLabel:selected {
 MTextEditStyle#CommonEditorInputField {
     background-image: ;
     font: $FONT_FAMILY bold 26;
-
+    prompt-font: $FONT_FAMILY 26;
+    prompt-color: $COLOR_EDITOR_PROMPT;
     minimum-size: 56 56;
     preferred-size: 100% -1;
     maximum-size: 100% 100%;
@@ -269,6 +271,16 @@ MTextEditStyle#CommonEditorInputField:selected {
 
 MLabelStyle#CommonEditorInputFieldValue {
     font: $FONT_FAMILY bold 26;
+    margin-top: 15;
+    margin-bottom: 11;
+    margin-right: 0;
+    margin-left: $MARGIN_LARGE;
+    vertical-alignment: top;
+}
+
+MLabelStyle#CommonEditorInputFieldPrompt {
+    font: $FONT_FAMILY 26;
+    color: $COLOR_EDITOR_PROMPT;
     margin-top: 15;
     margin-bottom: 11;
     margin-right: 0;
