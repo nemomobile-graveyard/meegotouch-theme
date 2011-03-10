@@ -111,7 +111,7 @@
     margin-right:      $INDENT_DEFAULT;
 }
 
-#CommonInboxRightThumbail {
+#CommonInboxRightThumbnail {
     minimum-size:      64px 64px;
     preferred-size:    64px 64px;
     maximum-size:      64px 64px;
