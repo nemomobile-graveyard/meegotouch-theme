@@ -121,3 +121,15 @@
     margin-right:      $INDENT_DEFAULT;
 }
 
+/* temporary, to prevent things from breaking */
+
+#CommonInboxRightThumbail {
+    minimum-size:      64px 64px;
+    preferred-size:    64px 64px;
+    maximum-size:      64px 64px;
+    margin-top:        15px;
+    margin-bottom:     0;
+    margin-left:       $MARGIN_DOUBLE;
+    margin-right:      $INDENT_DEFAULT;
+}
+
