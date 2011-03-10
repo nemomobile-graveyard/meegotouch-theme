@@ -2,7 +2,7 @@
 MTextEditStyle {
     background-image: meegotouch-textedit-background $CORNER_MARGINS;
 
-    font: $FONT_LARGE;
+    font: $FONT_FAMILY light 24px;
     text-color: $COLOR_FOREGROUND;
     selection-text-color: $COLOR_INVERTED_FOREGROUND;
     selection-background-color: $COLOR_SELECT;
@@ -10,7 +10,7 @@ MTextEditStyle {
     allow-view-reposition: true;
     disable-magnifier: false;
     mask-string: "*";
-    prompt-font: $FONT_LARGE;
+    prompt-font: $FONT_FAMILY light 24px;
     prompt-color: $COLOR_SECONDARY_FOREGROUND;
     paste-failed-icon: "icon-m-framework-close";
     paste-failed-duration: 3000;
@@ -18,9 +18,9 @@ MTextEditStyle {
     cursor-width: 2;
 
     /* inherited from MWidgetStyle */
-    /* preferred-size: size(150, 90%); */
-    minimum-size: $SIZE_BUTTON $SIZE_BUTTON;
-    /*    maximum-size: size(90%, 90%); */
+    minimum-size: -1 52px;
+    preferred-size: -1 -1;
+    maximum-size: -1 -1;
 
     press-word-feedback: press-textedit-word;
     release-word-feedback: release-textedit-word;
@@ -28,10 +28,10 @@ MTextEditStyle {
     release-boundary-feedback: release;
     change-selection-feedback: press-textedit-selection;
 
-    padding-top: $PADDING_MEDIUM;
-    padding-bottom: $PADDING_MEDIUM;
-    padding-left: $PADDING_XLARGE;
-    padding-right: $PADDING_XLARGE;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
 MTextEditStyle:selected {

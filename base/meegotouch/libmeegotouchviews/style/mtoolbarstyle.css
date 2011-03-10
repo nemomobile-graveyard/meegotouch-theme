@@ -31,21 +31,6 @@ MToolbarStyle.Landscape {
     has-spaces: true;
 }
 
-MTextEditStyle[toolbar] {
-    font: $FONT_SMALL;
-    margin-left: $MARGIN_MEDIUM;
-    margin-top: $MARGIN_MEDIUM;
-    margin-right: $MARGIN_MEDIUM;
-    margin-bottom: $MARGIN_MEDIUM;
-
-    padding-left:   $PADDING_MEDIUM;
-    padding-top:    $PADDING_MEDIUM;
-    padding-right:  $PADDING_MEDIUM;
-    padding-bottom: $PADDING_MEDIUM;
-
-    minimum-size: 19.2mm -1; /* size of a button (9.6) = 19.2mm*/
-}
-
 MButtonIconStyle[toolbar] {
     /* inherited from MButtonStyle */
     font: $FONT_XXSMALL;
