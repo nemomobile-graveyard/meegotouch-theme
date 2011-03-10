@@ -1,3 +1,20 @@
+meegotouchtheme (0.20.83-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#234732 - All input fields appear to be the wrong size and shape.
+  * Changes: addition to bugfix 235386 to prevent breaking layouts
+  * Fixes: NB#235386 - CommonInboxRightThumbail has typo
+  * Fixes: NB#234703 - [TASK] Separate MLabel style needed for editor tooltip (prompt)
+  * Fixes: NB#234573 - progress bar used in backup main var 2 is not correct.
+  * Fixes: NB#234708 - Extra padding in CommonEditorInputFieldPanel style
+  * Fixes: NB#234755 - Text margins in query dialog are too small.
+  * Fixes: NB#234917 - CommonSmallPanel not according to design toolkit
+  * Changes: temporarily fixes a typo issue with drilldown icons until we decide
+  * Changes: adding missing files for MeeGo
+  * Fixes: NB#234198 - [REG] White elements in Text input settings.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 10 Mar 2011 16:37:02 +0200
+
 meegotouchtheme (0.20.82-1) unstable; urgency=low
 
   * New version
