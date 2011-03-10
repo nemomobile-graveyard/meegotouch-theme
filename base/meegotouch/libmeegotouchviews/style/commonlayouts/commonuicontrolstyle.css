@@ -381,10 +381,14 @@ preferred-size:  44.8mm -1;
 maximum-size:    44.8mm -1; */
 }
 #CommonProgressBarInverted {
-margin-top:      $MARGIN_LARGE;
-margin-bottom:   $MARGIN_LARGE;
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+progress-bar-background:    "meegotouch-progressindicator-inverted-bar-background" 4px 4px 4px 4px;
+progress-bar-mask:          "meegotouch-progressindicator-inverted-bar-mask" 4px 4px 4px 4px;
+unknown-bar-texture:        "meegotouch-progressindicator-inverted-bar-unknown-texture";
+known-bar-texture:          "meegotouch-progressindicator-inverted-bar-known-texture";
+margin-top:                 $MARGIN_LARGE;
+margin-bottom:              $MARGIN_LARGE;
+margin-left:                $INDENT_DEFAULT;
+margin-right:               $INDENT_DEFAULT;
 /* This is causing problems at MAdvanceListItem Fix me
 minimum-size:    32.2mm -1;
 preferred-size:  44.8mm -1;
