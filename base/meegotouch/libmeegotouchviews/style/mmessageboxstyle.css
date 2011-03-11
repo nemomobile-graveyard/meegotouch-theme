@@ -12,6 +12,7 @@ MMessageBoxStyle {
     padding-bottom: 0px;
 
     button-box-style-name: "MMessageBoxButtonBox";
+    button-box-orientation: vertical;
 }
 
 MMessageBoxStyle.Landscape {
