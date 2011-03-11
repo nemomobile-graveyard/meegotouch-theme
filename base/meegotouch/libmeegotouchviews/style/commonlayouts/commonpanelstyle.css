@@ -376,7 +376,7 @@ minimum-size:      40 40;
 preferred-size:    100% 40;   
 maximum-size:      100% -1; 
 background-tiles:  ;
-background-image:  meegotouch-view-header 15px 15px 15px 15px;
+background-image:  meegotouch-view-header-fixed 8px 8px 8px 8px;
 margin-top:        0;
 margin-bottom:     0;
 margin-left:       0;
@@ -388,7 +388,7 @@ minimum-size:      40 40;
 preferred-size:    100% 40;   
 maximum-size:      100% -1; 
 background-tiles:  ;
-background-image:  meegotouch-view-header-inverted 15px 15px 15px 15px;
+background-image:  meegotouch-view-header-fixed-inverted 8px 8px 8px 8px;
 margin-top:        0;
 margin-bottom:     0;
 margin-left:       0;
@@ -400,7 +400,7 @@ margin-right:      0;
     preferred-size:    100% 72;
     maximum-size:      100% -1;
     background-tiles:  ;
-    background-image:  meegotouch-view-header-interactive 15px 15px 15px 15px;
+    background-image:  meegotouch-view-header-fixed 8px 8px 8px 8px;
     margin-top:        0;
     margin-bottom:     0;
     margin-left:       0;
@@ -409,12 +409,12 @@ margin-right:      0;
 
 #CommonLargeViewHeaderPanel:pressed {
     background-tiles:  ;
-    background-image:  meegotouch-view-header-interactive-pressed 15px 15px 15px 15px;
+    background-image:  meegotouch-view-header-fixed-pressed 8px 8px 8px 8px;
 }
 
 #CommonLargeViewHeaderPanel:selected {
     background-tiles:  ;
-    background-image:  meegotouch-view-header-interactive-selected 15px 15px 15px 15px;
+    background-image:  meegotouch-view-header-fixed-pressed 8px 8px 8px 8px;
 }
 
 #CommonLargeViewHeaderPanelInverted {
@@ -422,7 +422,7 @@ minimum-size:      40 72;
 preferred-size:    100% 72;
 maximum-size:      100% -1;
 background-tiles:  ;
-background-image:  meegotouch-view-header-inverted 15px 15px 15px 15px;
+background-image:  meegotouch-view-header-fixed-inverted 8px 8px 8px 8px;
 margin-top:        0;
 margin-bottom:     0;
 margin-left:       0;
@@ -431,12 +431,12 @@ margin-right:      0;
 
 #CommonLargeViewHeaderPanelInverted:pressed {
     background-tiles:  ;
-    background-image:  meegotouch-view-header-inverted-interactive-pressed 15px 15px 15px 15px;
+background-image:  meegotouch-view-header-fixed-inverted-pressed 8px 8px 8px 8px;
 }
 
 #CommonLargeViewHeaderPanelInverted:selected {
     background-tiles:  ;
-    background-image:  meegotouch-view-header-inverted-interactive-selected 15px 15px 15px 15px;
+background-image:  meegotouch-view-header-fixed-inverted-pressed 8px 8px 8px 8px;
 }
 
 #CommonViewHeaderPanelColored {
