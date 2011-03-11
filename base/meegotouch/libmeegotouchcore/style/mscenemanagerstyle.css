@@ -9,6 +9,6 @@ MSceneManagerStyle {
   popup-list-animation: "MWidgetZoomAnimation";
   message-box-animation: "MWidgetZoomAnimation";
   system-banner-animation: "MWidgetScaleFadeAnimation";
-  navigation-bar-animation: "MWidgetFadeAnimation";
+  navigation-bar-animation: "MWidgetSlideAnimation";
   sheet-animation: "MWidgetSlideAnimation";
 }
