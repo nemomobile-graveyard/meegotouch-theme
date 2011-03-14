@@ -1,10 +1,8 @@
 /* ApplicationPage */
 
 #CommonApplicationPageInverted {
-background-image: meegotouch-applicationpage-background-inverted 0px 0px 0px 0px;
-}
-#CommonApplicationPageInverted.portrait {
-background-image: meegotouch-applicationpage-portrait-background-inverted 0px 0px 0px 0px;
+background-image: ;
+background-color: #000000;
 }
 
 /* Divider */
