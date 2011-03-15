@@ -10,3 +10,37 @@ MApplicationWindowStyle.Landscape {
     floatable-tool-bar: false;
     floatable-tab-bar: false;
 }
+
+/* Common Styles */
+MApplicationWindowStyle#CommonApplicationWindowInverted {
+    navigation-bar-style-name: "MNavigationBarStyleInverted"; /* TODO: Choose better name. */
+    tab-bar-style-name: "MToolbarTabStyleInverted"; /* TODO: Choose better name. */
+}
+
+MApplicationWindowStyle#CommonApplicationWindowTabBarWithLabels.Portrait {
+    floatable-tab-bar: true;
+    tab-bar-style-name: "TabsBottomWithIconAndLabel";
+}
+MApplicationWindowStyle#CommonApplicationWindowTabBarWithLabelsInverted {
+    navigation-bar-style-name: "MNavigationBarStyleInverted";
+    tab-bar-style-name: "MToolbarTabStyleInverted";
+}
+MApplicationWindowStyle#CommonApplicationWindowTabBarWithLabelsInverted.Portrait {
+    floatable-tab-bar: true;
+    tab-bar-style-name: "TabsBottomWithIconAndLabelInverted";
+}
+
+MApplicationWindowStyle#CommonApplicationWindowTabBarOnTopWithLabels {
+    floatable-tab-bar: true;
+}
+MApplicationWindowStyle#CommonApplicationWindowTabBarOnTopWithLabels.Portrait {
+    tab-bar-style-name: "TabsTopWithIconAndLabel";
+}
+MApplicationWindowStyle#CommonApplicationWindowTabBarOnTopWithLabelsInverted {
+    navigation-bar-style-name: "MNavigationBarStyleInverted";
+    floatable-tab-bar: true;
+    tab-bar-style-name: "MToolbarTabStyleInverted";
+}
+MApplicationWindowStyle#CommonApplicationWindowTabBarOnTopWithLabelsInverted.Portrait {
+    tab-bar-style-name: "TabsTopWithIconAndLabelInverted";
+}
