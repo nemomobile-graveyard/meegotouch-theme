@@ -346,28 +346,10 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 } 
-
-MLabelStyle#CommonButtonLabel {
+#CommonButtonLabel {
 font:          $CB_FONT;
 color:         $CB_FONT_COLOR;
 }
-MLabelStyle#CommonButtonLabel:pressed {
-color:         $COLOR_INVERTED_FOREGROUND;
-}
-MLabelStyle#CommonButtonLabel:disabled {
-color:         $COLOR_INVERTED_DISABLED;
-}
-MLabelStyle#CommonButtonLabelInverted {
-font:          $CB_FONT;
-color:         $CB_FONT_COLOR_INVERTED;
-}
-MLabelStyle#CommonButtonLabelInverted:pressed {
-color:         $CB_FONT_COLOR_INVERTED_PRESSED;
-}
-MLabelStyle#CommonButtonLabelInverted:disabled {
-color:         $CB_FONT_COLOR_INVERTED_DISABLED;
-}
-
 #CommonQueryTitle {
 font:          $FONT_FAMILY bold 32;
 color:         $COLOR_ACCENT1;
