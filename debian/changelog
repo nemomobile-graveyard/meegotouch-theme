@@ -1,3 +1,14 @@
+meegotouchtheme (0.20.85-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#235366 - [TASK] Navigationbar/toolbar uses wrong animation effect
+  * Changes: changed animation style for navigationbar/toolbar
+  * Fixes: NB#231537 - Font used in the combox box in main view to not all be capitalized.
+  * Changes: increasing FullEventBanner icon size to 6.4mm
+  * Fixes: NB#236898 - Common styles for application windows.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 16 Mar 2011 17:20:14 +0200
+
 meegotouchtheme (0.20.84-1) unstable; urgency=low
 
   * New version
