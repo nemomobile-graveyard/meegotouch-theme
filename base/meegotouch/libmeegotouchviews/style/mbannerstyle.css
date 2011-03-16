@@ -116,7 +116,7 @@ MBannerStyle #PrivateBanner.Portrait {
 /* Event banner at event screen */
 
 MBannerStyle #FullEventBanner {
-    icon-size: 4.8mm 4.8mm;
+    icon-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
 
     margin-right: 0.8mm;
     margin-left: 0.8mm;
@@ -139,9 +139,9 @@ MBannerStyle #FullEventBanner.Portrait {
 }
 
 #FullEventBannerIcon {
-    maximum-size: 4.8mm 4.8mm;
-    minimum-size: 4.8mm 4.8mm;
-    preferred-size: 4.8mm 4.8mm;
+    maximum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
+    minimum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
+    preferred-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
 
     margin-top: 1.6mm;
     margin-bottom: 1.6mm;
