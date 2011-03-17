@@ -1,4 +1,5 @@
 MApplicationWindowStyle {
+    background-color: $COLOR_BACKGROUND;
     auto-hide-timeout: 5000;
     floatable-tool-bar: true;
     floatable-tab-bar: true;

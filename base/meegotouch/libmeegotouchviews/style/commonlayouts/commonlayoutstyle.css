@@ -2,7 +2,7 @@
 
 MApplicationPageStyle#CommonApplicationPageInverted {
 background-image: ;
-background-color: #000000;
+background-color: $COLOR_INVERTED_BACKGROUND;
 }
 
 /* Divider */
