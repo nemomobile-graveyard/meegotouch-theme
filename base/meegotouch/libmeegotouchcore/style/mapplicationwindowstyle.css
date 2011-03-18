@@ -1,5 +1,5 @@
 MApplicationWindowStyle {
-    background-color: $COLOR_BACKGROUND;
+    background-color: $COLOR_INVERTED_BACKGROUND;
     auto-hide-timeout: 5000;
     floatable-tool-bar: true;
     floatable-tab-bar: true;
