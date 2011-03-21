@@ -19,32 +19,51 @@ MApplicationWindowStyle#CommonApplicationWindowInverted {
     tool-bar-style-name: "MToolBarStyleInverted"; /* TODO: Choose better name. */
 }
 
-MApplicationWindowStyle#CommonApplicationWindowTabBarWithLabels.Portrait {
-    floatable-tab-bar: true;
-    tab-bar-style-name: "TabsBottomWithIconAndLabel";
+MApplicationWindowStyle#CommonApplicationWindowTabBarWithLabels { /* default nowdays */
 }
+
 MApplicationWindowStyle#CommonApplicationWindowTabBarWithLabelsInverted {
     navigation-bar-style-name: "MNavigationBarStyleInverted";
     tab-bar-style-name: "MToolbarTabStyleInverted";
     tool-bar-style-name: "MToolBarStyleInverted";
 }
-MApplicationWindowStyle#CommonApplicationWindowTabBarWithLabelsInverted.Portrait {
-    floatable-tab-bar: true;
-    tab-bar-style-name: "TabsBottomWithIconAndLabelInverted";
-}
 
 MApplicationWindowStyle#CommonApplicationWindowTabBarOnTopWithLabels {
     floatable-tab-bar: true;
+    tab-bar-style-name: "TabsTop";
 }
-MApplicationWindowStyle#CommonApplicationWindowTabBarOnTopWithLabels.Portrait {
-    tab-bar-style-name: "TabsTopWithIconAndLabel";
-}
+
 MApplicationWindowStyle#CommonApplicationWindowTabBarOnTopWithLabelsInverted {
     navigation-bar-style-name: "MNavigationBarStyleInverted";
+    tool-bar-style-name: "MToolBarStyleInverted";
     floatable-tab-bar: true;
+    tab-bar-style-name: "TabsTopInverted";
+}
+
+MApplicationWindowStyle#CommonApplicationWindowTabBarOnTop {
+    floatable-tab-bar: true;
+    tab-bar-style-name: "TabsTop";
+}
+
+MApplicationWindowStyle#CommonApplicationWindowTabBarOnTopInverted {
+    navigation-bar-style-name: "MNavigationBarStyleInverted";
+    tool-bar-style-name: "MToolBarStyleInverted";
+    floatable-tab-bar: true;
+    tab-bar-style-name: "TabsTopInverted";
+}
+
+MApplicationWindowStyle#CommonApplicationWindowTabBarLabelessIconTabs.Portrait {
+    tab-bar-style-name: "TabsBottomWithIcon";
+}
+
+MApplicationWindowStyle#CommonApplicationWindowTabBarLabelessIconTabsInverted {
+    navigation-bar-style-name: "MNavigationBarStyleInverted";
+    tool-bar-style-name: "MToolBarStyleInverted";
     tab-bar-style-name: "MToolbarTabStyleInverted";
     tool-bar-style-name: "MToolBarStyleInverted";
 }
-MApplicationWindowStyle#CommonApplicationWindowTabBarOnTopWithLabelsInverted.Portrait {
-    tab-bar-style-name: "TabsTopWithIconAndLabelInverted";
+
+MApplicationWindowStyle#CommonApplicationWindowTabBarLabelessIconTabsInverted.Portrait {
+    tab-bar-style-name: "TabsBottomWithIconInverted";
 }
+
