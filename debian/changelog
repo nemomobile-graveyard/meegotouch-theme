@@ -1,3 +1,15 @@
+meegotouchtheme (0.20.86-1) unstable; urgency=low
+
+  * New version
+  * Changes: Set background-color in application page.
+  * Changes: Sheetstyle cleanups.
+  * Changes: Use inverted assets for #CommonSwitchInverted style.
+  * Changes: Set groove-margin back to 2.7mm.
+  * Fixes: NB#237135 - [REG] White viewfinder.
+  * Changes: Also change tool-bar-style-name in inverted application window styles.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 21 Mar 2011 12:14:56 +0200
+
 meegotouchtheme (0.20.85-1) unstable; urgency=low
 
   * New version
