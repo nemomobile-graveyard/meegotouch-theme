@@ -6,7 +6,7 @@
 /* for development purpose all these styles are temporarily consolidated in one file */
 
 #CommonInboxUnreadPanel {
-    minimum-size:      $SIZE_LIST $SIZE_LIST;    
+    minimum-size:      $SIZE_LIST $SIZE_LIST;
     preferred-size:    -1 -1;
     maximum-size:      -1 -1;
     background-tiles:  ;
@@ -31,7 +31,8 @@
 #CommonInboxReadPanel {
     background-tiles:  ;
     background-image:  ;
-    minimum-size:      $SIZE_LIST $SIZE_LIST;    
+    background-color:  ;
+    minimum-size:      $SIZE_LIST $SIZE_LIST;
     preferred-size:    -1 -1;
     maximum-size:      -1 -1;
     margin-top:        0;
