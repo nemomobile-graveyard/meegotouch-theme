@@ -176,7 +176,7 @@ margin-bottom: 2.4mm;
 margin-left:   2.4mm;
 margin-right:  2.4mm;
 }
-#CommonXLargeHeader {
+#CommonXLargeHeader { /* deprecated */
 font:          $FONT_FAMILY light 56;
 color:         $COLOR_FOREGROUND;
 margin-top:    0.8mm;
@@ -184,7 +184,7 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonLargeHeader {
+#CommonLargeHeader { /* deprecated */
 font:          $FONT_FAMILY light 40;
 color:         $COLOR_FOREGROUND;
 margin-top:    0.6mm;
@@ -192,23 +192,23 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonHeader {
-font:          $FONT_FAMILY bold 22;
+#CommonHeader { /* Updated according to 1_5_9 but contains temporary values */
+font:          $FONT_FAMILY light 32;
 color:         $COLOR_FOREGROUND;
-margin-top:    0.5mm;
-margin-bottom: 0;
+margin-top:    $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
+margin-bottom: $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonGroupHeader {
-font:          $FONT_FAMILY bold 22;
+#CommonGroupHeader { /* Updated according to 1_5_9 but contains temporary values */
+font:          $FONT_FAMILY bold 18;
 color:         $COLOR_FOREGROUND;
-margin-top:    0.5mm;
-margin-bottom: 0;
+margin-top:    $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
+margin-bottom: $MARGIN_XSMALL; /* temporary value due to font issues FIX ME */
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonApplicationHeader {
+#CommonApplicationHeader { /* deprecated */
 font:          $FONT_FAMILY light 40;
 color:         $COLOR_FOREGROUND;
 margin-top:    2.2mm;
@@ -216,7 +216,7 @@ margin-bottom: 1.5mm;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonViewHeader {
+#CommonViewHeader { /* deprecated */
 font:          $FONT_FAMILY bold 22;
 color:         $COLOR_FOREGROUND;
 margin-top:    0.9mm;
@@ -224,7 +224,7 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonLargeViewHeader {
+#CommonLargeViewHeader { /* deprecated */
     font:              $FONT_FAMILY light 32;
     color:             $COLOR_FOREGROUND;
     margin-top:        0;
@@ -232,7 +232,7 @@ margin-right:  $INDENT_DEFAULT;
     margin-left:       $INDENT_DEFAULT;
     margin-right:      $INDENT_DEFAULT;
 }
-#CommonViewHeaderWithIcon {
+#CommonViewHeaderWithIcon { /* deprecated */
 font:          $FONT_FAMILY bold 22;
 color:         $COLOR_FOREGROUND;
 margin-top:    0.9mm;
@@ -240,7 +240,7 @@ margin-bottom: 0;
 margin-left:   0.8mm;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonOverlayViewHeader {
+#CommonOverlayViewHeader { /* deprecated */
 font:          $FONT_FAMILY bold 22;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.9mm;
@@ -248,7 +248,7 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonLargeOverlayViewHeader {
+#CommonLargeOverlayViewHeader { /* deprecated */
 font:          $CTITLE_FONT;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    1.6mm;
@@ -256,7 +256,7 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonOverlaySubHeader {
+#CommonOverlaySubHeader { /* deprecated */
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR;
 margin-top:    0.2mm;
@@ -264,7 +264,7 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonOverlayRightSubHeader {
+#CommonOverlayRightSubHeader { /* deprecated */
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR;
 margin-top:    0.2mm;
@@ -457,7 +457,7 @@ margin-bottom: 2.4mm;
 margin-left:   2.4mm;
 margin-right:  2.4mm;
 }
-#CommonXLargeHeaderInverted {
+#CommonXLargeHeaderInverted { /* deprecated */
 font:          $FONT_FAMILY light 56;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.8mm;
@@ -465,7 +465,7 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonLargeHeaderInverted {
+#CommonLargeHeaderInverted { /* deprecated */
 font:          $FONT_FAMILY light 40;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.6mm;
@@ -473,23 +473,23 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonHeaderInverted {
-font:          $FONT_FAMILY bold 22;
+#CommonHeaderInverted { /* Updated according to 1_5_9 but contains temporary values */
+font:          $FONT_FAMILY light 32;
 color:         $COLOR_INVERTED_FOREGROUND;
-margin-top:    0.5mm;
-margin-bottom: 0;
+margin-top:    $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
+margin-bottom: $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonGroupHeaderInverted {
-font:          $FONT_FAMILY bold 22;
+#CommonGroupHeaderInverted { /* Updated according to 1_5_9 but contains temporary values */
+font:          $FONT_FAMILY bold 18;
 color:         $COLOR_INVERTED_FOREGROUND;
-margin-top:    0.5mm;
-margin-bottom: 0;
+margin-top:    $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
+margin-bottom: $MARGIN_XSMALL; /* temporary value due to font issues FIX ME */
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonApplicationHeaderInverted {
+#CommonApplicationHeaderInverted { /* deprecated */
 font:          $FONT_FAMILY light 40;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    2.2mm;
@@ -497,7 +497,7 @@ margin-bottom: 1.5mm;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonViewHeaderInverted {
+#CommonViewHeaderInverted { /* deprecated */
 font:          $FONT_FAMILY bold 22;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.9mm;
@@ -505,7 +505,7 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonLargeViewHeaderInverted {
+#CommonLargeViewHeaderInverted { /* deprecated */
 font:          $FONT_FAMILY light 32;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0;
@@ -513,7 +513,7 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonViewHeaderWithIconInverted {
+#CommonViewHeaderWithIconInverted { /* deprecated */
 font:          $FONT_FAMILY bold 22;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.9mm;
@@ -521,7 +521,7 @@ margin-bottom: 0;
 margin-left:   0.8mm;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonOverlayViewHeaderInverted {
+#CommonOverlayViewHeaderInverted { /* deprecated */
 font:          $FONT_FAMILY bold 22;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.9mm;
@@ -529,7 +529,7 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonLargeOverlayViewHeaderInverted {
+#CommonLargeOverlayViewHeaderInverted { /* deprecated */
 font:          $CTITLE_FONT;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    1.6mm;
@@ -537,7 +537,7 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonOverlaySubHeaderInverted {
+#CommonOverlaySubHeaderInverted { /* deprecated */
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR_INVERTED;
 margin-top:    0.2mm;
@@ -545,7 +545,7 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonOverlayRightSubHeaderInverted {
+#CommonOverlayRightSubHeaderInverted { /* deprecated */
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR_INVERTED;
 margin-top:    0.2mm;

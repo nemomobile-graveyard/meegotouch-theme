@@ -76,7 +76,7 @@ margin-top:     0;
 margin-bottom:  0;
 }
 
-#CommonDrilldownIcon {
+#CommonDrilldownIcon { /* deprecated */
 maximum-size:   $ICON32;
 minimum-size:   $ICON32;
 preferred-size: $ICON32;
@@ -113,11 +113,26 @@ margin-top:     $MARGIN_LARGE;
 margin-bottom:  0;
 }
 
-#CommonHeaderIcon {
-margin-left:    $INDENT_DEFAULT;
+#CommonHeaderIcon { /* updated 1_5_9 */
+minimum-size:      $ICON32;
+preferred-size:    $ICON32;
+maximum-size:      $ICON32;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       $INDENT_DEFAULT;
+margin-right:      0;
+}
+#CommonHeaderRightIcon { /* new 1_5_9 */
+minimum-size:      $ICON32;
+preferred-size:    $ICON32;
+maximum-size:      $ICON32;
+margin-top:        0;
+margin-bottom:     0;
+margin-left:       0;
+margin-right:      $MARGIN_XXLARGE;
 }
 
-#CommonViewHeaderIcon {
+#CommonViewHeaderIcon { /* deprecated */
 maximum-size:   $ICON24;
 minimum-size:   $ICON24;
 preferred-size: $ICON24;
@@ -127,7 +142,7 @@ margin-top:     0;
 margin-bottom:  0;
 }
 
-#CommonViewHeaderRightIcon {
+#CommonViewHeaderRightIcon { /* deprecated */
     minimum-size:      $ICON32;
     preferred-size:    $ICON32;
     maximum-size:      $ICON32;

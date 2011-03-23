@@ -1368,11 +1368,11 @@ text-color:       $CB_FONT_COLOR_INVERTED_DISABLED;
 background-image: meegotouch-textedit-button-inverted-background-disabled 20px 20px 20px 20px;
 }
 
-#CommonHeaderButton {
+#CommonHeaderButton { /* updated according 1_5_9 */
 background-image: meegotouch-textedit-button-background 20px 20px 20px 20px;
-minimum-size:     4.2mm 4.3mm;
-preferred-size:   4.2mm 4.3mm;
-maximum-size:     12.2mm 4.3mm;
+minimum-size:     4.2mm 4.2mm;
+preferred-size:   13mm 4.2mm;
+maximum-size:     13mm 4.2mm;
 margin-left:      0;
 margin-right:     $INDENT_DEFAULT;
 }
@@ -1386,11 +1386,11 @@ background-image: meegotouch-textedit-button-background-selected 20px 20px 20px 
 background-image: meegotouch-textedit-button-background-disabled 20px 20px 20px 20px;
 }
 
-#CommonHeaderButtonInverted {
+#CommonHeaderButtonInverted { /* updated according 1_5_9 */
 background-image: meegotouch-textedit-button-inverted-background 20px 20px 20px 20px;
-minimum-size:     4.2mm 4.3mm;
-preferred-size:   4.2mm 4.3mm;
-maximum-size:     12.2mm 4.3mm;
+minimum-size:     4.2mm 4.2mm;
+preferred-size:   13mm 4.2mm;
+maximum-size:     13mm 4.2mm;
 margin-left:      0;
 margin-right:     $INDENT_DEFAULT;
 }

@@ -107,7 +107,7 @@ background-image:  $CP_INVERTED_BG;
 background-color:  ;
 }
 
-#CommonUnreadPanel {
+#CommonUnreadPanel { /* deprecated */
 minimum-size:      $SIZE_LIST $SIZE_LIST;    
 preferred-size:    -1 $SIZE_LIST;
 maximum-size:      -1 $SIZE_LIST;
@@ -118,16 +118,16 @@ margin-bottom:     0;
 margin-left:       0;
 margin-right:      0;
 }
-#CommonUnreadPanel:pressed {
+#CommonUnreadPanel:pressed { /* deprecated */
 background-tiles:  ;
 background-image:  $CUP_BG_PRESSED;
 }
-#CommonUnreadPanel:selected {
+#CommonUnreadPanel:selected { /* deprecated */
 background-tiles:  ;
 background-image:  $CUP_BG_SELECTED;
 }
 
-#CommonUnreadPanelInverted {
+#CommonUnreadPanelInverted { /* deprecated */
 minimum-size:      $SIZE_LIST $SIZE_LIST;    
 preferred-size:    -1 $SIZE_LIST;
 maximum-size:      -1 $SIZE_LIST; 
@@ -138,16 +138,16 @@ margin-bottom:     0;
 margin-left:       0;
 margin-right:      0;
 }
-#CommonUnreadPanelInverted:pressed {
+#CommonUnreadPanelInverted:pressed { /* deprecated */
 background-tiles:  ;
 background-image:  $CUP_INVERTED_BG_PRESSED;
 }
-#CommonUnreadPanelInverted:selected {
+#CommonUnreadPanelInverted:selected { /* deprecated */
 background-tiles:  ;
 background-image:  $CUP_INVERTED_BG_SELECTED;
 }
 
-#CommonLargeUnreadPanel {
+#CommonLargeUnreadPanel { /* deprecated */
 minimum-size:      $SIZE_LIST $SIZE_LIST;    
 preferred-size:    -1 -1;
 maximum-size:      -1 -1;
@@ -158,16 +158,16 @@ margin-bottom:     0;
 margin-left:       0;
 margin-right:      0;
 }
-#CommonLargeUnreadPanel:pressed {
+#CommonLargeUnreadPanel:pressed { /* deprecated */
 background-tiles:  ;
 background-image:  $CUP_BG_PRESSED;
 }
-#CommonLargeUnreadPanel:selected {
+#CommonLargeUnreadPanel:selected { /* deprecated */
 background-tiles:  ;
 background-image:  $CUP_BG_SELECTED;
 }
 
-#CommonLargeUnreadPanelInverted {
+#CommonLargeUnreadPanelInverted { /* deprecated */
 minimum-size:      $SIZE_LIST $SIZE_LIST;    
 preferred-size:    -1 -1;
 maximum-size:      -1 -1; 
@@ -178,11 +178,11 @@ margin-bottom:     0;
 margin-left:       0;
 margin-right:      0;
 }
-#CommonLargeUnreadPanelInverted:pressed {
+#CommonLargeUnreadPanelInverted:pressed { /* deprecated */
 background-tiles:  ;
 background-image:  $CUP_INVERTED_BG_PRESSED;
 }
-#CommonLargeUnreadPanelInverted:selected {
+#CommonLargeUnreadPanelInverted:selected { /* deprecated */
 background-tiles:  ;
 background-image:  $CUP_INVERTED_BG_SELECTED;
 }
@@ -274,7 +274,7 @@ background-image:  $CP_INVERTED_BG_SELECTED;
 
 /* Header panels */
 
-#CommonXLargeHeaderPanel {
+#CommonXLargeHeaderPanel { /* deprecated */
 minimum-size:      72 72;   
 preferred-size:    -1 72;   
 maximum-size:      -1 -1; 
@@ -286,7 +286,7 @@ margin-bottom:     0;
 margin-left:       0;
 margin-right:      0;
 }
-#CommonXLargeHeaderPanelInverted {
+#CommonXLargeHeaderPanelInverted { /* deprecated */
 minimum-size:      72 72;   
 preferred-size:    -1 72;   
 maximum-size:      -1 -1; 
@@ -298,7 +298,7 @@ margin-bottom:     0;
 margin-left:       0;
 margin-right:      0;
 }
-#CommonLargeHeaderPanel {
+#CommonLargeHeaderPanel { /* deprecated */
 minimum-size:      56 56;
 preferred-size:    -1 56;   
 maximum-size:      -1 -1; 
@@ -310,7 +310,7 @@ margin-bottom:     0;
 margin-left:       0;
 margin-right:      0;
 }
-#CommonLargeHeaderPanelInverted {
+#CommonLargeHeaderPanelInverted { /* deprecated */
 minimum-size:      56 56;
 preferred-size:    -1 56;   
 maximum-size:      -1 -1; 
@@ -322,34 +322,65 @@ margin-bottom:     0;
 margin-left:       0;
 margin-right:      0;
 }
-#CommonHeaderPanel {
-minimum-size:      32 32; 
-preferred-size:    -1 48;   
-maximum-size:      -1 -1; 
+#CommonHeaderPanel { /* UPDATED TO 1_5_9 */ 
+    background-tiles:  ;
+    background-image:  meegotouch-view-header-fixed 8px 8px 8px 8px;
+    margin-top:        0;
+    margin-bottom:     0;
+    margin-left:       0;
+    margin-right:      0;
+}
+#CommonHeaderPanel.Portrait {  
+    minimum-size:      40 72;
+    preferred-size:    100% 72;
+    maximum-size:      100% -1;
+}
+#CommonHeaderPanel.Landscape {  
+    minimum-size:      40 64;
+    preferred-size:    100% 64;
+    maximum-size:      100% -1;
+}
+#CommonHeaderPanel:pressed { 
+    background-tiles:  ;
+    background-image:  meegotouch-view-header-fixed-pressed 8px 8px 8px 8px;
+}
+#CommonHeaderPanel:selected {
+    background-tiles:  ;
+    background-image:  meegotouch-view-header-fixed-pressed 8px 8px 8px 8px;
+}
+
+#CommonHeaderPanelInverted { /* UPDATED TO 1_5_9 */ 
 background-tiles:  ;
-background-image:  $CP_BG;
-background-color:  ;
+background-image:  meegotouch-view-header-fixed-inverted 8px 8px 8px 8px;
 margin-top:        0;
 margin-bottom:     0;
 margin-left:       0;
 margin-right:      0;
 }
-#CommonHeaderPanelInverted {
-minimum-size:      32 32; 
-preferred-size:    -1 48;   
-maximum-size:      -1 -1; 
-background-tiles:  ;
-background-image:  $CP_INVERTED_BG;
-background-color:  ;
-margin-top:        0;
-margin-bottom:     0;
-margin-left:       0;
-margin-right:      0;
+#CommonHeaderPanelInverted.Portrait {
+    minimum-size:      40 72;
+    preferred-size:    100% 72;
+    maximum-size:      100% -1;
 }
+#CommonHeaderPanelInverted.Landscape { 
+    minimum-size:      40 64;
+    preferred-size:    100% 64;
+    maximum-size:      100% -1;
+}
+#CommonHeaderPanelInverted:pressed { 
+    background-tiles:  ;
+background-image:  meegotouch-view-header-fixed-inverted-pressed 8px 8px 8px 8px;
+}
+#CommonHeaderPanelInverted:selected { 
+    background-tiles:  ;
+background-image:  meegotouch-view-header-fixed-inverted-pressed 8px 8px 8px 8px;
+}
+
 #CommonGroupHeaderPanel {
-minimum-size:      32 32;   
-preferred-size:    -1 32;   
+minimum-size:      40 40;   
+preferred-size:    -1 40;   
 maximum-size:      -1 -1; 
+background-color: ;
 background-tiles:  ;
 background-image:  "meegotouch-list-header-background";
 margin-top:        0;
@@ -358,9 +389,10 @@ margin-left:       0;
 margin-right:      0;
 }
 #CommonGroupHeaderPanelInverted {
-minimum-size:      32 32;   
-preferred-size:    -1 32;   
+minimum-size:      40 40;   
+preferred-size:    -1 40;   
 maximum-size:      -1 -1; 
+background-color: ;
 background-tiles:  ;
 background-image:  "meegotouch-list-header-inverted-background";
 margin-top:        0;
@@ -371,7 +403,7 @@ margin-right:      0;
 
 /* View Header panels */
 
-#CommonViewHeaderPanel {
+#CommonViewHeaderPanel { /* deprecated */
 minimum-size:      40 40; 
 preferred-size:    100% 40;   
 maximum-size:      100% -1; 
@@ -383,7 +415,7 @@ margin-left:       0;
 margin-right:      0;
 }
 
-#CommonViewHeaderPanelInverted {
+#CommonViewHeaderPanelInverted { /* deprecated */
 minimum-size:      40 40; 
 preferred-size:    100% 40;   
 maximum-size:      100% -1; 
@@ -395,7 +427,7 @@ margin-left:       0;
 margin-right:      0;
 }
 
-#CommonLargeViewHeaderPanel {
+#CommonLargeViewHeaderPanel { /* deprecated */
     minimum-size:      40 72;
     preferred-size:    100% 72;
     maximum-size:      100% -1;
@@ -407,17 +439,17 @@ margin-right:      0;
     margin-right:      0;
 }
 
-#CommonLargeViewHeaderPanel:pressed {
+#CommonLargeViewHeaderPanel:pressed { /* deprecated */
     background-tiles:  ;
     background-image:  meegotouch-view-header-fixed-pressed 8px 8px 8px 8px;
 }
 
-#CommonLargeViewHeaderPanel:selected {
+#CommonLargeViewHeaderPanel:selected { /* deprecated */
     background-tiles:  ;
     background-image:  meegotouch-view-header-fixed-pressed 8px 8px 8px 8px;
 }
 
-#CommonLargeViewHeaderPanelInverted {
+#CommonLargeViewHeaderPanelInverted { /* deprecated */
 minimum-size:      40 72;
 preferred-size:    100% 72;
 maximum-size:      100% -1;
@@ -429,17 +461,17 @@ margin-left:       0;
 margin-right:      0;
 }
 
-#CommonLargeViewHeaderPanelInverted:pressed {
+#CommonLargeViewHeaderPanelInverted:pressed { /* deprecated */
     background-tiles:  ;
 background-image:  meegotouch-view-header-fixed-inverted-pressed 8px 8px 8px 8px;
 }
 
-#CommonLargeViewHeaderPanelInverted:selected {
+#CommonLargeViewHeaderPanelInverted:selected { /* deprecated */
     background-tiles:  ;
 background-image:  meegotouch-view-header-fixed-inverted-pressed 8px 8px 8px 8px;
 }
 
-#CommonViewHeaderPanelColored {
+#CommonViewHeaderPanelColored { /* deprecated */
 minimum-size:      40 40; 
 preferred-size:    100% 40;   
 maximum-size:      100% -1; 
@@ -451,7 +483,7 @@ margin-left:       0;
 margin-right:      0;
 }
 
-#CommonViewHeaderPanelColoredInverted {
+#CommonViewHeaderPanelColoredInverted { /* deprecated */
 minimum-size:      40 40; 
 preferred-size:    100% 40;   
 maximum-size:      100% -1; 
@@ -463,7 +495,7 @@ margin-left:       0;
 margin-right:      0;
 }
 
-#CommonOverlayViewHeaderPanel {
+#CommonOverlayViewHeaderPanel { /* deprecated */
 minimum-size:      40 40; 
 preferred-size:    100% -1;   
 maximum-size:      100% -1; 
