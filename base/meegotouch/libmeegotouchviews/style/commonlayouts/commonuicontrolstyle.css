@@ -1,7 +1,9 @@
 @const C_INPUT_BG:          meegotouch-textedit-background $CORNER_MARGINS;
 @const C_INPUT_BG_SELECTED: meegotouch-textedit-background-selected $CORNER_MARGINS;
-@const C_INPUT_BG_INVERTED: meegotouch-textedit-background $CORNER_MARGINS;
-@const C_INPUT_BG_SELECTED_INVERTED: meegotouch-textedit-background-selected $CORNER_MARGINS;
+@const C_INPUT_BG_ERROR:    meegotouch-textedit-background-error $CORNER_MARGINS;
+@const C_INPUT_BG_INVERTED: meegotouch-textedit-inverted-background $CORNER_MARGINS;
+@const C_INPUT_BG_SELECTED_INVERTED: meegotouch-textedit-inverted-background-selected $CORNER_MARGINS;
+@const C_INPUT_BG_ERROR_INVERTED: meegotouch-textedit-inverted-background-error $CORNER_MARGINS;
 @const CHECKBOX_SIZE:       4.2mm 4.2mm;
 
 /* switch */
@@ -414,6 +416,9 @@ margin-right:    $INDENT_DEFAULT;
 #CommonSingleInputField:selected {
 background-image: $C_INPUT_BG_SELECTED;
 }
+#CommonSingleInputField:error {
+background-image: $C_INPUT_BG_ERROR;
+}
 #CommonTopInputField {
 background-image:$C_INPUT_BG;
 margin-top:      $MARGIN_DOUBLE;
@@ -421,6 +426,9 @@ margin-bottom:   $MARGIN_DOUBLE;
 }
 #CommonTopInputField:selected {
 background-image: $C_INPUT_BG_SELECTED;
+}
+#CommonTopInputField:error {
+background-image: $C_INPUT_BG_ERROR;
 }
 #CommonTopInputField.Portrait {
 margin-left:     $INDENT_DEFAULT;
@@ -438,6 +446,9 @@ margin-bottom:   $MARGIN_DOUBLE;
 }
 #CommonBottomInputField:selected {
 background-image: $C_INPUT_BG_SELECTED;
+}
+#CommonBottomInputField:error {
+background-image: $C_INPUT_BG_ERROR;
 }
 #CommonBottomInputField.Portrait {
 margin-left:     $INDENT_DEFAULT;
@@ -458,10 +469,19 @@ margin-right:    $INDENT_DEFAULT;
 #CommonSingleInputFieldLabeled:selected {
 background-image: $C_INPUT_BG_SELECTED;
 }
+#CommonSingleInputFieldLabeled:error {
+background-image: $C_INPUT_BG_ERROR;
+}
 #CommonTopInputFieldLabeled {
 background-image:$C_INPUT_BG;
 margin-top:      0;
 margin-bottom:   $MARGIN_DOUBLE;
+}
+#CommonTopInputField:selected {
+background-image: $C_INPUT_BG_SELECTED;
+}
+#CommonTopInputField:error {
+background-image: $C_INPUT_BG_ERROR;
 }
 #CommonTopInputFieldLabeled.Portrait {
 margin-left:     $INDENT_DEFAULT;
@@ -479,6 +499,9 @@ margin-bottom:   $MARGIN_DOUBLE;
 }
 #CommonBottomInputFieldLabeled:selected {
 background-image: $C_INPUT_BG_SELECTED;
+}
+#CommonBottomInputFieldLabeled:error {
+background-image: $C_INPUT_BG_ERROR;
 }
 #CommonBottomInputFieldLabeled.Portrait {
 margin-left:     $INDENT_DEFAULT;
@@ -506,6 +529,9 @@ margin-right:    $INDENT_DEFAULT;
 #CommonSingleInputFieldInverted:selected {
 background-image: $C_INPUT_BG_SELECTED_INVERTED;
 }
+#CommonSingleInputFieldInverted:error {
+background-image: $C_INPUT_BG_ERROR_INVERTED;
+}
 #CommonTopInputFieldInverted {
 background-image:$C_INPUT_BG_INVERTED;
 margin-top:      $MARGIN_DOUBLE;
@@ -513,6 +539,9 @@ margin-bottom:   $MARGIN_DOUBLE;
 }
 #CommonTopInputFieldInverted:selected {
 background-image: $C_INPUT_BG_SELECTED_INVERTED;
+}
+#CommonTopInputFieldInverted:error {
+background-image: $C_INPUT_BG_ERROR_INVERTED;
 }
 #CommonTopInputFieldInverted.Portrait {
 margin-left:     $INDENT_DEFAULT;
@@ -530,6 +559,9 @@ margin-bottom:   $MARGIN_DOUBLE;
 }
 #CommonBottomInputFieldInverted:selected {
 background-image: $C_INPUT_BG_SELECTED_INVERTED;
+}
+#CommonBottomInputFieldInverted:error {
+background-image: $C_INPUT_BG_ERROR_INVERTED;
 }
 #CommonBottomInputFieldInverted.Portrait {
 margin-left:     $INDENT_DEFAULT;
@@ -550,6 +582,9 @@ margin-right:    $INDENT_DEFAULT;
 #CommonSingleInputFieldLabeledInverted:selected {
 background-image: $C_INPUT_BG_SELECTED_INVERTED;
 }
+#CommonSingleInputFieldLabeledInverted:error {
+background-image: $C_INPUT_BG_ERROR_INVERTED;
+}
 #CommonTopInputFieldLabeledInverted {
 background-image:$C_INPUT_BG_INVERTED;
 margin-top:      0;
@@ -557,6 +592,9 @@ margin-bottom:   $MARGIN_DOUBLE;
 }
 #CommonTopInputFieldLabeledInverted:selected {
 background-image: $C_INPUT_BG_SELECTED_INVERTED;
+}
+#CommonTopInputFieldLabeledInverted:error {
+background-image: $C_INPUT_BG_ERROR_INVERTED;
 }
 #CommonTopInputFieldLabeledInverted.Portrait {
 margin-left:     $INDENT_DEFAULT;
@@ -574,6 +612,9 @@ margin-bottom:   $MARGIN_DOUBLE;
 }
 #CommonBottomInputFieldLabeledInverted:selected {
 background-image: $C_INPUT_BG_SELECTED_INVERTED;
+}
+#CommonBottomInputFieldLabeledInverted:error {
+background-image: $C_INPUT_BG_ERROR_INVERTED;
 }
 #CommonBottomInputFieldLabeledInverted.Portrait {
 margin-left:     $INDENT_DEFAULT;
