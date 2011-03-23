@@ -1,7 +1,11 @@
 /* ApplicationPage */
 
-MApplicationPageStyle#CommonApplicationPageInverted {
-background-image: ;
+MApplicationPageStyle#CommonApplicationPageInverted.Portrait {
+background-image: $BACKGROUND_INVERTED_PORTRAIT;
+background-color: $COLOR_INVERTED_BACKGROUND;
+}
+MApplicationPageStyle#CommonApplicationPageInverted.Landscape {
+background-image: $BACKGROUND_INVERTED_LANDSCAPE;
 background-color: $COLOR_INVERTED_BACKGROUND;
 }
 

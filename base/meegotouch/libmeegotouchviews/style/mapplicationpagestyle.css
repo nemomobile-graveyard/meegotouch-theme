@@ -10,9 +10,17 @@ MApplicationPageStyle {
     preferred-size: 100% 100%;
     maximum-size: 100% 100%;
 
-    background-image: ;
-    background-color: $COLOR_BACKGROUND;
     has-title-label: false;
+}
+
+MApplicationPageStyle.Portrait {
+    background-image: $BACKGROUND_PORTRAIT;
+    background-color: $COLOR_BACKGROUND;
+}
+
+MApplicationPageStyle.Landscape {
+    background-image: $BACKGROUND_LANDSCAPE;
+    background-color: $COLOR_BACKGROUND;
 }
 
 MApplicationPage MLabelStyle#titleLabel {
