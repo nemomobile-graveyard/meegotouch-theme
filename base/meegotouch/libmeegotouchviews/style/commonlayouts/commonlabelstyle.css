@@ -37,14 +37,7 @@ color:         $CTITLE_COLOR_SELECTED;
 #CommonSingleTitle:disabled {
 color:         $CTITLE_COLOR_DISABLED;
 }
-#CommonSingleTitleDisabled { /* will be deprecated */
-font:          $CTITLE_FONT;
-color:         $CTITLE_COLOR_DISABLED;
-margin-top:    0;
-margin-bottom: 0;
-margin-left:   $INDENT_DEFAULT;
-margin-right:  $INDENT_DEFAULT;
-}
+
 #CommonSingleTitleAccented {
 font:          $CTITLE_FONT;
 color:         $COLOR_ACCENT1;
@@ -70,14 +63,7 @@ color:         $CTITLE_COLOR_SELECTED;
 #CommonTitle:disabled {
 color:         $CTITLE_COLOR_DISABLED;
 }
-#CommonTitleDisabled { /* will be deprecated */
-font:          $CTITLE_FONT;
-color:         $CTITLE_COLOR_DISABLED;
-margin-top:    $CTITLE_M_TOP;
-margin-bottom: 0;
-margin-left:   $INDENT_DEFAULT;
-margin-right:  $INDENT_DEFAULT;
-}
+
 #CommonTitleAccented {
 font:          $CTITLE_FONT;
 color:         $COLOR_ACCENT1;
@@ -103,14 +89,7 @@ color:         $CTITLE_COLOR_SELECTED;
 #CommonTitleBottom:disabled {
 color:         $CTITLE_COLOR_DISABLED;
 }
-#CommonTitleBottomDisabled { /* will be deprecated */
-font:          $CTITLE_FONT;
-color:         $CTITLE_COLOR_DISABLED;
-margin-top:    0.1mm;
-margin-bottom: 0;
-margin-left:   $INDENT_DEFAULT;
-margin-right:  $INDENT_DEFAULT;
-}
+
 #CommonSubTitle {
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR;
@@ -136,14 +115,7 @@ color:         $CSUBTITLE_COLOR_SELECTED;
 #CommonSubTitle:disabled {
 color:         $CSUBTITLE_COLOR_DISABLED;
 }
-#CommonSubTitleDisabled { /* will be deprecated */
-font:          $CSUBTITLE_FONT;
-color:         $CSUBTITLE_COLOR_DISABLED;
-margin-top:    $CSUBTITLE_M_TOP;
-margin-bottom: 0;
-margin-left:   $INDENT_DEFAULT;
-margin-right:  $INDENT_DEFAULT;
-}
+
 #CommonSubTitleWithIcon {
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR;
@@ -161,14 +133,7 @@ color:         $CSUBTITLE_COLOR_SELECTED;
 #CommonSubTitleWithIcon:disabled {
 color:         $CSUBTITLE_COLOR_DISABLED;
 }
-#CommonSubTitleWithIconDisabled { /* will be deprecated */
-font:          $CSUBTITLE_FONT;
-color:         $CSUBTITLE_COLOR_DISABLED;
-margin-top:    $CSUBTITLE_M_TOP;
-margin-bottom: 0;
-margin-left:   $INDENT_DEFAULT;
-margin-right:  $INDENT_DEFAULT;
-}
+
 #CommonSubTitleTop {
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR;
@@ -186,14 +151,7 @@ color:         $CSUBTITLE_COLOR_SELECTED;
 #CommonSubTitleTop:disabled {
 color:         $CSUBTITLE_COLOR_DISABLED;
 }
-#CommonSubTitleTopDisabled { /* will be deprecated */
-font:          $CSUBTITLE_FONT;
-color:         $CSUBTITLE_COLOR_DISABLED;
-margin-top:    1.6mm;
-margin-bottom: 0;
-margin-left:   $INDENT_DEFAULT;
-margin-right:  $INDENT_DEFAULT;
-}
+
 #CommonSubText {
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR;
@@ -385,14 +343,7 @@ color:         $CTITLE_COLOR_SELECTED_INVERTED;
 #CommonSingleTitleInverted:disabled {
 color:         $CTITLE_COLOR_DISABLED_INVERTED;
 }
-#CommonSingleTitleDisabledInverted { /* will be deprecated */
-font:          $CTITLE_FONT;
-color:         $CTITLE_COLOR_DISABLED_INVERTED;
-margin-top:    0;
-margin-bottom: 0;
-margin-left:   $INDENT_DEFAULT;
-margin-right:  $INDENT_DEFAULT;
-}
+
 #CommonTitleInverted {
 font:          $CTITLE_FONT;
 color:         $CTITLE_COLOR_INVERTED;
@@ -409,14 +360,6 @@ color:         $CTITLE_COLOR_SELECTED_INVERTED;
 }
 #CommonTitleInverted:disabled {
 color:         $CTITLE_COLOR_DISABLED_INVERTED;
-}
-#CommonTitleDisabledInverted { /* will be deprecated */
-font:          $CTITLE_FONT;
-color:         $CTITLE_COLOR_DISABLED_INVERTED;
-margin-top:    $CTITLE_M_TOP;
-margin-bottom: 0;
-margin-left:   $INDENT_DEFAULT;
-margin-right:  $INDENT_DEFAULT;
 }
 #CommonTitleBottomInverted {
 font:          $CTITLE_FONT;
@@ -435,14 +378,7 @@ color:         $CTITLE_COLOR_SELECTED_INVERTED;
 #CommonTitleBottomInverted:disabled {
 color:         $CTITLE_COLOR_DISABLED_INVERTED;
 }
-#CommonTitleBottomDisabledInverted { /* will be deprecated */
-font:          $CTITLE_FONT;
-color:         $CTITLE_COLOR_DISABLED_INVERTED;
-margin-top:    0.1mm;
-margin-bottom: 0;
-margin-left:   $INDENT_DEFAULT;
-margin-right:  $INDENT_DEFAULT;
-}
+
 #CommonSubTitleInverted {
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR_INVERTED;
@@ -460,14 +396,7 @@ color:         $CSUBTITLE_COLOR_SELECTED_INVERTED;
 #CommonSubTitleInverted:disabled {
 color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
 }
-#CommonSubTitleDisabledInverted { /* will be deprecated */
-font:          $CSUBTITLE_FONT;
-color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
-margin-top:    $CSUBTITLE_M_TOP;
-margin-bottom: 0;
-margin-left:   $INDENT_DEFAULT;
-margin-right:  $INDENT_DEFAULT;
-}
+
 #CommonSubTitleWithIconInverted {
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR_INVERTED;
@@ -485,14 +414,7 @@ color:         $CSUBTITLE_COLOR_SELECTED_INVERTED;
 #CommonSubTitleWithIconInverted:disabled {
 color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
 }
-#CommonSubTitleWithIconDisabledInverted { /* will be deprecated */
-font:          $CSUBTITLE_FONT;
-color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
-margin-top:    $CSUBTITLE_M_TOP;
-margin-bottom: 0;
-margin-left:   $INDENT_DEFAULT;
-margin-right:  $INDENT_DEFAULT;
-}
+
 #CommonSubTitleTopInverted {
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR_INVERTED;
@@ -510,14 +432,7 @@ color:         $CSUBTITLE_COLOR_SELECTED_INVERTED;
 #CommonSubTitleTopInverted:disabled {
 color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
 }
-#CommonSubTitleTopDisabledInverted { /* will be deprecated */
-font:          $CSUBTITLE_FONT;
-color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
-margin-top:    1.6mm;
-margin-bottom: 0;
-margin-left:   $INDENT_DEFAULT;
-margin-right:  $INDENT_DEFAULT;
-}
+
 #CommonSubTextInverted {
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR_INVERTED;
