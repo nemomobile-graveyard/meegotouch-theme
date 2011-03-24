@@ -2,6 +2,7 @@
 MPopupListStyle {
     item-style-name: "PopupListItem";
     contents-viewport-style-name: "MDialogContentsViewport";
+    item-word-wrap: false;
     vertical-align: center;
     horizontal-align: center;
 }

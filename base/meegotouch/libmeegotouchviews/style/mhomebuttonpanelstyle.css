@@ -12,7 +12,7 @@ MHomeButtonPanelStyle {
     home-button-object-name: "HomeButton";
     home-button-icon-id: "icon-m-framework-home";
 
-    background-image:;
+    background-image: none;
 }
 
 MHomeButtonPanelStyle#systemDialog {
@@ -20,7 +20,7 @@ MHomeButtonPanelStyle#systemDialog {
 }
 
 MHomeButtonPanelStyle:pressed {
-    background-image: ;
+    background-image: none;
 }
 
 MButtonIconStyle#HomeButton {

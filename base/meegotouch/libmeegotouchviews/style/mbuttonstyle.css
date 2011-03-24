@@ -88,27 +88,6 @@ MButtonStyle:disabled-selected {
     text-color: $COLOR_BUTTON_DISABLED_FOREGROUND;
 }
 
-
-MButtonStyle[toggle] {
-/* This looks the same as regular button */
-}
-
-MButtonStyle[toggle]:pressed {
-/* This looks the same as regular button */
-}
-
-MButtonStyle[toggle]:selected {
-/* This looks the same as regular button */
-}
-
-MButtonStyle[toggle]:disabled {
-/* This looks the same as regular button */
-}
-
-MButtonStyle[toggle]:disabled-selected {
-/* This looks the same as regular button */
-}
-
 MButtonStyle[affirmative] {
     background-image: meegotouch-button-positive-background $CORNER_MARGINS;
     text-color: $COLOR_INVERTED_FOREGROUND;

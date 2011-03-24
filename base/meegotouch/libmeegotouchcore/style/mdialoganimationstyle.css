@@ -2,6 +2,27 @@ MDialogAnimationStyle {
     title-bar-object-name: "MDialogTitleBar";
     contents-viewport-object-name: "MDialogContentsViewport";
     button-box-object-name: "MDialogButtonBox";
+
+    title-bar-animation-delay: 250;
+    contents-viewport-animation-delay: 200;
+    button-box-animation-delay: 250;
+
+    title-bar-animation-duration: 400;
+    title-bar-animation-distance: 25;
+    title-bar-animation-easing-curve: overshotbezier;
+
+    contents-viewport-opacity-animation-duration: 550;
+    contents-viewport-opacity-animation-easing-curve: outexpo;
+
+    contents-viewport-scale-animation-duration: 550;
+    contents-viewport-scale-animation-easing-curve: outexpo;
+
+    button-box-animation-duration: 400;
+    button-box-animation-distance: 25;
+    button-box-animation-easing-curve: overshotbezier;
+
+    scale: 0.8;
+    opacity: 1;
 }
 
 MObjectMenu MDialogAnimationStyle {
@@ -28,9 +49,6 @@ MDialogAnimationStyle#In {
     button-box-animation-duration: 400;
     button-box-animation-distance: 25;
     button-box-animation-easing-curve: overshotbezier;
-
-    scale: 0.8;
-    opacity: 1;
 }
 
 MDialogAnimationStyle#Out {
@@ -51,9 +69,6 @@ MDialogAnimationStyle#Out {
     button-box-animation-duration: 125;
     button-box-animation-distance: 30;
     button-box-animation-easing-curve: overshotbezier;
-
-    scale: 0.8;
-    opacity: 1;
 }
 
 MMessageBox MDialogAnimationStyle#In {
@@ -74,9 +89,6 @@ MMessageBox MDialogAnimationStyle#In {
     button-box-animation-duration: 400;
     button-box-animation-distance: 25;
     button-box-animation-easing-curve: overshotbezier;
-
-    scale: 0.8;
-    opacity: 1;
 }
 
 MMessageBox MDialogAnimationStyle#Out {
@@ -97,7 +109,4 @@ MMessageBox MDialogAnimationStyle#Out {
     button-box-animation-duration: 100;
     button-box-animation-distance: 30;
     button-box-animation-easing-curve: overshotbezier;
-
-    scale: 0.8;
-    opacity: 1;
 }

@@ -1,4 +1,11 @@
 /* MWidgetFadeInAnimationStyle : MAbstractWidgetAnimationStyle */
+MWidgetFadeAnimationStyle {
+    delay: 0;
+    duration: 300;
+    easing-curve: insine;
+    opacity: 1.0;
+}
+
 MWidgetFadeAnimationStyle#In {
     delay: 0;
     duration: 300;

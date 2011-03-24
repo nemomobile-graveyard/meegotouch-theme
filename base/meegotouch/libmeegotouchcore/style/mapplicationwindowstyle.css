@@ -19,9 +19,6 @@ MApplicationWindowStyle#CommonApplicationWindowInverted {
     tool-bar-style-name: "MToolBarStyleInverted"; /* TODO: Choose better name. */
 }
 
-MApplicationWindowStyle#CommonApplicationWindowTabBarWithLabels { /* default nowdays */
-}
-
 MApplicationWindowStyle#CommonApplicationWindowTabBarWithLabelsInverted {
     navigation-bar-style-name: "MNavigationBarStyleInverted";
     tab-bar-style-name: "MToolbarTabStyleInverted";

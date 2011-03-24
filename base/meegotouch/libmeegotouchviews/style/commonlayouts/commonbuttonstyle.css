@@ -102,8 +102,6 @@ margin-right:    $CB_SPACE_RIGHT;
 }
 
 #CommonVerticalCenterButton {
-}
-#CommonVerticalCenterButton.Portrait {
 margin-top:      $CB_SPACE_TOP;
 margin-bottom:   $CB_SPACE_BOTTOM;
 margin-left:     $CB_M_LEFT;
