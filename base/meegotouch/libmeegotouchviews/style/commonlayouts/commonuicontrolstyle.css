@@ -4,7 +4,10 @@
 @const C_INPUT_BG_INVERTED: meegotouch-textedit-inverted-background $CORNER_MARGINS;
 @const C_INPUT_BG_SELECTED_INVERTED: meegotouch-textedit-inverted-background-selected $CORNER_MARGINS;
 @const C_INPUT_BG_ERROR_INVERTED: meegotouch-textedit-inverted-background-error $CORNER_MARGINS;
+@const C_INPUT_LEFT_INDENT: 14px;
+@const C_INPUT_RIGHT_INDENT: 14px;
 @const CHECKBOX_SIZE:       4.2mm 4.2mm;
+
 
 /* switch */
 
@@ -408,10 +411,10 @@ maximum-size:    44.8mm -1; */
 
 #CommonSingleInputField {
 background-image:$C_INPUT_BG;
-margin-top:      $MARGIN_DOUBLE;
-margin-bottom:   $MARGIN_DOUBLE;
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+margin-top:      $MARGIN_XSMALL;
+margin-bottom:   $MARGIN_XSMALL;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $C_INPUT_RIGHT_INDENT;
 }
 #CommonSingleInputField:selected {
 background-image: $C_INPUT_BG_SELECTED;
@@ -421,8 +424,7 @@ background-image: $C_INPUT_BG_ERROR;
 }
 #CommonTopInputField {
 background-image:$C_INPUT_BG;
-margin-top:      $MARGIN_DOUBLE;
-margin-bottom:   $MARGIN_DOUBLE;
+margin-top:      $MARGIN_XSMALL;
 }
 #CommonTopInputField:selected {
 background-image: $C_INPUT_BG_SELECTED;
@@ -431,18 +433,19 @@ background-image: $C_INPUT_BG_SELECTED;
 background-image: $C_INPUT_BG_ERROR;
 }
 #CommonTopInputField.Portrait {
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $C_INPUT_RIGHT_INDENT;
+margin-bottom:   $MARGIN_SMALL;
 }
 #CommonTopInputField.Landscape {
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $MARGIN_LARGE;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $MARGIN_MEDIUM;
+margin-bottom:   $MARGIN_XSMALL;
 }
 
 #CommonBottomInputField {
 background-image:$C_INPUT_BG;
-margin-top:      $MARGIN_DOUBLE;
-margin-bottom:   $MARGIN_DOUBLE;
+margin-bottom:   $MARGIN_XSMALL;
 }
 #CommonBottomInputField:selected {
 background-image: $C_INPUT_BG_SELECTED;
@@ -451,20 +454,21 @@ background-image: $C_INPUT_BG_SELECTED;
 background-image: $C_INPUT_BG_ERROR;
 }
 #CommonBottomInputField.Portrait {
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $C_INPUT_RIGHT_INDENT;
 }
 #CommonBottomInputField.Landscape {
-margin-left:     $MARGIN_LARGE;
-margin-right:    $INDENT_DEFAULT;
+margin-top:      $MARGIN_MEDIUM;
+margin-left:     $MARGIN_MEDIUM;
+margin-right:    $C_INPUT_RIGHT_INDENT;
 }
 
 #CommonSingleInputFieldLabeled {
 background-image:$C_INPUT_BG;
-margin-top:      0;
-margin-bottom:   $MARGIN_DOUBLE;
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+margin-top:      $MARGIN_XSMALL;
+margin-bottom:   $MARGIN_XSMALL;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $C_INPUT_RIGHT_INDENT;
 }
 #CommonSingleInputFieldLabeled:selected {
 background-image: $C_INPUT_BG_SELECTED;
@@ -474,8 +478,7 @@ background-image: $C_INPUT_BG_ERROR;
 }
 #CommonTopInputFieldLabeled {
 background-image:$C_INPUT_BG;
-margin-top:      0;
-margin-bottom:   $MARGIN_DOUBLE;
+margin-top:      $MARGIN_XSMALL;
 }
 #CommonTopInputField:selected {
 background-image: $C_INPUT_BG_SELECTED;
@@ -484,18 +487,19 @@ background-image: $C_INPUT_BG_SELECTED;
 background-image: $C_INPUT_BG_ERROR;
 }
 #CommonTopInputFieldLabeled.Portrait {
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $C_INPUT_RIGHT_INDENT;
+margin-bottom:   $MARGIN_SMALL;
 }
 #CommonTopInputFieldLabeled.Landscape {
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $MARGIN_LARGE;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $MARGIN_MEDIUM;
+margin-bottom:   $MARGIN_XSMALL;
 }
 
 #CommonBottomInputFieldLabeled {
 background-image:$C_INPUT_BG;
-margin-top:      0;
-margin-bottom:   $MARGIN_DOUBLE;
+margin-bottom:   $MARGIN_XSMALL;
 }
 #CommonBottomInputFieldLabeled:selected {
 background-image: $C_INPUT_BG_SELECTED;
@@ -504,27 +508,29 @@ background-image: $C_INPUT_BG_SELECTED;
 background-image: $C_INPUT_BG_ERROR;
 }
 #CommonBottomInputFieldLabeled.Portrait {
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $C_INPUT_RIGHT_INDENT;
+margin-top:      $MARGIN_MEDIUM;
 }
 #CommonBottomInputFieldLabeled.Landscape {
-margin-left:     $MARGIN_LARGE;
-margin-right:    $INDENT_DEFAULT;
+margin-left:     $MARGIN_MEDIUM;
+margin-right:    $C_INPUT_RIGHT_INDENT;
+margin-top:      $MARGIN_XSMALL;
 }
 
 #CommonToolbarInputField {
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $C_INPUT_RIGHT_INDENT;
 }
 
 /* Inverted Input Fields */
 
 #CommonSingleInputFieldInverted {
 background-image:$C_INPUT_BG_INVERTED;
-margin-top:      $MARGIN_DOUBLE;
-margin-bottom:   $MARGIN_DOUBLE;
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+margin-top:      $MARGIN_XSMALL;
+margin-bottom:   $MARGIN_XSMALL;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $C_INPUT_RIGHT_INDENT;
 }
 #CommonSingleInputFieldInverted:selected {
 background-image: $C_INPUT_BG_SELECTED_INVERTED;
@@ -534,8 +540,7 @@ background-image: $C_INPUT_BG_ERROR_INVERTED;
 }
 #CommonTopInputFieldInverted {
 background-image:$C_INPUT_BG_INVERTED;
-margin-top:      $MARGIN_DOUBLE;
-margin-bottom:   $MARGIN_DOUBLE;
+margin-top:      $MARGIN_XSMALL;
 }
 #CommonTopInputFieldInverted:selected {
 background-image: $C_INPUT_BG_SELECTED_INVERTED;
@@ -544,18 +549,19 @@ background-image: $C_INPUT_BG_SELECTED_INVERTED;
 background-image: $C_INPUT_BG_ERROR_INVERTED;
 }
 #CommonTopInputFieldInverted.Portrait {
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $C_INPUT_RIGHT_INDENT;
+margin-bottom:   $MARGIN_SMALL;
 }
 #CommonTopInputFieldInverted.Landscape {
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $MARGIN_LARGE;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $MARGIN_MEDIUM;
+margin-bottom:   $MARGIN_XSMALL;
 }
 
 #CommonBottomInputFieldInverted {
 background-image:$C_INPUT_BG_INVERTED;
-margin-top:      $MARGIN_DOUBLE;
-margin-bottom:   $MARGIN_DOUBLE;
+margin-bottom:   $MARGIN_XSMALL;
 }
 #CommonBottomInputFieldInverted:selected {
 background-image: $C_INPUT_BG_SELECTED_INVERTED;
@@ -564,20 +570,21 @@ background-image: $C_INPUT_BG_SELECTED_INVERTED;
 background-image: $C_INPUT_BG_ERROR_INVERTED;
 }
 #CommonBottomInputFieldInverted.Portrait {
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $C_INPUT_RIGHT_INDENT;
 }
 #CommonBottomInputFieldInverted.Landscape {
-margin-left:     $MARGIN_LARGE;
-margin-right:    $INDENT_DEFAULT;
+margin-top:      $MARGIN_MEDIUM;
+margin-left:     $MARGIN_MEDIUM;
+margin-right:    $C_INPUT_RIGHT_INDENT;
 }
 
 #CommonSingleInputFieldLabeledInverted {
 background-image:$C_INPUT_BG_INVERTED;
-margin-top:      0;
-margin-bottom:   $MARGIN_DOUBLE;
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+margin-top:      $MARGIN_XSMALL;
+margin-bottom:   $MARGIN_XSMALL;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $C_INPUT_RIGHT_INDENT;
 }
 #CommonSingleInputFieldLabeledInverted:selected {
 background-image: $C_INPUT_BG_SELECTED_INVERTED;
@@ -587,28 +594,28 @@ background-image: $C_INPUT_BG_ERROR_INVERTED;
 }
 #CommonTopInputFieldLabeledInverted {
 background-image:$C_INPUT_BG_INVERTED;
-margin-top:      0;
-margin-bottom:   $MARGIN_DOUBLE;
+margin-top:      $MARGIN_XSMALL;
 }
-#CommonTopInputFieldLabeledInverted:selected {
+#CommonTopInputFieldInverted:selected {
 background-image: $C_INPUT_BG_SELECTED_INVERTED;
 }
-#CommonTopInputFieldLabeledInverted:error {
+#CommonTopInputFieldInverted:error {
 background-image: $C_INPUT_BG_ERROR_INVERTED;
 }
 #CommonTopInputFieldLabeledInverted.Portrait {
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $C_INPUT_RIGHT_INDENT;
+margin-bottom:   $MARGIN_SMALL;
 }
 #CommonTopInputFieldLabeledInverted.Landscape {
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $MARGIN_LARGE;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $MARGIN_MEDIUM;
+margin-bottom:   $MARGIN_XSMALL;
 }
 
 #CommonBottomInputFieldLabeledInverted {
 background-image:$C_INPUT_BG_INVERTED;
-margin-top:      0;
-margin-bottom:   $MARGIN_DOUBLE;
+margin-bottom:   $MARGIN_XSMALL;
 }
 #CommonBottomInputFieldLabeledInverted:selected {
 background-image: $C_INPUT_BG_SELECTED_INVERTED;
@@ -617,13 +624,30 @@ background-image: $C_INPUT_BG_SELECTED_INVERTED;
 background-image: $C_INPUT_BG_ERROR_INVERTED;
 }
 #CommonBottomInputFieldLabeledInverted.Portrait {
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $C_INPUT_RIGHT_INDENT;
+margin-top:      $MARGIN_MEDIUM;
 }
 #CommonBottomInputFieldLabeledInverted.Landscape {
-margin-left:     $MARGIN_LARGE;
-margin-right:    $INDENT_DEFAULT;
+margin-left:     $MARGIN_MEDIUM;
+margin-right:    $C_INPUT_RIGHT_INDENT;
+margin-top:      $MARGIN_XSMALL;
 }
+
+#CommonToolbarInputFieldInverted {
+background-image:$C_INPUT_BG_INVERTED;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $C_INPUT_RIGHT_INDENT;
+}
+#CommonToolbarInputFieldInverted:selected {
+background-image: $C_INPUT_BG_SELECTED_INVERTED;
+}
+#CommonToolbarInputFieldInverted:error {
+background-image: $C_INPUT_BG_ERROR_INVERTED;
+}
+
+/* Combobox */
+
 
 #CommonComboBoxInverted {
 indicator-image: "icon-m-textinput-combobox-arrow";
