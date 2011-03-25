@@ -1,3 +1,24 @@
+meegotouchtheme (0.20.88-1) unstable; urgency=low
+
+  * New version
+  * Changes: Minor cleanups.
+  * Changes: Update dialog paddings to match design toolkit and asset.
+  * Changes: Fix typos in dialog style.
+  * Fixes: NB#238945 - MCheckBox activation area is again too small.
+  * Fixes: NB#239426 - Update header divider styles according to toolkit 1.5.9
+  * Fixes: NB#240215 - [TASK] Update composer styles according to toolkit 1.5.9
+  * Fixes: NB#240310 - CommonItemInfo has wrong color
+  * Fixes: NB#239583 - [TASK] Overlay Sheet style missing
+  * Fixes: NB#238600 - [TASK] Theming missing values for styling.
+  * Fixes: NB#239757 - [TASK] update common input field margins according toolkit 1.5.9
+  * Changes: Use constants for background images.
+  * Fixes: NB#234195 - background of feed item turns white after pressed.
+  * Fixes: NB#239438 - [TASK] Update view header styles according to toolkit 1.5.9
+  * Fixes: NB#238106 - MTextEdit with stylename CommonSingleInputFieldLabeled ignores error state.
+  * Fixes: NB#228492 - Disabled state missing from common list-item label-styles
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Fri, 25 Mar 2011 16:10:41 +0200
+
 meegotouchtheme (0.20.87-1) unstable; urgency=low
 
   * New version
