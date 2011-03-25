@@ -221,12 +221,15 @@ MLabelStyle#CommonEditorInputFieldLabel:selected {
     preferred-size:    100% 25;
     maximum-size:      100% 25;
     background-tiles:  ;
-    background-image:  meegotouch-textedit-collapsed-background;
+    background-image:  meegotouch-sheet-editor-collapsed-background;
     background-color:  ;
     margin-top:        0;
     margin-bottom:     0;
     margin-left:       0;
     margin-right:      0;
+}
+#CommonEditorExpandButtonPanel:selected {
+    background-image:  meegotouch-sheet-editor-expanded-background;
 }
 
 #CommonEditorNoteAreaExpandButtonPanel {
@@ -234,12 +237,35 @@ MLabelStyle#CommonEditorInputFieldLabel:selected {
     preferred-size:    100% 25;
     maximum-size:      100% 25;
     background-tiles:  ;
-    background-image:  meegotouch-textedit-expanded-background;
+    background-image:  meegotouch-sheet-editor-note-expanded-background;
     background-color:  ;
     margin-top:        0;
     margin-bottom:     0;
     margin-left:       0;
     margin-right:      0;
+}
+
+#CommonEditorExpandArea {
+    minimum-size:      -1 -1;
+    preferred-size:    100% -1;
+    maximum-size:      100% -1;
+    background-tiles:  ;
+    background-image:  meegotouch-sheet-editor-expand-area-background;
+    background-color:  ;
+    margin-top:        0;
+    margin-bottom:     0;
+    margin-left:       0;
+    margin-right:      0;
+}
+
+MSeparator#CommonEditorItemDivider {
+    background-image: meegotouch-separator-background-horizontal 0px 0px 0px 0px;
+    minimum-size:  -1 0.1mm;
+    maximum-size:  -1 0.1mm;
+    margin-top:     $MARGIN_LARGE;
+    margin-bottom:  $MARGIN_LARGE;
+    margin-left:    $MARGIN_LARGE;
+    margin-right:   $MARGIN_LARGE;
 }
 
 MTextEditStyle#CommonEditorInputField {
