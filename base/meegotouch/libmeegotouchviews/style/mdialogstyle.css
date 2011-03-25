@@ -69,10 +69,10 @@ MDialogStyle.Portrait {
 }
 
 #MDialogContentsViewport {
-    /* 5 * SIZE_BUTTON + 0.4mm padding */
+    /* 5 * SIZE_BUTTON */
     minimum-size: -1 -1;
     preferred-size: -1 -1;
-    maximum-size: -1 32.4mm;
+    maximum-size: -1 320px;
 
     margin-left: 0;
     margin-top: 0;
@@ -89,10 +89,10 @@ MDialogStyle.Portrait {
 }
 
 #MDialogContentsViewport.Portrait {
-    /* 10 * SIZE_BUTTON + 0.4mm padding */
+    /* 10 * SIZE_BUTTON */
     minimum-size: -1 -1;
     preferred-size: -1 -1;
-    maximum-size: -1 64.4mm;
+    maximum-size: -1 640px;
 }
 
 MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
