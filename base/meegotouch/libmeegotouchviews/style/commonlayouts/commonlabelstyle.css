@@ -593,7 +593,7 @@ color:         $CB_FONT_COLOR_INVERTED;
 
 #CommonItemInfo {
 font:          $FONT_SMALL;
-color:         $COLOR_FOREGROUND;
+color:         $COLOR_SECONDARY_FOREGROUND;
 margin-top:    $MARGIN_XSMALL;
 margin-bottom: 0;
 margin-right:  $INDENT_DEFAULT;
@@ -601,7 +601,7 @@ margin-right:  $INDENT_DEFAULT;
 
 #CommonItemInfoInverted {
 font:          $FONT_SMALL;
-color:         $COLOR_INVERTED_FOREGROUND;
+color:         $COLOR_INVERTED_SECONDARY_FOREGROUND;
 margin-top:    $MARGIN_XSMALL;
 margin-bottom: 0;
 margin-right:  $INDENT_DEFAULT;
