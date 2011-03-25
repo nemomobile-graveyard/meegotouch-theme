@@ -47,10 +47,10 @@ MDialogStyle {
 
     maximum-horizontal-buttons: 3;
 
-    contentsViewportStyleName: "MDialogContentsViewport";
-    buttonBoxStyleName: "MDialogButtonBox";
-    titleBarStyleName: "MDialogTitleBar";
-    titleLabelStyleName: "CommonDialogHeader";
+    contents-viewport-style-name: "MDialogContentsViewport";
+    button-box-style-name: "MDialogButtonBox";
+    title-bar-style-name: "MDialogTitleBar";
+    title-label-style-name: "CommonDialogHeader";
 
     /* This is a hack to avoid the animation starting from the corner. This should become obsolete eventually. */
     padding-left: 16mm;
