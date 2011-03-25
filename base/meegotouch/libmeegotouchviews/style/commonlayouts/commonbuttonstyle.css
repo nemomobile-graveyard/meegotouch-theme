@@ -1319,9 +1319,15 @@ text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
 
 #CommonListIconButton {
 margin-right: $INDENT_DEFAULT;
+minimum-size:     4mm 4mm;
+preferred-size:   4mm 4mm;
+maximum-size:     4mm 4mm;
 }
 #CommonListIconButtonInverted {
 margin-right: $INDENT_DEFAULT;
+minimum-size:     4mm 4mm;
+preferred-size:   4mm 4mm;
+maximum-size:     4mm 4mm;
 }
 
 #CommonListButton {

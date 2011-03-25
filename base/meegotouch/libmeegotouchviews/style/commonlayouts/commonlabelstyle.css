@@ -696,7 +696,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  0;
 }
 #CommonTitleRightMargin {
-font:          $FONT_FAMILY normal 2.6mm;
+font:          $FONT_FAMILY light 2.6mm;
 color:         $CTITLE_COLOR;
 margin-top:    $CTITLE_M_TOP;
 margin-bottom: 0;
@@ -720,7 +720,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  0;
 }
 #CommonTitleAccentedRightMargin {
-font:          $FONT_FAMILY normal 2.6mm;
+font:          $FONT_FAMILY light 2.6mm;
 color:         $COLOR_ACCENT1;
 margin-top:    $CTITLE_M_TOP;
 margin-bottom: 0;

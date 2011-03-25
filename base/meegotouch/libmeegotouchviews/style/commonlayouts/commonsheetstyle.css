@@ -52,6 +52,18 @@
     background-image: meegotouch-sheet-header-inverted-background-pressed 15px 15px 15px 15px;
 }
 
+#CommonOverlaySheetHeaderPanel {
+    minimum-size:      40 72;
+    preferred-size:    100% 72;
+    maximum-size:      100% -1;
+    background-tiles:  ;
+    background-image:  meegotouch-sheet-overlay-header-background 15px 15px 15px 15px;
+    margin-top:        0;
+    margin-bottom:     0;
+    margin-left:       0;
+    margin-right:      0;
+}
+
 #CommonSheetHeaderButton {
     background-image: meegotouch-sheet-button-background $CSB_BORDER_VALUES;
     minimum-size:     $CSB_WIDTH $CSB_HEIGHT;
