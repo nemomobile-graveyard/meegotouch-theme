@@ -22,21 +22,21 @@ margin-right:   $MARGIN_LARGE;
 }
 
 #CommonHeaderDivider {
-background-image: meegotouch-groupseparator-background-horizontal 4px 4px 0px 0px;
-span:           0.9mm;
+background-image: meegotouch-groupheader-background 0px 0px 0px 0px;
+span:           0.2mm;
 margin-top:     0;
 margin-bottom:  0;
-margin-left:    0;
-margin-right:   0;
+margin-left:    $INDENT_DEFAULT;
+margin-right:   $INDENT_DEFAULT;
 }
 
 #CommonGroupHeaderDivider {
-background-image: meegotouch-groupseparator-header-background-horizontal 4px 4px 0px 0px;
-span:           0.9mm;
-margin-top:     0;
-margin-bottom:  0;
-margin-left:    0;
-margin-right:   0;
+background-image: meegotouch-groupheader-background 0px 0px 0px 0px;
+span:           0.2mm;
+margin-top:     25px;
+margin-bottom:  13px;
+margin-left:    $INDENT_DEFAULT;
+margin-right:   $INDENT_DEFAULT;
 }
 
 #CommonHorizontalSeparator {
@@ -71,21 +71,21 @@ margin-right:   $MARGIN_LARGE;
 }
 
 #CommonHeaderDividerInverted {
-background-image: meegotouch-groupseparator-inverted-background-horizontal 4px 4px 0px 0px;
-span:           0.9mm;
+background-image: meegotouch-groupheader-inverted-background 0px 0px 0px 0px;
+span:           0.2mm;
 margin-top:     0;
 margin-bottom:  0;
-margin-left:    0;
-margin-right:   0;
+margin-left:    $INDENT_DEFAULT;
+margin-right:   $INDENT_DEFAULT;
 }
 
 #CommonGroupHeaderDividerInverted {
-background-image: meegotouch-groupseparator-header-inverted-background-horizontal 4px 4px 0px 0px;
-span:           0.9mm;
-margin-top:     0;
-margin-bottom:  0;
-margin-left:    0;
-margin-right:   0;
+background-image: meegotouch-groupheader-inverted-background 0px 0px 0px 0px;
+span:           0.2mm;
+margin-top:     25px;
+margin-bottom:  13px;
+margin-left:    $INDENT_DEFAULT;
+margin-right:   $INDENT_DEFAULT;
 }
 
 #CommonHorizontalSeparatorInverted {
