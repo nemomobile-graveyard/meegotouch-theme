@@ -604,6 +604,36 @@ background-image: $C_INPUT_BG_SELECTED_INVERTED;
 background-image: $C_INPUT_BG_ERROR_INVERTED;
 }
 
+/* Search Field */
+
+#CommonSearchField {
+background-image:$C_INPUT_BG;
+margin-top:      14px;
+margin-bottom:   14px;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $C_INPUT_RIGHT_INDENT;
+}
+#CommonSearchField:selected {
+background-image: $C_INPUT_BG_SELECTED;
+}
+#CommonSearchField:error {
+background-image: $C_INPUT_BG_ERROR;
+}
+
+#CommonSearchFieldInverted {
+background-image:$C_INPUT_BG_INVERTED;
+margin-top:      14px;
+margin-bottom:   14px;
+margin-left:     $C_INPUT_LEFT_INDENT;
+margin-right:    $C_INPUT_RIGHT_INDENT;
+}
+#CommonSearchFieldInverted:selected {
+background-image: $C_INPUT_BG_SELECTED_INVERTED;
+}
+#CommonSearchFieldInverted:error {
+background-image: $C_INPUT_BG_ERROR_INVERTED;
+}
+
 /* Combobox */
 
 
