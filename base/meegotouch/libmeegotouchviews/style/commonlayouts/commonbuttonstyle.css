@@ -1292,14 +1292,10 @@ text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
 /* special buttons */
 
 #CommonQueryButton {
-margin-top:      $CB_M_TOP;
-margin-bottom:   $CB_M_BOTTOM;
+margin-top:      $MARGIN_LARGE;
+margin-bottom:   $MARGIN_LARGE;
 margin-left:     0.3mm;
 margin-right:    0.3mm;
-
-minimum-size: 20.6mm 5.1mm;
-maximum-size:20.6mm 5.1mm;
-preferred-size:20.6mm 5.1mm;
 
 text-color:      $CB_FONT_COLOR_INVERTED;
 background-image:$CB_BG_INVERTED $CORNER_MARGINS;
