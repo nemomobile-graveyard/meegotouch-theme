@@ -310,7 +310,7 @@ color:         $CB_FONT_COLOR;
 }
 #CommonQueryTitle {
 font:          $FONT_FAMILY bold 32;
-color:         $COLOR_ACCENT1;
+color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    28px;
 margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
