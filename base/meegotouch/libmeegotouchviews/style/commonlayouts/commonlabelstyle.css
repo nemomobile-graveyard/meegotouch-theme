@@ -205,7 +205,7 @@ font:          $FONT_FAMILY bold 18;
 color:         $COLOR_FOREGROUND;
 margin-top:    $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
 margin-bottom: $MARGIN_XSMALL; /* temporary value due to font issues FIX ME */
-margin-left:   $INDENT_DEFAULT;
+margin-left:   $MARGIN_LARGE;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonApplicationHeader { /* deprecated */
