@@ -1,6 +1,5 @@
 
 MContainerStyle { /* settings for the whole container */
-
     minimum-size: $SIZE_ONE $SIZE_ONE; /* inherited from duiwidgetstyle */
 
     margin-left: 0; /* inherited from duiwidgetstyle */
@@ -21,21 +20,29 @@ MContainerStyle { /* settings for the whole container */
     internal-margins: 0;
     internal-item-spacing: 0;
 
+    header-style-name: "";
     title-style-name: "CommonGroupHeader";
+    progress-indicator-style-name: "MContainerHeaderSpinner";
 }
 
 MContainerHeaderStyle {
-
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 0;
 
-    padding-left: $PADDING_MEDIUM; /* inherited from duiwidgetstyle */
-    padding-right: $PADDING_MEDIUM; /* this would set the internal padding around the text */
+    padding-left: 0;
+    padding-right: 0;
     padding-top: 0;
     padding-bottom: 0;
 
-    background-image: meegotouch-container-header-background 8px 8px 8px 8px;
+    background-image: none;
+    background-color: none;
+}
+
+#CommonContainerInverted {
+    header-style-name: "MContainerHeaderInverted";
+    title-style-name: "CommonGroupHeaderInverted";
+    progress-indicator-style-name: "MContainerHeaderSpinnerInverted";
 }
 
