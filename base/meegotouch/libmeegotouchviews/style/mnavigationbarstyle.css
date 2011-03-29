@@ -82,6 +82,7 @@ MApplicationMenuButtonStyle {
     padding-right:  $PADDING_LARGE;
 
     margin-top: 0;
+    text-margin-left: 0;
 
     icon-size : 3.2mm 3.2mm;
     font: $FONT_DEFAULT;
