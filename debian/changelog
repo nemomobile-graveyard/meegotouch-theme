@@ -1,3 +1,17 @@
+meegotouchtheme (0.20.89-1) unstable; urgency=low
+
+  * New version
+  * Changes: Title in the application menu button starting from the left edge of the button
+  * Changes: Remove reference to obsolete image asset from MContainerStyle.
+  * Changes: addition to bugfix NB#240752 updating also query button
+  * Fixes: NB#240752 - [TASK] Update query style according to toolkit 1.5.9
+  * Fixes: NB#240729 - [TASK] Update Group Header Panel style according to toolkit 1.5.9
+  * Fixes: NB#240698 - [TASK] Add new search field style according to toolkit 1.5.9
+  * Fixes: NB#235366 - [TASK] Navigationbar/toolbar uses wrong animation effect
+  * Changes: changed animation style for navigationbar/toolbar (duration and
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 30 Mar 2011 13:53:27 +0300
+
 meegotouchtheme (0.20.88-1) unstable; urgency=low
 
   * New version
