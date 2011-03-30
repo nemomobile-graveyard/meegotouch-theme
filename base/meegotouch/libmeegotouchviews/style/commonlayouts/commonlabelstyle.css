@@ -202,7 +202,7 @@ margin-right:  $INDENT_DEFAULT;
 }
 #CommonGroupHeader { /* Updated according to 1_5_9 but contains temporary values */
 font:          $FONT_FAMILY bold 18;
-color:         $COLOR_FOREGROUND;
+color:         #3C3C3C;
 margin-top:    $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
 margin-bottom: $MARGIN_XSMALL; /* temporary value due to font issues FIX ME */
 margin-left:   $MARGIN_LARGE;
@@ -483,7 +483,7 @@ margin-right:  $INDENT_DEFAULT;
 }
 #CommonGroupHeaderInverted { /* Updated according to 1_5_9 but contains temporary values */
 font:          $FONT_FAMILY bold 18;
-color:         $COLOR_INVERTED_FOREGROUND;
+color:         #4D4D4D;
 margin-top:    $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
 margin-bottom: $MARGIN_XSMALL; /* temporary value due to font issues FIX ME */
 margin-left:   $INDENT_DEFAULT;

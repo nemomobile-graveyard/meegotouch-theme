@@ -6,8 +6,8 @@ MSpinnerStyle {
     number-of-frames: 10;
 
     maximum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
-    minimum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
     preferred-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
+    minimum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
 }
 
 MApplicationMenuButton > MSpinnerStyle {
@@ -25,21 +25,6 @@ MApplicationMenuButton > MSpinnerStyle {
     minimum-size: $SIZE_SPINNER_MENU $SIZE_SPINNER_MENU;
     preferred-size: $SIZE_SPINNER_MENU $SIZE_SPINNER_MENU;
     maximum-size: $SIZE_SPINNER_MENU $SIZE_SPINNER_MENU;
-}
-
-MContainer MSpinnerStyle {
-    minimum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
-    preferred-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
-    maximum-size: $SIZE_SPINNER_LARGE $SIZE_SPINNER_LARGE;
-}
-
-MContainerHeader MSpinnerStyle {
-    base-image-size: $SIZE_SPINNER_SMALL;
-    minimum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
-    preferred-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
-    maximum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
-
-    margin-right: $INDENT_DEFAULT;
 }
 
 
