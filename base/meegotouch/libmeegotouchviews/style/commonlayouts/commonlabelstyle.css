@@ -779,7 +779,7 @@ maximum-size: -1 32px;
 }
 
 #CommonCountBubble {
-font: $FONT_FAMILY 18;
+font: $FONT_FAMILY bold 18;
 color: $COLOR_FOREGROUND;
 padding-top: 1px;
 padding-left: 7px;
@@ -792,7 +792,7 @@ maximum-size: -1 24px;
 }
 
 #CommonCountBubbleTop {
-font: $FONT_FAMILY 18;
+font: $FONT_FAMILY bold 18;
 color: $COLOR_FOREGROUND;
 padding-top: 1px;
 padding-left: 7px;
@@ -820,7 +820,7 @@ maximum-size: -1 32px;
 }
 
 #CommonCountBubbleInverted {
-font: $FONT_FAMILY 18;
+font: $FONT_FAMILY bold 18;
 color: $COLOR_FOREGROUND;
 padding-top: 1px;
 padding-left: 7px;
@@ -833,7 +833,7 @@ maximum-size: -1 24px;
 }
 
 #CommonCountBubbleTopInverted {
-font: $FONT_FAMILY 18;
+font: $FONT_FAMILY bold 18;
 color: $COLOR_FOREGROUND;
 padding-top: 1px;
 padding-left: 7px;
