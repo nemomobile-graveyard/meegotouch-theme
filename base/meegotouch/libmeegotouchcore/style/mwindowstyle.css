@@ -1,9 +1,9 @@
 MWindowStyle {
-    x11-startup-pixmap: "meegotouch-window-background-forcex11";
-    startup-fill-color: #ffffff;
+    x11-startup-pixmap: none;
+    startup-fill-color: $COLOR_BACKGROUND;
 }
 
-MWindowStyle.Landscape {
-    x11-startup-pixmap: "meegotouch-window-background-forcex11";
-    startup-fill-color: #ffffff;
+MWindowStyle#Inverted {
+    x11-startup-pixmap: none;
+    startup-fill-color: $COLOR_INVERTED_BACKGROUND;
 }
