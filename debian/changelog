@@ -1,3 +1,16 @@
+meegotouchtheme (0.20.90-1) unstable; urgency=low
+
+  * New version
+  * Changes: some tweaks on MBanner style
+  * Changes: physics parameters updated to improve panning feeling
+  * Fixes: The style part of bug #233653 - widgets created with declarative settings language renders incorrectly
+  * Fixes: NB#241959 - CommonCountBubble not according to toolkit 1.5.9
+  * Changes: Update container header styling. Related to NB#241306.
+  * Changes: List styles cleanup and minor margin fix.
+  * Changes: Cleanup container style.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Fri, 01 Apr 2011 13:37:56 +0300
+
 meegotouchtheme (0.20.89-1) unstable; urgency=low
 
   * New version
