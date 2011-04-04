@@ -58,28 +58,28 @@ MBannerStyle #ShortEventBanner {
 
 /* Private banner at event screen */
 
-MBannerStyle #PrivateBanner {
+MBannerStyle #PrivateEventBanner {
     icon-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
     background-image: "meegotouch-fulleventbanner-background" 10px 10px 10px 10px;
 }
 
-MBannerStyle #PrivateBanner:pressed {
+MBannerStyle #PrivateEventBanner:pressed {
     background-image: "meegotouch-fulleventbanner-background-pressed" 10px 10px 10px 10px;
 }
 
-MBannerStyle #PrivateBanner.Landscape {
+MBannerStyle #PrivateEventBanner.Landscape {
     minimum-size: 83.8mm 8mm;
     maximum-size:83.8mm 12.6mm;
     preferred-size: 83.8mm -1mm;
 }
 
-MBannerStyle #PrivateBanner.Portrait {
+MBannerStyle #PrivateEventBanner.Portrait {
     minimum-size: 46.4mm 8mm;
     maximum-size: 46.4mm 12.6mm;
     preferred-size: 46.4mm -1mm;
 }
 
-#PrivateBannerIcon {
+#PrivateEventBannerIcon {
     maximum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
     minimum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
     preferred-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
@@ -90,7 +90,7 @@ MBannerStyle #PrivateBanner.Portrait {
     margin-right: 0mm;
 }
 
-#PrivateBannerTitle {
+#PrivateEventBannerTitle {
     font: $FONT_FAMILY light 2.2mm;
     color:$COLOR_INVERTED_FOREGROUND;
 
@@ -100,7 +100,7 @@ MBannerStyle #PrivateBanner.Portrait {
     margin-right: $INDENT_DEFAULT;
 }
 
-#PrivateBannerTimeStamp {
+#PrivateEventBannerTimeStamp {
     font: $FONT_XSMALL_LIGHT;
     color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
 
@@ -110,7 +110,7 @@ MBannerStyle #PrivateBanner.Portrait {
     margin-right: $INDENT_DEFAULT;
 }
 
-#PrivateBannerPrefixTimeStamp {
+#PrivateEventBannerPrefixTimeStamp {
     font: $FONT_XSMALL_LIGHT;
     color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
 
