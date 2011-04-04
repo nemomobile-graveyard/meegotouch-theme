@@ -599,12 +599,20 @@ margin-bottom: 0;
 margin-right:  $INDENT_DEFAULT;
 }
 
+#CommonItemInfo:selected {
+color:         $COLOR_INVERTED_FOREGROUND;
+}
+
 #CommonItemInfoInverted {
 font:          $FONT_SMALL;
 color:         $COLOR_INVERTED_SECONDARY_FOREGROUND;
 margin-top:    $MARGIN_XSMALL;
 margin-bottom: 0;
 margin-right:  $INDENT_DEFAULT;
+}
+
+#CommonItemInfoInverted:selected {
+color:         $COLOR_INVERTED_FOREGROUND;
 }
 
 #CommonAvatarInitials {
