@@ -6,7 +6,7 @@ MApplicationPageStyle {
     vertical-align: top;
     horizontal-align: left;
 
-    minimum-size: 100% 100%;
+    minimum-size: 100% 80%;
     preferred-size: 100% 100%;
     maximum-size: 100% 100%;
 
