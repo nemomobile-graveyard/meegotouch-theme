@@ -70,7 +70,7 @@ MBannerStyle #PrivateBanner:pressed {
 MBannerStyle #PrivateBanner.Landscape {
     minimum-size: 83.8mm 8mm;
     maximum-size:83.8mm 12.6mm;
-    preferred-size: 83.8mm -1mm
+    preferred-size: 83.8mm -1mm;
 }
 
 MBannerStyle #PrivateBanner.Portrait {
