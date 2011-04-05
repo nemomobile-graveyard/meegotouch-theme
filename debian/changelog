@@ -1,3 +1,14 @@
+meegotouchtheme (0.20.91-1) unstable; urgency=low
+
+  * New version
+  * Changes: Updated static press audio feedback
+  * Changes: MApplicationPageStyle - reduced minimum size
+  * Changes: updating PrivateEventBanner style
+  * Fixes: 243140 - CommonItemInfo style is missing selected state (color)
+  * Fixes: NB#241852 - x11-startup-pixmap in MWindowStyle does not seem to match the default background.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 05 Apr 2011 11:50:35 +0200
+
 meegotouchtheme (0.20.90-1) unstable; urgency=low
 
   * New version
