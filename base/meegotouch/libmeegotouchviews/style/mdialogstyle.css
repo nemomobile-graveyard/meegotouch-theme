@@ -203,3 +203,11 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
     minimum-size: -1 64.4mm;
 }
 
+/* Override default label colours. */
+MDialog MLabelStyle#CommonSingleTitle {
+    color: $COLOR_INVERTED_FOREGROUND;
+}
+MDialog MLabelStyle#CommonTitle {
+    color: $COLOR_INVERTED_FOREGROUND;
+}
+
