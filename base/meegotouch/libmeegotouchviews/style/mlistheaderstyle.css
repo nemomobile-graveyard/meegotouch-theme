@@ -1,3 +1,4 @@
 MListHeaderStyle {
-    title-style-name: "";
+    title-style-name: "CommonGroupHeader";
+    separator-style-name: "CommonGroupHeaderDivider";
 }

@@ -240,11 +240,6 @@ MListStyle#CommonListInverted {
     list-index-style-name: "Inverted";
 }
 
-MListHeaderStyle#CommonGroupHeaderPanel {
-    title-style-name: "CommonGroupHeader";
-    separator-style-name: "CommonGroupHeaderDivider";
-}
-
 MListHeaderStyle#CommonGroupHeaderPanelInverted {
     title-style-name: "CommonGroupHeaderInverted";
     separator-style-name: "CommonGroupHeaderDividerInverted";
