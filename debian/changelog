@@ -1,3 +1,17 @@
+meegotouchtheme (0.20.92-1) unstable; urgency=low
+
+  * New version
+  * Changes: Supplementary changes for libmeegotouch MR #1698
+  * Changes: adding lock screen event banner style
+  * Fixes: NB#244148 - Change icons in base theme.
+  * Changes: Add label color hack to base theme.
+  * Fixes:NB#226128 - Close button in font size and color is not properly visible in both landscape and portrait orientation.
+  * Fixes: NB#236360 - MComboBox styling cleanup.
+  * Changes: Cleanup listitemindex style.
+  * Changes: theming side of NB#221658 fix - Rich text editing options not available.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 07 Apr 2011 11:14:41 +0200
+
 meegotouchtheme (0.20.91-1) unstable; urgency=low
 
   * New version
