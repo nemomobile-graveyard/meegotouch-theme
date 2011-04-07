@@ -78,6 +78,9 @@ background-image: meegotouch-button-checkbox-inverted-background-pressed 0px 0px
 #CommonCheckBoxInverted:selected {
 background-image: meegotouch-button-checkbox-inverted-background-selected 0px 0px 0px 0px;
 }
+#CommonCheckBoxInverted:disabled-selected {
+background-image: meegotouch-button-checkbox-inverted-background-selected-disabled 0px 0px 0px 0px;
+}
 #CommonLeftCheckBoxInverted {
 background-image: meegotouch-button-checkbox-inverted-background 0px 0px 0px 0px;
 margin-left:      15px;
@@ -90,6 +93,9 @@ background-image:meegotouch-button-checkbox-inverted-background-pressed 0px 0px 
 #CommonLeftCheckBoxInverted:selected {
 background-image:meegotouch-button-checkbox-inverted-background-selected 0px 0px 0px 0px;
 }
+#CommonLeftCheckBoxInverted:disabled-selected {
+background-image: meegotouch-button-checkbox-inverted-background-selected-disabled 0px 0px 0px 0px;
+}
 #CommonRightCheckBoxInverted {
 background-image: meegotouch-button-checkbox-inverted-background 0px 0px 0px 0px;
 margin-left:      0;
@@ -101,6 +107,9 @@ background-image:meegotouch-button-checkbox-inverted-background-pressed 0px 0px 
 }
 #CommonRightCheckBoxInverted:selected {
 background-image:meegotouch-button-checkbox-inverted-background-selected 0px 0px 0px 0px;
+}
+#CommonRightCheckBoxInverted:disabled-selected {
+background-image: meegotouch-button-checkbox-inverted-background-selected-disabled 0px 0px 0px 0px;
 }
 
 /* Radio Button */
