@@ -207,8 +207,8 @@ background-image:meegotouch-button-radiobutton-inverted-background-selected 0px 
 #CommonSlider {
 margin-top:      $MARGIN_DOUBLE;
 margin-bottom:   $MARGIN_DOUBLE;
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+margin-left:     0;
+margin-right:    0;
 minimum-size:    32.2mm -1;
 preferred-size:  44.8mm -1;
 maximum-size:    44.8mm -1;
@@ -232,8 +232,8 @@ background-vertical-received-image: "meegotouch-slider-received-inverted-backgro
 indicator-style-name:               "MSliderHandleIndicatorInverted";
 margin-top:      $MARGIN_DOUBLE;
 margin-bottom:   $MARGIN_DOUBLE;
-margin-left:     $INDENT_DEFAULT;
-margin-right:    $INDENT_DEFAULT;
+margin-left:     0;
+margin-right:    0;
 minimum-size:    32.2mm -1;
 preferred-size:  44.8mm -1;
 maximum-size:    44.8mm -1;
@@ -248,8 +248,8 @@ handle-vertical-pixmap:         "meegotouch-seeker-handle-background-vertical" 0
 handle-vertical-pressed-pixmap: "meegotouch-seeker-handle-background-vertical" 0mm 0mm;
 margin-top:                     $MARGIN_DOUBLE;
 margin-bottom:                  $MARGIN_DOUBLE;
-margin-left:                    $INDENT_DEFAULT;
-margin-right:                   $INDENT_DEFAULT;
+margin-left:                    0;
+margin-right:                   0;
 minimum-size:                   32.2mm -1;
 preferred-size:                 44.8mm -1;
 maximum-size:                   44.8mm -1;
@@ -273,8 +273,8 @@ background-vertical-received-image: "meegotouch-slider-received-inverted-backgro
 indicator-style-name:               "MSliderHandleIndicatorInverted";
 margin-top:                         $MARGIN_DOUBLE;
 margin-bottom:                      $MARGIN_DOUBLE;
-margin-left:                        $INDENT_DEFAULT;
-margin-right:                       $INDENT_DEFAULT;
+margin-left:                        0;
+margin-right:                       0;
 minimum-size:                       32.2mm -1;
 preferred-size:                     44.8mm -1;
 maximum-size:                       44.8mm -1;

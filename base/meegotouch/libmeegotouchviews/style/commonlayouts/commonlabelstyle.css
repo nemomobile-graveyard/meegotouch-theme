@@ -649,7 +649,24 @@ color:         $COLOR_INVERTED_FOREGROUND;
     margin-bottom: 0;
     margin-left:   0;
     margin-right:  0;
-} 
+}
+
+#CommonSeekerLabel {
+    font: $FONT_FAMILY light 22px;
+    color: $COLOR_SECONDARY_FOREGROUND;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+#CommonSeekerLabelInverted {
+    font: $FONT_FAMILY light 22px;
+    color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 27px;
+    margin-right: 27px;
+}
 
 /* Empty state labels */
 
