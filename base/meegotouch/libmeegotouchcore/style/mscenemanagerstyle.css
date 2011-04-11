@@ -11,4 +11,5 @@ MSceneManagerStyle {
   system-banner-animation: "MWidgetScaleFadeAnimation";
   navigation-bar-animation: "MWidgetSlideAnimation";
   sheet-animation: "MWidgetSlideAnimation";
+  short-event-banner-animation: "MStatusAreaSlideAnimation";
 }

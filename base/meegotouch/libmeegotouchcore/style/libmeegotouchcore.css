@@ -33,6 +33,8 @@
 @import "mwindowstyle.css";
 @import "mcontentfadeandslideanimationstyle.css";
 @import "mtapstatemachinestyle.css";
+@import "mstatusareaslideanimationstyle.css";
+
 
 /* preedit styling for input context */
 @import "mpreeditstyle.css";
