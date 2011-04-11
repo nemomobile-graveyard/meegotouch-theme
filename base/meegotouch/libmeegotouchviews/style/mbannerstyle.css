@@ -194,6 +194,15 @@ MBannerStyle #FullEventBanner.Portrait {
     margin-left: $INDENT_DEFAULT;
 }
 
+#FullEventBannerTimeStampIsolated {
+    font: $FONT_XSMALL_LIGHT;
+    color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
+
+    margin-top: $MARGIN_XSMALL;
+    margin-bottom: $INDENT_DEFAULT;
+    margin-right: $INDENT_DEFAULT;
+    margin-left: $INDENT_DEFAULT;
+}
 /* System Banner */
 
 MBannerStyle #SystemBanner {
