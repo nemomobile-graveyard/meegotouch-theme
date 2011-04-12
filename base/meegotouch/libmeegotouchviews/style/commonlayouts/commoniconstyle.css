@@ -1,5 +1,6 @@
 @const ICON24: 2.4mm 2.4mm;
 @const ICON32: 3.2mm 3.2mm;
+@const ICON40: 4.0mm 4.0mm;
 @const ICON48: 4.8mm 4.8mm;
 @const ICON64: 6.4mm 6.4mm;
 @const ICON80: 8mm 8mm;
@@ -114,9 +115,9 @@ margin-bottom:  0;
 }
 
 #CommonHeaderIcon { /* updated 1_5_9 */
-minimum-size:      $ICON32;
-preferred-size:    $ICON32;
-maximum-size:      $ICON32;
+minimum-size:      $ICON40;
+preferred-size:    $ICON40;
+maximum-size:      $ICON40;
 margin-top:        0;
 margin-bottom:     0;
 margin-left:       $INDENT_DEFAULT;
