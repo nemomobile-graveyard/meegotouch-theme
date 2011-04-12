@@ -5,7 +5,7 @@ MStatusBarStyle
     maximum-size: 100% $HEIGHT_STATUSBAR;
     background-color: none;
     reactive-margin-bottom: 1.5mm;
-    use-swipe-gesture: true;
+    use-swipe-gesture: false;
     swipe-threshold: 30;
     press-feedback : press;
     press-dim-factor: 0.6;
