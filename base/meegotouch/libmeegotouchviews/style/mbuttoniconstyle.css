@@ -1,7 +1,7 @@
 /* MButtonIconStyle : MButtonStyle */
 MButtonIconStyle {
-    background-image:;
-    background-color:;
+    background-image: none;
+    background-color: none;
 
     /* those attributes are deprecated and have no effect anymore.
        remove them once their corresponding definitions are removed
@@ -22,8 +22,8 @@ MButtonIconStyle {
     icon-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
 
     minimum-size: $SIZE_ICON_SMALL $SIZE_ICON_SMALL;
-    preferred-size: $HEIGHT_NAVIGATIONBAR $HEIGHT_NAVIGATIONBAR;
-    maximum-size: 12mm 12mm; /* set here for now, since app grid breaks if this changes! */
+    preferred-size: $HEIGHT_NAVIGATIONBAR_PORTRAIT $HEIGHT_NAVIGATIONBAR_PORTRAIT;
+    maximum-size: 120px 120px; /* set here for now, since app grid breaks if this changes! */
 
     margin-top: 0;
     margin-left: 0;
@@ -35,13 +35,13 @@ MButtonIconStyle {
 }
 
 MButtonIconStyle:pressed {
-    background-image:;
-    background-color:;
+    background-image: none;
+    background-color: none;
 
     content-opacity: 0.5;
 }
 
 MButtonIconStyle:disabled {
-    background-image:;
-    background-color:;
+    background-image: none;
+    background-color: none;
 }

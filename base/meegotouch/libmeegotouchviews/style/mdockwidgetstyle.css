@@ -10,8 +10,14 @@ MDockWidgetStyle {
 
     offset: 0 0;
 
-    minimum-size: 100% $HEIGHT_NAVIGATIONBAR;
-    preferred-size: 100% $HEIGHT_NAVIGATIONBAR;
-    maximum-size: 100% $HEIGHT_NAVIGATIONBAR;
+    minimum-size: 100% $HEIGHT_NAVIGATIONBAR_PORTRAIT;
+    preferred-size: 100% $HEIGHT_NAVIGATIONBAR_PORTRAIT;
+    maximum-size: 100% $HEIGHT_NAVIGATIONBAR_PORTRAIT;
+}
+
+MDockWidgetStyle.Landscape {
+    minimum-size: 100% $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
+    preferred-size: 100% $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
+    maximum-size: 100% $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
 }
 
