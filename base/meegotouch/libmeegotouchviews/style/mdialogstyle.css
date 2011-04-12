@@ -102,10 +102,10 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
 }
 
 #MDialogCloseButton {
-    icon-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
-    minimum-size: 5.2mm 5.2mm;
-    preferred-size: 5.2mm 5.2mm;
-    maximum-size: 5.2mm 5.2mm;
+    icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
+    minimum-size: $SIZE_BUTTON  57px;
+    preferred-size: $SIZE_BUTTON  57px;
+    maximum-size: $SIZE_BUTTON 57px;
 
     margin-top: 0;
     margin-left: 0;
@@ -115,7 +115,7 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 9px;
 
     reactive-margin-left: 2mm;
     reactive-margin-top: 2mm;
@@ -136,15 +136,22 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
     margin-top: 0;
     margin-bottom: 0;
 
-    minimum-size: -1 5.7mm;
-    preferred-size: -1 5.7mm;
-    maximum-size: -1 5.7mm;
+    minimum-size: -1 57px;
+    preferred-size: -1 57px;
+    maximum-size: -1 57px;
+}
+
+#MDialogBox {
+    color: $COLOR_INVERTED_FOREGROUND;
+    minimum-size: 54.4mm 8mm;
+    preferred-size: 54.4mm 8mm;
+    maximum-size: 54.4mm 8mm;
 }
 
 #MDialogButtonBox {
-    minimum-size: -1 $SIZE_BUTTON;
-    preferred-size: -1 $SIZE_BUTTON;
-    maximum-size: -1 $SIZE_BUTTON;
+    minimum-size: -1 -1;
+    preferred-size: -1 -1;
+    maximum-size: -1 8mm;
 
     background-image: meegotouch-dialog-button-area-background 10px 10px 10px 10px;
     margin-left: 0;
@@ -158,7 +165,7 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
 }
 
 #MDialogProgressIndicator {
-    base-image-name: "spinner";
+    base-image-name: "spinnerinverted";
     base-image-size: $SIZE_SPINNER_DIALOG;
     minimum-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
     preferred-size: $SIZE_SPINNER_DIALOG $SIZE_SPINNER_DIALOG;
