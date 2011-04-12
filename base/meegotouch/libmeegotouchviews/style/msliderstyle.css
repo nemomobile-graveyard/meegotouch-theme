@@ -5,10 +5,10 @@ MSliderStyle {
     handle-vertical-pixmap: "meegotouch-slider-handle-background-vertical" 6.4mm 6.4mm;
     handle-vertical-pressed-pixmap: "meegotouch-slider-handle-background-pressed-vertical" 6.4mm 6.4mm;
 
-    handle-label-arrow-left-pixmap: "meegotouch-slider-handle-label-arrow-left" 0mm 0mm;
-    handle-label-arrow-right-pixmap: "meegotouch-slider-handle-label-arrow-right" 0mm 0mm;
-    handle-label-arrow-up-pixmap: "meegotouch-slider-handle-label-arrow-up" 0mm 0mm;
-    handle-label-arrow-down-pixmap: "meegotouch-slider-handle-label-arrow-down" 0mm 0mm;
+    handle-label-arrow-left-pixmap: "meegotouch-slider-handle-label-arrow-left" 0.4mm 0.8mm;
+    handle-label-arrow-right-pixmap: "meegotouch-slider-handle-label-arrow-right" 0.4mm 0.8mm;
+    handle-label-arrow-up-pixmap: "meegotouch-slider-handle-label-arrow-up" 0.8mm 0.4mm;
+    handle-label-arrow-down-pixmap: "meegotouch-slider-handle-label-arrow-down" 0.8mm 0.4mm;
 
     background-base-image: "meegotouch-slider-background-horizontal" 4px 4px 4px 4px;
     background-elapsed-image: "meegotouch-slider-elapsed-background-horizontal" 4px 4px 4px 4px;
