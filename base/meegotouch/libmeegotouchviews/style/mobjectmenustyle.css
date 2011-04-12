@@ -15,7 +15,13 @@ MObjectMenuStyle {
     title-style-name: "CommonPanelInverted";
     title-icon-style-name: "CommonMainIcon";
     title-label-style-name: "CommonSingleTitleInverted";
-    title-separator-style-name: "CommonHorizontalSeparator";
+    title-separator-style-name: "CommonHorizontalSeparatorInverted";
+
+    /* prevent action buttons from overlapping the background lines */
+    padding-top: 1;
+    padding-bottom: 1;
+
+    background-image: meegotouch-button-objectmenu-background $CORNER_MARGINS;
 }
 
 MObjectMenuStyle.Portrait {
@@ -45,34 +51,38 @@ MObjectMenu MButtonStyle {
     horizontal-text-align: left;
     font: $FONT_DEFAULT_BOLD;
 
-    background-tiles: meegotouch-button-objectmenu-background $CORNER_MARGINS;
+    background-tiles: none;
+    background-image: none;
+    background-color: none;
+
+    text-color:$COLOR_INVERTED_FOREGROUND;
 }
 MObjectMenu MButtonStyle:pressed {
-    background-tiles: meegotouch-button-objectmenu-background-pressed $CORNER_MARGINS;
+    background-image: meegotouch-button-objectmenu-background-pressed-vertical-center;
 }
 
 MObjectMenu MPannableWidgetStyle {
-    /* 4 * SIZE_BUTTON */
+    /* 4 * SIZE_BUTTON + 4px padding*/
     minimum-size: -1 -1;
     preferred-size: -1 -1;
-    maximum-size: -1 25.6mm;
+    maximum-size: -1 260px;
 }
 MObjectMenu MPannableWidgetStyle.Portrait {
-    /* 9 * SIZE_BUTTON */
+    /* 9 * SIZE_BUTTON + 4px padding */
     minimum-size: -1 -1;
     preferred-size: -1 -1;
-    maximum-size: -1 57.6mm;
+    maximum-size: -1 580px;
 }
 MObjectMenu MPannableWidgetStyle#objectMenuViewportWithoutTitle {
-    /* 6 * SIZE_BUTTON */
+    /* 6 * SIZE_BUTTON + 4px padding*/
     minimum-size: -1 -1;
     preferred-size: -1 -1;
-    maximum-size: -1 38.4mm;
+    maximum-size: -1 388px;
 }
 MObjectMenu MPannableWidgetStyle#objectMenuViewportWithoutTitle.Portrait {
-    /* 11 * SIZE_BUTTON */
+    /* 11 * SIZE_BUTTON + 4px padding */
     minimum-size: -1 -1;
     preferred-size: -1 -1;
-    maximum-size: -1 70.4mm;
+    maximum-size: -1 708px;
 }
 
