@@ -16,6 +16,11 @@ MTextEditStyle {
     paste-failed-duration: 3000;
     masking-delay: 1000;
     cursor-width: 2;
+    focused-prompt-opacity: 0.4;
+    unfocused-prompt-opacity: 1.0;
+    focus-transition-duration: 150;
+    hide-show-prompt-duration: 100;
+    prompt-transition-delay: 60;
 
     /* inherited from MWidgetStyle */
     minimum-size: -1 52px;
