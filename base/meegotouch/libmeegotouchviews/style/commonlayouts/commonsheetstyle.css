@@ -328,7 +328,7 @@ MLabelStyle#CommonEditorInputFieldPrompt {
 
 MLabelStyle#CommonEditorComboBoxSubTitle {
     font: $FONT_FAMILY bold 26;
-    margin-top: 12;
+    margin-top: 15;
     margin-bottom: 11;
     margin-right: 0;
     margin-left: $MARGIN_LARGE;
@@ -336,37 +336,37 @@ MLabelStyle#CommonEditorComboBoxSubTitle {
 }
 
 MComboBoxStyle#CommonEditorComboBox {
-    background-tiles: ;
-    background-image: ;
-    title-object-name: "ComboBoxEmptyTitle";
-    separate-title: false;
-    indicator-image: ;
-    indicator-object-name: ;
+    background-tiles:       none;
+    background-image:       none;
+    button-style-name:      "CommonEditorComboBoxButton";
+    has-title:              false;
+    indicator-image:        ;
+    indicator-object-name:  ;
     sub-title-object-name: "CommonEditorComboBoxSubTitle";
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    minimum-size: 56 56;
+    margin-left:    0;
+    margin-right:   0;
+    margin-top:     0;
+    margin-bottom:  0;
+    minimum-size:   56 56;
     preferred-size: 100% 56;
-    maximum-size: 100% -1;
+    maximum-size:   100% -1;
 }
 
-MComboBox#CommonEditorComboBox MListItemStyle[labelButton] {
-    background-tiles: ;
-    background-image: ;
-    background-color: ;
-    minimum-size: 56 56;
+MListItemStyle#CommonEditorComboBoxButton {
+    background-tiles: none;
+    background-image: none;
+    background-color: none;
+    minimum-size:   56 56;
     preferred-size: 100% 56;
-    maximum-size: 100% 56;
+    maximum-size:   100% 56;
 }
-MComboBox#CommonEditorComboBox MListItemStyle[labelButton]:pressed {
-    background-tiles: ;
-    background-image: ;
-    background-color: ;
-    minimum-size: 56 56;
+MListItemStyle#CommonEditorComboBoxButton:pressed {
+    background-tiles: none;
+    background-image: none;
+    background-color: none;
+    minimum-size:   56 56;
     preferred-size: 100% 56;
-    maximum-size: 100% 56;
+    maximum-size:   100% 56;
 }
 
 
