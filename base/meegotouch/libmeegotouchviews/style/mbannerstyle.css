@@ -302,12 +302,12 @@ MBannerStyle #GenericBanner:pressed {
 
 MBannerStyle #LockScreenEventBanner {
     icon-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
-    background-image: "meegotouch-fulleventbanner-background" 10px 10px 10px 10px;
+    background-image: "meegotouch-lockscreen-notification-background" 10px 10px 10px 10px;
 }
 
-MBannerStyle #LockScreenEventBanner:pressed {
+/*MBannerStyle #LockScreenEventBanner:pressed {
     background-image: "meegotouch-fulleventbanner-background-pressed" 10px 10px 10px 10px;
-}
+}*/
 
 MBannerStyle #LockScreenEventBanner.Landscape {
     minimum-size: 83.8mm 8mm;
@@ -373,6 +373,17 @@ MBannerStyle #LockScreenEventBanner.Portrait {
     margin-left: $INDENT_DEFAULT;
 }
 
+#LockScreenEventBannerTimeStampIsolated {
+    font: $FONT_XSMALL_LIGHT;
+    color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
+
+    margin-top: $MARGIN_XSMALL;
+    margin-bottom: $INDENT_DEFAULT;
+    margin-right: $INDENT_DEFAULT;
+    margin-left: $INDENT_DEFAULT;
+}
+
+/* Generic Banner */
 
 MBannerStyle #GenericBanner.Landscape {
     maximum-size: 83.4mm 10.6mm;
