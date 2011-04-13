@@ -31,7 +31,15 @@ slider-image:           "meegotouch-switch-off-inverted" 32px 32px 20px 20px;
 slider-image-selected:  "meegotouch-switch-on-inverted" 32px 32px 20px 20px;
 }
 #CommonSwitchInverted:pressed {
-thumb-image: "meegotouch-switch-thumb-pressed-inverted" 14px 14px 14px 14px;
+thumb-image:        "meegotouch-switch-thumb-pressed-inverted" 14px 14px 14px 14px;
+}
+#CommonSwitchInverted:disabled {
+thumb-image:        "meegotouch-switch-thumb-disabled-inverted" 14px 14px 14px 14px;
+thumb-image-shadow: none;
+}
+#CommonSwitchInverted:disabled-selected {
+thumb-image:        "meegotouch-switch-thumb-disabled-inverted" 14px 14px 14px 14px;
+thumb-image-shadow: none;
 }
 #CommonLeftSwitchInverted {
 margin-left:     $INDENT_DEFAULT;
@@ -42,7 +50,15 @@ slider-image:           "meegotouch-switch-off-inverted" 32px 32px 20px 20px;
 slider-image-selected:  "meegotouch-switch-on-inverted" 32px 32px 20px 20px;
 }
 #CommonLeftSwitchInverted:pressed {
-thumb-image: "meegotouch-switch-thumb-pressed-inverted" 14px 14px 14px 14px;
+thumb-image:        "meegotouch-switch-thumb-pressed-inverted" 14px 14px 14px 14px;
+}
+#CommonLeftSwitchInverted:disabled {
+thumb-image:        "meegotouch-switch-thumb-disabled-inverted" 14px 14px 14px 14px;
+thumb-image-shadow: none;
+}
+#CommonLeftSwitchInverted:disabled-selected {
+thumb-image:        "meegotouch-switch-thumb-disabled-inverted" 14px 14px 14px 14px;
+thumb-image-shadow: none;
 }
 #CommonRightSwitchInverted {
 margin-left:     0;
@@ -53,7 +69,15 @@ slider-image:           "meegotouch-switch-off-inverted" 32px 32px 20px 20px;
 slider-image-selected:  "meegotouch-switch-on-inverted" 32px 32px 20px 20px;
 }
 #CommonRightSwitchInverted:pressed {
-thumb-image: "meegotouch-switch-thumb-pressed-inverted" 14px 14px 14px 14px;
+thumb-image:        "meegotouch-switch-thumb-pressed-inverted" 14px 14px 14px 14px;
+}
+#CommonRightSwitchInverted:disabled {
+thumb-image:        "meegotouch-switch-thumb-disabled-inverted" 14px 14px 14px 14px;
+thumb-image-shadow: none;
+}
+#CommonRightSwitchInverted:disabled-selected {
+thumb-image:        "meegotouch-switch-thumb-disabled-inverted" 14px 14px 14px 14px;
+thumb-image-shadow: none;
 }
 
 /* Checkbox */
