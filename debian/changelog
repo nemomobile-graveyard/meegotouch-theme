@@ -1,3 +1,20 @@
+meegotouchtheme (0.20.93-1) unstable; urgency=low
+
+  * New version
+  * Changes: new style for MBanner(lockscreen)
+  * Fixes: NB#243914 - Base theme is missing pictures referenced from css styles
+  * Changes: Animation related attributes added to MTextMagnifier style.
+  * Fixes: NB#245954 - CommonHeaderIcon size not according toolkit 1.5.9
+  * Changes: adding missing style for timestamp at MBanner
+  * Fixes: NB#244770 - Tabs activate on tap down
+  * Fixes: NB#243929 - Base theme settings icons color.
+  * Fixes: NB#244806 - Provide CommonSeekerLabel.
+  * Fixes: NB#242891 - Create account checkbox graphics changes to "unchecked" when user confirms creation of new account.
+  * Changes: Initialize separator-style-name in MListHeader.
+  * Fixes: NB#242792 - Separators in music list views are not according to layout specification
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 13 Apr 2011 11:10:39 +0300
+
 meegotouchtheme (0.20.92-1) unstable; urgency=low
 
   * New version
