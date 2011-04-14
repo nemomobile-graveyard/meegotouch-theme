@@ -1,3 +1,23 @@
+meegotouchtheme (0.20.94-1) unstable; urgency=low
+
+  * New version
+  * Changes: Added styling for short event banner animation.
+  * Fixes: NB#237815 - From & Priority combo box values are NOT aligned properly in Composer view.
+  * Fixes: NB#243111 - Common(Left/Right)Switch styles are missing disabled states.
+  * Changes: Add inverted toolbar styles.
+  * Changes: Add inverted style.
+  * Changes: Update dialog style.
+  * Changes: Update separator style.
+  * Changes: Tweak progress indicator bar.
+  * Changes: Tweak object menu style.
+  * Changes: Update delete animation style.
+  * Changes: Clean-up statusbar style.
+  * Changes: Cleanup statusbar style.
+  * Changes: Clean-up dockwidget style.
+  * Changes: Clean-up popuplist style.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 14 Apr 2011 16:43:26 +0300
+
 meegotouchtheme (0.20.93-1) unstable; urgency=low
 
   * New version
