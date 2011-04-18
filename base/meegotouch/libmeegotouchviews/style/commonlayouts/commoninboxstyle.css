@@ -59,6 +59,9 @@
     margin-top:        13px;
     margin-bottom:     0;
 }
+#CommonInboxTitle:selected {
+    color: $COLOR_INVERTED_FOREGROUND;
+}
 
 #CommonInboxSubTitle {
     font:              $FONT_FAMILY light 22;
@@ -66,6 +69,9 @@
     margin-right:      $INDENT_DEFAULT;
     margin-top:        0;
     margin-bottom:     0;
+}
+#CommonInboxSubTitle:selected {
+    color: $COLOR_INVERTED_FOREGROUND;
 }
 
 #CommonInboxSubText {
@@ -76,6 +82,9 @@
     margin-top:        $MARGIN_XSMALL;
     margin-bottom:     0;
 }
+#CommonInboxSubText:selected {
+    color: $COLOR_INVERTED_FOREGROUND;
+}
 
 #CommonInboxUnreadItemInfo {
     font:              $FONT_FAMILY light 18;
@@ -85,6 +94,9 @@
     margin-top:        5px;
     margin-bottom:     0;
 }
+#CommonInboxUnreadItemInfo:selected {
+    color: $COLOR_INVERTED_FOREGROUND;
+}
 
 #CommonInboxReadItemInfo {
     font:              $FONT_FAMILY light 18;
@@ -93,6 +105,9 @@
     margin-right:      $INDENT_DEFAULT;
     margin-top:        5px;
     margin-bottom:     0;
+}
+#CommonInboxReadItemInfo:selected {
+    color: $COLOR_INVERTED_FOREGROUND;
 }
 
 #CommonInboxSubTitleIcon {
