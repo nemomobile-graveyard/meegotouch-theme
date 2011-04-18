@@ -12,10 +12,12 @@
 @const CSB_FONT_COLOR_INVERTED_DISABLED: #4E4E4E;
 @const CSB_FONT_COLOR_ACCENT: #FFFFFF;
 @const COLOR_EDITOR_PROMPT: #CCCCCC;
-
+@const COLOR_EDITOR_PROMPT_INVERTED: #CCCCCC;
 @const CEP_BG:  ;
 @const CEP_BG_SELECTED: meegotouch-editor-inputfield-panel-background-selected 20px 0 40px 0;
 @const CEP_BG_PRESSED: meegotouch-editor-inputfield-panel-background-pressed 20px 0 40px 0;
+@const CEP_BG_SELECTED_INVERTED: meegotouch-editor-inputfield-panel-inverted-background-selected 20px 0 40px 0;
+@const CEP_BG_PRESSED_INVERTED: meegotouch-editor-inputfield-panel-inverted-background-pressed 20px 0 40px 0;
 
 
 #CommonSheetHeaderPanel {
@@ -187,6 +189,28 @@
     background-image: $CEP_BG_SELECTED;
 }
 
+#CommonEditorInputFieldPanelInverted {
+    minimum-size:      56 56;
+    preferred-size:    100% -1;
+    maximum-size:      100% 100%;
+    background-tiles:  ;
+    background-image:  ;
+    background-color:  ;
+    margin-top:        0;
+    margin-bottom:     0;
+    margin-left:       0;
+    margin-right:      0;
+}
+
+#CommonEditorInputFieldPanelInverted:pressed {
+    background-tiles: ;
+    background-image: $CEP_BG_PRESSED_INVERTED;
+}
+#CommonEditorInputFieldPanelInverted:selected {
+    background-tiles: ;
+    background-image: $CEP_BG_SELECTED_INVERTED;
+}
+
 MLabelStyle#CommonEditorInputFieldLabel {
     font: $FONT_FAMILY light 26;
     color: $COLOR_SECONDARY_FOREGROUND;
@@ -201,6 +225,21 @@ MLabelStyle#CommonEditorInputFieldLabel:selected {
     color: $COLOR_ACCENT1;
 }
 
+MLabelStyle#CommonEditorInputFieldLabelIverted {
+    font: $FONT_FAMILY light 26;
+    color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
+    margin-top: 15;
+    margin-bottom: 11;
+    margin-right: 0;
+    margin-left: $INDENT_DEFAULT;
+    vertical-alignment: top;
+}
+
+MLabelStyle#CommonEditorInputFieldLabelIverted:selected {
+    color: $COLOR_ACCENT1;
+}
+
+
 #CommonEditorExpandButton {
     background-image: meegotouch-editor-expand-button-background;
     minimum-size:     58px 25px;
@@ -214,6 +253,21 @@ MLabelStyle#CommonEditorInputFieldLabel:selected {
 
 #CommonEditorExpandButton:pressed {
     background-image: meegotouch-editor-expand-button-background-pressed;
+}
+
+#CommonEditorExpandButtonInverted {
+    background-image: meegotouch-editor-expand-button-inverted-background;
+    minimum-size:     58px 25px;
+    preferred-size:   58px 25px;
+    maximum-size:     58px 25px;
+    margin-top:       0;
+    margin-bottom:    0;
+    margin-left:      0;
+    margin-right:     $INDENT_DEFAULT;
+}
+
+#CommonEditorExpandButtonInverted:pressed {
+    background-image: meegotouch-editor-expand-button-inverted-background-pressed;
 }
 
 #CommonEditorExpandButtonPanel {
@@ -232,12 +286,41 @@ MLabelStyle#CommonEditorInputFieldLabel:selected {
     background-image:  meegotouch-sheet-editor-expanded-background;
 }
 
+#CommonEditorExpandButtonPanelInverted {
+    minimum-size:      56 25;
+    preferred-size:    100% 25;
+    maximum-size:      100% 25;
+    background-tiles:  ;
+    background-image:  meegotouch-sheet-editor-collapsed-inverted-background;
+    background-color:  ;
+    margin-top:        0;
+    margin-bottom:     0;
+    margin-left:       0;
+    margin-right:      0;
+}
+#CommonEditorExpandButtonPanelInverted:selected {
+    background-image:  meegotouch-sheet-editor-expanded-inverted-background;
+}
+
 #CommonEditorNoteAreaExpandButtonPanel {
     minimum-size:      56 25;
     preferred-size:    100% 25;
     maximum-size:      100% 25;
     background-tiles:  ;
     background-image:  meegotouch-sheet-editor-note-expanded-background;
+    background-color:  ;
+    margin-top:        0;
+    margin-bottom:     0;
+    margin-left:       0;
+    margin-right:      0;
+}
+
+#CommonEditorNoteAreaExpandButtonPanelInverted {
+    minimum-size:      56 25;
+    preferred-size:    100% 25;
+    maximum-size:      100% 25;
+    background-tiles:  ;
+    background-image:  meegotouch-sheet-editor-note-expanded-inverted-background;
     background-color:  ;
     margin-top:        0;
     margin-bottom:     0;
@@ -258,8 +341,31 @@ MLabelStyle#CommonEditorInputFieldLabel:selected {
     margin-right:      0;
 }
 
+#CommonEditorExpandAreaInverted {
+    minimum-size:      -1 -1;
+    preferred-size:    100% -1;
+    maximum-size:      100% -1;
+    background-tiles:  ;
+    background-image:  meegotouch-sheet-editor-expand-area-inverted-background;
+    background-color:  ;
+    margin-top:        0;
+    margin-bottom:     0;
+    margin-left:       0;
+    margin-right:      0;
+}
+
 MSeparator#CommonEditorItemDivider {
     background-image: meegotouch-separator-background-horizontal 0px 0px 0px 0px;
+    minimum-size:  -1 0.1mm;
+    maximum-size:  -1 0.1mm;
+    margin-top:     $MARGIN_LARGE;
+    margin-bottom:  $MARGIN_LARGE;
+    margin-left:    $MARGIN_LARGE;
+    margin-right:   $MARGIN_LARGE;
+}
+
+MSeparator#CommonEditorItemDividerInverted {
+    background-image: meegotouch-separator-background-inverted-horizontal 0px 0px 0px 0px;
     minimum-size:  -1 0.1mm;
     maximum-size:  -1 0.1mm;
     margin-top:     $MARGIN_LARGE;
@@ -286,6 +392,12 @@ MTextEditStyle#CommonEditorInputField {
     padding-right: $INDENT_DEFAULT;
 }
 
+
+MTextEditStyle#CommonEditorInputField:selected {
+    background-image: ;
+}
+
+
 MTextEditStyle#CommonEditorInputFieldMultiline {
     background-image: ;
     font: $FONT_FAMILY bold 26;
@@ -303,12 +415,70 @@ MTextEditStyle#CommonEditorInputFieldMultiline {
     padding-right: $INDENT_DEFAULT;
 }
 
-MTextEditStyle#CommonEditorInputField:selected {
+MTextEditStyle#CommonEditorInputFieldMultiline:selected {
     background-image: ;
 }
 
+
+MTextEditStyle#CommonEditorInputFieldInverted {
+    background-image: ;
+    font: $FONT_FAMILY bold 26;
+    text-color: $COLOR_INVERTED_FOREGROUND;
+    prompt-font: $FONT_FAMILY 26;
+    prompt-color: $COLOR_EDITOR_PROMPT;
+    minimum-size: 56 56;
+    preferred-size: 100% -1;
+    maximum-size: 100% 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 15;
+    padding-bottom: 11;
+    padding-left: $PADDING_LARGE;
+    padding-right: $INDENT_DEFAULT;
+}
+
+
+MTextEditStyle#CommonEditorInputFieldInverted:selected {
+    background-image: ;
+}
+
+
+MTextEditStyle#CommonEditorInputFieldMultilineInverted {
+    background-image: ;
+    font: $FONT_FAMILY bold 26;
+    text-color: $COLOR_INVERTED_FOREGROUND;
+    minimum-size: 56 56;
+    preferred-size: 100% -1;
+    maximum-size: 100% 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: $MARGIN_LARGE;
+    margin-right: 0;
+    padding-top: 15;
+    padding-bottom: 11;
+    padding-left: $PADDING_LARGE;
+    padding-right: $INDENT_DEFAULT;
+}
+
+MTextEditStyle#CommonEditorInputFieldMultilineInverted:selected {
+    background-image: ;
+}
+
+
 MLabelStyle#CommonEditorInputFieldValue {
     font: $FONT_FAMILY bold 26;
+    margin-top: 15;
+    margin-bottom: 11;
+    margin-right: 0;
+    margin-left: $MARGIN_LARGE;
+    vertical-alignment: top;
+}
+
+MLabelStyle#CommonEditorInputFieldValueInverted {
+    font: $FONT_FAMILY bold 26;
+    color: $COLOR_INVERTED_FOREGROUND;
     margin-top: 15;
     margin-bottom: 11;
     margin-right: 0;
@@ -325,9 +495,27 @@ MLabelStyle#CommonEditorInputFieldPrompt {
     margin-left: $MARGIN_LARGE;
     vertical-alignment: top;
 }
+MLabelStyle#CommonEditorInputFieldPromptInverted {
+    font: $FONT_FAMILY 26;
+    color: $COLOR_EDITOR_PROMPT_INVERTED;
+    margin-top: 15;
+    margin-bottom: 11;
+    margin-right: 0;
+    margin-left: $MARGIN_LARGE;
+    vertical-alignment: top;
+}
 
 MLabelStyle#CommonEditorComboBoxSubTitle {
     font: $FONT_FAMILY bold 26;
+    margin-top: 15;
+    margin-bottom: 11;
+    margin-right: 0;
+    margin-left: $MARGIN_LARGE;
+    vertical-alignment: top;
+}
+MLabelStyle#CommonEditorComboBoxSubTitleInverted {
+    font: $FONT_FAMILY bold 26;
+    color: $COLOR_INVERTED_FOREGROUND;
     margin-top: 15;
     margin-bottom: 11;
     margin-right: 0;
@@ -343,6 +531,23 @@ MComboBoxStyle#CommonEditorComboBox {
     indicator-image:        ;
     indicator-object-name:  ;
     sub-title-object-name: "CommonEditorComboBoxSubTitle";
+    margin-left:    0;
+    margin-right:   0;
+    margin-top:     0;
+    margin-bottom:  0;
+    minimum-size:   56 56;
+    preferred-size: 100% 56;
+    maximum-size:   100% -1;
+}
+
+MComboBoxStyle#CommonEditorComboBoxInverted {
+    background-tiles:       none;
+    background-image:       none;
+    button-style-name:      "CommonEditorComboBoxButton";
+    has-title:              false;
+    indicator-image:        ;
+    indicator-object-name:  ;
+    sub-title-object-name: "CommonEditorComboBoxSubTitleInverted";
     margin-left:    0;
     margin-right:   0;
     margin-top:     0;
@@ -380,3 +585,13 @@ MTextEditStyle#CommonEditorNoteArea:selected {
     background-image: meegotouch-sheet-inputfield-background 15px 15px 15px 15px;
 }
 
+MTextEditStyle#CommonEditorNoteAreaInverted {
+    background-image: meegotouch-sheet-inputfield-inverted-background 15px 15px 15px 15px;
+    font: $FONT_FAMILY light 26;
+    text-color: $COLOR_INVERTED_FOREGROUND;
+    padding-top: 24;
+}
+
+MTextEditStyle#CommonEditorNoteAreaInverted:selected {
+    background-image: meegotouch-sheet-inputfield-inverted-background 15px 15px 15px 15px;
+}
