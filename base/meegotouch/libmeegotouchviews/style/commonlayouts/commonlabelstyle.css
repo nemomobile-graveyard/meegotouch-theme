@@ -296,9 +296,9 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonFieldLabel { /* same as field header, needs update */
+#CommonFieldLabel { 
 font:          $FONT_FAMILY light 22;
-color:         $COLOR_FOREGROUND;
+color:         #505050;
 margin-top:    0.8mm;
 margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
@@ -597,7 +597,7 @@ margin-right:  $INDENT_DEFAULT;
 }
 #CommonFieldLabelInverted { /* same as field header, needs update */
 font:          $FONT_FAMILY light 22;
-color:         $COLOR_INVERTED_FOREGROUND;
+color:         #B4B4B4;
 margin-top:    0.8mm;
 margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
