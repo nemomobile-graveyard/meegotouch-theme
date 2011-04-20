@@ -626,7 +626,7 @@ color:         $CB_FONT_COLOR_INVERTED;
 /* Other Labels */
 
 #CommonItemInfo {
-font:          $FONT_SMALL;
+font:          $CSUBTITLE_FONT;
 color:         $COLOR_SECONDARY_FOREGROUND;
 margin-top:    $MARGIN_XSMALL;
 margin-bottom: 0;
@@ -638,7 +638,7 @@ color:         $COLOR_INVERTED_FOREGROUND;
 }
 
 #CommonItemInfoInverted {
-font:          $FONT_SMALL;
+font:          $CSUBTITLE_FONT;
 color:         $COLOR_INVERTED_SECONDARY_FOREGROUND;
 margin-top:    $MARGIN_XSMALL;
 margin-bottom: 0;
