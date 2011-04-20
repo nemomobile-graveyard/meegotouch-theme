@@ -58,7 +58,15 @@ MObjectMenu MButtonStyle {
     text-color:$COLOR_INVERTED_FOREGROUND;
 }
 MObjectMenu MButtonStyle:pressed {
+    background-tiles: none;
     background-image: meegotouch-button-objectmenu-background-pressed-vertical-center;
+    background-color: none;
+}
+MObjectMenu MButtonStyle:disabled {
+    background-tiles: none;
+    background-image: none;
+    background-color: none;
+    text-color: #797979;
 }
 
 MObjectMenu MPannableWidgetStyle {
