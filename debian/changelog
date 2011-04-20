@@ -1,3 +1,19 @@
+meegotouchtheme (0.20.95-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#248449 - mprogressindicatorstyle has wrong height.
+  * Fixes: NB#231574 - Poor visuals when an object menu item is not reactive.
+  * Fixes: NB#245540 - [REG] Notifications placed too close to left edge of screen
+  * Changes: Updated graphical assets for fast scroll
+  * Changes: updating private style for MBanner
+  * Fixes: NB#248425 - [TASK] Update CommonFieldLabel color according toolkit 1.5.9
+  * Fixes: NB248274 - [TASK] add inverted editor styles
+  * Fixes: NB#248197 - Selected states are missing for inbox label styles
+  * Changes: update style for MTextEdit
+  * Changes: adding spinner graphics 64px
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 20 Apr 2011 14:23:40 +0300
+
 meegotouchtheme (0.20.94-1) unstable; urgency=low
 
   * New version
