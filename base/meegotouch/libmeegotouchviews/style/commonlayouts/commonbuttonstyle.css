@@ -1292,25 +1292,47 @@ text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
 /* special buttons */
 
 #CommonQueryButton {
-margin-top:      $MARGIN_LARGE;
-margin-bottom:   $MARGIN_LARGE;
-margin-left:     0.3mm;
-margin-right:    0.3mm;
+margin-top:        $MARGIN_LARGE;
+margin-bottom:     $MARGIN_LARGE;
+margin-left:       0.3mm;
+margin-right:      0.3mm;
 
-text-color:      $CB_FONT_COLOR_INVERTED;
-background-image:$CB_BG_INVERTED $CORNER_MARGINS;
+text-color:        $CB_FONT_COLOR_INVERTED;
+background-image:  meegotouch-dialog-button-negative $CORNER_MARGINS;
 }
 #CommonQueryButton:pressed {
-background-image:$CB_BG_INVERTED_PRESSED $CORNER_MARGINS;
-text-color:      $CB_FONT_COLOR_INVERTED_PRESSED;
+background-image:  meegotouch-dialog-button-negative-pressed $CORNER_MARGINS;
+text-color:        $CB_FONT_COLOR_INVERTED_PRESSED;
 }
 #CommonQueryButton:selected {
-background-image:$CB_BG_INVERTED_SELECTED $CORNER_MARGINS;
-text-color:      $CB_FONT_COLOR_INVERTED_SELECTED;
+background-image:  meegotouch-dialog-button-negative $CORNER_MARGINS;
+text-color:        $CB_FONT_COLOR_INVERTED_SELECTED;
 }
 #CommonQueryButton:disabled {
-background-image:$CB_BG_INVERTED_DISABLED $CORNER_MARGINS;
-text-color:      $CB_FONT_COLOR_INVERTED_DISABLED;
+background-image:  meegotouch-dialog-button-negative-pressed $CORNER_MARGINS;
+text-color:        $CB_FONT_COLOR_INVERTED_DISABLED;
+}
+
+#CommonQueryActionButton {
+margin-top:        $MARGIN_LARGE;
+margin-bottom:     $MARGIN_LARGE;
+margin-left:       0.3mm;
+margin-right:      0.3mm;
+
+text-color:        $CB_FONT_COLOR_INVERTED;
+background-image:  meegotouch-dialog-button-positive $CORNER_MARGINS;
+}
+#CommonQueryButton:pressed {
+background-image:  meegotouch-dialog-button-positive-pressed $CORNER_MARGINS;
+text-color:        $CB_FONT_COLOR_INVERTED_PRESSED;
+}
+#CommonQueryButton:selected {
+background-image:  meegotouch-dialog-button-positive $CORNER_MARGINS;
+text-color:        $CB_FONT_COLOR_INVERTED_SELECTED;
+}
+#CommonQueryButton:disabled {
+background-image:  meegotouch-dialog-button-negative-pressed $CORNER_MARGINS;
+text-color:        $CB_FONT_COLOR_INVERTED_DISABLED;
 }
 
 #CommonListIconButton {
