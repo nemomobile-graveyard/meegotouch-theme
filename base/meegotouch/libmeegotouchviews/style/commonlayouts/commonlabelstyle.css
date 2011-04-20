@@ -192,11 +192,19 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonHeader { /* Updated according to 1_5_9 but contains temporary values */
+#CommonHeader { /* Updated according to 1_5_9 */
 font:          $FONT_FAMILY light 32;
 color:         $COLOR_FOREGROUND;
-margin-top:    $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
-margin-bottom: $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
+margin-top:    20px;
+margin-bottom: 20px; 
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonHeader.Landscape { /* Updated according to 1_5_9 */
+font:          $FONT_FAMILY light 32;
+color:         $COLOR_FOREGROUND;
+margin-top:    16px;
+margin-bottom: 14px; 
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
@@ -491,15 +499,23 @@ margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonHeaderInverted { /* Updated according to 1_5_9 but contains temporary values */
+#CommonHeaderInverted { /* Updated according to 1_5_9 */
 font:          $FONT_FAMILY light 32;
 color:         $COLOR_INVERTED_FOREGROUND;
-margin-top:    $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
-margin-bottom: $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
+margin-top:    20px; 
+margin-bottom: 20px;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
-#CommonGroupHeaderInverted { /* Updated according to 1_5_9 but contains temporary values */
+#CommonHeaderInverted.Landscape { /* Updated according to 1_5_9 */
+font:          $FONT_FAMILY light 32;
+color:         $COLOR_INVERTED_FOREGROUND;
+margin-top:    16px; 
+margin-bottom: 14px;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
+}
+#CommonGroupHeaderInverted { /* Updated according to 1_5_9 */
 font:          $FONT_FAMILY bold 18;
 color:         #4D4D4D;
 margin-top:    $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
