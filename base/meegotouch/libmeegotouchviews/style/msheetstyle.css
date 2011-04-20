@@ -11,12 +11,14 @@ MSheetStyle {
 
     header-slot-style-name: "CommonSheetHeaderPanel";
     central-slot-style-name: "SheetCentralSlot";
+    central-slot-position-indicator-style-name: ;
     header-animation: "MWidgetSlideAnimation";
 }
 
 MSheetStyle#Inverted {
     header-slot-style-name: "CommonSheetHeaderPanelInverted";
     central-slot-style-name: "SheetCentralSlotIverted";
+    central-slot-position-indicator-style-name: "CommonPositionIndicatorInverted";
     background-color: $COLOR_INVERTED_BACKGROUND;
 }
 
