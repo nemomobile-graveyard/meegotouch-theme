@@ -880,7 +880,7 @@ maximum-size: -1 32px;
 
 #CommonCountBubbleInverted {
 font: $FONT_FAMILY bold 18;
-color: $COLOR_FOREGROUND;
+color: $COLOR_INVERTED_FOREGROUND;
 padding-top: 1px;
 padding-left: 7px;
 padding-right: 7px;
@@ -893,7 +893,7 @@ maximum-size: -1 24px;
 
 #CommonCountBubbleTopInverted {
 font: $FONT_FAMILY bold 18;
-color: $COLOR_FOREGROUND;
+color: $COLOR_INVERTED_FOREGROUND;
 padding-top: 1px;
 padding-left: 7px;
 padding-right: 7px;
