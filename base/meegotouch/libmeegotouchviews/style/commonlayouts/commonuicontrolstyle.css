@@ -7,6 +7,8 @@
 @const C_INPUT_LEFT_INDENT: 14px;
 @const C_INPUT_RIGHT_INDENT: 14px;
 
+/* Should be moved to constants.ini */
+@const SIZE_SPINNER_THUMBNAIL: 64px;
 
 /* switch */
 
@@ -326,6 +328,16 @@ minimum-size:    3.2mm 3.2mm;
 preferred-size:  3.2mm 3.2mm;
 maximum-size:    3.2mm 3.2mm;
 }
+#CommonThumbnailSpinner {
+base-image-size: $SIZE_SPINNER_THUMBNAIL;
+margin-left:     $INDENT_DEFAULT;
+margin-right:    0;
+margin-top:      $MARGIN_LARGE;
+margin-bottom:   $MARGIN_LARGE;
+minimum-size:    6.4mm 6.4mm;
+preferred-size:  6.4mm 6.4mm;
+maximum-size:    6.4mm 6.4mm;
+}
 #CommonLargeSpinner {
 base-image-size: $SIZE_SPINNER_LARGE;
 margin-top:      0;
@@ -358,6 +370,17 @@ margin-right:    $INDENT_DEFAULT;
 minimum-size:    3.2mm 3.2mm;
 preferred-size:  3.2mm 3.2mm;
 maximum-size:    3.2mm 3.2mm;
+}
+#CommonThumbnailSpinnerInverted {
+base-image-name: "spinnerinverted";
+base-image-size: $SIZE_SPINNER_THUMBNAIL;
+margin-left:     $INDENT_DEFAULT;
+margin-right:    0;
+margin-top:      $MARGIN_LARGE;
+margin-bottom:   $MARGIN_LARGE;
+minimum-size:    6.4mm 6.4mm;
+preferred-size:  6.4mm 6.4mm;
+maximum-size:    6.4mm 6.4mm;
 }
 #CommonLargeSpinnerInverted {
 base-image-name: "spinnerinverted";
