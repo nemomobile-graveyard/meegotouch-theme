@@ -578,6 +578,7 @@ MListItemStyle#CommonEditorComboBoxButton:pressed {
 MTextEditStyle#CommonEditorNoteArea {
     background-image: meegotouch-sheet-inputfield-background 15px 15px 15px 15px;
     font: $FONT_FAMILY light 26;
+    prompt-font: $FONT_FAMILY light 26;
     padding-top: 24;
 }
 
@@ -588,6 +589,7 @@ MTextEditStyle#CommonEditorNoteArea:selected {
 MTextEditStyle#CommonEditorNoteAreaInverted {
     background-image: meegotouch-sheet-inputfield-inverted-background 15px 15px 15px 15px;
     font: $FONT_FAMILY light 26;
+    prompt-font: $FONT_FAMILY light 26;
     text-color: $COLOR_INVERTED_FOREGROUND;
     padding-top: 24;
 }
