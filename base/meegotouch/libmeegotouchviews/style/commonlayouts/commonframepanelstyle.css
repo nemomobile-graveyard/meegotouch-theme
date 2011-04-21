@@ -136,8 +136,8 @@ background-image:  $CFP_BG_SELECTED;
 
 #CommonSmallTopFramePanel {
 minimum-size:      $SIZE_LIST 6.5mm;
-preferred-size:    -1 $CFP_HEIGHT;
-maximum-size:      -1 $CFP_HEIGHT;
+preferred-size:    -1 6.5mm;
+maximum-size:      -1 6.5mm;
 background-tiles:  ;
 background-image:  $CFP_BG_TOP;
 margin-top:        $CFP_M_TOP;
@@ -156,8 +156,8 @@ background-image:  $CFP_BG_TOP_SELECTED;
 
 #CommonSmallCenterFramePanel {
 minimum-size:      $SIZE_LIST 6.4mm;
-preferred-size:    -1 $CFP_HEIGHT;
-maximum-size:      -1 $CFP_HEIGHT;
+preferred-size:    -1 6.4mm;
+maximum-size:      -1 6.4mm;
 background-tiles:  ;
 background-image:  $CFP_BG_CENTER;
 margin-top:        0;
@@ -176,8 +176,8 @@ background-image:  $CFP_BG_CENTER_SELECTED;
 
 #CommonSmallBottomFramePanel {
 minimum-size:      $SIZE_LIST 6.6mm;
-preferred-size:    -1 $CFP_HEIGHT;
-maximum-size:      -1 $CFP_HEIGHT;
+preferred-size:    -1 6.6mm;
+maximum-size:      -1 6.6mm;
 background-tiles:  ;
 background-image:  $CFP_BG_BOTTOM;
 margin-top:        0;
@@ -300,8 +300,8 @@ background-image:  $CFP_BG_INVERTED_SELECTED;
 
 #CommonSmallTopFramePanelInverted {
 minimum-size:      $SIZE_LIST 6.5mm;
-preferred-size:    -1 $CFP_HEIGHT;
-maximum-size:      -1 $CFP_HEIGHT;
+preferred-size:    -1 6.5mm;
+maximum-size:      -1 6.5mm;
 background-tiles:  ;
 background-image:  $CFP_BG_TOP_INVERTED;
 margin-top:        $CFP_M_TOP;
@@ -320,8 +320,8 @@ background-image:  $CFP_BG_TOP_INVERTED_SELECTED;
 
 #CommonSmallCenterFramePanelInverted {
 minimum-size:      $SIZE_LIST 6.4mm;
-preferred-size:    -1 $CFP_HEIGHT;
-maximum-size:      -1 $CFP_HEIGHT;
+preferred-size:    -1 6.4mm;
+maximum-size:      -1 6.4mm;
 background-tiles:  ;
 background-image:  $CFP_BG_CENTER_INVERTED;
 margin-top:        0;
@@ -340,8 +340,8 @@ background-image:  $CFP_BG_CENTER_INVERTED_SELECTED;
 
 #CommonSmallBottomFramePanelInverted {
 minimum-size:      $SIZE_LIST 6.6mm;
-preferred-size:    -1 $CFP_HEIGHT;
-maximum-size:      -1 $CFP_HEIGHT;
+preferred-size:    -1 6.6mm;
+maximum-size:      -1 6.6mm;
 background-tiles:  ;
 background-image:  $CFP_BG_BOTTOM_INVERTED;
 margin-top:        0;
