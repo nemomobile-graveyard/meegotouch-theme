@@ -163,18 +163,18 @@ margin-right:  $INDENT_DEFAULT;
 #CommonBodyText {
 font:          $FONT_FAMILY light 24;
 color:         $COLOR_FOREGROUND;
-margin-top:    2.4mm;
-margin-bottom: 2.4mm;
-margin-left:   2.4mm;
-margin-right:  2.4mm;
+margin-top:    $MARGIN_XLARGE;
+margin-bottom: $MARGIN_XLARGE;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
 }
 #CommonBodyTextLight {
 font:          $FONT_FAMILY light 24;
 color:         $COLOR_SECONDARY_FOREGROUND;
-margin-top:    2.4mm;
-margin-bottom: 2.4mm;
-margin-left:   2.4mm;
-margin-right:  2.4mm;
+margin-top:    $MARGIN_XLARGE;
+margin-bottom: $MARGIN_XLARGE;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
 }
 #CommonXLargeHeader { /* deprecated */
 font:          $FONT_FAMILY light 56;
@@ -470,18 +470,18 @@ margin-right:  $INDENT_DEFAULT;
 #CommonBodyTextInverted {
 font:          $FONT_FAMILY light 24;
 color:         $COLOR_INVERTED_FOREGROUND;
-margin-top:    2.4mm;
-margin-bottom: 2.4mm;
-margin-left:   2.4mm;
-margin-right:  2.4mm;
+margin-top:    $MARGIN_XLARGE;
+margin-bottom: $MARGIN_XLARGE;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
 }
 #CommonBodyTextLightInverted {
 font:          $FONT_FAMILY light 24;
 color:         $COLOR_INVERTED_SECONDARY_FOREGROUND;
-margin-top:    2.4mm;
-margin-bottom: 2.4mm;
-margin-left:   2.4mm;
-margin-right:  2.4mm;
+margin-top:    $MARGIN_XLARGE;
+margin-bottom: $MARGIN_XLARGE;
+margin-left:   $INDENT_DEFAULT;
+margin-right:  $INDENT_DEFAULT;
 }
 #CommonXLargeHeaderInverted { /* deprecated */
 font:          $FONT_FAMILY light 56;
