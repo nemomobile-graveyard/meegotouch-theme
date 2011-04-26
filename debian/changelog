@@ -1,3 +1,19 @@
+meegotouchtheme (0.20.96-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#246508 - Rich text editor css needs an update
+  * New: MSheetStyle::central-slot-position-indicator-style-name
+  * Fixes: NB#249834 - CommonCountBubbleInverted has wrong label color
+  * Fixes: NB#249760 - [TASK] Add 64px spinner variant for list-items
+  * Fixes: NB#249711 - CommonEditorNoteArea prompt font size undefined
+  * Fixes: NB#246845 - Body text margins
+  * Fixes: NB#249512 - Common Small Frame Panels have wrong height
+  * Fixes: NB#248469 - [TASK] Update query button asset id according to toolkit 1.5.9
+  * Fixes: NB#249340 - [TASK] Update CommonItemInfo size according to TK159
+  * Fixes: NB#243136 - [TASK] Add CommonHeader portrait style according to toolkit 1.5.9
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 26 Apr 2011 18:00:41 +0300
+
 meegotouchtheme (0.20.95-1) unstable; urgency=low
 
   * New version
