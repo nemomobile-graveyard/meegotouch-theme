@@ -35,7 +35,8 @@ MDialogStyle {
 
     dialog-minimum-size: 54.4mm 13.7mm;
     dialog-preferred-size: 54.4mm -1;
-    dialog-button-fixed-width: -1;
+    /* FIXME: This really should use the standard mbuttonstyle instead. */
+    dialog-button-fixed-width: 322px;
     button-box-centered: false;
 
     has-close-button: true;
