@@ -375,13 +375,11 @@ MSeparator#CommonEditorItemDividerInverted {
 }
 
 MTextEditStyle#CommonEditorInputField {
-    background-image: ;
+    background-image: none;
     font: $FONT_FAMILY bold 26;
     prompt-font: $FONT_FAMILY 26;
     prompt-color: $COLOR_EDITOR_PROMPT;
     minimum-size: 56 56;
-    preferred-size: 100% -1;
-    maximum-size: 100% 100%;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -394,17 +392,15 @@ MTextEditStyle#CommonEditorInputField {
 
 
 MTextEditStyle#CommonEditorInputField:selected {
-    background-image: ;
+    background-image: none;
 }
 
 
 MTextEditStyle#CommonEditorInputFieldMultiline {
-    background-image: ;
+    background-image: none;
     font: $FONT_FAMILY bold 26;
 
     minimum-size: 56 56;
-    preferred-size: 100% -1;
-    maximum-size: 100% 100%;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: $MARGIN_LARGE;
@@ -416,19 +412,17 @@ MTextEditStyle#CommonEditorInputFieldMultiline {
 }
 
 MTextEditStyle#CommonEditorInputFieldMultiline:selected {
-    background-image: ;
+    background-image: none;
 }
 
 
 MTextEditStyle#CommonEditorInputFieldInverted {
-    background-image: ;
+    background-image: none;
     font: $FONT_FAMILY bold 26;
     text-color: $COLOR_INVERTED_FOREGROUND;
     prompt-font: $FONT_FAMILY 26;
     prompt-color: $COLOR_EDITOR_PROMPT;
     minimum-size: 56 56;
-    preferred-size: 100% -1;
-    maximum-size: 100% 100%;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -441,17 +435,15 @@ MTextEditStyle#CommonEditorInputFieldInverted {
 
 
 MTextEditStyle#CommonEditorInputFieldInverted:selected {
-    background-image: ;
+    background-image: none;
 }
 
 
 MTextEditStyle#CommonEditorInputFieldMultilineInverted {
-    background-image: ;
+    background-image: none;
     font: $FONT_FAMILY bold 26;
     text-color: $COLOR_INVERTED_FOREGROUND;
     minimum-size: 56 56;
-    preferred-size: 100% -1;
-    maximum-size: 100% 100%;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: $MARGIN_LARGE;
@@ -463,7 +455,7 @@ MTextEditStyle#CommonEditorInputFieldMultilineInverted {
 }
 
 MTextEditStyle#CommonEditorInputFieldMultilineInverted:selected {
-    background-image: ;
+    background-image: none;
 }
 
 
