@@ -7,7 +7,7 @@ MBannerStyle {
     padding-left: 0;
     /* In msec */
     disappear-timeout: 5000;
-    /* Only works for shorteventbanner & fulleventbanner */
+    /* Available for FullEventBanner, EventBanner, LockScreenEventBanner. */
     press-down-banner-opacity: 0.6;
 }
 
@@ -63,10 +63,6 @@ MBannerStyle #PrivateEventBanner {
     margin-right: $MARGIN_LARGE;
     margin-left:  $MARGIN_LARGE;
     background-image: "meegotouch-fulleventbanner-background" 10px 10px 10px 10px;
-}
-
-MBannerStyle #PrivateEventBanner:pressed {
-    background-image: "meegotouch-fulleventbanner-background-pressed" 10px 10px 10px 10px;
 }
 
 MBannerStyle #PrivateEventBanner.Landscape {
@@ -128,10 +124,6 @@ MBannerStyle #FullEventBanner {
     margin-right: $MARGIN_LARGE;
     margin-left:  $MARGIN_LARGE;
     background-image: "meegotouch-fulleventbanner-background" 10px 10px 10px 10px;
-}
-
-MBannerStyle #FullEventBanner:pressed {
-    background-image: "meegotouch-fulleventbanner-background-pressed" 10px 10px 10px 10px;
 }
 
 MBannerStyle #FullEventBanner.Landscape {
@@ -220,10 +212,6 @@ MBannerStyle #SystemBanner {
     background-image: "meegotouch-notification-system-background" 10px 10px 10px 10px;
 }
 
-MBannerStyle #SystemBanner:pressed {
-    background-image: "meegotouch-notification-system-background-pressed" 10px 10px 10px 10px;
-}
-
 MBannerStyle #SystemBanner.Landscape {
     maximum-size: 83.8mm 10.6mm;
     minimum-size: 46.6mm 6.4mm;
@@ -259,10 +247,6 @@ MBannerStyle #InformationBanner {
     margin-left:1mm;
     margin-bottom:1mm;
     background-image: "meegotouch-notification-information-background" 10px 10px 10px 10px;
-}
-
-MBannerStyle #Information:pressed {
-    background-image: "meegotouch-notification-information-background-pressed" 10px 10px 10px 10px;
 }
 
 MBannerStyle #InformationBanner.Landscape {
@@ -310,10 +294,6 @@ MBannerStyle #LockScreenEventBanner {
     margin-left:  $MARGIN_LARGE;
     background-image: "meegotouch-lockscreen-notification-background" 10px 10px 10px 10px;
 }
-
-/*MBannerStyle #LockScreenEventBanner:pressed {
-    background-image: "meegotouch-fulleventbanner-background-pressed" 10px 10px 10px 10px;
-}*/
 
 MBannerStyle #LockScreenEventBanner.Landscape {
     minimum-size: 83.8mm 8mm;
