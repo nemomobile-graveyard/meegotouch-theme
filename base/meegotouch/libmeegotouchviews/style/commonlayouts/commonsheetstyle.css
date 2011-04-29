@@ -225,7 +225,7 @@ MLabelStyle#CommonEditorInputFieldLabel:selected {
     color: $COLOR_ACCENT1;
 }
 
-MLabelStyle#CommonEditorInputFieldLabelIverted {
+MLabelStyle#CommonEditorInputFieldLabelInverted {
     font: $FONT_FAMILY light 26;
     color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
     margin-top: 15;
@@ -235,7 +235,7 @@ MLabelStyle#CommonEditorInputFieldLabelIverted {
     vertical-alignment: top;
 }
 
-MLabelStyle#CommonEditorInputFieldLabelIverted:selected {
+MLabelStyle#CommonEditorInputFieldLabelInverted:selected {
     color: $COLOR_ACCENT1;
 }
 
