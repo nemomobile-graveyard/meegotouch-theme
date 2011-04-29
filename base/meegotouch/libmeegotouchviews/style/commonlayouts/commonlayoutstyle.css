@@ -1,8 +1,9 @@
 /* ApplicationPage */
 
-MApplicationPageStyle#CommonApplicationPageInverted.Portrait {
+MApplicationPageStyle#CommonApplicationPageInverted {
 background-image: $BACKGROUND_INVERTED_PORTRAIT;
 background-color: $COLOR_INVERTED_BACKGROUND;
+position-indicator-style-name: "CommonPositionIndicatorInverted";
 }
 MApplicationPageStyle#CommonApplicationPageInverted.Landscape {
 background-image: $BACKGROUND_INVERTED_LANDSCAPE;
