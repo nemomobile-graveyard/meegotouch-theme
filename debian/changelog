@@ -1,3 +1,12 @@
+meegotouchtheme (0.20.98-1) unstable; urgency=low
+
+  * New version
+  * Changes: Set position-indicator-style-name.
+  * Fixes: NB#251252 - Typo in CommonEditorInputFieldLabelInverted
+  * Fixes: NB#231340 - Style #CommonStatusBarNoMenu has additional effect - status area becomes black.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 02 May 2011 15:31:57 +0300
+
 meegotouchtheme (0.20.97-1) unstable; urgency=low
 
   * New version
