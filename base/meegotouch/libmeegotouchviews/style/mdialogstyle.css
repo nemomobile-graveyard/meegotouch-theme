@@ -85,8 +85,8 @@ MDialogStyle.Portrait {
     padding-top: 0;
     padding-bottom: 0.4mm;
 
-    background-image: ;
-    background-color: ;
+    background-image: none;
+    background-color: none;
 }
 
 #MDialogContentsViewport.Portrait {
@@ -97,13 +97,13 @@ MDialogStyle.Portrait {
 }
 
 MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
-    background-image: ;
-    background-color: ;
+    background-image: none;
+    background-color: none;
     maximum-size: -1 100%;
 }
 
 #MDialogCloseButton {
-    icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
+    icon-size: 40px 40px;
     minimum-size: $SIZE_BUTTON  57px;
     preferred-size: $SIZE_BUTTON  57px;
     maximum-size: $SIZE_BUTTON 57px;
