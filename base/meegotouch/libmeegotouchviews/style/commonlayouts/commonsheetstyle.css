@@ -249,6 +249,9 @@ MLabelStyle#CommonEditorInputFieldLabelInverted:selected {
     margin-bottom:    0;
     margin-left:      0;
     margin-right:     $INDENT_DEFAULT;
+    reactive-margin-top: 20px;
+    reactive-margin-left: 20px;
+    reactive-margin-bottom: 20px;
 }
 
 #CommonEditorExpandButton:pressed {
@@ -264,6 +267,9 @@ MLabelStyle#CommonEditorInputFieldLabelInverted:selected {
     margin-bottom:    0;
     margin-left:      0;
     margin-right:     $INDENT_DEFAULT;
+    reactive-margin-top: 20px;
+    reactive-margin-left: 20px;
+    reactive-margin-bottom: 20px;
 }
 
 #CommonEditorExpandButtonInverted:pressed {
@@ -277,7 +283,7 @@ MLabelStyle#CommonEditorInputFieldLabelInverted:selected {
     background-tiles:  ;
     background-image:  meegotouch-sheet-editor-collapsed-background;
     background-color:  ;
-    margin-top:        0;
+    margin-top:        20px;
     margin-bottom:     0;
     margin-left:       0;
     margin-right:      0;
@@ -293,7 +299,7 @@ MLabelStyle#CommonEditorInputFieldLabelInverted:selected {
     background-tiles:  ;
     background-image:  meegotouch-sheet-editor-collapsed-inverted-background;
     background-color:  ;
-    margin-top:        0;
+    margin-top:        20px;
     margin-bottom:     0;
     margin-left:       0;
     margin-right:      0;
@@ -309,7 +315,7 @@ MLabelStyle#CommonEditorInputFieldLabelInverted:selected {
     background-tiles:  ;
     background-image:  meegotouch-sheet-editor-note-expanded-background;
     background-color:  ;
-    margin-top:        0;
+    margin-top:        20px;
     margin-bottom:     0;
     margin-left:       0;
     margin-right:      0;
@@ -322,7 +328,7 @@ MLabelStyle#CommonEditorInputFieldLabelInverted:selected {
     background-tiles:  ;
     background-image:  meegotouch-sheet-editor-note-expanded-inverted-background;
     background-color:  ;
-    margin-top:        0;
+    margin-top:        20px;
     margin-bottom:     0;
     margin-left:       0;
     margin-right:      0;
