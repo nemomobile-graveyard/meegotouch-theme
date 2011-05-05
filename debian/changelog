@@ -1,9 +1,17 @@
-meegotouchtheme (0.20.99~1) natty; urgency=low
+meegotouchtheme (0.20.99-1) natty; urgency=low
 
-  * [unreleased]
+  * New version
+  * Changes: Updating changelog
+  * Fixes: NB#252105 - Common expand button needs to have more free space around it
+  * Changes: Tweaking values of tap state machine
+  * Changes: Whitespace fixes.
+  * Fixes: NB#245878 - icon-m-common-dialog-close not according toolkit 1.5.9.
+  * Changes: Add #CommonSmallMainIcon.
+  * Fixes: BMC#16987 - Remove meegotouch/svg/meegotouch-virtual-keyboard.svg from meegotouchtheme
+  * Changes: updates for MBanner.
   * Fixes: NB#194523 - The reaction time for tapping on list item is above the target
 
- -- Daniel d'Andrada <daniel.dandrada@nokia.com>  Thu, 05 May 2011 13:42:50 +0300
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 05 May 2011 16:02:19 +0300
 
 meegotouchtheme (0.20.98-1) unstable; urgency=low
 
