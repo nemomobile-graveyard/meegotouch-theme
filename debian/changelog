@@ -1,3 +1,10 @@
+meegotouchtheme (0.20.99~1) natty; urgency=low
+
+  * [unreleased]
+  * Fixes: NB#194523 - The reaction time for tapping on list item is above the target
+
+ -- Daniel d'Andrada <daniel.dandrada@nokia.com>  Thu, 05 May 2011 13:42:50 +0300
+
 meegotouchtheme (0.20.98-1) unstable; urgency=low
 
   * New version
