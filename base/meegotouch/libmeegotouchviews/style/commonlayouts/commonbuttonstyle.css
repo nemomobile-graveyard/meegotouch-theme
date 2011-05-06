@@ -1313,6 +1313,10 @@ background-image:  meegotouch-dialog-button-negative-pressed $CORNER_MARGINS;
 text-color:        $CB_FONT_COLOR_INVERTED_DISABLED;
 }
 
+MLabel#MDialogButtonBox MButtonStyle#CommonQueryButton {
+margin-top: 20px;
+}
+
 #CommonQueryActionButton {
 margin-top:        $MARGIN_LARGE;
 margin-bottom:     $MARGIN_LARGE;

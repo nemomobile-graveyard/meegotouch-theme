@@ -44,7 +44,6 @@ MDialogStyle {
 
     button-box-orientation: horizontal;
     button-box-centered: true;
-    dialog-button-fixed-width: 21.2mm;
 
     maximum-horizontal-buttons: 3;
 
@@ -152,7 +151,7 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
 #MDialogButtonBox {
     minimum-size: -1 -1;
     preferred-size: -1 -1;
-    maximum-size: -1 8mm;
+    maximum-size: -1 80px;
 
     background-image: meegotouch-dialog-button-area-background 10px 10px 10px 10px;
     margin-left: 0;
