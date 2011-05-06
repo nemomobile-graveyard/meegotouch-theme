@@ -33,7 +33,7 @@ MMessageBoxStyle#LargeButtonsQueryDialog.Portrait {
 }
 
 #MMessageBoxButtonBox {
-    background-image: ;
+    background-image: none;
     minimum-size: -1 8mm;
     preferred-size: -1 8mm;
     maximum-size: -1 8mm;

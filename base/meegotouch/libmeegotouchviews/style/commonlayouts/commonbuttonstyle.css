@@ -1315,6 +1315,7 @@ text-color:        $CB_FONT_COLOR_INVERTED_DISABLED;
 
 MLabel#MDialogButtonBox MButtonStyle#CommonQueryButton {
 margin-top: 20px;
+margin-bottom: 0;
 }
 
 #CommonQueryActionButton {

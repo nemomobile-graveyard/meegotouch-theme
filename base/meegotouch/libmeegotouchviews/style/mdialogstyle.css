@@ -60,7 +60,7 @@ MDialogStyle {
 MDialogStyle.Portrait {
     dialog-minimum-size: 44.8mm 13.7mm;
     dialog-preferred-size: 44.8mm -1;
-    maximum-horizontal-buttons: 2;
+    maximum-horizontal-buttons: 1;
     button-spacing: $MARGIN_DEFAULT;
 
     /* This is a hack to avoid the animation starting from the corner. This should become obsolete eventually. */
