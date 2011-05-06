@@ -1326,15 +1326,15 @@ margin-right:      0.3mm;
 text-color:        $CB_FONT_COLOR_INVERTED;
 background-image:  meegotouch-dialog-button-positive $CORNER_MARGINS;
 }
-#CommonQueryButton:pressed {
+#CommonQueryActionButton:pressed {
 background-image:  meegotouch-dialog-button-positive-pressed $CORNER_MARGINS;
 text-color:        $CB_FONT_COLOR_INVERTED_PRESSED;
 }
-#CommonQueryButton:selected {
+#CommonQueryActionButton:selected {
 background-image:  meegotouch-dialog-button-positive $CORNER_MARGINS;
 text-color:        $CB_FONT_COLOR_INVERTED_SELECTED;
 }
-#CommonQueryButton:disabled {
+#CommonQueryActionButton:disabled {
 background-image:  meegotouch-dialog-button-negative-pressed $CORNER_MARGINS;
 text-color:        $CB_FONT_COLOR_INVERTED_DISABLED;
 }
