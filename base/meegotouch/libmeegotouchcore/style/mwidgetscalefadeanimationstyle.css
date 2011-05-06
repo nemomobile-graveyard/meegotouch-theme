@@ -22,24 +22,24 @@ MWidgetScaleFadeAnimationStyle#Out {
 }
 
 MBanner#SystemBanner MWidgetScaleFadeAnimationStyle#In {
-    opacity-animation-duration: 500;
-    opacity-animation-easing-curve: outback;
+    opacity-animation-duration: 400;
+    opacity-animation-easing-curve: overshotbezier;
     
-    scale-animation-duration: 500;
-    scale-animation-easing-curve: outback;
+    scale-animation-duration: 400;
+    scale-animation-easing-curve: overshotbezier;
 
-    scale: 0.25;
+    scale: 0.50;
     opacity: 1;
 }
 
 MBanner#SystemBanner MWidgetScaleFadeAnimationStyle#Out {
 
-    opacity-animation-duration: 200;
+    opacity-animation-duration: 150;
     opacity-animation-easing-curve: inexpo;
     
-    scale-animation-duration: 200;
+    scale-animation-duration: 150;
     scale-animation-easing-curve: inexpo;
 
-    scale: 0.25;
+    scale: 0.0;
     opacity: 1;
 }
