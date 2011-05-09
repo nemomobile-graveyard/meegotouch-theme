@@ -1,3 +1,21 @@
+meegotouchtheme (0.21.1-1) natty; urgency=low
+
+  * New version
+  * Changes: removing more duplicates ID's
+  * Changes: removing duplicate ID's
+  * Fixes: NB#252960
+  * Changes: Add missing icon that is referenced but probably unused.
+  * Changes: Add radiobuttons and some other missing assets.
+  * Changes: Add checkbox-radiobutton SVG.
+  * Fixes: BMC#16859 - Missing pixmap for checkbox background in n900de theme
+  * Changes: Fixed dialog button styling with new button sizes.
+  * Fixes: NB#253349 - CommonQueryActionButton states overwriting CommonQueryButton
+  * Fixes: NB#252391 - Save number dialog - spacer missing between dialog lower separator and buttons.
+  * Fixes: NB#252655 - Dialog buttons are aligned outside dialog in base theme.
+  * Fixes: NB#252593 - [TASK] System Information Banner transitions are a little of
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 09 May 2011 15:23:43 +0300
+
 meegotouchtheme (0.20.99-1) natty; urgency=low
 
   * New version
