@@ -65,3 +65,17 @@ MSheet MWidgetFadeAnimationStyle#Out {
     easing-curve: inoutexpo;
     opacity: 1.0;
 }
+
+MSceneLayerEffect#MenuSceneLayerEffect MWidgetFadeAnimationStyle#In {
+    delay: 0;
+    duration: 350;
+    easing-curve: inoutquint;
+    opacity: 1.0;
+}
+
+MSceneLayerEffect#MenuSceneLayerEffect MWidgetFadeAnimationStyle#Out {
+    delay: 0;
+    duration: 350;
+    easing-curve: inoutquint;
+    opacity: 1.0;
+}

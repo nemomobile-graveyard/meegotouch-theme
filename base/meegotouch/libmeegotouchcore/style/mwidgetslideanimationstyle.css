@@ -89,3 +89,31 @@ MNavigationBar MWidgetSlideAnimationStyle#Out {
     origin: "top";
     easing-curve: outexpo;
 }
+
+MApplicationMenu MWidgetSlideAnimationStyle#In {
+    delay: 0;
+    duration: 350;
+    origin: "top";
+    easing-curve: inoutquint;
+}
+
+MApplicationMenu MWidgetSlideAnimationStyle#Out {
+    delay: 0;
+    duration: 350;
+    origin: "top";
+    easing-curve: inoutquint;
+}
+
+MObjectMenu MWidgetSlideAnimationStyle#In {
+    delay: 0;
+    duration: 350;
+    origin: "bottom";
+    easing-curve: inoutquint;
+}
+
+MObjectMenu MWidgetSlideAnimationStyle#Out {
+    delay: 0;
+    duration: 350;
+    origin: "bottom";
+    easing-curve: inoutquint;
+}

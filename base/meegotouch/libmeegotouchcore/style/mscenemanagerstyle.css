@@ -1,6 +1,6 @@
 MSceneManagerStyle {
   page-switch-animation: "MPageSwitchSlideAnimation";
-  object-menu-animation: "MWidgetRectangularClipAnimation";
+  object-menu-animation: "MWidgetSlideAnimation";
   dialog-animation: "MWidgetSlideAnimation";
   notification-information-animation: "MWidgetSlideAnimation";
   notification-event-animation: "MWidgetSlideAnimation";

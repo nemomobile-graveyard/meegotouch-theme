@@ -14,3 +14,7 @@ MSceneLayerEffectStyle {
     padding-right: 0px;
     padding-bottom: 0px;
 }
+
+#MenuSceneLayerEffect {
+    background-image: "meegotouch-menu-dimmer";
+}
