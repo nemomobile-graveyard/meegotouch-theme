@@ -1,3 +1,14 @@
+meegotouchtheme (0.21.2-1) natty; urgency=low
+
+  * New version
+  * Changes: required change for bugfix 254760
+  * Fixes: NB#246503 - Toggle from text formatting to copy / paste is not in line with layout guide
+  * Fixes: NB#254760 - [TASK] Move Live filtering styles to Common styles
+  * Fixes: NB#248022 - MCompleter's layout is not in line with latest layout guide
+  * Fixes: NB#248488 - Sheets: Buttons are too small to show proper labels
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 11 May 2011 16:19:36 +0300
+
 meegotouchtheme (0.21.1-1) natty; urgency=low
 
   * New version
