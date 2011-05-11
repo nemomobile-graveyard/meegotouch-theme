@@ -282,8 +282,5 @@ preferred-size: $ICON48;
 margin-right:   0;
 margin-top:     $MARGIN_XLARGE;
 margin-bottom:  $MARGIN_XLARGE;
-margin-left:    412px;
-}
-#CommonSearchMagnifierIcon.Landscape {
-margin-left:    786px;
+margin-left:    0;
 }

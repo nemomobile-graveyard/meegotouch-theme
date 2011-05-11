@@ -2017,7 +2017,7 @@ background-color:  ;
     preferred-size: $SIZE_BUTTON $SIZE_BUTTON;
     maximum-size: $SIZE_BUTTON $SIZE_BUTTON;
 
-    margin-left: 408px;
+    margin-left: 0;
     margin-top: $MARGIN_LARGE;
     margin-right: $MARGIN_LARGE;
     margin-bottom: $MARGIN_LARGE;
@@ -2025,6 +2025,3 @@ background-color:  ;
     icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
 }
 
-#CommonSearchClearButton.Landscape {
-    margin-left: 782px;
-}
