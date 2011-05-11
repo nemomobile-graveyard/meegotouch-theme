@@ -144,8 +144,3 @@ MEditorToolbar MButtonStyle#Mode:pressed
 {
     background-tiles: meegotouch-text-editor-mode-pressed $EDITOR_BUTTON_CORNERS;
 }
-
-MEditorToolbar MButtonStyle#Mode:selected
-{
-    background-tiles: meegotouch-text-editor-mode-selected $EDITOR_BUTTON_CORNERS;
-}
