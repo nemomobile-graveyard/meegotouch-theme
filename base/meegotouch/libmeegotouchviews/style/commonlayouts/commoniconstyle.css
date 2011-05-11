@@ -273,3 +273,17 @@ margin-bottom:  0.4mm;
 /* The image is temporary and will be replaced with a dedicated placeholder graphic */
 avatarBackgroundImage: meegotouch-panel-background-selected;
 }
+
+
+#CommonSearchMagnifierIcon {
+maximum-size:   $ICON48;
+minimum-size:   $ICON48;
+preferred-size: $ICON48;
+margin-right:   0;
+margin-top:     $MARGIN_XLARGE;
+margin-bottom:  $MARGIN_XLARGE;
+margin-left:    412px;
+}
+#CommonSearchMagnifierIcon.Landscape {
+margin-left:    786px;
+}

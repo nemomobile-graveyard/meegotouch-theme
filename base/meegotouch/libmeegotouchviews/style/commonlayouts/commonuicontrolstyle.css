@@ -668,6 +668,7 @@ margin-top:      14px;
 margin-bottom:   14px;
 margin-left:     $C_INPUT_LEFT_INDENT;
 margin-right:    $C_INPUT_RIGHT_INDENT;
+padding-right:   52px;
 }
 #CommonSearchField:selected {
 background-image: $C_INPUT_BG_SELECTED;
@@ -682,6 +683,7 @@ margin-top:      14px;
 margin-bottom:   14px;
 margin-left:     $C_INPUT_LEFT_INDENT;
 margin-right:    $C_INPUT_RIGHT_INDENT;
+padding-right:   52px;
 }
 #CommonSearchFieldInverted:selected {
 background-image: $C_INPUT_BG_SELECTED_INVERTED;

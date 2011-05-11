@@ -2012,3 +2012,19 @@ background-image:  ;
 background-color:  ;
 }
 
+#CommonSearchClearButton {
+    minimum-size: $SIZE_BUTTON $SIZE_BUTTON;
+    preferred-size: $SIZE_BUTTON $SIZE_BUTTON;
+    maximum-size: $SIZE_BUTTON $SIZE_BUTTON;
+
+    margin-left: 408px;
+    margin-top: $MARGIN_LARGE;
+    margin-right: $MARGIN_LARGE;
+    margin-bottom: $MARGIN_LARGE;
+
+    icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
+}
+
+#CommonSearchClearButton.Landscape {
+    margin-left: 782px;
+}
