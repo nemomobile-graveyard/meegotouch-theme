@@ -117,7 +117,7 @@ MEditorToolbar MButtonStyle#Underline
 
 MEditorToolbar MButtonStyle#Format
 {
-    icon-id: "icon-m-rich-text-view-menu";
+    icon-id: "icon-m-toolbar-rich-text-view-menu";
     icon-size: 48 48;
 
     padding-top: 19px;
