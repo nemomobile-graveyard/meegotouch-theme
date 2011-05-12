@@ -1,9 +1,9 @@
 /* MPositionIndicatorStyle : MWidgetStyle */
 MPositionIndicatorStyle {
-    indicator-image:    "meegotouch-positionindicator-indicator" 2px 2px 2px 2px;
+    indicator-image:    "meegotouch-positionindicator-indicator" 0px 0px 2px 2px;
     background-image:   ;
     background-color:   ;
-    indicator-image-horizontal:  "meegotouch-positionindicator-indicator-horizontal" 2px 2px 2px 2px;
+    indicator-image-horizontal:  "meegotouch-positionindicator-indicator-horizontal" 2px 2px 0px 0px;
     background-image-horizontal: ;
     minimum-size:       0.6mm 0.6mm;
     preferred-size:     -1 -1;
