@@ -1,5 +1,6 @@
-MColorListStyle {
-    background-color : #000000;
+MColorListStyle.Landscape {
+    margin-left: 4.9mm;
+    margin-right: 4.9mm;
 }
 
 MColorList MButtonStyle#ColorSelectionButton.Landscape {
