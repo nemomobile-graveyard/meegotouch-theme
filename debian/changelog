@@ -1,3 +1,14 @@
+meegotouchtheme (0.21.3-1) natty; urgency=low
+
+  * New version
+  * Fixes: NB#250534 - Red square button is displaying for Style settings icon in rich text toolbar.
+  * Changes: smaller margins for the postion indicator
+  * Fixes: part of NB#255284 - MColorList contains wrong colors
+  * Changes: New styling for the view and object menus
+  * Changes: putting back some missing ID's delete by error
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Fri, 13 May 2011 17:26:33 +0300
+
 meegotouchtheme (0.21.2-1) natty; urgency=low
 
   * New version
