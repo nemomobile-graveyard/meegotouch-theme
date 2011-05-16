@@ -214,7 +214,7 @@ color:         #8C8C8C;
 margin-top:    $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
 margin-bottom: $MARGIN_XSMALL; /* temporary value due to font issues FIX ME */
 margin-left:   $MARGIN_LARGE;
-margin-right:  $INDENT_DEFAULT;
+margin-right:  29px;
 }
 #CommonApplicationHeader { /* deprecated */
 font:          $FONT_FAMILY light 40;
@@ -521,7 +521,7 @@ color:         #707070;
 margin-top:    $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
 margin-bottom: $MARGIN_XSMALL; /* temporary value due to font issues FIX ME */
 margin-left:   $INDENT_DEFAULT;
-margin-right:  $INDENT_DEFAULT;
+margin-right:  29px;
 }
 #CommonApplicationHeaderInverted { /* deprecated */
 font:          $FONT_FAMILY light 40;
