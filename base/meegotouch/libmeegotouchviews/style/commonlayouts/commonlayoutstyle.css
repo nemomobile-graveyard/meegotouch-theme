@@ -221,10 +221,10 @@ maximum-size:   -1 -1;
 /* (inverted) Position indicators */
 
 #CommonPositionIndicatorInverted {
-    indicator-image: "meegotouch-positionindicator-inverted-indicator" 2px 2px 2px 2px;
+    indicator-image: "meegotouch-positionindicator-inverted-indicator" 0 0 2px 2px;
     background-image: ;
     background-color: ;
-    indicator-image-horizontal: "meegotouch-positionindicator-inverted-indicator-horizontal" 2px 2px 2px 2px;
+    indicator-image-horizontal: "meegotouch-positionindicator-inverted-indicator-horizontal" 2px 2px 0 0;
     background-image-horizontal: ;
 }
 
