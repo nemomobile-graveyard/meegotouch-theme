@@ -153,7 +153,7 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
     preferred-size: -1 -1;
     maximum-size: -1 80px;
 
-    background-image: meegotouch-dialog-button-area-background 10px 10px 10px 10px;
+    background-image: none;
     margin-left: 0;
     margin-top: 0;
     margin-right: 0;
