@@ -14,12 +14,11 @@ background-color: $COLOR_INVERTED_BACKGROUND;
 
 #CommonItemDivider {
 background-image: meegotouch-separator-background-horizontal 0px 0px 0px 0px;
-minimum-size:  -1 0.1mm;
-maximum-size:  -1 0.1mm;
+span:           0.2mm;
 margin-top:     0;
 margin-bottom:  0;
-margin-left:    $MARGIN_LARGE;
-margin-right:   $MARGIN_LARGE;
+margin-left:    $INDENT_DEFAULT;
+margin-right:   $INDENT_DEFAULT;
 }
 
 #CommonHeaderDivider {
@@ -42,8 +41,7 @@ margin-right:   $INDENT_DEFAULT;
 
 #CommonHorizontalSeparator {
 background-image: meegotouch-separator-background-horizontal 0px 0px 0px 0px;
-minimum-size:  -1 0.1mm;
-maximum-size:  -1 0.1mm;
+span:           0.2mm;
 margin-top:     0;
 margin-bottom:  0;
 margin-left:    0;
@@ -52,8 +50,7 @@ margin-right:   0;
 
 #CommonVerticalSeparator {
 background-image: meegotouch-separator-background-vertical 0px 0px 0px 0px;
-minimum-size:   0.1mm -1;
-maximum-size:   0.1mm -1;
+span:           0.2mm;
 margin-right:   0;
 margin-left:    0;
 margin-bottom:  0;
@@ -63,12 +60,11 @@ margin-top:     0;
 
 #CommonItemDividerInverted {
 background-image: meegotouch-separator-inverted-background-horizontal 0px 0px 0px 0px;
-minimum-size:  -1 0.1mm;
-maximum-size:  -1 0.1mm;
+span:           0.2mm;
 margin-top:     0;
 margin-bottom:  0;
-margin-left:    $MARGIN_LARGE;
-margin-right:   $MARGIN_LARGE;
+margin-left:    $INDENT_DEFAULT;
+margin-right:   $INDENT_DEFAULT;
 }
 
 #CommonHeaderDividerInverted {
@@ -91,8 +87,7 @@ margin-right:   $INDENT_DEFAULT;
 
 #CommonHorizontalSeparatorInverted {
 background-image: meegotouch-separator-inverted-background-horizontal 0px 0px 0px 0px;
-minimum-size:  -1 0.1mm;
-maximum-size:  -1 0.1mm;
+span:           0.2mm;
 margin-top:     0;
 margin-bottom:  0;
 margin-left:    0;
@@ -101,8 +96,7 @@ margin-right:   0;
 
 #CommonVerticalSeparatorInverted {
 background-image: meegotouch-separator-inverted-background-vertical 0px 0px 0px 0px;
-minimum-size:   0.1mm -1;
-maximum-size:   0.1mm -1;
+span:           0.2mm;
 margin-right:   0;
 margin-left:    0;
 margin-bottom:  0;
