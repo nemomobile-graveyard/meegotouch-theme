@@ -43,6 +43,8 @@ MPopupListStyle MListStyle {
 }
 
 #PopupListItem:selected {
-    background-image: meegotouch-button-objectmenu-background-selected-vertical-center;
+    background-tiles: none;
+    background-image: none;
+    background-color: #3D3D3D;
 }
 

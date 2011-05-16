@@ -218,3 +218,21 @@ MDialog MLabelStyle#CommonTitle {
     color: $COLOR_INVERTED_FOREGROUND;
 }
 
+MDialog MListItemStyle:selected {
+    background-tiles: none;
+    background-image: none;
+    background-color: #3D3D3D;
+}
+
+MDialog MListItemStyle#CommonPanel:selected {
+    background-tiles: none;
+    background-image: none;
+    background-color: #3D3D3D;
+}
+
+MDialog MWidgetControllerStyle#CommonPanel:selected {
+    background-tiles: none;
+    background-image: none;
+    background-color: #3D3D3D;
+}
+
