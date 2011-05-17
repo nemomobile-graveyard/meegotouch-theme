@@ -67,6 +67,15 @@ MApplicationMenuStyle.Portrait {
 MComboBoxStyle#MenuItem {
     button-style-name: "MenuComboBoxListItem";
 }
+#MenuItemSingleTitle:pressed {
+    color: #797979;
+}
+#MenuItemSingleTitle:selected {
+    color: #FFFFFF;
+}
+#MenuItemSingleTitle:disabled {
+    color: #797979;
+}
 
 MListItemStyle#MenuComboBoxListItem {
     background-tiles: meegotouch-list-background $CORNER_MARGINS;
