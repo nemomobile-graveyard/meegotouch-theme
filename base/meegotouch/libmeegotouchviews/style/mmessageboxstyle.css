@@ -11,6 +11,7 @@ MMessageBoxStyle {
     padding-right: 0px;
     padding-bottom: 0px;
 
+    button-box-style-name: "MMessageBoxButtonBox";
     button-box-orientation: vertical;
 }
 
@@ -21,7 +22,6 @@ MMessageBoxStyle.Landscape {
 }
 
 /* FIXME: This is a special case for the messagebox as specified in the Clock ALG.
- * NOTE: This might not be necessary any longer with the new dialog styles.
  * We are providing the style here only because it can't easily be custom styled from a library.
  * This style will force the buttons in a query dialog to always align vertically and not restrict the button sizes. */
 MMessageBoxStyle#LargeButtonsQueryDialog.Horizontal {
@@ -32,3 +32,9 @@ MMessageBoxStyle#LargeButtonsQueryDialog.Portrait {
     maximum-horizontal-buttons: 1;
 }
 
+#MMessageBoxButtonBox {
+    background-image: none;
+    minimum-size: -1 8mm;
+    preferred-size: -1 8mm;
+    maximum-size: -1 8mm;
+}
