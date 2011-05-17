@@ -45,7 +45,7 @@ MApplicationMenuStyle.Portrait {
 }
 
 #MApplicationMenuTopArea {
-    background-image: ;
+    background-image: none;
     maximum-size: 0 0;
 }
 
@@ -55,6 +55,7 @@ MApplicationMenuStyle.Portrait {
     maximum-size: -1 -1;
 }
 
+/* FIXME: This differs from CommonSingleTitle only by margins. */
 #MenuItemSingleTitle {
     font: $FONT_FAMILY bold 26px;
     color: $COLOR_FOREGROUND;
@@ -62,10 +63,6 @@ MApplicationMenuStyle.Portrait {
     margin-bottom: 0;
     margin-left: $MARGIN_XXLARGE;
     margin-right: $MARGIN_XXLARGE;
-}
-
-MComboBoxStyle#MenuItem {
-    button-style-name: "MenuComboBoxListItem";
 }
 #MenuItemSingleTitle:pressed {
     color: #797979;
@@ -77,10 +74,14 @@ MComboBoxStyle#MenuItem {
     color: #797979;
 }
 
+/* FIXME: Can we use an existing style for this? */
+MComboBoxStyle#MenuItem {
+    button-style-name: "MenuComboBoxListItem";
+}
 MListItemStyle#MenuComboBoxListItem {
     background-tiles: meegotouch-list-background $CORNER_MARGINS;
-    background-image: ;
-    background-color: ;
+    background-image: none;
+    background-color: none;
     minimum-size: $SIZE_LIST $SIZE_LIST;
     preferred-size: -1 $SIZE_LIST;
     maximum-size: 100% $SIZE_LIST;
@@ -89,7 +90,7 @@ MListItemStyle#MenuComboBoxListItem {
 }
 MListItemStyle#MenuComboBoxListItem:pressed {
     background-tiles: meegotouch-list-background-pressed $CORNER_MARGINS;
-    background-image: ;
-    background-color: ;
+    background-image: none;
+    background-color: none;
 }
 
