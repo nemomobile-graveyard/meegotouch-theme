@@ -102,7 +102,7 @@ MBannerStyle #PrivateEventBanner.Portrait {
     font: $FONT_XXSMALL;
     color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
 
-    margin-top: $MARGIN_LARGE;
+    margin-top: $MARGIN_XSMALL;
     margin-bottom: $INDENT_DEFAULT;
     margin-left: 0mm;
     margin-right: 1.4mm;
@@ -112,7 +112,17 @@ MBannerStyle #PrivateEventBanner.Portrait {
     font: $FONT_XXSMALL;
     color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
 
-    margin-top: $MARGIN_LARGE;
+    margin-top: $MARGIN_XSMALL;
+    margin-bottom: $INDENT_DEFAULT;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: 0.8mm;
+}
+
+#PrivateEventBannerTimeStampIsolated {
+    font: $FONT_XXSMALL;
+    color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
+
+    margin-top: $MARGIN_XSMALL;
     margin-bottom: $INDENT_DEFAULT;
     margin-left: $INDENT_DEFAULT;
     margin-right: 1.4mm;
