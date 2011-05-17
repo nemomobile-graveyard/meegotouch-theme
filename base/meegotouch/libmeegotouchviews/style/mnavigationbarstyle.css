@@ -173,7 +173,7 @@ MApplicationMenuButtonStyle :pressed
 
 #MNavigationBarBackButtonInverted {
     icon-id: "icon-m-toolbar-back-white";
-    icon-size: 4.0mm 4.0mm;
+    icon-size: 5.2mm 5.2mm;
 
     minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
     maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
@@ -184,10 +184,6 @@ MApplicationMenuButtonStyle :pressed
     minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_PORTRAIT;
     preferred-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_PORTRAIT;
     maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_PORTRAIT;
-}
-
-#MNavigationBarBackButtonInverted:disabled {
-    content-opacity: 0.3;
 }
 
 #MNavigationBarMenuButtonInverted {
