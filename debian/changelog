@@ -1,9 +1,27 @@
-meegotouchtheme (0.99.0~1) unstable; urgency=low
+meegotouchtheme (0.99.0-1) unstable; urgency=low
 
-  * [unreleased]
+  * New version
+  * Fixes: NB#229143 - [TASK] Combobox/thumbler -button needs arrows for pressed and disabled state.
+  * Fixes: NB#245312 - Inconsistent symbols for "hidden input" (aka password field).
+  * Changes: Fix list item corner margins.
+  * Changes: Fixed system and information banner animation.
+  * Fixes: NB#256225 - Service icon in presence dialog not aligned properly.
+  * Changes: New back button icon required new settings
+  * Fixes: NB#256383 - Query dialogs with icon are not displaying properly in landscape mode.
+  * Changes: Use a constant for dialog header color.
+  * Changes: updating some parameters for MBanner in private mode.
+  * Changes: Minor application menu style cleanups.
+  * Fixes: NB#256252 - gallery application menu options, when selected the button should be in disabled state
+  * Changes: MBasicLayoutAnimationStyle - add properties for scale support, disabled by default
+  * Fixes: NB#254126 - [TASK] Dialog color change.
+  * Changes: Also adjust corner margins of inverted position indicator.
+  * Fixes: NB#255649 - Single character index placement in the group headers is offset compared with fast scroll rail
+  * Changes: Additional style for bug NB#249855 - Groupheaders' grey color tone hard to read
+  * Changes: Styles needed for bug NB#254126 - [TASK] Dialog color change
+  * Fixes: NB#249855 - Groupheaders' grey color tone hard to read
   * Fixes: NB#252593 - [TASK] System Information Banner transitions are a little off
 
- -- Daniel d'Andrada <daniel.dandrada@nokia.com>  Mon, 16 May 2011 09:42:42 +0300
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 18 May 2011 16:26:56 +0300
 
 meegotouchtheme (0.21.3-1) natty; urgency=low
 
