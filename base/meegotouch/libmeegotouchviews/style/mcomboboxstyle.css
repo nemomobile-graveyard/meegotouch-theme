@@ -14,7 +14,7 @@ MComboBoxStyle {
     minimum-size:   $SIZE_ONE $SIZE_LIST;
     maximum-size:   100% $SIZE_LIST;
 
-    indicator-image: "icon-m-common-combobox-arrow";
+    indicator-image: "";
 
     button-style-name:              "ComboBoxListItem";
     title-object-name:              "CommonTitle";
@@ -33,13 +33,10 @@ MComboBoxStyle {
     item-mode: 0;
 }
 
-MComboBoxStyle:pressed {
-    sub-title-object-name: "CommonComboBoxButtonLabelPressed";
-}
-
 MComboBoxStyle[simpleButton] {
     button-style-name:      "ComboBoxButton";
     sub-title-object-name:  "CommonButtonLabel";
+    indicator-object-name:  "CommonComboBoxButtonIcon";
     has-title:              false;
     minimum-size:           51px 51px;
     preferred-size:         -1 51px;
@@ -50,6 +47,7 @@ MComboBoxStyle[labelButton] {
     button-style-name:      "ComboBoxButton";
     title-object-name:      "CommonFieldLabel";
     sub-title-object-name:  "CommonButtonLabel";
+    indicator-object-name:  "CommonComboBoxButtonIcon";
     separate-title:         true;
 }
 

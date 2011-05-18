@@ -696,10 +696,10 @@ background-image: $C_INPUT_BG_ERROR_INVERTED;
 
 MComboBoxStyle#CommonComboBoxInverted {
 button-style-name:              "CommonComboBoxListItemInverted";
-indicator-image:                "icon-m-textinput-combobox-arrow";
 title-object-name:              "CommonTitleInverted";
 sub-title-object-name:          "CommonSubTitleInverted";
 progress-indicator-object-name: "CommonProgressBarInverted";
+indicator-object-name:          "CommonComboBoxIconInverted";
 }
 MListItemStyle#CommonComboBoxListItemInverted {
 background-tiles:   ;
@@ -728,7 +728,7 @@ maximum-size:   322px 51px;
 MComboBoxStyle#CommonComboBoxButtonNoTitleInverted {
 button-style-name:      "CommonComboBoxButtonInverted";
 sub-title-object-name:  "CommonButtonLabelInverted";
-indicator-image:        "icon-m-textinput-combobox-arrow";
+indicator-object-name:  "CommonComboBoxButtonIconInverted";
 has-title:              false;
 margin-left:            $INDENT_DEFAULT;
 margin-right:           $INDENT_DEFAULT;

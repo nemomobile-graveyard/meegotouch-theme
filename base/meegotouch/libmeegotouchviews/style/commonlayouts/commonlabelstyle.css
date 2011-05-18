@@ -321,7 +321,7 @@ MLabelStyle#CommonButtonLabel:pressed {
 color:         $COLOR_INVERTED_FOREGROUND;
 }
 MLabelStyle#CommonButtonLabel:disabled {
-color:         $COLOR_INVERTED_DISABLED;
+color:         $COLOR_BUTTON_DISABLED_FOREGROUND;
 }
 MLabelStyle#CommonButtonLabelInverted {
 font:          $CB_FONT;
