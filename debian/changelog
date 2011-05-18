@@ -1,6 +1,7 @@
 meegotouchtheme (0.99.0~1) unstable; urgency=low
 
   * [unreleased]
+  * Fixes: NB#252593 - [TASK] System Information Banner transitions are a little off
 
  -- Daniel d'Andrada <daniel.dandrada@nokia.com>  Mon, 16 May 2011 09:42:42 +0300
 
