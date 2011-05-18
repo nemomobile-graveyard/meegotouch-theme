@@ -9,7 +9,7 @@ MTextEditStyle {
     selection-threshold: 15.0;
     allow-view-reposition: true;
     disable-magnifier: false;
-    mask-string: "*";
+    mask-string: "\u2022"; /* bullet */
     prompt-font: $FONT_FAMILY light 24px;
     prompt-color: $COLOR_SECONDARY_FOREGROUND;
     paste-failed-icon: "icon-m-framework-close";
