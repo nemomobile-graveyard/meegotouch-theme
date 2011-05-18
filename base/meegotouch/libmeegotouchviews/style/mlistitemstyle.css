@@ -20,14 +20,14 @@ MListItemStyle {
 }
 
 MListItemStyle:selected {
-    background-tiles : meegotouch-list-background-selected 10px 10px 10px 10px;
+    background-tiles : meegotouch-list-background-selected $CORNER_MARGINS;
 
     background-color: $COLOR_INVERTED_FOREGROUND;
     background-opacity: 1.0;
 }
 
 MListItemStyle:pressed {
-    background-tiles : meegotouch-list-background-pressed 10px 10px 10px 10px;
+    background-tiles : meegotouch-list-background-pressed $CORNER_MARGINS;
 
     background-color: $COLOR_INVERTED_FOREGROUND;
     background-opacity: 1.0;
