@@ -35,7 +35,7 @@ MCompleterStyle.Landscape {
 
 
 #MCompleterTotalButton {
-    font: $FONT_FAMILY normal 2.0mm ;20px
+    font: $FONT_FAMILY normal 2.0mm ;
     text-color: $COLOR_INVERTED_FOREGROUND;
     vertical-text-align: vcenter;
     horizontal-text-align: hcenter;
@@ -64,7 +64,7 @@ MCompleterStyle.Landscape {
 }
 
 #MCompleterCandidatesLabel {
-    font: $FONT_FAMILY normal 2.6mm ;26px
+    font: $FONT_FAMILY normal 2.6mm ;
     color: $COLOR_SECONDARY_FOREGROUND;
     height: 88;
     margin-left: $MARGIN_XXLARGE;
