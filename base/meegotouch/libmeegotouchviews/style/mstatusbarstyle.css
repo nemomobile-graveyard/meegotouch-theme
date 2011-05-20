@@ -10,3 +10,8 @@ MStatusBarStyle
     press-dim-factor: 0.6;
     enable-status-indicator-menu: true;
 }
+
+MStatusBarStyle#NoReactiveMargins
+{
+    reactive-margin-bottom: 0;
+}

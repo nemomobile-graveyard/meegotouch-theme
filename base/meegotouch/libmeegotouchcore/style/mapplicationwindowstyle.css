@@ -5,6 +5,7 @@ MApplicationWindowStyle {
     floatable-tab-bar: true;
     navigation-bar-style-name: "";
     status-bar-style-name: "";
+    status-bar-style-name-for-sheets: "NoReactiveMargins";
     application-menu-style-name: "";
 }
 
