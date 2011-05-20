@@ -22,6 +22,11 @@ MTextEditStyle {
     hide-show-prompt-duration: 100;
     prompt-transition-delay: 60;
 
+    text-clipping-top: 2px;
+    text-clipping-bottom: 2px;
+    text-clipping-left: 2px;
+    text-clipping-right: 2px;
+
     /* inherited from MWidgetStyle */
     minimum-size: -1 52px;
     preferred-size: -1 -1;
