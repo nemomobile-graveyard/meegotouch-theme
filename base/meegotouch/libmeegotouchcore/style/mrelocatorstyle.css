@@ -1,3 +1,8 @@
+MRelocatorStyle {
+    scroll-easing-curve: inoutquint;
+    scroll-duration: 350;
+}
+
 MRelocatorStyle.Portrait {
     vertical-anchor-position: 20mm;
     top-no-go-margin: 4.8mm;
