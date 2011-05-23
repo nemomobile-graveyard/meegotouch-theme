@@ -38,9 +38,6 @@ MContentItemStyle {
     image-object-name: "ContentItemImage";
     optional-image-object-name: "ContentItemOptionalImage";
     small-item-object-name: "ContentItemSmallItem";
-
-    press-feedback: press;
-    release-feedback: release;
 }
 
 MContentItemStyle:selected {

@@ -16,8 +16,6 @@ MCompleterStyle {
     padding-top: 0;
     padding-right: 0;
     padding-bottom: 0;
-    press-feedback: press;
-    release-feedback: release;
 }
 
 MCompleterStyle.Portrait {

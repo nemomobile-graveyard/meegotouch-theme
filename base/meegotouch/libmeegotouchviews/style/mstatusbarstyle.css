@@ -7,7 +7,6 @@ MStatusBarStyle
     reactive-margin-bottom: 1.5mm;
     use-swipe-gesture: false;
     swipe-threshold: 30;
-    press-feedback : press;
     press-dim-factor: 0.6;
     enable-status-indicator-menu: true;
 }

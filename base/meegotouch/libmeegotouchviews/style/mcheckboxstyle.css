@@ -12,12 +12,10 @@ MCheckboxStyle {
 
     checkmark-image: ;
 
-    press-feedback: ;
-    release-feedback: ;
-    press-on-feedback: press-on;
-    press-off-feedback: press-off;
-    release-on-feedback: release-on;
-    release-off-feedback: release-off;
+    press-on-feedback: ;
+    press-off-feedback: ;
+    release-on-feedback: ;
+    release-off-feedback: ;
 }
 
 MCheckboxStyle:pressed {

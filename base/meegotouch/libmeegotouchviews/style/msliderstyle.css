@@ -32,8 +32,7 @@ MSliderStyle {
     steps-per-feedback: 1;
     minimum-feedback-interval: 70;
     feedback-speed-limit: 8;
-    press-feedback: move;
-    move-feedback: move;
+    move-feedback: ;
 
     handle-label-margin: 0px;
     handle-label-arrow-margin: 11px;

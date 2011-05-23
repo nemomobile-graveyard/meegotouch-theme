@@ -13,9 +13,6 @@ MListItemStyle {
     minimum-size: $SIZE_ONE $SIZE_LIST;
     maximum-size: 100% $SIZE_FOUR;
 
-    press-feedback: press;
-    release-feedback: release;
-
     down-state-effect: "MGraphicsHighlightEffect";
 }
 

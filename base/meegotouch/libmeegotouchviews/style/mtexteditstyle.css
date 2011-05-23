@@ -32,11 +32,11 @@ MTextEditStyle {
     preferred-size: -1 -1;
     maximum-size: -1 -1;
 
-    press-word-feedback: press-textedit-word;
-    release-word-feedback: release-textedit-word;
-    press-boundary-feedback: press;
-    release-boundary-feedback: release;
-    change-selection-feedback: press-textedit-selection;
+    press-word-feedback: ;
+    release-word-feedback: ;
+    press-boundary-feedback: ;
+    release-boundary-feedback: ;
+    change-selection-feedback: ;
 
     padding-top: 14px;
     padding-bottom: 12px;

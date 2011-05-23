@@ -22,12 +22,10 @@ MButtonSwitchStyle {
     reactive-margin-top: $MARGIN_XLARGE;
     reactive-margin-bottom: $MARGIN_XLARGE;
 
-    press-feedback: none;
-    release-feedback: none;
-    press-on-feedback: press-on;
-    press-off-feedback: press-off;
-    release-on-feedback: release-on;
-    release-off-feedback: release-off;
+    press-on-feedback: ;
+    press-off-feedback: ;
+    release-on-feedback: ;
+    release-off-feedback: ;
 }
 MButtonSwitchStyle:pressed {
     background-color: none;

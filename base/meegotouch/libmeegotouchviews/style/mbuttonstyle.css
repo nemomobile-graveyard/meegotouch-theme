@@ -29,24 +29,6 @@ MButtonStyle {
 
     content-opacity: 1.0;
 
-    /* Name of the feedback effects to be used when the button is pressed.
-       Defaults to standard "press" & "release" feedback, but different
-       buttons might have different effects depending on its size, shape and function.
-
-       Examples:
-        - "press-small" For a button considered to be small by the
-          application designer. Therefore he wants a stronger
-          haptic feedback for it to make up for its reduced
-          visual feedback.
-        - "press-call" and "press-end" for the "call" and "end" buttons in a
-          call UI. The designer wants then to also to feel differently from
-          other buttons.
-
-       Set it to an empty value if you don't want your button to give any
-       off-screen feedback (e.g., auditory, tactile, vibrational, etc) at all.
-    */
-    press-feedback: press;
-    release-feedback: release;
     press-timeout: 140;
 
     transition: "default";

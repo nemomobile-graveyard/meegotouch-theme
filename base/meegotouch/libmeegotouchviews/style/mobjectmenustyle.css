@@ -10,8 +10,6 @@ MObjectMenuStyle {
     vertical-align: top;
     horizontal-align: right;
 
-    appear-feedback: appear-objectmenu;
-
     title-style-name: "CommonPanel";
     title-icon-style-name: "CommonMainIcon";
     title-label-style-name: "CommonSingleTitle";

@@ -40,9 +40,6 @@ MBubbleItemBackgroundStyle {
     padding-right : $PADDING_XLARGE;
 
     mirrored-object-name: "Mirrored";
-
-    press-feedback: press;
-    release-feedback: release;
 }
 
 MBubbleItemBackgroundStyle:incoming {
