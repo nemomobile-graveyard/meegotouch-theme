@@ -21,7 +21,7 @@ MEditorToolbarStyle:editor-under-cursor
 
 MEditorToolbar MButtonStyle
 {
-    font: $FONT_FAMILY normal 24;
+    font: $FONT_FAMILY normal 22;
     text-color: $COLOR_FOREGROUND;
 
     minimum-size: 76px 86px;
@@ -33,8 +33,8 @@ MEditorToolbar MButtonStyle
     margin-top: 0;
     margin-bottom: 0;
 
-    text-margin-left: $MARGIN_XXLARGE;
-    text-margin-right: $MARGIN_XXLARGE;
+    text-margin-left: $MARGIN_XLARGE;
+    text-margin-right: $MARGIN_XLARGE;
 
     vertical-text-align: center;
 
