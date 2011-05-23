@@ -170,7 +170,7 @@
 #CommonEditorInputFieldPanel {
     minimum-size:      56 56;
     preferred-size:    100% -1;
-    maximum-size:      100% 100%;
+    maximum-size:      100% -1;
     background-tiles:  ;
     background-image:  ;
     background-color:  ;
@@ -192,7 +192,7 @@
 #CommonEditorInputFieldPanelInverted {
     minimum-size:      56 56;
     preferred-size:    100% -1;
-    maximum-size:      100% 100%;
+    maximum-size:      100% -1;
     background-tiles:  ;
     background-image:  ;
     background-color:  ;
