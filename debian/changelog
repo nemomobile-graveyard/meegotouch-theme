@@ -1,8 +1,15 @@
-meegotouchtheme (0.99.1~1) unstable; urgency=low
+meegotouchtheme (0.99.1-1) unstable; urgency=low
 
-  * [UNRELEASED]
+  * New version
+  * Changes: bump version number
+  * New: Put relocation animation parameters to CSS file.
+  * Fixes: NB#255484 - User is unable to see all tokens in To Field in case of many recipients
+  * Changes: introduce styled clipping for MTextEdit text content
+  * Changes: fix syntax error in mcompleterstyle.css
+  * Changes: Some colour tweaks and simplifications.
+  * Changes: Add missing combobox indicator assets.
 
- -- Pekka Vuorela <pekka.ta.vuorela@nokia.com>  Mon, 23 May 2011 15:08:13 +0300
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 23 May 2011 15:48:22 +0300
 
 meegotouchtheme (0.99.0-1) unstable; urgency=low
 
