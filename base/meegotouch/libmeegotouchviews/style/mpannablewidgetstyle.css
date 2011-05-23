@@ -9,6 +9,8 @@ MPannableWidgetStyle {
     border-spring-k: 0.06;
     border-friction-c: 0.66;
 
+    maximum-velocity-for-press: 2.0;
+
     /* inherited from MWidgetStyle */
     preferred-size: 1 1;
     minimum-size: 0 0;
