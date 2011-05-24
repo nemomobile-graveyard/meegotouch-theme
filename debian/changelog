@@ -1,9 +1,9 @@
-meegotouchtheme (0.99.1~2) unstable; urgency=low
+meegotouchtheme (1.0.0~1) unstable; urgency=low
 
   * [UNRELEASED]
-  * Fixes: 258412 - Unused feedback files and references to them in .css should be removed from meegotouchtheme package
+  * Fixes: NB#258412 - Unused feedback files and references to them in .css should be removed from meegotouchtheme package
 
- -- Antti Pulakka <ext-antti.j.pulakka@nokia.com>  Mon, 23 May 2011 16:42:31 +0300
+ -- Daniel d'Andrada <daniel.dandrada@nokia.com>  Tue, 24 May 2011 07:57:23 +0300
 
 meegotouchtheme (0.99.1-1) unstable; urgency=low
 
