@@ -69,14 +69,14 @@ MButtonIconStyle[toolbar].Landscape {
 }
 
 MButtonStyle#ToolBarLabelOnlyCommonButton {
-    margin-left:   $MARGIN_SMALL;
-    margin-top:    $MARGIN_DOUBLE;
-    margin-right:  $MARGIN_SMALL;
-    margin-bottom: $MARGIN_DOUBLE;
+    margin-left: $MARGIN_SMALL;
+    margin-top: 0.7mm;
+    margin-right: $MARGIN_SMALL;
+    margin-bottom: 0.7mm;
 
-    minimum-size:    4.2mm 5.0mm;
-    preferred-size: 18.0mm 5.0mm;
-    maximum-size:   18.0mm 5.0mm;
+    minimum-size:    4.2mm 4.2mm;
+    preferred-size: 18.0mm 4.2mm;
+    maximum-size:   18.0mm 4.2mm;
 
     background-image: meegotouch-button-navigationbar-button-background $CORNER_MARGINS;
 }
