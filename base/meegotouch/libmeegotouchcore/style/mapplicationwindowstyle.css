@@ -21,8 +21,8 @@ MApplicationWindowStyle.Landscape {
  * CommonApplicationWindowTabBarOnTop: As above
  *
  * CommonApplicationWindowTabBarLabelessIconTabs: Icons without text on bottom
- * 
- **
+ *
+ **/
 
 MApplicationWindowStyle#CommonApplicationWindowInverted {
     navigation-bar-style-name: "MNavigationBarStyleInverted"; /* TODO: Choose better name. */
