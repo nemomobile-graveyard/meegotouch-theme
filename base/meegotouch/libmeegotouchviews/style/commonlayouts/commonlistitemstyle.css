@@ -168,3 +168,11 @@ MAdvancedListItem#CommonAdvancedListItemInverted MLabelStyle#CommonSingleTitle {
 MAdvancedListItem#CommonAdvancedListItemInverted MLabelStyle#CommonSubTitle {
    color: $CSUBTITLE_COLOR_INVERTED;
 }
+
+/* ProgressIndicator invert */
+MAdvancedListItem#CommonAdvancedListItemInverted MProgressIndicatorStyle#CommonProgressBar {
+    progress-bar-background:    "meegotouch-progressindicator-inverted-bar-background" 4px 4px 4px 4px;
+    progress-bar-mask:          "meegotouch-progressindicator-inverted-bar-mask" 4px 4px 4px 4px;
+    unknown-bar-texture:        "meegotouch-progressindicator-inverted-bar-unknown-texture";
+    known-bar-texture:          "meegotouch-progressindicator-inverted-bar-known-texture";
+}
