@@ -14,6 +14,16 @@ MApplicationWindowStyle.Landscape {
 }
 
 /* Common Styles */
+/**
+ * CommonApplicationWindow: Icons and text on bottom
+ *
+ * CommonApplicationWindowTabBarOnTopWithLabels: Icons and text on top
+ * CommonApplicationWindowTabBarOnTop: As above
+ *
+ * CommonApplicationWindowTabBarLabelessIconTabs: Icons without text on bottom
+ * 
+ **
+
 MApplicationWindowStyle#CommonApplicationWindowInverted {
     navigation-bar-style-name: "MNavigationBarStyleInverted"; /* TODO: Choose better name. */
     tab-bar-style-name: "MToolbarTabStyleInverted"; /* TODO: Choose better name. */
