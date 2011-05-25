@@ -1,11 +1,11 @@
-meegotouchtheme (1.0.0~1) unstable; urgency=low
+meegotouchtheme (0.21.6~1) unstable; urgency=low
 
   * [UNRELEASED]
   * Fixes: NB#258412 - Unused feedback files and references to them in .css should be removed from meegotouchtheme package
 
  -- Daniel d'Andrada <daniel.dandrada@nokia.com>  Tue, 24 May 2011 07:57:23 +0300
 
-meegotouchtheme (0.99.1-1) unstable; urgency=low
+meegotouchtheme (0.21.5-1) unstable; urgency=low
 
   * New version
   * Changes: bump version number
@@ -18,7 +18,7 @@ meegotouchtheme (0.99.1-1) unstable; urgency=low
 
  -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 23 May 2011 15:48:22 +0300
 
-meegotouchtheme (0.99.0-1) unstable; urgency=low
+meegotouchtheme (0.21.4-1) unstable; urgency=low
 
   * New version
   * Fixes: NB#229143 - [TASK] Combobox/thumbler -button needs arrows for pressed and disabled state.
