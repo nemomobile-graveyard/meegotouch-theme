@@ -11,7 +11,6 @@ MMessageBoxStyle {
     padding-right: 0px;
     padding-bottom: 0px;
 
-    button-box-style-name: "MMessageBoxButtonBox";
     button-box-orientation: vertical;
 }
 
@@ -30,11 +29,4 @@ MMessageBoxStyle#LargeButtonsQueryDialog.Horizontal {
 MMessageBoxStyle#LargeButtonsQueryDialog.Portrait {
     dialog-button-fixed-width: -1;
     maximum-horizontal-buttons: 1;
-}
-
-#MMessageBoxButtonBox {
-    background-image: none;
-    minimum-size: -1 8mm;
-    preferred-size: -1 8mm;
-    maximum-size: -1 8mm;
 }
