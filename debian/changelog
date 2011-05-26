@@ -1,9 +1,18 @@
-meegotouchtheme (0.21.6~1) unstable; urgency=low
+meegotouchtheme (0.21.6-1) unstable; urgency=low
 
-  * [UNRELEASED]
-  * Fixes: NB#258412 - Unused feedback files and references to them in .css should be removed from meegotouchtheme package
+  * New version
+  * Changes: Add override for progress bars in CommonAdvancedListItemInverted.
+  * Changes: update MCompleter style
+  * Fixes: NB#231642 - Completer's "scale with content" functionality doesn't work
+  * Changes: "Documented" application window styles.
+  * Changes: Update versions
+  * Fixes: NB#259090 - Custom Navigation Bar's button is out of bar under base theme
+  * Fixes: NB#252084, copy paste widget breaks when language is set to german
+  * Fixes: NB#258412, Unused feedback files and references to them in .css should be removed from meegotouchtheme package
+  * Changes: New vibration feedbacks
+  * New: MPannableWidgetStyle - maximum-velocity-for-press
 
- -- Daniel d'Andrada <daniel.dandrada@nokia.com>  Tue, 24 May 2011 07:57:23 +0300
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 26 May 2011 15:55:41 +0300
 
 meegotouchtheme (0.21.5-1) unstable; urgency=low
 
