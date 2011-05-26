@@ -405,7 +405,8 @@ MTextEditStyle#CommonEditorInputField:selected {
 MTextEditStyle#CommonEditorInputFieldMultiline {
     background-image: none;
     font: $FONT_FAMILY bold 26;
-
+    prompt-font: $FONT_FAMILY 26;
+    prompt-color: $COLOR_EDITOR_PROMPT;
     minimum-size: 56 56;
     margin-top: 0;
     margin-bottom: 0;
@@ -427,7 +428,7 @@ MTextEditStyle#CommonEditorInputFieldInverted {
     font: $FONT_FAMILY bold 26;
     text-color: $COLOR_INVERTED_FOREGROUND;
     prompt-font: $FONT_FAMILY 26;
-    prompt-color: $COLOR_EDITOR_PROMPT;
+    prompt-color: $COLOR_EDITOR_PROMPT_INVERTED;
     minimum-size: 56 56;
     margin-top: 0;
     margin-bottom: 0;
@@ -449,6 +450,8 @@ MTextEditStyle#CommonEditorInputFieldMultilineInverted {
     background-image: none;
     font: $FONT_FAMILY bold 26;
     text-color: $COLOR_INVERTED_FOREGROUND;
+    prompt-font: $FONT_FAMILY 26;
+    prompt-color: $COLOR_EDITOR_PROMPT_INVERTED;
     minimum-size: 56 56;
     margin-top: 0;
     margin-bottom: 0;
