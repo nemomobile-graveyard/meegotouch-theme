@@ -66,14 +66,18 @@ MCompleterStyle.Landscape {
     font: $FONT_FAMILY normal 2.6mm ;
     color: $COLOR_SECONDARY_FOREGROUND;
     margin-left: $MARGIN_XXLARGE;
-    margin-top: 2.5mm;
+    margin-top: 0mm;
     margin-right: 0;
-    margin-bottom: 3.6mm;
+    margin-bottom: 1mm;
 
     padding-left: 0;
     padding-top: 0;
     padding-right: 0;
     padding-bottom: 0;
+
+    minimum-size: -1 84px;
+    preferred-size: -1 84px;
+    maximum-size: -1 84px;
 }
 
 MCompleterStyle:pressed {
