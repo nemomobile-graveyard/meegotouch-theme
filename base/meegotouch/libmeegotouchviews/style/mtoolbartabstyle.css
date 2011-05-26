@@ -51,6 +51,8 @@ MButtonStyle[toolbartab] {
     padding-top:    $PADDING_MEDIUM;
     padding-right:  $PADDING_MEDIUM;
     padding-bottom: $PADDING_MEDIUM;
+
+    transition: "tabbutton";
 }
 MButtonStyle[toolbartab].Landscape {
     minimum-size: -1 $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
