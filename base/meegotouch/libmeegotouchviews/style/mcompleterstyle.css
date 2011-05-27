@@ -1,5 +1,6 @@
-@const COMPLETERBUTTONWIDTH: 84;
-@const COMPLETERBUTTONHEIGHT: 84;
+@const COMPLETER_HEIGHT: 84px;
+@const COMPLETERBUTTONWIDTH: $COMPLETER_HEIGHT;
+@const COMPLETERBUTTONHEIGHT: $COMPLETER_HEIGHT;
 @const COMPLETERBUTTON_CORNER_MARGINS: 40px 40px 40px 40px;
 
 /* MCompleterStyle : MSceneWindowStyle */
@@ -20,16 +21,16 @@ MCompleterStyle {
 }
 
 MCompleterStyle.Portrait {
-    minimum-size: 468 84;
-    preferred-size: 468 84;
-    maximum-size: 468 84;
+    minimum-size: 468 $COMPLETER_HEIGHT;
+    preferred-size: 468 $COMPLETER_HEIGHT;
+    maximum-size: 468 $COMPLETER_HEIGHT;
 }
 
 
 MCompleterStyle.Landscape {
-    minimum-size: 441 84;
-    preferred-size: 441 84;
-    maximum-size: 441 84;
+    minimum-size: 441 $COMPLETER_HEIGHT;
+    preferred-size: 441 $COMPLETER_HEIGHT;
+    maximum-size: 441 $COMPLETER_HEIGHT;
 }
 
 
@@ -53,9 +54,9 @@ MCompleterStyle.Landscape {
     text-margin-right: $MARGIN_DOUBLE;
     text-margin-bottom: 0;
 
-    minimum-size: 84px 84px;
-    maximum-size: 84px 84px;
-    preferred-size: 84px 84px;
+    minimum-size: $COMPLETERBUTTONHEIGHT $COMPLETERBUTTONWIDTH;
+    maximum-size: $COMPLETERBUTTONHEIGHT $COMPLETERBUTTONWIDTH;
+    preferred-size: $COMPLETERBUTTONHEIGHT $COMPLETERBUTTONWIDTH;
 }
 
 #MCompleterTotalButton:pressed {
@@ -75,9 +76,9 @@ MCompleterStyle.Landscape {
     padding-right: 0;
     padding-bottom: 0;
 
-    minimum-size: -1 84px;
-    preferred-size: -1 84px;
-    maximum-size: -1 84px;
+    minimum-size: -1 $COMPLETER_HEIGHT;
+    preferred-size: -1 $COMPLETER_HEIGHT;
+    maximum-size: -1 $COMPLETER_HEIGHT;
 }
 
 MCompleterStyle:pressed {
