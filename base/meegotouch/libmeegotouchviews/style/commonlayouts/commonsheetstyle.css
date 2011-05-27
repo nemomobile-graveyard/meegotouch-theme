@@ -394,7 +394,7 @@ MSeparator#CommonEditorItemDivider {
 }
 
 MSeparator#CommonEditorItemDividerInverted {
-    background-image: meegotouch-separator-background-inverted-horizontal 0px 0px 0px 0px;
+    background-image: meegotouch-separator-inverted-background-horizontal 0px 0px 0px 0px;
     minimum-size:  -1 0.1mm;
     maximum-size:  -1 0.1mm;
     margin-top:     $MARGIN_LARGE;
