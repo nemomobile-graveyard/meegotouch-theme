@@ -247,7 +247,7 @@ MLabelStyle#CommonEditorInputFieldLabelInverted:selected {
     maximum-size:     58px 25px;
     margin-top:       0;
     margin-bottom:    0;
-    margin-left:      0;
+    margin-left:      $INDENT_DEFAULT;
     margin-right:     $INDENT_DEFAULT;
     reactive-margin-top: 20px;
     reactive-margin-left: 20px;
@@ -265,7 +265,7 @@ MLabelStyle#CommonEditorInputFieldLabelInverted:selected {
     maximum-size:     58px 25px;
     margin-top:       0;
     margin-bottom:    0;
-    margin-left:      0;
+    margin-left:      $INDENT_DEFAULT;
     margin-right:     $INDENT_DEFAULT;
     reactive-margin-top: 20px;
     reactive-margin-left: 20px;
@@ -287,9 +287,15 @@ MLabelStyle#CommonEditorInputFieldLabelInverted:selected {
     margin-bottom:     0;
     margin-left:       0;
     margin-right:      0;
+    padding-left:      195px;
+    padding-right:     195px;
 }
 #CommonEditorExpandButtonPanel:selected {
     background-image:  meegotouch-sheet-editor-expanded-background;
+}
+#CommonEditorExpandButtonPanel.Landscape {
+    padding-left:      382px;
+    padding-right:     382px;
 }
 
 #CommonEditorExpandButtonPanelInverted {
@@ -303,9 +309,15 @@ MLabelStyle#CommonEditorInputFieldLabelInverted:selected {
     margin-bottom:     0;
     margin-left:       0;
     margin-right:      0;
+    padding-left:      195px;
+    padding-right:     195px;
 }
 #CommonEditorExpandButtonPanelInverted:selected {
     background-image:  meegotouch-sheet-editor-expanded-inverted-background;
+}
+#CommonEditorExpandButtonPanelInverted.Landscape {
+    padding-left:      382px;
+    padding-right:     382px;
 }
 
 #CommonEditorNoteAreaExpandButtonPanel {
@@ -319,8 +331,13 @@ MLabelStyle#CommonEditorInputFieldLabelInverted:selected {
     margin-bottom:     0;
     margin-left:       0;
     margin-right:      0;
+    padding-left:      195px;
+    padding-right:     195px;
 }
-
+#CommonEditorNoteAreaExpandButtonPanel.Landscape {
+    padding-left:      382px;
+    padding-right:     382px;
+}
 #CommonEditorNoteAreaExpandButtonPanelInverted {
     minimum-size:      56 25;
     preferred-size:    100% 25;
@@ -332,6 +349,12 @@ MLabelStyle#CommonEditorInputFieldLabelInverted:selected {
     margin-bottom:     0;
     margin-left:       0;
     margin-right:      0;
+    padding-left:      195px;
+    padding-right:     195px;
+}
+#CommonEditorNoteAreaExpandButtonPanelInverted.Landscape {
+    padding-left:      382px;
+    padding-right:     382px;
 }
 
 #CommonEditorExpandArea {
