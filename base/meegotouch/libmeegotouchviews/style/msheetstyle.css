@@ -13,6 +13,7 @@ MSheetStyle {
     central-slot-style-name: "SheetCentralSlot";
     central-slot-position-indicator-style-name: ;
     header-animation: "MWidgetSlideAnimation";
+    background-color: $COLOR_BACKGROUND;
 }
 
 MSheetStyle#Inverted {
