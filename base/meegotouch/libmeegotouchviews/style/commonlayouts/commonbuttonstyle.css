@@ -1660,7 +1660,7 @@ minimum-size:     4.2mm 4.3mm;
 preferred-size:   4.2mm 4.3mm;
 maximum-size:     12.2mm 4.3mm;
 margin-left:      0;
-margin-right:     0;
+margin-right:     $INDENT_DEFAULT;
 }
 #CommonSmallIconButton:pressed {
 background-image: meegotouch-textedit-button-background-pressed 20px 20px 20px 20px;
