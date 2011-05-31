@@ -11,12 +11,12 @@ MTextEditStyle {
     disable-magnifier: false;
     mask-string: "\u2022"; /* bullet */
     prompt-font: $FONT_FAMILY light 24px;
-    prompt-color: $COLOR_SECONDARY_FOREGROUND;
+    prompt-color: #A6A8AB;
     paste-failed-icon: "icon-m-framework-close";
     paste-failed-duration: 3000;
     masking-delay: 1000;
     cursor-width: 2;
-    focused-prompt-opacity: 0.4;
+    focused-prompt-opacity: 0.6;
     unfocused-prompt-opacity: 1.0;
     focus-transition-duration: 150;
     hide-show-prompt-duration: 100;
