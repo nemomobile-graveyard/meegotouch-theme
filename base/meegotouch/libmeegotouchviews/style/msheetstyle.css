@@ -37,3 +37,7 @@ MSheetStyle#Inverted {
     background-color: $COLOR_INVERTED_BACKGROUND;
 }
 
+MPannableWidgetStyle#MSheetCentralSlotPannableViewport {
+    /* preferred size must come from the widget it contains */
+    preferred-size: -1 -1;
+}
