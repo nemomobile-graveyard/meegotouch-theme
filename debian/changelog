@@ -1,3 +1,19 @@
+meegotouchtheme (0.21.7-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#260974 - [TASK] Change notification visibility time
+  * Fixes: NB#258997 - Tooltip message "Add Contacs" next to “To” in the recipient editor is too high.
+  * Fixes: NB#248034 - [REG] People picker button is sticked to the end of the To field
+  * Changes: small cleanup in mcompleterstyle.css
+  * Changes: fix positioning of completer's label
+  * Fixes: NB#260025 - New settings icons are missing in base theme.
+  * Fixes: NB#243914 - [TASK] Base theme is missing pictures referenced from css styles.
+  * Changes: Fixing an asset ID typo.
+  * Fixes: NB#260349 - [TASK] Expander button needs to be centered
+  * Fixes: NB#258997 - Tooltip message "Add Contacs" next to “To” in the recipient editor is too high.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 01 Jun 2011 16:24:09 +0300
+
 meegotouchtheme (0.21.6-1) unstable; urgency=low
 
   * New version
