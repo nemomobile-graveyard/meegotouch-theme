@@ -79,3 +79,17 @@ MSceneLayerEffect#MenuSceneLayerEffect MWidgetFadeAnimationStyle#Out {
     easing-curve: inoutquint;
     opacity: 1.0;
 }
+
+MSceneLayerEffect#ObjectMenuSceneLayerEffect MWidgetFadeAnimationStyle#In {
+    delay: 0;
+    duration: 350;
+    easing-curve: outcubic;
+    opacity: 1.0;
+}
+
+MSceneLayerEffect#ObjectMenuSceneLayerEffect MWidgetFadeAnimationStyle#Out {
+    delay: 0;
+    duration: 350;
+    easing-curve: inoutquint;
+    opacity: 1.0;
+}

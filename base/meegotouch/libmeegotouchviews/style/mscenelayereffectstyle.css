@@ -18,3 +18,7 @@ MSceneLayerEffectStyle {
 #MenuSceneLayerEffect {
     background-image: "meegotouch-menu-dimmer";
 }
+
+#ObjectMenuSceneLayerEffect {
+    background-image: "meegotouch-menu-dimmer";
+}

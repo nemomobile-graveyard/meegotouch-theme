@@ -106,9 +106,9 @@ MApplicationMenu MWidgetSlideAnimationStyle#Out {
 
 MObjectMenu MWidgetSlideAnimationStyle#In {
     delay: 0;
-    duration: 350;
+    duration: 250;
     origin: "bottom";
-    easing-curve: inoutquint;
+    easing-curve: outquint;
 }
 
 MObjectMenu MWidgetSlideAnimationStyle#Out {
