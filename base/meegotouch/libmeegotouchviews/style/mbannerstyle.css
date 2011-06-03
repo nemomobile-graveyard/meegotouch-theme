@@ -68,13 +68,13 @@ MBannerStyle #PrivateEventBanner {
 
 MBannerStyle #PrivateEventBanner.Landscape {
     minimum-size: 46.4mm 8mm;
-    maximum-size: 46.4mm 10.8mm;
+    maximum-size: 46.4mm 8mm;
     preferred-size: 46.4mm -1mm;
 }
 
 MBannerStyle #PrivateEventBanner.Portrait {
     minimum-size: 46.4mm 8mm;
-    maximum-size: 46.4mm 10.8mm;
+    maximum-size: 46.4mm 8mm;
     preferred-size: 46.4mm -1mm;
 }
 
@@ -83,8 +83,8 @@ MBannerStyle #PrivateEventBanner.Portrait {
     minimum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
     preferred-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
 
-    margin-top: $INDENT_DEFAULT;
-    margin-bottom: $INDENT_DEFAULT;
+    margin-top: $MARGIN_LARGE;
+    margin-bottom: $MARGIN_LARGE;
     margin-left: $INDENT_DEFAULT;
     margin-right: 0mm;
 }
@@ -93,7 +93,7 @@ MBannerStyle #PrivateEventBanner.Portrait {
     font: $FONT_FAMILY light 2.2mm;
     color:$COLOR_INVERTED_FOREGROUND;
 
-    margin-top: $INDENT_DEFAULT;
+    margin-top: 1.4mm;
     margin-bottom: 0mm;
     margin-left: $INDENT_DEFAULT;
     margin-right: 1.4mm;
@@ -103,8 +103,8 @@ MBannerStyle #PrivateEventBanner.Portrait {
     font: $FONT_XXSMALL;
     color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
 
-    margin-top: $MARGIN_XSMALL;
-    margin-bottom: $INDENT_DEFAULT;
+    margin-top: $MARGIN_LARGE;
+    margin-bottom: 2.0mm;
     margin-left: 0mm;
     margin-right: 1.4mm;
 }
@@ -113,18 +113,18 @@ MBannerStyle #PrivateEventBanner.Portrait {
     font: $FONT_XXSMALL;
     color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
 
-    margin-top: $MARGIN_XSMALL;
-    margin-bottom: $INDENT_DEFAULT;
+    margin-top: $MARGIN_LARGE;
+    margin-bottom: 2.0mm;
     margin-left: $INDENT_DEFAULT;
-    margin-right: 0.8mm;
+    margin-right: $MARGIN_LARGE;
 }
 
 #PrivateEventBannerTimeStampIsolated {
     font: $FONT_XXSMALL;
     color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
 
-    margin-top: $MARGIN_XSMALL;
-    margin-bottom: $INDENT_DEFAULT;
+    margin-top: $MARGIN_LARGE;
+    margin-bottom: 2.0mm;
     margin-left: $INDENT_DEFAULT;
     margin-right: 1.4mm;
 }
@@ -196,7 +196,7 @@ MBannerStyle #FullEventBanner.Portrait {
     margin-top: $MARGIN_XSMALL;
     margin-bottom: $INDENT_DEFAULT;
     margin-left: $INDENT_DEFAULT;
-    margin-right: 0.8mm;
+    margin-right: $MARGIN_LARGE;
 }
 
 #FullEventBannerTimeStampIsolated {
@@ -348,7 +348,7 @@ MBannerStyle #LockScreenEventBanner.Portrait {
     margin-top: $MARGIN_XSMALL;
     margin-bottom: $INDENT_DEFAULT;
     margin-left: $INDENT_DEFAULT;
-    margin-right: 0.8mm;
+    margin-right: $MARGIN_LARGE;
 }
 
 #LockScreenEventBannerTimeStampIsolated {
