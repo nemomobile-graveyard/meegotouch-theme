@@ -10,7 +10,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   id="icon-m-input-methods-enter-layer"
+   id="icon-m-input-methods-shift-layer"
    x="0px"
    y="0px"
    width="48px"
@@ -19,10 +19,10 @@
    style="enable-background:new 0 0 48 48;"
    xml:space="preserve"
    inkscape:version="0.47 r22583"
-   sodipodi:docname="icon-m-input-methods-enter.svg"><metadata
+   sodipodi:docname="icon-m-input-methods-shift.svg"><metadata
    id="metadata12"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
    id="defs10"><inkscape:perspective
      sodipodi:type="inkscape:persp3d"
      inkscape:vp_x="0 : 24 : 1"
@@ -30,7 +30,7 @@
      inkscape:vp_z="48 : 24 : 1"
      inkscape:persp3d-origin="24 : 16 : 1"
      id="perspective14" /></defs><sodipodi:namedview
-   pagecolor="#ffffff"
+   pagecolor="#636363"
    bordercolor="#666666"
    borderopacity="1"
    objecttolerance="10"
@@ -38,27 +38,27 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="678"
-   inkscape:window-height="485"
+   inkscape:window-width="1415"
+   inkscape:window-height="847"
    id="namedview8"
    showgrid="false"
    inkscape:zoom="4.9166667"
-   inkscape:cx="24"
+   inkscape:cx="-10.881356"
    inkscape:cy="24"
    inkscape:window-x="0"
    inkscape:window-y="0"
-   inkscape:window-maximized="0"
-   inkscape:current-layer="icon-m-input-methods-enter-layer" />
+   inkscape:window-maximized="1"
+   inkscape:current-layer="icon-m-input-methods-shift-layer" />
 <g
-   id="icon-m-input-methods-enter">
-	<polygon
-   style="fill:#ffffff;fill-opacity:1"
-   points="37.459,12.594 37.457,26.998 19.377,27.016 19.377,35.116 8.809,24.348 19.377,13.566    19.375,21.275 33.098,21.275 33.098,18.715 21.936,18.715 21.937,7.299 5.225,24.348 21.936,41.377 21.936,29.571 40.02,29.571    40.02,12.594  "
-   id="polygon4" />
+   id="icon-m-input-methods-shift">
 	<rect
    style="opacity:0.35;fill:none;"
    width="48"
    height="48"
-   id="rect6" />
+   id="rect4" />
+	<path
+   style="fill:#ffffff;fill-opacity:1"
+   d="M24,13.51l9.279,9.279h-0.416h-2.699v2.7v10.796H17.837V25.489v-2.7h-2.7h-0.415L24,13.51 M24,9.69   L8.204,25.489h6.933v13.497h17.727V25.489h6.934L24,9.69L24,9.69z"
+   id="path6" />
 </g>
 </svg>
