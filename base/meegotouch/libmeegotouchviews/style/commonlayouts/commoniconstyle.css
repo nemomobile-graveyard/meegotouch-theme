@@ -231,9 +231,9 @@ margin-bottom:  0;
 }
 
 #CommonSubIcon {
-maximum-size:   $ICON24;
-minimum-size:   $ICON24;
-preferred-size: $ICON24;
+maximum-size:   $ICON32;
+minimum-size:   $ICON32;
+preferred-size: $ICON32;
 margin-left:    $MARGIN_XSMALL;
 margin-right:   $MARGIN_XSMALL;
 margin-top:     $MARGIN_XSMALL;
@@ -241,9 +241,9 @@ margin-bottom:  $MARGIN_XSMALL;
 }
 
 #CommonSubIconTop {
-maximum-size:   $ICON24;
-minimum-size:   $ICON24;
-preferred-size: $ICON24;
+maximum-size:   $ICON32;
+minimum-size:   $ICON32;
+preferred-size: $ICON32;
 margin-left:    0;
 margin-right:   $INDENT_DEFAULT;
 margin-top:     0;
@@ -251,9 +251,9 @@ margin-bottom:  $MARGIN_MEDIUM;
 }
 
 #CommonSubIconBottom {
-maximum-size:   $ICON24;
-minimum-size:   $ICON24;
-preferred-size: $ICON24;
+maximum-size:   $ICON32;
+minimum-size:   $ICON32;
+preferred-size: $ICON32;
 margin-left:    0;
 margin-right:   $INDENT_DEFAULT;
 margin-top:     0;
