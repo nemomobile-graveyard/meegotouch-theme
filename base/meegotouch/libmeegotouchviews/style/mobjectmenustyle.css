@@ -71,13 +71,10 @@ MObjectMenu MButtonStyle:pressed {
     text-color: #797979;
 }
 MObjectMenu MButtonStyle:selected {
-    background-tiles : meegotouch-list-background-selected $CORNER_MARGINS;
+    background-tiles: meegotouch-list-background-selected $CORNER_MARGINS;
     text-color: $COLOR_INVERTED_FOREGROUND;
 }
 MObjectMenu MButtonStyle:disabled {
-    background-tiles: none;
-    background-image: none;
-    background-color: none;
     text-color: #797979;
 }
 MObjectMenu MButtonStyle:disabled-selected {
