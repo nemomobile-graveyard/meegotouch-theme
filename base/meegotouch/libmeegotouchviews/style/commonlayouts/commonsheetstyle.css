@@ -1,7 +1,9 @@
-@const CSB_WIDTH:    160px;
-@const CSB_HEIGHT:   42px;
-@const CSB_M_TOP:    15px;
-@const CSB_M_BOTTOM: 15px;
+@const CSB_WIDTH:       160px;
+@const CSB_HEIGHT:      42px;
+@const CSB_M_TOP:       15px;
+@const CSB_M_BOTTOM:    15px;
+@const CSB_M_TOP_LS:    11px;
+@const CSB_M_BOTTOM_LS: 11px;
 @const CSB_M_LEFT:   $INDENT_DEFAULT;
 @const CSB_M_RIGHT:  $INDENT_DEFAULT;
 @const CSB_BORDER_VALUES: 20px 20px 20px 20px;
@@ -13,7 +15,7 @@
 @const CSB_FONT_COLOR_ACCENT: #FFFFFF;
 @const COLOR_EDITOR_PROMPT: #A6A8AB;
 @const COLOR_EDITOR_PROMPT_INVERTED: #CCCCCC;
-@const CEP_BG:  ;
+@const CEP_BG: none;
 @const CEP_BG_SELECTED: meegotouch-editor-inputfield-panel-background-selected 20px 0 40px 0;
 @const CEP_BG_PRESSED: meegotouch-editor-inputfield-panel-background-pressed 20px 0 40px 0;
 @const CEP_BG_SELECTED_INVERTED: meegotouch-editor-inputfield-panel-inverted-background-selected 20px 0 40px 0;
@@ -21,32 +23,40 @@
 
 
 #CommonSheetHeaderPanel {
-    minimum-size:      40 72;
-    preferred-size:    100% 72;
+    minimum-size:      40px 72px;
+    preferred-size:    100% 72px;
     maximum-size:      100% -1;
-    background-tiles:  ;
+    background-tiles:  none;
     background-image:  meegotouch-sheet-header-background 15px 15px 15px 15px;
     margin-top:        0;
     margin-bottom:     0;
     margin-left:       0;
     margin-right:      0;
 }
+#CommonSheetHeaderPanel.Landscape {
+    minimum-size:      40px 64px;
+    preferred-size:    100% 64px;
+}
 
 #CommonSheetHeaderPanel:pressed {
-    background-tiles:  ;
+    background-tiles:  none;
     background-image:  meegotouch-sheet-header-background-pressed 15px 15px 15px 15px;
 }
 
 #CommonSheetHeaderPanelInverted {
-    minimum-size:      40 72;
-    preferred-size:    100% 72;
+    minimum-size:      40px 72px;
+    preferred-size:    100% 72px;
     maximum-size:      100% -1;
-    background-tiles:  ;
+    background-tiles:  none;
     background-image:  meegotouch-sheet-header-inverted-background 15px 15px 15px 15px;
     margin-top:        0;
     margin-bottom:     0;
     margin-left:       0;
     margin-right:      0;
+}
+#CommonSheetHeaderPanelInverted.Landscape {
+    minimum-size:      40px 64px;
+    preferred-size:    100% 64px;
 }
 
 #CommonSheetHeaderPanelInverted:pressed {
@@ -55,15 +65,19 @@
 }
 
 #CommonOverlaySheetHeaderPanel {
-    minimum-size:      40 72;
-    preferred-size:    100% 72;
+    minimum-size:      40px 72px;
+    preferred-size:    100% 72px;
     maximum-size:      100% -1;
-    background-tiles:  ;
+    background-tiles:  none;
     background-image:  meegotouch-sheet-overlay-header-background 15px 15px 15px 15px;
     margin-top:        0;
     margin-bottom:     0;
     margin-left:       0;
     margin-right:      0;
+}
+#CommonOverlaySheetHeaderPanel.Landscape {
+    minimum-size:      40px 64px;
+    preferred-size:    100% 64px;
 }
 
 #CommonSheetHeaderButton {
@@ -75,6 +89,10 @@
     margin-bottom:    $CSB_M_BOTTOM;
     margin-left:      $CSB_M_LEFT;
     margin-right:     $CSB_M_RIGHT;
+}
+#CommonSheetHeaderButton.Landscape {
+    margin-top:     $CSB_M_TOP_LS;
+    margin-bottom:  $CSB_M_BOTTOM_LS;
 }
 
 #CommonSheetHeaderButton:pressed {
@@ -99,6 +117,10 @@
     margin-left:      $CSB_M_LEFT;
     margin-right:     $CSB_M_RIGHT;
     text-color:       $CSB_FONT_COLOR_INVERTED;
+}
+#CommonSheetHeaderButtonInverted.Landscape {
+    margin-top:     $CSB_M_TOP_LS;
+    margin-bottom:  $CSB_M_BOTTOM_LS;
 }
 
 #CommonSheetHeaderButtonInverted:pressed {
@@ -127,6 +149,10 @@
     margin-right:     $CSB_M_RIGHT;
     text-color:       $CSB_FONT_COLOR_INVERTED;
 }
+#CommonSheetHeaderButtonAccent.Landscape {
+    margin-top:     $CSB_M_TOP_LS;
+    margin-bottom:  $CSB_M_BOTTOM_LS;
+}
 
 #CommonSheetHeaderButtonAccent:pressed {
     background-image: meegotouch-sheet-button-accent-background-pressed $CSB_BORDER_VALUES;
@@ -149,6 +175,10 @@
     margin-right:     $CSB_M_RIGHT;
     text-color:       $CSB_FONT_COLOR_INVERTED;
 }
+#CommonSheetHeaderButtonAccentInverted.Landscape {
+    margin-top:     $CSB_M_TOP_LS;
+    margin-bottom:  $CSB_M_BOTTOM_LS;
+}
 
 #CommonSheetHeaderButtonAccentInverted:pressed {
     background-image: meegotouch-sheet-button-accent-inverted-background-pressed $CSB_BORDER_VALUES;
@@ -168,12 +198,12 @@
 /* Common Editor */
 
 #CommonEditorInputFieldPanel {
-    minimum-size:      56 56;
+    minimum-size:      56px 56px;
     preferred-size:    100% -1;
     maximum-size:      100% -1;
-    background-tiles:  ;
-    background-image:  ;
-    background-color:  ;
+    background-tiles:  none;
+    background-image:  none;
+    background-color:  none;
     margin-top:        0;
     margin-bottom:     0;
     margin-left:       0;
@@ -181,21 +211,21 @@
 }
 
 #CommonEditorInputFieldPanel:pressed {
-    background-tiles: ;
+    background-tiles: none;
     background-image: $CEP_BG_PRESSED;
 }
 #CommonEditorInputFieldPanel:selected {
-    background-tiles: ;
+    background-tiles: none;
     background-image: $CEP_BG_SELECTED;
 }
 
 #CommonEditorInputFieldPanelInverted {
-    minimum-size:      56 56;
+    minimum-size:      56px 56px;
     preferred-size:    100% -1;
     maximum-size:      100% -1;
-    background-tiles:  ;
-    background-image:  ;
-    background-color:  ;
+    background-tiles:  none;
+    background-image:  none;
+    background-color:  none;
     margin-top:        0;
     margin-bottom:     0;
     margin-left:       0;
@@ -203,21 +233,21 @@
 }
 
 #CommonEditorInputFieldPanelInverted:pressed {
-    background-tiles: ;
+    background-tiles: none;
     background-image: $CEP_BG_PRESSED_INVERTED;
 }
 #CommonEditorInputFieldPanelInverted:selected {
-    background-tiles: ;
+    background-tiles: none;
     background-image: $CEP_BG_SELECTED_INVERTED;
 }
 
 MLabelStyle#CommonEditorInputFieldLabel {
-    font: $FONT_FAMILY light 26;
-    color: $COLOR_SECONDARY_FOREGROUND;
-    margin-top: 15;
-    margin-bottom: 11;
-    margin-right: 0;
-    margin-left: $INDENT_DEFAULT;
+    font:   $FONT_FAMILY light 26px;
+    color:  $COLOR_SECONDARY_FOREGROUND;
+    margin-top:     15px;
+    margin-bottom:  11px;
+    margin-right:   0;
+    margin-left:    $INDENT_DEFAULT;
     vertical-alignment: top;
 }
 
@@ -226,12 +256,12 @@ MLabelStyle#CommonEditorInputFieldLabel:selected {
 }
 
 MLabelStyle#CommonEditorInputFieldLabelInverted {
-    font: $FONT_FAMILY light 26;
-    color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
-    margin-top: 15;
-    margin-bottom: 11;
-    margin-right: 0;
-    margin-left: $INDENT_DEFAULT;
+    font:   $FONT_FAMILY light 26px;
+    color:  $COLOR_INVERTED_SECONDARY_FOREGROUND;
+    margin-top:     15px;
+    margin-bottom:  11px;
+    margin-right:   0;
+    margin-left:    $INDENT_DEFAULT;
     vertical-alignment: top;
 }
 

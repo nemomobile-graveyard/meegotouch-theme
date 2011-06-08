@@ -24,15 +24,15 @@ MSheetStyle#Inverted {
 
 #SheetCentralSlot
 {
-    background-image: ;
-    background-tiles: ;
+    background-image: none;
+    background-tiles: none;
     background-color: $COLOR_BACKGROUND;
 }
 
 #SheetCentralSlotIverted
 {
-    background-image: ;
-    background-tiles: ;
+    background-image: none;
+    background-tiles: none;
     background-color: $COLOR_INVERTED_BACKGROUND;
 }
 
