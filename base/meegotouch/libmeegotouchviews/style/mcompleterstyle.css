@@ -1,5 +1,4 @@
 @const COMPLETER_HEIGHT: 84px;
-@const COMPLETERBUTTONWIDTH: $COMPLETER_HEIGHT;
 @const COMPLETERBUTTONHEIGHT: $COMPLETER_HEIGHT;
 @const COMPLETERBUTTON_CORNER_MARGINS: 41px 25px 41px 41px;
 
@@ -49,14 +48,14 @@ MCompleterStyle.Landscape {
     margin-bottom: 1mm;
     background-image: meegotouch-completer-button $COMPLETERBUTTON_CORNER_MARGINS;
 
-    text-margin-left: $MARGIN_DOUBLE;
+    text-margin-left: 2.8mm;
     text-margin-top: 0;
     text-margin-right: $MARGIN_DOUBLE;
     text-margin-bottom: 0;
 
-    minimum-size: $COMPLETERBUTTONHEIGHT $COMPLETERBUTTONWIDTH;
-    maximum-size: $COMPLETERBUTTONHEIGHT $COMPLETERBUTTONWIDTH;
-    preferred-size: $COMPLETERBUTTONHEIGHT $COMPLETERBUTTONWIDTH;
+    minimum-size: 68 $COMPLETERBUTTONHEIGHT;
+    maximum-size: 75 $COMPLETERBUTTONHEIGHT;
+    preferred-size: -1 $COMPLETERBUTTONHEIGHT;
 }
 
 #MCompleterTotalButton:pressed {
