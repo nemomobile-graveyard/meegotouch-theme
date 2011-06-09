@@ -10,7 +10,7 @@ MListIndexStyle {
     margin-bottom: 0;
     margin-right: 0;
 
-    fade-duration: 400;
+    fade-duration: 100;
 	appear-delay: 2000;
 
     tooltip-style-name: "";
