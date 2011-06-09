@@ -1,3 +1,14 @@
+meegotouchtheme (0.21.9-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#245625 - Letters are not fully visible inside text message bubble
+  * Fixes: NB#263724 - [TASK] reduce size of sheetbar in landscape sheet.
+  * Fixes: NB#231574 - Poor visuals when an object menu item is not reactive.
+  * Fixes: NB#261870 - VKB Caps Lock key's image is missing under base theme.
+  * Fixes: NB#259570 - [TASK] Attachment-icon size is too small
+
+ -- Natalia Dobrovolskaya <natalia.dobrovolskaya@nokia.com>  Thu, 09 Jun 2011 16:02:15 +0300
+
 meegotouchtheme (0.21.8-1) unstable; urgency=low
 
   * New version
