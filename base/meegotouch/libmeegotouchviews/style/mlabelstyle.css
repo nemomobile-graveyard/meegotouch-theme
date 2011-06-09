@@ -5,6 +5,9 @@ MLabelStyle {
     margin-right: $MARGIN_MEDIUM;
     margin-top: $MARGIN_MEDIUM;
     margin-bottom: $MARGIN_MEDIUM;
+    
+    reactive-margin-top: $MARGIN_LARGE;
+    reactive-margin-bottom: $MARGIN_LARGE;
 
     color: $COLOR_FOREGROUND;
     font: $FONT_DEFAULT;
