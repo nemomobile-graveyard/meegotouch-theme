@@ -242,7 +242,7 @@
 }
 
 MLabelStyle#CommonEditorInputFieldLabel {
-    font:   $FONT_FAMILY light 26px;
+    font:   $FONT_FAMILY_LIGHT 26px;
     color:  $COLOR_SECONDARY_FOREGROUND;
     margin-top:     15px;
     margin-bottom:  11px;
@@ -256,7 +256,7 @@ MLabelStyle#CommonEditorInputFieldLabel:selected {
 }
 
 MLabelStyle#CommonEditorInputFieldLabelInverted {
-    font:   $FONT_FAMILY light 26px;
+    font:   $FONT_FAMILY_LIGHT 26px;
     color:  $COLOR_INVERTED_SECONDARY_FOREGROUND;
     margin-top:     15px;
     margin-bottom:  11px;
@@ -631,8 +631,8 @@ MListItemStyle#CommonEditorComboBoxButton:pressed {
 
 MTextEditStyle#CommonEditorNoteArea {
     background-image: meegotouch-sheet-inputfield-background 15px 15px 15px 15px;
-    font: $FONT_FAMILY light 26;
-    prompt-font: $FONT_FAMILY light 26;
+    font: $FONT_FAMILY_LIGHT 26;
+    prompt-font: $FONT_FAMILY_LIGHT 26;
     padding-top: 24;
 }
 
@@ -642,8 +642,8 @@ MTextEditStyle#CommonEditorNoteArea:selected {
 
 MTextEditStyle#CommonEditorNoteAreaInverted {
     background-image: meegotouch-sheet-inputfield-inverted-background 15px 15px 15px 15px;
-    font: $FONT_FAMILY light 26;
-    prompt-font: $FONT_FAMILY light 26;
+    font: $FONT_FAMILY_LIGHT 26;
+    prompt-font: $FONT_FAMILY_LIGHT 26;
     text-color: $COLOR_INVERTED_FOREGROUND;
     padding-top: 24;
 }

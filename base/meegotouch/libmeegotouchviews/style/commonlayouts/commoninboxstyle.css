@@ -64,7 +64,7 @@
 }
 
 #CommonInboxSubTitle {
-    font:              $FONT_FAMILY light 22;
+    font:              $FONT_FAMILY_LIGHT 22;
     margin-left:       $INDENT_DEFAULT;
     margin-right:      $INDENT_DEFAULT;
     margin-top:        0;
@@ -75,7 +75,7 @@
 }
 
 #CommonInboxSubText {
-    font:              $FONT_FAMILY light 22;
+    font:              $FONT_FAMILY_LIGHT 22;
     color:             $COLOR_SECONDARY_FOREGROUND;
     margin-left:       $INDENT_DEFAULT;
     margin-right:      $INDENT_DEFAULT;
@@ -87,7 +87,7 @@
 }
 
 #CommonInboxUnreadItemInfo {
-    font:              $FONT_FAMILY light 18;
+    font:              $FONT_FAMILY_LIGHT 18;
     color:             $COLOR_ACCENT1;
     margin-left:       $INDENT_DEFAULT;
     margin-right:      $INDENT_DEFAULT;
@@ -99,7 +99,7 @@
 }
 
 #CommonInboxReadItemInfo {
-    font:              $FONT_FAMILY light 18;
+    font:              $FONT_FAMILY_LIGHT 18;
     color:             $COLOR_SECONDARY_FOREGROUND;
     margin-left:       $INDENT_DEFAULT;
     margin-right:      $INDENT_DEFAULT;

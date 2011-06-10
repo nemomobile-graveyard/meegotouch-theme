@@ -1,5 +1,5 @@
 @const CTITLE_FONT:    $FONT_FAMILY bold 26;
-@const CSUBTITLE_FONT: $FONT_FAMILY light 22;
+@const CSUBTITLE_FONT: $FONT_FAMILY_LIGHT 22;
 @const CTITLE_M_TOP:    1.5mm;
 @const CSUBTITLE_M_TOP: 0.2mm;
 @const CTITLE_COLOR:          $COLOR_FOREGROUND;
@@ -161,7 +161,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonBodyText {
-font:          $FONT_FAMILY light 24;
+font:          $FONT_FAMILY_LIGHT 24;
 color:         $COLOR_FOREGROUND;
 margin-top:    $MARGIN_XLARGE;
 margin-bottom: $MARGIN_XLARGE;
@@ -169,7 +169,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonBodyTextLight {
-font:          $FONT_FAMILY light 24;
+font:          $FONT_FAMILY_LIGHT 24;
 color:         $COLOR_SECONDARY_FOREGROUND;
 margin-top:    $MARGIN_XLARGE;
 margin-bottom: $MARGIN_XLARGE;
@@ -177,7 +177,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonXLargeHeader { /* deprecated */
-font:          $FONT_FAMILY light 56;
+font:          $FONT_FAMILY_LIGHT 56;
 color:         $COLOR_FOREGROUND;
 margin-top:    0.8mm;
 margin-bottom: 0;
@@ -185,7 +185,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonLargeHeader { /* deprecated */
-font:          $FONT_FAMILY light 40;
+font:          $FONT_FAMILY_LIGHT 40;
 color:         $COLOR_FOREGROUND;
 margin-top:    0.6mm;
 margin-bottom: 0;
@@ -193,7 +193,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonHeader { /* Updated according to 1_5_9 */
-font:          $FONT_FAMILY light 32;
+font:          $FONT_FAMILY_LIGHT 32;
 color:         $COLOR_FOREGROUND;
 margin-top:    20px;
 margin-bottom: 20px; 
@@ -201,7 +201,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonHeader.Landscape { /* Updated according to 1_5_9 */
-font:          $FONT_FAMILY light 32;
+font:          $FONT_FAMILY_LIGHT 32;
 color:         $COLOR_FOREGROUND;
 margin-top:    16px;
 margin-bottom: 14px; 
@@ -217,7 +217,7 @@ margin-left:   $MARGIN_LARGE;
 margin-right:  29px;
 }
 #CommonApplicationHeader { /* deprecated */
-font:          $FONT_FAMILY light 40;
+font:          $FONT_FAMILY_LIGHT 40;
 color:         $COLOR_FOREGROUND;
 margin-top:    2.2mm;
 margin-bottom: 1.5mm;
@@ -233,7 +233,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonLargeViewHeader { /* deprecated */
-    font:              $FONT_FAMILY light 32;
+    font:              $FONT_FAMILY_LIGHT 32;
     color:             $COLOR_FOREGROUND;
     margin-top:        0;
     margin-bottom:     0;
@@ -281,7 +281,7 @@ margin-left:   0;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonInputFieldText {
-font:          $FONT_FAMILY light 24;
+font:          $FONT_FAMILY_LIGHT 24;
 color:         $COLOR_FOREGROUND;
 margin-top:    0;
 margin-bottom: 0;
@@ -289,7 +289,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonInputFieldTextActive {
-font:          $FONT_FAMILY light 24;
+font:          $FONT_FAMILY_LIGHT 24;
 color:         $COLOR_FOREGROUND;
 margin-top:    0;
 margin-bottom: 0;
@@ -297,7 +297,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonInputFieldTextHint {
-font:          $FONT_FAMILY light 24;
+font:          $FONT_FAMILY_LIGHT 24;
 color:         #C0C0C0;
 margin-top:    0;
 margin-bottom: 0;
@@ -305,7 +305,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonFieldLabel { 
-font:          $FONT_FAMILY light 22;
+font:          $FONT_FAMILY_LIGHT 22;
 color:         #505050;
 margin-top:    0.8mm;
 margin-bottom: 0;
@@ -343,7 +343,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonQueryText {
-font:          $FONT_FAMILY light 24;
+font:          $FONT_FAMILY_LIGHT 24;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    17px;
 margin-bottom: 26px;
@@ -468,7 +468,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonBodyTextInverted {
-font:          $FONT_FAMILY light 24;
+font:          $FONT_FAMILY_LIGHT 24;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    $MARGIN_XLARGE;
 margin-bottom: $MARGIN_XLARGE;
@@ -476,7 +476,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonBodyTextLightInverted {
-font:          $FONT_FAMILY light 24;
+font:          $FONT_FAMILY_LIGHT 24;
 color:         $COLOR_INVERTED_SECONDARY_FOREGROUND;
 margin-top:    $MARGIN_XLARGE;
 margin-bottom: $MARGIN_XLARGE;
@@ -484,7 +484,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonXLargeHeaderInverted { /* deprecated */
-font:          $FONT_FAMILY light 56;
+font:          $FONT_FAMILY_LIGHT 56;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.8mm;
 margin-bottom: 0;
@@ -492,7 +492,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonLargeHeaderInverted { /* deprecated */
-font:          $FONT_FAMILY light 40;
+font:          $FONT_FAMILY_LIGHT 40;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0.6mm;
 margin-bottom: 0;
@@ -500,7 +500,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonHeaderInverted { /* Updated according to 1_5_9 */
-font:          $FONT_FAMILY light 32;
+font:          $FONT_FAMILY_LIGHT 32;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    20px; 
 margin-bottom: 20px;
@@ -508,7 +508,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonHeaderInverted.Landscape { /* Updated according to 1_5_9 */
-font:          $FONT_FAMILY light 32;
+font:          $FONT_FAMILY_LIGHT 32;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    16px; 
 margin-bottom: 14px;
@@ -524,7 +524,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  29px;
 }
 #CommonApplicationHeaderInverted { /* deprecated */
-font:          $FONT_FAMILY light 40;
+font:          $FONT_FAMILY_LIGHT 40;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    2.2mm;
 margin-bottom: 1.5mm;
@@ -540,7 +540,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonLargeViewHeaderInverted { /* deprecated */
-font:          $FONT_FAMILY light 32;
+font:          $FONT_FAMILY_LIGHT 32;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0;
 margin-bottom: 0;
@@ -588,7 +588,7 @@ margin-left:   0;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonInputFieldTextInverted {
-font:          $FONT_FAMILY light 24;
+font:          $FONT_FAMILY_LIGHT 24;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0;
 margin-bottom: 0;
@@ -596,7 +596,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonInputFieldTextActiveInverted {
-font:          $FONT_FAMILY light 24;
+font:          $FONT_FAMILY_LIGHT 24;
 color:         $COLOR_INVERTED_FOREGROUND;
 margin-top:    0;
 margin-bottom: 0;
@@ -604,7 +604,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonInputFieldTextHintInverted {
-font:          $FONT_FAMILY light 24;
+font:          $FONT_FAMILY_LIGHT 24;
 color:         #C0C0C0;
 margin-top:    0;
 margin-bottom: 0;
@@ -612,7 +612,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonFieldLabelInverted { /* same as field header, needs update */
-font:          $FONT_FAMILY light 22;
+font:          $FONT_FAMILY_LIGHT 22;
 color:         #B4B4B4;
 margin-top:    0.8mm;
 margin-bottom: 0;
@@ -668,7 +668,7 @@ color:         $COLOR_INVERTED_FOREGROUND;
 }
 
 #CommonSeekerLabel {
-    font: $FONT_FAMILY light 22px;
+    font: $FONT_FAMILY_LIGHT 22px;
     color: $COLOR_SECONDARY_FOREGROUND;
     margin-top: 0;
     margin-bottom: 0;
@@ -676,7 +676,7 @@ color:         $COLOR_INVERTED_FOREGROUND;
     margin-right: 27px;
 }
 #CommonSeekerLabelInverted {
-    font: $FONT_FAMILY light 22px;
+    font: $FONT_FAMILY_LIGHT 22px;
     color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
     margin-top: 0;
     margin-bottom: 0;
@@ -687,7 +687,7 @@ color:         $COLOR_INVERTED_FOREGROUND;
 /* Empty state labels */
 
 #CommonEmptyStateTitle {
-    font: $FONT_FAMILY light 6.2mm;
+    font: $FONT_FAMILY_LIGHT 6.2mm;
     color: $COLOR_FOREGROUND;
     margin-top:    0;
     margin-bottom: 0;
@@ -697,7 +697,7 @@ color:         $COLOR_INVERTED_FOREGROUND;
 }
 
 #CommonEmptyStateTitleKeyword {
-    font: $FONT_FAMILY light 6.2mm;
+    font: $FONT_FAMILY_LIGHT 6.2mm;
     color: $COLOR_FOREGROUND;
     margin-top:    0;
     margin-bottom: 0;
@@ -707,7 +707,7 @@ color:         $COLOR_INVERTED_FOREGROUND;
 }
 
 #CommonEmptyStateButtonGroupHeader {
-    font: $FONT_FAMILY light 2.4mm;
+    font: $FONT_FAMILY_LIGHT 2.4mm;
     color: $COLOR_FOREGROUND;
     margin-top:    0;
     margin-bottom: 1.8mm;
@@ -716,7 +716,7 @@ color:         $COLOR_INVERTED_FOREGROUND;
 }
 
 #CommonEmptyStateTitleInverted {
-    font: $FONT_FAMILY light 6.2mm;
+    font: $FONT_FAMILY_LIGHT 6.2mm;
     color: $COLOR_INVERTED_FOREGROUND;
     margin-top:    0;
     margin-bottom: 0;
@@ -726,7 +726,7 @@ color:         $COLOR_INVERTED_FOREGROUND;
 }
 
 #CommonEmptyStateTitleKeywordInverted {
-    font: $FONT_FAMILY light 6.2mm;
+    font: $FONT_FAMILY_LIGHT 6.2mm;
     color: $COLOR_INVERTED_FOREGROUND;
     margin-top:    0;
     margin-bottom: 0;
@@ -736,7 +736,7 @@ color:         $COLOR_INVERTED_FOREGROUND;
 }
 
 #CommonEmptyStateButtonGroupHeaderInverted {
-    font: $FONT_FAMILY light 2.4mm;
+    font: $FONT_FAMILY_LIGHT 2.4mm;
     color: $COLOR_INVERTED_FOREGROUND;
     margin-top:    0;
     margin-bottom: 1.8mm;
@@ -755,7 +755,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  0;
 }
 #CommonTitleRightMargin {
-font:          $FONT_FAMILY light 2.6mm;
+font:          $FONT_FAMILY_LIGHT 2.6mm;
 color:         $CTITLE_COLOR;
 margin-top:    $CTITLE_M_TOP;
 margin-bottom: 0;
@@ -779,7 +779,7 @@ margin-left:   $INDENT_DEFAULT;
 margin-right:  0;
 }
 #CommonTitleAccentedRightMargin {
-font:          $FONT_FAMILY light 2.6mm;
+font:          $FONT_FAMILY_LIGHT 2.6mm;
 color:         $COLOR_ACCENT1;
 margin-top:    $CTITLE_M_TOP;
 margin-bottom: 0;
@@ -814,7 +814,7 @@ margin-right:  0;
 /* For dialog */
 
 #CommonDialogHeader {
-font:          $FONT_FAMILY light 32;
+font:          $FONT_FAMILY_LIGHT 32;
 color:         $COLOR_DIALOGHEADER;
 margin-top:    0.8mm;
 margin-bottom: 0;
