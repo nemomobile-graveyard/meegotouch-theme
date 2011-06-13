@@ -3,6 +3,8 @@ MBasicSheetHeaderStyle {
     positive-action-style-name: "CommonSheetHeaderButtonAccent";
     negative-action-style-name: "CommonSheetHeaderButton";
     progress-indicator-style-name: "";
+
+    padding-left: $WIDTH_HOMEBUTTON_OFFSET;
 }
 
 MBasicSheetHeaderStyle#Inverted {
