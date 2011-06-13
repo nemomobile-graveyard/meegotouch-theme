@@ -33,8 +33,8 @@ MDialogStyle {
     dialog-left-margin: 0;
     dialog-right-margin: 0;
 
-    dialog-minimum-size: 54.4mm 13.7mm;
-    dialog-preferred-size: 54.4mm -1;
+    dialog-minimum-size: 544px 137px;
+    dialog-preferred-size: 544px -1;
     /* FIXME: This really should use the standard mbuttonstyle instead. */
     dialog-button-fixed-width: 322px;
     button-box-centered: false;
@@ -53,36 +53,36 @@ MDialogStyle {
     title-label-style-name: "CommonDialogHeader";
 
     /* This is a hack to avoid the animation starting from the corner. This should become obsolete eventually. */
-    padding-left: 16mm;
-    padding-right: 16mm;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 MDialogStyle.Portrait {
-    dialog-minimum-size: 44.8mm 13.7mm;
-    dialog-preferred-size: 44.8mm -1;
+    dialog-minimum-size: 448px 137px;
+    dialog-preferred-size: 448px -1;
     maximum-horizontal-buttons: 1;
     button-spacing: $MARGIN_DEFAULT;
 
     /* This is a hack to avoid the animation starting from the corner. This should become obsolete eventually. */
-    padding-left: 1.6mm;
-    padding-right: 1.6mm;
+    padding-left:   16px;
+    padding-right:  16px;
 }
 
 #MDialogContentsViewport {
     /* 5 * SIZE_BUTTON */
-    minimum-size: -1 -1;
-    preferred-size: -1 -1;
-    maximum-size: -1 260px;
+    minimum-size:   544px -1;
+    preferred-size: 544px -1;
+    maximum-size:   100% 260px;
 
-    margin-left: 0;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
+    margin-left:    0;
+    margin-top:     0;
+    margin-right:   0;
+    margin-bottom:  0;
 
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0.4mm;
+    padding-left:   0;
+    padding-right:  0;
+    padding-top:    0;
+    padding-bottom: 4px;
 
     background-image: none;
     background-color: none;
@@ -90,9 +90,9 @@ MDialogStyle.Portrait {
 
 #MDialogContentsViewport.Portrait {
     /* 10 * SIZE_BUTTON */
-    minimum-size: -1 -1;
-    preferred-size: -1 -1;
-    maximum-size: -1 640px;
+    minimum-size:   448px -1;
+    preferred-size: 448px -1;
+    maximum-size:   100% 640px;
 }
 
 MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
@@ -189,7 +189,7 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
 }
 
 #FullsizeDialogContentsViewport {
-    maximum-size: -1 100%;
+    maximum-size: 100% 100%;
 }
 
 /*
@@ -203,11 +203,11 @@ MPannableWidgetStyle[titlebarless]#MDialogContentsViewport {
 }
 #FixedHeightDialogContentsViewport {
     /* 5 * SIZE_BUTTON + 0.4mm padding */
-    minimum-size: -1 32.4mm;
+    minimum-size: -1 324px;
 }
 #FixedHeightDialogContentsViewport.Portrait {
     /* 10 * SIZE_BUTTON + 0.4mm padding */
-    minimum-size: -1 64.4mm;
+    minimum-size: -1 644px;
 }
 
 /* Override default label colours. */
