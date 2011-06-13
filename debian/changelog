@@ -1,3 +1,13 @@
+meegotouchtheme (0.21.10-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#264593 - [TASK] Change all light common label styles to use
+    'real' light font
+  * Changes: Tap down effect on the active tab
+  * Changes: Limit dialog viewport size to 100%.
+
+ -- Daniel Borgmann <ext-daniel.borgmann@nokia.com>  Mon, 13 Jun 2011 11:45:25 +0300
+
 meegotouchtheme (0.21.9-1) unstable; urgency=low
 
   * New version
