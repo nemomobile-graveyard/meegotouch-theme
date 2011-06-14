@@ -2,7 +2,7 @@
 MTextEditStyle {
     background-image: meegotouch-textedit-background $CORNER_MARGINS;
 
-    font: $FONT_FAMILY light 24px;
+    font: $FONT_FAMILY_LIGHT 24px;
     text-color: $COLOR_FOREGROUND;
     selection-text-color: $COLOR_INVERTED_FOREGROUND;
     selection-background-color: $COLOR_SELECT;
@@ -10,7 +10,7 @@ MTextEditStyle {
     allow-view-reposition: true;
     disable-magnifier: false;
     mask-string: "\u2022"; /* bullet */
-    prompt-font: $FONT_FAMILY light 24px;
+    prompt-font: $FONT_FAMILY_LIGHT 24px;
     prompt-color: #A6A8AB;
     paste-failed-icon: "icon-m-framework-close";
     paste-failed-duration: 3000;
