@@ -1,3 +1,14 @@
+meegotouchtheme (0.21.11-1) unstable; urgency=low
+
+  * New version
+  * Changes: Add $FONT_FAMILY_LIGHT constant.
+  * Changes: Add $WIDTH_HOMEBUTTON_OFFSET constant and offset sheet buttons.
+  * Fixes: NB#263145 - MCompleter's access button is shown improperly
+  * Changes: paramters of MCompleter's button
+  * Fixes: NB#265322 - [TASK] MTextEdit should use 'real' light font
+
+ -- Daniel Borgmann <ext-daniel.borgmann@nokia.com>  Tue, 14 Jun 2011 10:52:01 +0300
+
 meegotouchtheme (0.21.10-1) unstable; urgency=low
 
   * New version
