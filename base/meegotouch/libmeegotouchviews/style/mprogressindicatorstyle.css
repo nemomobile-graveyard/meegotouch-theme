@@ -4,7 +4,7 @@ MProgressIndicatorStyle {
     active-element-count: 0;
     element-distance: 0;
 
-    speed: 40;
+    speed: 20;
 
     minimum-size: $SIZE_BUTTON 10px;
     preferred-size: -1 10px;
@@ -23,5 +23,6 @@ MProgressIndicatorStyle[bar] {
     known-bar-texture-tiled: true;
     element-size: 10px;
 
-    refresh-rate: 20;
+    speed: 20;
+    refresh-rate: 5;
 }
