@@ -236,6 +236,24 @@ MDialog MWidgetControllerStyle#CommonPanel:selected {
     background-color: #3D3D3D;
 }
 
+MDialog MListItemStyle:pressed {
+    background-tiles: none;
+    background-image: none;
+    background-color: #333333;
+}
+
+MDialog MListItemStyle#CommonPanel:pressed {
+    background-tiles: none;
+    background-image: none;
+    background-color: #333333;
+}
+
+MDialog MWidgetControllerStyle#CommonPanel:pressed {
+    background-tiles: none;
+    background-image: none;
+    background-color: #333333;
+}
+
 MDialog MImageWidgetStyle#CommonTitleIcon {
     margin-top: $MARGIN_LARGE;
 }
