@@ -96,12 +96,22 @@ MApplicationMenu MWidgetSlideAnimationStyle#In {
     origin: "top";
     easing-curve: inoutquint;
 }
+MApplicationMenu MWidgetSlideAnimationStyle#In.Landscape {
+    origin: "right";
+}
 
 MApplicationMenu MWidgetSlideAnimationStyle#Out {
     delay: 0;
     duration: 350;
     origin: "top";
     easing-curve: inoutquint;
+}
+MApplicationMenu MWidgetSlideAnimationStyle#Out.Landscape {
+    origin: "right";
+}
+
+MObjectMenu MWidgetSlideAnimationStyle.Landscape {
+    origin: "right";
 }
 
 MObjectMenu MWidgetSlideAnimationStyle#In {
@@ -110,10 +120,16 @@ MObjectMenu MWidgetSlideAnimationStyle#In {
     origin: "bottom";
     easing-curve: outquint;
 }
+MObjectMenu MWidgetSlideAnimationStyle#In.Landscape {
+    origin: "right";
+}
 
 MObjectMenu MWidgetSlideAnimationStyle#Out {
     delay: 0;
     duration: 350;
     origin: "bottom";
     easing-curve: inoutquint;
+}
+MObjectMenu MWidgetSlideAnimationStyle#Out.Landscape {
+    origin: "right";
 }
