@@ -5,7 +5,7 @@ MPannableWidgetStyle {
     pointer-spring-k: 0; /* unused */
     friction-c: 0; /* unused */
 
-    sliding-friction-c: 0.95; 
+    sliding-friction-c: 0.965; 
     border-spring-k: 0.06;
     border-friction-c: 0.66;
 
@@ -26,5 +26,5 @@ MPannableWidgetStyle {
     padding-top: 0;
     padding-bottom: 0;
     
-    maximum-velocity: 100;
+    maximum-velocity: 150;
 }
