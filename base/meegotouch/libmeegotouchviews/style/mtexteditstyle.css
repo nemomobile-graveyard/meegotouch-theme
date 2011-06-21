@@ -21,6 +21,7 @@ MTextEditStyle {
     focus-transition-duration: 150;
     hide-show-prompt-duration: 100;
     prompt-transition-delay: 60;
+    disable-toolbar: false;
 
     text-clipping-top: 2px;
     text-clipping-bottom: 2px;
