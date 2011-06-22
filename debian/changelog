@@ -1,3 +1,15 @@
+meegotouchtheme (0.23.0-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#265902 - Pressed state in comboboxes is transparent and
+    background application shows through
+  * Changes: Physics properties for better flick/pan behavior.
+  * Changes: new update intervals for the progress indicator
+  * Changes: added default value for new MTextEdit attribute disabling
+    copy/paste popup
+
+ -- Daniel Borgmann <ext-daniel.borgmann@nokia.com>  Wed, 22 Jun 2011 14:55:16 +0300
+
 meegotouchtheme (0.21.11-1) unstable; urgency=low
 
   * New version
