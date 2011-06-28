@@ -1,3 +1,16 @@
+meegotouchtheme (0.23.1-1) unstable; urgency=low
+
+  * New version
+  * New: MStatusBarSlideAnimationStyle
+  * Changes: part of fix forNB#263844 - Scroll and Fastscroll indicators appear and disappear with incorrect animation parameters
+  * Changes: Update switchbutton to intended dimensions.
+  * Fixes: NB#268335, [TASK] Press and release feedbacks need to be updated
+  * Fixes: BMC#19272 - No application start-up indicator.
+  * Fixes:NB#261608 - broken icon-id references in base theme
+  * Changes: Update page switch timings according to latest specs
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 28 Jun 2011 14:37:07 +0300
+
 meegotouchtheme (0.23.0-1) unstable; urgency=low
 
   * New version
