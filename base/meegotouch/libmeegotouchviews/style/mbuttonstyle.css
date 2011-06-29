@@ -32,6 +32,8 @@ MButtonStyle {
     press-timeout: 140;
 
     transition: "default";
+
+    max-distance-for-click: 8mm;
 }
 
 #ButtonLabel {
