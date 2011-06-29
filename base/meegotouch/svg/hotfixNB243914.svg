@@ -153,14 +153,5 @@
 	<g id="meegotouch-countbubble-background-large">
 		<rect x="155" y="70" style="fill:#E6E6E6;" width="32" height="32"/>
 	</g>
-	<g id="meegotouch-button-checkbox-background-selected-disabled">
-		<rect x="113" y="70" style="fill:#E6E6E6;" width="32" height="32"/>
-	</g>
-	<g id="meegotouch-button-checkbox-background-selected">
-		<rect x="72" y="70" style="fill:#E6E6E6;" width="32" height="32"/>
-	</g>
-	<g id="meegotouch-button-checkbox-background-disabled">
-		<rect x="30" y="70" style="fill:#E6E6E6;" width="32" height="32"/>
-	</g>
 </g>
 </svg>
