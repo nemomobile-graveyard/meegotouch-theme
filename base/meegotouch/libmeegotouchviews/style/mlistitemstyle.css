@@ -14,6 +14,8 @@ MListItemStyle {
     maximum-size: 100% $SIZE_FOUR;
 
     down-state-effect: "MGraphicsHighlightEffect";
+
+    max-distance-for-click: 8mm;
 }
 
 MListItemStyle:selected {
