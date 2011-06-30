@@ -9,6 +9,9 @@ MEditorToolbarStyle
     padding-right: 0;
     padding-top: 0;
     padding-bottom: 0;
+
+    hide-timeout: 5000;
+    hide-animation-duration: 1000;
 }
 
 MEditorToolbarStyle:editor-under-cursor

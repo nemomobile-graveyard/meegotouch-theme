@@ -43,6 +43,8 @@ MTextEditStyle {
     padding-bottom: 12px;
     padding-left: 18px;
     padding-right: 18px;
+
+    toolbar-style-name: "";
 }
 
 MTextEditStyle:selected {
