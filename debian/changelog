@@ -1,8 +1,15 @@
-meegotouchtheme (0.23.2~1) unstable; urgency=low
+meegotouchtheme (0.23.2-1) unstable; urgency=low
 
-  * [unreleased]
+  * New version
+  * Changes: mdialogstyle.css preferred-size: 100% 100%;
+  * Fixes: NB#258981 - Long dialogs with buttonbox are shifted outside the screen border.
+  * Changes: Version 0.23.2~1
+  * New: MListItemStyle - max-distance-for-click
+  * New: MButtonStyle - max-distance-for-click
+  * Changes: Fix size of separators.
+  * Fixes: NB#266666 - Information banner not correctly aligned to screen
 
- -- Daniel d'Andrada <daniel.dandrada@nokia.com>  Thu, 30 Jun 2011 14:48:14 +0300
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 04 Jul 2011 15:03:09 +0300
 
 meegotouchtheme (0.23.1-1) unstable; urgency=low
 
