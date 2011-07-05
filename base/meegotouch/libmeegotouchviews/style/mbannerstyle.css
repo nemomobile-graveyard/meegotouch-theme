@@ -9,6 +9,7 @@ MBannerStyle {
     disappear-timeout: 5000;
     /* Available for FullEventBanner, EventBanner, LockScreenEventBanner. */
     press-down-banner-opacity: 0.6;
+    timestamp-separator: "|";
 }
 
 MBanner MLabelStyle {
