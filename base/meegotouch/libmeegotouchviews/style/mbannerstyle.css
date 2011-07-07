@@ -223,14 +223,14 @@ MBannerStyle #SystemBanner {
 }
 
 MBannerStyle #SystemBanner.Landscape {
-    maximum-size: 83.8mm 10.6mm;
-    minimum-size: 46.6mm 6.4mm;
-    preferred-size: 83.8mm -1;
+    maximum-size: 83.4mm 8mm;
+    minimum-size: 46mm 8mm;
+    preferred-size: 83.4mm -1;
 }
 
 MBannerStyle #SystemBanner.Portrait {
     maximum-size: 46.4mm 10.6mm;
-    minimum-size: 46.4mm 6.4mm;
+    minimum-size: 46.4mm 8mm;
     preferred-size: 46.4mm -1;
 }
 
