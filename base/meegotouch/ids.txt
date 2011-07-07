@@ -1066,6 +1066,10 @@ icon-m-toolbar-addressbook
 icon-m-toolbar-add
 icon-m-toolbar-alphabetic-order
 icon-m-toolbar-backspace
+icon-m-toolbar-back-landscape-dimmed-white
+icon-m-toolbar-back-landscape-white
+icon-m-toolbar-back-landscape-white-selected
+icon-m-toolbar-back-white
 icon-m-toolbar-camera
 icon-m-toolbar-column
 icon-m-toolbar-content-audio

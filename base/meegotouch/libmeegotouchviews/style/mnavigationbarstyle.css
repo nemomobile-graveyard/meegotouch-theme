@@ -175,15 +175,33 @@ MApplicationMenuButtonStyle :pressed
     icon-id: "icon-m-toolbar-back-white";
     icon-size: 5.2mm 5.2mm;
 
+    minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_PORTRAIT;
+    preferred-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_PORTRAIT;
+    maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_PORTRAIT;
+}
+
+#MNavigationBarBackButtonInverted.Landscape {
+    icon-id: "icon-m-toolbar-back-landscape-white";
+    icon-size: 4.0mm 4.0mm;
+
     minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
     maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
     preferred-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
 }
 
-#MNavigationBarBackButtonInverted.Portrait {
-    minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_PORTRAIT;
-    preferred-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_PORTRAIT;
-    maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_PORTRAIT;
+#MNavigationBarBackButtonInverted.Landscape:pressed {
+    icon-id: "icon-m-toolbar-back-landscape-white-selected";
+    icon-size: 4.0mm 4.0mm;
+}
+
+#MNavigationBarBackButtonInverted.Landscape:selected {
+    icon-id: "icon-m-toolbar-back-landscape-white-selected";
+    icon-size: 4.0mm 4.0mm;
+}
+
+#MNavigationBarBackButtonInverted.Landscape:disabled {
+    icon-id: "icon-m-toolbar-back-landscape-dimmed-white";
+    icon-size: 4.0mm 4.0mm;
 }
 
 #MNavigationBarMenuButtonInverted {
