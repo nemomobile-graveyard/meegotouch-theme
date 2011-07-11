@@ -1,8 +1,11 @@
-meegotouchtheme (0.23.3~1) unstable; urgency=low
+meegotouchtheme (0.23.3-1) unstable; urgency=low
 
-  * [unreleased]
+  * New version
+  * Fixes: NB#271725 - Sheet disabled button style label color is off
+  * Fixes: NB#271360 - SystemBanner has a different size compared with InformationBanner
+  * Changes: complementary style property for NB#246264
 
- -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 04 Jul 2011 15:04:08 +0300
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 11 Jul 2011 13:00:59 +0300
 
 meegotouchtheme (0.23.2-1) unstable; urgency=low
 
