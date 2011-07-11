@@ -80,6 +80,9 @@ MButtonStyle#ToolBarLabelOnlyCommonButton {
 
     background-image: meegotouch-button-navigationbar-button-background $CORNER_MARGINS;
 }
+MButtonStyle#ToolBarLabelOnlyCommonButton:disabled {
+    text-color: #9B9C9D;
+}
 
 
 /*********** Inverted Style *************/

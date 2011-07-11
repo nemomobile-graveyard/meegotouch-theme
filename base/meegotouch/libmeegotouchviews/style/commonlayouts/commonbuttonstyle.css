@@ -1447,6 +1447,9 @@ background-image: meegotouch-button-navigationbar-button-background-pressed $TBB
 #CommonToolbarButton:selected {
 background-image: meegotouch-button-navigationbar-button-background-selected $TBB_CORNERS;
 }
+#CommonToolbarButton:disabled {
+text-color: #9B9C9D;
+}
 #CommonToolbarLeftSplitButton {
 background-image: meegotouch-button-navigationbar-tab-button-background-horizontal-left $TBSB_CORNERS;
 minimum-size:     $TBSB_HEIGHT $TBSB_HEIGHT;
@@ -1460,6 +1463,9 @@ background-image: meegotouch-button-navigationbar-tab-button-background-pressed-
 }
 #CommonToolbarLeftSplitButton:selected {
 background-image: meegotouch-button-navigationbar-tab-button-background-selected-horizontal-left $TBSB_CORNERS;
+}
+#CommonToolbarLeftSplitButton:disabled {
+text-color: #9B9C9D;
 }
 #CommonToolbarCenterSplitButton {
 background-image: meegotouch-button-navigationbar-tab-button-background-horizontal-center $TBSB_CORNERS;
@@ -1475,6 +1481,9 @@ background-image: meegotouch-button-navigationbar-tab-button-background-pressed-
 #CommonToolbarCenterSplitButton:selected {
 background-image: meegotouch-button-navigationbar-tab-button-background-selected-horizontal-center $TBSB_CORNERS;
 }
+#CommonToolbarCenterSplitButton:disabled {
+text-color: #9B9C9D;
+}
 #CommonToolbarRightSplitButton {
 background-image: meegotouch-button-navigationbar-tab-button-background-horizontal-right $TBSB_CORNERS;
 minimum-size:     $TBSB_HEIGHT $TBSB_HEIGHT;
@@ -1488,6 +1497,9 @@ background-image: meegotouch-button-navigationbar-tab-button-background-pressed-
 }
 #CommonToolbarRightSplitButton:selected {
 background-image: meegotouch-button-navigationbar-tab-button-background-selected-horizontal-right $TBSB_CORNERS;
+}
+#CommonToolbarRightSplitButton:disabled {
+text-color: #9B9C9D;
 }
 
 #CommonToolbarButtonInverted {
