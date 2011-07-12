@@ -6,6 +6,7 @@ MListStyle {
     group-separator-object-name: "emptySeparator";
     list-index-style-name: "";
     delete-item-animation: "MBasicListItemDeletionAnimation";
+    insert-item-animation: "MBasicListItemInsertionAnimation";
 }
 
 #emptySeparator {
