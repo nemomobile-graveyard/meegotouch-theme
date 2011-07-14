@@ -10,7 +10,7 @@ MRelocatorStyle.Portrait {
 }
 
 MRelocatorStyle.Landscape {
-    vertical-anchor-position: 4mm;
+    vertical-anchor-position: 10mm;
     top-no-go-margin: 4mm;
     bottom-no-go-margin: 4mm;
 }
