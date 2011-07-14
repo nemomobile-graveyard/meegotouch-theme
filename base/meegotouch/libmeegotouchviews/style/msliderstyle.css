@@ -41,6 +41,20 @@ MSliderStyle {
     max-label-fixed-width: 0;
 }
 
+MSliderStyle:disabled {
+    handle-pixmap: "meegotouch-slider-handle-background-disabled" 6.4mm 6.4mm;
+    handle-pressed-pixmap: "meegotouch-slider-handle-background-disabled" 6.4mm 6.4mm;
+    handle-vertical-pixmap: "meegotouch-slider-handle-background-disabled" 6.4mm 6.4mm;
+    handle-vertical-pressed-pixmap: "meegotouch-slider-handle-background-disabled" 6.4mm 6.4mm;
+
+    background-elapsed-image: "meegotouch-slider-elapsed-background-horizontal-disabled" 4px 4px 4px 4px;
+    background-received-image: "meegotouch-slider-received-background-horizontal" 4px 4px 4px 4px;
+
+    background-vertical-elapsed-image: "meegotouch-slider-elapsed-background-vertical-disabled" 4px 4px 4px 4px;
+    background-vertical-received-image: "meegotouch-slider-received-background-vertical-disabled" 4px 4px 4px 4px;
+}
+
+
 #MSliderMinMaxLabel {
     margin-left: $MARGIN_XSMALL;
     margin-right: $MARGIN_XSMALL;

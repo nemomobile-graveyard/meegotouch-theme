@@ -264,6 +264,17 @@ minimum-size:    32.2mm -1;
 preferred-size:  44.8mm -1;
 maximum-size:    44.8mm -1;
 }
+#CommonSliderInverted:disabled {
+handle-pixmap: "meegotouch-slider-handle-background-disabled" 6.4mm 6.4mm;
+handle-pressed-pixmap: "meegotouch-slider-handle-background-disabled" 6.4mm 6.4mm;
+handle-vertical-pixmap: "meegotouch-slider-handle-background-disabled" 6.4mm 6.4mm;
+handle-vertical-pressed-pixmap: "meegotouch-slider-handle-background-disabled" 6.4mm 6.4mm;
+background-elapsed-image: "meegotouch-slider-elapsed-inverted-background-horizontal-disabled" 4px 4px 4px 4px;
+background-received-image: "meegotouch-slider-received-inverted-background-horizontal" 4px 4px 4px 4px;
+background-vertical-elapsed-image: "meegotouch-slider-elapsed-inverted-background-vertical-disabled" 4px 4px 4px 4px;
+background-vertical-received-image: "meegotouch-slider-received-inverted-background-vertical-disabled" 4px 4px 4px 4px;
+}
+
 
 /* Seeker */
 
@@ -304,6 +315,16 @@ margin-right:                       0;
 minimum-size:                       32.2mm -1;
 preferred-size:                     44.8mm -1;
 maximum-size:                       44.8mm -1;
+}
+#CommonSeekerInverted:disabled {
+handle-pixmap: "meegotouch-slider-handle-background-disabled" 6.4mm 6.4mm;
+handle-pressed-pixmap: "meegotouch-slider-handle-background-disabled" 6.4mm 6.4mm;
+handle-vertical-pixmap: "meegotouch-slider-handle-background-disabled" 6.4mm 6.4mm;
+handle-vertical-pressed-pixmap: "meegotouch-slider-handle-background-disabled" 6.4mm 6.4mm;
+background-elapsed-image: "meegotouch-slider-elapsed-inverted-background-horizontal-disabled" 4px 4px 4px 4px;
+background-received-image: "meegotouch-slider-received-inverted-background-horizontal" 4px 4px 4px 4px;
+background-vertical-elapsed-image: "meegotouch-slider-elapsed-inverted-background-vertical-disabled" 4px 4px 4px 4px;
+background-vertical-received-image: "meegotouch-slider-received-inverted-background-vertical-disabled" 4px 4px 4px 4px;
 }
 
 /* Spinner */
