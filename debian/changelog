@@ -1,8 +1,15 @@
-meegotouchtheme (0.23.4~1) unstable; urgency=low
+meegotouchtheme (0.23.4-1) unstable; urgency=low
 
-  * [unreleased]
+  * New version
+  * Changes: MSheetStyle: let internal viewport grow according to its panned widget size hints
+  * Changes: enabling the press state in MBanner.
+  * Fixes: BMC#20186 - [CE] An appropriate background for checkbox enabled is missing
+  * Fixes: NB#269373 - Gallery toolbar buttons are wrong size/misaligned in landscape orientation
+  * Fixes: NB#261166 - Black line is flashed when changing the orientation in create event view
+  * Fixes: NB#256301 - slider with disabled state looks the same as an enabled one.
+  * Fixes: NB#271175 - OfficeTools - not able to see the text "delete" on button.
 
- -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 11 Jul 2011 13:04:36 +0300
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 20 Jul 2011 14:56:37 +0300
 
 meegotouchtheme (0.23.3-1) unstable; urgency=low
 
