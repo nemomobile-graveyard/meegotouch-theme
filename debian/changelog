@@ -1,8 +1,13 @@
-meegotouchtheme (0.23.5~1) unstable; urgency=low
+meegotouchtheme (0.23.5-1) unstable; urgency=low
 
-  * [unreleased]
+  * New version
+  * Fixes: BMC#18617 - [CE] Highlighting text causes UI corruptions
+  * Fixes: BMC#20984 - [CE] m-toolbar needs proper background and bordering
+  * New: Styles for list item insertion animation.
+  * Changes: MLabelStyle - Initialize preferred-line-count to -1
+  * Fixes: BMC#20984 - [CE] m-toolbar needs proper background and borderin
 
- -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 20 Jul 2011 14:57:44 +0300
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 26 Jul 2011 14:06:26 +0300
 
 meegotouchtheme (0.23.4-1) unstable; urgency=low
 
