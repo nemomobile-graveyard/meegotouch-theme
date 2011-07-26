@@ -43,13 +43,15 @@ MSceneLayerEffect MWidgetFadeAnimationStyle#Out {
 }
 
 MNavigationBar MWidgetFadeAnimationStyle#In {
-    delay: 300;
-    duration: 300;
+    delay: 0;
+    duration: 400;
+    easing-curve: inoutexpo;
 }
 
 MNavigationBar MWidgetFadeAnimationStyle#Out {
     delay: 0;
-    duration: 300;
+    duration: 400;
+    easing-curve: inoutexpo;
 }
 
 MSheet MWidgetFadeAnimationStyle#In {
