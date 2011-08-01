@@ -25,8 +25,8 @@ MTextEditStyle {
 
     text-clipping-top: 2px;
     text-clipping-bottom: 2px;
-    text-clipping-left: 2px;
-    text-clipping-right: 2px;
+    text-clipping-left: 16px;
+    text-clipping-right: 16px;
 
     /* inherited from MWidgetStyle */
     minimum-size: -1 52px;
