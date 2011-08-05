@@ -10,8 +10,8 @@ MComboBoxStyle {
     padding-right:  $PADDING_DEFAULT;
     padding-bottom: $PADDING_DEFAULT;
 
+    minimum-size:   $SIZE_LIST $SIZE_LIST;
     preferred-size: -1 $SIZE_LIST;
-    minimum-size:   $SIZE_ONE $SIZE_LIST;
     maximum-size:   100% $SIZE_LIST;
 
     indicator-image: "";
