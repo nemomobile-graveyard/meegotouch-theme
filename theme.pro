@@ -23,12 +23,8 @@ TEMPLATE = subdirs
 base.files = ./base
 base.path = $$THEME_DIR
 base.CONFIG += no_check_exist
-base_icon.files = ./base/meegotouch/icons/icon-l-meegotouchtheme-devel.svg
-base_icon.path = $$THEME_DIR/base/meegotouch/icons
-base_icon.CONFIG += no_check_exist
 
 INSTALLS += base \
-            base_icon \
 
 QMAKE_CLEAN += build-stamp configure-stamp
 QMAKE_DISTCLEAN += build-stamp configure-stamp
