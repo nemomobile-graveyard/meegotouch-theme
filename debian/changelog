@@ -1,8 +1,15 @@
-meegotouchtheme (0.23.6~1) unstable; urgency=low
+meegotouchtheme (0.23.6-1) unstable; urgency=low
 
-  * [unreleased]
+  * New version
+  * Fixes: NB#220014 - base theme provides common SVG images.
+  * Changes: Depend on meegotouchtheme-graphics.
+  * Fixes: NB#275742 - Done button is seen as if it has focus on it even if it is disabled.
+  * Changes: MLabel - set the default preferred line count behavior to "set".
+  * Fixes: NB#266339 - Subscribe to feed URL text field is missing white space on the left side.
+  * Changes: Fix maximum dialog height in landscape.
+  * Changes: Updating parameters of navigation bar fade animation
 
- -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 26 Jul 2011 14:10:59 +0300
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 15 Aug 2011 12:30:20 +0300
 
 meegotouchtheme (0.23.5-1) unstable; urgency=low
 
