@@ -222,11 +222,8 @@ MBannerStyle #FullEventBanner.Portrait {
 
 MBannerStyle #SystemBanner {
     icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
-
-    margin-top:$MARGIN_LARGE;
-    margin-bottom:$MARGIN_LARGE;
     margin-right: $MARGIN_LARGE;
-    margin-left:$MARGIN_LARGE;
+    margin-left: $MARGIN_LARGE;
 
     background-image: "meegotouch-notification-system-background" 10px 10px 10px 10px;
 }
@@ -262,10 +259,8 @@ MBannerStyle #SystemBanner.Portrait {
 MBannerStyle #InformationBanner {
     icon-size: 0 0;
 
-    margin-top:$MARGIN_LARGE;
-    margin-bottom:$MARGIN_LARGE;
     margin-right: $MARGIN_LARGE;
-    margin-left:$MARGIN_LARGE;
+    margin-left: $MARGIN_LARGE;
 
     background-image: "meegotouch-notification-information-background" 10px 10px 10px 10px;
 }
