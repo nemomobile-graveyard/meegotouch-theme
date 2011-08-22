@@ -3,6 +3,8 @@ MApplicationWindowStyle {
     auto-hide-timeout: 5000;
     floatable-tool-bar: true;
     floatable-tab-bar: true;
+    tool-bar-style-name: "";
+    tab-bar-style-name: "";
     navigation-bar-style-name: "";
     status-bar-style-name: "";
     status-bar-style-name-for-sheets: "NoReactiveMargins";
