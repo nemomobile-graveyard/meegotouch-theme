@@ -16,19 +16,19 @@ MApplicationMenuStyle {
 
     /* inherited from MSceneWindowStyle */
     vertical-align: top;
-    horizontal-align: left;
-    margin-left: 15.5mm;
-    margin-top: $HEIGHT_NAVIGATIONBAR_PORTRAIT;
-    minimum-size: 54.4mm -1;
-    preferred-size: 54.4mm -1;
-    maximum-size: 54.4mm 35.8mm;
+    horizontal-align: right;
+    margin-left: 42.7mm;
+    margin-top: 0;
+
+    minimum-size: 42.7mm 80%;
+    preferred-size: 42.7mm 100%;
+    maximum-size: 42.7mm 100%;
 
     /* inherited from MWidgetStyle */
-    background-color: #000000;
-    background-opacity: 0.0;
+    background-image: meegotouch-menu-background;
 
     top-shadow-image: none;
-    left-shadow-image: none;
+    left-shadow-image: meegotouch-menu-shadow-left 5px 5px 15px 15px;
     bottom-shadow-image: none;
     right-shadow-image: none;
 
@@ -36,12 +36,24 @@ MApplicationMenuStyle {
     item-title-style-name: "MenuItemSingleTitle";
     position-indicator-style-name: "";
 }
-
 MApplicationMenuStyle.Portrait {
-    margin-left: 1.6mm;
-    minimum-size: 44.8mm -1;
-    preferred-size: 44.8mm -1;
-    maximum-size: 44.8mm 67.8mm;
+    vertical-align: bottom;
+    horizontal-align: center;
+
+    top-shadow-image: meegotouch-menu-shadow-top 15px 15px 5px 5px;
+
+    margin-left: 0;
+    minimum-size: 100% -1;
+    preferred-size: 100% -1;
+    maximum-size: 100% 59.5mm;
+}
+
+MApplicationMenuStyle#Inverted {
+    background-image: meegotouch-menu-background-inverted 0 0 124px 2px;
+
+    item-style-name: "MenuItemInverted";
+    item-title-style-name: "MenuItemSingleTitleInverted";
+    position-indicator-style-name: "CommonPositionIndicatorInverted";
 }
 
 #MApplicationMenuTopArea {
@@ -55,7 +67,17 @@ MApplicationMenuStyle.Portrait {
     maximum-size: -1 -1;
 }
 
-/* FIXME: This differs from CommonSingleTitle only by margins. */
+MListItemStyle#MenuItem {
+}
+
+MListItemStyle#MenuItemInverted {
+    background-tiles: meegotouch-list-inverted-background $CORNER_MARGINS;
+}
+MListItemStyle#MenuItemInverted:pressed {
+    background-tiles: meegotouch-list-inverted-background-pressed $CORNER_MARGINS;
+}
+
+/* This differs from CommonSingleTitle only by margins. */
 #MenuItemSingleTitle {
     font: $FONT_FAMILY bold 26px;
     color: $COLOR_FOREGROUND;
@@ -74,9 +96,34 @@ MApplicationMenuStyle.Portrait {
     color: #797979;
 }
 
+#MenuItemSingleTitleInverted {
+    font: $FONT_FAMILY bold 26px;
+    color: $COLOR_INVERTED_FOREGROUND;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: $MARGIN_XXLARGE;
+    margin-right: $MARGIN_XXLARGE;
+}
+#MenuItemSingleTitleInverted:pressed {
+    color: #797979;
+}
+#MenuItemSingleTitleInverted:selected {
+    color: #FFFFFF;
+}
+#MenuItemSingleTitleInverted:disabled {
+    color: #797979;
+}
+
 /* FIXME: Can we use an existing style for this? */
 MComboBoxStyle#MenuItem {
     button-style-name: "MenuComboBoxListItem";
+}
+MComboBoxStyle#MenuItemInverted {
+    button-style-name: "MenuComboBoxListItemInverted";
+    title-object-name:              "CommonTitleInverted";
+    sub-title-object-name:          "CommonSubTitleInverted";
+    progress-indicator-object-name: "CommonProgressBarInverted";
+    indicator-object-name:          "CommonComboBoxIconInverted";
 }
 MListItemStyle#MenuComboBoxListItem {
     background-tiles: meegotouch-list-background $CORNER_MARGINS;
@@ -92,5 +139,28 @@ MListItemStyle#MenuComboBoxListItem:pressed {
     background-tiles: meegotouch-list-background-pressed $CORNER_MARGINS;
     background-image: none;
     background-color: none;
+}
+
+MListItemStyle#MenuComboBoxListItemInverted {
+    background-tiles: meegotouch-list-inverted-background $CORNER_MARGINS;
+    background-image: none;
+    background-color: none;
+    minimum-size: $SIZE_LIST $SIZE_LIST;
+    preferred-size: -1 $SIZE_LIST;
+    maximum-size: 100% $SIZE_LIST;
+    padding-left: 0.8mm;
+    padding-right: 0.8mm;
+}
+MListItemStyle#MenuComboBoxListItemInverted:pressed {
+    background-tiles: meegotouch-list-inverted-background-pressed $CORNER_MARGINS;
+    background-image: none;
+    background-color: none;
+}
+
+#ApplicationMenuActionListHolder {
+    margin-left: $MARGIN_XLARGE;
+    margin-top: $MARGIN_XLARGE;
+    margin-right: $MARGIN_XLARGE;
+    margin-bottom: $MARGIN_XLARGE;
 }
 

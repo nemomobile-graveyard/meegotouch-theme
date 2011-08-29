@@ -93,7 +93,7 @@ MNavigationBar MWidgetSlideAnimationStyle#Out {
 MApplicationMenu MWidgetSlideAnimationStyle#In {
     delay: 0;
     duration: 350;
-    origin: "top";
+    origin: "bottom";
     easing-curve: inoutquint;
 }
 MApplicationMenu MWidgetSlideAnimationStyle#In.Landscape {
@@ -103,7 +103,7 @@ MApplicationMenu MWidgetSlideAnimationStyle#In.Landscape {
 MApplicationMenu MWidgetSlideAnimationStyle#Out {
     delay: 0;
     duration: 350;
-    origin: "top";
+    origin: "bottom";
     easing-curve: inoutquint;
 }
 MApplicationMenu MWidgetSlideAnimationStyle#Out.Landscape {
