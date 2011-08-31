@@ -1,8 +1,14 @@
-meegotouchtheme (0.24.0~1) unstable; urgency=low
+meegotouchtheme (0.24.0-1) unstable; urgency=low
 
-  * [unreleased]
+  * New version
+  * Fixes: NB#263357 - Icons fade to black on a "pressed down state".
+  * Fixes: NB#266363 - The default startup-fill-color does not match the default window bg color.
+  * Fixes: NB#278819, Press and release feedbacks need to be updated along with new vibra daemon
+  * Fixes: NB#278819, Press and release feedbacks need to be updated along with new vibra daemon
+  * Fixes: NB#257861 - [TASK] Version of Action and Object Menus for Black applications.
+  * Fixes: NB#278338 - uninted base MApplicationWindowStyle attributes.
 
- -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 18 Aug 2011 13:03:58 +0300
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 31 Aug 2011 14:27:19 +0300
 
 meegotouchtheme (0.23.6-1) unstable; urgency=low
 
