@@ -5,7 +5,7 @@ MButtonSwitchStyle {
     /* thumb is the sliding part, should slide accross the whole area */
     thumb-image: "meegotouch-switch-thumb" 14px 14px 14px 14px;
     thumb-image-shadow: "meegotouch-switch-shadow" 14px 14px 14px 14px;
-    thumb-shadow-offset: 0 0.3mm;
+    thumb-shadow-offset: 0 2px;
 
     /* slider is behind thumb, but above background */
     slider-image: "meegotouch-switch-off" 32px 32px 20px 20px;
@@ -15,7 +15,7 @@ MButtonSwitchStyle {
     maximum-size:   66px 42px;
     preferred-size: 66px 42px;
 
-    thumb-margin: 0.7mm;
+    thumb-margin: 6px;
 
     reactive-margin-left:   $MARGIN_XLARGE;
     reactive-margin-right:  $MARGIN_XLARGE;
