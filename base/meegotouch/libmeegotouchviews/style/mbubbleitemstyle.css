@@ -14,18 +14,19 @@ MBubbleItemStyle {
     padding-bottom: 0;
 
     font : $FONT_DEFAULT;
-    text-color : $COLOR_FOREGROUND;
+    text-color : $COLOR_INVERTED_FOREGROUND;
 
     timestamp-font : $FONT_XSMALL;
     timestamp-text-color : $COLOR_SECONDARY_FOREGROUND;
+    timestamp-text-color : $COLOR_INVERTED_SECONDARY_FOREGROUND;
 
     bubble-object-name : "";
     avatar-object-name : "MBubbleItemAvatar";
 }
 
 MBubbleItemStyle:outgoing {
-    text-color : $COLOR_INVERTED_FOREGROUND;
-    timestamp-text-color : $COLOR_INVERTED_SECONDARY_FOREGROUND;
+    text-color : $COLOR_FOREGROUND;
+    timestamp-text-color : $COLOR_SECONDARY_FOREGROUND;
 
     margin-left:   $MARGIN_DOUBLE;
     margin-right:  $MARGIN_DOUBLE;
