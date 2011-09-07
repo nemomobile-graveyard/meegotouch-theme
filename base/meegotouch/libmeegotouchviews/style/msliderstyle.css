@@ -39,6 +39,9 @@ MSliderStyle {
 
     min-label-fixed-width: 0;
     max-label-fixed-width: 0;
+
+    handle-animation-easing-curve: outsine;
+    handle-animation-duration: 150;
 }
 
 MSliderStyle:disabled {
