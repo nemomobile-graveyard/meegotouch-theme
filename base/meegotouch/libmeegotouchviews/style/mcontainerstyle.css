@@ -49,3 +49,10 @@ MContainerStyle { /* settings for the whole container */
     maximum-size: $SIZE_SPINNER_SMALL $SIZE_SPINNER_SMALL;
     margin-top: $MARGIN_DOUBLE;
 }
+
+/* MContainerHeaderStyle : MWidgetStyle */
+MContainerHeaderStyle {
+    press-timeout: 140;
+    max-distance-for-click: 8mm;
+}
+
