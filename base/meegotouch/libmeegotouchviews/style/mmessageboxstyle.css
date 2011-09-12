@@ -12,6 +12,10 @@ MMessageBoxStyle {
     padding-bottom: 0px;
 
     button-box-orientation: vertical;
+
+    icon-style-name: "CommonQueryIcon";
+    title-style-name: "CommonQueryTitle";
+    text-style-name: "CommonQueryText";
 }
 
 MMessageBoxStyle.Landscape {
