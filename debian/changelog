@@ -1,8 +1,11 @@
-meegotouchtheme (0.24.1~1) unstable; urgency=low
+meegotouchtheme (0.24.1-1) unstable; urgency=low
 
-  * [unreleased]
+  * New version
+  * New: MSliderStyle - handle animation easing curve and duration
+  * Changes: Better default text colours in bubbleitemstyle.
+  * Changes: Fix switch styling.
 
- -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 31 Aug 2011 14:28:32 +0300
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 12 Sep 2011 15:47:58 +0200
 
 meegotouchtheme (0.24.0-1) unstable; urgency=low
 
