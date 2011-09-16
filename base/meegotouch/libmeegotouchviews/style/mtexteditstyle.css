@@ -37,7 +37,10 @@ MTextEditStyle {
     release-word-feedback: ;
     press-boundary-feedback: ;
     release-boundary-feedback: ;
-    change-selection-feedback: ;
+    change-selection-feedback: priority2_move;
+    magnifier-cursor-move-feedback: priority2_move;
+    minimum-feedback-interval: 70;
+    feedback-speed-limit: 20;
 
     padding-top: 9px;
     padding-bottom: 7px;
