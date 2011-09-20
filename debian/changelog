@@ -1,8 +1,11 @@
-meegotouchtheme (0.24.2~1) unstable; urgency=low
+meegotouchtheme (0.24.2-1) unstable; urgency=low
 
-  * [UNRELEASED]
+  * New version
+  * Fixes: NB#268477, [TASK] some new feedbacks needed for PR1.2
+  * New: MContainerHeaderStyle - press-timeout and max-distance-for-click
+  * Changes: Initialise messagebox style name properties.
 
- -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 12 Sep 2011 15:56:23 +0200
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 20 Sep 2011 09:58:52 +0200
 
 meegotouchtheme (0.24.1-1) unstable; urgency=low
 
