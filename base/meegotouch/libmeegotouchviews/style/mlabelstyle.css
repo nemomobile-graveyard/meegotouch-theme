@@ -20,5 +20,6 @@ MLabelStyle {
     preferred-line-count-behavior: "set";
 
     text-opacity: 1.0;
-}
 
+    paint-offset: 0 0;
+}
