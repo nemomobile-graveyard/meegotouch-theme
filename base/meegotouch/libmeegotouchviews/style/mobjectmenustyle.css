@@ -24,6 +24,8 @@ MObjectMenuStyle {
     left-shadow-image: meegotouch-menu-shadow-left 5px 5px 15px 15px;
     bottom-shadow-image: none;
     right-shadow-image: none;
+
+    appear-feedback: priority2_popup;
 }
 
 MObjectMenuStyle#Inverted {
