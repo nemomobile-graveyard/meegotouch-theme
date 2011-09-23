@@ -9,6 +9,8 @@ MStatusBarStyle
     swipe-threshold: 30;
     press-dim-factor: 0.6;
     enable-status-indicator-menu: true;
+    press-feedback: priority2_static_press;
+    release-feedback: priority2_static_release;
 }
 
 MStatusBarStyle#NoReactiveMargins
