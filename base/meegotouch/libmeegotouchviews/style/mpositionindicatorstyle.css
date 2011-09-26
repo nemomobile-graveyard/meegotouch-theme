@@ -14,6 +14,6 @@ MPositionIndicatorStyle {
     margin-right:       0.4mm;
 
     min-indicator-size: 2mm;
-    hide-timeout: 1000;
+    hide-timeout: 1500;
 }
 
