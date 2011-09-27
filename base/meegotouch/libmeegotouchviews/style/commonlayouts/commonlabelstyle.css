@@ -1,6 +1,6 @@
 @const CTITLE_FONT:    $FONT_FAMILY bold 26;
 @const CSUBTITLE_FONT: $FONT_FAMILY_LIGHT 22;
-@const CTITLE_M_TOP:    1.5mm;
+@const CTITLE_M_TOP:    0.7mm;
 @const CSUBTITLE_M_TOP: 0.2mm;
 @const CTITLE_COLOR:          $COLOR_FOREGROUND;
 @const CTITLE_COLOR_DISABLED: #797979;

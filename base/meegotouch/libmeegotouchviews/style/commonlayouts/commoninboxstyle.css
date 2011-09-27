@@ -11,8 +11,8 @@
     maximum-size:      -1 -1;
     background-tiles:  ;
     background-image:  $CIP_BG;
-    margin-top:        0;
-    margin-bottom:     0;
+    margin-top:        2;
+    margin-bottom:     2;
     margin-left:       0;
     margin-right:      0;
     padding-left:      $CIP_LP;
@@ -56,7 +56,7 @@
     font:              $FONT_FAMILY bold 24;
     margin-left:       $INDENT_DEFAULT;
     margin-right:      $INDENT_DEFAULT;
-    margin-top:        13px;
+    margin-top:        0;
     margin-bottom:     0;
 }
 #CommonInboxTitle:selected {
@@ -79,7 +79,7 @@
     color:             $COLOR_SECONDARY_FOREGROUND;
     margin-left:       $INDENT_DEFAULT;
     margin-right:      $INDENT_DEFAULT;
-    margin-top:        $MARGIN_XSMALL;
+    margin-top:        0;
     margin-bottom:     0;
 }
 #CommonInboxSubText:selected {
@@ -91,7 +91,7 @@
     color:             $COLOR_ACCENT1;
     margin-left:       $INDENT_DEFAULT;
     margin-right:      $INDENT_DEFAULT;
-    margin-top:        5px;
+    margin-top:        0;
     margin-bottom:     0;
 }
 #CommonInboxUnreadItemInfo:selected {
@@ -103,7 +103,7 @@
     color:             $COLOR_SECONDARY_FOREGROUND;
     margin-left:       $INDENT_DEFAULT;
     margin-right:      $INDENT_DEFAULT;
-    margin-top:        5px;
+    margin-top:        0;
     margin-bottom:     0;
 }
 #CommonInboxReadItemInfo:selected {
@@ -121,7 +121,7 @@
 }
 
 #CommonInboxSubIconTop {
-    margin-top:        15px;
+    margin-top:        0;
     margin-bottom:     0;
     margin-left:       1px;
     margin-right:      $INDENT_DEFAULT;
@@ -131,21 +131,10 @@
     minimum-size:      64px 64px;
     preferred-size:    64px 64px;
     maximum-size:      64px 64px;
-    margin-top:        15px;
+    margin-top:        0;
     margin-bottom:     0;
     margin-left:       $MARGIN_DOUBLE;
     margin-right:      $INDENT_DEFAULT;
 }
 
-/* temporary, to prevent things from breaking */
-
-#CommonInboxRightThumbail {
-    minimum-size:      64px 64px;
-    preferred-size:    64px 64px;
-    maximum-size:      64px 64px;
-    margin-top:        15px;
-    margin-bottom:     0;
-    margin-left:       $MARGIN_DOUBLE;
-    margin-right:      $INDENT_DEFAULT;
-}
 
