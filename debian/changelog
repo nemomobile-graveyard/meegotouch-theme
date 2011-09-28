@@ -1,3 +1,13 @@
+meegotouchtheme (0.24.3-1) unstable; urgency=low
+
+  * New version
+  * Fixes: NB#283241 - [TASK] Increase visibility time of the scroll indicator.
+  * Changes: MLabelStyle - new property paint-offset default values as 0,0
+  * Changes: Add press and release feedbacks to statusbar.
+  * Fixes: NB#269058 - [TASK] Missing sounds/haptics from object menu
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 28 Sep 2011 13:47:25 +0200
+
 meegotouchtheme (0.24.2-1) unstable; urgency=low
 
   * New version
