@@ -45,6 +45,9 @@ MTextEditStyle {
     padding-right: 18px;
 
     toolbar-style-name: "";
+
+    selection-delay: 70;
+    selection-speed-threshold: 1.0; /* pixels per millisecond*/
 }
 
 MTextEditStyle:selected {
