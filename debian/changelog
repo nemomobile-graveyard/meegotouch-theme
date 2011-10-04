@@ -1,8 +1,10 @@
-meegotouchtheme (0.24.4~1) unstable; urgency=low
+meegotouchtheme (0.24.4-1) unstable; urgency=low
 
-  * [UNRELEASED]
+  * New version
+  * Fixes: NB#284512 - Layout broken in PR1.1.1 unreleased in Number editor for device lock and PIN entry
+  * Changes: adjustments for typography matters
 
- -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 28 Sep 2011 14:02:13 +0200
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 04 Oct 2011 10:18:28 +0200
 
 meegotouchtheme (0.24.3-1) unstable; urgency=low
 
