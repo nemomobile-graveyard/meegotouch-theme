@@ -129,7 +129,7 @@ margin-right:   0;
 minimum-size:   0 0;
 preferred-size: 100% 0;
 maximum-size:   100% 0;
-margin-top:     $MARGIN_XLARGE;
+margin-top:     $MARGIN_LARGE;
 margin-bottom:  0;
 margin-left:    0;
 margin-right:   0;
@@ -139,7 +139,7 @@ margin-right:   0;
 minimum-size:   0 0;
 preferred-size: 100% 0;
 maximum-size:   100% 0;
-margin-top:     $MARGIN_XXLARGE;
+margin-top:     $MARGIN_XLARGE;
 margin-bottom:  0;
 margin-left:    0;
 margin-right:   0;
@@ -226,6 +226,8 @@ maximum-size:   -1 -1;
     background-color: ;
     indicator-image-horizontal: "meegotouch-positionindicator-inverted-indicator-horizontal" 2px 2px 0 0;
     background-image-horizontal: ;
+    margin-left:0;
+
 }
 
 /* List styles */

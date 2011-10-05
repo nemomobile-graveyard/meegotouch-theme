@@ -39,7 +39,7 @@ MBannerStyle #ShortEventBanner {
     font: $FONT_XSMALL_BOLD;
     color: $COLOR_INVERTED_FOREGROUND;
 
-    margin-top: 0.1mm;
+    margin-top: 0mm;
     margin-left:0.1mm;
     margin-right: $MARGIN_LARGE;
     margin-left: $MARGIN_LARGE;
@@ -49,12 +49,12 @@ MBannerStyle #ShortEventBanner {
     font: $FONT_XSMALL_REGULAR;
     color: $COLOR_INVERTED_FOREGROUND;
 
-    margin-top: 0.1mm;
+    margin-top: 0mm;
     margin-left:0.1mm;
 }
 
 #ShortEventBannerIcon {
-     margin-top: 0.1mm;
+     margin-top: 0.4mm;
      margin-left:0.1mm;
 }
 
