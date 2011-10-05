@@ -908,3 +908,13 @@ minimum-size: 24px 24px;
 preferred-size: -1 24px;
 maximum-size: -1 24px;
 }
+
+#CommonInboxRightThumbail {
+    minimum-size:      64px 64px;
+    preferred-size:    64px 64px;
+    maximum-size:      64px 64px;
+    margin-top:        0;
+    margin-bottom:     0;
+    margin-left:       $MARGIN_DOUBLE;
+    margin-right:      $INDENT_DEFAULT;
+}
