@@ -1,7 +1,8 @@
 @const CTITLE_FONT:    $FONT_FAMILY bold 26;
 @const CSUBTITLE_FONT: $FONT_FAMILY_LIGHT 22;
-@const CTITLE_M_TOP:    0.7mm;
-@const CSUBTITLE_M_TOP: 0.2mm;
+@const CTITLE_M_TOP:    1.0mm;
+@const CSUBTITLE_M_TOP: 0;
+@const CSUBTITLE_M_BOTTOM: 0.8mm;
 @const CTITLE_COLOR:          $COLOR_FOREGROUND;
 @const CTITLE_COLOR_DISABLED: #797979;
 @const CTITLE_COLOR_PRESSED:  #797979;
@@ -71,11 +72,12 @@ margin-top:    $CTITLE_M_TOP;
 margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
+
 }
 #CommonTitleBottom {
 font:          $CTITLE_FONT;
 color:         $CTITLE_COLOR;
-margin-top:    0.1mm;
+margin-top:    0;
 margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
@@ -94,7 +96,7 @@ color:         $CTITLE_COLOR_DISABLED;
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR;
 margin-top:    $CSUBTITLE_M_TOP;
-margin-bottom: 0;
+margin-bottom: $CSUBTITLE_M_BOTTOM;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
@@ -102,9 +104,10 @@ margin-right:  $INDENT_DEFAULT;
 font:          $CSUBTITLE_FONT;
 color:         $COLOR_ACCENT1;
 margin-top:    $CSUBTITLE_M_TOP;
-margin-bottom: 0;
+margin-bottom: $CSUBTITLE_M_BOTTOM;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
+
 }
 #CommonSubTitle:pressed {
 color:         $CSUBTITLE_COLOR_PRESSED;
@@ -120,9 +123,10 @@ color:         $CSUBTITLE_COLOR_DISABLED;
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR;
 margin-top:    $CSUBTITLE_M_TOP;
-margin-bottom: 0;
+margin-bottom: $CSUBTITLE_M_BOTTOM;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
+
 }
 #CommonSubTitleWithIcon:pressed {
 color:         $CSUBTITLE_COLOR_PRESSED;
@@ -137,7 +141,7 @@ color:         $CSUBTITLE_COLOR_DISABLED;
 #CommonSubTitleTop {
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR;
-margin-top:    1.6mm;
+margin-top:    0.9mm;
 margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
@@ -163,16 +167,16 @@ margin-right:  $INDENT_DEFAULT;
 #CommonBodyText {
 font:          $FONT_FAMILY_LIGHT 24;
 color:         $COLOR_FOREGROUND;
-margin-top:    $MARGIN_XLARGE;
-margin-bottom: $MARGIN_XLARGE;
+margin-top:    $MARGIN_LARGE;
+margin-bottom: $MARGIN_LARGE;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonBodyTextLight {
 font:          $FONT_FAMILY_LIGHT 24;
 color:         $COLOR_SECONDARY_FOREGROUND;
-margin-top:    $MARGIN_XLARGE;
-margin-bottom: $MARGIN_XLARGE;
+margin-top:    $MARGIN_LARGE;
+margin-bottom: $MARGIN_LARGE;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
@@ -219,8 +223,8 @@ margin-right:  29px;
 #CommonApplicationHeader { /* deprecated */
 font:          $FONT_FAMILY_LIGHT 40;
 color:         $COLOR_FOREGROUND;
-margin-top:    2.2mm;
-margin-bottom: 1.5mm;
+margin-top:    1.5mm;
+margin-bottom: 1.0mm;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
@@ -390,7 +394,7 @@ color:         $CTITLE_COLOR_DISABLED_INVERTED;
 #CommonTitleBottomInverted {
 font:          $CTITLE_FONT;
 color:         $CTITLE_COLOR_INVERTED;
-margin-top:    0.1mm;
+margin-top:    0;
 margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
@@ -409,7 +413,7 @@ color:         $CTITLE_COLOR_DISABLED_INVERTED;
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR_INVERTED;
 margin-top:    $CSUBTITLE_M_TOP;
-margin-bottom: 0;
+margin-bottom: $CSUBTITLE_M_BOTTOM;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
@@ -427,7 +431,7 @@ color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR_INVERTED;
 margin-top:    $CSUBTITLE_M_TOP;
-margin-bottom: 0;
+margin-bottom: $CSUBTITLE_M_BOTTOM;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
@@ -444,7 +448,7 @@ color:         $CSUBTITLE_COLOR_DISABLED_INVERTED;
 #CommonSubTitleTopInverted {
 font:          $CSUBTITLE_FONT;
 color:         $CSUBTITLE_COLOR_INVERTED;
-margin-top:    1.6mm;
+margin-top:    0.9mm;
 margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
@@ -470,16 +474,16 @@ margin-right:  $INDENT_DEFAULT;
 #CommonBodyTextInverted {
 font:          $FONT_FAMILY_LIGHT 24;
 color:         $COLOR_INVERTED_FOREGROUND;
-margin-top:    $MARGIN_XLARGE;
-margin-bottom: $MARGIN_XLARGE;
+margin-top:    $MARGIN_LARGE;
+margin-bottom: $MARGIN_LARGE;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonBodyTextLightInverted {
 font:          $FONT_FAMILY_LIGHT 24;
 color:         $COLOR_INVERTED_SECONDARY_FOREGROUND;
-margin-top:    $MARGIN_XLARGE;
-margin-bottom: $MARGIN_XLARGE;
+margin-top:    $MARGIN_LARGE;
+margin-bottom: $MARGIN_LARGE;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
@@ -502,7 +506,7 @@ margin-right:  $INDENT_DEFAULT;
 #CommonHeaderInverted { /* Updated according to 1_5_9 */
 font:          $FONT_FAMILY_LIGHT 32;
 color:         $COLOR_INVERTED_FOREGROUND;
-margin-top:    20px; 
+margin-top:    15px; 
 margin-bottom: 20px;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
@@ -526,8 +530,8 @@ margin-right:  29px;
 #CommonApplicationHeaderInverted { /* deprecated */
 font:          $FONT_FAMILY_LIGHT 40;
 color:         $COLOR_INVERTED_FOREGROUND;
-margin-top:    2.2mm;
-margin-bottom: 1.5mm;
+margin-top:    1.5mm;
+margin-bottom: 1.0mm;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
@@ -903,14 +907,4 @@ background-image: "meegotouch-inbox-subicon-inverted-background" 12px 12px 0 0;
 minimum-size: 24px 24px;
 preferred-size: -1 24px;
 maximum-size: -1 24px;
-}
-
-#CommonInboxRightThumbail {
-    minimum-size:      64px 64px;
-    preferred-size:    64px 64px;
-    maximum-size:      64px 64px;
-    margin-top:        0;
-    margin-bottom:     0;
-    margin-left:       $MARGIN_DOUBLE;
-    margin-right:      $INDENT_DEFAULT;
 }

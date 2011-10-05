@@ -99,7 +99,7 @@ MBannerStyle #PrivateEventBanner.Portrait {
     font: $FONT_FAMILY light 2.2mm;
     color:$COLOR_INVERTED_FOREGROUND;
 
-    margin-top: 1.4mm;
+    margin-top: 1.2mm;
     margin-bottom: 0mm;
     margin-left: $INDENT_DEFAULT;
     margin-right: 1.4mm;
@@ -162,17 +162,17 @@ MBannerStyle #FullEventBanner.Portrait {
     minimum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
     preferred-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
 
-    margin-top: $INDENT_DEFAULT;
-    margin-bottom: $INDENT_DEFAULT;
+    margin-top: 0.2mm;
+    margin-bottom: 0mm;
     margin-left: $MARGIN_XSMALL;
     margin-right: 0mm;
 }
 
 #FullEventBannerTitle {
-    font: $FONT_FAMILY light 2.2mm;
+    font: $FONT_FAMILY  2.2mm;
     color:$COLOR_INVERTED_FOREGROUND;
 
-    margin-top: $INDENT_DEFAULT;
+    margin-top: 0mm;
     margin-bottom: 0mm;
     margin-left: $INDENT_DEFAULT;
     margin-right: 1.4mm;
@@ -222,6 +222,7 @@ MBannerStyle #FullEventBanner.Portrait {
 
 MBannerStyle #SystemBanner {
     icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
+    margin-top: 3.6mm;
     margin-right: $MARGIN_LARGE;
     margin-left: $MARGIN_LARGE;
 
@@ -258,7 +259,7 @@ MBannerStyle #SystemBanner.Portrait {
 
 MBannerStyle #InformationBanner {
     icon-size: 0 0;
-
+    margin-top: 3.6mm;
     margin-right: $MARGIN_LARGE;
     margin-left: $MARGIN_LARGE;
 
@@ -306,7 +307,7 @@ MBannerStyle #LockScreenEventBanner.Landscape {
 
 MBannerStyle #LockScreenEventBanner.Portrait {
     minimum-size: 46.4mm 9.6mm;
-    maximum-size: 46.4mm 12mm;
+    maximum-size: 46.4mm 13.8mm;
     preferred-size: 46.4mm -1mm;
 }
 
@@ -315,17 +316,17 @@ MBannerStyle #LockScreenEventBanner.Portrait {
     minimum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
     preferred-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
 
-    margin-top: $INDENT_DEFAULT;
+    margin-top: 1.4mm;
     margin-bottom: $INDENT_DEFAULT;
     margin-left: $INDENT_DEFAULT;
     margin-right: 0mm;
 }
 
 #LockScreenEventBannerTitle {
-    font: $FONT_FAMILY light 2.2mm;
+    font: $FONT_FAMILY  2.2mm;
     color:$COLOR_INVERTED_FOREGROUND;
 
-    margin-top: $INDENT_DEFAULT;
+    margin-top: 1.0mm;
     margin-bottom: 0mm;
     margin-left: $INDENT_DEFAULT;
     margin-right: 1.4mm;
@@ -336,7 +337,7 @@ MBannerStyle #LockScreenEventBanner.Portrait {
     font: $FONT_XXSMALL;
     color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
 
-    margin-top: $MARGIN_XSMALL;
+    margin-top: 0mm;
     margin-bottom: 0mm;
     margin-left: $INDENT_DEFAULT;
     margin-right: 1.4mm;
@@ -357,7 +358,7 @@ MBannerStyle #LockScreenEventBanner.Portrait {
     color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
 
     margin-top: $MARGIN_XSMALL;
-    margin-bottom: $INDENT_DEFAULT;
+    margin-bottom: 0.4mm;
     margin-left: $INDENT_DEFAULT;
     margin-right: $MARGIN_LARGE;
 }
@@ -367,7 +368,7 @@ MBannerStyle #LockScreenEventBanner.Portrait {
     color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
 
     margin-top: $MARGIN_XSMALL;
-    margin-bottom: $INDENT_DEFAULT;
+    margin-bottom: 0.8mm;
     margin-left: $INDENT_DEFAULT;
     margin-right: 1.4mm;
 }

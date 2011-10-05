@@ -23,10 +23,10 @@ MTextEditStyle {
     prompt-transition-delay: 60;
     disable-toolbar: false;
 
-    text-clipping-top: 2px;
-    text-clipping-bottom: 2px;
-    text-clipping-left: 16px;
-    text-clipping-right: 16px;
+    text-clipping-top: 6px;
+    text-clipping-bottom: 6px;
+    text-clipping-left: 18px;
+    text-clipping-right: 18px;
 
     /* inherited from MWidgetStyle */
     minimum-size: -1 52px;
@@ -39,8 +39,8 @@ MTextEditStyle {
     release-boundary-feedback: ;
     change-selection-feedback: ;
 
-    padding-top: 14px;
-    padding-bottom: 12px;
+    padding-top: 9px;
+    padding-bottom: 7px;
     padding-left: 18px;
     padding-right: 18px;
 
