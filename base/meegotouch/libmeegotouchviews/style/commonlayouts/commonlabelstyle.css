@@ -1,6 +1,6 @@
 @const CTITLE_FONT:    $FONT_FAMILY bold 26;
 @const CSUBTITLE_FONT: $FONT_FAMILY_LIGHT 22;
-@const CTITLE_M_TOP:    1.0mm;
+@const CTITLE_M_TOP:    0.8mm;
 @const CSUBTITLE_M_TOP: 0;
 @const CSUBTITLE_M_BOTTOM: 0.8mm;
 @const CTITLE_COLOR:          $COLOR_FOREGROUND;
@@ -54,6 +54,8 @@ margin-top:    $CTITLE_M_TOP;
 margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
+padding-top:0;
+padding-bottom:0;
 }
 #CommonTitle:pressed {
 color:         $CTITLE_COLOR_PRESSED;
@@ -215,8 +217,8 @@ margin-right:  $INDENT_DEFAULT;
 #CommonGroupHeader { /* Updated according to 1_5_9 but contains temporary values */
 font:          $FONT_FAMILY bold 18;
 color:         #8C8C8C;
-margin-top:    $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
-margin-bottom: $MARGIN_XSMALL; /* temporary value due to font issues FIX ME */
+margin-top:    $MARGIN_XSMALL; /* temporary value due to font issues FIX ME */
+margin-bottom: 0; /* temporary value due to font issues FIX ME */
 margin-left:   $MARGIN_LARGE;
 margin-right:  29px;
 }
@@ -506,8 +508,8 @@ margin-right:  $INDENT_DEFAULT;
 #CommonHeaderInverted { /* Updated according to 1_5_9 */
 font:          $FONT_FAMILY_LIGHT 32;
 color:         $COLOR_INVERTED_FOREGROUND;
-margin-top:    15px; 
-margin-bottom: 20px;
+margin-top:    11px;
+margin-bottom: 11px;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
@@ -522,8 +524,8 @@ margin-right:  $INDENT_DEFAULT;
 #CommonGroupHeaderInverted { /* Updated according to 1_5_9 */
 font:          $FONT_FAMILY bold 18;
 color:         #707070;
-margin-top:    $MARGIN_XLARGE; /* temporary value due to font issues FIX ME */ 
-margin-bottom: $MARGIN_XSMALL; /* temporary value due to font issues FIX ME */
+margin-top:    $MARGIN_SMALL; /* temporary value due to font issues FIX ME */
+margin-bottom: 0; /* temporary value due to font issues FIX ME */
 margin-left:   $INDENT_DEFAULT;
 margin-right:  29px;
 }

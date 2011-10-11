@@ -323,6 +323,10 @@ margin-left:       0;
 margin-right:      0;
 }
 #CommonHeaderPanel { /* UPDATED TO 1_5_9 */ 
+    minimum-size:      40 72;
+    preferred-size:    100% 72;
+    maximum-size:      100% -1;
+
     background-tiles:  ;
     background-image:  meegotouch-view-header-fixed 8px 8px 8px 8px;
     margin-top:        0;
