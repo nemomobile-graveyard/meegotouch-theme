@@ -680,6 +680,7 @@ color:         $COLOR_INVERTED_FOREGROUND;
     margin-bottom: 0;
     margin-left: 27px;
     margin-right: 27px;
+    paint-offset: 0 -5px;
 }
 #CommonSeekerLabelInverted {
     font: $FONT_FAMILY_LIGHT 22px;
