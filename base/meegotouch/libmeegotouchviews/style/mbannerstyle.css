@@ -222,7 +222,7 @@ MBannerStyle #FullEventBanner.Portrait {
 
 MBannerStyle #SystemBanner {
     icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
-    margin-top: 3.6mm;
+    margin-top: $HEIGHT_STATUSBAR;
     margin-right: $MARGIN_LARGE;
     margin-left: $MARGIN_LARGE;
 
@@ -259,7 +259,7 @@ MBannerStyle #SystemBanner.Portrait {
 
 MBannerStyle #InformationBanner {
     icon-size: 0 0;
-    margin-top: 3.6mm;
+    margin-top: $HEIGHT_STATUSBAR;
     margin-right: $MARGIN_LARGE;
     margin-left: $MARGIN_LARGE;
 
@@ -378,7 +378,7 @@ MBannerStyle #LockScreenEventBanner.Portrait {
 MBannerStyle #GenericBanner {
     icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
 
-    margin-top:$MARGIN_LARGE;
+    margin-top: $HEIGHT_STATUSBAR;
     margin-bottom:$MARGIN_LARGE;
     margin-right: $MARGIN_LARGE;
     margin-left:$MARGIN_LARGE;
