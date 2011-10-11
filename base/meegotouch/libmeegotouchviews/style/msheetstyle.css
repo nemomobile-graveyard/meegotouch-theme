@@ -23,6 +23,13 @@ MSheetStyle#Inverted {
     background-color: $COLOR_INVERTED_BACKGROUND;
 }
 
+MSheetStyle#Overlay {
+    header-slot-style-name: "CommonOverlaySheetHeaderPanel";
+    central-slot-style-name: "SheetCentralSlotIverted";
+    central-slot-position-indicator-style-name: "CommonPositionIndicatorInverted";
+    background-color: $COLOR_INVERTED_BACKGROUND;
+}
+
 #SheetCentralSlot
 {
     background-image: none;
