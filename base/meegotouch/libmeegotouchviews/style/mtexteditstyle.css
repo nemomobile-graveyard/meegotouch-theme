@@ -30,7 +30,7 @@ MTextEditStyle {
 
     /* inherited from MWidgetStyle */
     minimum-size: -1 52px;
-    preferred-size: -1 -1;
+    preferred-size: 400px -1; /* We need a fixed prefered width.   Make this any reasonable default */
     maximum-size: -1 -1;
 
     press-word-feedback: ;
