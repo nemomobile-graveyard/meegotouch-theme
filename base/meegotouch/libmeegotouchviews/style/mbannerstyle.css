@@ -18,10 +18,12 @@ MBanner MLabelStyle {
     margin-left:0;
     margin-right:0;
 
+    reactive-margin-top: 0;
+    reactive-margin-bottom: 0;
     padding-top:0;
     padding-bottom:0;
-    padding-right:0;
     padding-left:0;
+    padding-right:0;
 }
 
 /* Short event banner */
@@ -35,11 +37,18 @@ MBannerStyle #ShortEventBanner {
     disappear-timeout: 2500;
 }
 
+#ShortEventBannerIcon {
+     margin-top: 0.4mm;
+     margin-bottom:0;
+     margin-left:0.1mm;
+     margin-right:0;
+}
+
 #ShortEventBannerTitle {
     font: $FONT_XSMALL_BOLD;
     color: $COLOR_INVERTED_FOREGROUND;
 
-    margin-top: 0mm;
+    margin-top: 0;
     margin-left:0.1mm;
     margin-right: $MARGIN_LARGE;
     margin-left: $MARGIN_LARGE;
@@ -49,183 +58,27 @@ MBannerStyle #ShortEventBanner {
     font: $FONT_XSMALL_REGULAR;
     color: $COLOR_INVERTED_FOREGROUND;
 
-    margin-top: 0mm;
+    margin-top: 0;
+    margin-bottom:0;
     margin-left:0.1mm;
+    margin-right:0;
 }
 
 #ShortEventBannerIcon {
      margin-top: 0.4mm;
+     margin-bottom:0;
      margin-left:0.1mm;
+     margin-right:0;
 }
 
-/* Private banner (subtitle not visible) at event screen */
-
-MBannerStyle #PrivateEventBanner {
-    icon-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
-    margin-right: $MARGIN_LARGE;
-    margin-left:  $MARGIN_LARGE;
-    background-image: "meegotouch-fulleventbanner-background" 10px 10px 10px 10px;
-}
-
-MBannerStyle #PrivateEventBanner:pressed {
-    background-image: "meegotouch-fulleventbanner-background-pressed" 10px 10px 10px 10px;
-}
-
-
-MBannerStyle #PrivateEventBanner.Landscape {
-    minimum-size: 46.4mm 8mm;
-    maximum-size: 46.4mm 8mm;
-    preferred-size: 46.4mm -1mm;
-}
-
-MBannerStyle #PrivateEventBanner.Portrait {
-    minimum-size: 46.4mm 8mm;
-    maximum-size: 46.4mm 8mm;
-    preferred-size: 46.4mm -1mm;
-}
-
-#PrivateEventBannerIcon {
-    maximum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
-    minimum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
-    preferred-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
-
-    margin-top: $MARGIN_LARGE;
-    margin-bottom: $MARGIN_LARGE;
-    margin-left: $INDENT_DEFAULT;
-    margin-right: 0mm;
-}
-
-#PrivateEventBannerTitle {
-    font: $FONT_FAMILY light 2.2mm;
-    color:$COLOR_INVERTED_FOREGROUND;
-
-    margin-top: 1.2mm;
-    margin-bottom: 0mm;
-    margin-left: $INDENT_DEFAULT;
-    margin-right: 1.4mm;
-}
-
-#PrivateEventBannerTimeStamp {
-    font: $FONT_XXSMALL;
-    color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
-
-    margin-top: $MARGIN_LARGE;
-    margin-bottom: 2.0mm;
-    margin-left: 0mm;
-    margin-right: 1.4mm;
-}
-
-#PrivateEventBannerPrefixTimeStamp {
-    font: $FONT_XXSMALL;
-    color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
-
-    margin-top: $MARGIN_LARGE;
-    margin-bottom: 2.0mm;
-    margin-left: $INDENT_DEFAULT;
-    margin-right: $MARGIN_LARGE;
-}
-
-#PrivateEventBannerTimeStampIsolated {
-    font: $FONT_XXSMALL;
-    color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
-
-    margin-top: $MARGIN_LARGE;
-    margin-bottom: 2.0mm;
-    margin-left: $INDENT_DEFAULT;
-    margin-right: 1.4mm;
-}
-/* Event banner at event screen (FullEventBanner) */
-
-MBannerStyle #FullEventBanner {
-    icon-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
-    background-image: "meegotouch-fulleventbanner-background" 10px 10px 10px 10px;
-}
-
-MBannerStyle #FullEventBanner:pressed {
-    background-image: "meegotouch-fulleventbanner-background-pressed" 10px 10px 10px 10px;
-}
-
-MBannerStyle #FullEventBanner.Landscape {
-    minimum-size: 48mm 9.6mm;
-    maximum-size: 48mm 12mm;
-    preferred-size: 48mm -1mm;
-}
-
-MBannerStyle #FullEventBanner.Portrait {
-    minimum-size: 48mm 9.6mm;
-    maximum-size: 48mm 12mm;
-    preferred-size: 48mm -1mm;
-}
-
-#FullEventBannerIcon {
-    maximum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
-    minimum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
-    preferred-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
-
-    margin-top: 0.2mm;
-    margin-bottom: 0mm;
-    margin-left: $MARGIN_XSMALL;
-    margin-right: 0mm;
-}
-
-#FullEventBannerTitle {
-    font: $FONT_FAMILY  2.2mm;
-    color:$COLOR_INVERTED_FOREGROUND;
-
-    margin-top: 0mm;
-    margin-bottom: 0mm;
-    margin-left: $INDENT_DEFAULT;
-    margin-right: 1.4mm;
-
-}
-
-#FullEventBannerSubtitle {
-    font: $FONT_XXSMALL;
-    color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
-
-    margin-top: $MARGIN_XSMALL;
-    margin-bottom: 0mm;
-    margin-left: $INDENT_DEFAULT;
-    margin-right: 1.4mm;
-}
-
-#FullEventBannerTimeStamp {
-    font: $FONT_XXSMALL;
-    color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
-
-    margin-top: $MARGIN_XSMALL;
-    margin-bottom: $INDENT_DEFAULT;
-    margin-left: 0mm;
-    margin-right: 1.4mm;
-}
-
-#FullEventBannerPrefixTimeStamp { 
-    font: $FONT_XXSMALL;
-    color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
-
-    margin-top: $MARGIN_XSMALL;
-    margin-bottom: $INDENT_DEFAULT;
-    margin-left: $INDENT_DEFAULT;
-    margin-right: $MARGIN_LARGE;
-}
-
-#FullEventBannerTimeStampIsolated {
-    font: $FONT_XXSMALL;
-    color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
-
-    margin-top: $MARGIN_XSMALL;
-    margin-bottom: $INDENT_DEFAULT;
-    margin-left: $INDENT_DEFAULT;
-    margin-right: 1.4mm;
-}
 /* System Banner */
 
 MBannerStyle #SystemBanner {
     icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
     margin-top: $HEIGHT_STATUSBAR;
-    margin-right: $MARGIN_LARGE;
+    margin-bottom: 0;
     margin-left: $MARGIN_LARGE;
-
+    margin-right: $MARGIN_LARGE;
     background-image: "meegotouch-notification-system-background" 10px 10px 10px 10px;
 }
 
@@ -241,27 +94,36 @@ MBannerStyle #SystemBanner.Portrait {
     preferred-size: 46.4mm -1;
 }
 
+#SystemBannerTitleIcon{
+    margin-top: $INDENT_DEFAULT;
+    margin-bottom: $INDENT_DEFAULT;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: 0;
+}
+
 #SystemBannerTitle {
     color:$COLOR_INVERTED_FOREGROUND;
     font: $FONT_DEFAULT;
+
+    preferred-line-count: 2;
+    preferred-line-count-behavior: "limit";
+
+    margin-top: 0;
+    margin-bottom: 0;
     margin-left: $INDENT_DEFAULT;
     margin-right: $INDENT_DEFAULT;
-}
-
-#SystemBannerTitleIcon{
-    margin-right: 0;
-    margin-left: $INDENT_DEFAULT;
-    margin-top: $INDENT_DEFAULT;
-    margin-bottom: $INDENT_DEFAULT;
 }
 
 /* Information Banner */
 
 MBannerStyle #InformationBanner {
+/* InfoBanner style has not icon */
     icon-size: 0 0;
+
     margin-top: $HEIGHT_STATUSBAR;
-    margin-right: $MARGIN_LARGE;
+    margin-bottom: 0;
     margin-left: $MARGIN_LARGE;
+    margin-right: $MARGIN_LARGE;
 
     background-image: "meegotouch-notification-information-background" 10px 10px 10px 10px;
 }
@@ -282,8 +144,175 @@ MBannerStyle #InformationBanner.Portrait {
     color:$COLOR_INVERTED_FOREGROUND;
     font: $FONT_DEFAULT;
 
+    preferred-line-count: 2;
+    preferred-line-count-behavior: "limit";
+
+    margin-top: 0;
+    margin-bottom: 0;
     margin-left: $INDENT_DEFAULT;
     margin-right: $INDENT_DEFAULT;
+}
+
+/* Private banner (subtitle not visible) at event screen */
+
+MBannerStyle #PrivateEventBanner {
+    icon-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
+    margin-right: $MARGIN_LARGE;
+    margin-left:  $MARGIN_LARGE;
+    background-image: "meegotouch-lockscreen-notification-background" 10px 10px 10px 10px;
+}
+
+MBannerStyle #PrivateEventBanner.Landscape {
+    minimum-size: 46.4mm 9.6mm;
+    maximum-size: 46.4mm 12mm;
+    preferred-size: 46.4mm -1mm;
+}
+
+MBannerStyle #PrivateEventBanner.Portrait {
+    minimum-size: 46.4mm 9mm;
+    maximum-size: 46.4mm 13.8mm;
+    preferred-size: 46.4mm -1mm;
+}
+
+#PrivateEventBannerIcon {
+    maximum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
+    minimum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
+    preferred-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
+
+    margin-top: 1.4mm;
+    margin-bottom: $INDENT_DEFAULT;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: 0;
+}
+
+#PrivateEventBannerTitle {
+    font: $FONT_FAMILY 2.2mm;
+    color:$COLOR_INVERTED_FOREGROUND;
+
+    preferred-line-count: 2;
+    preferred-line-count-behavior: "limit";
+
+    margin-top: 1.0mm;
+    margin-bottom: 0;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: 1.4mm;
+}
+
+#PrivateEventBannerTimeStamp {
+    font: $FONT_XXSMALL;
+    color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
+
+    margin-top: $MARGIN_XSMALL;
+    margin-bottom: 1.0mm;
+    margin-left: 0;
+    margin-right: 1.4mm;
+}
+
+#PrivateEventBannerPrefixTimeStamp {
+    font: $FONT_XXSMALL;
+    color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
+
+    margin-top: $MARGIN_XSMALL;
+    margin-bottom: 1.0mm;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: $MARGIN_LARGE;
+}
+
+#PrivateEventBannerTimeStampIsolated {
+    font: $FONT_XXSMALL;
+    color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
+
+    margin-top: $MARGIN_XSMALL;
+    margin-bottom: 1.0mm;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: 1.4mm;
+}
+
+/* Event banner at event screen (FullEventBanner) */
+
+MBannerStyle #FullEventBanner {
+    icon-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
+    background-image: "meegotouch-fulleventbanner-background" 10px 10px 10px 10px;
+}
+
+MBannerStyle #FullEventBanner:pressed {
+    background-image: "meegotouch-fulleventbanner-background-pressed" 10px 10px 10px 10px;
+}
+
+MBannerStyle #FullEventBanner.Landscape {
+    minimum-size: 48mm 9.6mm;
+    maximum-size: 48mm 12mm;
+    preferred-size: 48mm -1mm;
+}
+
+MBannerStyle #FullEventBanner.Portrait {
+    minimum-size: 48mm 8mm;
+    maximum-size: 48mm 13.8mm;
+    preferred-size: 48mm -1mm;
+}
+
+#FullEventBannerIcon {
+    maximum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
+    minimum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
+    preferred-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
+
+    margin-top: 1.0mm;
+    margin-bottom: 0;
+    margin-left: $MARGIN_XSMALL;
+    margin-right: 0mm;
+}
+
+#FullEventBannerTitle {
+    font: $FONT_FAMILY  2.2mm;
+    color:$COLOR_INVERTED_FOREGROUND;
+
+    preferred-line-count: 2;
+    preferred-line-count-behavior: "limit";
+
+    margin-top: 1.0mm;
+    margin-bottom: 0;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: 1.4mm;
+}
+
+#FullEventBannerSubtitle {
+    font: $FONT_XXSMALL;
+    color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
+
+    margin-top: $MARGIN_XSMALL;
+    margin-bottom: 0;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: 1.4mm;
+}
+
+#FullEventBannerTimeStamp {
+    font: $FONT_XXSMALL;
+    color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
+
+    margin-top: $MARGIN_XSMALL;
+    margin-bottom: 1.0mm;
+    margin-left: 0;
+    margin-right: 1.4mm;
+}
+
+#FullEventBannerPrefixTimeStamp { 
+    font: $FONT_XXSMALL;
+    color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
+
+    margin-top: $MARGIN_XSMALL;
+    margin-bottom: 1.0mm;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: $MARGIN_LARGE;
+}
+
+#FullEventBannerTimeStampIsolated {
+    font: $FONT_XXSMALL;
+    color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
+
+    margin-top: $MARGIN_XSMALL;
+    margin-bottom: 1.0mm;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: 1.4mm;
 }
 
 /* Event banner at lock screen */
@@ -295,18 +324,14 @@ MBannerStyle #LockScreenEventBanner {
     background-image: "meegotouch-lockscreen-notification-background" 10px 10px 10px 10px;
 }
 
-MBannerStyle #LockScreenEventBanner:pressed {
-    background-image: "meegotouch-lockscreen-notification-background-pressed" 10px 10px 10px 10px;
-}
-
 MBannerStyle #LockScreenEventBanner.Landscape {
-    minimum-size: 46.4mm 9.6mm;
-    maximum-size: 46.4mm 12mm;
+    minimum-size: 46.4mm 9mm;
+    maximum-size: 46.4mm 13.8mm;
     preferred-size: 46.4mm -1mm;
 }
 
 MBannerStyle #LockScreenEventBanner.Portrait {
-    minimum-size: 46.4mm 9.6mm;
+    minimum-size: 46.4mm 9mm;
     maximum-size: 46.4mm 13.8mm;
     preferred-size: 46.4mm -1mm;
 }
@@ -326,8 +351,11 @@ MBannerStyle #LockScreenEventBanner.Portrait {
     font: $FONT_FAMILY  2.2mm;
     color:$COLOR_INVERTED_FOREGROUND;
 
+    preferred-line-count: 2;
+    preferred-line-count-behavior: "limit";
+
     margin-top: 1.0mm;
-    margin-bottom: 0mm;
+    margin-bottom: 0;
     margin-left: $INDENT_DEFAULT;
     margin-right: 1.4mm;
 
@@ -337,8 +365,8 @@ MBannerStyle #LockScreenEventBanner.Portrait {
     font: $FONT_XXSMALL;
     color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
 
-    margin-top: 0mm;
-    margin-bottom: 0mm;
+    margin-top: 0;
+    margin-bottom: 0;
     margin-left: $INDENT_DEFAULT;
     margin-right: 1.4mm;
 }
@@ -348,7 +376,7 @@ MBannerStyle #LockScreenEventBanner.Portrait {
     color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
 
     margin-top: $MARGIN_XSMALL;
-    margin-bottom: $INDENT_DEFAULT;
+    margin-bottom: 1.0mm;
     margin-left: 0mm;
     margin-right: 1.4mm;
 }
@@ -358,7 +386,7 @@ MBannerStyle #LockScreenEventBanner.Portrait {
     color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
 
     margin-top: $MARGIN_XSMALL;
-    margin-bottom: 0.4mm;
+    margin-bottom: 1.0mm;
     margin-left: $INDENT_DEFAULT;
     margin-right: $MARGIN_LARGE;
 }
@@ -368,7 +396,7 @@ MBannerStyle #LockScreenEventBanner.Portrait {
     color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
 
     margin-top: $MARGIN_XSMALL;
-    margin-bottom: 0.8mm;
+    margin-bottom: 1.0mm;
     margin-left: $INDENT_DEFAULT;
     margin-right: 1.4mm;
 }
@@ -380,8 +408,8 @@ MBannerStyle #GenericBanner {
 
     margin-top: $HEIGHT_STATUSBAR;
     margin-bottom:$MARGIN_LARGE;
-    margin-right: $MARGIN_LARGE;
     margin-left:$MARGIN_LARGE;
+    margin-right: $MARGIN_LARGE;
 
     background-image: "meegotouch-notification-system-background" 10px 10px 10px 10px;
 }
@@ -402,20 +430,6 @@ MBannerStyle #GenericBanner.Portrait {
     preferred-size: 46.4mm -1;
 }
 
-#GenericBannerTitle {
-    color:$COLOR_INVERTED_FOREGROUND;
-    font: $FONT_DEFAULT;
-    margin-left: $INDENT_DEFAULT;
-}
-
-#GenericBannerSubtitle {
-    color:$COLOR_INVERTED_FOREGROUND;
-    font: $FONT_SMALL;
-
-    margin-left: $INDENT_DEFAULT;
-    margin-right: $INDENT_DEFAULT;
-}
-
 #GenericBannerIcon {
     margin-top: $INDENT_DEFAULT;
     margin-bottom: $INDENT_DEFAULT;
@@ -423,7 +437,42 @@ MBannerStyle #GenericBanner.Portrait {
     margin-left: $INDENT_DEFAULT;
 }
 
+#GenericBannerTitle {
+    color:$COLOR_INVERTED_FOREGROUND;
+    font: $FONT_DEFAULT;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: 0;
+}
+
+#GenericBannerSubtitle {
+    color:$COLOR_INVERTED_FOREGROUND;
+    font: $FONT_SMALL;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: $INDENT_DEFAULT;
+}
+
 #GenericBannerTimeStamp {
     color:$COLOR_INVERTED_FOREGROUND;
     font: $FONT_SMALL;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: 0;
+}
+
+#GenericBannerPrefixTimeStamp {
+    color:$COLOR_INVERTED_FOREGROUND;
+    font: $FONT_SMALL;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: 0;
 }
