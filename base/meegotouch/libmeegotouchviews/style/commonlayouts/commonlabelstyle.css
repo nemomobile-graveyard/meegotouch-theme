@@ -694,7 +694,7 @@ color:         $COLOR_INVERTED_FOREGROUND;
 /* Empty state labels */
 
 #CommonEmptyStateTitle {
-    font: $FONT_FAMILY_LIGHT 6.2mm;
+    font: $FONT_FAMILY_LIGHT 5.8mm;
     color: $COLOR_FOREGROUND;
     margin-top:    0;
     margin-bottom: 0;
@@ -704,7 +704,7 @@ color:         $COLOR_INVERTED_FOREGROUND;
 }
 
 #CommonEmptyStateTitleKeyword {
-    font: $FONT_FAMILY_LIGHT 6.2mm;
+    font: $FONT_FAMILY_LIGHT 5.8mm;
     color: $COLOR_FOREGROUND;
     margin-top:    0;
     margin-bottom: 0;
@@ -723,7 +723,7 @@ color:         $COLOR_INVERTED_FOREGROUND;
 }
 
 #CommonEmptyStateTitleInverted {
-    font: $FONT_FAMILY_LIGHT 6.2mm;
+    font: $FONT_FAMILY_LIGHT 5.8mm;
     color: $COLOR_INVERTED_FOREGROUND;
     margin-top:    0;
     margin-bottom: 0;
@@ -733,7 +733,7 @@ color:         $COLOR_INVERTED_FOREGROUND;
 }
 
 #CommonEmptyStateTitleKeywordInverted {
-    font: $FONT_FAMILY_LIGHT 6.2mm;
+    font: $FONT_FAMILY_LIGHT 5.8mm;
     color: $COLOR_INVERTED_FOREGROUND;
     margin-top:    0;
     margin-bottom: 0;
