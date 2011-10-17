@@ -1,3 +1,13 @@
+meegotouchtheme (0.24.6-1) unstable; urgency=low
+
+  * New version
+  * Changes: CommonEmptyState* has new font size: 5.8mm
+  * Fixes: NB#286671 - MBanner's layouts require adaption to the new typography
+  * Changes: adjustments for typography matters -3-
+  * Fixes: NB#285790 MTextEditView - Give it a fixed preferred width
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 17 Oct 2011 17:04:44 +0300
+
 meegotouchtheme (0.24.5-1) unstable; urgency=low
 
   * New version
