@@ -201,8 +201,8 @@ margin-right:  $INDENT_DEFAULT;
 #CommonHeader { /* Updated according to 1_5_9 */
 font:          $FONT_FAMILY_LIGHT 32;
 color:         $COLOR_FOREGROUND;
-margin-top:    20px;
-margin-bottom: 20px; 
+margin-top:    8px;
+margin-bottom: 8px; 
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
