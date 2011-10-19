@@ -823,7 +823,7 @@ margin-right:  0;
 #CommonDialogHeader {
 font:          $FONT_FAMILY_LIGHT 32;
 color:         $COLOR_DIALOGHEADER;
-margin-top:    0.8mm;
+margin-top:    0.4mm;
 margin-bottom: 0;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
