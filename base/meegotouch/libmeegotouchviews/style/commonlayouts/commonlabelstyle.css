@@ -202,22 +202,22 @@ margin-right:  $INDENT_DEFAULT;
 font:          $FONT_FAMILY_LIGHT 32;
 color:         $COLOR_FOREGROUND;
 margin-top:    8px;
-margin-bottom: 8px; 
+margin-bottom: 8px;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonHeader.Landscape { /* Updated according to 1_5_9 */
 font:          $FONT_FAMILY_LIGHT 32;
 color:         $COLOR_FOREGROUND;
-margin-top:    16px;
-margin-bottom: 14px; 
+margin-top:    3px;
+margin-bottom: 8px;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonGroupHeader { /* Updated according to 1_5_9 but contains temporary values */
 font:          $FONT_FAMILY bold 18;
 color:         #8C8C8C;
-margin-top:    $MARGIN_LARGE; /* temporary value due to font issues FIX ME */
+margin-top:    10px; /* temporary value due to font issues FIX ME */
 margin-bottom: 0; /* temporary value due to font issues FIX ME */
 margin-left:   $MARGIN_LARGE;
 margin-right:  29px;
@@ -508,23 +508,23 @@ margin-right:  $INDENT_DEFAULT;
 #CommonHeaderInverted { /* Updated according to 1_5_9 */
 font:          $FONT_FAMILY_LIGHT 32;
 color:         $COLOR_INVERTED_FOREGROUND;
-margin-top:    11px;
-margin-bottom: 11px;
+margin-top:    8px;
+margin-bottom: 8px;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonHeaderInverted.Landscape { /* Updated according to 1_5_9 */
 font:          $FONT_FAMILY_LIGHT 32;
 color:         $COLOR_INVERTED_FOREGROUND;
-margin-top:    16px; 
-margin-bottom: 14px;
+margin-top:    3px;
+margin-bottom: 8px;
 margin-left:   $INDENT_DEFAULT;
 margin-right:  $INDENT_DEFAULT;
 }
 #CommonGroupHeaderInverted { /* Updated according to 1_5_9 */
 font:          $FONT_FAMILY bold 18;
 color:         #707070;
-margin-top:    $MARGIN_SMALL; /* temporary value due to font issues FIX ME */
+margin-top:    10px; /* temporary value due to font issues FIX ME */
 margin-bottom: 0; /* temporary value due to font issues FIX ME */
 margin-left:   $INDENT_DEFAULT;
 margin-right:  29px;
