@@ -1,3 +1,16 @@
+meegotouchtheme (0.24.7-1) unstable; urgency=low
+
+  * New version
+  * Changes: introduce cusror margins for automatic vertical scrolling
+  * Changes: add new properties for MTextEdit
+  * Changes: styling for text selection handle
+  * Changes: Fix header label alignments for inverted and landscape states.
+  * Changes: Update common header margins for new font.
+  * Changes: Fix alignment of dialog header for new font.
+  * Changes: Fix common group header top margin for new font.
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 24 Oct 2011 11:33:43 +0300
+
 meegotouchtheme (0.24.6-1) unstable; urgency=low
 
   * New version
