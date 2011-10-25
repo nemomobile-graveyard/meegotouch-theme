@@ -11,6 +11,7 @@ MStatusBarStyle
     enable-status-indicator-menu: true;
     press-feedback: priority2_static_press;
     release-feedback: priority2_static_release;
+    minimum-tap-feedback-duration: 150;
 }
 
 MStatusBarStyle#NoReactiveMargins

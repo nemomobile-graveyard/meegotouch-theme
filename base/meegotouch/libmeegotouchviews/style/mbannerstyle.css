@@ -35,6 +35,7 @@ MBannerStyle #ShortEventBanner {
     preferred-size: 100% 3.6mm;
     background-image: "meegotouch-shorteventbanner-background" 10px 10px 10px 10px;
     disappear-timeout: 2500;
+    minimum-tap-feedback-duration: 150;
 }
 
 #ShortEventBannerIcon {
