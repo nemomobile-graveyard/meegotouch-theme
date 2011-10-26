@@ -3,6 +3,7 @@ meegotouchtheme (0.24.8~1) unstable; urgency=low
   * [UNRELEASED]
   * Fixes: NB#285111 - New launcher specific "popup" feedback needed
   * Fixes: NB#286644 - priority2_move sound is slightly too loud
+  * Fixes: NB#285976 - [TASK] The 'close all' sound is too big for its purpose
 
  -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 24 Oct 2011 11:38:59 +0300
 
