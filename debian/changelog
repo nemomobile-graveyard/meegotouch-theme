@@ -1,6 +1,7 @@
 meegotouchtheme (0.24.8~1) unstable; urgency=low
 
   * [UNRELEASED]
+  * Fixes: NB#285111 - New launcher specific "popup" feedback needed
 
  -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Mon, 24 Oct 2011 11:38:59 +0300
 
