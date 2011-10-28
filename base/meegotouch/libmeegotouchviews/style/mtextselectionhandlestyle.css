@@ -12,5 +12,7 @@ MTextSelectionHandleStyle {
     movement-sensitivity: 3;
 
     preferred-size: 66 108;
+
+    region-padding: 5mm;
 }
 

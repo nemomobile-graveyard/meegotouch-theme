@@ -53,6 +53,9 @@ MTextEditStyle {
     selection-speed-threshold: 1.0; /* pixels per millisecond*/
     scroll-cursor-margin-top: 40;
     scroll-cursor-margin-bottom: 20;
+
+    toolbar-speed-limit: 0.015;
+    toolbar-show-delay: 250;
 }
 
 MTextEditStyle:selected {
