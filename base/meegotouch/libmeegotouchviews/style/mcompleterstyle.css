@@ -54,7 +54,7 @@ MCompleterStyle.Landscape {
     text-margin-bottom: 0;
 
     minimum-size: 68 $COMPLETERBUTTONHEIGHT;
-    maximum-size: 75 $COMPLETERBUTTONHEIGHT;
+    maximum-size: 76 $COMPLETERBUTTONHEIGHT;
     preferred-size: -1 $COMPLETERBUTTONHEIGHT;
 }
 
