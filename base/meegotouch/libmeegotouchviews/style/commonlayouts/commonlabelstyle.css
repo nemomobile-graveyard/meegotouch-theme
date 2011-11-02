@@ -695,12 +695,12 @@ color:         $COLOR_INVERTED_FOREGROUND;
 
 #CommonEmptyStateTitle {
     font: $FONT_FAMILY_LIGHT 5.8mm;
-    color: $COLOR_FOREGROUND;
+    color: #848284;
     margin-top:    0;
     margin-bottom: 0;
     margin-left:   0;
     margin-right:  0;
-    text-opacity: 0.5;
+    text-opacity: 1.0;
 }
 
 #CommonEmptyStateTitleKeyword {
@@ -724,12 +724,12 @@ color:         $COLOR_INVERTED_FOREGROUND;
 
 #CommonEmptyStateTitleInverted {
     font: $FONT_FAMILY_LIGHT 5.8mm;
-    color: $COLOR_INVERTED_FOREGROUND;
+    color: #8c8c8c;
     margin-top:    0;
     margin-bottom: 0;
     margin-left:   0;
     margin-right:  0;
-    text-opacity: 0.5;
+    text-opacity: 1.0;
 }
 
 #CommonEmptyStateTitleKeywordInverted {
