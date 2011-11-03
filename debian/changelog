@@ -1,8 +1,12 @@
-meegotouchtheme (0.24.9~1) unstable; urgency=low
+meegotouchtheme (0.24.9-1) unstable; urgency=low
 
-  * [UNRELEASED]
+  * New version
+  * Fixes: NB#288771 - The color of the text where the letters are connected is different from the rest of the text.
+  * Fixes: NB#287568 - Language Settings - truncation of §qtn_lang_usb_reboot_fail§ in EU French
+  * Changes: Give enough width for completer's button
+  * New: Updated feedback for text selection and cursor moving while magnified
 
- -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Fri, 28 Oct 2011 13:40:00 +0300
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 03 Nov 2011 15:10:06 +0200
 
 meegotouchtheme (0.24.8-1) unstable; urgency=low
 
