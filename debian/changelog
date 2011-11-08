@@ -1,8 +1,9 @@
-meegotouchtheme (0.24.10~1) unstable; urgency=low
+meegotouchtheme (0.24.10-1) unstable; urgency=low
 
-  * [UNRELEASED]
+  * New version
+  * Fixes: NB#286974 - Visual pressed down feedback of status area is not shown always
 
- -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Thu, 03 Nov 2011 15:10:32 +0200
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 08 Nov 2011 16:27:18 +0200
 
 meegotouchtheme (0.24.9-1) unstable; urgency=low
 
