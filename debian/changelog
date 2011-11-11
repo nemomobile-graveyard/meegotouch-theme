@@ -1,8 +1,10 @@
-meegotouchtheme (0.24.11~1) unstable; urgency=low
+meegotouchtheme (0.24.11-1) unstable; urgency=low
 
-  * [UNRELEASED]
+  * New version
+  * Changes: editor toolbar avoids given region
+  * Fixes: NB#290014, Text selection handles are hidden or shown behind Cut/Copy/Paste/etc pop-up
 
- -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 08 Nov 2011 16:28:09 +0200
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Fri, 11 Nov 2011 13:11:27 +0200
 
 meegotouchtheme (0.24.10-1) unstable; urgency=low
 
