@@ -286,6 +286,16 @@ MBannerStyle #FullEventBanner.Portrait {
     margin-right: 1.4mm;
 }
 
+#FullEventBannerSubtitleIsolated {
+    font: $FONT_XXSMALL;
+    color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
+
+    margin-top: 1.4mm;
+    margin-bottom: 0;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: 1.4mm;
+}
+
 #FullEventBannerTimeStamp {
     font: $FONT_XXSMALL;
     color:$COLOR_INVERTED_SECONDARY_FOREGROUND;
@@ -367,6 +377,16 @@ MBannerStyle #LockScreenEventBanner.Portrait {
     color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
 
     margin-top: 0;
+    margin-bottom: 0;
+    margin-left: $INDENT_DEFAULT;
+    margin-right: 1.4mm;
+}
+
+#LockScreenEventBannerSubtitleIsolated {
+    font: $FONT_XXSMALL;
+    color: $COLOR_INVERTED_SECONDARY_FOREGROUND;
+
+    margin-top: 1.4mm;
     margin-bottom: 0;
     margin-left: $INDENT_DEFAULT;
     margin-right: 1.4mm;
