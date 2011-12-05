@@ -14,11 +14,11 @@ MWidgetRectangularClipAnimationStyle#Out {
 MObjectMenu MWidgetRectangularClipAnimationStyle#In {
     duration: 1500;
     easing-curve: inoutexpo;
-    clip-margin: 1.2mm;
+    clip-margin: 1.0mm;
 }
 
 MObjectMenu MWidgetRectangularClipAnimationStyle#Out {
     duration: 700;
     easing-curve: inoutexpo;
-    clip-margin: 1.2mm;
+    clip-margin: 1.0mm;
 }

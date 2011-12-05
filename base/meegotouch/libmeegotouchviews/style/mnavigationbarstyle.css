@@ -1,18 +1,18 @@
 /* MNavigationBarStyle : MWidgetStyle */
 MNavigationBarStyle {
-    vertical-align: top;
+    vertical-align: bottom;
     horizontal-align: left;
 
     item-spacing: 0;
     button-animation-length: 500;
     height: 50mm; /* is "height" used? doesnt seem to affect anything.. */
 
-    padding-left:   $WIDTH_HOMECLOSEBUTTON; /* space for square button */
+    padding-left: 0;
     padding-right:  0;
 
-    drop-shadow-image: none;
-    has-title: true;
-    has-close-button: true;
+    drop-shadow-image: meegotouch-menu-shadow-top 15px 15px 5px 5px;
+    has-title: false;
+    has-close-button: false;
 
     offset: 0 0;
 
@@ -27,7 +27,7 @@ MNavigationBarStyle.Landscape {
     preferred-size: 100% $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
     maximum-size: 100% $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
 
-    background-image: "meegotouch-navigationbar-landscape-background" $CORNER_MARGINS;
+    background-image: "meegotouch-tabbar-landscape-bottom-background" 27px 27px 27px 27px;
 }
 
 MNavigationBarStyle.Portrait {
@@ -35,7 +35,7 @@ MNavigationBarStyle.Portrait {
     preferred-size: 100% $HEIGHT_NAVIGATIONBAR_PORTRAIT;
     maximum-size: 100% $HEIGHT_NAVIGATIONBAR_PORTRAIT;
 
-    background-image: "meegotouch-navigationbar-portrait-background" $CORNER_MARGINS;
+    background-image: "meegotouch-tabbar-portrait-bottom-background" 35px 35px 35px 35px;
 }
 
 #MNavigationBarEscapeButtonSlot
@@ -61,8 +61,8 @@ MNavigationBarStyle.Portrait {
 
 #MNavigationBarBackButton
 {
-    icon-id: "icon-m-framework-back";
-    icon-size: $SIZE_ICON_LARGE $SIZE_ICON_LARGE;
+    icon-id: "icon-m-toolbar-back";
+    icon-size: 52px 52px;
 
     minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_PORTRAIT;
     maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_PORTRAIT;
@@ -107,6 +107,22 @@ MApplicationMenuButtonStyle {
 MApplicationMenuButtonStyle :pressed
 {
     background-image: ;
+}
+
+#MNavigationBarMenuButton
+{
+    icon-id: "icon-m-toolbar-view-menu";
+    icon-size: 40px 40px;
+
+    minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_PORTRAIT;
+    preferred-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_PORTRAIT;
+    maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_PORTRAIT;
+}
+#MNavigationBarMenuButton.Landscape
+{
+    minimum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
+    preferred-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
+    maximum-size: $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
 }
 
 #NavigationBarMenuButtonLabel {

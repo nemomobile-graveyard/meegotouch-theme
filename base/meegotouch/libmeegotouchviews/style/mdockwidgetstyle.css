@@ -6,7 +6,7 @@ MDockWidgetStyle {
 
     /* inherited from MSceneWindowStyle */
     horizontal-align: left;
-    vertical-align: bottom;
+    vertical-align: top;
 
     offset: 0 0;
 

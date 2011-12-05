@@ -11,10 +11,10 @@ MToolbarStyle {
 
     drop-shadow-image: none;
 
-    capacity: 4;
+    capacity: 5;
     has-icons:  true;
     has-labels: false;
-    has-spaces: false;
+    has-spaces: true;
     label-only-as-common-button: true;
     alignment-margins: 0; 
     center-to-parent: false;
@@ -30,15 +30,15 @@ MToolbarStyle.Landscape {
     minimum-size:   -1 $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
     maximum-size:   -1 $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
 
-    has-spaces: true;
+    center-common-buttons-to-parent: true;
 }
 
 MButtonIconStyle[toolbar] {
     /* inherited from MButtonStyle */
     font: $FONT_XXSMALL;
-    text-color: $COLOR_INVERTED_FOREGROUND;
+    text-color: $COLOR_FOREGROUND;
 
-    icon-size: $SIZE_ICON_DEFAULT $SIZE_ICON_DEFAULT;
+    icon-size: 40px 40px;
     icon-align: center;
     vertical-text-align: top;
     horizontal-text-align: center;
@@ -61,6 +61,9 @@ MButtonIconStyle[toolbar] {
     reactive-margin-top: $MARGIN_MEDIUM;
     reactive-margin-bottom: $MARGIN_MEDIUM;
 }
+MButtonStyle[toolbar]:disabled {
+    content-opacity: 0.3;
+}
 
 MButtonIconStyle[toolbar].Landscape {
     minimum-size:   $WIDTH_HOMECLOSEBUTTON $HEIGHT_NAVIGATIONBAR_LANDSCAPE;
@@ -70,18 +73,50 @@ MButtonIconStyle[toolbar].Landscape {
 
 MButtonStyle#ToolBarLabelOnlyCommonButton {
     margin-left: $MARGIN_SMALL;
-    margin-top: 0.7mm;
+    margin-top: 7px;
     margin-right: $MARGIN_SMALL;
-    margin-bottom: 0.7mm;
+    margin-bottom: 7px;
 
-    minimum-size:    4.2mm 4.2mm;
-    preferred-size: 18.0mm 4.2mm;
-    maximum-size:   18.0mm 4.2mm;
+    minimum-size:    42px 42px;
+    preferred-size: 180px 42px;
+    maximum-size:   180px 42px;
 
-    background-image: meegotouch-button-navigationbar-button-background $CORNER_MARGINS;
+    background-image: "meegotouch-toolbar-textbutton-background" 20px 20px 20px 20px;
+}
+MButtonStyle#ToolBarLabelOnlyCommonButton.Portrait {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+MButtonStyle#ToolBarLabelOnlyCommonButton:pressed {
+    text-color: $COLOR_FOREGROUND;
+    background-image: "meegotouch-toolbar-textbutton-background-pressed" 20px 20px 20px 20px;
+}
+MButtonStyle#ToolBarLabelOnlyCommonButton:selected {
+    background-image: "meegotouch-toolbar-textbutton-background-selected" 20px 20px 20px 20px;
 }
 MButtonStyle#ToolBarLabelOnlyCommonButton:disabled {
-    text-color: #9B9C9D;
+    background-image: "meegotouch-toolbar-textbutton-background-disabled" 20px 20px 20px 20px;
+}
+
+/* Disabled states must be empty here */
+MButtonStyle#ToolBarLabelOnlyButton:disabled {
+    background-image: none;
+}
+MButtonStyle#ToolBarIconButton:disabled {
+    background-image: none;
+}
+
+MTextEditStyle[toolbar] {
+    margin-left: 14px;
+    margin-right: 14px;
+}
+MTextEditStyle[toolbar].Landscape {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+MTextEditStyle[toolbar].Portrait{
+    margin-top: $MARGIN_LARGE;
+    margin-bottom: $MARGIN_LARGE;
 }
 
 

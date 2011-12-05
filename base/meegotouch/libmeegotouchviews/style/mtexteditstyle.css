@@ -4,7 +4,7 @@ MTextEditStyle {
 
     font: $FONT_FAMILY_LIGHT 24px;
     text-color: $COLOR_FOREGROUND;
-    selection-text-color: $COLOR_INVERTED_FOREGROUND;
+    selection-text-color: $COLOR_FOREGROUND;
     selection-background-color: $COLOR_SELECT;
     selection-threshold: 15.0;
     allow-view-reposition: true;

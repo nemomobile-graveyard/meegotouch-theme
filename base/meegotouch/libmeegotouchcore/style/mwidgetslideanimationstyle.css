@@ -79,14 +79,14 @@ MSheetSlot MWidgetSlideAnimationStyle#Out {
 MNavigationBar MWidgetSlideAnimationStyle#In {
     duration: 250;
     delay: 0;
-    origin: "top";
+    origin: "bottom";
     easing-curve: outexpo;
 }
 
 MNavigationBar MWidgetSlideAnimationStyle#Out {
     duration: 250;
     delay: 0;
-    origin: "top";
+    origin: "bottom";
     easing-curve: outexpo;
 }
 

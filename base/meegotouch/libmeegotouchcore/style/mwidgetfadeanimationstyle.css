@@ -30,16 +30,16 @@ MEscapeButtonPanel MWidgetFadeAnimationStyle#In {
 
 MSceneLayerEffect MWidgetFadeAnimationStyle#In {
     delay: 0;
-    duration: 400;
-    easing-curve: inoutcubic;
-    opacity: 0.87;
+    duration: 250;
+    easing-curve: inquint;
+    opacity: 0.9;
 }
 
 MSceneLayerEffect MWidgetFadeAnimationStyle#Out {
-    delay: 300;
-    duration: 400;
-    easing-curve: outcubic;
-    opacity: 0.87;
+    delay: 100;
+    duration: 500;
+    easing-curve: outquint;
+    opacity: 0.9;
 }
 
 MNavigationBar MWidgetFadeAnimationStyle#In {
