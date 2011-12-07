@@ -1,3 +1,12 @@
+meegotouchtheme (0.24.31-1) unstable; urgency=low
+
+  * New version
+  * Changes: adding missing libmeego-keyboard from blanco
+  * Fixes: NB#292459 - Blanco theme CSS files must be merged on base theme.
+  * Changes: Add show duration for MEditorToolbar
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 07 Dec 2011 16:20:10 +0200
+
 meegotouchtheme (0.24.30-1) unstable; urgency=low
 
   * New version
