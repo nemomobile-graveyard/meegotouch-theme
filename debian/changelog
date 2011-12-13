@@ -1,8 +1,10 @@
-meegotouchtheme (0.25.1~1) unstable; urgency=low
+meegotouchtheme (0.25.1-1) unstable; urgency=low
 
-  * [UNRELEASED]
+  * New version
+  * Fixing debian package
+  * Revert "Changes: adding missing libmeego-keyboard from blanco"
 
- -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 07 Dec 2011 16:26:05 +0200
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Tue, 13 Dec 2011 12:12:08 +0200
 
 meegotouchtheme (0.24.31-1) unstable; urgency=low
 
