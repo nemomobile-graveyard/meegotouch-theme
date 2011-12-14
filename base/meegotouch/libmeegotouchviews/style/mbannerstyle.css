@@ -10,6 +10,7 @@ MBannerStyle {
     /* Available for FullEventBanner, EventBanner, LockScreenEventBanner. */
     press-down-banner-opacity: 0.6;
     timestamp-separator: "|";
+    minimum-tap-feedback-duration: 0;
 }
 
 MBanner MLabelStyle {
@@ -84,15 +85,15 @@ MBannerStyle #SystemBanner {
 }
 
 MBannerStyle #SystemBanner.Landscape {
-    maximum-size: 83.4mm 8mm;
+    maximum-size: 83.4mm 10.4mm;
     minimum-size: 46mm 8mm;
     preferred-size: 83.4mm -1;
 }
 
 MBannerStyle #SystemBanner.Portrait {
-    maximum-size: 46.4mm 10.6mm;
+    maximum-size: 46.4mm 13mm;
     minimum-size: 46.4mm 8mm;
-    preferred-size: 46.4mm -1;
+    preferred-size: 46.4mm -1mm;
 }
 
 #SystemBannerTitleIcon{
@@ -109,8 +110,8 @@ MBannerStyle #SystemBanner.Portrait {
     preferred-line-count: 3;
     preferred-line-count-behavior: "limit";
 
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 1.2mm;
+    margin-bottom: 1.2mm;
     margin-left: $INDENT_DEFAULT;
     margin-right: $INDENT_DEFAULT;
 }
@@ -130,13 +131,13 @@ MBannerStyle #InformationBanner {
 }
 
 MBannerStyle #InformationBanner.Landscape {
-    maximum-size: 83.4mm 8mm;
+    maximum-size: 83.4mm 10.4mm;
     minimum-size: 46mm 8mm;
     preferred-size: 83.4mm -1;
 }
 
 MBannerStyle #InformationBanner.Portrait {
-    maximum-size: 46.4mm 10.6mm;
+    maximum-size: 46.4mm 13mm;
     minimum-size: 46.4mm 8mm;
     preferred-size: 46.4mm -1;
 }
@@ -148,8 +149,8 @@ MBannerStyle #InformationBanner.Portrait {
     preferred-line-count: 3;
     preferred-line-count-behavior: "limit";
 
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 1.2mm;
+    margin-bottom: 1.2mm;
     margin-left: $INDENT_DEFAULT;
     margin-right: $INDENT_DEFAULT;
 }
