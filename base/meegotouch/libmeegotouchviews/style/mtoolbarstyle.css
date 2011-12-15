@@ -81,6 +81,7 @@ MButtonStyle#ToolBarLabelOnlyCommonButton {
     preferred-size: 180px 42px;
     maximum-size:   180px 42px;
 
+    text-color: $COLOR_BUTTON_FOREGROUND;
     background-image: "meegotouch-toolbar-textbutton-background" 20px 20px 20px 20px;
 }
 MButtonStyle#ToolBarLabelOnlyCommonButton.Portrait {
@@ -88,7 +89,6 @@ MButtonStyle#ToolBarLabelOnlyCommonButton.Portrait {
     margin-bottom: 15px;
 }
 MButtonStyle#ToolBarLabelOnlyCommonButton:pressed {
-    text-color: $COLOR_FOREGROUND;
     background-image: "meegotouch-toolbar-textbutton-background-pressed" 20px 20px 20px 20px;
 }
 MButtonStyle#ToolBarLabelOnlyCommonButton:selected {
@@ -96,6 +96,7 @@ MButtonStyle#ToolBarLabelOnlyCommonButton:selected {
 }
 MButtonStyle#ToolBarLabelOnlyCommonButton:disabled {
     background-image: "meegotouch-toolbar-textbutton-background-disabled" 20px 20px 20px 20px;
+    content-opacity: 0.3;
 }
 
 /* Disabled states must be empty here */
