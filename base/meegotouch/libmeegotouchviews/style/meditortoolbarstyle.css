@@ -11,6 +11,8 @@ MEditorToolbarStyle
     padding-bottom: 0;
 
     hide-timeout: 5000;
+    auto-hide-animation-duration: 1000;
+
     hide-animation-duration: 1000;
     show-animation-duration: 1000;
 }
