@@ -10,11 +10,11 @@ MEditorToolbarStyle
     padding-top: 0;
     padding-bottom: 0;
 
-    hide-timeout: 5000;
+    hide-timeout: 4000;
     auto-hide-animation-duration: 1000;
 
-    hide-animation-duration: 1000;
-    show-animation-duration: 1000;
+    hide-animation-duration: 300;
+    show-animation-duration: 300;
 }
 
 MEditorToolbarStyle:editor-under-cursor
