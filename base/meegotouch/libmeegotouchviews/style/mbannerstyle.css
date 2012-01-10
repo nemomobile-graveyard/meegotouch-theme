@@ -165,9 +165,9 @@ MBannerStyle #PrivateEventBanner {
 }
 
 MBannerStyle #PrivateEventBanner.Landscape {
-    minimum-size: 46.4mm 9.6mm;
-    maximum-size: 46.4mm 12mm;
-    preferred-size: 46.4mm -1mm;
+    minimum-size: 46.4mm 9mm;
+    maximum-size: 83.8mm 13.8mm;
+    preferred-size: 83.8mm -1mm;
 }
 
 MBannerStyle #PrivateEventBanner.Portrait {
@@ -242,9 +242,9 @@ MBannerStyle #FullEventBanner:pressed {
 }
 
 MBannerStyle #FullEventBanner.Landscape {
-    minimum-size: 48mm 9.6mm;
-    maximum-size: 48mm 12mm;
-    preferred-size: 48mm -1mm;
+    minimum-size: 48mm 8mm;
+    maximum-size: 85.4mm 13.8mm;
+    preferred-size: 85.4mm -1mm;
 }
 
 MBannerStyle #FullEventBanner.Portrait {
@@ -338,8 +338,8 @@ MBannerStyle #LockScreenEventBanner {
 
 MBannerStyle #LockScreenEventBanner.Landscape {
     minimum-size: 46.4mm 9mm;
-    maximum-size: 46.4mm 13.8mm;
-    preferred-size: 46.4mm -1mm;
+    maximum-size: 83.8mm 13.8mm;
+    preferred-size: 83.8mm -1mm;
 }
 
 MBannerStyle #LockScreenEventBanner.Portrait {
