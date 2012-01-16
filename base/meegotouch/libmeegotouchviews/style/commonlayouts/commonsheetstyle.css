@@ -351,11 +351,11 @@ MLabelStyle#CommonEditorInputFieldLabelInverted:selected {
 }
 
 #CommonEditorNoteAreaExpandButtonPanel {
-    minimum-size:      56 25;
-    preferred-size:    100% 25;
-    maximum-size:      100% 25;
+    minimum-size:      56 49;
+    preferred-size:    100% 49;
+    maximum-size:      100% 49;
     background-tiles:  ;
-    background-image:  meegotouch-sheet-editor-note-expanded-background;
+    background-image:  meegotouch-sheet-editor-note-expanded-background 0 0 15px 0;
     background-color:  ;
     margin-top:        20px;
     margin-bottom:     0;
@@ -369,11 +369,11 @@ MLabelStyle#CommonEditorInputFieldLabelInverted:selected {
     padding-right:     382px;
 }
 #CommonEditorNoteAreaExpandButtonPanelInverted {
-    minimum-size:      56 25;
-    preferred-size:    100% 25;
-    maximum-size:      100% 25;
+    minimum-size:      56 49;
+    preferred-size:    100% 49;
+    maximum-size:      100% 49;
     background-tiles:  ;
-    background-image:  meegotouch-sheet-editor-note-expanded-inverted-background;
+    background-image:  meegotouch-sheet-editor-note-expanded-inverted-background 0 0 15px 0;
     background-color:  ;
     margin-top:        20px;
     margin-bottom:     0;
@@ -633,7 +633,7 @@ MTextEditStyle#CommonEditorNoteArea {
     background-image: meegotouch-sheet-inputfield-background 15px 15px 15px 15px;
     font: $FONT_FAMILY_LIGHT 26;
     prompt-font: $FONT_FAMILY_LIGHT 26;
-    padding-top: 24;
+    padding-top: 0;
 }
 
 MTextEditStyle#CommonEditorNoteArea:selected {
@@ -645,7 +645,7 @@ MTextEditStyle#CommonEditorNoteAreaInverted {
     font: $FONT_FAMILY_LIGHT 26;
     prompt-font: $FONT_FAMILY_LIGHT 26;
     text-color: $COLOR_INVERTED_FOREGROUND;
-    padding-top: 24;
+    padding-top: 0;
 }
 
 MTextEditStyle#CommonEditorNoteAreaInverted:selected {
