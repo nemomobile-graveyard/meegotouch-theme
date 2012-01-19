@@ -25,7 +25,7 @@ MApplicationMenuStyle {
     maximum-size: 42.7mm 100%;
 
     /* inherited from MWidgetStyle */
-    background-image: meegotouch-menu-background;
+    background-color: #cbcccd;
 
     top-shadow-image: none;
     left-shadow-image: meegotouch-menu-shadow-left 5px 5px 15px 15px;
