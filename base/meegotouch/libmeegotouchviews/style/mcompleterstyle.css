@@ -32,6 +32,29 @@ MCompleterStyle.Landscape {
     maximum-size: 441 $COMPLETER_HEIGHT;
 }
 
+/* Completer's spinner size is set to match visual size of the button.
+   Note that visually the button is much smaller than the widget.
+*/
+@const COMPLETERSPINNERSIZE: 48px;
+
+CompletionCountButton MSpinnerStyle {
+    minimum-size: $COMPLETERSPINNERSIZE $COMPLETERSPINNERSIZE;
+    maximum-size: $COMPLETERSPINNERSIZE $COMPLETERSPINNERSIZE;
+    preferred-size: $COMPLETERSPINNERSIZE $COMPLETERSPINNERSIZE;
+    /* No constant defined for 64px spinner but it does exist
+       and it is closest to the spinner size. */
+    base-image-size: 64px;
+
+    /* Use margins to align spinner with button. */
+    margin-top: 1.8mm;
+    margin-bottom: 0;
+    margin-left: 1.8mm;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
 
 #MCompleterTotalButton {
     font: $FONT_FAMILY normal 2.0mm ;
