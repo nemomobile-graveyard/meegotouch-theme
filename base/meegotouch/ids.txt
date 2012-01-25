@@ -780,7 +780,7 @@ icon-m-common-device-root
 icon-m-common-directory-new-content
 icon-m-common-directory
 icon-m-common-emergency-call
-icon-m-common-error
+icon-m-common-fault
 icon-m-common-favorite-mark
 icon-m-common-favorite-unmark
 icon-m-common-forward
