@@ -1,3 +1,21 @@
+meegotouchtheme (0.26.0-1) unstable; urgency=low
+
+  * New version
+  * Changes: Styling for MCompleter's spinner.
+  * Fixes: NB#296675 - A red rectangle is displayed over the accuweather widget when device is getting full
+  * Changes: Disable horizontal style based clipping for MTextEdit
+  * Changes: Use plain background-color for application menus.
+  * Changes: Zero top margin and y offset for MCompleter
+  * Fixes: NB#267930 - Expand/Collapse button hitarea is very small and not vertically centered.
+  * Fixes: NB#291338 - [TASK] New "drop" feedback needed for launcher's...
+  * Fixes: The landscape sizes for private event banners, full event banners and lock screen event banners were incorrect
+  * Changes: Fix unnecessary long hiding animation of MEditorToolbar
+  * New: Separate auto-hide animation duration attribute for copy-paste widget
+  * Fixes: NB#294800 - In Application view view header name is not displayed.
+  * Fixes: NB#259418 - qtn_msg_error_missing_smsc translation is to long for notification background shee
+
+ -- Adrian Yanes <ext-adrian.yanes@nokia.com>  Wed, 15 Feb 2012 12:43:18 +0200
+
 meegotouchtheme (0.25.1-1) unstable; urgency=low
 
   * New version
