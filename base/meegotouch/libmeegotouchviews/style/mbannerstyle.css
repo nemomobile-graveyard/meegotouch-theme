@@ -40,6 +40,10 @@ MBannerStyle #ShortEventBanner {
 }
 
 #ShortEventBannerIcon {
+    /* Sizes for MBanner + QPixmap */
+     minimum-size: $SIZE_ICON_XSMALL $SIZE_ICON_XSMALL;
+     maximum-size: $SIZE_ICON_XSMALL $SIZE_ICON_XSMALL;
+     preferred-size: $SIZE_ICON_XSMALL $SIZE_ICON_XSMALL;
      margin-top: 0.4mm;
      margin-bottom:0;
      margin-left:0.1mm;
@@ -233,7 +237,6 @@ MBannerStyle #PrivateEventBanner.Portrait {
 /* Event banner at event screen (FullEventBanner) */
 
 MBannerStyle #FullEventBanner {
-    icon-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
     background-image: "meegotouch-fulleventbanner-background" 10px 10px 10px 10px;
 }
 
@@ -254,6 +257,7 @@ MBannerStyle #FullEventBanner.Portrait {
 }
 
 #FullEventBannerIcon {
+    /* Sizes for MBanner + QPixmap */
     maximum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
     minimum-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
     preferred-size: $SIZE_ICON_XLARGE  $SIZE_ICON_XLARGE;
