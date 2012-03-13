@@ -44,7 +44,7 @@ MBannerStyle #ShortEventBanner {
       minimum-size: 20px 20px;
       maximum-size: 20px 20px;
       preferred-size: 20px 20px;
-      margin-top: 0;
+      margin-top: 0.3mm;
       margin-bottom:0;
       margin-left:0.1mm;
       margin-right:0;
@@ -54,7 +54,7 @@ MBannerStyle #ShortEventBanner {
     font: $FONT_XSMALL_BOLD;
     color: $COLOR_INVERTED_FOREGROUND;
 
-    margin-top: 0;
+    margin-top: 0.4mm;
     margin-left:0.1mm;
     margin-right: $MARGIN_LARGE;
     margin-left: $MARGIN_LARGE;
@@ -64,7 +64,7 @@ MBannerStyle #ShortEventBanner {
     font: $FONT_XSMALL_REGULAR;
     color: $COLOR_INVERTED_FOREGROUND;
 
-    margin-top: 0;
+    margin-top: 0.4mm;
     margin-bottom:0;
     margin-left:0.1mm;
     margin-right:0;
