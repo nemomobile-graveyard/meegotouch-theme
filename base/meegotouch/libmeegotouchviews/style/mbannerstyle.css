@@ -56,7 +56,7 @@ MBannerStyle #ShortEventBanner {
 
     margin-top: 0.4mm;
     margin-left:0.1mm;
-    margin-right: $MARGIN_LARGE;
+    margin-right: 0.1mm;
     margin-left: $MARGIN_LARGE;
 }
 
@@ -66,8 +66,8 @@ MBannerStyle #ShortEventBanner {
 
     margin-top: 0.4mm;
     margin-bottom:0;
-    margin-left:0.1mm;
-    margin-right:0;
+    margin-left: $MARGIN_LARGE;
+    margin-right: 0.1mm;
 }
 
 /* System Banner */
