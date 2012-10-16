@@ -4,7 +4,7 @@ Name=Development
 Encoding=UTF-8
 
 [X-MeeGoTouch-Metatheme]
-X-Visible=true
+X-Visible=false
 X-Icon="icon-l-meegotouchtheme-devel"
 X-Libraries=meegotouchviews
 
