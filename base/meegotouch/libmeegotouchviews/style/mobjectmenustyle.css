@@ -3,7 +3,7 @@
 MObjectMenuStyle {
 
     /* inherited from MWidgetStyle */
-    minimum-size: 42.7mm 80%;
+    minimum-size: 30mm 100%;
     preferred-size: 42.7mm 100%;
     maximum-size: 42.7mm 100%;
 
@@ -16,7 +16,7 @@ MObjectMenuStyle {
     title-label-style-name: "CommonSingleTitle";
     title-separator-style-name: "ObjectMenuTitleSeparator";
 
-    margin-left: 42.7mm;
+    margin-left: 37.3mm;
 
     background-image: meegotouch-menu-background;
 
