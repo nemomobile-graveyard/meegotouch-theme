@@ -176,3 +176,9 @@ MButtonStyle#ToolBarLabelOnlyCommonButtonInverted:disabled {
     content-opacity: 0.3;
 }
 
+MTextEditStyle[toolbar] {
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
